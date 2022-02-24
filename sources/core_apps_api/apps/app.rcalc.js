@@ -347,6 +347,18 @@ let rcalc = {
     //3 Funções Cartesianas
     funcoes: {
 
+      //e F. Cartesiana Primeiro Grau
+      primeiroGrau: (exp = '') => { let res = 0, verif = /([0-9]+(\.[0-9]+)?x((\-)?(\+)?)[0-9]+(\.[0-9]+)?=[0-9]+(\.[0-9]+)?)/gi, p1 = /([0-9]+(\.[0-9]+)?x)/gi, p2 = /(((\-)?(\+)?)[0-9]+(\.[0-9]+)?)/gi, p3 = /(=[0-9]+(\.[0-9]+)?)/gi; if (exp.match(verif) == null) { return console.error("A expressão inserida não é uma função do 1º Grau!"); } else { res = (parseFloat(exp.match(p2)) - parseFloat(exp.match(p3))) / parseFloat(exp.match(p1)); } return res; },
+
+      //e F. Cartesiana Segundo Grau
+      segundoGrau: (a = 0, b = 0, c = 0) => { let res = 0, delta = (b ** 2) - (4 * a * c), x1 = (-1 * b + Math.sqrt(delta)) / (2 * a), x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); res = [x1, x2]; return res; },
+
+      //e F. Cartesiana Terceiro Grau
+      terceiroGrau: (a = 0, b = 0, c = 0) => { let res = 0, delta = (b ** 2) - (4 * a * c), x1 = (-1 * b + Math.sqrt(delta)) / (2 * a), x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); res = [x1, x2, 0]; return res; },
+
+      //e F. Cartesiana Quarto Grau
+      quartoGrau: (a = 0, b = 0, c = 0) => { let res = 0, delta = (b ** 2) - (4 * a * c), x1 = (-1 * b + Math.sqrt(delta)) / (2 * a), x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); res = [x1, -1 * x1, x2, -1 * x2]; return res; },
+
     },
 
     //3 Funções Formulacionais

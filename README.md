@@ -4,3 +4,6 @@
 
 dpass + unote + rcalc + wcube + xcolors + xryzen + karzok + ksans + kxsw + sgmp + yimage + blockify modulizer selements + actions + styrim + eclypsus + core langs + vscodeapi + sublimeapi + windowsapi + linuxapi + securityapi + transcopilationapi
 
+## Schema Design
+
+![Wertsfy Schema](https://user-images.githubusercontent.com/59739253/155431744-48441754-a319-4c6a-9108-ca1195f3e323.png)

@@ -636,8 +636,9 @@ let wertsfy = {
             return Math.PI * (raio ** 2) * (altura / 3); 
           },
 
-          //n areaPoligonoDe5Lados: (comp = 0, larg = 0) => { return comp == larg ? 5 * ((comp * comp * Math.sqrt(3)) / 4) : 5 * (comp * larg / 2); },
-          areaDeUmPoligonoQualquer: () => { },
+          areaDeUmPoligonoQualquer: (comp = 0, larg = 0, nLados=0) => {
+            return comp == larg ? nLados * ((comp * comp * Math.sqrt(3)) / 4) : nLados * (comp * larg / 2);
+          },
 
           areaDeUmTrapezioQualquer: (ladoMenor = 0, ladoMaior = 0, altura = 0) => { 
             return ((ladoMaior + ladoMenor) * altura) / 2; 
@@ -651,8 +652,985 @@ let wertsfy = {
             return (diagonalMaior * diagonalMenor) / 2; 
           },
 
-          //n areaLateralDeUmPrismaDe3LadosQualquer: (comp = 0, larg = 0) => { return 3 * (comp * larg); },
-          areaLateralDeUmPrismaQualquer: () => { }
+          areaLateralDeUmPrismaQualquer: (comp = 0, larg = 0, nLados=0) => {
+            return nLados * (comp * larg);
+          },
+
+          formulaDeGirard: (expressao = "") => {
+            let resultado = [], valores = [];
+            let verificacao = /(([0-9]+(\.[0-9]+)?)([a-zA-Z])?([0-9])?)((\+)?(\-)?)/gi;
+            let pegaTermosComIcognita = /([0-9]+(\.[0-9]+)?)([a-zA-Z])/gi;
+            let pegaTergosSemIcognita = /([0-9]+(\.[0-9]+)?)(\=)/gi;
+            let valoresConvertidos = [];
+
+            if (verificacao == null) { return console.error("Expressão Adicionada é Inválida ou está incorreta!"); }
+
+            valores.push(expressao.match(pegaTermosComIcognita), expressao.match(pegaTergosSemIcognita).toString());
+
+            for (let i = 0; i < valores[0].length; i++) {
+              valores[0][i] = parseFloat(valores[0][i]);
+              valoresConvertidos.push(valores[0][i]);
+            }
+
+            valores[1] = parseFloat(valores[1]);
+            valoresConvertidos.push(valores[1]);
+
+            for (let i = 1; i <= valoresConvertidos.length - 1; i++) {
+              let verificadorSinal = i % 2;
+
+              if (verificadorSinal == 0) { resultado.push(valoresConvertidos[i] / valoresConvertidos[0]); }
+
+              if (verificadorSinal == 1) { resultado.push(-1 * (valoresConvertidos[i] / valoresConvertidos[0])); }
+            }
+
+            return resultado;
+          },
+
+          calculoDoTeoremaDeTalesDeMileto: (valorMultiplicadoPorX = 0, valorNormal = 0) => {
+            let resultado = valorNormal / valorMultiplicadoPorX;
+
+            return resultado;
+          },
+
+          calculoDoTeoremaDePitagoras: (a = 0, b = 0) => {
+            let resultado = Math.sqrt(((a ** 2) + (b ** 2)));
+
+            return resultado;
+          },
+
+          calculoDaRelacaoPitagoricaT1: (m = 0, n = 0) => {
+            let resultado = Math.sqrt(m * n);
+
+            return resultado;
+          },
+
+          calculoDaRelacaoPitagoricaT2: (a = 0, n = 0) => {
+            let resultado = Math.sqrt(a * n);
+
+            return resultado;
+          },
+
+          calculoDaRelacaoPitagoricaT3: (h = 0, b = 0, c = 0) => {
+            let resultado = (b * c) / h;
+
+            return resultado;
+          },
+
+          calculoDoBinomioDeNewton: (valor = 0) =>{
+            //Y #414E55 MEXER AQUI!
+            let resultado = [];
+
+            let counter = 25;
+
+            switch(counter) {
+              case 0: resultado = [ valor ]; break;
+
+              case 1: resultado = [ valor, valor ]; break;
+
+              case 2: resultado = [ valor, valor+valor, valor ]; break;
+
+              case 3: resultado = [ valor, resultado[1]+valor, resultado[1]+valor, valor ]; break;
+            }
+                                      //? mexer aqui dps
+          
+          }, 
+
+          calculoDoFatorial: (valor = 0) => {
+            let resultado = 1;
+
+            for (let i = valor; i > 0; i--) { resultado = i * resultado; };
+
+            return resultado; 
+          },
+
+          calculoDaCombinacao: (total = 0, divisor = 0) => {
+            let resultado = 0;
+
+            let totalConvertido = 1, divisorConvertido = 1;
+
+            for (let i = total; i > 0; i--) {
+              totalConvertido = totalConvertido * i;
+            }
+
+            for (let j = divisor; j > 0; j--) {
+              divisorConvertido = divisorConvertido * j;
+            }
+
+            resultado = totalConvertido / (divisorConvertido * (totalConvertido - divisorConvertido));
+
+            return resultado;
+          },
+
+          calculoDoArranjo: (total = 0, divisor = 0) => {
+            let resultado = 0;
+
+            let totalConvertido = 1, divisorConvertido = 1;
+
+
+            for (let i = total; i > 0; i--) {
+              totalConvertido = totalConvertido * i;
+            }
+
+            for (let j = divisor; j > 0; j--) {
+              divisorConvertido = divisorConvertido * j;
+            }
+
+            resultado = totalConvertido / (totalConvertido - divisorConvertido);
+
+            return resultado;
+          },
+
+          calculoDaProbabilidade: (valor = 0, valorTotal = 0) => {
+            let resultado = valor / valorTotal;
+
+            return resultado;
+          },
+
+          calculoDeUmaProgressaoAritmetica: () => {
+            let resultado = 0;
+          }, //Y #414E55 MEXER AQUI!
+
+          calculoDeUmaProgressaoGeometrica: () => {
+            let resultado = 0;
+          }, //Y #414E55 MEXER AQUI!
+
+          calculoDoConjugadoDeUmNumeroComplexo: (expressao = "") => {
+            let resultado = 0, verificaSinal = /^(\-)/gi;
+
+            if (verificaSinal != null) { expressao.replace("-", ''); }
+
+            resultado = expressao;
+
+            return resultado;
+          },
+
+          calculoDaRelacaoDeEuler: (vertices = 0, arestas = 0, faces = 0) => {
+            let resultado = (vertices - (arestas + faces)) - 2;
+
+            return resultado;
+          },
+
+          calculoDasPotenciasDeI: (valor = 0) => {
+            let resultado = '', divisor = valor % 4;
+
+            if (divisor == 0) { resultado = 'i'; }
+
+            if (divisor == 1) { resultado = '-1'; }
+
+            if (divisor == 2) { resultado = '-i'; }
+
+            if (divisor == 3) { resultado = '1'; }
+
+            return resultado;
+          },
+
+          calculoDaPorcentagem: (valorParte = 0, valorTotal = 0) => {
+            let resultado = valorParte / valorTotal;
+
+            return resultado;
+          },
+
+          calculoDaDeterminante2x2: (a00 = 0, a01 = 0, a10 = 0, a11 = 0) => {
+            let resultado = 0, vetorPrimario = a00 * a11, vetorSecundario = a01 * a10;
+
+            resultado = vetorPrimario - vetorSecundario;
+
+            return resultado;
+          },
+
+          calculoDaDeterminante3x3: (a00 = 0, a01 = 0, a02 = 0, a10 = 0, a11 = 0, a12 = 0, a20 = 0, a21 = 0, a22 = 0) => {
+            let resultado = 0;
+
+            // 00 01 02  00 01
+            // 10 11 12  10 11
+            // 20 21 22  20 21
+
+            let vetorPrincipal1 = a00 * a11 * a22, vetorPrincipal2 = a01 * a12 * a20, vetorPrincipal3 = a02 * a10 * a21;
+
+            let vetorSecundario1 = a02 * a11 * a20, vetorSecundario2 = a00 * a12 * a21, vetorSecundario3 = a01 * a10 * a22;
+
+            resultado = (vetorPrincipal1 + vetorPrincipal2 + vetorPrincipal3) - (vetorSecundario1 + vetorSecundario2 + vetorSecundario3);
+
+            return resultado;
+          },
+
+          calculoDaVelocidade: (espaco = 0, tempo = 0) => {
+            let resultado = espaco / tempo;
+
+            return resultado;
+          },
+
+          calculoDoEspaco: (velocidade = 0, tempo = 0) => {
+            let resultado = velocidade * tempo;
+
+            return resultado;
+          },
+
+          calculoDoTempo: (velocidade = 0, espaco = 0) => {
+            let resultado = espaco / velocidade;
+
+            return resultado;
+          },
+
+          calculoDaAceleracao: (velocidade = 0, tempo = 0) => {
+            let resultado = velocidade / tempo;
+
+            return resultado;
+          },
+
+          calculoDaEqHorariaDoTempo: (tempo = 0, tempoInicial = 0, velocidade = 0, aceleracao = 0) => {
+            let resultado = tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2));
+
+            return resultado;
+          },
+
+          calculoDaEqHorariaDoEspaco: (espaco = 0, espacoInicial = 0, aceleracao = 0) => {
+            let resultado = espacoInicial + aceleracao * espaco;
+
+            return resultado;
+          },
+
+          calculoDaEnergiaCinetica: (massa = 0, velocidade = 0) => {
+            let resultado = (massa * velocidade ** 2) / 2;
+
+            return resultado;
+          },
+
+          calculoDaEnergiaPotencialElastica: (constanteElastica = 0, distancia = 0) => {
+            let resultado = (constanteElastica * distancia ** 2) / 2;
+
+            return resultado;
+          },
+
+          calculoDaEnergiaPotencialGravitacional: (massa = 0, gravidade = 0, altura = 0) => {
+            let resultado = massa * gravidade * altura;
+
+            return resultado;
+          },
+
+          calculoDoPotencialMecanico: (velocidade = 0, constanteElastica = 0, distancia = 0, massa = 0, gravidade = 0, altura = 0, energPotElas = true, energPotGrav = true) => {
+            let resultado = 0;
+
+            if (energPotElas == true) { resultado = this.calculoDaEnergiaCinetica(massa, velocidade) + this.calculoDaEnergiaPotencialElastica(constanteElastica, distancia); }
+
+            if (energPotGrav == true) { resultado = this.calculoDaEnergiaCinetica(massa, velocidade) + this.calculoDaEnergiaPotencialGravitacional(massa, gravidade, altura); }
+
+            return resultado;
+          },
+
+          calculoDoPotencialElastico: (constanteElastica = 0, distancia = 0) => {
+            let resultado = this.calculoDaEnergiaPotencialElastica(constanteElastica, distancia);
+
+            return resultado;
+          },
+
+          calculoDoPlanoInclinadoSemAtrito: (massa = 0, gravidade = 0) => {
+            let resultado = massa * gravidade;
+
+            return resultado;
+          },
+
+          calculoDoPlanoInclinadoComAtrito: (forcaDeAtrito = 0, massa = 0, gravidade = 0, angulo = 0) => {
+            let resultado = forcaDeAtrito * massa * gravidade * angulo;
+
+            return resultado;
+          },
+
+          calculoDaAceleracaoNoPlanoInclinadoEixoX: (massa = 0, gravidade = 0, angulo = 0) => {
+            let resultado = massa * gravidade * Math.sin(angulo);
+
+            return resultado;
+          },
+
+          calculoDaAceleracaoNoPlanoInclinadoEixoY: (massa = 0, gravidade = 0, angulo = 0) => {
+            let resultado = massa * gravidade * Math.cos(angulo);
+
+            return resultado;
+          },
+
+          calculoDoLancamentoHorizontal: (gravidade = 0, tempo = 0) => {
+            let resultado = (gravidade * tempo ** 2) / 2;
+
+            return resultado;
+          },
+
+          calculoDaEquacaoDeTorricelli: (velocidadeInicial = 0, aceleracao = 0, espacoInicial = 0, espacoFinal = 0) => {
+            let resultado = Math.sqrt((velocidadeInicial ** 2) + 2 * aceleracao * (espacoFinal - espacoInicial));
+
+            return resultado;
+          },
+
+          calculoDaAlturaMaximaDeUmLancamentoVertical: (velocidadeInicial = 0, gravidade = 0, angulo = 0) => {
+            let resultado = (velocidadeInicial ** 2) * ((Math.sin(angulo) ** 2) / 2) * gravidade;
+
+            return resultado;
+          },
+
+          calculoDoAlcanceDeUmLancamentoVertical: (velocidade = 0, tempo = 0, angulo = 0) => {
+            let resultado = velocidade * Math.cos(angulo) * tempo;
+
+            return resultado;
+          },
+
+          calculoDoAlcanceMaximoDeUmLancamentoVertical: (velocidade = 0, tempo = 0, gravidade = 0) => {
+            let resultado = (velocidade ** 2 * (Math.sin(angulo) ** 2)) / gravidade;
+
+            return resultado;
+          },
+
+          calculoDoCalorSensivel: (massa = 0, calorEspecifico = 0, temperaturaInicial = 0, temperaturaFinal = 0) => {
+            let resultado = massa * calorEspecifico * (temperaturaFinal - temperaturaInicial);
+
+            return resultado;
+          },
+
+          calculoDoCalorLatente: (quantidadeDeCalor = 0, massa = 0) => {
+            let resultado = quantidadeDeCalor / massa;
+
+            return resultado;
+          },
+
+          calculoDasLeisDeNewton: (massa = 0, aceleracao = 0) => {
+            let resultado = massa * aceleracao;
+
+            return resultado;
+          },
+
+          calculoDoTrabalho: (massa = 0, gravidade = 0, altura = 0) => {
+            let resultado = massa * gravidade * altura;
+
+            return resultado;
+          },
+
+          calculoDoConsumoDeEnergia: (tempo = 0, correnteEletrica = 0, ddp = 0) => {
+            let resultado = correnteEletrica * ddp * tempo;
+
+            return resultado;
+          },
+
+          calculoDoTeoremaDePascal: (forca1 = 0, forca2 = 0, area1 = 0, area2 = 0, forca1Inexistente = true, forca2Inexistente = true, area1Inexistente = true, area2Inexistente = true) => {
+            let resultado = 0;
+
+            if (forca1Inexistente == true) { resultado = (area1 * forca2) / area2; }
+
+            if (forca2Inexistente == true) { resultado = (area2 * forca1) / area1; }
+
+            if (area1Inexistente == true) { resultado = (forca1 * area2) / forca2; }
+
+            if (area2Inexistente == true) { resultado = (forca2 * area1) / forca1; }
+
+            return resultado;
+          },
+
+          calculoDoTeoremaDeStevin: (densidade = 0, gravidade = 0, alturaInicial = 0, alturaFinal = 0) => {
+            let resultado = densidade * gravidade * (alturaFinal - alturaInicial);
+
+            return resultado;
+          },
+
+          calculoDaForcaGravitacional: (gravidade = 0, massaPlaneta = 0, distancia = 0) => {
+            let resultado = gravidade * (massaPlaneta / distancia ** 2);
+
+            return resultado;
+          },
+
+          calculoDoAceleracaoCentripetaMovimentoCircularUniforme: (velocidade = 0, raio = 0) => {
+            let resultado = (velocidade ** 2) / raio;
+
+            return resultado;
+          },
+
+          calculoDoVelocidadeAngularMovimentoCircularUniforme: (anguloInicial = 0, anguloFinal = 0, tempoInicial = 0, tempoFinal = 0) => {
+            let resultado = (anguloFinal - anguloInicial) / (anguloFinal - anguloInicial);
+
+            return resultado;
+          },
+
+          calculoDoVelocidadeLinearMovimentoCircularUniforme: (frequencia = 0, raio = 0) => {
+            let resultado = (2 * Math.PI * frequencia) * raio;
+
+            return resultado;
+          },
+
+          calculoDaEquacaoHorariaDoTempoMovimentoCircularUnifVariado: (velocidadeAngularInicial = 0, aceleracaoAngular = 0, tempo = 0) => {
+            let resultado = velocidadeAngularInicial + aceleracaoAngular * tempo;
+
+            return resultado;
+          },
+
+          calculoDaEquacaoHorariaDoEspacoMovimentoCircularUnifVariado: (posicaoAngularInicial = 0, velocidadeAngularInicial = 0, aceleracaoAngular = 0, tempo = 0) => {
+            let resultado = posicaoAngularInicial + (velocidadeAngularInicial * tempo) + (aceleracaoAngular * tempo ** 2) / 2;
+
+            return resultado;
+          },
+
+          calculoDeToricelliMovimentoCircularUnifVariado: (velocidadeAngularInicial = 0, aceleracaoAngular = 0, deslocamentoAngularInicial = 0, deslocamentoAngularFinal = 0) => {
+            let resultado = Math.sqrt(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngularFinal - deslocamentoAngularInicial));
+
+            return resultado;
+          },
+
+          calculoDaAceleracaoAngularMovimentoCircularUnifVariado: (velocidadeAngularInicial = 0, velocidadeAngularFinal = 0, tempoInicial = 0, tempoFinal = 0) => {
+            let resultado = (velocidadeAngularFinal - velocidadeAngularInicial) / (tempoFinal - tempoInicial);
+
+            return resultado;
+          },
+
+          calculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples: (velocidadeAngular = 0, amplitude = 0, tempo = 0, faseInicial = 0) => {
+            let resultado = velocidadeAngular * amplitude * Math.cos(tempo + faseInicial);
+
+            return resultado;
+          },
+
+          calculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples: (velocidadeAngular = 0, amplitude = 0, tempo = 0, faseInicial = 0) => {
+            let resultado = -1 * velocidadeAngular * amplitude * Math.sin(tempo + faseInicial);
+
+            return resultado;
+          },
+
+          calculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples: (velocidadeAngular = 0, amplitude = 0, tempo = 0, faseInicial = 0) => {
+            let resultado = -1 * velocidadeAngular ** 2 * amplitude * Math.cos(tempo + faseInicial);
+
+            return resultado;
+          },
+
+          calculoDoPeriodo: (frequencia = 0) => {
+            let resultado = 1 / frequencia;
+
+            return resultado;
+          },
+
+          calculoDaFrequencia: (periodo = 0) => {
+            let resultado = 1 / periodo;
+
+            return resultado;
+          },
+          
+          calculoDaTemperatura: (valor = 0, deCelsiusParaKelvin = true, deCelsiusParaFahrenheit = true, deKelvinParaCelsius = true, deKelvinParaFahrenheit = true, deFahrenheitParaKelvin = true, deFahrenheitParaCelsius = true) => {
+            let resultado = 0;
+
+            if (deCelsiusParaFahrenheit == true) { resultado = (1.8 * valor) + 32; }
+
+            if (deCelsiusParaKelvin == true) { resultado = valor - 273; }
+
+            if (deFahrenheitParaCelsius == true) { resultado = (valor - 32) / 1.8; }
+
+            if (deFahrenheitParaKelvin == true) { resultado = ((valor - 32) * 5) / 9 + 273; }
+
+            if (deKelvinParaCelsius == true) { resultado = valor + 273; }
+
+            if (deKelvinParaFahrenheit == true) { resultado = (valor - 273) * 1.8 + 32; }
+
+            return resultado;
+          },
+
+          calculoDaDilatacaoLinear: (comprimentoInicial = 0, coeficienteDeDilatacaoLinear = 0, temperaturaInicial = 0, temperaturaFinal = 0) => {
+            let resultado = comprimentoInicial * coeficienteDeDilatacaoLinear * (temperaturaFinal - temperaturaInicial);
+
+            return resultado;
+          },
+
+          calculoDaDilatacaoSuperficial: (areaInicial = 0, coeficienteDeDilatacaoSuperficial = 0, temperaturaInicial = 0, temperaturaFinal = 0) => {
+            let resultado = areaInicial * coeficienteDeDilatacaoSuperficial * (temperaturaFinal - temperaturaInicial);
+
+            return resultado;
+          },
+
+          calculoDaDilatacaoVolumetrica: (volumeInicial = 0, coeficienteDeDilatacaoVolumetrica = 0, temperaturaInicial = 0, temperaturaFinal = 0) => {
+            let resultado = volumeInicial * coeficienteDeDilatacaoVolumetrica * (temperaturaFinal - temperaturaInicial);
+
+            return resultado;
+          },
+
+          calculoDoPrincipioFundamentalDaHidroestaticaHidrodinamica: (densidade = 0, gravidade = 0, alturaInicial = 0, alturaFinal = 0) => {
+            let resultado = densidade * gravidade * (alturaFinal - alturaInicial);
+
+            return resultado;
+          },
+
+          calculoDoEmpuxoDaHidroestaticaHidrodinamica: (densidade = 0, gravidade = 0, volume = 0) => {
+            let resultado = densidade * gravidade * volume;
+
+            return resultado;
+          },
+
+          calculoDoPesoAparenteDaHidroestaticaHidrodinamica: (peso = 0, densidade = 0, gravidade = 0, volume = 0) => {
+            let resultado = peso - this.calculoDoEmpuxoDaHidroestatica(densidade, gravidade, volume);
+
+            return resultado;
+          },
+
+          calculoDoAtrito: (coeficienteDeAtrito = 0, massa = 0) => {
+            let resultado = coeficienteDeAtrito * massa;
+
+            return resultado;
+          },
+
+          calculoDaLeiDeCoulomb: (carga1 = 0, carga2 = 0, distancia = 0) => {
+            let resultado = (9 * 10 ** 9) * (carga1 * carga2 / distancia ** 2);
+
+            return resultado;
+          },
+
+          calculoDaLeiDeOhm: (resistencia = 0, corrente = 0) => {
+            let resultado = resistencia * corrente;
+
+            return resultado;
+          },
+
+          calculoDoEfeitoJoule: (corrente = 0, resistencia = 0, tempo = 0) => {
+            let resultado = (corrente ** 2) * resistencia * tempo;
+
+            return resultado;
+          },
+
+          calculoDaLeiDeLenz: (intensidadeDoCampoMagnetico = 0, areaDaSuperficie = 0, cosAngulo = 0) => {
+            let resultado = intensidadeDoCampoMagnetico * areaDaSuperficie * Math.cos(cosAngulo);
+
+            return resultado;
+          },
+
+          calculoDaForcaEletromotriz: (potenciaTotalGerador = 0, intensidadeDaCorrente = 0) => {
+            let resultado = potenciaTotalGerador / intensidadeDaCorrente;
+
+            return resultado;
+          },
+
+          calculoDaContraForcaEletromotriz: (potenciaTotalGerador = 0, intensidadeDaCorrente = 0) => {
+            let resultado = -1 * this.calculoDaForcaEletromotriz;
+
+            return resultado;
+          },
+
+          calculoDoEfeitoFotoeletrico: (frequenciaDaLuz = 0) => {
+            let resultado = (6.662 * 10 ** -34) * frequenciaDaLuz;
+
+            return resultado;
+          },
+
+          calculoDaDensidade: (massa = 0, volume = 0) => {
+            let resultado = massa / volume;
+
+            return resultado;
+          },
+
+          calculoDaTitulacao: (massaBase = 0, massaAcido = 0, volumeBase = 0, volumeAcido = 0, naoTemMassaBase = true, naoTemMassaAcido = true, naoTemVolumeBase = true, naoTemVolumeAcido = true) => {
+            let resultado = 0;
+
+            if (naoTemMassaAcido == true) { resultado = massaBase * volumeBase / volumeAcido; }
+            
+            if (naoTemMassaBase == true) { resultado = massaAcido * volumeAcido / volumeBase; }
+            
+            if (naoTemVolumeAcido == true) { resultado = massaBase * volumeBase / massaAcido; }
+            
+            if (naoTemVolumeBase == true) { resultado = massaAcido * volumeAcido / massaBase; }
+            
+            return resultado;
+          },
+
+          calculoDaConcentracao: (massaSoluto = 0, volume = 0) => {
+            let resultado = massaSoluto / volume;
+
+            return resultado;
+          },
+
+          calculoDoRendimento: (valorParte = 0, valorTotal = 0) => {
+            let resultado = this.calculoDaPorcentagem(valorParte, valorTotal);
+
+            return resultado;
+          },
+
+          calculoDaLeiGeralDosGases: (pressao1 = 0, pressao2 = 0, volume1 = 0, volume2 = 0, temperatura1 = 0, temperatura2 = 0) => {
+            let verificacao = /([a-zA-Z])/gi;
+            let resultado = 0;
+
+            if (pressao1.match(verificacao) != null) { resultado = (volume1 * temperatura2) / (pressao2 * volume2 * temperatura1); }
+
+            if (pressao2.match(verificacao) != null) { resultado = (pressao1 * volume1 * temperatura2) / (volume2 * temperatura1); }
+
+            if (volume1.match(verificacao) != null) { resultado = (pressao1 * temperatura2) / (pressao2 * volume2 * temperatura1); }
+
+            if (volume2.match(verificacao) != null) { resultado = (pressao1 * volume1 * temperatura2) / (pressao2 * temperatura1); }
+
+            if (temperatura1.match(verificacao) != null) { resultado = (pressao1 * volume1 * temperatura2) / (pressao2 * volume2); }
+
+            if (temperatura2.match(verificacao) != null) { resultado = (pressao1 * volume1) / (pressao2 * volume2 * temperatura1); }
+            
+            return resultado;
+          },
+
+          calculoDaEscalaGeografica: (tamanhoReal = 0, tamanhoFicticio = 0) => {
+            let resultado = tamanhoReal / tamanhoFicticio;
+
+            return resultado;
+          },
+
+          calculoDeIDH: (saude = 0, educacao = 0, renda = 0, populacao = 0, ppc = 0) => {
+            resultado = (saude + educacao + renda) / (populacao + ppc);
+
+            return resultado;
+          },
+
+          calculoDeGINI: (pnb = 0, populacao = 0) => {
+            resultado = pnb / populacao;
+
+            return resultado;
+          },
+
+          calculoDeIMC: (peso = 0, altura = 0) => {
+            resultado = peso / altura ** 2;
+
+            return resultado;
+          },
+
+          calculoDeDensidadePopulacional: (espaco = 0, populacao = 0) => {
+            resultado = espaco / populacao;
+
+            return resultado;
+          },
+
+          sistemaDeEquacoes: (expressao1 = '', expressao2 = '') => {
+            let resultado = 0, verificacao = /((\-)?([0-9]+)(\.[0-9]+)?[x])(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])((\=)(\-)?([0-9]+)(\.[0-9]+)?)/gi;
+
+            if (expressao1.match(verificacao) == null || expressao2.match(verificacao) == null) { return console.error("A expressão inserida não é válida"); }
+
+            let pegaParteA = /((\-)?([0-9]+)(\.[0-9]+)?[x])/gi,
+              pegaParteB = /(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])/gi,
+              pegaParteC = /((\-)?([0-9]+)(\.[0-9]+)?)/gi;
+
+            let parteA = parseFloat(expressao1.match(pegaParteA)) + parseFloat(expressao2.match(pegaParteA)),
+              parteB = parseFloat(expressao1.match(pegaParteB)) + parseFloat(expressao2.match(pegaParteB)),
+              parteC = parseFloat(expressao1.match(pegaParteC)) + parseFloat(expressao2.match(pegaParteC));
+
+            resultado = `${parteA}x${parteB}y=${parteC}`;
+
+            if (parteB > 0) { resultado = `${parteA}x+${parteB}y=${parteC}`; }
+
+            return resultado;
+          },
+
+          sistemaDeInequacoes: (expressao1 = '', expressao2 = '') => {
+            let resultado = 0, verificacao = /((\-)?([0-9]+)(\.[0-9]+)?[x])(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])((\<\=)?(\>\=)?(\<)?(\>)?(\-)?([0-9]+)(\.[0-9]+)?)/gi;
+
+            if (expressao1.match(verificacao) == null || expressao2.match(verificacao) == null) { return console.error("A expressão inserida não é válida"); }
+
+            let pegaParteA = /((\-)?([0-9]+)(\.[0-9]+)?[x])/gi,
+              pegaParteB = /(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])/gi,
+              pegaParteC = /((\-)?([0-9]+)(\.[0-9]+)?)/gi;
+
+            let parteA = parseFloat(expressao1.match(pegaParteA)) + parseFloat(expressao2.match(pegaParteA)),
+              parteB = parseFloat(expressao1.match(pegaParteB)) + parseFloat(expressao2.match(pegaParteB)),
+              parteC = parseFloat(expressao1.match(pegaParteC)) + parseFloat(expressao2.match(pegaParteC));
+
+            resultado = `${parteA}x${parteB}y=${parteC}`;
+
+            if (parteB > 0) { resultado = `${parteA}x+${parteB}y=${parteC}`; }
+
+            if (parteA < parteC && parteB < parteC) { resultado = `${parteA}x+${parteB}y<${parteC}`; }
+            if (parteA > parteC && parteB > parteC) { resultado = `${parteA}x+${parteB}y>${parteC}`; }
+            if (parteA > parteC && parteB > parteC && parteB - parteA > parteC) { resultado = `${parteA}x+${parteB}y>${parteC}`; }
+            if (parteA > parteC && parteB > parteC && parteB - parteA < parteC) { resultado = `${parteA}x+${parteB}y<${parteC}`; }
+
+            return resultado;
+          },
+
+          sistemasLineares: (expressoes = []) => {
+            let resultado = [], expressaoPartida = [], verificacao = /(((\+)?(\-)?(\=)?)?(\-)?([0-9]+)(\.[0-9]+)?([a-z])?)/gi,
+              verificacao2 = /(((\+)?(\-)?)?(\-)?([0-9]+)(\.[0-9]+)?([a-z])?)/gi;
+
+            let somatorio = [], aux = 0, calculo = 0;
+
+            for (let i = 0; i < expressoes.length; i++) {
+              if (expressoes[i].match(verificacao) == null) { return console.error("A expressão inserida não é válida!"); }
+              expressaoPartida.push(expressoes[i].match(verificacao2));
+            }
+
+            for (let i = 0; i < expressaoPartida.length; i++) {
+              for (let h = 0; h < expressaoPartida[i].length; h++) {
+                expressaoPartida[i][h] = parseFloat(expressaoPartida[i][h]);
+              }
+            }
+
+            for (let u = 0; u < expressaoPartida.length; u++) {
+              for (let v = 0; v < u; v++) {
+
+              }
+            }
+
+            let x = 0;
+
+            while (x != expressaoPartida[0].length) {
+
+              for (let w = 0; w < expressaoPartida.length; w++) {
+                calculo = calculo + expressaoPartida[w][x];
+              }
+
+              somatorio.push(calculo);
+              x++;
+            }
+
+            for (let q = 1; q < somatorio.length; q++) {
+              if (q % 2 == 0) { resultado.push(somatorio[q] / somatorio[0]); }
+
+              if (q % 2 == 1) { resultado.push((-1 * somatorio[q]) / somatorio[0]); }
+            }
+
+            return resultado;
+          },
+
+          somaNumerosComplexos: (valores = [""]) => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            let resultado = "";
+            let resultadoPartImaginarias = 0;
+            let resultadoPartImaginariasPuras = 0;
+            let partesImaginarias = [];
+            let partesImaginariasPuras = [];
+
+            for (let i = 0; i < valores.length; i++) {
+              if (valores[i].match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+              partesImaginarias.push(valores[i].match(separadorT1).toString());
+              partesImaginariasPuras.push(valores[i].match(separadorT2).toString());
+            }
+
+            for (let i = 0; i < partesImaginarias.length; i++) {
+              resultadoPartImaginarias = resultadoPartImaginarias + parseFloat(partesImaginarias[i]);
+            }
+
+            for (let i = 0; i < partesImaginariasPuras.length; i++) {
+              resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
+            }
+
+            if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras > 0) { resultado = `${resultadoPartImaginarias}+${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras > 0) { resultado = `${resultadoPartImaginarias}+${resultadoPartImaginariasPuras}i`; }
+
+            return resultado;
+          },
+
+          subtracaoNumerosComplexos: (valorTotal = "", valores = [""]) => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            let resultado = "";
+            let valorTotalPartImaginarias = 0;
+            let valorTotalPartImaginariasPuras = 0;
+            let resultadoPartImaginarias = 0;
+            let resultadoPartImaginariasPuras = 0;
+            let resultadoParcImaginario = 0;
+            let resultadoParcImaginarioPuro = 0;
+            let partesImaginarias = [];
+            let partesImaginariasPuras = [];
+
+            for (let i = 0; i < valores.length; i++) {
+              if (valores[i].match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+              partesImaginarias.push(valores[i].match(separadorT1).toString());
+              partesImaginariasPuras.push(valores[i].match(separadorT2).toString());
+            }
+
+            if (valorTotal.match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+            valorTotalPartImaginarias = valorTotal.match(separadorT1).toString();
+            valorTotalPartImaginariasPuras = valorTotal.match(separadorT2).toString();
+
+            for (let i = 0; i < partesImaginarias.length; i++) {
+              resultadoPartImaginarias = resultadoPartImaginarias + parseFloat(partesImaginarias[i]);
+            }
+
+            for (let i = 0; i < partesImaginariasPuras.length; i++) {
+              resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
+            }
+
+            resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) - resultadoPartImaginarias;
+            resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) - resultadoPartImaginariasPuras;
+
+            if (resultadoParcImaginario < 0 && resultadoParcImaginarioPuro < 0) { resultado = `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario > 0 && resultadoParcImaginarioPuro < 0) { resultado = `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario < 0 && resultadoParcImaginarioPuro > 0) { resultado = `${resultadoParcImaginario}+${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario > 0 && resultadoParcImaginarioPuro > 0) { resultado = `${resultadoParcImaginario}+${resultadoParcImaginarioPuro}i`; }
+
+            return resultado;
+          },
+
+          multiplicacaoNumerosComplexos: (valores = [""]) => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            let resultado = "";
+            let resultadoPartImaginarias = 1;
+            let resultadoPartImaginariasPuras = 1;
+            let partesImaginarias = [];
+            let partesImaginariasPuras = [];
+
+            for (let i = 0; i < valores.length; i++) {
+              if (valores[i].match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+              partesImaginarias.push(valores[i].match(separadorT1).toString());
+              partesImaginariasPuras.push(valores[i].match(separadorT2).toString());
+            }
+
+            for (let i = 0; i < partesImaginarias.length; i++) {
+              resultadoPartImaginarias = resultadoPartImaginarias * parseFloat(partesImaginarias[i]);
+            }
+
+            for (let i = 0; i < partesImaginariasPuras.length; i++) {
+              resultadoPartImaginariasPuras = resultadoPartImaginariasPuras * parseFloat(partesImaginariasPuras[i]);
+            }
+
+            if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras > 0) { resultado = `${resultadoPartImaginarias}+${resultadoPartImaginariasPuras}i`; }
+            if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras > 0) { resultado = `${resultadoPartImaginarias}+${resultadoPartImaginariasPuras}i`; }
+
+            return resultado;
+          },
+
+          divisaoNumerosComplexos: (valorTotal = "", valores = [""]) => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            let resultado = "";
+            let valorTotalPartImaginarias = 0;
+            let valorTotalPartImaginariasPuras = 0;
+            let resultadoPartImaginarias = 0;
+            let resultadoPartImaginariasPuras = 0;
+            let resultadoParcImaginario = 1;
+            let resultadoParcImaginarioPuro = 1;
+            let partesImaginarias = [];
+            let partesImaginariasPuras = [];
+
+            for (let i = 0; i < valores.length; i++) {
+              if (valores[i].match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+              partesImaginarias.push(valores[i].match(separadorT1).toString());
+              partesImaginariasPuras.push(valores[i].match(separadorT2).toString());
+            }
+
+            if (valorTotal.match(verif) == null) { return console.error("Não foi possível realizar o cálculo! Valor adicionado inválido."); }
+
+            valorTotalPartImaginarias = valorTotal.match(separadorT1).toString();
+            valorTotalPartImaginariasPuras = valorTotal.match(separadorT2).toString();
+
+            for (let i = 0; i < partesImaginarias.length; i++) {
+              resultadoPartImaginarias = resultadoPartImaginarias + parseFloat(partesImaginarias[i]);
+            }
+
+            for (let i = 0; i < partesImaginariasPuras.length; i++) {
+              resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
+            }
+
+            resultadoParcImaginario = (parseFloat(valorTotalPartImaginarias) * (-1 * resultadoPartImaginarias)) / (resultadoPartImaginarias * (-1 * resultadoPartImaginarias));
+            resultadoParcImaginarioPuro = (parseFloat(valorTotalPartImaginariasPuras) * (-1 * resultadoPartImaginariasPuras)) / (resultadoPartImaginariasPuras * (-1 * resultadoPartImaginariasPuras));
+
+            if (resultadoParcImaginario < 0 && resultadoParcImaginarioPuro < 0) { resultado = `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario > 0 && resultadoParcImaginarioPuro < 0) { resultado = `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario < 0 && resultadoParcImaginarioPuro > 0) { resultado = `${resultadoParcImaginario}+${resultadoParcImaginarioPuro}i`; }
+            if (resultadoParcImaginario > 0 && resultadoParcImaginarioPuro > 0) { resultado = `${resultadoParcImaginario}+${resultadoParcImaginarioPuro}i`; }
+
+            return resultado;
+          },
+
+          multiplicacaoNumerosComplexosTrigonometricos: (valor1 = "", valor2 = "") => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            if (valor1.match(verif) == null) { return console.error("O valor não é válido para realizar o cálculo!"); }
+            if (valor2.match(verif) == null) { return console.error("O valor não é válido para realizar o cálculo!"); }
+
+            let resultado = 0, valor1Dividido = [], valor2Dividido = [];
+
+            valor1Dividido.push(valor1.match(separadorT1).toString(), valor1.match(separadorT2).toString());
+            valor2Dividido.push(valor2.match(separadorT1).toString(), valor2.match(separadorT2).toString());
+
+            let moduloValor1 = Math.sqrt((parseFloat(valor1Dividido[0]) ** 2) + (parseFloat(valor1Dividido[1]) ** 2));
+            let moduloValor2 = Math.sqrt((parseFloat(valor2Dividido[0]) ** 2) + (parseFloat(valor2Dividido[1]) ** 2));
+            let argumentoSenoValor1 = parseFloat(valor1Dividido[1]) / moduloValor1;
+            let argumentoCossenoValor1 = parseFloat(valor1Dividido[0]) / moduloValor1;
+            let argumentoSenoValor2 = parseFloat(valor2Dividido[1]) / moduloValor2;
+            let argumentoCossenoValor2 = parseFloat(valor2Dividido[0]) / moduloValor2;
+
+            let moduloFinal = moduloValor1 * moduloValor2;
+            let argumentoCossenoFinal = argumentoCossenoValor1 + argumentoCossenoValor2;
+            let argumentoSenoFinal = argumentoSenoValor1 + argumentoSenoValor2;
+
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal > 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal < 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal > 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal < 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+
+            return resultado;
+          },
+
+          divisaoNumerosComplexosTrigonometricos: (valor1 = "", valor2 = "") => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            if (valor1.match(verif) == null) { return console.error("O valor não é válido para realizar o cálculo!"); }
+            if (valor2.match(verif) == null) { return console.error("O valor não é válido para realizar o cálculo!"); }
+
+            let resultado = 0, valor1Dividido = [], valor2Dividido = [];
+
+            valor1Dividido.push(valor1.match(separadorT1).toString(), valor1.match(separadorT2).toString());
+            valor2Dividido.push(valor2.match(separadorT1).toString(), valor2.match(separadorT2).toString());
+
+            let moduloValor1 = Math.sqrt((parseFloat(valor1Dividido[0]) ** 2) + (parseFloat(valor1Dividido[1]) ** 2));
+            let moduloValor2 = Math.sqrt((parseFloat(valor2Dividido[0]) ** 2) + (parseFloat(valor2Dividido[1]) ** 2));
+            let argumentoSenoValor1 = parseFloat(valor1Dividido[1]) / moduloValor1;
+            let argumentoCossenoValor1 = parseFloat(valor1Dividido[0]) / moduloValor1;
+            let argumentoSenoValor2 = parseFloat(valor2Dividido[1]) / moduloValor2;
+            let argumentoCossenoValor2 = parseFloat(valor2Dividido[0]) / moduloValor2;
+
+            let moduloFinal = moduloValor1 / moduloValor2;
+            let argumentoCossenoFinal = argumentoCossenoValor1 - argumentoCossenoValor2;
+            let argumentoSenoFinal = argumentoSenoValor1 - argumentoSenoValor2;
+
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal > 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal < 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal > 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal < 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+
+            return resultado;
+          },
+
+          potenciaNumerosComplexosTrigonometricos: (valor1 = "", pot = 0) => {
+            let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+            let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
+            let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
+
+            if (valor1.match(verif) == null) { return console.error("O valor não é válido para realizar o cálculo!"); }
+
+            let resultado = 0, valor1Dividido = [];
+
+            valor1Dividido.push(valor1.match(separadorT1).toString(), valor1.match(separadorT2).toString());
+
+            let moduloValor1 = Math.sqrt((parseFloat(valor1Dividido[0]) ** 2) + (parseFloat(valor1Dividido[1]) ** 2));
+            let argumentoSenoValor1 = parseFloat(valor1Dividido[1]) / moduloValor1;
+            let argumentoCossenoValor1 = parseFloat(valor1Dividido[0]) / moduloValor1;
+
+            let moduloFinal = moduloValor1 ** pot;
+            let argumentoCossenoFinal = argumentoCossenoValor1 * pot;
+            let argumentoSenoFinal = argumentoSenoValor1 * pot;
+
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal > 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal > 0 && argumentoSenoFinal < 0) { resultado = `${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal > 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}+${argumentoSenoFinal}i`; }
+            if (argumentoCossenoFinal < 0 && argumentoSenoFinal < 0) { resultado = `-${moduloFinal} x ${argumentoCossenoFinal}-${argumentoSenoFinal}i`; }
+
+            console.log(resultado);
+            return resultado;
+          }
+
+
 
         }
 
@@ -1761,1026 +2739,3 @@ let wertsfy = {
   }
 
 }
-
-
-// //b Funções de Testes
-// testes: {
-
-//   //c Funções de Testes com Jasmine
-//   jasmine: {
-
-//     //d Gerando função Describe
-//     describe: function() { },
-
-//     //d Gerando função It
-//     it: function() { },
-
-//     //d Gerando função Expect
-//     expect: {
-//       function() { },
-
-//       //e Gerando Tipos da função Expect
-//       tipos: {
-
-//         //f Gerando Tipo Nothing
-//         nothing: function() { },
-
-//         //f Gerando Tipo ToBeNotTo
-//         toBeNotTo: function() { },
-
-//         //f Gerando Tipo ToBeDefined
-//         toBeDefined: function() { },
-
-//         //f Gerando Tipo ToBeInstanceOf
-//         toBeInstanceOf: function() { },
-
-//         //f Gerando Tipo ToBeFalse
-//         toBeFalse: function() { },
-
-//         //f Gerando Tipo ToBeFalsy
-//         toBeFalsy: function() { },
-
-//         //f Gerando Tipo ToBeGreaterThan
-//         toBeGreaterThan: function() { },
-
-//         //f Gerando Tipo ToBeGreaterThanOrEqual
-//         toBeGreaterThanOrEqual: function() { },
-
-//         //f Gerando Tipo ToBeLessThan
-//         toBeLessThan: function() { },
-
-//         //f Gerando Tipo ToBeLessThanOrEqual
-//         toBeLessThanOrEqual: function() { },
-
-//         //f Gerando Tipo ToBeNaN
-//         toBeNaN: function() { },
-
-//         //f Gerando Tipo ToBeNegativeInfinity
-//         toBeNegativeInfinity: function() { },
-
-//         //f Gerando Tipo ToBeNull
-//         toBeNull: function() { },
-
-//         //f Gerando Tipo ToBePositiveInfinity
-//         toBePositiveInfinity: function() { },
-
-//         //f Gerando Tipo ToBeTrue
-//         toBeTrue: function() { },
-
-//         //f Gerando Tipo ToBeTruthy
-//         toBeTruthy: function() { },
-
-//         //f Gerando Tipo ToBeUndefined
-//         toBeUndefined: function() { },
-
-//         //f Gerando Tipo ToContain
-//         toContain: function() { },
-
-//         //f Gerando Tipo ToHaveSize
-//         toHaveSize: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalled
-//         toHaveBeenCalled: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledBefore
-//         toHaveBeenCalledBefore: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledOnceWith
-//         toHaveBeenCalledOnceWith: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledTimes
-//         toHaveBeenCalledTimes: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledWith
-//         toHaveBeenCalledWith: function() { },
-
-//         //f Gerando Tipo ToHaveClass
-//         toHaveClass: function() { },
-
-//         //f Gerando Tipo ToMatch
-//         toMatch: function() { },
-
-//         //f Gerando Tipo Throw
-//         throw: function() { },
-
-//         //f Gerando Tipo ThrowError
-//         throwError: function() { },
-
-//         //f Gerando Tipo ThrowMatching
-//         throwMatching: function() { },
-
-//         //f Gerando Tipo ToBe
-//         toBe: function() { },
-
-//         //f Gerando Tipo ToEqual
-//         toEqual: function() { },
-
-//         //f Gerando Tipo Not
-//         not: function() { },
-//       }
-
-//     },
-
-//     //d Gerando função Pending
-//     pending: function() { },
-
-//   },
-
-//   //c Funções de Testes com Jest
-//   jest: {
-
-//     //d Gerando função Describe
-//     describe: function() { },
-
-//     //d Gerando função It
-//     it: function() { },
-
-//     //d Gerando função Expect
-//     expect: {
-//       function() { },
-
-//       //e Gerando Tipos da função Expect
-//       tipos: {
-
-//         //f Gerando Tipo ToBe
-//         toBe: function() { },
-
-//         //f Gerando Tipo ToEqual
-//         toEqual: function() { },
-
-//         //f Gerando Tipo ToBeNull
-//         toBeNull: function() { },
-
-//         //f Gerando Tipo ToBeDefined
-//         toBeDefined: function() { },
-
-//         //f Gerando Tipo ToBeUndefined
-//         toBeUndefined: function() { },
-
-//         //f Gerando Tipo ToBeTruthy
-//         toBeTruthy: function() { },
-
-//         //f Gerando Tipo ToBeFalsy
-//         toBeFalsy: function() { },
-
-//         //f Gerando Tipo ToBeGreaterThan
-//         toBeGreaterThan: function() { },
-
-//         //f Gerando Tipo ToBeGreaterThanOrEqual
-//         toBeGreaterThanOrEqual: function() { },
-
-//         //f Gerando Tipo ToBeLessThan
-//         toBeLessThan: function() { },
-
-//         //f Gerando Tipo ToBeLessThanOrEqual
-//         toBeLessThanOrEqual: function() { },
-
-//         //f Gerando Tipo ToMatch
-//         toMatch: function() { },
-
-//         //f Gerando Tipo ToContain
-//         toContain: function() { },
-
-//         //f Gerando Tipo ToThrow
-//         toThrow: function() { },
-
-//         //f Gerando Tipo Extend
-//         extend: function() { },
-
-//         //f Gerando Tipo Anything
-//         anything: function() { },
-
-//         //f Gerando Tipo Any
-//         any: function() { },
-
-//         //f Gerando Tipo ArrayContaining
-//         arrayContaining: function() { },
-
-//         //f Gerando Tipo Assertions
-//         assertions: function() { },
-
-//         //f Gerando Tipo HasAssertions
-//         hasAssertions: function() { },
-
-//         //f Gerando Tipo ObjectContaining
-//         objectContaning: function() { },
-
-//         //f Gerando Tipo StringContaining
-//         stringContaining: function() { },
-
-//         //f Gerando Tipo StringMatching
-//         stringMatching: function() { },
-
-//         //f Gerando Tipo AddSnapshotSerializer
-//         addSnapshotSerializer: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalled
-//         toHaveBeenCalled: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledTimes
-//         toHaveBeenCalledTimes: function() { },
-
-//         //f Gerando Tipo ToHaveBeenCalledWith
-//         toHaveBeenCalledWith: function() { },
-
-//         //f Gerando Tipo ToHaveBeenLastCalledWith
-//         toHaveBeenLastCalledWith: function() { },
-
-//         //f Gerando Tipo ToHaveBeenNthCalledWith
-//         toHaveBeenNthCalledWith: function() { },
-
-//         //f Gerando Tipo ToHaveReturned
-//         toHaveReturned: function() { },
-
-//         //f Gerando Tipo ToHaveReturnedTimes
-//         toHaveReturnedTimes: function() { },
-
-//         //f Gerando Tipo ToHaveReturnedWith
-//         toHaveReturnedWith: function() { },
-
-//         //f Gerando Tipo ToHaveLastReturnedWith
-//         toHaveLastReturnedWith: function() { },
-
-//         //f Gerando Tipo ToHaveNthReturnedWith
-//         toHaveNthReturnedWith: function() { },
-
-//         //f Gerando Tipo ToHaveLength
-//         toHaveLength: function() { },
-
-//         //f Gerando Tipo ToHaveProperty
-//         toHaveProperty: function() { },
-
-//         //f Gerando Tipo ToBeCloseTo
-//         toBeCloseTo: function() { },
-
-//         //f Gerando Tipo ToBeNaN
-//         toBeNaN: function() { },
-
-//         //f Gerando Tipo ToContainEqual
-//         toContainEqual: function() { },
-
-//         //f Gerando Tipo ToMatchObject
-//         toMatchObject: function() { },
-
-//         //f Gerando Tipo ToMatchSnapshot
-//         toMatchSnapshot: function() { },
-
-//         //f Gerando Tipo ToMatchInlineSnapshot
-//         toMatchInlineSnapshot: function() { },
-
-//         //f Gerando Tipo ToStrictEqual
-//         toStrictEqual: function() { },
-
-//         //f Gerando Tipo ToThrowErrorMatchingSnapshot
-//         toThrowErrorMatchingSnapshot: function() { },
-
-//         //f Gerando Tipo ToThrowErrorMatchingInlineSnapshot
-//         toThrowErrorMatchingInlineSnapshot: function() { },
-
-//         //f Gerando Tipo Not
-//         not: function() { },
-
-//         //f Gerando Tipo Rejects
-//         rejects: function() { },
-
-//         //f Gerando Tipo Resolves
-//         resolves: function() { }
-
-//       }
-
-//     }
-
-//   },
-
-//   //c Funções de Testes com Mocha
-//   mocha: {
-
-//     //d Gerando função describe
-//     describe: function() { },
-
-//     //d Gerando função it
-//     it: function() { },
-
-//     //d Gerando estrutura complexical
-//     complexical: {
-
-//       //e Gerando função Expect
-//       expect: function() { },
-
-//       //e Gerando função Expected
-//       expected: function() { },
-
-//       //e Gerando função Satisfy
-//       satisfy: function() { },
-
-//       //e Gerando função Destroy
-//       destroy: function() { },
-
-//       //e Gerando função PromiseResolve
-//       promiseResolve: function() { },
-
-//       //e Gerando função Init
-//       init: function() { },
-
-//       //e Gerando função HookBefore
-//       hookBefore: function() { },
-
-//       //e Gerando função HookAfter
-//       hookAfter: function() { },
-
-//       //e Gerando função HookBeforeEach 
-//       hookBeforeEach: function() { },
-
-//       //e Gerando função HookAfterEach
-//       hookAfterEach: function() { },
-
-//       //e Gerando os tipos das funções acima
-//       tipos: {
-
-//         //f Gerando Tipo SetImmediate
-//         setImmediate: function() { },
-
-//         //f Gerando Tipo Save
-//         save: function() { },
-
-//         //f Gerando Tipo Done
-//         done: function() { },
-
-//         //f Gerando Tipo Find
-//         find: function() { },
-
-//         //f Gerando Tipo Clear
-//         clear: function() { },
-
-//         //f Gerando Tipo IndexOf
-//         indexOf: function() { },
-
-//         //f Gerando Tipo Equal
-//         equal: function() { },
-
-//         //f Gerando Tipo Ok
-//         ok: function() { },
-
-//         //f Gerando Tipo StrictEqual
-//         strictEqual: function() { },
-
-//         //f Gerando Tipo Only
-//         only: function() { },
-
-//         //f Gerando Tipo Skip
-//         skip: function() { },
-
-//         //f Gerando Tipo Retries
-//         retries: function() { },
-
-//         //f Gerando Tipo IsDisplayed
-//         isDisplayed: function() { },
-
-//         //f Gerando Tipo Reduce
-//         reduce: function() { },
-
-//         //f Gerando Tipo Timeout
-//         timeout: function() { },
-
-//         //f Gerando Tipo Setup
-//         setup: function() { },
-
-//         //f Gerando Tipo Test
-//         test: function() { },
-
-//         //f Gerando Tipo Suite
-//         suite: function() { },
-
-//         //f Gerando Tipo TestCase
-//         testCase: function() { },
-
-//         //f Gerando Tipo Assertions
-//         assertions: function() { },
-
-//         //f Gerando Tipo Exactly
-//         exactly: function() { },
-
-//         //f Gerando Tipo Should
-//         should: function() { },
-
-//         //f Gerando Tipo Have
-//         have: function() { },
-
-//         //f Gerando Tipo To
-//         to: function() { },
-
-//         //f Gerando Tipo Eventually
-//         eventually: function() { },
-
-//         //f Gerando Tipo True
-//         true: function() { },
-
-//         //f Gerando Tipo False
-//         false: function() { },
-
-//         //f Gerando Tipo And
-//         and: function() { },
-
-//         //f Gerando Tipo A
-//         a: function() { },
-
-//         //f Gerando Tipo Be
-//         be: function() { },
-
-//         //f Gerando Tipo Which
-//         which: function() { },
-
-//         //f Gerando Tipo Is
-//         is: function() { },
-
-//         //f Gerando Tipo An
-//         an: function() { }
-
-//       }
-
-//     }
-
-//   },
-
-//   //c Funções de Testes com Cypress
-//   cypress: {
-
-//     //d Gerando estrutura complexical
-//     complexical: {
-
-//       //e Gerando função Except
-//       except: function() { },
-
-//       //e Gerando função Assert
-//       assert: function() { },
-
-//       //e Gerando tipos das funções acima
-//       tipos: {
-
-//         //f Gerando Tipos BDD das funções acima
-//         BDD: {
-
-//           //g Gerando Tipo Not
-//           not: function() { },
-
-//           //g Gerando Tipo Deep
-//           deep: function() { },
-
-//           //g Gerando Tipo Nested
-//           nested: function() { },
-
-//           //g Gerando Tipo Ordered
-//           ordered: function() { },
-
-//           //g Gerando Tipo Any
-//           any: function() { },
-
-//           //g Gerando Tipo All
-//           all: function() { },
-
-//           //g Gerando Tipo A
-//           a: function() { },
-
-//           //g Gerando Tipo Include
-//           include: function() { },
-
-//           //g Gerando Tipo Ok
-//           ok: function() { },
-
-//           //g Gerando Tipo True
-//           true: function() { },
-
-//           //g Gerando Tipo False
-//           false: function() { },
-
-//           //g Gerando Tipo Null
-//           null: function() { },
-
-//           //g Gerando Tipo Undefined
-//           undefined: function() { },
-
-//           //g Gerando Tipo Exist
-//           exist: function() { },
-
-//           //g Gerando Tipo Empty
-//           empty: function() { },
-
-//           //g Gerando Tipo Arguments
-//           arguments: function() { },
-
-//           //g Gerando Tipo Equal
-//           equal: function() { },
-
-//           //g Gerando Tipo DeepEqual
-//           deepEqual: function() { },
-
-//           //g Gerando Tipo Eql
-//           eql: function() { },
-
-//           //g Gerando Tipo GreaterThan
-//           greaterThan: function() { },
-
-//           //g Gerando Tipo Least
-//           least: function() { },
-
-//           //g Gerando Tipo LessThan
-//           lessThan: function() { },
-
-//           //g Gerando Tipo Most
-//           most: function() { },
-
-//           //g Gerando Tipo Within
-//           within: function() { },
-
-//           //g Gerando Tipo Instanceof
-//           instanceOf: function() { },
-
-//           //g Gerando Tipo Property
-//           property: function() { },
-
-//           //g Gerando Tipo DeepProperty
-//           deepProperty: function() { },
-
-//           //g Gerando Tipo OwnProperty
-//           ownProperty: function() { },
-
-//           //g Gerando Tipo OwnPropertyDiscriptor
-//           ownPropertyDiscriptor: function() { },
-
-//           //g Gerando Tipo LengthOf
-//           lengthOf: function() { },
-
-//           //g Gerando Tipo Match
-//           match: function() { },
-
-//           //g Gerando Tipo String
-//           string: function() { },
-
-//           //g Gerando Tipo Keys
-//           keys: function() { },
-
-//           //g Gerando Tipo Throw
-//           throw: function() { },
-
-//           //g Gerando Tipo RespondTo
-//           respondTo: function() { },
-
-//           //g Gerando Tipo ItSelf
-//           itSelf: function() { },
-
-//           //g Gerando Tipo Satisfy
-//           satisfy: function() { },
-
-//           //g Gerando Tipo CloseTo
-//           closeTo: function() { },
-
-//           //g Gerando Tipo Members
-//           members: function() { },
-
-//           //g Gerando Tipo OneOf
-//           oneOf: function() { },
-
-//           //g Gerando Tipo Change
-//           change: function() { },
-
-//           //g Gerando Tipo Increase
-//           increase: function() { },
-
-//           //g Gerando Tipo Decrease
-//           decrease: function() { },
-
-//           //g Gerando Tipo To
-//           to: function() { },
-
-//           //g Gerando Tipo Be
-//           be: function() { },
-
-//           //g Gerando Tipo Been
-//           been: function() { },
-
-//           //g Gerando Tipo Is
-//           is: function() { },
-
-//           //g Gerando Tipo That
-//           that: function() { },
-
-//           //g Gerando Tipo Which
-//           which: function() { },
-
-//           //g Gerando Tipo And
-//           and: function() { },
-
-//           //g Gerando Tipo Has
-//           has: function() { },
-
-//           //g Gerando Tipo Have
-//           have: function() { },
-
-//           //g Gerando Tipo With
-//           with: function() { },
-
-//           //g Gerando Tipo At
-//           at: function() { },
-
-//           //g Gerando Tipo Of
-//           of: function() { },
-
-//           //g Gerando Tipo Same
-//           same: function() { }
-
-//         },
-
-//         //f Gerando Tipos TDD das funções acima
-//         TDD: {
-
-//           //g Gerando Tipo IsOk
-//           isOk: function() { },
-
-//           //g Gerando Tipo IsNotOk
-//           isNotOk: function() { },
-
-//           //g Gerando Tipo Equal
-//           equal: function() { },
-
-//           //g Gerando Tipo NotEqual
-//           notEqual: function() { },
-
-//           //g Gerando Tipo StrictEqual
-//           strictEqual: function() { },
-
-//           //g Gerando Tipo NotStrictEqual
-//           notStrictEqual: function() { },
-
-//           //g Gerando Tipo DeepEqual
-//           deepEqual: function() { },
-
-//           //g Gerando Tipo NotDeepEqual
-//           notDeepEqual: function() { },
-
-//           //g Gerando Tipo IsAbove
-//           isAbove: function() { },
-
-//           //g Gerando Tipo IsAsLeast
-//           isAsLeast: function() { },
-
-//           //g Gerando Tipo IsBelow
-//           isBelow: function() { },
-
-//           //g Gerando Tipo IsAtMost
-//           isAtMost: function() { },
-
-//           //g Gerando Tipo IsTrue
-//           isTrue: function() { },
-
-//           //g Gerando Tipo IsNotTrue
-//           isNotTrue: function() { },
-
-//           //g Gerando Tipo IsFalse
-//           isFalse: function() { },
-
-//           //g Gerando Tipo IsNotFalse
-//           isNotFalse: function() { },
-
-//           //g Gerando Tipo IsNull
-//           isNull: function() { },
-
-//           //g Gerando Tipo IsNotNull
-//           isNotNull: function() { },
-
-//           //g Gerando Tipo IsNaN
-//           isNaN: function() { },
-
-//           //g Gerando Tipo IsNotNaN
-//           isNotNaN: function() { },
-
-//           //g Gerando Tipo Exists
-//           exists: function() { },
-
-//           //g Gerando Tipo IsNotExists
-//           isNotExists: function() { },
-
-//           //g Gerando Tipo IsUndefined
-//           isUndefined: function() { },
-
-//           //g Gerando Tipo IsDefined
-//           isDefined: function() { },
-
-//           //g Gerando Tipo IsFunction
-//           isFunction: function() { },
-
-//           //g Gerando Tipo IsNotFunction
-//           isNotFunction: function() { },
-
-//           //g Gerando Tipo IsObject
-//           isObject: function() { },
-
-//           //g Gerando Tipo IsArray
-//           isArray: function() { },
-
-//           //g Gerando Tipo IsNotObject
-//           isNotObject: function() { },
-
-//           //g Gerando Tipo IsNumber
-//           isNumber: function() { },
-
-//           //g Gerando Tipo IsNotNumber
-//           isNotNumber: function() { },
-
-//           //g Gerando Tipo IsInfinite
-//           isInfinite: function() { },
-
-//           //g Gerando Tipo IsBoolean
-//           isBoolean: function() { },
-
-//           //g Gerando Tipo IsNotBoolean
-//           isNotBoolean: function() { },
-
-//           //g Gerando Tipo TypeOf
-//           typeOf: function() { },
-
-//           //g Gerando Tipo NotTypeOf
-//           notTypeOf: function() { }
-
-//         },
-
-//         //f Gerando Tipos ChaiJQuery das funções acima
-//         ChaiJQuery: {
-
-//           //g Gerando Tipo Attr
-//           attr: function() { },
-
-//           //g Gerando Tipo Prop
-//           prop: function() { },
-
-//           //g Gerando Tipo Css
-//           css: function() { },
-
-//           //g Gerando Tipo Data
-//           data: function() { },
-
-//           //g Gerando Tipo Class
-//           class: function() { },
-
-//           //g Gerando Tipo Id
-//           id: function() { },
-
-//           //g Gerando Tipo Html
-//           html: function() { },
-
-//           //g Gerando Tipo Text
-//           text: function() { },
-
-//           //g Gerando Tipo Value
-//           value: function() { },
-
-//           //g Gerando Tipo Visible
-//           visible: function() { },
-
-//           //g Gerando Tipo Hidden
-//           hidden: function() { },
-
-//           //g Gerando Tipo Selected
-//           selected: function() { },
-
-//           //g Gerando Tipo Checked
-//           checked: function() { },
-
-//           //g Gerando Tipo Focus
-//           focus: function() { },
-
-//           //g Gerando Tipo Focused
-//           focused: function() { },
-
-//           //g Gerando Tipo Enabled
-//           enabled: function() { },
-
-//           //g Gerando Tipo Disabled
-//           disabled: function() { },
-
-//           //g Gerando Tipo Empty
-//           empty: function() { },
-
-//           //g Gerando Tipo Exist
-//           exist: function() { },
-
-//           //g Gerando Tipo Match
-//           match: function() { },
-
-//           //g Gerando Tipo Contain
-//           contain: function() { },
-
-//           //g Gerando Tipo Descendants
-//           descendants: function() { }
-
-//         },
-
-//         //f Gerando Tipos SinonChai das funções acima
-//         SinonChai: {
-
-//           //g Gerando Tipo Called
-//           called: function() { },
-
-//           //g Gerando Tipo CallCount
-//           callCount: function() { },
-
-//           //g Gerando Tipo CalledOnce
-//           calledOnce: function() { },
-
-//           //g Gerando Tipo CalledTwice
-//           calledTwice: function() { },
-
-//           //g Gerando Tipo CalledThrice
-//           calledThrice: function() { },
-
-//           //g Gerando Tipo CalledBefore
-//           calledBefore: function() { },
-
-//           //g Gerando Tipo CalledAfter
-//           calledAfter: function() { },
-
-//           //g Gerando Tipo CalledWithNew
-//           calledWithNew: function() { },
-
-//           //g Gerando Tipo AlwaysCalledWithNew
-//           alwaysCalledWithNew: function() { },
-
-//           //g Gerando Tipo CalledOn
-//           calledOn: function() { },
-
-//           //g Gerando Tipo AlwaysCalledOn
-//           alwaysCalledOn: function() { },
-
-//           //g Gerando Tipo CalledWith
-//           calledWith: function() { },
-
-//           //g Gerando Tipo AlwaysCalledWith
-//           alwaysCalledWith: function() { },
-
-//           //g Gerando Tipo CalledExactly
-//           calledExactly: function() { },
-
-//           //g Gerando Tipo AlwaysCalledExactly
-//           alwaysCalledExactly: function() { },
-
-//           //g Gerando Tipo CalledMatch
-//           calledMatch: function() { },
-
-//           //g Gerando Tipo AlwaysCalledMatch
-//           alwaysCalledMatch: function() { },
-
-//           //g Gerando Tipo Returned
-//           returned: function() { },
-
-//           //g Gerando Tipo AlwaysReturned
-//           alwaysReturned: function() { },
-
-//           //g Gerando Tipo Threw
-//           threw: function() { },
-
-//           //g Gerando Tipo AlwaysThrew
-//           alwaysThrew: function() { }
-
-//         },
-
-//         //f Gerando Tipos CommonAssertions das funções acima
-//         CommonAssertions: {
-
-//           //g Gerando Tipo Get
-//           get: function() { },
-
-//           //g Gerando Tipo Should
-//           should: function() { },
-
-//           //g Gerando Tipo Find
-//           find: function() { },
-
-//           //g Gerando Tipo Parent
-//           parent: function() { },
-
-//           //g Gerando Tipo Invoke
-//           invoke: function() { },
-
-//           //g Gerando Tipo Contains
-//           contains: function() { },
-
-//           //g Gerando Tipo And
-//           and: function() { },
-
-//           //g Gerando Tipo Type
-//           type: function() { },
-
-//           //g Gerando Tipo Click
-//           click: function() { },
-
-//           //g Gerando Tipo Visit
-//           visit: function() { },
-
-//           //g Gerando Tipo Focused
-//           focused: function() { },
-
-//           //g Gerando Tipo First
-//           first: function() { },
-
-//           //g Gerando Tipo Eq
-//           eq: function() { },
-
-//           //g Gerando Tipo Its
-//           its: function() { },
-
-//           //g Gerando Tipo Stub
-//           stub: function() { },
-
-//           //g Gerando Tipo Spy
-//           spy: function() { },
-
-//           //g Gerando Tipo Then
-//           then: function() { },
-
-//           //g Gerando Tipo As
-//           as: function() { }
-
-//         }
-
-//       }
-
-//     }
-
-//   },
-
-//   //c Funções de Testes com Ava
-//   ava: {
-
-//     //d Gerando função Test
-//     test: {
-//       function() { },
-
-//       //e Gerando tipos da função Test
-//       tipos: {
-
-//         //f Gerando Tipo Is
-//         is: function() { },
-
-//         //f Gerando Tipo Pass
-//         pass: function() { },
-
-//         //f Gerando Tipo Fail
-//         fail: function() { },
-
-//         //f Gerando Tipo Assert
-//         assert: function() { },
-
-//         //f Gerando Tipo Truthy
-//         truthy: function() { },
-
-//         //f Gerando Tipo Falsy
-//         falsy: function() { },
-
-//         //f Gerando Tipo True
-//         true: function() { },
-
-//         //f Gerando Tipo False
-//         false: function() { },
-
-//         //f Gerando Tipo Not
-//         not: function() { },
-
-//         //f Gerando Tipo DeepEqual
-//         deepEqual: function() { },
-
-//         //f Gerando Tipo notDeepEqual
-//         notDeepEqual: function() { },
-
-//         //f Gerando Tipo Like
-//         like: function() { },
-
-//         //f Gerando Tipo Throws
-//         throws: function() { },
-
-//         //f Gerando Tipo ThrowsASync
-//         throwsASync: function() { },
-
-//         //f Gerando Tipo NotThrows
-//         notThrows: function() { },
-
-//         //f Gerando Tipo NotThrowsASync
-//         notThrowsASync: function() { },
-
-//         //f Gerando Tipo Regex
-//         regex: function() { },
-
-//         //f Gerando Tipo NotRegex
-//         notRegex: function() { },
-
-//         //f Gerando Tipo Snapshot
-//         snapshot: function() { },
-
-//         //f Gerando Tipo Try
-//         try: function() { }
-
-//       }
-
-//     }
-
-//   }
-
-// },

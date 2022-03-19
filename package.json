@@ -1,0 +1,22 @@
+{
+  "name": "wertsfyapi",
+  "version": "1.0.0",
+  "description": "![Wertsfy Logo](https://user-images.githubusercontent.com/59739253/155042856-13ea1e77-654e-45c4-8e38-f6105f6c9329.png)",
+  "main": "copyfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humba01/WertsfyAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humba01/WertsfyAPI/issues"
+  },
+  "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}

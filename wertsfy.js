@@ -1,3 +1,5 @@
+export class wertsfyCore { exportedTools() { return wertsfy; } }
+
 let wertsfy = {
 
   sections: {
@@ -26,6 +28,10 @@ let wertsfy = {
 
           potencia: (x1 = 0, x2 = 0) => {
             return Math.pow(x1, x2); 
+          },
+
+          modulo: (x1 = 0, x2 = 0) => {
+            return x1 % x2; 
           },
 
           potenciaDePotencia: (x1 = 0, x2 = [0]) => { 
@@ -547,7 +553,7 @@ let wertsfy = {
             
             let x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); 
             
-            let res = [x1, x2]; 
+            res = [x1, x2]; 
             
             return res; 
           },
@@ -561,7 +567,7 @@ let wertsfy = {
             
             let x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); 
             
-            let res = [x1, x2, 0]; 
+            res = [x1, x2, 0]; 
             
             return res; 
           },
@@ -575,7 +581,7 @@ let wertsfy = {
             
             let x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); 
             
-            let res = [x1, -1 * x1, x2, -1 * x2]; 
+            res = [x1, -1 * x1, x2, -1 * x2]; 
             
             return res; 
           },
@@ -587,7 +593,7 @@ let wertsfy = {
             
             let x2 = (-1 * b - Math.sqrt(delta)) / (2 * a); 
             
-            let res = [x1, -1 * x1, x2, -1 * x2, 0]; 
+            res = [x1, -1 * x1, x2, -1 * x2, 0]; 
             
             return res; 
           },
@@ -716,25 +722,6 @@ let wertsfy = {
             return resultado;
           },
 
-          calculoDoBinomioDeNewton: (valor = 0) =>{
-            //Y #414E55 MEXER AQUI!
-            let resultado = [];
-
-            let counter = 25;
-
-            switch(counter) {
-              case 0: resultado = [ valor ]; break;
-
-              case 1: resultado = [ valor, valor ]; break;
-
-              case 2: resultado = [ valor, valor+valor, valor ]; break;
-
-              case 3: resultado = [ valor, resultado[1]+valor, resultado[1]+valor, valor ]; break;
-            }
-                                      //? mexer aqui dps
-          
-          }, 
-
           calculoDoFatorial: (valor = 0) => {
             let resultado = 1;
 
@@ -785,14 +772,6 @@ let wertsfy = {
 
             return resultado;
           },
-
-          calculoDeUmaProgressaoAritmetica: () => {
-            let resultado = 0;
-          }, //Y #414E55 MEXER AQUI!
-
-          calculoDeUmaProgressaoGeometrica: () => {
-            let resultado = 0;
-          }, //Y #414E55 MEXER AQUI!
 
           calculoDoConjugadoDeUmNumeroComplexo: (expressao = "") => {
             let resultado = 0, verificaSinal = /^(\-)/gi;
@@ -1628,12 +1607,91 @@ let wertsfy = {
 
             console.log(resultado);
             return resultado;
+          },
+
+          regrasDeTres: class regraDeTres {
+
+            regraDeTresSimples(valor1=0, valor2=0, valor3=0, localDaVariavel=("A"||"B"||"C")) {
+
+              if(localDaVariavel == "a") { localDaVariavel = "A"; }
+              if(localDaVariavel == "b") { localDaVariavel = "B"; }
+              if(localDaVariavel == "c") { localDaVariavel = "C"; }
+
+              let resultado = 0;
+
+              switch(localDaVariavel) { 
+                case "A": resultado = valor1 * valor2 / valor3; break;
+
+                case "B": resultado = valor1 * valor3 / valor2; break;
+
+                case "C": resultado = valor2 * valor3 / valor1; break;
+              }
+
+              return resultado;
+
+            }
+
+            regraDeTresComposta(valor1=0, valor2=0, valor3=0, valor4=0, valor5=0, valor6=0, valor7=0, localDaVariavel=("A"||"B"||"C"||"D"||"E"||"F"||"G")) {
+
+              if(localDaVariavel == "a") { localDaVariavel = "A"; }
+              if(localDaVariavel == "b") { localDaVariavel = "B"; }
+              if(localDaVariavel == "c") { localDaVariavel = "C"; }
+              if(localDaVariavel == "d") { localDaVariavel = "D"; }
+              if(localDaVariavel == "e") { localDaVariavel = "E"; }
+              if(localDaVariavel == "f") { localDaVariavel = "F"; }
+              if(localDaVariavel == "g") { localDaVariavel = "G"; }
+
+              let resultado = 0;
+
+              switch(localDaVariavel) { 
+                case "A": resultado = valor1 * valor2 / valor3; break;
+
+                case "B": resultado = valor1 * valor3 / valor2; break;
+
+                case "C": resultado = valor2 * valor3 / valor1; break;
+
+                case "D": resultado = valor4 * valor5 / valor6; break;
+
+                case "E": resultado = valor4 * valor6 / valor5; break;
+
+                case "F": resultado = valor5 * valor6 / valor4; break;
+
+                case "G": resultado = valor7 * valor5 / valor6; break;
+              }
+
+              return resultado;
+
+            }
+
+          },
+
+          conversoesDeBases: class conversaoDeBases {
+
+            chaves = {
+              basesAngulares: ["~graus", "~radianos", ["01", "02"]],
+
+              basesGrandezas: [ ],
+
+              basesTecnologicas: ["~decimal", "~binario", "~octal", "~hexadecimal", ["01", "02", "03", "04"]],
+
+            }
+
+
+
           }
 
 
 
         }
 
+      },
+
+      xcolorsApplication: {
+        formats: {
+          rgby: class RGBYSchema { },
+          rgbyw: class RGBYWSchema { },
+          rgbybl: class RGBYBlSchema { }
+        }
       }
 
     },
@@ -2343,7 +2401,7 @@ let wertsfy = {
 
         attrs: class Attributes {
 
-          constructor(element=HTMLElement, enabledAttrs=[{attrName: "", attrArgument=""}]) {
+          constructor(element=HTMLElement, enabledAttrs=[{attrName: "", attrArgument: ""}]) {
 
             this.element = element;
             this.enabledAttrs = enabledAttrs;

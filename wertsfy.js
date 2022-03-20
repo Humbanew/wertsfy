@@ -2,11 +2,13 @@ export class wertsfyCore { exportedTools() { return wertsfy; } }
 
 let wertsfy = {
 
-  sections: {
+  sessoes: {
 
-    nextGenApisSection: {
+    
 
-      rcalcApplication: {
+    nextGenApisSessao: {
+
+      rcalcAplicacao: {
 
         functions: {
 
@@ -1686,21 +1688,47 @@ let wertsfy = {
 
       },
 
-      xcolorsApplication: {
+      xcolorsAplicacao: {
         formats: {
-          rgby: class RGBYSchema { },
-          rgbyw: class RGBYWSchema { },
-          rgbybl: class RGBYBlSchema { }
+          
+          rgby: class RGBYSchema {
+          
+            definicoes(cor="", intensidade=0) {
+              
+              let schema = [];
+              
+              switch(intensidade) {
+                case 0: schema = [cor, "#FFFF0000"]; break;
+                case 1: schema = [cor, "#FFFF0011"]; break;
+                case 2: schema = [cor, "#FFFF0022"]; break;
+                case 3: schema = [cor, "#FFFF0033"]; break;
+                case 4: schema = [cor, "#FFFF0044"]; break;
+                case 5: schema = [cor, "#FFFF0055"]; break;
+                case 6: schema = [cor, "#FFFF0066"]; break;
+                case 7: schema = [cor, "#FFFF0077"]; break;
+                case 8: schema = [cor, "#FFFF0088"]; break;
+                case 9: schema = [cor, "#FFFF0099"]; break;
+                case 10: schema = [cor, "#FFFF00AA"]; break;
+                case 11: schema = [cor, "#FFFF00BB"]; break;
+                case 12: schema = [cor, "#FFFF00CC"]; break;
+                default: console.log(`Não é possível implementar o recurso.`);
+              }
+
+
+            } 
+          
+          },
+         
         }
       }
 
     },
 
-    webConstructorSection: {
+    webConstructorSessao: {
 
-      lydrocApplication: {
+      lydrocAplicacao: {
 
-        functions: {
+        funcoes: {
 
           html: () => {
             let elemento = document.createElement('html');

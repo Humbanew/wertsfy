@@ -1,0 +1,1 @@
+export function html() { let elemento = document.createElement('html'); return elemento; }

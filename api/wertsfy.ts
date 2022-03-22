@@ -11,12 +11,13 @@ let wertsfy = {
       unoteAplicacao: { },
       dpassAplicacao: { },
       xcolorsAplicacao: { },
-      karzokAplicacao: { }
+      karzokAplicacao: { },
+      stonnecuttAplicacao: { },
     },
 
     webConstructorApiSessao: {
 
-      lydrocAplicacao: {  core: lydrocCore }
+      lydrocAplicacao: { core: lydrocCore }
 
     }
 

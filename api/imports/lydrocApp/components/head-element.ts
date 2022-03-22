@@ -1,0 +1,1 @@
+export function head() { const elemento = document.createElement('head'); return elemento; }

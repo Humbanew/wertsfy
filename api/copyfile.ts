@@ -1,690 +1,670 @@
 // // 
-//           base: () => {
-//             let elemento = document.createElement('base');
-//             return elemento;
-//           },
-
-//           head: () => {
-//             let elemento = document.createElement('head');
-//             return elemento;
-//           },
-
-//           link: () => {
-//             let elemento = document.createElement('link');
-//             return elemento;
-//           },
-
-//           meta: () => {
-//             let elemento = document.createElement('meta');
-//             return elemento;
-//           },
-
 //           style: () => {
-//             let elemento = document.createElement('style');
+//             const elemento = document.createElement('style');
 //             return elemento;
 //           },
 
 //           title: () => {
-//             let elemento = document.createElement('title');
+//             const elemento = document.createElement('title');
 //             return elemento;
 //           },
 
 //           address: () => {
-//             let elemento = document.createElement('address');
+//             const elemento = document.createElement('address');
 //             return elemento;
 //           },
 
 //           article: () => {
-//             let elemento = document.createElement('article');
+//             const elemento = document.createElement('article');
 //             return elemento;
 //           },
 
 //           aside: () => {
-//             let elemento = document.createElement('aside');
+//             const elemento = document.createElement('aside');
 //             return elemento;
 //           },
 
 //           footer: () => {
-//             let elemento = document.createElement('footer');
+//             const elemento = document.createElement('footer');
 //             return elemento;
 //           },
 
 //           header: () => {
-//             let elemento = document.createElement('header');
+//             const elemento = document.createElement('header');
 //             return elemento;
 //           },
 
 //           h1: () => {
-//             let elemento = document.createElement('h1');
+//             const elemento = document.createElement('h1');
 //             return elemento;
 //           },
 
 //           h2: () => {
-//             let elemento = document.createElement('h2');
+//             const elemento = document.createElement('h2');
 //             return elemento;
 //           },
 
 //           h3: () => {
-//             let elemento = document.createElement('h3');
+//             const elemento = document.createElement('h3');
 //             return elemento;
 //           },
 
 //           h4: () => {
-//             let elemento = document.createElement('h4');
+//             const elemento = document.createElement('h4');
 //             return elemento;
 //           },
 
 //           h5: () => {
-//             let elemento = document.createElement('h5');
+//             const elemento = document.createElement('h5');
 //             return elemento;
 //           },
 
 //           h6: () => {
-//             let elemento = document.createElement('h6');
+//             const elemento = document.createElement('h6');
 //             return elemento;
 //           },
 
 //           main: () => {
-//             let elemento = document.createElement('main');
+//             const elemento = document.createElement('main');
 //             return elemento;
 //           },
 
 //           nav: () => {
-//             let elemento = document.createElement('nav');
+//             const elemento = document.createElement('nav');
 //             return elemento;
 //           },
 
 //           section: () => {
-//             let elemento = document.createElement('section');
+//             const elemento = document.createElement('section');
 //             return elemento;
 //           },
 
 //           blockquote: () => {
-//             let elemento = document.createElement('blockquote');
+//             const elemento = document.createElement('blockquote');
 //             return elemento;
 //           },
 
 //           dd: () => {
-//             let elemento = document.createElement('dd');
+//             const elemento = document.createElement('dd');
 //             return elemento;
 //           },
 
 //           div: () => {
-//             let elemento = document.createElement('div');
+//             const elemento = document.createElement('div');
 //             return elemento;
 //           },
 
 //           dl: () => {
-//             let elemento = document.createElement('dl');
+//             const elemento = document.createElement('dl');
 //             return elemento;
 //           },
 
 //           dt: () => {
-//             let elemento = document.createElement('dt');
+//             const elemento = document.createElement('dt');
 //             return elemento;
 //           },
 
 //           figcaption: () => {
-//             let elemento = document.createElement('figcaption');
+//             const elemento = document.createElement('figcaption');
 //             return elemento;
 //           },
 
 //           figure: () => {
-//             let elemento = document.createElement('figure');
+//             const elemento = document.createElement('figure');
 //             return elemento;
 //           },
 
 //           hr: () => {
-//             let elemento = document.createElement('hr');
+//             const elemento = document.createElement('hr');
 //             return elemento;
 //           },
 
 //           li: () => {
-//             let elemento = document.createElement('li');
+//             const elemento = document.createElement('li');
 //             return elemento;
 //           },
 
 //           ol: () => {
-//             let elemento = document.createElement('ol');
+//             const elemento = document.createElement('ol');
 //             return elemento;
 //           },
 
 //           paragraph: () => {
-//             let elemento = document.createElement('paragraph');
+//             const elemento = document.createElement('paragraph');
 //             return elemento;
 //           },
 
 //           pre: () => {
-//             let elemento = document.createElement('pre');
+//             const elemento = document.createElement('pre');
 //             return elemento;
 //           },
 
 //           ul: () => {
-//             let elemento = document.createElement('ul');
+//             const elemento = document.createElement('ul');
 //             return elemento;
 //           },
 
 //           anchor: () => {
-//             let elemento = document.createElement('anchor');
+//             const elemento = document.createElement('anchor');
 //             return elemento;
 //           },
 
 //           abbr: () => {
-//             let elemento = document.createElement('abbr');
+//             const elemento = document.createElement('abbr');
 //             return elemento;
 //           },
 
 //           b: () => {
-//             let elemento = document.createElement('b');
+//             const elemento = document.createElement('b');
 //             return elemento;
 //           },
 
 //           bdi: () => {
-//             let elemento = document.createElement('bdi');
+//             const elemento = document.createElement('bdi');
 //             return elemento;
 //           },
 
 //           bdo: () => {
-//             let elemento = document.createElement('bdo');
+//             const elemento = document.createElement('bdo');
 //             return elemento;
 //           },
 
 //           br: () => {
-//             let elemento = document.createElement('br');
+//             const elemento = document.createElement('br');
 //             return elemento;
 //           },
 
 //           cite: () => {
-//             let elemento = document.createElement('cite');
+//             const elemento = document.createElement('cite');
 //             return elemento;
 //           },
 
 //           code: () => {
-//             let elemento = document.createElement('code');
+//             const elemento = document.createElement('code');
 //             return elemento;
 //           },
 
 //           data: () => {
-//             let elemento = document.createElement('data');
+//             const elemento = document.createElement('data');
 //             return elemento;
 //           },
 
 //           dfn: () => {
-//             let elemento = document.createElement('dfn');
+//             const elemento = document.createElement('dfn');
 //             return elemento;
 //           },
 
 //           em: () => {
-//             let elemento = document.createElement('em');
+//             const elemento = document.createElement('em');
 //             return elemento;
 //           },
 
 //           i: () => {
-//             let elemento = document.createElement('i');
+//             const elemento = document.createElement('i');
 //             return elemento;
 //           },
 
 //           kbd: () => {
-//             let elemento = document.createElement('kbd');
+//             const elemento = document.createElement('kbd');
 //             return elemento;
 //           },
 
 //           mark: () => {
-//             let elemento = document.createElement('mark');
+//             const elemento = document.createElement('mark');
 //             return elemento;
 //           },
 
 //           q: () => {
-//             let elemento = document.createElement('q');
+//             const elemento = document.createElement('q');
 //             return elemento;
 //           },
 
 //           rp: () => {
-//             let elemento = document.createElement('rp');
+//             const elemento = document.createElement('rp');
 //             return elemento;
 //           },
 
 //           rt: () => {
-//             let elemento = document.createElement('rt');
+//             const elemento = document.createElement('rt');
 //             return elemento;
 //           },
 
 //           ruby: () => {
-//             let elemento = document.createElement('ruby');
+//             const elemento = document.createElement('ruby');
 //             return elemento;
 //           },
 
 //           s: () => {
-//             let elemento = document.createElement('s');
+//             const elemento = document.createElement('s');
 //             return elemento;
 //           },
 
 //           samp: () => {
-//             let elemento = document.createElement('samp');
+//             const elemento = document.createElement('samp');
 //             return elemento;
 //           },
 
 //           small: () => {
-//             let elemento = document.createElement('small');
+//             const elemento = document.createElement('small');
 //             return elemento;
 //           },
 
 //           span: () => {
-//             let elemento = document.createElement('span');
+//             const elemento = document.createElement('span');
 //             return elemento;
 //           },
 
 //           strong: () => {
-//             let elemento = document.createElement('strong');
+//             const elemento = document.createElement('strong');
 //             return elemento;
 //           },
 
 //           sub: () => {
-//             let elemento = document.createElement('sub');
+//             const elemento = document.createElement('sub');
 //             return elemento;
 //           },
 
 //           sup: () => {
-//             let elemento = document.createElement('sup');
+//             const elemento = document.createElement('sup');
 //             return elemento;
 //           },
 
 //           time: () => {
-//             let elemento = document.createElement('time');
+//             const elemento = document.createElement('time');
 //             return elemento;
 //           },
 
 //           u: () => {
-//             let elemento = document.createElement('u');
+//             const elemento = document.createElement('u');
 //             return elemento;
 //           },
 
 //           var: () => {
-//             let elemento = document.createElement('var');
+//             const elemento = document.createElement('var');
 //             return elemento;
 //           },
 
 //           wbr: () => {
-//             let elemento = document.createElement('wbr');
+//             const elemento = document.createElement('wbr');
 //             return elemento;
 //           },
 
 //           area: () => {
-//             let elemento = document.createElement('area');
+//             const elemento = document.createElement('area');
 //             return elemento;
 //           },
 
 //           audio: () => {
-//             let elemento = document.createElement('audio');
+//             const elemento = document.createElement('audio');
 //             return elemento;
 //           },
 
 //           img: () => {
-//             let elemento = document.createElement('img');
+//             const elemento = document.createElement('img');
 //             return elemento;
 //           },
 
 //           map: () => {
-//             let elemento = document.createElement('map');
+//             const elemento = document.createElement('map');
 //             return elemento;
 //           },
 
 //           track: () => {
-//             let elemento = document.createElement('track');
+//             const elemento = document.createElement('track');
 //             return elemento;
 //           },
 
 //           video: () => {
-//             let elemento = document.createElement('video');
+//             const elemento = document.createElement('video');
 //             return elemento;
 //           },
 
 //           embed: () => {
-//             let elemento = document.createElement('embed');
+//             const elemento = document.createElement('embed');
 //             return elemento;
 //           },
 
 //           iframe: () => {
-//             let elemento = document.createElement('iframe');
+//             const elemento = document.createElement('iframe');
 //             return elemento;
 //           },
 
 //           object: () => {
-//             let elemento = document.createElement('object');
+//             const elemento = document.createElement('object');
 //             return elemento;
 //           },
 
 //           param: () => {
-//             let elemento = document.createElement('param');
+//             const elemento = document.createElement('param');
 //             return elemento;
 //           },
 
 //           picture: () => {
-//             let elemento = document.createElement('picture');
+//             const elemento = document.createElement('picture');
 //             return elemento;
 //           },
 
 //           portal: () => {
-//             let elemento = document.createElement('portal');
+//             const elemento = document.createElement('portal');
 //             return elemento;
 //           },
 
 //           source: () => {
-//             let elemento = document.createElement('source');
+//             const elemento = document.createElement('source');
 //             return elemento;
 //           },
 
 //           canvas: () => {
-//             let elemento = document.createElement('canvas');
+//             const elemento = document.createElement('canvas');
 //             return elemento;
 //           },
 
 //           noscript: () => {
-//             let elemento = document.createElement('noscript');
+//             const elemento = document.createElement('noscript');
 //             return elemento;
 //           },
 
 //           script: () => {
-//             let elemento = document.createElement('script');
+//             const elemento = document.createElement('script');
 //             return elemento;
 //           },
 
 //           del: () => {
-//             let elemento = document.createElement('del');
+//             const elemento = document.createElement('del');
 //             return elemento;
 //           },
 
 //           ins: () => {
-//             let elemento = document.createElement('ins');
+//             const elemento = document.createElement('ins');
 //             return elemento;
 //           },
 
 //           caption: () => {
-//             let elemento = document.createElement('caption');
+//             const elemento = document.createElement('caption');
 //             return elemento;
 //           },
 
 //           col: () => {
-//             let elemento = document.createElement('col');
+//             const elemento = document.createElement('col');
 //             return elemento;
 //           },
 
 //           colgroup: () => {
-//             let elemento = document.createElement('colgroup');
+//             const elemento = document.createElement('colgroup');
 //             return elemento;
 //           },
 
 //           table: () => {
-//             let elemento = document.createElement('table');
+//             const elemento = document.createElement('table');
 //             return elemento;
 //           },
 
 //           tbody: () => {
-//             let elemento = document.createElement('tbody');
+//             const elemento = document.createElement('tbody');
 //             return elemento;
 //           },
 
 //           td: () => {
-//             let elemento = document.createElement('td');
+//             const elemento = document.createElement('td');
 //             return elemento;
 //           },
 
 //           tfoot: () => {
-//             let elemento = document.createElement('tfoot');
+//             const elemento = document.createElement('tfoot');
 //             return elemento;
 //           },
 
 //           th: () => {
-//             let elemento = document.createElement('th');
+//             const elemento = document.createElement('th');
 //             return elemento;
 //           },
 
 //           thead: () => {
-//             let elemento = document.createElement('thead');
+//             const elemento = document.createElement('thead');
 //             return elemento;
 //           },
 
 //           tr: () => {
-//             let elemento = document.createElement('tr');
+//             const elemento = document.createElement('tr');
 //             return elemento;
 //           },
 
 //           button: () => {
-//             let elemento = document.createElement('button');
+//             const elemento = document.createElement('button');
 //             return elemento;
 //           },
 
 //           datalist: () => {
-//             let elemento = document.createElement('datalist');
+//             const elemento = document.createElement('datalist');
 //             return elemento;
 //           },
 
 //           fieldset: () => {
-//             let elemento = document.createElement('fieldset');
+//             const elemento = document.createElement('fieldset');
 //             return elemento;
 //           },
 
 //           form: () => {
-//             let elemento = document.createElement('form');
+//             const elemento = document.createElement('form');
 //             return elemento;
 //           },
 
 //           input: () => {
-//             let elemento = document.createElement('input');
+//             const elemento = document.createElement('input');
 //             return elemento;
 //           },
 
 //           label: () => {
-//             let elemento = document.createElement('label');
+//             const elemento = document.createElement('label');
 //             return elemento;
 //           },
 
 //           legend: () => {
-//             let elemento = document.createElement('legend');
+//             const elemento = document.createElement('legend');
 //             return elemento;
 //           },
 
 //           meter: () => {
-//             let elemento = document.createElement('meter');
+//             const elemento = document.createElement('meter');
 //             return elemento;
 //           },
 
 //           optgroup: () => {
-//             let elemento = document.createElement('ortgroup');
+//             const elemento = document.createElement('ortgroup');
 //             return elemento;
 //           },
 
 //           option: () => {
-//             let elemento = document.createElement('option');
+//             const elemento = document.createElement('option');
 //             return elemento;
 //           },
 
 //           output: () => {
-//             let elemento = document.createElement('output');
+//             const elemento = document.createElement('output');
 //             return elemento;
 //           },
 
 //           progress: () => {
-//             let elemento = document.createElement('progress');
+//             const elemento = document.createElement('progress');
 //             return elemento;
 //           },
 
 //           select: () => {
-//             let elemento = document.createElement('select');
+//             const elemento = document.createElement('select');
 //             return elemento;
 //           },
 
 //           textarea: () => {
-//             let elemento = document.createElement('textarea');
+//             const elemento = document.createElement('textarea');
 //             return elemento;
 //           },
 
 //           details: () => {
-//             let elemento = document.createElement('details');
+//             const elemento = document.createElement('details');
 //             return elemento;
 //           },
 
 //           dialog: () => {
-//             let elemento = document.createElement('dialog');
+//             const elemento = document.createElement('dialog');
 //             return elemento;
 //           },
 
 //           menu: () => {
-//             let elemento = document.createElement('menu');
+//             const elemento = document.createElement('menu');
 //             return elemento;
 //           },
 
 //           summary: () => {
-//             let elemento = document.createElement('summary');
+//             const elemento = document.createElement('summary');
 //             return elemento;
 //           },
 
 //           content: () => {
-//             let elemento = document.createElement('content');
+//             const elemento = document.createElement('content');
 //             return elemento;
 //           },
 
 //           shadow: () => {
-//             let elemento = document.createElement('shadow');
+//             const elemento = document.createElement('shadow');
 //             return elemento;
 //           },
 
 //           slot: () => {
-//             let elemento = document.createElement('slot');
+//             const elemento = document.createElement('slot');
 //             return elemento;
 //           },
 
 //           template: () => {
-//             let elemento = document.createElement('template');
+//             const elemento = document.createElement('template');
 //             return elemento;
 //           },
 
 //           acronym: () => {
-//             let elemento = document.createElement('acronym');
+//             const elemento = document.createElement('acronym');
 //             return elemento;
 //           },
 
-//           applet: () => {
-//             let elemento = document.createElement('applet');
+//           appconst: () => {
+//             const elemento = document.createElement('appconst');
 //             return elemento;
 //           },
 
 //           basefont: () => {
-//             let elemento = document.createElement('basefont');
+//             const elemento = document.createElement('basefont');
 //             return elemento;
 //           },
 
 //           bgsound: () => {
-//             let elemento = document.createElement('bgsound');
+//             const elemento = document.createElement('bgsound');
 //             return elemento;
 //           },
 
 //           big: () => {
-//             let elemento = document.createElement('big');
+//             const elemento = document.createElement('big');
 //             return elemento;
 //           },
 
 //           blink: () => {
-//             let elemento = document.createElement('blink');
+//             const elemento = document.createElement('blink');
 //             return elemento;
 //           },
 
 //           center: () => {
-//             let elemento = document.createElement('center');
+//             const elemento = document.createElement('center');
 //             return elemento;
 //           },
 
 //           dir: () => {
-//             let elemento = document.createElement('dir');
+//             const elemento = document.createElement('dir');
 //             return elemento;
 //           },
 
 //           font: () => {
-//             let elemento = document.createElement('font');
+//             const elemento = document.createElement('font');
 //             return elemento;
 //           },
 
 //           frame: () => {
-//             let elemento = document.createElement('frame');
+//             const elemento = document.createElement('frame');
 //             return elemento;
 //           },
 
 //           frameset: () => {
-//             let elemento = document.createElement('frameset');
+//             const elemento = document.createElement('frameset');
 //             return elemento;
 //           },
 
 //           hgroup: () => {
-//             let elemento = document.createElement('hgroup');
+//             const elemento = document.createElement('hgroup');
 //             return elemento;
 //           },
 
 //           image: () => {
-//             let elemento = document.createElement('image');
+//             const elemento = document.createElement('image');
 //             return elemento;
 //           },
 
 //           keygen: () => {
-//             let elemento = document.createElement('keygen');
+//             const elemento = document.createElement('keygen');
 //             return elemento;
 //           },
 
 //           marquee: () => {
-//             let elemento = document.createElement('marquee');
+//             const elemento = document.createElement('marquee');
 //             return elemento;
 //           },
 
 //           menuitem: () => {
-//             let elemento = document.createElement('menuitem');
+//             const elemento = document.createElement('menuitem');
 //             return elemento;
 //           },
 
 //           nobr: () => {
-//             let elemento = document.createElement('nobr');
+//             const elemento = document.createElement('nobr');
 //             return elemento;
 //           },
 
 //           noembed: () => {
-//             let elemento = document.createElement('noembed');
+//             const elemento = document.createElement('noembed');
 //             return elemento;
 //           },
 
 //           noframes: () => {
-//             let elemento = document.createElement('noframes');
+//             const elemento = document.createElement('noframes');
 //             return elemento;
 //           },
 
 //           plaintext: () => {
-//             let elemento = document.createElement('plaintext');
+//             const elemento = document.createElement('plaintext');
 //             return elemento;
 //           },
 
 //           rb: () => {
-//             let elemento = document.createElement('rb');
+//             const elemento = document.createElement('rb');
 //             return elemento;
 //           },
 
 //           rtc: () => {
-//             let elemento = document.createElement('rtc');
+//             const elemento = document.createElement('rtc');
 //             return elemento;
 //           },
 
 //           spacer: () => {
-//             let elemento = document.createElement('spacer');
+//             const elemento = document.createElement('spacer');
 //             return elemento;
 //           },
 
 //           strike: () => {
-//             let elemento = document.createElement('strike');
+//             const elemento = document.createElement('strike');
 //             return elemento;
 //           },
 
 //           tt: () => {
-//             let elemento = document.createElement('tt');
+//             const elemento = document.createElement('tt');
 //             return elemento;
 //           },
 
 //           xmp: () => {
-//             let elemento = document.createElement('xmp');
+//             const elemento = document.createElement('xmp');
 //             return elemento;
 //           },

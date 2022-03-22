@@ -1,0 +1,1 @@
+export function base() { const elemento = document.createElement('base'); return elemento; }

@@ -1,0 +1,126 @@
+{
+  "rulesDirectory": [
+    "tools/tslint",
+    "node_modules/@angular/dev-infra-private/tslint-rules",
+    "node_modules/vrsource-tslint-rules/rules",
+    "node_modules/tslint-eslint-rules/dist/rules",
+    "node_modules/tslint-no-toplevel-property-access/rules"
+  ],
+  "rules": {
+    // The first rule needs to be `ts-node-loader` which sets up `ts-node` within TSLint so
+    // that rules written in TypeScript can be loaded without needing to be transpiled.
+    "ts-node-loader": true,
+    // Custom rules written in TypeScript.
+    "require-internal-with-underscore": true,
+    "no-implicit-override-abstract": true,
+
+    "eofline": true,
+    "file-header": [
+      true,
+      {
+        "match": "Copyright Google LLC",
+        "allow-single-line-comments": false
+      }
+    ],
+    "no-console": [
+      true,
+      "log"
+    ],
+    "no-construct": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "no-var-keyword": true,
+    "prefer-literal": [
+      true,
+      "object"
+    ],
+    "no-toplevel-property-access": [
+      true,
+      "packages/animations/src/",
+      "packages/animations/browser/",
+      "packages/common/src/",
+      "packages/core/src/",
+      "packages/elements/src/",
+      "packages/forms/src/",
+      "packages/platform-browser/src/",
+      "packages/router/src/"
+    ],
+    "semicolon": [
+      true
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords"
+    ],
+    "no-inner-declarations": [
+      true,
+      "function"
+    ],
+    "no-debugger": true,
+    "ban": [
+      true,
+      {"name": "fdescribe", "message": "Don't keep jasmine focus methods."},
+      {"name": "fit", "message": "Don't keep jasmine focus methods."}
+    ]
+  },
+  "jsRules": {
+    // The first rule needs to be `ts-node-loader` which sets up `ts-node` within TSLint so
+    // that rules written in TypeScript can be loaded without needing to be transpiled.
+    "ts-node-loader": true,
+    // Custom rules written in TypeScript.
+    "require-internal-with-underscore": true,
+
+    "eofline": true,
+    "file-header": [
+      true,
+      {
+        "match": "Copyright Google LLC",
+        "allow-single-line-comments": false
+      }
+    ],
+    "no-console": [
+      true,
+      "log"
+    ],
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "semicolon": [
+      true
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords"
+    ],
+    "no-inner-declarations": [
+      true,
+      "function"
+    ],
+    "ban": [
+      true,
+      {"name": "fdescribe", "message": "Don't keep jasmine focus methods."},
+      {"name": "fit", "message": "Don't keep jasmine focus methods."}
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/node_modules/**/*",
+      // Ignore AIO and integration tests.
+      "./aio/**/*",
+      "./integration/**/*",
+      // Ignore output directories
+      "./built/**/*",
+      "./dist/**/*",
+      "./bazel-out/**/*",
+      // Ignore special files
+      "**/*.externs.js",
+      // Ignore test files
+      "./packages/compiler-cli/test/compliance/test_cases/**/*",
+      "./packages/localize/**/test_files/**/*",
+      "./tools/public_api_guard/**/*.d.ts",
+      "./modules/benchmarks_external/**/*",
+      // Ignore zone.js directory
+      // TODO(JiaLiPassion): add zone.js back later
+      "./packages/zone.js/**/*"
+    ]
+  }
+}

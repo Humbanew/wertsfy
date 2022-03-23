@@ -1,0 +1,122 @@
+include $(GNUSTEP_MAKEFILES)/common.make
+include ../Version
+
+PACKAGE_NAME = gnustep-corebase
+
+LIBRARY_NAME = libgnustep-corebase
+
+ADDITIONAL_INCLUDE_DIRS = -I../Headers
+ADDITIONAL_CFLAGS = -DBUILDING_SELF
+ADDITIONAL_CXXFLAGS = -DBUILDING_SELF
+ADDITIONAL_OBJCFLAGS = -DBUILDING_SELF
+
+libgnustep-corebase_INTERFACE_VERSION = $(MAJOR_VERSION)
+
+libgnustep-corebase_C_FILES = \
+  CFArray.c \
+  CFAttributedString.c \
+  CFBag.c \
+  CFBase.c \
+  CFBinaryHeap.c \
+  CFBitVector.c \
+  CFCalendar.c \
+  CFCharacterSet.c \
+  CFData.c \
+  CFDate.c \
+  CFDateFormatter.c \
+  CFDictionary.c \
+  CFError.c \
+  CFLocale.c \
+  CFNumber.c \
+  CFNumberFormatter.c \
+  CFPropertyList.c \
+  CFRunLoop.c \
+  CFRuntime.c \
+  CFSet.c \
+  CFSocket.c \
+  CFStream.c \
+  CFString.c \
+  CFConstantString.c \
+  CFStringEncoding.c \
+  CFStringUtilities.c \
+  CFTimeZone.c \
+  CFTree.c \
+  CFURL.c \
+  CFURLAccess.c \
+  CFUUID.c \
+  CFXMLNode.c \
+  CFXMLParser.c \
+  GSCArray.c \
+  GSFunctions.c \
+  GSHashTable.c \
+  GSUnicode.c
+
+libgnustep-corebase_HEADER_FILES = \
+  CoreFoundation.h \
+  CFArray.h \
+  CFAttributedString.h \
+  CFAvailability.h \
+  CFBag.h \
+  CFBase.h \
+  CFBinaryHeap.h \
+  CFBitVector.h \
+  CFBundle.h \
+  CFByteOrder.h \
+  CFCalendar.h \
+  CFCharacterSet.h \
+  CFData.h \
+  CFDate.h \
+  CFDateFormatter.h \
+  CFDictionary.h \
+  CFError.h \
+  CFLocale.h \
+  CFNumber.h \
+  CFNumberFormatter.h \
+  CFPropertyList.h \
+  CFRunLoop.h \
+  CFRuntime.h \
+  CFSet.h \
+  CFSocket.h \
+  CFStream.h \
+  CFStreamPriv.h \
+  CFString.h \
+  CFStringEncodingExt.h \
+  CFTimeZone.h \
+  CFTree.h \
+  CFURL.h \
+  CFURLAccess.h \
+  CFUUID.h \
+  CFXMLNode.h \
+  CFXMLParser.h \
+  GSCharacter.h
+
+libgnustep-corebase_OBJC_FILES = \
+  CFBundle.m \
+  NSCFArray.m \
+  NSCFData.m \
+  NSCFError.m \
+  NSCFString.m \
+  NSCFSet.m \
+  NSCFLocale.m \
+  NSCFNumber.m \
+  NSCFDictionary.m \
+  NSCFTimeZone.m \
+  NSCFInputStream.m \
+  NSCFOutputStream.m \
+  NSCFDate.m \
+  NSCFType.m
+
+libgnustep-corebase_LIBRARIES_DEPEND_UPON += @LIBS@ @ICU_LIBS@ $(FND_LIBS)
+libgnustep-corebase_HEADER_FILES_DIR = ../Headers/CoreFoundation
+libgnustep-corebase_HEADER_FILES_INSTALL_DIR = CoreFoundation
+
+libgnustep-corebase_NEEDS_GUI = NO
+
+ifeq ($(GNUSTEP_TARGET_OS), mingw32)
+  ADDITIONAL_LDFLAGS = -L/mingw/bin
+endif
+
+include $(GNUSTEP_MAKEFILES)/library.make
+
+-include Makefile.postamble
+

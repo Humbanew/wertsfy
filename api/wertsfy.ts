@@ -6,7 +6,7 @@ let wertsfy = {
 
   sessoes: {
 
-    humbanewApisSessao: {
+    toolsApisSessao: {
       rcalcAplicacao: { },
       unoteAplicacao: { },
       dpassAplicacao: { },
@@ -17,7 +17,9 @@ let wertsfy = {
 
     webConstructorApiSessao: {
 
-      lydrocAplicacao: { core: lydrocCore }
+      lydrocAplicacao: { core: lydrocCore },
+
+      lydrocPlusAplicacao: { }
 
     }
 

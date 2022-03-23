@@ -1,0 +1,1 @@
+export function h6 () { const elemento = document.createElement('h6'); return elemento; }

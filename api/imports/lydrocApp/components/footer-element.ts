@@ -1,0 +1,1 @@
+export function footer() { const elemento = document.createElement('footer'); return elemento; }

@@ -1,0 +1,10 @@
+/** For building //packages/core. */
+{
+  "extends": "../tsconfig-tsec-base.json",
+  "include": [
+    "*.ts",
+    "src/**/*.ts",
+    "../*.d.ts",
+    "../zone.js/lib/zone.d.ts"
+  ]
+}

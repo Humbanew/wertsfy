@@ -1,0 +1,36 @@
+load("//tools:defaults.bzl", "ts_config", "ts_library")
+load("//tools:tsec.bzl", "tsec_config")
+
+package(default_visibility = ["//visibility:public"])
+
+exports_files([
+    "tsconfig-build.json",
+    "tsconfig.json",
+])
+
+ts_library(
+    name = "types",
+    srcs = glob(["*.ts"]),
+    deps = [
+        "//packages/zone.js/lib:zone_d_ts",
+        "@npm//@types/hammerjs",
+    ],
+)
+
+ts_config(
+    name = "tsconfig-test",
+    src = "tsconfig-test.json",
+    deps = [":tsconfig-build.json"],
+)
+
+tsec_config(
+    name = "tsec_config",
+    src = "tsconfig-tsec-base.json",
+    exemption = ":tsec-exemption.json",
+    deps = [":tsconfig-build.json"],
+)
+
+exports_files([
+    "license-banner.txt",
+    "README.md",
+])

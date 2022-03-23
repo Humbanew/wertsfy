@@ -1,0 +1,32 @@
+load("//tools:defaults.bzl", "ts_library")
+load("//tools:tsec.bzl", "tsec_config", "tsec_test")
+
+package(default_visibility = [
+    "//packages/compiler/test:__pkg__",
+    "//packages/core:__subpackages__",
+    "//tools/public_api_guard:__pkg__",
+])
+
+ts_library(
+    name = "compiler",
+    srcs = glob(
+        [
+            "**/*.ts",
+        ],
+    ),
+    deps = [
+        "//packages/core/src/util",
+    ],
+)
+
+tsec_config(
+    name = "tsec_config",
+    src = ":tsconfig-tsec.json",
+    deps = ["//packages:tsec_config"],
+)
+
+tsec_test(
+    name = "tsec_test",
+    target = "compiler",
+    tsconfig = "tsec_config",
+)

@@ -1,0 +1,45 @@
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+import { BuilderContext, BuilderOutput, createBuilder } from '@angular-devkit/architect';
+import { resolve } from 'path';
+import { Observable, from, of } from 'rxjs';
+import { catchError, mapTo, switchMap } from 'rxjs/operators';
+import { Schema as NgPackagrBuilderOptions } from './schema';
+
+async function initialize(
+  options: NgPackagrBuilderOptions,
+  root: string,
+): Promise<import('ng-packagr').NgPackagr> {
+  const packager = (await import('ng-packagr')).ngPackagr();
+
+  packager.forProject(resolve(root, options.project));
+
+  if (options.tsConfig) {
+    packager.withTsConfig(resolve(root, options.tsConfig));
+  }
+
+  return packager;
+}
+
+/**
+ * @experimental Direct usage of this function is considered experimental.
+ */
+export function execute(
+  options: NgPackagrBuilderOptions,
+  context: BuilderContext,
+): Observable<BuilderOutput> {
+  return from(initialize(options, context.workspaceRoot)).pipe(
+    switchMap((packager) => (options.watch ? packager.watch() : packager.build())),
+    mapTo({ success: true }),
+    catchError((err) => of({ success: false, error: err.message })),
+  );
+}
+
+export { NgPackagrBuilderOptions };
+export default createBuilder<Record<string, string> & NgPackagrBuilderOptions>(execute);

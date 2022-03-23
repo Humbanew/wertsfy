@@ -1,0 +1,1 @@
+export function nav () {  const elemento = document.createElement('nav'); return elemento; }

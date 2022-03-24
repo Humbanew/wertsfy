@@ -7,12 +7,19 @@ let wertsfy = {
   sessoes: {
 
     toolsApisSessao: {
+      
       rcalcAplicacao: { },
+      
       unoteAplicacao: { },
+      
       dpassAplicacao: { },
+      
       xcolorsAplicacao: { },
+      
       karzokAplicacao: { },
+      
       stonnecuttAplicacao: { },
+
     },
 
     webConstructorApiSessao: {

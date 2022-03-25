@@ -1,0 +1,1 @@
+export function $meter() { const elemento = document.createElement('meter'); return elemento; }

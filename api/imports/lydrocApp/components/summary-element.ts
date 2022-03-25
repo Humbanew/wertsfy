@@ -1,0 +1,1 @@
+export function $summary() { const elemento = document.createElement('summary'); return elemento; }

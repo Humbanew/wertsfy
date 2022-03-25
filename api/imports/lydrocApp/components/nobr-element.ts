@@ -1,0 +1,1 @@
+export function nobr() { const elemento = document.createElement('nobr'); return elemento; }

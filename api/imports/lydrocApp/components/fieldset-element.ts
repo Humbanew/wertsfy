@@ -1,0 +1,1 @@
+export function $fieldset() { const elemento = document.createElement('fieldset'); return elemento; }

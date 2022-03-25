@@ -1,0 +1,1 @@
+export function $appconst() { const elemento = document.createElement('appconst'); return elemento; }

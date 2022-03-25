@@ -3,7 +3,8 @@ export const lydrocCore = {
   elementos: {
 
 
- 
+    
+    
   }
 
 

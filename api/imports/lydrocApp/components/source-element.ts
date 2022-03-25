@@ -1,0 +1,1 @@
+export function $source() { const elemento = document.createElement('source'); return elemento; }

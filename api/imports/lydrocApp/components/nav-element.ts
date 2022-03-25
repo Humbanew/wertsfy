@@ -1,1 +1,1 @@
-export function nav () {  const elemento = document.createElement('nav'); return elemento; }
+export function $nav () {  const elemento = document.createElement('nav'); return elemento; }

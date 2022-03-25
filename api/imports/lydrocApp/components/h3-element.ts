@@ -1,1 +1,1 @@
-export function h3 () { const elemento = document.createElement('h3'); return elemento; }
+export function $h3 () { const elemento = document.createElement('h3'); return elemento; }

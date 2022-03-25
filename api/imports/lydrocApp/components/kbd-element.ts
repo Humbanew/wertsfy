@@ -1,0 +1,1 @@
+export function $kbd() { const elemento = document.createElement('kbd'); return elemento; }

@@ -1,1 +1,1 @@
-export function h5 () { const elemento = document.createElement('h5'); return elemento; }
+export function $h5 () { const elemento = document.createElement('h5'); return elemento; }

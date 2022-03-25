@@ -1,1 +1,1 @@
-export function title () { const elemento = document.createElement('title'); return elemento; }
+export function $title () { const elemento = document.createElement('title'); return elemento; }

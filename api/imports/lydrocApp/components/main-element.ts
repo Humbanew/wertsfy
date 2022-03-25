@@ -1,1 +1,1 @@
-export function main () { const elemento = document.createElement('main'); return elemento; }
+export function $main () { const elemento = document.createElement('main'); return elemento; }

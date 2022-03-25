@@ -1,1 +1,1 @@
-export function article() { const elemento = document.createElement('article'); return elemento; }
+export function $article() { const elemento = document.createElement('article'); return elemento; }

@@ -1,1 +1,1 @@
-export function blockquote () { const elemento = document.createElement('blockquote'); return elemento; }
+export function $blockquote () { const elemento = document.createElement('blockquote'); return elemento; }

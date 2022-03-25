@@ -1,4 +1,5 @@
-<lydroc-corebase></>
+<lydroc-basic-corebase></>
+<lydroc-advanced-corebase></>
 <lydroc-basic-section></>
 <lydroc-advanced-section></>
 <lydroc-basic-division></>

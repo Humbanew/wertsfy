@@ -13,6 +13,8 @@ let wertsfy = {
       unoteAplicacao: { },
       
       dpassAplicacao: { },
+
+      wcubeAplicacao: { },
       
       xcolorsAplicacao: { },
       

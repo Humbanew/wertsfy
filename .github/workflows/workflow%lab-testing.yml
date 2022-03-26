@@ -1,0 +1,13 @@
+name: "@WertsfyAPI-Workflow/Lab-testing"
+
+on: [ push ]
+jobs:
+  testing:
+    name: Testing Lockfile NodeJS
+    steps:
+      # J Lockfile Testing
+      - name: Check out a copy of the repo
+        uses: actions/checkout@v2
+      - uses: mansona/npm-lockfile-version@v1
+      - name: Test
+        run: npm test

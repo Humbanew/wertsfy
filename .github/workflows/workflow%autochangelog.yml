@@ -1,8 +1,10 @@
 name: "@WertsfyAPI-Workflow/Autochangelog"
 
 on: [push]
-  jobs:
-    AutoChangelog:
+jobs:
+  AutoChangelog:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v2
         with:

@@ -4,6 +4,7 @@ on: [ push ]
 jobs:
   testing:
     name: Testing Lockfile NodeJS
+    runs-on: ubuntu-latest
     steps:
       # J Lockfile Testing
       - name: Check out a copy of the repo

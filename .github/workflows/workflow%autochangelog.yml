@@ -5,32 +5,14 @@ jobs:
   AutoChangelog:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - name: Changelog generator
-        uses: dittrichlucas/changelog-generator@main
-        with:
-          token: ${{ github.token }}
-          repo: ${{ github.repository }}
+    - name: Changelog generator
+      uses: dittrichlucas/changelog-generator@main
+      with:
+        token: ${{ github.token }}
+        repo: ${{ github.repository }}
 
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ github.token}}
-          commit-message: "project/ci: update the changelog file with new release deliveries"
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: true
-          branch: release-branch
-          delete-branch: true
-          title: "project/ci: generate the changelog file for the new release"
-          body: |
-            Update the `CHANGELOG.md` file with the deliveries of the new release
-          draft: false
-
-      - name: Check outputs
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+    - name: Check changelog file
+      run: cat CHANGELOG.md

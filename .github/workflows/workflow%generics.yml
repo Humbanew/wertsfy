@@ -12,6 +12,3 @@ jobs:
       - uses: auto-it/setup-auto@v1
       - name: Release
         run: auto shipit 
-      - uses: hmarr/auto-approve-action@v2
-        with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"

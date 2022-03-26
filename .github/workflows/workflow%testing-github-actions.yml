@@ -1,4 +1,4 @@
-name: "@WertsfyAPI-Workflow/testing-github-actions"
+name: "@WertsfyAPI-Workflow/Testing-github-actions"
 
 on: [push]
 jobs:

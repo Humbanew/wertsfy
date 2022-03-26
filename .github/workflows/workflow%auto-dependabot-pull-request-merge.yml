@@ -1,0 +1,12 @@
+name: "@WertsfyAPI-Workflow/Auto-dependabot-pull-request-merge"
+
+on: [push]
+  jobs:
+    Auto-merge:
+    runs-on: ubuntu-latest
+      steps:
+      - name: Merge
+        uses: KeisukeYamashita/auto-pull-request-merge@v1
+        with:
+          intervalSeconds: 10
+          timeoutSeconds: 30

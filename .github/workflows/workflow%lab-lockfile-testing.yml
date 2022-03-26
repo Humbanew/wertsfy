@@ -1,4 +1,4 @@
-name: "@WertsfyAPI-Workflow/Lab-testing"
+name: "@WertsfyAPI-Workflow/Lab-lockfile-testing"
 
 on: [ push ]
 jobs:

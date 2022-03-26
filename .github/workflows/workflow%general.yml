@@ -1,4 +1,4 @@
-name: "@WertsfyAPI-Workflow/Generics"
+name: "@WertsfyAPI-Workflow/General"
 
 on: [push]
 jobs:

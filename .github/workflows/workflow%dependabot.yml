@@ -2,6 +2,8 @@ name: "@WertsfyAPI-Workflow/Dependabot"
 
 # Trigger the workflow on pull request
 on: pull_request_target
+  push:
+    branches: [ v1.0 ]
 
 jobs:
   autoapprove:

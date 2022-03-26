@@ -1,6 +1,7 @@
 name: "@WertsfyAPI-Workflow/Dependabot-pull-request-action"
 
 on:
+  push: [ v1.0 ]
   schedule:
     - cron: "0 * * * *"
 

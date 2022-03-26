@@ -2,7 +2,7 @@ name: "@WertsfyAPI-Workflow/Auto-dependabot-pull-request-merge"
 
 on: [push]
 jobs:
-  Auto-merge:
+  auto-merge:
     runs-on: ubuntu-latest
     steps:
       - name: Merge

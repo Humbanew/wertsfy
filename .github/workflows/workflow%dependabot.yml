@@ -1,7 +1,9 @@
 name: "@WertsfyAPI-Workflow/Dependabot"
 
 # Trigger the workflow on pull request
-on: pull_request_target
+on: 
+  pull_request_target:
+    branches: [ v1.0 ]
   push:
     branches: [ v1.0 ]
 

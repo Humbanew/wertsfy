@@ -1,2 +1,24 @@
 name: wertsfy-workflow
 
+on: setup_auto
+  jobs:
+    release:
+      runs-on: v1.0
+      steps:
+        - uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
+
+        - uses: auto-it/setup-auto@v1
+
+        - name: Release
+          run: auto shipit
+          
+on: pull_request
+  jobs:
+    auto-merge:
+      - name: Merge
+        uses: KeisukeYamashita/auto-pull-request-merge@v1
+        with:
+          intervalSeconds: 10
+          timeoutSeconds: 30

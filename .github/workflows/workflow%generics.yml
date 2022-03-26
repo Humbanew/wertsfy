@@ -12,3 +12,14 @@ jobs:
       - uses: auto-it/setup-auto@v1
       - name: Release
         run: auto shipit 
+      - uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Use github-tag-release
+        uses: janrywang/github-tag-release@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          dingtalk_tokens: ${{secrets.DING_TALK_TOKENS}} # token:secret,token:secret,token:secret,...

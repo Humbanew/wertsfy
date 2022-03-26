@@ -1,0 +1,14 @@
+name: "@WertsfyAPI-Workflow/Generics"
+
+on: [push]
+jobs:
+  Generics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-Setup
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+        uses: auto-it/setup-auto@v1
+      - name: Release
+        run: auto shipit 

@@ -1,6 +1,7 @@
 export class wertsfyCore { exportedTools() { return wertsfy; } }
 
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
+import { lydrocPlusCore } from './imports/lydrocPlusApp/lydroc-plus-core';
 
 let wertsfy = {
 
@@ -28,7 +29,7 @@ let wertsfy = {
 
       lydrocAplicacao: { core: lydrocCore },
 
-      lydrocPlusAplicacao: { }
+      lydrocPlusAplicacao: { core: lydrocPlusCore }
 
     }
 

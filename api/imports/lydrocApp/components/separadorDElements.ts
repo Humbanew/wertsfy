@@ -1,0 +1,11 @@
+export function $data() { const elemento = document.createElement('data'); return elemento; }
+export function $datalist() { const elemento = document.createElement('datalist'); return elemento; }
+export function $dd() { const elemento = document.createElement('dd'); return elemento; }
+export function $del() { const elemento = document.createElement('del'); return elemento; }
+export function $details() { const elemento = document.createElement('details'); return elemento; } 
+export function $dfn() { const elemento = document.createElement('dfn'); return elemento; }
+export function $dialog() { const elemento = document.createElement('dialog'); return elemento; }
+export function $dir() { const elemento = document.createElement('dir'); return elemento; }
+export function $div() { const elemento = document.createElement('div'); return elemento; }
+export function $dl() { const elemento = document.createElement('dl'); return elemento; }
+export function $dt() { const elemento = document.createElement('dt'); return elemento; }

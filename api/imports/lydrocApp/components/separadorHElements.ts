@@ -1,0 +1,11 @@
+export function $h1() { const elemento = document.createElement('h1'); return elemento; }
+export function $h2() { const elemento = document.createElement('h2'); return elemento; }
+export function $h3() { const elemento = document.createElement('h3'); return elemento; }
+export function $h4() { const elemento = document.createElement('h4'); return elemento; }
+export function $h5() { const elemento = document.createElement('h5'); return elemento; }
+export function $h6() { const elemento = document.createElement('h6'); return elemento; }
+export function $head() { const elemento = document.createElement('head'); return elemento; }
+export function $header() { const elemento = document.createElement('header'); return elemento; }
+export function $hgroup() { const elemento = document.createElement('hgroup'); return elemento; }
+export function $hr() { const elemento = document.createElement('hr'); return elemento; }
+export function $html() { const elemento = document.createElement('html'); return elemento; }

@@ -1,0 +1,9 @@
+export function $abbr() { const elemento = document.createElement('abbr'); return elemento; }
+export function $acronym() { const elemento = document.createElement('acronym'); return elemento; }
+export function $address() { const elemento = document.createElement('address'); return elemento; }
+export function $anchor() { const elemento = document.createElement('a'); return elemento; }
+export function $appconst() { const elemento = document.createElement('appconst'); return elemento; }
+export function $area() { const elemento = document.createElement('area'); return elemento; }
+export function $article() { const elemento = document.createElement('article'); return elemento; }
+export function $aside() { const elemento = document.createElement('aside'); return elemento; }
+export function $audio() { const elemento = document.createElement('audio'); return elemento; }

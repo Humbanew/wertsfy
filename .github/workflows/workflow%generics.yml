@@ -8,7 +8,7 @@ jobs:
       - name: Auto-Setup
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-        uses: auto-it/setup-auto@v1
+          fetch-depth: 0    
+      - uses: auto-it/setup-auto@v1
       - name: Release
         run: auto shipit 

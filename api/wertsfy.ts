@@ -2,6 +2,8 @@ export class wertsfyCore { exportedTools() { return wertsfy; } }
 
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
 import { lydrocPlusCore } from './imports/lydrocPlusApp/lydroc-plus-core';
+import { rcalcCore } from './imports/rcalcApp/rcalc-core';
+import { xcolorsCore } from './imports/xcolorsApp/xcolors-core';
 
 let wertsfy = {
 
@@ -9,7 +11,7 @@ let wertsfy = {
 
     toolsApisSessao: {
       
-      rcalcAplicacao: { },
+      rcalcAplicacao: { core: rcalcCore },
       
       unoteAplicacao: { },
       
@@ -17,7 +19,7 @@ let wertsfy = {
 
       wcubeAplicacao: { },
       
-      xcolorsAplicacao: { },
+      xcolorsAplicacao: { core: xcolorsCore },
       
       karzokAplicacao: { },
       

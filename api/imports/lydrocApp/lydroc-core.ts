@@ -27,125 +27,125 @@ export const lydrocCore = {
 
     separadorA: {
 
-      abbr: $abbr(),
+      abbr: $abbr,
 
-      acronym: $acronym(),
+      acronym: $acronym,
 
-      address: $address(),
+      address: $address,
 
-      anchor: $anchor(),
+      anchor: $anchor,
 
-      appconst: $appconst(),
+      appconst: $appconst,
 
-      area: $area(),
+      area: $area,
 
-      article: $article(),
+      article: $article,
 
-      aside: $aside(),
+      aside: $aside,
 
-      audio: $audio()
+      audio: $audio
 
     },
     
     separadorB: {
 
-      b: $b(),
+      b: $b,
 
-      base: $base(),
+      base: $base,
 
-      basefont: $basefont(),
+      basefont: $basefont,
 
-      bdi: $bdi(),
+      bdi: $bdi,
 
-      bdo: $bdo(),
+      bdo: $bdo,
 
-      bgsound: $bgsound(),
+      bgsound: $bgsound,
 
-      big: $big(),
+      big: $big,
 
-      blink: $blink(),
+      blink: $blink,
 
-      blockquote: $blockquote(),
+      blockquote: $blockquote,
 
-      br: $br(),
+      br: $br,
 
-      button: $button(),
+      button: $button,
 
-      body: $body()
+      body: $body
 
     },
     
     separadorC: {
 
-      canvas: $canvas(),
+      canvas: $canvas,
 
-      caption: $caption(),
+      caption: $caption,
 
-      center: $center(),
+      center: $center,
 
-      cite: $cite(),
+      cite: $cite,
 
-      code: $code(),
+      code: $code,
 
-      col: $col(),
+      col: $col,
 
-      colgroup: $colgroup(),
+      colgroup: $colgroup,
 
-      content: $content()
+      content: $content
 
     },
     
     separadorD: {
 
-      data: $data(),
+      data: $data,
 
-      datalist: $datalist(),
+      datalist: $datalist,
 
-      dd: $dd(),
+      dd: $dd,
 
-      del: $del(),
+      del: $del,
 
-      details: $details(),
+      details: $details,
 
-      dfn: $dfn(),
+      dfn: $dfn,
 
-      dialog: $dialog(),
+      dialog: $dialog,
 
-      dir: $dir(),
+      dir: $dir,
 
-      div: $div(),
+      div: $div,
 
-      dl: $dl(),
+      dl: $dl,
 
-      dt: $dt()
+      dt: $dt
 
     },
     
     separadorE: {
 
-      em: $em(),
+      em: $em,
 
-      embed: $embed(),
+      embed: $embed,
 
     },
     
     separadorF: {
 
-      fieldset: $fieldset(),
+      fieldset: $fieldset,
 
-      figcaption: $figcaption(),
+      figcaption: $figcaption,
 
-      figure: $figure(),
+      figure: $figure,
 
-      font: $font(),
+      font: $font,
 
-      footer: $footer(),
+      footer: $footer,
 
-      form: $form(),
+      form: $form,
 
-      frame: $frame(),
+      frame: $frame,
 
-      frameset: $frameset(),
+      frameset: $frameset,
 
     },
     
@@ -153,43 +153,43 @@ export const lydrocCore = {
 
     separadorH: {
 
-      h1: $h1(),
+      h1: $h1,
 
-      h2: $h2(),
+      h2: $h2,
 
-      h3: $h3(),
+      h3: $h3,
 
-      h4: $h4(),
+      h4: $h4,
 
-      h5: $h5(),
+      h5: $h5,
 
-      h6: $h6(),
+      h6: $h6,
 
-      head: $head(),
+      head: $head,
 
-      header: $header(),
+      header: $header,
 
-      hgroup: $hgroup(),
+      hgroup: $hgroup,
 
-      hr: $hr(),
+      hr: $hr,
 
-      html: $html()
+      html: $html
 
     },
     
     separadorI: {
 
-      $i: $i(),
+      $i: $i,
 
-      iframe: $iframe(),
+      iframe: $iframe,
 
-      image: $image(),
+      image: $image,
 
-      img: $img(),
+      img: $img,
 
-      input: $input(),
+      input: $input,
 
-      ins: $ins()
+      ins: $ins
 
     },
     
@@ -197,203 +197,203 @@ export const lydrocCore = {
 
     separadorK: {
 
-      kbd: $kbd(),
+      kbd: $kbd,
 
-      keygen: $keygen()
+      keygen: $keygen
 
     },
     
     separadorL: {
 
-      label: $label(),
+      label: $label,
 
-      legend: $legend(),
+      legend: $legend,
 
-      li: $li(),
+      li: $li,
 
-      link: $link()
+      link: $link
 
     },
     
     separadorM: {
 
-      main: $main(),
+      main: $main,
 
-      map: $map(),
+      map: $map,
 
-      mark: $mark(),
+      mark: $mark,
 
-      marquee: $marquee(),
+      marquee: $marquee,
 
-      menu: $menu(),
+      menu: $menu,
 
-      menuitem: $menuitem(),
+      menuitem: $menuitem,
 
-      meta: $meta(),
+      meta: $meta,
 
-      meter: $meter()
+      meter: $meter
 
     },
     
     separadorN: {
 
-      nav: $nav(),
+      nav: $nav,
 
-      nobr: $nobr(),
+      nobr: $nobr,
 
-      noembed: $noembed(),
+      noembed: $noembed,
 
-      noframes: $noframes(),
+      noframes: $noframes,
 
-      noscript: $noscript()
+      noscript: $noscript
 
     },
     
     separadorO: {
 
-      object: $object(),
+      object: $object,
 
-      ol: $ol(),
+      ol: $ol,
 
-      optgroup: $optgroup(),
+      optgroup: $optgroup,
 
-      option: $option(),
+      option: $option,
 
-      output: $output()
+      output: $output
 
     },
     
     separadorP: {
 
-      paragraph: $paragraph(),
+      paragraph: $paragraph,
 
-      param: $param(),
+      param: $param,
 
-      picture: $picture(),
+      picture: $picture,
 
-      plaintext: $plaintext(),
+      plaintext: $plaintext,
 
-      portal: $portal(),
+      portal: $portal,
 
-      pre: $pre(),
+      pre: $pre,
 
-      progress: $progress()
+      progress: $progress
 
     },
     
     separadorQ: {
 
-      q: $q()
+      q: $q
 
     },
     
     separadorR: {
 
-      rb: $rb(),
+      rb: $rb,
 
-      rp: $rp(),
+      rp: $rp,
 
-      rt: $rt(),
+      rt: $rt,
 
-      rtc: $rtc(),
+      rtc: $rtc,
 
-      ruby: $ruby()
+      ruby: $ruby
 
     },
     
     separadorS: {
 
-      s: $s(),
+      s: $s,
 
-      samp: $samp(),
+      samp: $samp,
 
-      script: $script(),
+      script: $script,
 
-      section: $section(),
+      section: $section,
 
-      select: $select(),
+      select: $select,
 
-      shadow: $shadow(),
+      shadow: $shadow,
 
-      slot: $slot(),
+      slot: $slot,
 
-      small: $small(),
+      small: $small,
 
-      source: $source(),
+      source: $source,
 
-      spacer: $spacer(),
+      spacer: $spacer,
 
-      span: $span(),
+      span: $span,
 
-      strike: $strike(),
+      strike: $strike,
 
-      strong: $strong(),
+      strong: $strong,
 
-      style: $style(),
+      style: $style,
 
-      sub: $sub(),
+      sub: $sub,
 
-      summary: $summary(),
+      summary: $summary,
 
-      sup: $sup()
+      sup: $sup
     
     },
     
     separadorT: {
 
-      table: $table(),
+      table: $table,
 
-      tbody: $tbody(),
+      tbody: $tbody,
 
-      td: $td(),
+      td: $td,
 
-      template: $template(),
+      template: $template,
 
-      textarea: $textarea(),
+      textarea: $textarea,
 
-      tfoot: $tfoot(),
+      tfoot: $tfoot,
 
-      th: $th(),
+      th: $th,
 
-      thead: $thead(),
+      thead: $thead,
 
-      time: $time(),
+      time: $time,
 
-      title: $title(),
+      title: $title,
 
-      tr: $tr(),
+      tr: $tr,
 
-      track: $track(),
+      track: $track,
 
-      tt: $tt()
+      tt: $tt
 
     },
     
     separadorU: {
 
-      u: $u(),
+      u: $u,
 
-      ul: $ul()
+      ul: $ul
 
     },
     
     separadorV: {
 
-      var: $var(),
+      var: $var,
 
-      video: $video()
+      video: $video
 
     },
 
     separadorW: {
 
-      wbr: $wbr()
+      wbr: $wbr
 
     },
 
     separadorX: {
 
-      xmp: $xmp()
+      xmp: $xmp
 
     },
     

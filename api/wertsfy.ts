@@ -1,12 +1,16 @@
-export class APIs { exportedTools() { return wertsfy; } }
-
+import { dpassCore } from './imports/dpassApp/dpass-core';
+import { karzokCore } from './imports/karzokApp/karzok-core';
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
+import { lydrocDecorationCore } from './imports/lydrocDecorationApp/lydroc-decoration-core';
 import { lydrocLabCore } from './imports/lydrocLabApp/lydroc-lab-core';
 import { lydrocPlusCore } from './imports/lydrocPlusApp/lydroc-plus-core';
 import { rcalcCore } from './imports/rcalcApp/rcalc-core';
+import { stonnecuttCore } from './imports/stonnecuttApp/stonnecutt-core';
+import { unoteCore } from './imports/unoteApp/unote-core';
+import { wcubeCore } from './imports/wcubeApp/wcube-core';
 import { xcolorsCore } from './imports/xcolorsApp/xcolors-core';
 
-export const wertsfy = {
+export const Wertsfy = {
 
   sessoes: {
 
@@ -14,17 +18,17 @@ export const wertsfy = {
       
       rcalcAplicacao: { core: rcalcCore },
       
-      unoteAplicacao: { },
+      unoteAplicacao: { core: unoteCore },
       
-      dpassAplicacao: { },
+      dpassAplicacao: { core: dpassCore },
 
-      wcubeAplicacao: { },
+      wcubeAplicacao: { core: wcubeCore },
       
       xcolorsAplicacao: { core: xcolorsCore },
       
-      karzokAplicacao: { },
+      karzokAplicacao: { core: karzokCore },
       
-      stonnecuttAplicacao: { },
+      stonnecuttAplicacao: { core: stonnecuttCore },
 
     },
 
@@ -35,6 +39,10 @@ export const wertsfy = {
       lydrocPlusAplicacao: { core: lydrocPlusCore },
 
       lydrocLabAplicacao: { core: lydrocLabCore },
+
+      lydrocDecorationAplicacao: { core: lydrocDecorationCore },
+
+      lydrocDecorationPlusAplicacao: { core: lydrocDecorationCore },
 
     }
 

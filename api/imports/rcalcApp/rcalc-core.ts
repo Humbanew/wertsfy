@@ -1,7 +1,9 @@
+import { $calculoDaAceleracao, $calculoDaAceleracaoAngularMovimentoCircularUnifVariado, $calculoDaAceleracaoNoPlanoInclinadoEixoX, $calculoDaAceleracaoNoPlanoInclinadoEixoY, $calculoDaAlturaMaximaDeUmLancamentoVertical, $calculoDaCombinacao, $calculoDaConcentracao, $calculoDaContraForcaEletromotriz, $calculoDaDensidade, $calculoDaDeterminante2x2, $calculoDaDeterminante3x3, $calculoDaDilatacaoLinear, $calculoDaDilatacaoSuperficial, $calculoDaDilatacaoVolumetrica, $calculoDaEnergiaCinetica, $calculoDaEnergiaPotencialElastica, $calculoDaEnergiaPotencialGravitacional, $calculoDaEqHorariaDaAceleracao, $calculoDaEqHorariaDaForca, $calculoDaEqHorariaDaVelocidade, $calculoDaEqHorariaDoEspaco, $calculoDaEqHorariaDoTempo, $calculoDaEqHorariaDoTempoEspaco, $calculoDaEquacaoDeLagrange, $calculoDaEquacaoDeTorricelli, $calculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples, $calculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples, $calculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples, $calculoDaEquacaoHorariaDoTempoMovimentoCircularUnifVariado, $calculoDaForcaEletromotriz, $calculoDaForcaGravitacional, $calculoDaFrequencia, $calculoDaLeiDeCoulomb, $calculoDaLeiDeLenz, $calculoDaLeiDeOhm, $calculoDaLeiGeralDosGases, $calculoDaPorcentagem, $calculoDaProbabilidade, $calculoDaRelacaoDeEuler, $calculoDaRelacaoPitagoricaT1, $calculoDaRelacaoPitagoricaT2, $calculoDaRelacaoPitagoricaT3, $calculoDasLeisDeNewton, $calculoDasPotenciasDeI, $calculoDaTemperatura, $calculoDaTitulacao, $calculoDaVelocidade, $calculoDeToricelliMovimentoCircularUnifVariado, $calculoDoAceleracaoCentripetaMovimentoCircularUniforme, $calculoDoAlcanceDeUmLancamentoVertical, $calculoDoAlcanceMaximoDeUmLancamentoVertical, $calculoDoArranjo, $calculoDoAtrito, $calculoDoCalorLatente, $calculoDoCalorSensivel, $calculoDoConjugadoDeUmNumeroComplexo, $calculoDoConsumoDeEnergia, $calculoDoEfeitoFotoeletrico, $calculoDoEfeitoJoule, $calculoDoEmpuxoDaHidroestaticaHidrodinamica, $calculoDoEspaco, $calculoDoFatorial, $calculoDoLancamentoHorizontal, $calculoDoPeriodo, $calculoDoPesoAparenteDaHidroestaticaHidrodinamica, $calculoDoPlanoInclinadoComAtrito, $calculoDoPlanoInclinadoSemAtrito, $calculoDoPotencialElastico, $calculoDoPotencialMecanico, $calculoDoPrincipioFundamentalDaHidroestaticaHidrodinamica, $calculoDoRendimento, $calculoDoTempo, $calculoDoTeoremaDeBoltzmann, $calculoDoTeoremaDeCoulomb, $calculoDoTeoremaDePascal, $calculoDoTeoremaDePitagoras, $calculoDoTeoremaDePlanck, $calculoDoTeoremaDeStevin, $calculoDoTeoremaDeStirling, $calculoDoTeoremaDeTalesDeMileto, $calculoDoTrabalho, $calculoDoVelocidadeAngularMovimentoCircularUniforme, $calculoDoVelocidadeLinearMovimentoCircularUniforme, $cossenosDiretoresDeUmVetorR2, $cossenosDiretoresDeUmVetorR3, $divisaoDeVetoresR2, $divisaoDeVetoresR3, $divisaoMatrizes, $divisaoNumerosComplexos, $divisaoPolinomios, $formulaDeGirard, $jurosCompostos, $jurosSimples, $moduloDeUmVetorR2, $moduloDeUmVetorR3, $multiplicacaoMatrizes, $multiplicacaoNumerosComplexos, $multiplicacaoPolinomios, $pontoMedioDeUmVetorR2, $pontoMedioDeUmVetorR3, $potenciaNumerosComplexos, $produtoEscalarDeVetoresR2, $produtoEscalarDeVetoresR3, $projecaoDeUmVetorSobreOutroVetorR2, $projecaoDeUmVetorSobreOutroVetorR3, $regraDeTresComposta, $regraDeTresSimples, $sinalizacaoOctantes, $sinalizacaoQuadrantes, $sistemaDeEquacoes, $sistemaDeInequacoes, $sistemasLineares, $somaDeVetoresR2, $somaDeVetoresR3, $somaMatrizes, $somaNumerosComplexos, $somaPolinomios, $subtracaoDeVetoresR2, $subtracaoDeVetoresR3, $subtracaoMatrizes, $subtracaoNumerosComplexos, $subtracaoPolinomios, $versorDeUmVetorR2, $versorDeUmVetorR3, $vetorDaDistanciaEntreDoisPontosR2, $vetorDaDistanciaEntreDoisPontosR3 } from "./components/funcoes-algebricas";
 import { $divisao, $multiplicacao, $potencia, $potenciaDePotencia, $raizBicubica, $raizBiquadrada, $raizCubica, $raizQuadrada, $raizTricubica, $raizTriquadrada, $soma, $subtracao } from "./components/funcoes-basicas";
 import { $oitavoGrau, $primeiroGrau, $quartoGrau, $quintoGrau, $segundoGrau, $setimoGrau, $sextoGrau, $terceiroGrau } from "./components/funcoes-cartesianas";
 import { $antilogaritmoBase10, $antilogaritmoBase10Hiperbolico, $antilogaritmoBase10Inverso, $antilogaritmoBase10InversoHiperbolico, $antilogaritmoBase2, $antilogaritmoBase2Hiperbolico, $antilogaritmoBase2Inverso, $antilogaritmoBase2InversoHiperbolico, $antilogaritmoBaseQualquer, $antilogaritmoBaseQualquerHiperbolico, $antilogaritmoBaseQualquerHiperbolicoMenosUm, $antilogaritmoBaseQualquerInverso, $antilogaritmoBaseQualquerInversoHiperbolico, $antilogaritmoBaseQualquerInversoHiperbolicoMenosUm, $antilogaritmoBaseQualquerInversoMenosUm, $antilogaritmoBaseQualquerMenosUm, $antilogaritmoNatural, $antilogaritmoNaturalHiperbolico, $antilogaritmoNaturalHiperbolicoMaisUm, $antilogaritmoNaturalInverso, $antilogaritmoNaturalInversoHiperbolico, $antilogaritmoNaturalInversoHiperbolicoMaisUm, $antilogaritmoNaturalInversoMaisUm, $antilogaritmoNaturalMaisUm, $cologaritmoBase10, $cologaritmoBase10Hiperbolico, $cologaritmoBase10Inverso, $cologaritmoBase10InversoHiperbolico, $cologaritmoBase2, $cologaritmoBase2Hiperbolico, $cologaritmoBase2Inverso, $cologaritmoBase2InversoHiperbolico, $cologaritmoBaseQualquer, $cologaritmoBaseQualquerHiperbolico, $cologaritmoBaseQualquerHiperbolicoMaisUm, $cologaritmoBaseQualquerInverso, $cologaritmoBaseQualquerInversoHiperbolico, $cologaritmoBaseQualquerInversoHiperbolicoMaisUm, $cologaritmoBaseQualquerInversoMaisUm, $cologaritmoBaseQualquerMaisUm, $cologaritmoNatural, $cologaritmoNaturalHiperbolico, $cologaritmoNaturalHiperbolicoMaisUm, $cologaritmoNaturalInverso, $cologaritmoNaturalInversoHiperbolico, $cologaritmoNaturalInversoHiperbolicoMaisUm, $cologaritmoNaturalInversoMaisUm, $cologaritmoNaturalMaisUm, $exponencial, $exponencialHiperbolica, $exponencialHiperbolicaInversa, $exponencialHiperbolicaInversaMenosUm, $exponencialHiperbolicaMenosUm, $exponencialInversa, $exponencialInversaMenosUm, $exponencialMenosUm, $logaritmoBase10, $logaritmoBase10Hiperbolico, $logaritmoBase10Inverso, $logaritmoBase10InversoHiperbolico, $logaritmoBase2, $logaritmoBase2Hiperbolico, $logaritmoBase2Inverso, $logaritmoBase2InversoHiperbolico, $logaritmoBaseQualquer, $logaritmoBaseQualquerHiperbolico, $logaritmoBaseQualquerHiperbolicoMenosUm, $logaritmoBaseQualquerInverso, $logaritmoBaseQualquerInversoHiperbolico, $logaritmoBaseQualquerInversoHiperbolicoMenosUm, $logaritmoBaseQualquerInversoMenosUm, $logaritmoBaseQualquerMenosUm, $logaritmoNatural, $logaritmoNaturalHiperbolico, $logaritmoNaturalHiperbolicoMaisUm, $logaritmoNaturalInverso, $logaritmoNaturalInversoHiperbolico, $logaritmoNaturalInversoHiperbolicoMaisUm, $logaritmoNaturalInversoMaisUm, $logaritmoNaturalMaisUm } from "./components/funcoes-cientificas-avancadas";
 import { $arccossecante, $arccossecanteHiperbolica, $arccossecanteHiperbolicaInversa, $arccossecanteInversa, $arccosseno, $arccossenoHiperbolico, $arccossenoHiperbolicoInverso, $arccossenoInverso, $arccotangente, $arccotangenteHiperbolica, $arccotangenteHiperbolicaInversa, $arccotangenteInversa, $arcsecante, $arcsecanteHiperbolica, $arcsecanteHiperbolicaInversa, $arcsecanteInversa, $arcseno, $arcsenoHiperbolico, $arcsenoHiperbolicoInverso, $arcsenoInverso, $arctangente, $arctangenteHiperbolica, $arctangenteHiperbolicoInversa, $arctangenteInversa, $cossecante, $cossecanteHiperbolica, $cossecanteHiperbolicaInversa, $cossecanteInversa, $cosseno, $cossenoHiperbolico, $cossenoHiperbolicoInverso, $cossenoInverso, $cotangente, $cotangenteHiperbolica, $cotangenteHiperbolicaInversa, $cotangenteInversa, $secante, $secanteHiperbolica, $secanteHiperbolicaInversa, $secanteInversa, $seno, $senoHiperbolico, $senoHiperbolicoInverso, $senoInverso, $tangente, $tangenteHiperbolica, $tangenteHiperbolicaInversa, $tangenteInversa } from "./components/funcoes-cientificas-basicas";
+import { $apotemaDeUmTrianguloQualquer, $areaCilindroQualquer, $areaCirculoQualquer, $areaCircunferenciaQualquer, $areaConeQualquer, $areaDeUmaSuperficieQualquer, $areaDeUmParalelogramoQualquer, $areaDeUmPoligonoQualquer, $areaElipseQualquer, $areaEsferaQualquer, $areaLateralDeUmPrismaQualquer, $areaLozangoQualquer, $areaPiramideQualquer, $areaQuadradoQualquer, $areaRetanguloQualquer, $areaTrapezioQualquer, $areaTrianguloQualquer, $volumeDeUmaSuperficieQualquer, $volumeDeUmCilindroQualquer, $volumeDeUmConeQualquer, $volumeDeUmCuboQualquer, $volumeDeUmDodecaedroQualquer, $volumeDeUmEsferaQualquer, $volumeDeUmIcosaedroQualquer, $volumeDeUmOctaedroQualquer, $volumeDeUmParalelepipedoQualquer, $volumeDeUmPiramideQualquer, $volumeDeUmPoligonoFormatoLozangoQualquer, $volumeDeUmPoligonoFormatoTrapezioQualquer, $volumeDeUmPrismaQualquer, $volumeDeUmRombQualquer, $volumeDeUmTetraedroQualquer } from "./components/funcoes-geometricas";
 
 export const rcalcCore = {
 
@@ -319,9 +321,331 @@ export const rcalcCore = {
 
     },
 
-    geometricas: { },
+    geometricas: {
 
-    algebricos: { },
+      areaQuadradoQualquer: $areaQuadradoQualquer,
+
+      areaTrianguloQualquer: $areaTrianguloQualquer,
+
+      apotemaDeUmTrianguloQualquer: $apotemaDeUmTrianguloQualquer,
+
+      areaRetanguloQualquer: $areaRetanguloQualquer,
+
+      areaCirculoQualquer: $areaCirculoQualquer,
+
+      areaElipseQualquer: $areaElipseQualquer,
+
+      areaPiramideQualquer: $areaPiramideQualquer,
+
+      areaTrapezioQualquer: $areaTrapezioQualquer,
+
+      areaLozangoQualquer: $areaLozangoQualquer,
+
+      areaDeUmaSuperficieQualquer: $areaDeUmaSuperficieQualquer,
+
+      volumeDeUmaSuperficieQualquer: $volumeDeUmaSuperficieQualquer,
+
+      areaEsferaQualquer: $areaEsferaQualquer,
+
+      areaCilindroQualquer: $areaCilindroQualquer,
+
+      areaConeQualquer: $areaConeQualquer,
+
+      areaDeUmPoligonoQualquer: $areaDeUmPoligonoQualquer,
+
+      volumeDeUmPoligonoFormatoLozangoQualquer: $volumeDeUmPoligonoFormatoLozangoQualquer,
+
+      volumeDeUmPoligonoFormatoTrapezioQualquer: $volumeDeUmPoligonoFormatoTrapezioQualquer,
+
+      areaDeUmParalelogramoQualquer: $areaDeUmParalelogramoQualquer,
+
+      areaLateralDeUmPrismaQualquer: $areaLateralDeUmPrismaQualquer,
+
+      volumeDeUmPrismaQualquer: $volumeDeUmPrismaQualquer,
+
+      volumeDeUmCuboQualquer: $volumeDeUmCuboQualquer,
+
+      volumeDeUmParalelepipedoQualquer: $volumeDeUmParalelepipedoQualquer,
+
+      volumeDeUmPiramideQualquer: $volumeDeUmPiramideQualquer,
+
+      volumeDeUmTetraedroQualquer: $volumeDeUmTetraedroQualquer,
+
+      volumeDeUmOctaedroQualquer: $volumeDeUmOctaedroQualquer,
+
+      volumeDeUmDodecaedroQualquer: $volumeDeUmDodecaedroQualquer,
+
+      volumeDeUmIcosaedroQualquer: $volumeDeUmIcosaedroQualquer,
+
+      volumeDeUmConeQualquer: $volumeDeUmConeQualquer,
+
+      volumeDeUmCilindroQualquer: $volumeDeUmCilindroQualquer,
+
+      volumeDeUmEsferaQualquer: $volumeDeUmEsferaQualquer,
+
+      volumeDeUmRombQualquer: $volumeDeUmRombQualquer,
+
+      areaCircunferenciaQualquer: $areaCircunferenciaQualquer
+
+    },
+
+    algebricos: {
+
+      formulaDeGirard: $formulaDeGirard,
+
+      calculoDoTeoremaDeTalesDeMileto: $calculoDoTeoremaDeTalesDeMileto,
+
+      calculoDoTeoremaDePitagoras: $calculoDoTeoremaDePitagoras,
+
+      calculoDaRelacaoPitagoricaT1: $calculoDaRelacaoPitagoricaT1,
+      
+      calculoDaRelacaoPitagoricaT2: $calculoDaRelacaoPitagoricaT2,
+
+      calculoDaRelacaoPitagoricaT3: $calculoDaRelacaoPitagoricaT3,
+
+      calculoDoFatorial: $calculoDoFatorial,
+
+      calculoDaCombinacao: $calculoDaCombinacao,
+
+      calculoDoArranjo: $calculoDoArranjo,
+
+      calculoDaProbabilidade: $calculoDaProbabilidade,
+
+      calculoDoConjugadoDeUmNumeroComplexo: $calculoDoConjugadoDeUmNumeroComplexo,
+
+      calculoDoTeoremaDeStirling: $calculoDoTeoremaDeStirling,
+
+      calculoDaRelacaoDeEuler: $calculoDaRelacaoDeEuler,
+
+      calculoDasPotenciasDeI: $calculoDasPotenciasDeI,
+
+      calculoDaPorcentagem: $calculoDaPorcentagem,
+
+      calculoDaDeterminante2x2: $calculoDaDeterminante2x2,
+
+      calculoDaDeterminante3x3: $calculoDaDeterminante3x3,
+
+      somaPolinomios: $somaPolinomios,
+
+      subtracaoPolinomios: $subtracaoPolinomios,
+
+      multiplicacaoPolinomios: $multiplicacaoPolinomios,
+
+      divisaoPolinomios: $divisaoPolinomios,
+
+      somaMatrizes: $somaMatrizes,
+
+      subtracaoMatrizes: $subtracaoMatrizes,
+
+      multiplicacaoMatrizes: $multiplicacaoMatrizes,
+
+      divisaoMatrizes: $divisaoMatrizes,
+
+      calculoDaVelocidade: $calculoDaVelocidade,
+
+      calculoDoEspaco: $calculoDoEspaco,
+
+      calculoDoTempo: $calculoDoTempo,
+
+      calculoDaAceleracao: $calculoDaAceleracao,
+
+      calculoDaEqHorariaDoTempo: $calculoDaEqHorariaDoTempo,
+
+      calculoDaEqHorariaDoEspaco: $calculoDaEqHorariaDoEspaco,
+
+      calculoDaEqHorariaDaVelocidade: $calculoDaEqHorariaDaVelocidade,
+
+      calculoDaEqHorariaDaAceleracao: $calculoDaEqHorariaDaAceleracao,
+
+      calculoDaEqHorariaDaForca: $calculoDaEqHorariaDaForca,
+
+      calculoDaEqHorariaDoTempoEspaco: $calculoDaEqHorariaDoTempoEspaco,
+
+      calculoDaEnergiaCinetica: $calculoDaEnergiaCinetica,
+
+      calculoDaEnergiaPotencialElastica: $calculoDaEnergiaPotencialElastica,
+
+      calculoDaEnergiaPotencialGravitacional: $calculoDaEnergiaPotencialGravitacional,
+
+      calculoDoPotencialMecanico: $calculoDoPotencialMecanico,
+
+      calculoDoPotencialElastico: $calculoDoPotencialElastico,
+
+      calculoDoPlanoInclinadoSemAtrito: $calculoDoPlanoInclinadoSemAtrito,
+
+      calculoDoPlanoInclinadoComAtrito: $calculoDoPlanoInclinadoComAtrito,
+
+      calculoDaAceleracaoNoPlanoInclinadoEixoX: $calculoDaAceleracaoNoPlanoInclinadoEixoX,
+
+      calculoDaAceleracaoNoPlanoInclinadoEixoY: $calculoDaAceleracaoNoPlanoInclinadoEixoY,
+
+      calculoDoLancamentoHorizontal: $calculoDoLancamentoHorizontal,
+
+      calculoDaEquacaoDeTorricelli: $calculoDaEquacaoDeTorricelli,
+
+      calculoDaAlturaMaximaDeUmLancamentoVertical: $calculoDaAlturaMaximaDeUmLancamentoVertical,
+
+      calculoDoAlcanceDeUmLancamentoVertical: $calculoDoAlcanceDeUmLancamentoVertical,
+
+      calculoDoAlcanceMaximoDeUmLancamentoVertical: $calculoDoAlcanceMaximoDeUmLancamentoVertical,
+
+      calculoDoCalorSensivel: $calculoDoCalorSensivel,
+
+      calculoDoCalorLatente: $calculoDoCalorLatente,
+
+      calculoDasLeisDeNewton: $calculoDasLeisDeNewton,
+
+      calculoDoTrabalho: $calculoDoTrabalho,
+
+      calculoDoConsumoDeEnergia: $calculoDoConsumoDeEnergia,
+
+      calculoDoTeoremaDePascal: $calculoDoTeoremaDePascal,
+
+      calculoDoTeoremaDeStevin: $calculoDoTeoremaDeStevin,
+
+      calculoDoTeoremaDeBoltzmann: $calculoDoTeoremaDeBoltzmann,
+
+      calculoDoTeoremaDeCoulomb: $calculoDoTeoremaDeCoulomb,
+
+      calculoDoTeoremaDePlanck: $calculoDoTeoremaDePlanck,
+
+      calculoDaForcaGravitacional: $calculoDaForcaGravitacional,
+
+      calculoDoAceleracaoCentripetaMovimentoCircularUniforme: $calculoDoAceleracaoCentripetaMovimentoCircularUniforme,
+
+      calculoDoVelocidadeAngularMovimentoCircularUniforme: $calculoDoVelocidadeAngularMovimentoCircularUniforme,
+
+      calculoDoVelocidadeLinearMovimentoCircularUniforme: $calculoDoVelocidadeLinearMovimentoCircularUniforme,
+
+      calculoDaEquacaoHorariaDoTempoMovimentoCircularUnifVariado: $calculoDaEquacaoHorariaDoTempoMovimentoCircularUnifVariado,
+
+      calculoDeToricelliMovimentoCircularUnifVariado: $calculoDeToricelliMovimentoCircularUnifVariado,
+
+      calculoDaAceleracaoAngularMovimentoCircularUnifVariado: $calculoDaAceleracaoAngularMovimentoCircularUnifVariado,
+
+      calculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples: $calculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples,
+
+      calculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples: $calculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples,
+
+      calculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples: $calculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples,
+
+      calculoDoPeriodo: $calculoDoPeriodo,
+
+      calculoDaFrequencia: $calculoDaFrequencia,
+
+      calculoDaTemperatura: $calculoDaTemperatura,
+
+      calculoDaDilatacaoLinear: $calculoDaDilatacaoLinear,
+
+      calculoDaDilatacaoSuperficial: $calculoDaDilatacaoSuperficial,
+
+      calculoDaDilatacaoVolumetrica: $calculoDaDilatacaoVolumetrica,
+
+      calculoDoPrincipioFundamentalDaHidroestaticaHidrodinamica: $calculoDoPrincipioFundamentalDaHidroestaticaHidrodinamica,
+
+      calculoDoEmpuxoDaHidroestaticaHidrodinamica: $calculoDoEmpuxoDaHidroestaticaHidrodinamica,
+
+      calculoDoPesoAparenteDaHidroestaticaHidrodinamica: $calculoDoPesoAparenteDaHidroestaticaHidrodinamica,
+
+      calculoDaEquacaoDeLagrange: $calculoDaEquacaoDeLagrange,
+      
+      calculoDoAtrito: $calculoDoAtrito,
+
+      calculoDaLeiDeCoulomb: $calculoDaLeiDeCoulomb,
+
+      calculoDaLeiDeOhm: $calculoDaLeiDeOhm,
+
+      calculoDoEfeitoJoule: $calculoDoEfeitoJoule,
+
+      calculoDaLeiDeLenz: $calculoDaLeiDeLenz,
+
+      calculoDaForcaEletromotriz: $calculoDaForcaEletromotriz,
+
+      calculoDaContraForcaEletromotriz: $calculoDaContraForcaEletromotriz,
+
+      calculoDoEfeitoFotoeletrico: $calculoDoEfeitoFotoeletrico,
+
+      calculoDaDensidade: $calculoDaDensidade,
+
+      calculoDaTitulacao: $calculoDaTitulacao,
+
+      calculoDaConcentracao: $calculoDaConcentracao,
+
+      calculoDoRendimento: $calculoDoRendimento,
+
+      calculoDaLeiGeralDosGases: $calculoDaLeiGeralDosGases,
+
+      regraDeTresSimples: $regraDeTresSimples,
+
+      regraDeTresComposta: $regraDeTresComposta,
+
+      sistemaDeEquacoes: $sistemaDeEquacoes,
+
+      sistemaDeInequacoes: $sistemaDeInequacoes,
+
+      sistemasLineares: $sistemasLineares,
+
+      somaNumerosComplexos: $somaNumerosComplexos,
+
+      subtracaoNumerosComplexos: $subtracaoNumerosComplexos,
+
+      multiplicacaoNumerosComplexos: $multiplicacaoNumerosComplexos,
+
+      divisaoNumerosComplexos: $divisaoNumerosComplexos,
+
+      potenciaNumerosComplexos: $potenciaNumerosComplexos,
+
+      jurosSimples: $jurosSimples,
+
+      jurosCompostos: $jurosCompostos,
+
+      vetorDaDistanciaEntreDoisPontosR2: $vetorDaDistanciaEntreDoisPontosR2,
+
+      vetorDaDistanciaEntreDoisPontosR3: $vetorDaDistanciaEntreDoisPontosR3,
+
+      moduloDeUmVetorR2: $moduloDeUmVetorR2,
+
+      moduloDeUmVetorR3: $moduloDeUmVetorR3,
+
+      versorDeUmVetorR2: $versorDeUmVetorR2,
+
+      versorDeUmVetorR3: $versorDeUmVetorR3,
+
+      projecaoDeUmVetorSobreOutroVetorR2: $projecaoDeUmVetorSobreOutroVetorR2,
+
+      projecaoDeUmVetorSobreOutroVetorR3: $projecaoDeUmVetorSobreOutroVetorR3,
+
+      somaDeVetoresR2: $somaDeVetoresR2,
+
+      somaDeVetoresR3: $somaDeVetoresR3,
+
+      subtracaoDeVetoresR2: $subtracaoDeVetoresR2,
+
+      subtracaoDeVetoresR3: $subtracaoDeVetoresR3,
+
+      produtoEscalarDeVetoresR2: $produtoEscalarDeVetoresR2,
+
+      produtoEscalarDeVetoresR3: $produtoEscalarDeVetoresR3,
+
+      divisaoDeVetoresR2: $divisaoDeVetoresR2,
+
+      divisaoDeVetoresR3: $divisaoDeVetoresR3,
+
+      pontoMedioDeUmVetorR2: $pontoMedioDeUmVetorR2,
+
+      pontoMedioDeUmVetorR3: $pontoMedioDeUmVetorR3,
+
+      cossenosDiretoresDeUmVetorR2: $cossenosDiretoresDeUmVetorR2,
+
+      cossenosDiretoresDeUmVetorR3: $cossenosDiretoresDeUmVetorR3,
+
+      sinalizacaoQuadrantes: $sinalizacaoQuadrantes,
+
+      sinalizacaoOctantes: $sinalizacaoOctantes
+
+    },
+
+    conversoras: { },
     
     experimentais: { }
 

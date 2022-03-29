@@ -1,5 +1,6 @@
 import { dpassCore } from './imports/dpassApp/dpass-core';
 import { karzokCore } from './imports/karzokApp/karzok-core';
+import { ksansCore } from './imports/ksansApp/ksans-core';
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
 import { lydrocDecorationCore } from './imports/lydrocDecorationApp/lydroc-decoration-core';
 import { lydrocLabCore } from './imports/lydrocLabApp/lydroc-lab-core';
@@ -27,6 +28,8 @@ export const Wertsfy = {
       xcolorsAplicacao: { core: xcolorsCore },
       
       karzokAplicacao: { core: karzokCore },
+
+      ksansAplicacao: { core: ksansCore },
       
       stonnecuttAplicacao: { core: stonnecuttCore },
 

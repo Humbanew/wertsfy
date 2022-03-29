@@ -1,3 +1,12 @@
+import { Conversores } from "./@defines/conversores-conts";
+
+const conversoresAngularesPlanosChaves: Conversores.Chave = { chaves: [] };
+const conversoresAngularesPlanosFormulas: Conversores.Formula = { formulas: [] };
+const conversoresAngularesEsfericosChaves: Conversores.Chave = { chaves: [] };
+const conversoresAngularesEsfericosFormulas: Conversores.Formula = { formulas: [] };
+const conversoresComputacionaisChaves: Conversores.Chave = { chaves: [] };
+const conversoresComputacionaisFormulas: Conversores.Formula = { formulas: [] };
+
 
 // // Conversão de Bases
 // convBasesAngulares(valor = "", input = 0, output = 0) {

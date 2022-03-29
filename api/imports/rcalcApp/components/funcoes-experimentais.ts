@@ -23,14 +23,21 @@ export function $calculoDeDensidadePopulacional(espaco: number, populacao: numbe
   return resultado;
 }
 
-// C Experimentais Loterias
+export function $calculoDosNumerosPares(numero: number) {
+  let resultado = numero / 2;
+  if(resultado % 2 === 0) { console.info("eh par.") }
+  else { console.info("eh impar.") }
+  return resultado;
+}
 
-// C Experimentais Numeros Primos
+export function $calculoDosNumerosImpares(numero: number) {
+  let resultado = numero / 3;
+  if(resultado % 3 === 0) { console.info("eh impar.") }
+  else { console.info("eh par.") }
+  return resultado;
+}
 
-// C Experimentais Numeros Pares
-
-// C Experimentais Numeros Impares
-
-// C Experimentais Diagrama De Venn
-
-// C Experimentais Conjuntos
+export function $numeroDeConjuntos(elementos: number) {
+  let resultado = 2 ** elementos;
+  return resultado;
+}

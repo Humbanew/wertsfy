@@ -30,6 +30,22 @@ export const Wertsfy = {
       karzokAplicacao: { core: karzokCore },
 
       ksansAplicacao: { core: ksansCore },
+
+      kxswAplicacao: {  },
+
+      avaruaAplicacao: {  },
+
+      hopeAplicacao: {  },
+
+      yimageAplicacao: {  },
+
+      nikkoAplicacao: {  },
+
+      stractusAplicacao: {  },
+
+      sgmpAplicacao: {  },
+
+      eclypsusAplicacao: {  },
       
       stonnecuttAplicacao: { core: stonnecuttCore },
 

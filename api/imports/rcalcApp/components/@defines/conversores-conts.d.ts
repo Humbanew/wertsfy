@@ -1,7 +1,5 @@
 export declare namespace Conversores {
-  
-  export interface Chave { chaves: any[]; }
-  
-  export interface Formula { formulas: any[]; }
+
+  export interface Arquitetura { chaves: string | any[][], formulas: any[][][][][][] }
 
 }

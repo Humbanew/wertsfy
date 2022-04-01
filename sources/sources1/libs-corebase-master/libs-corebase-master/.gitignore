@@ -1,6 +1,0 @@
-obj
-*.log
-*.sum
-config.*
-CFBase.h
-*.tmp

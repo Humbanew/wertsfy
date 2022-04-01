@@ -1,4 +1,0 @@
-
-# Link tests with corebase library
-ADDITIONAL_OBJC_LIBS += -lgnustep-corebase
-ADDITIONAL_OBJCFLAGS = 

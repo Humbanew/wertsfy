@@ -1,3 +1,3 @@
 // # Algoritmo ainda "confuso" e em análise
-import { Conversores } from "./@defines/conversores-conts";
+import { CalculatorManifests } from "./@defines/calculator-manifests";
 

@@ -1,0 +1,12 @@
+export function $b() { const elemento = document.createElement('b'); return elemento; }
+export function $base() { const elemento = document.createElement('base'); return elemento; }
+export function $basefont() { const elemento = document.createElement('basefont'); return elemento; }
+export function $bdi() { const elemento = document.createElement('bdi'); return elemento; }
+export function $bdo() { const elemento = document.createElement('bdo'); return elemento; }
+export function $bgsound() { const elemento = document.createElement('bgsound'); return elemento; }
+export function $big() { const elemento = document.createElement('big'); return elemento; }
+export function $blink() { const elemento = document.createElement('blink'); return elemento; }
+export function $blockquote() { const elemento = document.createElement('blockquote'); return elemento; }
+export function $body() { const elemento = document.createElement('body'); return elemento; }
+export function $br() { const elemento = document.createElement('br'); return elemento; }
+export function $button() { const elemento = document.createElement('button'); return elemento; }

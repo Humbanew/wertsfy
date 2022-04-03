@@ -1,0 +1,15 @@
+{
+    "name": "humba/wertsfy-api",
+    "autoload": {
+        "psr-4": {
+            "Humba\\WertsfyApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Humberto Bravo",
+            "email": "humbandroid@gmail.com"
+        }
+    ],
+    "require": {}
+}

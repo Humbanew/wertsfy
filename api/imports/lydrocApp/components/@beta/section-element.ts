@@ -1,0 +1,1 @@
+export function $section () { const elemento = document.createElement('section'); return elemento; }

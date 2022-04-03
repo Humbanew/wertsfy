@@ -1,0 +1,1 @@
+export function $cite() { const elemento = document.createElement('cite'); return elemento; }

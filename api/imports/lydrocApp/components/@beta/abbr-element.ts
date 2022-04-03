@@ -1,0 +1,1 @@
+export function $abbr() { const elemento = document.createElement('abbr'); return elemento; }

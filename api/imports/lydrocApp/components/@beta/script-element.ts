@@ -1,0 +1,1 @@
+export function $script() { const elemento = document.createElement('script'); return elemento; }

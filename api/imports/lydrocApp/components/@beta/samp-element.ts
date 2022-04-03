@@ -1,0 +1,1 @@
+export function $samp() { const elemento = document.createElement('samp'); return elemento; }

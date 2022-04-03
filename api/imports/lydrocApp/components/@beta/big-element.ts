@@ -1,0 +1,1 @@
+export function $big() { const elemento = document.createElement('big'); return elemento; }

@@ -1,0 +1,1 @@
+export function $th() { const elemento = document.createElement('th'); return elemento; }

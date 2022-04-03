@@ -1,0 +1,1 @@
+export function $sup() { const elemento = document.createElement('sup'); return elemento; }

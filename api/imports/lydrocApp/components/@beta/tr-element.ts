@@ -1,0 +1,1 @@
+export function $tr() { const elemento = document.createElement('tr'); return elemento; }

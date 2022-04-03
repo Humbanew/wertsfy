@@ -1,0 +1,1 @@
+export function $dt() { const elemento = document.createElement('dt'); return elemento; }

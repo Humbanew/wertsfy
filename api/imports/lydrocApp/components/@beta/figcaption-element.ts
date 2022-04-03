@@ -1,0 +1,1 @@
+export function $figcaption() { const elemento = document.createElement('figcaption'); return elemento; }

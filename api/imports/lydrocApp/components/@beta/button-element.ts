@@ -1,0 +1,1 @@
+export function $button() { const elemento = document.createElement('button'); return elemento; }

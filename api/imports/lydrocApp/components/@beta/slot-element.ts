@@ -1,0 +1,1 @@
+export function $slot() { const elemento = document.createElement('slot'); return elemento; }

@@ -1,0 +1,1 @@
+export function $param() { const elemento = document.createElement('param'); return elemento; }

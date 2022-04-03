@@ -1,0 +1,17 @@
+export function $s() { const elemento = document.createElement('s'); return elemento; }
+export function $samp() { const elemento = document.createElement('samp'); return elemento; }
+export function $script() { const elemento = document.createElement('script'); return elemento; }
+export function $section() { const elemento = document.createElement('section'); return elemento; }
+export function $select() { const elemento = document.createElement('select'); return elemento; }
+export function $shadow() { const elemento = document.createElement('shadow'); return elemento; }
+export function $slot() { const elemento = document.createElement('slot'); return elemento; }
+export function $small() { const elemento = document.createElement('small'); return elemento; }
+export function $source() { const elemento = document.createElement('source'); return elemento; }
+export function $spacer() { const elemento = document.createElement('spacer'); return elemento; }
+export function $span() { const elemento = document.createElement('span'); return elemento; }
+export function $strike() { const elemento = document.createElement('strike'); return elemento; }
+export function $strong() { const elemento = document.createElement('strong'); return elemento; }
+export function $style() { const elemento = document.createElement('style'); return elemento; }
+export function $sub() { const elemento = document.createElement('sub'); return elemento; }
+export function $summary() { const elemento = document.createElement('summary'); return elemento; }
+export function $sup() { const elemento = document.createElement('sup'); return elemento; }

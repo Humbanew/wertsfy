@@ -1,0 +1,1 @@
+export function $style () { const elemento = document.createElement('style'); return elemento; }

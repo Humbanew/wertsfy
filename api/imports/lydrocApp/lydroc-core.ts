@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> ec17983e73420285f85b02eca30cd81dc4b21616
 import { $abbr, $acronym, $address, $anchor, $appconst, $area, $article, $aside, $audio } from './components/separadorAElements'
 import { $b, $base, $basefont, $bdi, $bdo, $bgsound, $big, $blink, $blockquote, $body, $br, $button } from './components/separadorBElements'
 import { $canvas, $caption, $center, $cite, $code, $col, $colgroup, $content } from './components/separadorCElements'
@@ -21,6 +24,7 @@ import { $u, $ul } from './components/separadorUElements'
 import { $var, $video } from './components/separadorVElements'
 import { $wbr } from './components/separadorWElements'
 import { $xmp } from './components/separadorXElements'
+<<<<<<< HEAD
 =======
 import { address } from "./components/address-element";
 import { article } from "./components/article-element";
@@ -45,6 +49,8 @@ import { section } from "./components/section-element";
 import { style } from "./components/style-element";
 import { title } from "./components/title-element";
 >>>>>>> Stashed changes
+=======
+>>>>>>> ec17983e73420285f85b02eca30cd81dc4b21616
 
 export const lydrocCore = {
 
@@ -58,6 +64,7 @@ export const lydrocCore = {
 
       address: $address,
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       anchor: $anchor,
 =======
@@ -99,6 +106,9 @@ export const lydrocCore = {
 
     
 >>>>>>> Stashed changes
+=======
+      anchor: $anchor,
+>>>>>>> ec17983e73420285f85b02eca30cd81dc4b21616
 
       appconst: $appconst,
 

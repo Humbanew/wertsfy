@@ -866,7 +866,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
           ""
         ]
       ] 
-      
     ],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],
     [
       [

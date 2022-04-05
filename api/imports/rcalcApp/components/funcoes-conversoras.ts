@@ -717,7 +717,7 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
         ]
       ]
     ],
-    [ //S voltar aqui #9999ff
+    [
       [
         "galao-liquido", 
         numero * 3.785411784, 
@@ -764,8 +764,108 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
           (numero / 8) / 1000,
           (numero * 8) * 1000,
           (numero / 8) * 1000
-        ], [], [], [], []
-      ], [], [] 
+        ], 
+        [
+          "galao-liquido-gills-estadunidenses",
+          numero * 32,
+          numero / 32
+        ], 
+        [
+          "galao-liquido-gills-estadunidenses-litro",
+          (numero * 32) / 1000,
+          (numero / 32) / 1000,
+          (numero * 32) * 1000,
+          (numero / 32) * 1000
+        ], 
+        [
+          "galao-liquido-oncas-liquidas-estadunidenses",
+          numero * 128,
+          numero / 128
+        ], 
+        [
+          "galao-liquido-oncas-liquidas-estadunidenses-litro",
+          (numero * 128) / 1000,
+          (numero / 128) / 1000,
+          (numero * 128) * 1000,
+          (numero / 128) * 1000
+        ]
+      ], 
+      [
+        "galao-seco",
+        numero * 4.40488377086,
+        numero / 4.40488377086,
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ]
+      ], 
+      [
+        "galao-imperial",
+        numero * 4.54609,
+        numero / 4.54609,
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ], 
+        [
+          ""
+        ]
+      ] 
     ],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],
     [
       [

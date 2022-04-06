@@ -795,37 +795,59 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
         numero * 4.40488377086,
         numero / 4.40488377086,
         [
-          ""
+          "galao-seco-litro",
+          (numero * 4.40488377086) / 1000,
+          (numero / 4.40488377086) / 1000,
+          (numero * 4.40488377086) * 1000,
+          (numero / 4.40488377086) * 1000
         ], 
         [
-          ""
+          "galao-seco-quartilhos",
+          numero * 8,
+          numero / 8
         ], 
         [
-          ""
+          "galao-seco-quartilhos-litro",
+          (numero * 8) / 1000,
+          (numero / 8) / 1000,
+          (numero * 8) * 1000,
+          (numero / 8) * 1000
         ], 
         [
-          ""
+          "galao-seco-quartos",
+          numero * 4,
+          numero / 4
         ], 
         [
-          ""
+          "galao-seco-quartos-litro",
+          (numero * 4) / 1000,
+          (numero / 4) / 1000,
+          (numero * 4) * 1000,
+          (numero / 4) * 1000
         ], 
         [
-          ""
+          "galao-seco-pecks",
+          numero * 0.5,
+          numero / 0.5
         ], 
         [
-          ""
+          "galao-seco-pecks-litro",
+          (numero * 0.5) / 1000,
+          (numero / 0.5) / 1000,
+          (numero * 0.5) * 1000,
+          (numero / 0.5) * 1000
         ], 
         [
-          ""
+          "galao-seco-bushels",
+          numero * 0.125,
+          numero * 0.125
         ], 
         [
-          ""
-        ], 
-        [
-          ""
-        ], 
-        [
-          ""
+          "galao-seco-bushels-litro",
+          (numero * 0.125) / 1000,
+          (numero / 0.125) / 1000,
+          (numero * 0.125) * 1000,
+          (numero / 0.125) * 1000
         ]
       ], 
       [
@@ -833,40 +855,89 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
         numero * 4.54609,
         numero / 4.54609,
         [
-          ""
+          "galao-imperial-litro",
+          (numero * 4.54609) / 1000,
+          (numero / 4.54609) / 1000,
+          (numero * 4.54609) * 1000,
+          (numero / 4.54609) * 1000
+        ],
+        [
+          "galao-imperial-barris-britanico",
         ], 
         [
-          ""
+          "galao-imperial-barris-britanico-litro",
         ], 
         [
-          ""
+          "galao-imperial-quartos-britanicos",
         ], 
         [
-          ""
+          "galao-imperial-quartos-britanicos-litro",
         ], 
         [
-          ""
+          "galao-imperial-quartilhos-britanicos",
         ], 
         [
-          ""
+          "galao-imperial-quartilhos-britanicos-litro",
         ], 
         [
-          ""
+          "galao-imperial-gills-britanicos",
         ], 
         [
-          ""
+          "galao-imperial-gills-britanicos-litro",
         ], 
         [
-          ""
+          "galao-imperial-oncas-liquidas-britanicas",
         ], 
         [
-          ""
-        ], 
-        [
-          ""
+          "galao-imperial-oncas-liquidas-britanicas-litro",
         ]
       ] 
-    ],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],[[]],
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
+    [
+      []
+    ],
     [
       [
         "decimetro³", 

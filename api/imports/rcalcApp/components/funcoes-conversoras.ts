@@ -526,24 +526,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
               (numero / 6.7) / 2, 
               (numero * 6.7) * 2, 
               (numero / 6.7) * 2
-            ],
-            [
-              "almude-condadoPortucalense-litro", 
-              (numero * 6.7) / 1000, 
-              (numero / 6.7) / 1000, 
-              (numero * 6.7) * 1000, 
-              (numero / 6.7) * 1000
-            ],
-            [
-              "almude-condadoPortucalense-alqueire-litro", 
-              ((numero * 6.7) * 2) / 1000, 
-              ((numero * 6.7) / 2) / 1000, 
-              ((numero * 6.7) * 2) * 1000, 
-              ((numero * 6.7) / 2) * 1000,
-              ((numero / 6.7) * 2) / 1000,
-              ((numero / 6.7) / 2) / 1000,
-              ((numero / 6.7) * 2) * 1000,
-              ((numero / 6.7) / 2) * 1000
             ]
           ],
           [
@@ -556,24 +538,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
               (numero / 8.7) / 1,
               (numero * 8.7) * 1,
               (numero / 8.7) * 1
-            ],
-            [
-              "almude-domAfonsoHenriques-litro", 
-              (numero * 8.7) / 1000, 
-              (numero / 8.7) / 1000,
-              (numero * 8.7) * 1000,
-              (numero / 8.7) * 1000
-            ],
-            [
-              "almude-domAfonsoHenriques-alqueire-litro", 
-              ((numero * 8.7) * 1) / 1000, 
-              ((numero * 8.7) / 1) / 1000,
-              ((numero * 8.7) * 1) * 1000,
-              ((numero * 8.7) / 1) * 1000,
-              ((numero / 8.7) * 1) / 1000,
-              ((numero / 8.7) / 1) / 1000,
-              ((numero / 8.7) * 1) * 1000,
-              ((numero / 8.7) / 1) * 1000
             ]
           ],
           [
@@ -586,24 +550,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
               (numero / 19.7) / 2,
               (numero * 19.7) * 2,
               (numero / 19.7) * 2
-            ],
-            [
-              "almude-domPedroI-litro", 
-              (numero * 19.7) / 1000, 
-              (numero / 19.7) / 1000,
-              (numero * 19.7) * 1000,
-              (numero / 19.7) * 1000
-            ],
-            [
-              "almude-domPedroI-alqueire-litro", 
-              ((numero * 19.7) * 2) / 1000, 
-              ((numero * 19.7) / 2) / 1000,
-              ((numero * 19.7) * 2) * 1000,
-              ((numero * 19.7) / 2) * 1000,
-              ((numero / 19.7) * 2) / 1000,
-              ((numero / 19.7) / 2) / 1000,
-              ((numero / 19.7) * 2) * 1000,
-              ((numero / 19.7) / 2) * 1000
             ]
           ],
           [
@@ -616,24 +562,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
               (numero / 9.7) / 1,
               (numero * 9.7) * 1,
               (numero / 9.7) * 1
-            ],
-            [
-              "almude-domPedroII-litro", 
-              (numero * 9.7) / 1000, 
-              (numero / 9.7) / 1000,
-              (numero * 9.7) * 1000,
-              (numero / 9.7) * 1000
-            ],
-            [
-              "almude-domPedroII-alqueire-litro", 
-              ((numero * 9.7) * 1) / 1000,
-              ((numero * 9.7) / 1) / 1000,
-              ((numero * 9.7) * 1) * 1000,
-              ((numero * 9.7) / 1) * 1000,
-              ((numero / 9.7) * 1) / 1000,
-              ((numero / 9.7) / 1) / 1000,
-              ((numero / 9.7) * 1) * 1000,
-              ((numero / 9.7) / 1) * 1000
             ]
           ],
           [
@@ -646,73 +574,27 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
               (numero * 16.8) / 2,
               (numero / 16.8) * 2,
               (numero / 16.8) / 2
-            ],
-            [
-              "almude-domManuelI-litro", 
-              (numero * 16.8) * 1000, 
-              (numero * 16.8) / 1000,
-              (numero / 16.8) * 1000,
-              (numero / 16.8) / 1000
-            ],
-            [
-              "almude-domManuelI-alqueire-litro", 
-              ((numero * 16.8) * 2) / 1000, 
-              ((numero * 16.8) / 2) / 1000,
-              ((numero * 16.8) * 2) * 1000,
-              ((numero * 16.8) / 2) * 1000,
-              ((numero / 16.8) * 2) / 1000,
-              ((numero / 16.8) / 2) / 1000,
-              ((numero / 16.8) * 2) * 1000,
-              ((numero / 16.8) / 2) * 1000
             ]
           ],
           [
             "almude-conselhoSantoTirsoRioAve", 
             numero * 15, 
-            numero / 15,
-            [
-              "almude-conselhoSantoTirsoRioAve-litro", 
-              (numero * 15) * 1000, 
-              (numero * 15) / 1000,
-              (numero / 15) * 1000,
-              (numero / 15) / 1000
-            ]
+            numero / 15
           ],
           [
             "almude-conselhoSantoTirsoValeDoLeca", 
             numero * 25, 
-            numero / 25,
-            [
-              "almude-conselhoSantoTirsoValeDoLeca-litro", 
-              (numero * 25) * 1000, 
-              (numero * 25) / 1000,
-              (numero / 25) * 1000,
-              (numero / 25) / 1000
-            ]
+            numero / 25
           ],
           [
             "almude-coimbra-vinho", 
             numero * 20, 
-            numero / 20,
-            [
-              "almude-coimbra-vinho-litro", 
-              (numero * 20) * 1000, 
-              (numero * 20) / 1000,
-              (numero / 20) * 1000,
-              (numero / 20) / 1000
-            ]
+            numero / 20
           ],
           [
             "almude-coimbra-azeite", 
             numero * 10, 
-            numero / 10,
-            [
-              "almude-coimbra-azeite-litro", 
-              (numero * 10) / 1000, 
-              (numero / 10) / 1000,
-              (numero * 10) * 1000,
-              (numero / 10) * 1000
-            ]
+            numero / 10
           ]
         ]
       ]
@@ -723,23 +605,9 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
         numero * 3.785411784, 
         numero / 3.785411784,
         [
-          "galao-liquido-litro", 
-          (numero * 3.785411784) / 1000, 
-          (numero / 3.785411784) / 1000,
-          (numero * 3.785411784) * 1000,
-          (numero / 3.785411784) * 1000
-        ],
-        [
           "galao-liquido-barris-estadunidenses", 
           numero * 0.0238095238095240, 
           numero / 0.0238095238095240
-        ],
-        [
-          "galao-liquido-barris-estadunidenses-litro", 
-          (numero * 0.0238095238095240) / 1000, 
-          (numero / 0.0238095238095240) / 1000,
-          (numero * 0.0238095238095240) * 1000,
-          (numero / 0.0238095238095240) * 1000
         ],
         [
           "galao-liquido-quartos-estadunidenses", 
@@ -747,47 +615,19 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
           numero / 4
         ],
         [
-          "galao-liquido-quartos-estadunidenses-litro", 
-          (numero * 4) / 1000, 
-          (numero / 4) / 1000,
-          (numero * 4) * 1000,
-          (numero / 4) * 1000
-        ],
-        [
           "galao-liquido-quartilhos-estadunidenses", 
           numero * 8, 
           numero / 8
-        ],
-        [
-          "galao-liquido-quartilhos-estadunidenses-litro", 
-          (numero * 8) / 1000, 
-          (numero / 8) / 1000,
-          (numero * 8) * 1000,
-          (numero / 8) * 1000
         ], 
         [
           "galao-liquido-gills-estadunidenses",
           numero * 32,
           numero / 32
-        ], 
-        [
-          "galao-liquido-gills-estadunidenses-litro",
-          (numero * 32) / 1000,
-          (numero / 32) / 1000,
-          (numero * 32) * 1000,
-          (numero / 32) * 1000
-        ], 
+        ],  
         [
           "galao-liquido-oncas-liquidas-estadunidenses",
           numero * 128,
           numero / 128
-        ], 
-        [
-          "galao-liquido-oncas-liquidas-estadunidenses-litro",
-          (numero * 128) / 1000,
-          (numero / 128) / 1000,
-          (numero * 128) * 1000,
-          (numero / 128) * 1000
         ]
       ], 
       [
@@ -795,35 +635,14 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
         numero * 4.40488377086,
         numero / 4.40488377086,
         [
-          "galao-seco-litro",
-          (numero * 4.40488377086) / 1000,
-          (numero / 4.40488377086) / 1000,
-          (numero * 4.40488377086) * 1000,
-          (numero / 4.40488377086) * 1000
-        ], 
-        [
           "galao-seco-quartilhos",
           numero * 8,
           numero / 8
-        ], 
-        [
-          "galao-seco-quartilhos-litro",
-          (numero * 8) / 1000,
-          (numero / 8) / 1000,
-          (numero * 8) * 1000,
-          (numero / 8) * 1000
-        ], 
+        ],  
         [
           "galao-seco-quartos",
           numero * 4,
           numero / 4
-        ], 
-        [
-          "galao-seco-quartos-litro",
-          (numero * 4) / 1000,
-          (numero / 4) / 1000,
-          (numero * 4) * 1000,
-          (numero / 4) * 1000
         ], 
         [
           "galao-seco-pecks",
@@ -831,112 +650,53 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
           numero / 0.5
         ], 
         [
-          "galao-seco-pecks-litro",
-          (numero * 0.5) / 1000,
-          (numero / 0.5) / 1000,
-          (numero * 0.5) * 1000,
-          (numero / 0.5) * 1000
-        ], 
-        [
           "galao-seco-bushels",
           numero * 0.125,
           numero * 0.125
         ], 
-        [
-          "galao-seco-bushels-litro",
-          (numero * 0.125) / 1000,
-          (numero / 0.125) / 1000,
-          (numero * 0.125) * 1000,
-          (numero / 0.125) * 1000
-        ]
       ], 
       [
         "galao-imperial",
         numero * 4.54609,
         numero / 4.54609,
         [
-          "galao-imperial-litro",
-          (numero * 4.54609) / 1000,
-          (numero / 4.54609) / 1000,
-          (numero * 4.54609) * 1000,
-          (numero / 4.54609) * 1000
-        ],
-        [
           "galao-imperial-barris-britanico",
-        ], 
-        [
-          "galao-imperial-barris-britanico-litro",
+          numero * 0.0285714285714286,
+          numero / 0.0285714285714286
         ], 
         [
           "galao-imperial-quartos-britanicos",
-        ], 
-        [
-          "galao-imperial-quartos-britanicos-litro",
+          numero * 4,
+          numero / 4
         ], 
         [
           "galao-imperial-quartilhos-britanicos",
-        ], 
-        [
-          "galao-imperial-quartilhos-britanicos-litro",
-        ], 
+          numero * 8,
+          numero / 8
+        ],  
         [
           "galao-imperial-gills-britanicos",
-        ], 
-        [
-          "galao-imperial-gills-britanicos-litro",
-        ], 
+          numero * 32,
+          numero / 32
+        ],
         [
           "galao-imperial-oncas-liquidas-britanicas",
-        ], 
-        [
-          "galao-imperial-oncas-liquidas-britanicas-litro",
+          numero * 160,
+          numero / 160
         ]
       ] 
+    ], 
+    [
+      [
+        "quarto-imperial-britanico",
+        [],[],[],[],[],
+      ]
     ],
     [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
-    ],
-    [
-      []
+      [
+        "quarto-estadunidense",
+        [],[],[],[],[],
+      ]
     ],
     [
       [
@@ -1140,7 +900,7 @@ const Conversores4Dimensoes: CalculatorManifests.Arquitetura = {
         numero / 10 ** 24, 
         numero * 10 ** 24
       ],
-    ],
+    ]
   ]
 }
 
@@ -1212,7 +972,7 @@ const Conversores5Dimensoes: CalculatorManifests.Arquitetura = {
         numero / 10 ** 24, 
         numero * 10 ** 24
       ],
-    ],
+    ]
   ]
 }
 
@@ -1284,12 +1044,95 @@ const Conversores6Dimensoes: CalculatorManifests.Arquitetura = {
         numero / 10 ** 24, 
         numero * 10 ** 24
       ],
-    ],
+    ]
   ]
 }
 
 const ConversoresMassa: CalculatorManifests.Arquitetura = {
-  chaves: []
+  chaves: [
+    [
+      [
+        "grama"
+      ],
+    ],
+    [
+      [
+        "decigrama",
+        "decâgrama",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centigrama",
+        "hectôgrama",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miligrama",
+        "quilôgrama",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "micrograma",
+        "megagrama",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanograma",
+        "gigagrama",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picograma",
+        "teragrama",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtograma",
+        "petagrama",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attograma",
+        "exagrama",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptograma",
+        "zetagrama",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctograma",
+        "iotagrama",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ],
+    [
+      [
+        "stone",
+        numero * 6.35029318,
+        numero / 6.35029318,
+        [
+          "stone-grama",
+          (numero * 6.35029318) / 1000,
+          (numero / 6.35029318) / 1000,
+          (numero * 6.35029318) * 1000,
+          (numero / 6.35029318) * 1000
+        ],
+        [],[],[],[],[],[],[],[],[]
+      ]
+    ]
+  ]
 };
 
 const ConversoresTemperatura: CalculatorManifests.Arquitetura = {

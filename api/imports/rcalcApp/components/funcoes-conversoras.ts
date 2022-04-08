@@ -465,241 +465,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
     ],
     [
       [
-        "tonel", 
-        numero * 957.6, 
-        numero / 957.6, 
-        [
-          "tonel-litro", 
-          (numero * 957.6) / 1000, 
-          (numero / 957.6) / 1000, 
-          (numero * 957.6) * 1000, 
-          (numero / 957.6) * 1000
-        ]
-      ],
-    ],
-    [
-      [
-        "pipa", 
-        numero * 550, 
-        numero / 550, 
-        [
-          "pipa-litro", 
-          (numero * 550) / 1000, 
-          (numero / 550) / 1000, 
-          (numero * 550) * 1000, 
-          (numero / 550) * 1000
-        ]
-      ],
-    ],
-    [
-      [
-        "almude", 
-        numero * 1.05, 
-        numero / 1.05, 
-        [
-          "almude-litro", 
-          (numero * 1.05) / 1000, 
-          (numero / 1.05) / 1000, 
-          (numero * 1.05) * 1000, 
-          (numero / 1.05) * 1000
-        ],
-        [
-          [
-            "almude-arabe", 
-            numero * 0.7, 
-            numero / 0.7,
-            [
-              "almude-arabe-litro", 
-              (numero * 0.7) / 1000, 
-              (numero / 0.7) / 1000, 
-              (numero * 0.7) * 1000, 
-              (numero / 0.7) * 1000
-            ]
-          ],
-          [
-            "almude-condadoPortucalense", 
-            numero * 6.7, 
-            numero / 6.7,
-            [
-              "almude-condadoPortucalense-alqueire", 
-              (numero * 6.7) / 2, 
-              (numero / 6.7) / 2, 
-              (numero * 6.7) * 2, 
-              (numero / 6.7) * 2
-            ]
-          ],
-          [
-            "almude-domAfonsoHenriques", 
-            numero * 8.7, 
-            numero / 8.7,
-            [
-              "almude-domAfonsoHenriques-alqueire",
-              (numero * 8.7) / 1, 
-              (numero / 8.7) / 1,
-              (numero * 8.7) * 1,
-              (numero / 8.7) * 1
-            ]
-          ],
-          [
-            "almude-domPedroI", 
-            numero * 19.7, 
-            numero / 19.7,
-            [
-              "almude-domPedroI-alqueire", 
-              (numero * 19.7) / 2, 
-              (numero / 19.7) / 2,
-              (numero * 19.7) * 2,
-              (numero / 19.7) * 2
-            ]
-          ],
-          [
-            "almude-domPedroII", 
-            numero * 9.7, 
-            numero / 9.7,
-            [
-              "almude-domPedroII-alqueire", 
-              (numero * 9.7) / 1, 
-              (numero / 9.7) / 1,
-              (numero * 9.7) * 1,
-              (numero / 9.7) * 1
-            ]
-          ],
-          [
-            "almude-domManuelI", 
-            numero * 16.8, 
-            numero / 16.8,
-            [
-              "almude-domManuelI-alqueire", 
-              (numero * 16.8) * 2, 
-              (numero * 16.8) / 2,
-              (numero / 16.8) * 2,
-              (numero / 16.8) / 2
-            ]
-          ],
-          [
-            "almude-conselhoSantoTirsoRioAve", 
-            numero * 15, 
-            numero / 15
-          ],
-          [
-            "almude-conselhoSantoTirsoValeDoLeca", 
-            numero * 25, 
-            numero / 25
-          ],
-          [
-            "almude-coimbra-vinho", 
-            numero * 20, 
-            numero / 20
-          ],
-          [
-            "almude-coimbra-azeite", 
-            numero * 10, 
-            numero / 10
-          ]
-        ]
-      ]
-    ],
-    [
-      [
-        "galao-liquido", 
-        numero * 3.785411784, 
-        numero / 3.785411784,
-        [
-          "galao-liquido-barris-estadunidenses", 
-          numero * 0.0238095238095240, 
-          numero / 0.0238095238095240
-        ],
-        [
-          "galao-liquido-quartos-estadunidenses", 
-          numero * 4, 
-          numero / 4
-        ],
-        [
-          "galao-liquido-quartilhos-estadunidenses", 
-          numero * 8, 
-          numero / 8
-        ], 
-        [
-          "galao-liquido-gills-estadunidenses",
-          numero * 32,
-          numero / 32
-        ],  
-        [
-          "galao-liquido-oncas-liquidas-estadunidenses",
-          numero * 128,
-          numero / 128
-        ]
-      ], 
-      [
-        "galao-seco",
-        numero * 4.40488377086,
-        numero / 4.40488377086,
-        [
-          "galao-seco-quartilhos",
-          numero * 8,
-          numero / 8
-        ],  
-        [
-          "galao-seco-quartos",
-          numero * 4,
-          numero / 4
-        ], 
-        [
-          "galao-seco-pecks",
-          numero * 0.5,
-          numero / 0.5
-        ], 
-        [
-          "galao-seco-bushels",
-          numero * 0.125,
-          numero * 0.125
-        ], 
-      ], 
-      [
-        "galao-imperial",
-        numero * 4.54609,
-        numero / 4.54609,
-        [
-          "galao-imperial-barris-britanico",
-          numero * 0.0285714285714286,
-          numero / 0.0285714285714286
-        ], 
-        [
-          "galao-imperial-quartos-britanicos",
-          numero * 4,
-          numero / 4
-        ], 
-        [
-          "galao-imperial-quartilhos-britanicos",
-          numero * 8,
-          numero / 8
-        ],  
-        [
-          "galao-imperial-gills-britanicos",
-          numero * 32,
-          numero / 32
-        ],
-        [
-          "galao-imperial-oncas-liquidas-britanicas",
-          numero * 160,
-          numero / 160
-        ]
-      ] 
-    ], 
-    [
-      [
-        "quarto-imperial-britanico",
-        [],[],[],[],[],
-      ]
-    ],
-    [
-      [
-        "quarto-estadunidense",
-        [],[],[],[],[],
-      ]
-    ],
-    [
-      [
         "decimetro³", 
         "decâmetro³", 
         numero / 10 ** 1, 
@@ -1117,61 +882,1149 @@ const ConversoresMassa: CalculatorManifests.Arquitetura = {
         numero * 10 ** 24
       ],
     ],
+  ]
+};
+
+const ConversoresTemperatura: CalculatorManifests.Arquitetura = {
+  chaves: [
+    
+  ]
+};
+
+const ConversoresVelocidade: CalculatorManifests.Arquitetura = {
+  chaves: [
+
+  ]
+};
+
+const ConversoresForca: CalculatorManifests.Arquitetura = {
+  chaves: [
     [
       [
-        "stone",
-        numero * 6.35029318,
-        numero / 6.35029318,
+        "newton"
+      ],
+    ],
+    [
+      [
+        "decinewton",
+        "decânewton",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centinewton",
+        "hectônewton",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milinewton",
+        "quilônewton",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "micronewton",
+        "meganewton",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanonewton",
+        "giganewton",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "piconewton",
+        "teranewton",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtonewton",
+        "petanewton",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attonewton",
+        "exanewton",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptonewton",
+        "zetanewton",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctonewton",
+        "iotanewton",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ],
+  ]
+};
+
+const ConversoresTempo: CalculatorManifests.Arquitetura = {
+  chaves: [
+
+  ]
+};
+
+const ConversoresQuantidade: CalculatorManifests.Arquitetura = {
+  chaves: [
+
+  ]
+};
+
+const ConversoresPressao: CalculatorManifests.Arquitetura = {
+  chaves: [
+
+  ]
+};
+
+const ConversoresSom: CalculatorManifests.Arquitetura = {
+  chaves: [
+
+  ]
+};
+
+const ConversoresLuz: CalculatorManifests.Arquitetura = {
+  chaves: [
+    [
+      [
+        "lux"
+      ],
+    ],
+    [
+      [
+        "decilux",
+        "decâlux",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centilux",
+        "hectôlux",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "mililux",
+        "quilôlux",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microlux",
+        "megalux",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanolux",
+        "gigalux",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picolux",
+        "teralux",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtolux",
+        "petalux",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attolux",
+        "exalux",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptolux",
+        "zetalux",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctolux",
+        "iotalux",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ],
+    [
+      [
         [
-          "stone-grama",
-          (numero * 6.35029318) / 1000,
-          (numero / 6.35029318) / 1000,
-          (numero * 6.35029318) * 1000,
-          (numero / 6.35029318) * 1000
+          "lumen"
         ],
-        [],[],[],[],[],[],[],[],[]
+      ],
+      [
+        [
+          "decilumen",
+          "decâlumen",
+          numero / 10 ** 1,
+          numero * 10 ** 1
+        ],
+        [
+          "centilumen",
+          "hectôlumen",
+          numero / 10 ** 2,
+          numero * 10 ** 2
+        ],
+        [
+          "mililumen",
+          "quilôlumen",
+          numero / 10 ** 3,
+          numero * 10 ** 3
+        ],
+        [
+          "microlumen",
+          "megalumen",
+          numero / 10 ** 6,
+          numero * 10 ** 6
+        ],
+        [
+          "nanolumen",
+          "gigalumen",
+          numero / 10 ** 9,
+          numero * 10 ** 9
+        ],
+        [
+          "picolumen",
+          "teralumen",
+          numero / 10 ** 12,
+          numero * 10 ** 12
+        ],
+        [
+          "femtolumen",
+          "petalumen",
+          numero / 10 ** 15,
+          numero * 10 ** 15
+        ],
+        [
+          "attolumen",
+          "exalumen",
+          numero / 10 ** 18,
+          numero * 10 ** 18
+        ],
+        [
+          "zeptolumen",
+          "zetalumen",
+          numero / 10 ** 21,
+          numero * 10 ** 21
+        ],
+        [
+          "yoctolumen",
+          "iotalumen",
+          numero / 10 ** 24,
+          numero * 10 ** 24
+        ],
+      ],
+    ]
+  ]
+};
+
+const ConversoresEnergia: CalculatorManifests.Arquitetura = {
+  chaves: [
+    [
+      "caloria",
+      numero * 4184,
+      numero / 4184
+    ],
+    [
+      "kiloCaloria",
+      numero * (4184 * 1000),
+      numero / (4184 * 1000) 
+    ],
+    [
+      [
+        "volt"
+      ],
+    ],
+    [
+      [
+        "decivolt",
+        "decâvolt",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centivolt",
+        "hectôvolt",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milivolt",
+        "quilôvolt",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microvolt",
+        "megavolt",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanovolt",
+        "gigavolt",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picovolt",
+        "teravolt",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtovolt",
+        "petavolt",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attovolt",
+        "exavolt",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptovolt",
+        "zetavolt",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctovolt",
+        "iotavolt",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "eletron-volt"
+      ],
+    ],
+    [
+      [
+        "decieletron-volt",
+        "decâeletron-volt",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centieletron-volt",
+        "hectôeletron-volt",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milieletron-volt",
+        "quilôeletron-volt",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microeletron-volt",
+        "megaeletron-volt",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanoeletron-volt",
+        "gigaeletron-volt",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picoeletron-volt",
+        "teraeletron-volt",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtoeletron-volt",
+        "petaeletron-volt",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attoeletron-volt",
+        "exaeletron-volt",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptoeletron-volt",
+        "zetaeletron-volt",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctoeletron-volt",
+        "iotaeletron-volt",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ],
+    [
+      [
+        "ampere"
+      ],
+    ],
+    [
+      [
+        "deciampere",
+        "decâampere",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centiampere",
+        "hectôampere",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miliampere",
+        "quilôampere",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microampere",
+        "megaampere",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanoampere",
+        "gigaampere",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picoampere",
+        "teraampere",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtoampere",
+        "petaampere",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attoampere",
+        "exaampere",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptoampere",
+        "zetaampere",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctoampere",
+        "iotaampere",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "farad"
+      ],
+    ],
+    [
+      [
+        "decifarad",
+        "decâfarad",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centifarad",
+        "hectôfarad",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milifarad",
+        "quilôfarad",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microfarad",
+        "megafarad",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanofarad",
+        "gigafarad",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picofarad",
+        "terafarad",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtofarad",
+        "petafarad",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attofarad",
+        "exafarad",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptofarad",
+        "zetafarad",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctofarad",
+        "iotafarad",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "joule"
+      ],
+    ],
+    [
+      [
+        "decijoule",
+        "decâjoule",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centijoule",
+        "hectôjoule",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milijoule",
+        "quilôjoule",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microjoule",
+        "megajoule",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanojoule",
+        "gigajoule",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picojoule",
+        "terajoule",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtojoule",
+        "petajoule",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attojoule",
+        "exajoule",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptojoule",
+        "zetajoule",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctojoule",
+        "iotajoule",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ],
+    [
+      "erg",
+      numero * 10 ** -7,
+      numero / 10 ** -7
+    ],
+    [
+      [
+        "gray"
+      ],
+    ],
+    [
+      [
+        "decigray",
+        "decâgray",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centigray",
+        "hectôgray",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miligray",
+        "quilôgray",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microgray",
+        "megagray",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanogray",
+        "gigagray",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picogray",
+        "teragray",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtogray",
+        "petagray",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attogray",
+        "exagray",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptogray",
+        "zetagray",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctogray",
+        "iotagray",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "henry"
+      ],
+    ],
+    [
+      [
+        "decihenry",
+        "decâhenry",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centihenry",
+        "hectôhenry",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milihenry",
+        "quilôhenry",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microhenry",
+        "megahenry",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanohenry",
+        "gigahenry",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picohenry",
+        "terahenry",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtohenry",
+        "petahenry",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attohenry",
+        "exahenry",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptohenry",
+        "zetahenry",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctohenry",
+        "iotahenry",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "watt"
+      ],
+    ],
+    [
+      [
+        "deciwatt",
+        "decâwatt",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centiwatt",
+        "hectôwatt",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miliwatt",
+        "quilôwatt",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microwatt",
+        "megawatt",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanowatt",
+        "gigawatt",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picowatt",
+        "terawatt",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtowatt",
+        "petawatt",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attowatt",
+        "exawatt",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptowatt",
+        "zetawatt",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctowatt",
+        "iotawatt",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "siemens"
+      ],
+    ],
+    [
+      [
+        "decisiemens",
+        "decâsiemens",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centisiemens",
+        "hectôsiemens",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milisiemens",
+        "quilôsiemens",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microsiemens",
+        "megasiemens",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanosiemens",
+        "gigasiemens",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picosiemens",
+        "terasiemens",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtosiemens",
+        "petasiemens",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attosiemens",
+        "exasiemens",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptosiemens",
+        "zetasiemens",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctosiemens",
+        "iotasiemens",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "ohm"
+      ],
+    ],
+    [
+      [
+        "deciohm",
+        "decâohm",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centiohm",
+        "hectôohm",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miliohm",
+        "quilôohm",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microohm",
+        "megaohm",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanoohm",
+        "gigaohm",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picoohm",
+        "teraohm",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtoohm",
+        "petaohm",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attoohm",
+        "exaohm",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptoohm",
+        "zetaohm",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctoohm",
+        "iotaohm",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "mho"
+      ],
+    ],
+    [
+      [
+        "decimho",
+        "decâmho",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centimho",
+        "hectômho",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milimho",
+        "quilômho",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "micromho",
+        "megamho",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanomho",
+        "gigamho",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picomho",
+        "teramho",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtomho",
+        "petamho",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attomho",
+        "examho",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptomho",
+        "zetamho",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctomho",
+        "iotamho",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ]
+    ],
+    [
+      [
+        "weber"
+      ],
+    ],
+    [
+      [
+        "deciweber",
+        "decâweber",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centiweber",
+        "hectôweber",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "miliweber",
+        "quilôweber",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "microweber",
+        "megaweber",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanoweber",
+        "gigaweber",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picoweber",
+        "teraweber",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtoweber",
+        "petaweber",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attoweber",
+        "exaweber",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptoweber",
+        "zetaweber",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctoweber",
+        "iotaweber",
+        numero / 10 ** 24,
+        numero * 10 ** 24
       ]
     ]
   ]
 };
 
-const ConversoresTemperatura: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresVelocidade: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresForca: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresTempo: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresQuantidade: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresPressao: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresSom: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresLuz: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
-const ConversoresEnergia: CalculatorManifests.Arquitetura = {
-  chaves: []
-};
-
 const ConversoresTech: CalculatorManifests.Arquitetura = {
-  chaves: []
+  chaves: [
+    [
+      "bits",
+      numero * 8,
+      numero / 8
+    ],
+    [
+      "bytes",
+      numero * 1024,
+      numero / 1024
+    ],
+    [
+      "kilobytes",
+      numero * 1024 ** 2,
+      numero / 1024 ** 2
+    ],
+    [
+      "megabytes",
+      numero * 1024 ** 3,
+      numero / 1024 ** 3
+    ],
+    [
+      "gigabytes",
+      numero * 1024 ** 4,
+      numero / 1024 ** 4
+    ],
+    [
+      "terabytes",
+      numero * 1024 ** 5,
+      numero / 1024 ** 5
+    ],
+    [
+      "petabytes",
+      numero * 1024 ** 6,
+      numero / 1024 ** 6
+    ],
+    [
+      "exabytes",
+      numero * 1024 ** 7,
+      numero / 1024 ** 7
+    ],
+    [
+      "zettabytes",
+      numero * 1024 ** 8,
+      numero / 1024 ** 8
+    ],
+    [
+      "yottabytes",
+      numero * 1024 ** 9,
+      numero / 1024 ** 9
+    ],
+    [
+      "brontobytes",
+      numero * 1024 ** 10,
+      numero / 1024 ** 10
+    ],
+    [
+      "geopbytes",
+      numero * 1024 ** 11,
+      numero / 1024 ** 11
+    ],
+    [
+      "jotabytes",
+      numero * 1024 ** 12,
+      numero / 1024 ** 12
+    ]
+  ]
 };
 

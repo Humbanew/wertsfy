@@ -3,9 +3,11 @@ import { karzokCore } from './imports/karzokApp/karzok-core';
 import { ksansCore } from './imports/ksansApp/ksans-core';
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
 import { lydrocDecorationCore } from './imports/lydrocDecorationApp/lydroc-decoration-core';
+import { lydrocDecorationPlusCore } from './imports/lydrocDecorationPlusApp/lydroc-decoration-plus-core';
 import { lydrocLabCore } from './imports/lydrocLabApp/lydroc-lab-core';
 import { lydrocPlusCore } from './imports/lydrocPlusApp/lydroc-plus-core';
 import { rcalcCore } from './imports/rcalcApp/rcalc-core';
+import { rcalcConversorCore } from './imports/rcalcConversorApp/rcalc-conversor-core';
 import { stonnecuttCore } from './imports/stonnecuttApp/stonnecutt-core';
 import { unoteCore } from './imports/unoteApp/unote-core';
 import { wcubeCore } from './imports/wcubeApp/wcube-core';
@@ -15,9 +17,7 @@ export const Wertsfy = {
 
   sessoes: {
 
-    toolsApisSessao: {
-      
-      rcalcAplicacao: { core: rcalcCore },
+    MoreApisSessao: {
       
       unoteAplicacao: { core: unoteCore },
       
@@ -51,6 +51,14 @@ export const Wertsfy = {
 
     },
 
+    calculatorApisSessao: {
+
+      rcalcAplicacao: { core: rcalcCore },
+
+      rcalcConversorAplicacao: { core: rcalcConversorCore },
+
+    },
+
     webConstructorApiSessao: {
 
       lydrocAplicacao: { core: lydrocCore },
@@ -61,7 +69,7 @@ export const Wertsfy = {
 
       lydrocDecorationAplicacao: { core: lydrocDecorationCore },
 
-      lydrocDecorationPlusAplicacao: { core: lydrocDecorationCore },
+      lydrocDecorationPlusAplicacao: { core: lydrocDecorationPlusCore },
 
     }
 

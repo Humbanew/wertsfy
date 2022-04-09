@@ -44,33 +44,313 @@ const EspectrosAmarelos: Espectros.espectroDeUmaCor = {
   ] 
 }
 
-const EspectrosCinzas: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosLaranjas: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosRoxos: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMarroms: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosPretos: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosBeges: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMagentas: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosAzuisClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosVermelhosClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosVerdesClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosRoxosClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosAmarelosClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosLaranjasClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMarromsClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosPretosClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosBegesClaros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMagentasClaras: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosAzuisEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosVermelhosEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosVerdesEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosRoxosEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosAmarelosEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosLaranjasEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMarromsEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosPretosEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosBegesEscuros: Espectros.espectroDeUmaCor = { cor: [] }
-const EspectrosMagentasEscuros: Espectros.espectroDeUmaCor = { cor: [] }
+const EspectrosCinzas: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#33333300"
+    ], 
+    [
+      "#33333311"
+    ], 
+    [
+      "#33333322"
+    ], 
+    [
+      "#33333333"
+    ], 
+    [
+      "#33333344"
+    ], 
+    [
+      "#33333355"
+    ], 
+    [
+      "#33333366"
+    ], 
+    [
+      "#33333377"
+    ],
+    [
+      "#33333388"
+    ], 
+    [
+      "#33333399"
+    ],
+    [
+      "#333333AA"
+    ],
+    [
+      "#333333BB"
+    ],
+    [
+      "#333333CC"
+    ]
+  ] 
+}
+
+const EspectrosLaranjas: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#FF990000"
+    ],
+    [
+      "#FF990011"
+    ],
+    [
+      "#FF990022"
+    ],
+    [
+      "#FF990033"
+    ],
+    [
+      "#FF990044"
+    ],
+    [
+      "#FF990055"
+    ],
+    [
+      "#FF990066"
+    ],
+    [
+      "#FF990077"
+    ],
+    [
+      "#FF990088"
+    ],
+    [
+      "#FF990099"
+    ],
+    [
+      "#FF9900AA"
+    ],
+    [
+      "#FF9900BB"
+    ],
+    [
+      "#FF9900CC"
+    ]
+  ] 
+}
+
+const EspectrosRoxos: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#66006600"
+    ],
+    [
+      "#66006611"
+    ],
+    [
+      "#66006622"
+    ],
+    [
+      "#66006633"
+    ],
+    [
+      "#66006644"
+    ],
+    [
+      "#66006655"
+    ],
+    [
+      "#66006666"
+    ],
+    [
+      "#66006677"
+    ],
+    [
+      "#66006688"
+    ],
+    [
+      "#66006699"
+    ],
+    [
+      "#660066AA"
+    ],
+    [
+      "#660066BB"
+    ],
+    [
+      "#660066CC"
+    ]
+  ] 
+}
+
+const EspectrosMarroms: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#99663300"
+    ],
+    [
+      "#99663311"
+    ],
+    [
+      "#99663322"
+    ],
+    [
+      "#99663333"
+    ],
+    [
+      "#99663344"
+    ],
+    [
+      "#99663355"
+    ],
+    [
+      "#99663366"
+    ],
+    [
+      "#99663377"
+    ],
+    [
+      "#99663388"
+    ],
+    [
+      "#99663399"
+    ],
+    [
+      "#996633AA"
+    ],
+    [
+      "#996633BB"
+    ],
+    [
+      "#996633CC"
+    ]
+  ] 
+}
+
+const EspectrosPretos: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#00000000"
+    ],
+    [
+      "#00000011"
+    ],
+    [
+      "#00000022"
+    ],
+    [
+      "#00000033"
+    ],
+    [
+      "#00000044"
+    ],
+    [
+      "#00000055"
+    ],
+    [
+      "#00000066"
+    ],
+    [
+      "#00000077"
+    ],
+    [
+      "#00000088"
+    ],
+    [
+      "#00000099"
+    ],
+    [
+      "#000000AA"
+    ],
+    [
+      "#000000BB"
+    ],
+    [
+      "#000000CC"
+    ]
+  ] 
+}
+
+const EspectrosBeges: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#FFFF9900"
+    ],
+    [
+      "#FFFF9911"
+    ],
+    [
+      "#FFFF9922"
+    ],
+    [
+      "#FFFF9933"
+    ],
+    [
+      "#FFFF9944"
+    ],
+    [
+      "#FFFF9955"
+    ],
+    [
+      "#FFFF9966"
+    ],
+    [
+      "#FFFF9977"
+    ],
+    [
+      "#FFFF9988"
+    ],
+    [
+      "#FFFF9999"
+    ],
+    [
+      "#FFFF99AA"
+    ],
+    [
+      "#FFFF99BB"
+    ],
+    [
+      "#FFFF99CC"
+    ]
+  ] 
+}
+
+const EspectrosMagentas: Espectros.espectroDeUmaCor = { 
+  cor: [
+    [
+      "#99006600"
+    ],
+    [
+      "#99006611"
+    ],
+    [
+      "#99006622"
+    ],
+    [
+      "#99006633"
+    ],
+    [
+      "#99006644"
+    ],
+    [
+      "#99006655"
+    ],
+    [
+      "#99006666"
+    ],
+    [
+      "#99006677"
+    ],
+    [
+      "#99006688"
+    ],
+    [
+      "#99006699"
+    ],
+    [
+      "#990066AA"
+    ],
+    [
+      "#990066BB"
+    ],
+    [
+      "#990066CC"
+    ]
+  ] 
+}
 
 
 export const xcolorsCore = {

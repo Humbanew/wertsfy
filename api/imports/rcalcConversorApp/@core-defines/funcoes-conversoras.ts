@@ -1,160 +1,14 @@
-import { CalculatorManifests } from "./@defines/calculator-manifests";
+import { CalculatorManifests } from "./calculator-manifests";
+
+import {} from "./conv-angulo-plano";
+import {} from "./conv-angulo-solido";
+import {} from "./conv-4dimensoes";
+import {} from "./conv-5dimensoes";
+import {} from "./conv-6dimensoes";
+import {} from "./conv-forca";
+import {} from "./conv-massa";
 
 const numero = 0;
-
-const ConversoresAnguloPlano: CalculatorManifests.Arquitetura = { 
-  chaves: [
-    [
-      [
-        "radiano", 
-        "grau", 
-        numero / 360, 
-        numero * 360, 
-        numero / 180, 
-        numero * 180
-      ], 
-    ],
-    [
-      [
-        "deciradiano", 
-        "decâradiano", 
-        numero / 10 ** 1, 
-        numero * 10 ** 1
-      ], 
-      [
-        "centiradiano", 
-        "hectôradiano", 
-        numero / 10 ** 2, 
-        numero * 10 ** 2
-      ], 
-      [
-        "miliradiano",
-        "quilôradiano", 
-        numero / 10 ** 3, 
-        numero * 10 ** 3
-      ], 
-      [
-        "microradiano", 
-        "megaradiano", 
-        numero / 10 ** 6, 
-        numero * 10 ** 6
-      ], 
-      [
-        "nanoradiano", 
-        "gigaradiano", 
-        numero / 10 ** 9, 
-        numero * 10 ** 9
-      ], 
-      [
-        "picoradiano", 
-        "teraradiano", 
-        numero / 10 ** 12, 
-        numero * 10 ** 12
-      ], 
-      [
-        "femtoradiano", 
-        "petaradiano", 
-        numero / 10 ** 15, 
-        numero * 10 ** 15
-      ], 
-      [
-        "attoradiano", 
-        "exaradiano", 
-        numero / 10 ** 18, 
-        numero * 10 ** 18
-      ], 
-      [
-        "zeptoradiano", 
-        "zetaradiano", 
-        numero / 10 ** 21, 
-        numero * 10 ** 21
-      ], 
-      [
-        "yoctoradiano", 
-        "iotaradiano", 
-        numero / 10 ** 24, 
-        numero * 10 ** 24
-      ],
-    ],
-  ] 
-};
-
-const ConversoresAnguloSolido: CalculatorManifests.Arquitetura = {
-  chaves: [
-    [
-      [
-        "esterradiano", 
-        "grau", 
-        numero / 360, 
-        numero * 360, 
-        numero / 180, 
-        numero * 180
-      ],
-    ],
-    [
-      [
-        "deciesterradiano",
-        "decâesterradiano", 
-        numero / 10 ** 1, 
-        numero * 10 ** 1
-      ],
-      [
-        "centiesterradiano",
-        "hectôesterradiano", 
-        numero / 10 ** 2, 
-        numero * 10 ** 2
-      ],
-      [
-        "miliesterradiano",
-        "quilôesterradiano", 
-        numero / 10 ** 3, 
-        numero * 10 ** 3
-      ],
-      [
-        "microesterradiano",
-        "megaesterradiano", 
-        numero / 10 ** 6, 
-        numero * 10 ** 6
-      ],
-      [
-        "nanoesterradiano", 
-        "gigaesterradiano", 
-        numero / 10 ** 9, 
-        numero * 10 ** 9
-      ],
-      [
-        "picoesterradiano",
-        "teraesterradiano",
-        numero / 10 ** 12, 
-        numero * 10 ** 12
-      ],
-      [
-        "femtoesterradiano", 
-        "petaesterradiano", 
-        numero / 10 ** 15, 
-        numero * 10 ** 15
-      ],
-      [
-        "attoesterradiano", 
-        "exaesterradiano", 
-        numero / 10 ** 18, 
-        numero * 10 ** 18
-      ],
-      [
-        "zeptoesterradiano", 
-        "zetaesterradiano", 
-        numero / 10 ** 21, 
-        numero * 10 ** 21
-      ],
-      [
-        "yoctoesterradiano",
-        "iotaesterradiano",
-        numero / 10 ** 24, 
-        numero * 10 ** 24
-      ],
-    ],
-  ]
-};
 
 const ConversoresComprimento: CalculatorManifests.Arquitetura = {
   chaves: [
@@ -597,294 +451,6 @@ const ConversoresVolume: CalculatorManifests.Arquitetura = {
   ]
 };
 
-const Conversores4Dimensoes: CalculatorManifests.Arquitetura = {
-    chaves: [
-    [
-      [
-        "metro⁴"
-      ],
-    ],
-    [
-      [
-        "decimetro⁴", 
-        "decâmetro⁴", 
-        numero / 10 ** 1, 
-        numero * 10 ** 1
-      ],
-      [
-        "centimetro⁴", 
-        "hectômetro⁴", 
-        numero / 10 ** 2, 
-        numero * 10 ** 2
-      ],
-      [
-        "milimetro⁴", 
-        "quilômetro⁴", 
-        numero / 10 ** 3, 
-        numero * 10 ** 3
-      ],
-      [
-        "micrometro⁴", 
-        "megametro⁴", 
-        numero / 10 ** 6, 
-        numero * 10 ** 6
-      ],
-      [
-        "nanometro⁴", 
-        "gigametro⁴", 
-        numero / 10 ** 9, 
-        numero * 10 ** 9
-      ],
-      [
-        "picometro⁴", 
-        "terametro⁴", 
-        numero / 10 ** 12, 
-        numero * 10 ** 12
-      ],
-      [
-        "femtometro⁴", 
-        "petametro⁴", 
-        numero / 10 ** 15, 
-        numero * 10 ** 15
-      ],
-      [
-        "attometro⁴", 
-        "exametro⁴", 
-        numero / 10 ** 18, 
-        numero * 10 ** 18
-      ],
-      [
-        "zeptometro⁴", 
-        "zetametro⁴", 
-        numero / 10 ** 21, 
-        numero * 10 ** 21
-      ],
-      [
-        "yoctometro⁴", 
-        "iotametro⁴", 
-        numero / 10 ** 24, 
-        numero * 10 ** 24
-      ],
-    ]
-  ]
-}
-
-const Conversores5Dimensoes: CalculatorManifests.Arquitetura = {
-    chaves: [
-    [
-      [
-        "metro⁵"
-      ],
-    ],
-    [
-      [
-        "decimetro⁵", 
-        "decâmetro⁵", 
-        numero / 10 ** 1, 
-        numero * 10 ** 1
-      ],
-      [
-        "centimetro⁵", 
-        "hectômetro⁵", 
-        numero / 10 ** 2, 
-        numero * 10 ** 2
-      ],
-      [
-        "milimetro⁵", 
-        "quilômetro⁵", 
-        numero / 10 ** 3, 
-        numero * 10 ** 3
-      ],
-      [
-        "micrometro⁵", 
-        "megametro⁵", 
-        numero / 10 ** 6, 
-        numero * 10 ** 6
-      ],
-      [
-        "nanometro⁵", 
-        "gigametro⁵", 
-        numero / 10 ** 9, 
-        numero * 10 ** 9
-      ],
-      [
-        "picometro⁵", 
-        "terametro⁵", 
-        numero / 10 ** 12, 
-        numero * 10 ** 12
-      ],
-      [
-        "femtometro⁵", 
-        "petametro⁵", 
-        numero / 10 ** 15, 
-        numero * 10 ** 15
-      ],
-      [
-        "attometro⁵", 
-        "exametro⁵", 
-        numero / 10 ** 18, 
-        numero * 10 ** 18
-      ],
-      [
-        "zeptometro⁵", 
-        "zetametro⁵", 
-        numero / 10 ** 21, 
-        numero * 10 ** 21
-      ],
-      [
-        "yoctometro⁵", 
-        "iotametro⁵", 
-        numero / 10 ** 24, 
-        numero * 10 ** 24
-      ],
-    ]
-  ]
-}
-
-const Conversores6Dimensoes: CalculatorManifests.Arquitetura = {
-    chaves: [
-    [
-      [
-        "metro⁶"
-      ],
-    ],
-    [
-      [
-        "decimetro⁶", 
-        "decâmetro⁶", 
-        numero / 10 ** 1, 
-        numero * 10 ** 1
-      ],
-      [
-        "centimetro⁶", 
-        "hectômetro⁶", 
-        numero / 10 ** 2, 
-        numero * 10 ** 2
-      ],
-      [
-        "milimetro⁶", 
-        "quilômetro⁶", 
-        numero / 10 ** 3, 
-        numero * 10 ** 3
-      ],
-      [
-        "micrometro⁶", 
-        "megametro⁶", 
-        numero / 10 ** 6, 
-        numero * 10 ** 6
-      ],
-      [
-        "nanometro⁶", 
-        "gigametro⁶", 
-        numero / 10 ** 9, 
-        numero * 10 ** 9
-      ],
-      [
-        "picometro⁶", 
-        "terametro⁶", 
-        numero / 10 ** 12, 
-        numero * 10 ** 12
-      ],
-      [
-        "femtometro⁶", 
-        "petametro⁶", 
-        numero / 10 ** 15, 
-        numero * 10 ** 15
-      ],
-      [
-        "attometro⁶", 
-        "exametro⁶", 
-        numero / 10 ** 18, 
-        numero * 10 ** 18
-      ],
-      [
-        "zeptometro⁶", 
-        "zetametro⁶", 
-        numero / 10 ** 21, 
-        numero * 10 ** 21
-      ],
-      [
-        "yoctometro⁶", 
-        "iotametro⁶", 
-        numero / 10 ** 24, 
-        numero * 10 ** 24
-      ],
-    ]
-  ]
-}
-
-const ConversoresMassa: CalculatorManifests.Arquitetura = {
-  chaves: [
-    [
-      [
-        "grama"
-      ],
-    ],
-    [
-      [
-        "decigrama",
-        "decâgrama",
-        numero / 10 ** 1,
-        numero * 10 ** 1
-      ],
-      [
-        "centigrama",
-        "hectôgrama",
-        numero / 10 ** 2,
-        numero * 10 ** 2
-      ],
-      [
-        "miligrama",
-        "quilôgrama",
-        numero / 10 ** 3,
-        numero * 10 ** 3
-      ],
-      [
-        "micrograma",
-        "megagrama",
-        numero / 10 ** 6,
-        numero * 10 ** 6
-      ],
-      [
-        "nanograma",
-        "gigagrama",
-        numero / 10 ** 9,
-        numero * 10 ** 9
-      ],
-      [
-        "picograma",
-        "teragrama",
-        numero / 10 ** 12,
-        numero * 10 ** 12
-      ],
-      [
-        "femtograma",
-        "petagrama",
-        numero / 10 ** 15,
-        numero * 10 ** 15
-      ],
-      [
-        "attograma",
-        "exagrama",
-        numero / 10 ** 18,
-        numero * 10 ** 18
-      ],
-      [
-        "zeptograma",
-        "zetagrama",
-        numero / 10 ** 21,
-        numero * 10 ** 21
-      ],
-      [
-        "yoctograma",
-        "iotagrama",
-        numero / 10 ** 24,
-        numero * 10 ** 24
-      ],
-    ],
-  ]
-};
-
 const ConversoresTemperatura: CalculatorManifests.Arquitetura = {
   chaves: [
     
@@ -897,87 +463,105 @@ const ConversoresVelocidade: CalculatorManifests.Arquitetura = {
   ]
 };
 
-const ConversoresForca: CalculatorManifests.Arquitetura = {
-  chaves: [
-    [
-      [
-        "newton"
-      ],
-    ],
-    [
-      [
-        "decinewton",
-        "decânewton",
-        numero / 10 ** 1,
-        numero * 10 ** 1
-      ],
-      [
-        "centinewton",
-        "hectônewton",
-        numero / 10 ** 2,
-        numero * 10 ** 2
-      ],
-      [
-        "milinewton",
-        "quilônewton",
-        numero / 10 ** 3,
-        numero * 10 ** 3
-      ],
-      [
-        "micronewton",
-        "meganewton",
-        numero / 10 ** 6,
-        numero * 10 ** 6
-      ],
-      [
-        "nanonewton",
-        "giganewton",
-        numero / 10 ** 9,
-        numero * 10 ** 9
-      ],
-      [
-        "piconewton",
-        "teranewton",
-        numero / 10 ** 12,
-        numero * 10 ** 12
-      ],
-      [
-        "femtonewton",
-        "petanewton",
-        numero / 10 ** 15,
-        numero * 10 ** 15
-      ],
-      [
-        "attonewton",
-        "exanewton",
-        numero / 10 ** 18,
-        numero * 10 ** 18
-      ],
-      [
-        "zeptonewton",
-        "zetanewton",
-        numero / 10 ** 21,
-        numero * 10 ** 21
-      ],
-      [
-        "yoctonewton",
-        "iotanewton",
-        numero / 10 ** 24,
-        numero * 10 ** 24
-      ],
-    ],
-  ]
-};
-
 const ConversoresTempo: CalculatorManifests.Arquitetura = {
   chaves: [
-
+    [
+      [
+        "segundo",
+        numero * 60,
+        numero / 60
+      ],
+      [
+        "centesimo-de-segundo",
+        (numero / 60) / 100,
+        (numero * 60) / 100
+      ],
+      [
+        "milesimo-de-segundo",
+        (numero / 60) / 1000,
+        (numero * 60) / 1000
+      ]
+    ]
   ]
 };
 
 const ConversoresQuantidade: CalculatorManifests.Arquitetura = {
   chaves: [
-
+    [
+      "dúzia",
+      numero * 12,
+      numero / 12
+    ],
+    [
+      "grosa",
+      numero * 144,
+      numero / 144
+    ],
+    [
+      "mol"
+    ],
+    [
+      [
+        "decimol",
+        "decâmol",
+        numero / 10 ** 1,
+        numero * 10 ** 1
+      ],
+      [
+        "centimol",
+        "hectômol",
+        numero / 10 ** 2,
+        numero * 10 ** 2
+      ],
+      [
+        "milimol",
+        "quilômol",
+        numero / 10 ** 3,
+        numero * 10 ** 3
+      ],
+      [
+        "micromol",
+        "megamol",
+        numero / 10 ** 6,
+        numero * 10 ** 6
+      ],
+      [
+        "nanomol",
+        "gigamol",
+        numero / 10 ** 9,
+        numero * 10 ** 9
+      ],
+      [
+        "picomol",
+        "teramol",
+        numero / 10 ** 12,
+        numero * 10 ** 12
+      ],
+      [
+        "femtomol",
+        "petamol",
+        numero / 10 ** 15,
+        numero * 10 ** 15
+      ],
+      [
+        "attomol",
+        "examol",
+        numero / 10 ** 18,
+        numero * 10 ** 18
+      ],
+      [
+        "zeptomol",
+        "zetamol",
+        numero / 10 ** 21,
+        numero * 10 ** 21
+      ],
+      [
+        "yoctomol",
+        "iotamol",
+        numero / 10 ** 24,
+        numero * 10 ** 24
+      ],
+    ]
   ]
 };
 

@@ -664,9 +664,7 @@ export const rcalcCore = {
 
       numeroDeConjuntos: $numeroDeConjuntos,
 
-    },
-
-    conversoras: {}
+    }
 
   }
 

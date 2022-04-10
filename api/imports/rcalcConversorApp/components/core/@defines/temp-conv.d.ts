@@ -6,93 +6,93 @@ export namespace ChavesAngulosPlanosSolidos {
 
 export namespace ChavesAngulosPlanos {  
   
-  type anguloPlanoChaveEsterradiano = "esterradiano";
+  type anguloPlanoChaveRadiano = "radiano";
   
-  type anguloPlanoChaveDecaEsterradiano = "decâesterradiano";
+  type anguloPlanoChaveDecaradiano = "decâradiano";
   
-  type anguloPlanoChaveHectoEsterradiano = "hectôesterradiano";
+  type anguloPlanoChaveHectoradiano = "hectôradiano";
   
-  type anguloPlanoChaveQuiloEsterradiano = "quilôesterradiano";
+  type anguloPlanoChaveQuiloradiano = "quilôradiano";
   
-  type anguloPlanoChaveMegaEsterradiano = "megaesterradiano";
+  type anguloPlanoChaveMegaradiano = "megaradiano";
   
-  type anguloPlanoChaveGigaEsterradiano = "gigaesterradiano";
+  type anguloPlanoChaveGigaradiano = "gigaradiano";
   
-  type anguloPlanoChaveTeraEsterradiano = "teraesterradiano";
+  type anguloPlanoChaveTeraradiano = "teraradiano";
   
-  type anguloPlanoChavePetaEsterradiano = "petaesterradiano";
+  type anguloPlanoChavePetaradiano = "petaradiano";
   
-  type anguloPlanoChaveExaEsterradiano = "exaesterradiano";
+  type anguloPlanoChaveExaradiano = "exaradiano";
   
-  type anguloPlanoChaveZetaoEsterradiano = "zetaesterradiano";
+  type anguloPlanoChaveZetaradiano = "zetaradiano";
   
-  type anguloPlanoChaveIotaEsterradiano = "iotaesterradiano";
+  type anguloPlanoChaveIotaradiano = "iotaradiano";
 
-  type anguloPlanoChaveDeciEsterradiano = "deciesterradiano";
+  type anguloPlanoChaveDeciradiano = "deciradiano";
 
-  type anguloPlanoChaveCentiEsterradiano = "centiesterradiano";
+  type anguloPlanoChaveCentiradiano = "centiradiano";
 
-  type anguloPlanoChaveMiliEsterradiano = "miliesterradiano";
+  type anguloPlanoChaveMiliradiano = "miliradiano";
 
-  type anguloPlanoChaveMicroEsterradiano = "microesterradiano";
+  type anguloPlanoChaveMicroradiano = "microradiano";
 
-  type anguloPlanoChaveNanoEsterradiano = "nanoesterradiano";
+  type anguloPlanoChaveNanoradiano = "nanoradiano";
 
-  type anguloPlanoChavePicoEsterradiano = "picoesterradiano";
+  type anguloPlanoChavePicoradiano = "picoradiano";
 
-  type anguloPlanoChaveFemtoEsterradiano = "femtoesterradiano";
+  type anguloPlanoChaveFemtoradiano = "femtoradiano";
 
-  type anguloPlanoChaveAttoEsterradiano = "attoesterradiano";
+  type anguloPlanoChaveAttoradiano = "attoradiano";
 
-  type anguloPlanoChaveZeptoEsterradiano = "zeptoesterradiano";
+  type anguloPlanoChaveZeptoradiano = "zeptoradiano";
 
-  type anguloPlanoChaveYoctoEsterradiano = "yoctoesterradiano";
+  type anguloPlanoChaveYoctoradiano = "yoctoradiano";
 
 }
 
 export namespace ChavesAngulosSolidos {
   
-  type anguloSolidoChaveEsterradiano = "esterradiano";
+  type anguloSolidoChaveesterradiano = "esterradiano";
   
-  type anguloSolidoChaveDecaEsterradiano = "decâesterradiano";
+  type anguloSolidoChaveDecaesterradiano = "decâesterradiano";
   
-  type anguloSolidoChaveHectoEsterradiano = "hectôesterradiano";
+  type anguloSolidoChaveHectoesterradiano = "hectôesterradiano";
   
-  type anguloSolidoChaveQuiloEsterradiano = "quilôesterradiano";
+  type anguloSolidoChaveQuiloesterradiano = "quilôesterradiano";
   
-  type anguloSolidoChaveMegaEsterradiano = "megaesterradiano";
+  type anguloSolidoChaveMegaesterradiano = "megaesterradiano";
   
-  type anguloSolidoChaveGigaEsterradiano = "gigaesterradiano";
+  type anguloSolidoChaveGigaesterradiano = "gigaesterradiano";
   
-  type anguloSolidoChaveTeraEsterradiano = "teraesterradiano";
+  type anguloSolidoChaveTeraesterradiano = "teraesterradiano";
   
-  type anguloSolidoChavePetaEsterradiano = "petaesterradiano";
+  type anguloSolidoChavePetaesterradiano = "petaesterradiano";
   
-  type anguloSolidoChaveExaEsterradiano = "exaesterradiano";
+  type anguloSolidoChaveExaesterradiano = "exaesterradiano";
   
-  type anguloSolidoChaveZetaoEsterradiano = "zetaesterradiano";
+  type anguloSolidoChaveZetaoesterradiano = "zetaesterradiano";
   
-  type anguloSolidoChaveIotaEsterradiano = "iotaesterradiano";
+  type anguloSolidoChaveIotaesterradiano = "iotaesterradiano";
 
-  type anguloSolidoChaveDeciEsterradiano = "deciesterradiano";
+  type anguloSolidoChaveDeciesterradiano = "deciesterradiano";
 
-  type anguloSolidoChaveCentiEsterradiano = "centiesterradiano";
+  type anguloSolidoChaveCentiesterradiano = "centiesterradiano";
 
-  type anguloSolidoChaveMiliEsterradiano = "miliesterradiano";
+  type anguloSolidoChaveMiliesterradiano = "miliesterradiano";
 
-  type anguloSolidoChaveMicroEsterradiano = "microesterradiano";
+  type anguloSolidoChaveMicroesterradiano = "microesterradiano";
 
-  type anguloSolidoChaveNanoEsterradiano = "nanoesterradiano";
+  type anguloSolidoChaveNanoesterradiano = "nanoesterradiano";
 
-  type anguloSolidoChavePicoEsterradiano = "picoesterradiano";
+  type anguloSolidoChavePicoesterradiano = "picoesterradiano";
 
-  type anguloSolidoChaveFemtoEsterradiano = "femtoesterradiano";
+  type anguloSolidoChaveFemtoesterradiano = "femtoesterradiano";
 
-  type anguloSolidoChaveAttoEsterradiano = "attoesterradiano";
+  type anguloSolidoChaveAttoesterradiano = "attoesterradiano";
 
-  type anguloSolidoChaveZeptoEsterradiano = "zeptoesterradiano";
+  type anguloSolidoChaveZeptoesterradiano = "zeptoesterradiano";
 
-  type anguloSolidoChaveYoctoEsterradiano = "yoctoesterradiano";
+  type anguloSolidoChaveYoctoesterradiano = "yoctoesterradiano";
 
 }
 

@@ -1,1 +1,9 @@
-export const rcalcConversorCore = { };
+export const rcalcConversorCore = { 
+
+  conversores: {
+
+    
+
+  }
+
+};

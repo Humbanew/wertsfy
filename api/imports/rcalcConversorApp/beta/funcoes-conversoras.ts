@@ -382,18 +382,6 @@ const ConversoresQuantidade: CalculatorManifests.Arquitetura = {
   ]
 };
 
-const ConversoresPressao: CalculatorManifests.Arquitetura = {
-  chaves: [
-
-  ]
-};
-
-const ConversoresSom: CalculatorManifests.Arquitetura = {
-  chaves: [
-
-  ]
-};
-
 const ConversoresLuz: CalculatorManifests.Arquitetura = {
   chaves: [
     [

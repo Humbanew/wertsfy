@@ -1,5 +1,6 @@
 import { Espectros } from "./@defines/xcolors.config";
 
+// # Passar para xcolors.config.d.ts
 const EspectrosAmarelos: Espectros.espectroDeUmaCor = { 
   cor: [
     [

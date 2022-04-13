@@ -244,130 +244,169 @@ export namespace ChavesVolume {
 
   export namespace Derivados {
 
-    export namespace Tonel { }
-
-    export namespace Pipa { }
-
-    export namespace Almude { }
-
-    export namespace Galao { }
-
-    export namespace Quarto { }
-
-    export namespace Pinto { }
-
-
-    type ChaveTonel = "tonel";
-
-    type ChavePipa = "pipa";
-
-    type ChaveAlmude = "almude";
-
-    type ChaveAlmudeArabe = "almude-arabe";
-
-    type ChaveAlmudeCondadoPortucalense = "almude-condado-portucalense";
-
-    type ChaveAlmudeDomAfonsoHenriques = "almude-dom-afonso-henriques";
-
-    type ChaveAlmudeDomPedroI = "almude-dom-pedro-i";
-
-    type ChaveAlmudeDomPedroII = "almude-dom-pedro-ii";
-
-    type ChaveAlmudeDomManuelI = "almude-dom-manuel-i";
-
-    type ChaveAlmudeConselhoSantoTirsoRioAve = "almude-conselho-santo-tirso-rio-ave";
-
-    type ChaveAlmudeConselhoSantoTirsoValeDoLeca = "almude-conselho-santo-tirso-vale-do-leca";
-
-    type ChaveAlmudeCoimbraVinho = "almude-coimbra-vinho";
-
-    type ChaveAlmudeCoimbraAzeite = "almude-coimbra-azeite";
-
-    type ChaveGalaoLiquido = "galão-líquido";
-
-    type ChaveGalaoLiquidoBarrisEstadunidenses = "galão-líquido-barris-estadunidenses";
-
-    type ChaveGalaoLiquidoQuartosEstadunidenses = "galão-líquido-quartos-estadunidenses";
-
-    type ChaveGalaoLiquidoQuartilhosEstadunidenses = "galão-líquido-quartilhos-estadunidenses";
-
-    type ChaveGalaoLiquidoGillsEstadunidenses = "galão-líquido-gills-estadunidenses";
-
-    type ChaveGalaoLiquidoOncasLiquidasEstadunidenses = "galão-líquido-oncas-líquidas-estadunidenses";
-
-    type ChaveGalaoSeco = "galão-seco";
-
-    type ChaveGalaoSecoQuartilhos = "galão-seco-quartilhos";
-
-    type ChaveGalaoSecoQuartos = "galão-seco-quartos";
-
-    type ChaveGalaoSecoPecks = "galão-seco-pecks";
-
-    type ChaveGalaoSecoBushels = "galão-seco-bushels";
-
-    type ChaveGalaoImperial = "galão-imperial";
-
-    type ChaveGalaoImperialBarrisBritanicos = "galão-imperial-barris-britanicos";
-
-    type ChaveGalaoImperialQuartosBritanicos = "galão-imperial-quartos-britanicos";
-
-    type ChaveGalaoImperialQuartilhosBritanicos = "galão-imperial-quartilhos-britanicos";
-
-    type ChaveGalaoImperialGillsBritanicos = "galão-imperial-gills-britanicos";
-
-    type ChaveGalaoImperialOncasBritanicas = "galão-imperial-oncas-britanicas";
-
-    type ChaveQuartoImperialBritanico = "quarto-imperial-britânico";
-
-    type ChaveQuartoImperialBritanicoBarrisImperiais = "quarto-imperial-britânico-barris-imperiais";
-
-    type ChaveQuartoImperialBritanicoGaloesImperiais = "quarto-imperial-britânico-galões-imperiais";
-
-    type ChaveQuartoImperialBritanicoPintosImperiais = "quarto-imperial-britânico-pintos-imperiais";
-
-    type ChaveQuartoImperialBritanicoGillsImperiais = "quarto-imperial-britânico-gills-imperiais";
+    export namespace Tonel {
+      
+      type ChaveTonel = "tonel";
     
-    type ChaveQuartoImperialBritanicoOncasLiquidasImperiais = "quarto-imperial-britânico-oncas-liquidas-imperiais";
+    }
 
-    type ChaveQuartoEstadunidense = "quarto-estadunidense";
+    export namespace Pipa {
 
-    type ChaveQuartoEstadunidenseBarrisEstadunidenses = "quarto-estadunidense-barris-estadunidenses";
+      type ChavePipa = "pipa";
 
-    type ChaveQuartoEstadunidenseGaloesEstadunidenses = "quarto-estadunidense-galões-estadunidenses";
+    }
 
-    type ChaveQuartoEstadunidensePintosEstadunidenses = "quarto-estadunidense-pintos-estadunidenses";
+    export namespace Almude {
 
-    type ChaveQuartoEstadunidenseGillsEstadunidenses = "quarto-estadunidense-gills-estadunidenses";
+      type ChaveAlmude = "almude";
 
-    type ChaveQuartoEstadunidenseOncasLiquidasEstadunidenses = "quarto-estadunidense-oncas-líquidas-estadunidenses";
+      type ChaveAlmudeArabe = "almude-arabe";
 
-    type ChavePintoBritanico = "pinto-britânico";
+      type ChaveAlmudeCondadoPortucalense = "almude-condado-portucalense";
 
-    type ChavePintoEstadosUnidos = "pinto-estados-unidos";
+      type ChaveAlmudeDomAfonsoHenriques = "almude-dom-afonso-henriques";
 
-    type ChavePintoAustralia = "pinto-austrália";
+      type ChaveAlmudeDomPedroI = "almude-dom-pedro-i";
 
-    type ChavePintoCanadense = "pinto-canadense";
+      type ChaveAlmudeDomPedroII = "almude-dom-pedro-ii";
 
-    type ChavePintoFranca = "pinto-frança";
+      type ChaveAlmudeDomManuelI = "almude-dom-manuel-i";
 
-    type ChavePintoBelgica = "pinto-belgica";
+      type ChaveAlmudeConselhoSantoTirsoRioAve = "almude-conselho-santo-tirso-rio-ave";
 
-    type ChavePintoBritanicoBarrisImperiais = "pinto-britânico-barris-imperiais";
+      type ChaveAlmudeConselhoSantoTirsoValeDoLeca = "almude-conselho-santo-tirso-vale-do-leca";
 
-    type ChavePintoBritanicoGaloesImperiais = "pinto-britânico-galões-imperiais";
+      type ChaveAlmudeCoimbraVinho = "almude-coimbra-vinho";
 
-    type ChavePintoBritanicoGillsImperiais = "pinto-britânico-gills-imperiais";
+      type ChaveAlmudeCoimbraAzeite = "almude-coimbra-azeite";
 
-    type ChavePintoBritanicoOnçasLiquidasImperiais = "pinto-britânico-onças-líquidas-imperiais";
-    
-    type ChavePintoBritanicoBarrisEstadunidenses = "pinto-britânico-barris-estadunidenses";
+    }
 
-    type ChavePintoBritanicoGaloesEstadunidenses = "pinto-britânico-galões-estadunidenses";
+    export namespace Galao {
 
-    type ChavePintoBritanicoGillsEstadunidenses = "pinto-britânico-gills-estadunidenses";
+      type ChaveGalaoLiquido = "galão-líquido";
 
-    type ChavePintoBritanicoOnçasLiquidasEstadunidenses = "pinto-britânico-onças-líquidas-estadunidenses";
+      type ChaveGalaoLiquidoBarrisEstadunidenses = "galão-líquido-barris-estadunidenses";
+
+      type ChaveGalaoLiquidoQuartosEstadunidenses = "galão-líquido-quartos-estadunidenses";
+
+      type ChaveGalaoLiquidoQuartilhosEstadunidenses = "galão-líquido-quartilhos-estadunidenses";
+
+      type ChaveGalaoLiquidoGillsEstadunidenses = "galão-líquido-gills-estadunidenses";
+
+      type ChaveGalaoLiquidoOncasLiquidasEstadunidenses = "galão-líquido-oncas-líquidas-estadunidenses";
+
+      type ChaveGalaoSeco = "galão-seco";
+
+      type ChaveGalaoSecoQuartilhos = "galão-seco-quartilhos";
+
+      type ChaveGalaoSecoQuartos = "galão-seco-quartos";
+
+      type ChaveGalaoSecoPecks = "galão-seco-pecks";
+
+      type ChaveGalaoSecoBushels = "galão-seco-bushels";
+
+      type ChaveGalaoImperial = "galão-imperial";
+
+      type ChaveGalaoImperialBarrisBritanicos = "galão-imperial-barris-britanicos";
+
+      type ChaveGalaoImperialQuartosBritanicos = "galão-imperial-quartos-britanicos";
+
+      type ChaveGalaoImperialQuartilhosBritanicos = "galão-imperial-quartilhos-britanicos";
+
+      type ChaveGalaoImperialGillsBritanicos = "galão-imperial-gills-britanicos";
+
+      type ChaveGalaoImperialOncasBritanicas = "galão-imperial-oncas-britanicas";
+
+    }
+
+    export namespace Quarto {
+
+      type ChaveQuartoImperialBritanico = "quarto-imperial-britânico";
+
+      type ChaveQuartoImperialBritanicoBarrisImperiais = "quarto-imperial-britânico-barris-imperiais";
+
+      type ChaveQuartoImperialBritanicoGaloesImperiais = "quarto-imperial-britânico-galões-imperiais";
+
+      type ChaveQuartoImperialBritanicoPintosImperiais = "quarto-imperial-britânico-pintos-imperiais";
+
+      type ChaveQuartoImperialBritanicoGillsImperiais = "quarto-imperial-britânico-gills-imperiais";
+
+      type ChaveQuartoImperialBritanicoOncasLiquidasImperiais = "quarto-imperial-britânico-oncas-liquidas-imperiais";
+
+      type ChaveQuartoEstadunidense = "quarto-estadunidense";
+
+      type ChaveQuartoEstadunidenseBarrisEstadunidenses = "quarto-estadunidense-barris-estadunidenses";
+
+      type ChaveQuartoEstadunidenseGaloesEstadunidenses = "quarto-estadunidense-galões-estadunidenses";
+
+      type ChaveQuartoEstadunidensePintosEstadunidenses = "quarto-estadunidense-pintos-estadunidenses";
+
+      type ChaveQuartoEstadunidenseGillsEstadunidenses = "quarto-estadunidense-gills-estadunidenses";
+
+      type ChaveQuartoEstadunidenseOncasLiquidasEstadunidenses = "quarto-estadunidense-oncas-líquidas-estadunidenses";
+    }
+
+    export namespace Pinto {
+
+      type ChavePintoBritanico = "pinto-britânico";
+
+      type ChavePintoEstadosUnidos = "pinto-estados-unidos";
+
+      type ChavePintoAustralia = "pinto-austrália";
+
+      type ChavePintoCanadense = "pinto-canadense";
+
+      type ChavePintoFranca = "pinto-frança";
+
+      type ChavePintoBelgica = "pinto-belgica";
+
+      type ChavePintoBritanicoBarrisImperiais = "pinto-britânico-barris-imperiais";
+
+      type ChavePintoBritanicoGaloesImperiais = "pinto-britânico-galões-imperiais";
+
+      type ChavePintoBritanicoGillsImperiais = "pinto-britânico-gills-imperiais";
+
+      type ChavePintoBritanicoOnçasLiquidasImperiais = "pinto-britânico-onças-líquidas-imperiais";
+
+      type ChavePintoBritanicoBarrisEstadunidenses = "pinto-britânico-barris-estadunidenses";
+
+      type ChavePintoBritanicoGaloesEstadunidenses = "pinto-britânico-galões-estadunidenses";
+
+      type ChavePintoBritanicoGillsEstadunidenses = "pinto-britânico-gills-estadunidenses";
+
+      type ChavePintoBritanicoOnçasLiquidasEstadunidenses = "pinto-britânico-onças-líquidas-estadunidenses";
+
+    }
+
+    export namespace QuintalPortugues {
+
+      type ChaveQuintalPortugues = "quintal-português";
+
+      type ChaveQuintalDePesoGrande = "quintal-de-peso-grande";
+
+      type ChaveQuintalDePesoPequeno = "quintal-de-peso-pequeno";
+
+    }
+
+    export namespace QuintalMetrico { }
+
+    export namespace QuintalNorteAmericano { }
+
+    export namespace QuintalBritanico { }
+
+    export namespace Arratel {
+
+      type ChaveArratel = "arratel";
+
+    }
+
+    export namespace Onca {
+
+      type ChaveOnca = "onça";
+
+    }
+
 
   }
 

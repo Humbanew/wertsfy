@@ -395,6 +395,8 @@ export namespace ChavesVolume {
 
     export namespace QuintalBritanico { }
 
+    export namespace Sesteiro { }
+
     export namespace Arratel {
 
       type ChaveArratel = "arratel";
@@ -406,7 +408,6 @@ export namespace ChavesVolume {
       type ChaveOnca = "onça";
 
     }
-
 
   }
 

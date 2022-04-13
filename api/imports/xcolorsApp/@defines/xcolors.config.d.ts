@@ -1,6 +1,13 @@
-export declare namespace Espectros {
+export namespace DefinicoesEspectros {
 
-  export interface espectroDeUmaCor { cor: any[string][string] }
+  export namespace EspectrosAmarelos { }
+
+  export namespace EspectrosRoxos { }
+
+  export namespace EspectrosLaranjas { }
+
+  export namespace EspectrosMarroms { }
+
+  export namespace EspectrosBeges { }
 
 }
-

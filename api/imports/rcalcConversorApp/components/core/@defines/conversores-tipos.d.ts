@@ -244,6 +244,19 @@ export namespace ChavesVolume {
 
   export namespace Derivados {
 
+    export namespace Tonel { }
+
+    export namespace Pipa { }
+
+    export namespace Almude { }
+
+    export namespace Galao { }
+
+    export namespace Quarto { }
+
+    export namespace Pinto { }
+
+
     type ChaveTonel = "tonel";
 
     type ChavePipa = "pipa";
@@ -327,6 +340,34 @@ export namespace ChavesVolume {
     type ChaveQuartoEstadunidenseGillsEstadunidenses = "quarto-estadunidense-gills-estadunidenses";
 
     type ChaveQuartoEstadunidenseOncasLiquidasEstadunidenses = "quarto-estadunidense-oncas-líquidas-estadunidenses";
+
+    type ChavePintoBritanico = "pinto-britânico";
+
+    type ChavePintoEstadosUnidos = "pinto-estados-unidos";
+
+    type ChavePintoAustralia = "pinto-austrália";
+
+    type ChavePintoCanadense = "pinto-canadense";
+
+    type ChavePintoFranca = "pinto-frança";
+
+    type ChavePintoBelgica = "pinto-belgica";
+
+    type ChavePintoBritanicoBarrisImperiais = "pinto-britânico-barris-imperiais";
+
+    type ChavePintoBritanicoGaloesImperiais = "pinto-britânico-galões-imperiais";
+
+    type ChavePintoBritanicoGillsImperiais = "pinto-britânico-gills-imperiais";
+
+    type ChavePintoBritanicoOnçasLiquidasImperiais = "pinto-britânico-onças-líquidas-imperiais";
+    
+    type ChavePintoBritanicoBarrisEstadunidenses = "pinto-britânico-barris-estadunidenses";
+
+    type ChavePintoBritanicoGaloesEstadunidenses = "pinto-britânico-galões-estadunidenses";
+
+    type ChavePintoBritanicoGillsEstadunidenses = "pinto-britânico-gills-estadunidenses";
+
+    type ChavePintoBritanicoOnçasLiquidasEstadunidenses = "pinto-britânico-onças-líquidas-estadunidenses";
 
   }
 

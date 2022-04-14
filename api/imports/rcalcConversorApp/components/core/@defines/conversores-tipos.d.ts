@@ -389,13 +389,21 @@ export namespace ChavesVolume {
 
     }
 
-    export namespace QuintalMetrico { }
+    export namespace QuintalMetrico {
 
-    export namespace QuintalNorteAmericano { }
+    }
 
-    export namespace QuintalBritanico { }
+    export namespace QuintalNorteAmericano {
 
-    export namespace Sesteiro { }
+    }
+
+    export namespace QuintalBritanico {
+  
+    } 
+
+    export namespace Sesteiro {
+  
+    }
 
     export namespace Arratel {
 

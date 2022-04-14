@@ -389,15 +389,15 @@ export namespace ChavesVolume {
 
     }
 
-    export namespace QuintalMetrico { }
+    export namespace QuintalMetrico {  }
 
-    export namespace QuintalNorteAmericano { }
+    export namespace QuintalNorteAmericano {  }
 
-    export namespace QuintalBritanico { } 
+    export namespace QuintalBritanico {  } 
 
-    export namespace Sesteiro { }
+    export namespace Sesteiro {  }
 
-    
+
     export namespace Arratel {
 
       type ChaveArratel = "arratel";

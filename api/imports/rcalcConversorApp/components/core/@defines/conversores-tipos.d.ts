@@ -389,15 +389,87 @@ export namespace ChavesVolume {
 
     }
 
-    export namespace QuintalMetrico {  }
+    export namespace QuintalMetrico { 
 
-    export namespace QuintalNorteAmericano {  }
+      type ChaveQuintalMetrico = "quintal-métrico";
 
-    export namespace QuintalBritanico {  } 
+      type ChaveQuintalMetricoGramas = "quintal-métrico-gramas";
 
-    export namespace Sesteiro {  }
+      type ChaveQuintalMetricoDecagramas = "quintal-métrico-decagramas";
 
+      type ChaveQuintalMetricoHectogramas = "quintal-métrico-hectogramas";
 
+      type ChaveQuintalMetricoQuilogramas = "quintal-métrico-quilogramas";
+
+      type ChaveQuintalMetricoMiniagramas = "quintal-métrico-miniagramas";
+
+      type ChaveQuintalMetricoToneladasMetricas = "quintal-métrico-toneladas-métricas";
+
+    }
+
+    export namespace QuintalNorteAmericano {
+
+      type ChaveQuintalNorteAmericano = "quintal-norte-americano";
+
+      type ChaveQuintalNorteAmericanoGraos = "quintal-norte-americano-grãos";
+
+      type ChaveQuintalNorteAmericanoDacmasAvoirdupois = "quintal-norte-americano-dacmas-avoirdupois";
+
+      type ChaveQuintalNorteAmericanoOncasAvoirdupois = "quintal-norte-americano-onças-avoirdupois";
+
+      type ChaveQuintalNorteAmericanoLibrasAvoirdupois = "quintal-norte-americano-libras-avoirdupois";
+
+      type ChaveQuintalNorteAmericanoArrobas = "quintal-norte-americano-arrobas";
+
+      type ChaveQuintalNorteAmericanoQuartosCurtos = "quintal-norte-americano-quartos-curtos";
+
+      type ChaveQuintalNorteAmericanoToneladasCurtas = "quintal-norte-americano-toneladas-curtas";
+
+    }
+
+    export namespace QuintalBritanico { 
+
+      type ChaveQuintalBritanico = "quintal-britânico";
+
+      type ChaveQuintalBritanicoGraos = "quintal-britânico-grãos";
+
+      type ChaveQuintalBritanicoDacmasAvoirdupois = "quintal-britânico-dacmas-avoirdupois";
+
+      type ChaveQuintalBritanicoOncasAvoirdupois = "quintal-britânico-onças-avoirdupois";
+
+      type ChaveQuintalBritanicoLibrasAvoirdupois = "quintal-britânico-libras-avoirdupois";
+
+      type ChaveQuintalBritanicoStones = "quintal-britânico-stones";
+
+      type ChaveQuintalBritanicoQuartosCurtos = "quintal-britânico-quartos-curtos";
+
+      type ChaveQuintalBritanicoToneladasCurtas = "quintal-britânico-toneladas-curtas";
+
+    } 
+
+    export namespace Sesteiro { 
+
+      type ChaveSesteiro = "sesteiro";
+
+      type ChaveSesteiroMoio = "sesteiro-moio";
+
+      type ChaveSesteiroSecXI = "sesteiro-sec-XI";
+
+      type ChaveSesteiroSecXIV = "sestriro-sec-XIV";
+
+      type ChaveSesteiroCongius = "sesteiro-congius";
+
+      type ChaveSesteiroModius = "sesteiro-modius";
+
+      type ChaveSesteiroSextans = "sesteiro-sextans";
+
+      type ChaveSesteiroTriens = "sesteiro-triens";
+
+      type ChaveSesteiroHemina = "sesteiro-hemina";
+
+      type ChaveSesteiroChoenix = "sesteiro-choenix";
+
+    }
     
     export namespace Arratel {
 
@@ -729,11 +801,137 @@ export namespace ChavesForca {
 
 }
 
-export namespace ChavesTemperatura { }
+export namespace ChavesTemperatura {
 
-export namespace ChavesVelocidade { }
+  type Ceusius = "celsius";
 
-export namespace ChavesTempo { }
+  type Fahrenheit = "fahrenheit";
+
+  type Kelvin = "kelvin";
+
+}
+
+export namespace ChavesVelocidade {
+
+  type ChaveMetroPorSegundo = "m/s";
+
+  type ChaveMetroPorMinuto = "m/min";
+
+  type ChaveMetroPorHora = "m/h";
+
+  type ChaveQuilometroPorSegundo = "km/s";
+
+  type ChaveQuilometroPorMinuto = "km/min";
+
+  type ChaveQuilometroPorHora = "km/h";
+
+  type ChaveMilhaPorSegundo = "mi/s";
+
+  type ChaveMilhaPorMinuto = "mi/min";
+
+  type ChaveMilhaPorHora = "mi/h";
+
+  type ChaveNanosegundoPorMetro = "ns/m";
+
+  type ChaveMicrosegundoPorMetro = "µs/m";
+
+  type ChaveSegundoPorMetro = "s/m";
+
+  type ChaveMinutoPorMetro = "min/m";
+
+  type ChaveHoraPorMetro = "h/m";
+
+  type ChaveSegundoPorQuilometro = "s/km";
+
+  type ChaveMinutoPorQuilometro = "min/km";
+
+  type ChaveHoraPorQuilometro = "h/km";
+
+  type ChaveSegundoPorMilha = "s/mi";
+
+  type ChaveMinutoPorMilha = "min/mi";
+
+  type ChaveHoraPorMilha = "h/mi";
+
+  type ChaveSegundoPorNanosegundo = "s/ns";
+
+  type ChaveMinutoPorNanosegundo = "min/ns";
+
+  type ChaveHoraPorNanosegundo = "h/ns";
+
+  type ChaveSegundoPorMicrosegundo = "s/µs";
+
+  type ChaveMinutoPorMicrosegundo = "min/µs";
+
+  type ChaveHoraPorMicrosegundo = "h/µs";
+
+}
+
+export namespace ChavesTempo {
+
+  type ChaveMilissegundo = "milissegundo";
+
+  type ChaveCentissegundo = "centissegundo";
+
+  type ChaveSegundo = "segundo";
+
+  type ChaveMinuto = "minuto";
+
+  type ChaveHora = "hora";
+
+  type ChaveDia = "dia";
+
+  type ChaveSemana = "semana";
+
+  type ChaveMes = "mês";
+
+  type ChaveAno = "ano";
+
+  type ChaveDecada = "década";
+
+  type ChaveCentenasDeAno = "centenas de ano";
+
+  type ChaveMilenio = "milênio";
+
+  type ChaveCentenasDeMilenio = "centenas de milênio";
+
+  type ChaveBilionio = "bilionio";
+
+  type ChaveCentenasDeBilionio = "centenas de bilionio";
+
+  type ChaveTrilionio = "trilionio";
+
+  type ChaveCentenasDeTrilionio = "centenas de trilionio";
+
+  type ChaveQuadrilionio = "quadrilionio";
+
+  type ChaveCentenasDeQuadrilionio = "centenas de quadrilionio";
+
+  type ChaveQuintilionio = "quintilionio";
+
+  type ChaveCentenasDeQuintilionio = "centenas de quintilionio";
+
+  type ChaveSextilionio = "sextilionio";
+
+  type ChaveCentenasDeSextilionio = "centenas de sextilionio";
+
+  type ChaveSeptilionio = "septilionio";
+
+  type ChaveCentenasDeSeptilionio = "centenas de septilionio";
+
+  type ChaveOctilionio = "octilionio";
+
+  type ChaveCentenasDeOctilionio = "centenas de octilionio";
+
+  type ChaveNonilionio = "nonilionio";
+
+  type ChaveCentenasDeNonilionio = "centenas de nonilionio";
+
+  type ChaveDecilionio = "decilionio";
+
+  type ChaveCentenasDeDecilionio = "centenas de decilionio";
+
+}
 
 export namespace ChavesQuantidade {
 
@@ -789,13 +987,446 @@ export namespace ChavesQuantidade {
 
 }
 
-export namespace ChavesPressao { }
+export namespace ChavesPressao {
 
-export namespace ChavesSom { }
+  export namespace Derivados {
 
-export namespace ChavesLuz { }
+    type ChaveAtm = "atm";
 
-export namespace ChavesEnergia { }
+    type ChaveTorr = "torr";
+  
+  }
+
+
+  type ChavePascal = "pascal";
+
+  type ChaveDecapascal = "decâpascal";
+
+  type ChaveHectopascal = "hectôpascal";
+
+  type ChaveQuilopascal = "quilôpascal";
+
+  type ChaveMegapascal = "megapascal";
+
+  type ChaveGigapascal = "gigapascal";
+
+  type ChaveTerapascal = "terapascal";
+
+  type ChavePetapascal = "petapascal";
+
+  type ChaveExapascal = "exapascal";
+
+  type ChaveZetaopascal = "zetapascal";
+
+  type ChaveIotapascal = "iotapascal";
+
+  type ChaveDecipascal = "decipascal";
+
+  type ChaveCentipascal = "centipascal";
+
+  type ChaveMilipascal = "milipascal";
+
+  type ChaveMicropascal = "micropascal";
+
+  type ChaveNanopascal = "nanopascal";
+
+  type ChavePicopascal = "picopascal";
+
+  type ChaveFemtopascal = "femtopascal";
+
+  type ChaveAttopascal = "attopascal";
+
+  type ChaveZeptopascal = "zeptopascal";
+
+  type ChaveYoctopascal = "yoctopascal";
+
+  type ChaveBar = "bar";
+
+  type ChaveDecabar = "decâbar";
+
+  type ChaveHectobar = "hectôbar";
+
+  type ChaveQuilobar = "quilôbar";
+
+  type ChaveMegabar = "megabar";
+
+  type ChaveGigabar = "gigabar";
+
+  type ChaveTerabar = "terabar";
+
+  type ChavePetabar = "petabar";
+
+  type ChaveExabar = "exabar";
+
+  type ChaveZetaobar = "zetabar";
+
+  type ChaveIotabar = "iotabar";
+
+  type ChaveDecibar = "decibar";
+
+  type ChaveCentibar = "centibar";
+
+  type ChaveMilibar = "milibar";
+
+  type ChaveMicrobar = "microbar";
+
+  type ChaveNanobar = "nanobar";
+
+  type ChavePicobar = "picobar";
+
+  type ChaveFemtobar = "femtobar";
+
+  type ChaveAttobar = "attobar";
+
+  type ChaveZeptobar = "zeptobar";
+
+  type ChaveYoctobar = "yoctobar";
+
+  type ChavePsi = "psi";
+
+  type ChaveDecapsi = "decâpsi";
+
+  type ChaveHectopsi = "hectôpsi";
+
+  type ChaveQuilopsi = "quilôpsi";
+
+  type ChaveMegapsi = "megapsi";
+
+  type ChaveGigapsi = "gigapsi";
+
+  type ChaveTerapsi = "terapsi";
+
+  type ChavePetapsi = "petapsi";
+
+  type ChaveExapsi = "exapsi";
+
+  type ChaveZetaopsi = "zetapsi";
+
+  type ChaveIotapsi = "iotapsi";
+
+  type ChaveDecipsi = "decipsi";
+
+  type ChaveCentipsi = "centipsi";
+
+  type ChaveMilipsi = "milipsi";
+
+  type ChaveMicropsi = "micropsi";
+
+  type ChaveNanopsi = "nanopsi";
+
+  type ChavePicopsi = "picopsi";
+
+  type ChaveFemtopsi = "femtopsi";
+
+  type ChaveAttopsi = "attopsi";
+
+  type ChaveZeptopsi = "zeptopsi";
+
+  type ChaveYoctopsi = "yoctopsi";
+
+}
+
+export namespace ChavesSom {
+
+  export namespace Derivados {
+
+    type ChaveDecibel = "decibel";
+
+    type ChaveBel = "bel";
+
+  }
+
+  type ChaveHertz = "hertz";
+
+  type ChaveDecahertz = "décâhertz";
+
+  type ChaveHectohertz = "hectohertz";
+
+  type ChaveKilohertz = "kilohertz";
+
+  type ChaveMegahertz = "megahertz";
+
+  type ChaveGigahertz = "gigahertz";
+
+  type ChaveTerahertz = "terahertz";
+
+  type ChavePetahertz = "petahertz";
+
+  type ChaveExahertz = "exahertz";
+
+  type ChaveZettahertz = "zettahertz";
+
+  type ChaveIottahertz = "iottahertz";
+
+  type ChaveDecihertz = "decihertz";
+
+  type ChaveCentihertz = "centihertz";
+
+  type ChaveMillihertz = "millihertz";
+
+  type ChaveMicrohertz = "microhertz";
+
+  type ChaveNanohertz = "nanohertz";
+
+  type ChavePicohertz = "picohertz";
+
+  type ChaveFemtohertz = "femtohertz";
+
+  type ChaveAttohertz = "attohertz";
+
+  type ChaveZeptohertz = "zeptohertz";
+
+  type ChaveYoctohertz = "yoctohertz";
+
+}
+
+export namespace ChavesLuz {
+
+  export namespace Derivados {
+
+    type ChaveCandela = "candela";
+
+    type ChaveLumenQuadrado = "lumen-quadrado";
+
+    type ChaveLumenSegundo = "lumen-segundo";
+
+    type ChaveLuxQuadrado = "lux-quadrado";
+
+    type ChaveLuxSegundo = "lux-segundo";
+
+    type ChaveLumenWatt = "lumen-watt";
+
+    type ChaveLuxWatt = "lux-watt";
+
+    type ChaveLumenCubico = "lumen-cubico";
+
+    type ChaveLuxCubico = "lux-cubico";
+
+  }
+
+  type ChaveLumen = "lumen";
+
+  type ChaveDecalumen = "décalumen";
+
+  type ChaveHectolumen = "hectolumen";
+
+  type ChaveKilolumen = "kilolumen";
+
+  type ChaveMegalumen = "megalumen";
+
+  type ChaveGigalumen = "gigalumen";
+
+  type ChaveTeralumen = "teralumen";
+
+  type ChavePetalumen = "petalumen";
+
+  type ChaveExalumen = "exalumen";
+
+  type ChaveZettalumen = "zettalumen";
+
+  type ChaveIotalumen = "iotalumen";
+
+  type ChaveDecilumen = "decilumen";
+
+  type ChaveCentilumen = "centilumen";
+
+  type ChaveMillilumen = "millilumen";
+
+  type ChaveMicrolumen = "microlumen";
+
+  type ChaveNanolumen = "nanolumen";
+
+  type ChavePicolumen = "picolumen";
+
+  type ChaveFemtolumen = "femtolumen";
+
+  type ChaveAttolumen = "attolumen";
+
+  type ChaveZeptolumen = "zeptolumen";
+
+  type ChaveYoctolumen = "yoctolumen";
+
+  type ChaveLux = "lux";
+
+  type ChaveDecalux = "décalux";
+
+  type ChaveHectolux = "hectolux";
+
+  type ChaveKilolux = "kilolux";
+
+  type ChaveMegalux = "megalux";
+
+  type ChaveGigalux = "gigalux";
+
+  type ChaveTeralux = "teralux";
+
+  type ChavePetalux = "petalux";
+
+  type ChaveExalux = "exalux";
+
+  type ChaveZettalux = "zettalux";
+
+  type ChaveIotalux = "iotalux";
+
+  type ChaveDecilux = "decilux";
+
+  type ChaveCentilux = "centilux";
+
+  type ChaveMillilux = "millilux";
+
+  type ChaveMicrolux = "microlux";
+
+  type ChaveNanolux = "nanolux";
+
+  type ChavePicolux = "picolux";
+
+  type ChaveFemtolux = "femtolux";
+
+  type ChaveAttolux = "attolux";
+
+  type ChaveZeptolux = "zeptolux";
+
+  type ChaveYoctolux = "yoctolux";
+
+}
+
+export namespace ChavesEnergia {
+
+  export namespace Derivados {
+
+    type ChaveCaloria = "caloria";
+
+    type ChaveQuilocaloria = "quilocaloria";
+
+  }
+
+  type ChaveJoule = "joule";
+
+  type ChaveDecajoule = "decâjoule";
+
+  type ChaveHectojoule = "hectôjoule";
+
+  type ChaveQuilojoule = "quilôjoule";
+
+  type ChaveMegajoule = "megajoule";
+
+  type ChaveGigajoule = "gigajoule";
+
+  type ChaveTerajoule = "terajoule";
+
+  type ChavePetajoule = "petajoule";
+
+  type ChaveExajoule = "exajoule";
+
+  type ChaveZetaojoule = "zetajoule";
+
+  type ChaveIotajoule = "iotajoule";
+
+  type ChaveDecijoule = "decijoule";
+
+  type ChaveCentijoule = "centijoule";
+
+  type ChaveMilijoule = "milijoule";
+
+  type ChaveMicrojoule = "microjoule";
+
+  type ChaveNanojoule = "nanojoule";
+
+  type ChavePicojoule = "picojoule";
+
+  type ChaveFemtojoule = "femtojoule";
+
+  type ChaveAttojoule = "attojoule";
+
+  type ChaveZeptojoule = "zeptojoule";
+
+  type ChaveYoctojoule = "yoctojoule";
+
+  type ChaveVolt = "volt";
+
+  type ChaveDecavolt = "decâvolt";
+
+  type ChaveHectovolt = "hectôvolt";
+
+  type ChaveQuilovolt = "quilôvolt";
+
+  type ChaveMegavolt = "megavolt";
+
+  type ChaveGigavolt = "gigavolt";
+
+  type ChaveTeravolt = "teravolt";
+
+  type ChavePetavolt = "petavolt";
+
+  type ChaveExavolt = "exavolt";
+
+  type ChaveZetaovolt = "zetavolt";
+
+  type ChaveIotavolt = "iotavolt";
+
+  type ChaveDecivolt = "decivolt";
+
+  type ChaveCentivolt = "centivolt";
+
+  type ChaveMilivolt = "milivolt";
+
+  type ChaveMicrovolt = "microvolt";
+
+  type ChaveNanovolt = "nanovolt";
+
+  type ChavePicovolt = "picovolt";
+
+  type ChaveFemtovolt = "femtovolt";
+
+  type ChaveAttovolt = "attovolt";
+
+  type ChaveZeptovolt = "zeptovolt";
+
+  type ChaveYoctovolt = "yoctovolt";
+
+  type ChaveWatt = "watt";
+
+  type ChaveDecawatt = "decâwatt";
+
+  type ChaveHectowatt = "hectôwatt";
+
+  type ChaveQuilowatt = "quilôwatt";
+
+  type ChaveMegawatt = "megawatt";
+
+  type ChaveGigawatt = "gigawatt";
+
+  type ChaveTerawatt = "terawatt";
+
+  type ChavePetawatt = "petawatt";
+
+  type ChaveExawatt = "exawatt";
+
+  type ChaveZetawatt = "zetawatt";
+
+  type ChaveIotawatt = "iotawatt";
+
+  type ChaveDeciwatt = "deciwatt";
+
+  type ChaveCentiwatt = "centiwatt";
+
+  type ChaveMiliwatt = "miliwatt";
+
+  type ChaveMicrowatt = "microwatt";
+
+  type ChaveNanowatt = "nanowatt";
+
+  type ChavePicowatt = "picowatt";
+
+  type ChaveFemtowatt = "femtowatt";
+
+  type ChaveAttowatt = "attowatt";
+
+  type ChaveZeptowatt = "zeptowatt";
+
+  type ChaveYoctowatt = "yoctowatt";
+
+}
 
 export namespace ChavesComputacional {
 
@@ -826,5 +1457,3 @@ export namespace ChavesComputacional {
   type ChaveJotaByte = "jotaByte";
 
 }
-
-export namespace Formulas { namespace PadraoSistemaInternacional { } }

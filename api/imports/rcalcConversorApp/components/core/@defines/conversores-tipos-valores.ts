@@ -50,6 +50,27 @@ const Rood = 1012 * Base;
 const Homestead = 676720 * Base;
 
 // $ Formatos Diversos Volume
+const Litro = 10 ** 3 * Base;
+const Decalitro = 10 ** 4 * Base;
+const Hectolitro = 10 ** 5 * Base;
+const Quilolitro = 10 ** 6 * Base;
+const Megalitro = 10 ** 9 * Base;
+const Gigalitro = 10 ** 12 * Base;
+const Teralitro = 10 ** 15 * Base;
+const Petalitro = 10 ** 18 * Base;
+const Exalitro = 10 ** 21 * Base;
+const Zetalitro = 10 ** 24 * Base;
+const Iotalitro = 10 ** 27 * Base;
+const Mililitro = 10 ** -1 * Base;
+const Centilitro = 10 ** -2 * Base;
+const Decilitro = 10 ** -3 * Base;
+const Microlitro = 10 ** -6 * Base;
+const Nanolitro = 10 ** -9 * Base;
+const Picolitro = 10 ** -12 * Base;
+const Femtolitro = 10 ** -15 * Base;
+const Attolitro = 10 ** -18 * Base;
+const Zeptolitro = 10 ** -21 * Base;
+const Yoctolitro = 10 ** -24 * Base;
 const Tonel = 1.5 * Base;
-const Litro = 1000 * Base;
-const Mililitro = 1 * Base;
+const TonelLitro = 957.6 * Litro;
+

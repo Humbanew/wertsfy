@@ -1,5 +1,15 @@
 {
   "recommendations": [
-    "willi84.vikings-icon-theme"
+    "willi84.vikings-icon-theme",
+    "rokoroku.vscode-theme-darcula",
+    "github.github-vscode-theme",
+    "jonathanharty.gruvbox-material-icon-theme",
+    "brittanychiang.halcyon-vscode",
+    "ms-vscode.theme-markdownkit",
+    "ms-vscode.theme-materialkit",
+    "azemoh.one-monokai",
+    "whizkydee.material-palenight-theme",
+    "tal7aouy.rainbow-bracket",
+    "usernamehw.indent-one-space"
   ]
 }

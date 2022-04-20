@@ -148,14 +148,12 @@ export const $resources = {
 
       }
 
+    },
 
-    }
+    multiplicativos: { },
 
-
+    somaticos: { },
 
   }
-
-
-
 
 }

@@ -1,14 +1,9 @@
-//& [146 Elementos] 
+//& [131 Elementos] 
 //#c <lydroc></>
 
 
-  //W Elementos Customizados Base / Infraestrutura [18]
+  //W Elementos Customizados Base / Infraestrutura [3]
 #v <lydroc-{basic/advanced/ultimate}-corebase></>
-#v <lydroc-{basic/advanced/ultimate}-section></>
-#v <lydroc-{basic/advanced/ultimate}-division></>
-#v <lydroc-{basic/advanced/ultimate}-conteiner></>
-#v <lydroc-{basic/advanced/ultimate}-navegation></>
-#v <lydroc-{basic/advanced/ultimate}-menu></>
 
   //W Elementos Customizados Cabeçalho [32]
 #v <lydroc-header{1/2/3/4/5/6/7/8}></>
@@ -33,6 +28,9 @@
 #v <lydroc-italic-description-describe{1/2/3/4/5/6/7/8}></>
 #v <lydroc-weight-description-describe{1/2/3/4/5/6/7/8}></>
 #v <lydroc-italic-weight-description-describe{1/2/3/4/5/6/7/8}></>
+
+  //W Elementos Customizados Segurança [0]
+#& ???
 
   //W Elementos Customizados Superestrutura / Supraestrutura [0]
 #& ???

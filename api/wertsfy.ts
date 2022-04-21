@@ -1,4 +1,5 @@
 import { dpassCore } from './imports/dpassApp/dpass-core';
+import { idCore } from './imports/idApp/id-core';
 import { karzokCore } from './imports/karzokApp/karzok-core';
 import { ksansCore } from './imports/ksansApp/ksans-core';
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
@@ -45,6 +46,8 @@ export const Wertsfy = {
       sgmpAplicacao: {  },
 
       eclypsusAplicacao: {  },
+
+      identifierAplicacao: { core: idCore },
       
       stonnecuttAplicacao: { core: stonnecuttCore },
 

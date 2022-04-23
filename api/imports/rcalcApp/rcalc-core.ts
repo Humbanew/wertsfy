@@ -3,7 +3,7 @@ import { $divisao, $multiplicacao, $potencia, $potenciaDePotencia, $raizBicubica
 import { $oitavoGrau, $primeiroGrau, $quartoGrau, $quintoGrau, $segundoGrau, $setimoGrau, $sextoGrau, $terceiroGrau } from "./components/funcoes-cartesianas";
 import { $antilogaritmoBase10, $antilogaritmoBase10Hiperbolico, $antilogaritmoBase10Inverso, $antilogaritmoBase10InversoHiperbolico, $antilogaritmoBase2, $antilogaritmoBase2Hiperbolico, $antilogaritmoBase2Inverso, $antilogaritmoBase2InversoHiperbolico, $antilogaritmoBaseQualquer, $antilogaritmoBaseQualquerHiperbolico, $antilogaritmoBaseQualquerHiperbolicoMenosUm, $antilogaritmoBaseQualquerInverso, $antilogaritmoBaseQualquerInversoHiperbolico, $antilogaritmoBaseQualquerInversoHiperbolicoMenosUm, $antilogaritmoBaseQualquerInversoMenosUm, $antilogaritmoBaseQualquerMenosUm, $antilogaritmoNatural, $antilogaritmoNaturalHiperbolico, $antilogaritmoNaturalHiperbolicoMaisUm, $antilogaritmoNaturalInverso, $antilogaritmoNaturalInversoHiperbolico, $antilogaritmoNaturalInversoHiperbolicoMaisUm, $antilogaritmoNaturalInversoMaisUm, $antilogaritmoNaturalMaisUm, $cologaritmoBase10, $cologaritmoBase10Hiperbolico, $cologaritmoBase10Inverso, $cologaritmoBase10InversoHiperbolico, $cologaritmoBase2, $cologaritmoBase2Hiperbolico, $cologaritmoBase2Inverso, $cologaritmoBase2InversoHiperbolico, $cologaritmoBaseQualquer, $cologaritmoBaseQualquerHiperbolico, $cologaritmoBaseQualquerHiperbolicoMaisUm, $cologaritmoBaseQualquerInverso, $cologaritmoBaseQualquerInversoHiperbolico, $cologaritmoBaseQualquerInversoHiperbolicoMaisUm, $cologaritmoBaseQualquerInversoMaisUm, $cologaritmoBaseQualquerMaisUm, $cologaritmoNatural, $cologaritmoNaturalHiperbolico, $cologaritmoNaturalHiperbolicoMaisUm, $cologaritmoNaturalInverso, $cologaritmoNaturalInversoHiperbolico, $cologaritmoNaturalInversoHiperbolicoMaisUm, $cologaritmoNaturalInversoMaisUm, $cologaritmoNaturalMaisUm, $exponencial, $exponencialHiperbolica, $exponencialHiperbolicaInversa, $exponencialHiperbolicaInversaMenosUm, $exponencialHiperbolicaMenosUm, $exponencialInversa, $exponencialInversaMenosUm, $exponencialMenosUm, $logaritmoBase10, $logaritmoBase10Hiperbolico, $logaritmoBase10Inverso, $logaritmoBase10InversoHiperbolico, $logaritmoBase2, $logaritmoBase2Hiperbolico, $logaritmoBase2Inverso, $logaritmoBase2InversoHiperbolico, $logaritmoBaseQualquer, $logaritmoBaseQualquerHiperbolico, $logaritmoBaseQualquerHiperbolicoMenosUm, $logaritmoBaseQualquerInverso, $logaritmoBaseQualquerInversoHiperbolico, $logaritmoBaseQualquerInversoHiperbolicoMenosUm, $logaritmoBaseQualquerInversoMenosUm, $logaritmoBaseQualquerMenosUm, $logaritmoNatural, $logaritmoNaturalHiperbolico, $logaritmoNaturalHiperbolicoMaisUm, $logaritmoNaturalInverso, $logaritmoNaturalInversoHiperbolico, $logaritmoNaturalInversoHiperbolicoMaisUm, $logaritmoNaturalInversoMaisUm, $logaritmoNaturalMaisUm } from "./components/funcoes-cientificas-avancadas";
 import { $arccossecante, $arccossecanteHiperbolica, $arccossecanteHiperbolicaInversa, $arccossecanteInversa, $arccosseno, $arccossenoHiperbolico, $arccossenoHiperbolicoInverso, $arccossenoInverso, $arccotangente, $arccotangenteHiperbolica, $arccotangenteHiperbolicaInversa, $arccotangenteInversa, $arcsecante, $arcsecanteHiperbolica, $arcsecanteHiperbolicaInversa, $arcsecanteInversa, $arcseno, $arcsenoHiperbolico, $arcsenoHiperbolicoInverso, $arcsenoInverso, $arctangente, $arctangenteHiperbolica, $arctangenteHiperbolicoInversa, $arctangenteInversa, $cossecante, $cossecanteHiperbolica, $cossecanteHiperbolicaInversa, $cossecanteInversa, $cosseno, $cossenoHiperbolico, $cossenoHiperbolicoInverso, $cossenoInverso, $cotangente, $cotangenteHiperbolica, $cotangenteHiperbolicaInversa, $cotangenteInversa, $secante, $secanteHiperbolica, $secanteHiperbolicaInversa, $secanteInversa, $seno, $senoHiperbolico, $senoHiperbolicoInverso, $senoInverso, $tangente, $tangenteHiperbolica, $tangenteHiperbolicaInversa, $tangenteInversa } from "./components/funcoes-cientificas-basicas";
-import { $calculoDaEscalaGeografica, $calculoDeDensidadePopulacional, $calculoDeGINI, $calculoDeIDH, $calculoDeIMC, $calculoDosNumerosImpares, $calculoDosNumerosPares, $numeroDeConjuntos } from "./components/funcoes-experimentais";
+import { $calculoDaEscalaGeografica, $calculoDeDensidadePopulacional, $calculoDeGINI, $calculoDeIDH, $calculoDeIMC, $calculoDoDiagramaDeVennDe2Grupos, $calculoDoDiagramaDeVennDe3Grupos, $calculoDoDiagramaDeVennDe4Grupos, $calculoDosNumerosImpares, $calculoDosNumerosPares, $calculoDosNumerosPrimos, $criaJogoDaLotoFacil, $criaJogoDaLotoMania, $criaJogoDaMegaSena, $criaJogoDaQuadra, $criaJogoDaQuina, $numeroDeConjuntos } from "./components/funcoes-experimentais";
 import { $apotemaDeUmTrianguloQualquer, $areaCilindroQualquer, $areaCirculoQualquer, $areaCircunferenciaQualquer, $areaConeQualquer, $areaDeUmaSuperficieQualquer, $areaDeUmParalelogramoQualquer, $areaDeUmPoligonoQualquer, $areaElipseQualquer, $areaEsferaQualquer, $areaLateralDeUmPrismaQualquer, $areaLozangoQualquer, $areaPiramideQualquer, $areaQuadradoQualquer, $areaRetanguloQualquer, $areaTrapezioQualquer, $areaTrianguloQualquer, $volumeDeUmaSuperficieQualquer, $volumeDeUmCilindroQualquer, $volumeDeUmConeQualquer, $volumeDeUmCuboQualquer, $volumeDeUmDodecaedroQualquer, $volumeDeUmEsferaQualquer, $volumeDeUmIcosaedroQualquer, $volumeDeUmOctaedroQualquer, $volumeDeUmParalelepipedoQualquer, $volumeDeUmPiramideQualquer, $volumeDeUmPoligonoFormatoLozangoQualquer, $volumeDeUmPoligonoFormatoTrapezioQualquer, $volumeDeUmPrismaQualquer, $volumeDeUmRombQualquer, $volumeDeUmTetraedroQualquer } from "./components/funcoes-geometricas";
 
 export const rcalcCore = {
@@ -667,6 +667,24 @@ export const rcalcCore = {
       calculoDosNumerosImpares: $calculoDosNumerosImpares,
 
       numeroDeConjuntos: $numeroDeConjuntos,
+
+      criaJogoDaMegaSena: $criaJogoDaMegaSena,
+
+      criaJogoDaQuina: $criaJogoDaQuina,
+
+      criaJogoDaQuadra: $criaJogoDaQuadra,
+
+      criaJogoDaLotoFacil: $criaJogoDaLotoFacil,
+
+      criaJogoDaLotoMania: $criaJogoDaLotoMania,
+
+      calculoDoDiagramaDeVennDe2Nucleos: $calculoDoDiagramaDeVennDe2Grupos,
+
+      calculoDoDiagramaDeVennDe3Nucleos: $calculoDoDiagramaDeVennDe3Grupos,
+      
+      calculoDoDiagramaDeVennDe4Nucleos: $calculoDoDiagramaDeVennDe4Grupos,
+
+      calculoDosNumerosPrimos: $calculoDosNumerosPrimos,
 
     }
 

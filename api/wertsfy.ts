@@ -4,8 +4,10 @@ import { karzokCore } from './imports/karzokApp/karzok-core';
 import { ksansCore } from './imports/ksansApp/ksans-core';
 import { lydrocCore } from './imports/lydrocApp/lydroc-core';
 import { lydrocDecorationCore } from './imports/lydrocDecorationApp/lydroc-decoration-core';
+import { lydrocFontsCore } from './imports/lydrocFontsApp/lydroc-fonts-core';
 import { lydrocLabCore } from './imports/lydrocLabApp/lydroc-lab-core';
 import { lydrocPlusCore } from './imports/lydrocPlusApp/lydroc-plus-core';
+import { lydrocRouterCore } from './imports/lydrocRouterApp/lydroc-router-core';
 import { rcalcCore } from './imports/rcalcApp/rcalc-core';
 import { rcalcConversorCore } from './imports/rcalcConversorApp/rcalc-conversor-core';
 import { stonnecuttCore } from './imports/stonnecuttApp/stonnecutt-core';
@@ -68,6 +70,10 @@ export const Wertsfy = {
       lydrocPlusAplicacao: { core: lydrocPlusCore },
 
       lydrocLabAplicacao: { core: lydrocLabCore },
+
+      lydrocFontsAplicacao: { core: lydrocFontsCore },
+
+      lydrocRouterAplicacao: { core: lydrocRouterCore },
 
       lydrocDecorationAplicacao: { core: lydrocDecorationCore },
 

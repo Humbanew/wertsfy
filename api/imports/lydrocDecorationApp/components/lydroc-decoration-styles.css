@@ -1,0 +1,83 @@
+/* f lydroc decoration display classes */
+
+.ly-display-block {
+  display: block;
+}
+
+.ly-display-contents {
+  display: contents;
+}
+
+.ly-display-inherit {
+  display: inherit;
+}
+
+.ly-display-inline {
+  display: inline;
+}
+
+.ly-display-inline-block {
+  display: inline-block;
+}
+
+.ly-display-inline-flex {
+  display: inline-flex;
+}
+
+.ly-display-inline-grid {
+  display: inline-grid;
+}
+
+.ly-display-flex {
+  display: flex;
+}
+
+.ly-display-grid {
+  display: grid;
+}
+
+.ly-display-none {
+  display: none;
+}
+
+.ly-display-run-in {
+  display: run-in;
+}
+
+.ly-display-table {
+  display: table;
+}
+
+.ly-display-table-row {
+  display: table-row;
+}
+
+.ly-display-table-cell {
+  display: table-cell;
+}
+
+.ly-display-table-caption {
+  display: table-caption;
+}
+
+.ly-display-table-row-group {
+  display: table-row-group;
+}
+
+.ly-display-table-header-group {
+  display: table-header-group;
+}
+
+.ly-display-table-footer-group {
+  display: table-footer-group;
+}
+
+.ly-display-table-column-group {
+  display: table-column-group;
+}
+
+.ly-display-table-column {
+  display: table-column;
+}
+
+

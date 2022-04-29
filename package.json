@@ -20,9 +20,7 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "file": "^0.2.2",
-    "file-saver": "^2.0.5",
-    "filejs": "^0.0.1",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "sql-ts": "^6.1.0"
   }
 }

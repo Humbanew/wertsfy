@@ -404,7 +404,9 @@ export namespace ChavesVolume {
       type ChaveQuintalMetricoMiniagramas = "quintal-métrico-miniagramas";
 
       type ChaveQuintalMetricoToneladasMetricas = "quintal-métrico-toneladas-métricas";
-
+      
+      type ChaveQuintalMetricoToneladas = "quintal-métrico-toneladas";
+      
     }
 
     export namespace QuintalNorteAmericano {

@@ -1,4 +1,6 @@
-/* f lydroc decoration display classes */
+/*o lydroc functions [96] */
+
+/*f lydroc decoration display classes [45] */
 
 .ly-display-block {
   display: block;
@@ -10,6 +12,10 @@
 
 .ly-display-inherit {
   display: inherit;
+}
+
+.ly-display-initial {
+  display: initial;
 }
 
 .ly-display-inline {
@@ -30,6 +36,10 @@
 
 .ly-display-flex {
   display: flex;
+}
+
+.ly-display-flow-root {
+  display: flow-root;
 }
 
 .ly-display-grid {
@@ -80,4 +90,116 @@
   display: table-column;
 }
 
+.ly-display-unset {
+  display: unset;
+}
+
+.ly-display-ruby {
+  display: ruby;
+}
+
+.ly-display-ruby-base {
+  display: ruby-base;
+}
+
+.ly-display-ruby-text {
+  display: ruby-text;
+}
+
+.ly-display-ruby-base-container {
+  display: ruby-base-container;
+}
+
+.ly-display-ruby-text-container {
+  display: ruby-text-container;
+}
+
+.ly-display-moz-box {
+  display: -moz-box;
+}
+
+.ly-display-moz-deck {
+  display: -moz-deck;
+}
+
+.ly-display-moz-grid {
+  display: -moz-grid;
+}
+
+.ly-display-moz-grid-group {
+  display: -moz-grid-group;
+}
+
+.ly-display-moz-grid-line {
+  display: -moz-grid-line;
+}
+
+.ly-display-moz-groupbox {
+  display: -moz-groupbox;
+}
+
+.ly-display-moz-inline-box {
+  display: -moz-inline-box;
+}
+
+.ly-display-moz-inline-grid {
+  display: -moz-inline-grid;
+}
+
+.ly-display-moz-inline-stack {
+  display: -moz-inline-stack;
+}
+
+.ly-display-moz-inline-table {
+  display: -moz-inline-table;
+}
+
+.ly-display-moz-marker {
+  display: -moz-marker;
+}
+
+.ly-display-moz-popup {
+  display: -moz-popup;
+}
+
+.ly-display-moz-stack {
+  display: -moz-stack;
+}
+
+.ly-display-webkit-box {
+  display: -webkit-box;
+}
+
+.ly-display-webkit-flex {
+  display: -webkit-flex;
+}
+
+.ly-display-webkit-inline-box {
+  display: -webkit-inline-box;
+}
+
+.ly-display-webkit-inline-flex {
+  display: -webkit-inline-flex;
+}
+
+/*f lydroc decoration font display classes [3] */
+.ly-font-display-inherit {
+  font-display:inherit;
+}
+
+.ly-font-display-initial {
+  font-display:initial;
+}
+
+.ly-font-display-unset {
+  font-display:unset;
+}
+
+/*f lydroc decoration font weight classes [0] */
+
+/*f lydroc decoration font style classes [0] */
+
+/*f lydroc decoration background color classes [0] */
+
+/*f lydroc decoration foreground color classes [0] */
 

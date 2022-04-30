@@ -1,0 +1,26 @@
+.conver_physics_carga_eletrica_titulo,
+.conver_physics_carga_eletrica_titulo__spart {
+  display: inline-block;
+  font-family: 'font_Ubuntu_Light';
+  width: 64.6%;
+  text-align: center;
+  margin-top: 1.2vw;
+  margin-left: 3vw;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #000000;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
+
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #2359fff4;
+  border-radius: 6px;
+}
+
+.conver_physics_carga_eletrica_titulo__spart {
+  border-bottom-color: #2359ff;
+}

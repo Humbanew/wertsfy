@@ -1,0 +1,64 @@
+.card_conver_chemical_atividade_catalitica_lista{
+  display: inline-block;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card_conver_chemical_atividade_catalitica_lista:hover {
+  color: #000000;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_chemical_atividade_catalitica_lista:active {
+  color: #222222;
+}
+
+.card_conver_chemical_atividade_catalitica_item{
+  font-family: 'font_Ubuntu_Light';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5%;
+}
+
+.card_conver_chemical_atividade_catalitica_descricao{
+  font-family: 'font_Ubuntu_Regular';
+  font-size: 22.5px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 1.4%;
+}
+
+.card_conver_chemical_atividade_catalitica_contador,
+.card_conver_chemical_atividade_catalitica_contador__spart{
+  font-family: 'font_Ubuntu_Medium';
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 94.2%;
+  display: inline-block;
+  background-color: #00ff33f4;
+  color: #000000;
+  margin-top: 0.9%;
+}
+
+.card_conver_chemical_atividade_catalitica_contador__spart {
+  background-color: #00ff33;
+}
+
+.card_conver_chemical_atividade_catalitica_contador:hover,
+.card_conver_chemical_atividade_catalitica_contador__spart:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_chemical_atividade_catalitica_contador:active,
+.card_conver_chemical_atividade_catalitica_contador__spart:active {
+  background-color: #222222;
+  color: #ffffff;
+}

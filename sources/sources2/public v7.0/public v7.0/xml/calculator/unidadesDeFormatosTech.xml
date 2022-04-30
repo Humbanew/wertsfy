@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medida>
+  <tipo>Bit</tipo>
+  <tamanho>Digíto Binário</tamanho>
+  <sigla>Não Possui</sigla>
+</medida>
+
+<medida>
+  <tipo>Byte</tipo>
+  <tamanho>8 Bits</tamanho>
+  <sigla>B</sigla>
+</medida>
+
+<medida>
+  <tipo>Kilobyte</tipo>
+  <tamanho>1024 Bytes</tamanho>
+  <sigla>KB</sigla>
+</medida>
+
+<medida>
+  <tipo>Megabyte</tipo>
+  <tamanho>1024 Kilobytes</tamanho>
+  <sigla>MB</sigla>
+</medida>
+
+<medida>
+  <tipo>Gigabyte</tipo>
+  <tamanho>1024 Megabytes</tamanho>
+  <sigla>GB</sigla>
+</medida>
+
+<medida>
+  <tipo>Terrabyte</tipo>
+  <tamanho>1024 Gigabytes</tamanho>
+  <sigla>TB</sigla>
+</medida>
+
+<medida>
+  <tipo>Petabyte</tipo>
+  <tamanho>1024 Terrabytes</tamanho>
+  <sigla>PB</sigla>
+</medida>
+
+<medida>
+  <tipo>Exabyte</tipo>
+  <tamanho>1024 Petabytes</tamanho>
+  <sigla>EB</sigla>
+</medida>
+
+<medida>
+  <tipo>Zettabyte</tipo>
+  <tamanho>1024 Exabytes</tamanho>
+  <sigla>ZB</sigla>
+</medida>
+
+<medida>
+  <tipo>Yottabyte</tipo>
+  <tamanho>1024 Zettabytes</tamanho>
+  <sigla>YB</sigla>
+</medida>
+
+<medida>
+  <tipo>Brontobyte</tipo>
+  <tamanho>1024 Yottabytes</tamanho>
+  <sigla>BrB</sigla>
+</medida>
+
+<medida>
+  <tipo>Geopbyte</tipo>
+  <tamanho>1024 Brontobytes</tamanho>
+  <sigla>GeB</sigla>
+</medida>
+
+<medida>
+  <tipo>Saganbytes</tipo>
+  <tamanho>1024 Geopbytes</tamanho>
+  <sigla>SB</sigla>
+</medida>
+
+<medida>
+  <tipo>Jotabytes</tipo>
+  <tamanho>1024 Saganbytes</tamanho>
+  <sigla>JB</sigla>
+</medida>

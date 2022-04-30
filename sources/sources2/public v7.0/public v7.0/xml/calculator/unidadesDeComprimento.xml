@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medida>
+  <tipo>Yoctômetro</tipo>
+  <tamanho>10 elevado a -24</tamanho>
+  <sigla>ym</sigla>
+</medida>
+
+<medida>
+  <tipo>Zeptômetro</tipo>
+  <tamanho>10 elevado a -21</tamanho>
+  <sigla>zm</sigla>
+</medida>
+
+<medida>
+  <tipo>Attômetro</tipo>
+  <tamanho>10 elevado a -18</tamanho>
+  <sigla>am</sigla>
+</medida>
+
+<medida>
+  <tipo>Fentômetro</tipo>
+  <tamanho>10 elevado a -15</tamanho>
+  <sigla>fm</sigla>
+</medida>
+
+<medida>
+  <tipo>Picômetro</tipo>
+  <tamanho>10 elevado a -12</tamanho>
+  <sigla>pm</sigla>
+</medida>
+
+<medida>
+  <tipo>Nanômetro</tipo>
+  <tamanho>10 elevado a -9</tamanho>
+  <sigla>nm</sigla>
+</medida>
+
+<medida>
+  <tipo>Micrômetro</tipo>
+  <tamanho>10 elevado a -6</tamanho>
+  <sigla>μm</sigla>
+</medida>
+
+<medida>
+  <tipo>Milímetro</tipo>
+  <tamanho>10 elevado a -3</tamanho>
+  <sigla>mm</sigla>
+</medida>
+
+<medida>
+  <tipo>Centímetro</tipo>
+  <tamanho>10 elevado a -2</tamanho>
+  <sigla>cm</sigla>
+</medida>
+
+<medida>
+  <tipo>Decímetro</tipo>
+  <tamanho>10 elevado a -1</tamanho>
+  <sigla>dm</sigla>
+</medida>
+
+<medida>
+  <tipo>Metro</tipo>
+  <tamanho>10 elevado a 0</tamanho>
+  <sigla>m</sigla>
+</medida>
+
+<medida>
+  <tipo>Decâmetro</tipo>
+  <tamanho>10 elevado a 1</tamanho>
+  <sigla>dam</sigla>
+</medida>
+
+<medida>
+  <tipo>Hectômetro</tipo>
+  <tamanho>10 elevado a 2</tamanho>
+  <sigla>hm</sigla>
+</medida>
+
+<medida>
+  <tipo>Quilômetro</tipo>
+  <tamanho>10 elevado a 3</tamanho>
+  <sigla>km</sigla>
+</medida>
+
+<medida>
+  <tipo>Megametro</tipo>
+  <tamanho>10 elevado a 6</tamanho>
+  <sigla>Mm</sigla>
+</medida>
+
+<medida>
+  <tipo>Gigametro</tipo>
+  <tamanho>10 elevado a 9</tamanho>
+  <sigla>Gm</sigla>
+</medida>
+
+<medida>
+  <tipo>Terametro</tipo>
+  <tamanho>10 elevado a 12</tamanho>
+  <sigla>Tm</sigla>
+</medida>
+
+<medida>
+  <tipo>Petametro</tipo>
+  <tamanho>10 elevado a 15</tamanho>
+  <sigla>Pm</sigla>
+</medida>
+
+<medida>
+  <tipo>Exametro</tipo>
+  <tamanho>10 elevado a 18</tamanho>
+  <sigla>Em</sigla>
+</medida>
+
+<medida>
+  <tipo>Zettametro</tipo>
+  <tamanho>10 elevado a 21</tamanho>
+  <sigla>Zm</sigla>
+</medida>
+
+<medida>
+  <tipo>Yottametro</tipo>
+  <tamanho>10 elevado a 24</tamanho>
+  <sigla>Ym</sigla>
+</medida>

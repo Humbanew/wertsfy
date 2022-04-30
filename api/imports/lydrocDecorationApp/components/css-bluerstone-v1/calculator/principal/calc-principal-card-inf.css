@@ -1,0 +1,9 @@
+.card_principal__inferior {
+  display: inline-block;
+  background-color: #000000;
+  width: 46.8%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}

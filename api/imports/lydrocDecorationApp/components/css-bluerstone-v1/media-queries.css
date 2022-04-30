@@ -1,0 +1,8 @@
+@media screen and (max-width: 2560px) {} /* Tela 4K */
+@media screen and (max-width: 1440px) {} /* Laptop L */
+@media screen and (max-width: 1024px) {} /* Laptop */
+@media screen and (max-width: 768px) {} /* Tablet */
+@media screen and (max-width: 425px) {} /* Smartphone L */
+@media screen and (max-width: 375px) {} /* Smartphone M */
+@media screen and (max-width: 320px) {} /* Smartphone S */
+@media print and (max-width: 24.5cm) {} /* Impressão das páginas web do projeto */

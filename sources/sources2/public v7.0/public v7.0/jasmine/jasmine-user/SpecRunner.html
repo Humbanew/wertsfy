@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v3.5.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.5.0/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-3.5.0/jasmine.css">
+
+  <script src="lib/jasmine-3.5.0/jasmine.js"></script>
+  <script src="lib/jasmine-3.5.0/jasmine-html.js"></script>
+  <script src="lib/jasmine-3.5.0/boot.js"></script>
+
+  <!-- include source files here... -->
+  <script src="src/soma/Soma.js"></script>
+  <script src="src/subtracao/Subtracao.js"></script>
+  <script src="src/multiplicacao/Multiplicacao.js"></script>
+  <script src="src/divisao/Divisao.js"></script>
+  <script src="src/potencia/Potencia.js"></script>
+  <script src="src/potdepot/Potdepot.js"></script>
+  <script src="src/raizquadrada/RaizQuadrada.js"></script>
+  <script src="src/raizcubica/RaizCubica.js"></script>
+  <script src="src/raizbiquadratica/RaizBiquadratica.js"></script>
+  <script src="src/raizbicubica/RaizBicubica.js"></script>
+  <script src="src/seno/Seno.js"></script>
+  <script src="src/cosseno/Cosseno.js"></script>
+  <script src="src/tangente/Tangente.js"></script>
+  <script src="src/secante/Secante.js"></script>
+  <script src="src/cossecante/Cossecante.js"></script>
+  <script src="src/cotangente/Cotangente.js"></script>
+  <script src="src/senohiper/SenoHiper.js"></script>
+  <script src="src/cossenohiper/CossenoHiper.js"></script>
+  <script src="src/tangentehiper/TangenteHiper.js"></script>
+  <script src="src/secantehiper/SecanteHiper.js"></script>
+  <script src="src/cossecantehiper/CossecanteHiper.js"></script>
+  <script src="src/cotangentehiper/CotangenteHiper.js"></script>
+  <script src="src/arcoseno/ArcoSeno.js"></script> <!-- aqui -->
+  <script src="src/arcocosseno/ArcoCosseno.js"></script>
+  <script src="src/logbase2/LogBase2.js"></script>
+  <script src="src/logbase10/LogBase10.js"></script>
+  <script src="src/lognat/LogNatural.js"></script>
+  <script src="src/lognatm1/LogNaturalM1.js"></script>
+  <script src="src/converbytesbits/ConverBytesBits.js"></script>
+  <script src="src/converbitsbytes/ConverBitsBytes.js"></script>
+  <script src="src/converkbytesbits/ConverKBytesBits.js"></script>
+  <script src="src/converbitskbytes/ConverBitsKBytes.js"></script>
+  <script src="src/convermbytesbits/ConverMBytesBits.js"></script>
+  <script src="src/converbitsmbytes/ConverBitsMBytes.js"></script>
+  <script src="src/convergbytesbits/ConverGBytesBits.js"></script>
+  <script src="src/converbitsgbytes/ConverBitsGBytes.js"></script>
+  <script src="src/convertbytesbits/ConverTBytesBits.js"></script>
+  <script src="src/converbitstbytes/ConverBitsTBytes.js"></script>
+  <script src="src/converpbytesbits/ConverPBytesBits.js"></script>
+  <script src="src/converbitspbytes/ConverBitsPBytes.js"></script>
+  <script src="src/converebytesbits/ConverEBytesBits.js"></script>
+  <script src="src/converbitsebytes/ConverBitsEBytes.js"></script>
+  <script src="src/converybytesbits/ConverYBytesBits.js"></script>
+  <script src="src/converbitsybytes/ConverBitsYBytes.js"></script>
+  <script src="src/converzbytesbits/ConverZBytesBits.js"></script>
+  <script src="src/converbitszbytes/ConverBitsZBytes.js"></script>
+  <script src="src/converbrbytesbits/ConverBrBytesBits.js"></script>
+  <script src="src/converbitsbrbytes/ConverBitsBrBytes.js"></script>
+  <script src="src/convergebytesbits/ConverGeBytesBits.js"></script>
+  <script src="src/converbitsgebytes/ConverBitsGeBytes.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="spec/soma/SomaSpec.js"></script>
+  <script src="spec/subtracao/SubtracaoSpec.js"></script>
+  <script src="spec/multiplicacao/MultiplicacaoSpec.js"></script>
+  <script src="spec/divisao/DivisaoSpec.js"></script>
+  <script src="spec/potencia/PotenciaSpec.js"></script>
+  <script src="spec/potdepot/PotdepotSpec.js"></script>
+  <script src="spec/raizquadrada/RaizQuadradaSpec.js"></script>
+  <script src="spec/raizcubica/RaizCubicaSpec.js"></script>
+  <script src="spec/raizbiquadratica/RaizBiquadraticaSpec.js"></script>
+  <script src="spec/raizbicubica/RaizBicubicaSpec.js"></script>
+  <script src="spec/seno/SenoSpec.js"></script>
+  <script src="spec/cosseno/CossenoSpec.js"></script>
+  <script src="spec/tangente/TangenteSpec.js"></script>
+  <script src="spec/secante/SecanteSpec.js"></script>
+  <script src="spec/cossecante/CossecanteSpec.js"></script>
+  <script src="spec/cotangente/CotangenteSpec.js"></script>
+  <script src="spec/senohiper/SenoHiperSpec.js"></script>
+  <script src="spec/cossenohiper/CossenoHiperSpec.js"></script>
+  <script src="spec/tangentehiper/TangenteHiperSpec.js"></script>
+  <script src="spec/secantehiper/SecanteHiperSpec.js"></script>
+  <script src="spec/cossecantehiper/CossecanteHiperSpec.js"></script>
+  <script src="spec/cotangentehiper/CotangenteHiperSpec.js"></script>
+  <script src="spec/arcoseno/ArcoSenoSpec.js"></script> <!-- aqui-->
+  <script src="spec/arcocosseno/ArcoCossenoSpec.js"></script>
+  <script src="spec/logbase2/LogBase2Spec.js"></script>
+  <script src="spec/logbase10/LogBase10Spec.js"></script>
+  <script src="spec/lognat/LogNaturalSpec.js"></script>
+  <script src="spec/lognatm1/LogNaturalM1Spec.js"></script>
+  <script src="spec/converbytesbits/ConverBytesBitsSpec.js"></script>
+  <script src="spec/converbitsbytes/ConverBitsBytesSpec.js"></script>
+  <script src="spec/converkbytesbits/ConverKBytesBitsSpec.js"></script>
+  <script src="spec/converbitskbytes/ConverBitsKBytesSpec.js"></script>
+  <script src="spec/convermbytesbits/ConverMBytesBitsSpec.js"></script>
+  <script src="spec/converbitsmbytes/ConverBitsMBytesSpec.js"></script>
+  <script src="spec/convergbytesbits/ConverGBytesBitsSpec.js"></script>
+  <script src="spec/converbitsgbytes/ConverBitsGBytesSpec.js"></script>
+  <script src="spec/convertbytesbits/ConverTBytesBitsSpec.js"></script>
+  <script src="spec/converbitstbytes/ConverBitsTBytesSpec.js"></script>
+  <script src="spec/converpbytesbits/ConverPBytesBitsSpec.js"></script>
+  <script src="spec/converbitspbytes/ConverBitsPBytesSpec.js"></script>
+  <script src="spec/converebytesbits/ConverEBytesBitsSpec.js"></script>
+  <script src="spec/converbitsebytes/ConverBitsEBytesSpec.js"></script>
+  <script src="spec/converybytesbits/ConverYBytesBitsSpec.js"></script>
+  <script src="spec/converbitsybytes/ConverBitsYBytesSpec.js"></script>
+  <script src="spec/converzbytesbits/ConverZBytesBitsSpec.js"></script>
+  <script src="spec/converbitszbytes/ConverBitsZBytesSpec.js"></script>
+  <script src="spec/converbrbytesbits/ConverBrBytesBitsSpec.js"></script>
+  <script src="spec/converbitsbrbytes/ConverBitsBrBytesSpec.js"></script>
+  <script src="spec/convergebytesbits/ConverGeBytesBitsSpec.js"></script>
+  <script src="spec/converbitsgebytes/ConverBitsGeBytesSpec.js"></script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.card_arcos_trigonometricos__inferior {
+  display: inline-block;
+  background-color: #44885f;
+  width: 45.5%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.card_arcos_trigonometricos__inferior:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_arcos_trigonometricos__inferior:active {
+  background-color: #222222;
+  color: #ffffff;
+}

@@ -1,0 +1,67 @@
+/*** Fontes ***/
+
+
+/* Fonte do logo do cabeçalho */
+@font-face {
+  font-family: 'font_Galaxy_Experience';
+  src: url('../../fonts/Galaxy Experience.woff2');
+}
+
+/* Fonte do menu do cabeçalho */
+@font-face {
+  font-family: 'font_Ubuntu_Regular';
+  src: url('../../fonts/Ubuntu-Regular.ttf');
+}
+
+/* Fonte do complemento do cabeçalho */
+
+@font-face {
+  font-family: 'font_Baumans';
+  src: url('../../fonts/Baumans-Regular.ttf');
+}
+
+/* Fontes Secundárias */
+
+@font-face {
+  font-family: 'font_Ubuntu_Light';
+  src: url('../../fonts/Ubuntu-Light.ttf');
+}
+
+@font-face {
+  font-family: 'font_Ubuntu_Medium';
+  src: url('../../fonts/Ubuntu-Medium.ttf');
+}
+
+/** Design Calculator (Default) **/
+
+.botao_retorno {
+  display: inline-block;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 19.55px;
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+  position: fixed;
+  z-index: 1;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  border-bottom-color: #55555588;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+
+  margin-left: 0.8vw;
+}
+
+.botao_retorno:hover {
+  border-bottom-color: #ff2200;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+#botao_retorno{
+  margin-top: -2vw;
+}

@@ -1,0 +1,38 @@
+.card_conver_math_an_s__superior,
+.card_conver_math_an_s__superior___spart {
+  display: inline-block;
+  background-color: #000000f8;
+  width: 100%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.card_conver_math_an_s__superior___spart {
+  background-color: #000000;
+}
+
+.card_conver_math_an_s__superior:hover {
+  background-color: #f03d58f4;
+  color: #000000;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_math_an_s__superior:active {
+  background-color: #f00958f4;
+  color: #000000;
+}
+
+.card_conver_math_an_s__superior___spart:hover {
+  background-color: #f03d58;
+  color: #000000;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_math_an_s__superior___spart:active {
+  background-color: #f00958;
+  color: #000000;
+}

@@ -195,9 +195,60 @@
   font-display:unset;
 }
 
-/*f lydroc decoration font weight classes [0] */
+/*f lydroc decoration font weight classes [9] */
+.ly-font-weight-100 {
+  font-weight: 100;
+}
+
+.ly-font-weight-200 {
+  font-weight: 200;
+}
+
+.ly-font-weight-300 {
+  font-weight: 300;
+}
+
+.ly-font-weight-400 {
+  font-weight: 400;
+}
+
+.ly-font-weight-500 {
+  font-weight: 500;
+}
+
+.ly-font-weight-600 {
+  font-weight: 600;
+}
+
+.ly-font-weight-700 {
+  font-weight: 700;
+}
+
+.ly-font-weight-800 {
+  font-weight: 800;
+}
+
+.ly-font-weight-900 {
+  font-weight: 900;
+}
 
 /*f lydroc decoration font style classes [0] */
+
+.ly-font-style-inherit {
+  font-style: inherit;
+}
+
+.ly-font-style-initial {
+  font-style: initial;
+}
+
+.ly-font-style-unset {
+  font-style: unset;
+}
+
+.ly-font-style-normal {
+  font-style: normal;
+}
 
 /*f lydroc decoration background color classes [0] */
 

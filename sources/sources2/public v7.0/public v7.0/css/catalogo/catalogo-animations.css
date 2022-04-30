@@ -1,0 +1,16 @@
+@keyframes move {
+
+  0% {visibility: hidden;}
+
+  100% {visibility: visible;}
+
+}
+
+#cat_versao1 {
+  animation-name: move;
+  animation-duration: 400ms;
+  animation-delay: 30ms;
+  animation-fill-mode: backwards;
+
+  transform: perspective(20px);
+}

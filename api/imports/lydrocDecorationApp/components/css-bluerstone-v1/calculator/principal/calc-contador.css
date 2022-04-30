@@ -1,0 +1,19 @@
+.calc_contador_functions {
+  display: inline-block;
+  margin-left: 64%;
+  margin-bottom: 2%;
+  margin-top: 0.2%;
+  text-align: center;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #000000;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0.6%;
+  padding-right: 0.6%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

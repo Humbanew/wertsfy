@@ -1,0 +1,144 @@
+/* Texto dos cards do catálogo */
+
+.catalogo_opcoes_titulo1,
+.catalogo_opcoes_titulo2,
+.catalogo_opcoes_titulo3,
+.catalogo_opcoes_titulo4,
+.catalogo_opcoes_titulo5,
+.catalogo_opcoes_titulo6,
+.catalogo_opcoes_titulo7 {
+  color:#ffffff;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.catalogo_opcoes_titulo3,
+.catalogo_opcoes_titulo6 {
+  color: #555555;
+}
+
+.catalogo_opcoes_categoria1,
+.catalogo_opcoes_categoria2,
+.catalogo_opcoes_categoria3,
+.catalogo_opcoes_categoria4,
+.catalogo_opcoes_categoria5,
+.catalogo_opcoes_categoria6,
+.catalogo_opcoes_categoria7 {
+  color:#111111;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.catalogo_opcoes_versao1,
+.catalogo_opcoes_versao2,
+.catalogo_opcoes_versao3,
+.catalogo_opcoes_versao4,
+.catalogo_opcoes_versao5,
+.catalogo_opcoes_versao6,
+.catalogo_opcoes_versao7 {
+  color:#999999;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.catalogo_opcoes_portas1,
+.catalogo_opcoes_portas2,
+.catalogo_opcoes_portas3,
+.catalogo_opcoes_portas4,
+.catalogo_opcoes_portas5,
+.catalogo_opcoes_portas6,
+.catalogo_opcoes_portas7,
+.catalogo_opcoes_motor1,
+.catalogo_opcoes_motor2,
+.catalogo_opcoes_motor3,
+.catalogo_opcoes_motor4,
+.catalogo_opcoes_motor5,
+.catalogo_opcoes_motor6,
+.catalogo_opcoes_motor7,
+.catalogo_opcoes_potencia1,
+.catalogo_opcoes_potencia2,
+.catalogo_opcoes_potencia3,
+.catalogo_opcoes_potencia4,
+.catalogo_opcoes_potencia5,
+.catalogo_opcoes_potencia6,
+.catalogo_opcoes_potencia7,
+.catalogo_opcoes_torque1,
+.catalogo_opcoes_torque2,
+.catalogo_opcoes_torque3,
+.catalogo_opcoes_torque4,
+.catalogo_opcoes_torque5,
+.catalogo_opcoes_torque6,
+.catalogo_opcoes_torque7,
+.catalogo_opcoes_cambio_manual1,
+.catalogo_opcoes_cambio_manual2,
+.catalogo_opcoes_cambio_manual3,
+.catalogo_opcoes_cambio_manual4,
+.catalogo_opcoes_cambio_manual5,
+.catalogo_opcoes_cambio_manual6,
+.catalogo_opcoes_cambio_manual7,
+.catalogo_opcoes_cambio_automatico1,
+.catalogo_opcoes_cambio_automatico2,
+.catalogo_opcoes_cambio_automatico3,
+.catalogo_opcoes_cambio_automatico4,
+.catalogo_opcoes_cambio_automatico5,
+.catalogo_opcoes_cambio_automatico6,
+.catalogo_opcoes_cambio_automatico7 {
+  color:#ffffff;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 19.25px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  font-style: italic;
+}
+
+.catalogo_opcoes_portas3,
+.catalogo_opcoes_portas6,
+.catalogo_opcoes_motor3,
+.catalogo_opcoes_motor6,
+.catalogo_opcoes_potencia3,
+.catalogo_opcoes_potencia6,
+.catalogo_opcoes_torque3,
+.catalogo_opcoes_torque6,
+.catalogo_opcoes_cambio_manual3,
+.catalogo_opcoes_cambio_manual6,
+.catalogo_opcoes_cambio_automatico3,
+.catalogo_opcoes_cambio_automatico6 {
+  color: #333333;
+  font-weight: 600;
+}
+
+.catalogo_opcoes_preco1,
+.catalogo_opcoes_preco2,
+.catalogo_opcoes_preco3,
+.catalogo_opcoes_preco4,
+.catalogo_opcoes_preco5,
+.catalogo_opcoes_preco6,
+.catalogo_opcoes_preco7 {
+  color:#ffffff;
+  font-family: 'font_Ubuntu_Light';
+  text-align: center;
+  padding-bottom: 0.8%;
+  padding-top: 1.4%;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.catalogo_opcoes_preco3,
+.catalogo_opcoes_preco6 {
+  color: #444444;
+  font-weight: 800;
+}

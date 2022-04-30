@@ -1,0 +1,281 @@
+/** Cabeçalho **/
+
+@-webkit-keyframes menu_item_dynamic {
+  0% {
+    color: #ffffff
+  }
+
+  25% {
+    color: #0000ff
+  }
+
+  50% {
+    color: #00ff55
+  }
+
+  75% {
+    color: #ffff00
+  }
+
+  100% {
+    color: #ffffff
+  }
+}
+
+@keyframes menu_item_dynamic {
+  0% {
+    color: #ffffff
+  }
+
+  25% {
+    color: #0000ff
+  }
+
+  50% {
+    color: #00ff55
+  }
+
+  75% {
+    color: #ffff00
+  }
+
+  100% {
+    color: #ffffff
+  }
+}
+
+/*** Animação de movimentação do botão do menu do cabeçalho (Tons de Azul) ***/
+
+@-webkit-keyframes border_button_move {
+  0% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  25% {
+    border-top-color: #0066ff;
+    border-left-color: #0066ff;
+    border-right-color: #0099cc;
+    border-bottom-color: #0099cc;
+    border-top-width: 1.7px;
+    border-left-width: 1.7px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  50% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  75% {
+    border-top-color: #0066ff;
+    border-left-color: #0066ff;
+    border-right-color: #0099cc;
+    border-bottom-color: #0099cc;
+    border-top-width: 1.7px;
+    border-left-width: 1.7px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  100% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+}
+
+@keyframes border_button_move {
+  0% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  25% {
+    border-top-color: #0066ff;
+    border-left-color: #0066ff;
+    border-right-color: #0099cc;
+    border-bottom-color: #0099cc;
+    border-top-width: 1.7px;
+    border-left-width: 1.7px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  50% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  75% {
+    border-top-color: #0066ff;
+    border-left-color: #0066ff;
+    border-right-color: #0099cc;
+    border-bottom-color: #0099cc;
+    border-top-width: 1.7px;
+    border-left-width: 1.7px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+
+  100% {
+    border-top-color: #0099cc;
+    border-left-color: #0099cc;
+    border-right-color: #0066ff;
+    border-bottom-color: #0066ff;
+    border-top-width: 1.5px;
+    border-left-width: 1.5px;
+    border-right-width: 1.7px;
+    border-bottom-width: 1.7px;
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335), ease-out, linear;
+    transition-duration: 870ms;
+    transition-delay: 10ms;
+  }
+}
+
+/*** Animação do complemento do fim do cabeçalho e do rodapé ***/
+
+@keyframes dynamic-end-cab {
+
+  0%{
+    border-bottom-color: #22222288;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  25%{
+    border-bottom-color: #0000ff;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  50%{
+    border-bottom-color: #00ff55;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  75%{
+    border-bottom-color: #ffff00;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  100%{
+    border-bottom-color: #22222288;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+}
+
+@keyframes dynamic-end-rod {
+
+  0% {
+    border-top-color: #22222288;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  25% {
+    border-top-color: #0000ff;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  50% {
+    border-top-color: #00ff55;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  75% {
+    border-top-color: #ffff00;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+  100% {
+    border-top-color: #22222288;
+    transition-duration: 5000ms;
+    transition-delay: 2ms;
+    transition-timing-function: step-start;
+    transition-property: initial;
+  }
+
+}

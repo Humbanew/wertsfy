@@ -1,6 +1,6 @@
-/*o lydroc functions [96] */
+/* lydroc functions [96 + 18 + 12 + 18] */
 
-/*f lydroc decoration display classes [45] */
+/* lydroc decoration display classes [45] */
 
 .ly-display-block {
   display: block;
@@ -182,7 +182,7 @@
   display: -webkit-inline-flex;
 }
 
-/*f lydroc decoration font display classes [3] */
+/* lydroc decoration font display classes [3] */
 .ly-font-display-inherit {
   font-display:inherit;
 }
@@ -195,7 +195,7 @@
   font-display:unset;
 }
 
-/*f lydroc decoration font weight classes [9] */
+/* lydroc decoration font weight classes [9] */
 .ly-font-weight-100 {
   font-weight: 100;
 }
@@ -232,7 +232,22 @@
   font-weight: 900;
 }
 
-/*f lydroc decoration font style classes [0] */
+/* lydroc decoration font style classes [6] */
+.ly-font-style-unset {
+  font-style: unset;
+}
+
+.ly-font-style-normal {
+  font-style: normal;
+}
+
+.ly-font-style-italic {
+  font-style: italic;
+}
+
+.ly-font-style-oblique {
+  font-style: oblique;
+}
 
 .ly-font-style-inherit {
   font-style: inherit;
@@ -242,15 +257,161 @@
   font-style: initial;
 }
 
-.ly-font-style-unset {
-  font-style: unset;
+/* lydroc decoration font size classes [0] */
+.ly-font-size-em-0p5 {
+  font-size: 0.5em;
 }
 
-.ly-font-style-normal {
-  font-style: normal;
+.ly-font-size-em-0p75 {
+  font-size: 0.75em;
 }
 
-/*f lydroc decoration background color classes [0] */
+.ly-font-size-em-1 {
+  font-size: 1em;
+}
 
-/*f lydroc decoration foreground color classes [0] */
+.ly-font-size-em-1p25 {
+  font-size: 1.25em;
+}
+
+.ly-font-size-em-1p5 {
+  font-size: 1.5em;
+}
+
+.ly-font-size-em-1p75 {
+  font-size: 1.75em;
+}
+
+.ly-font-size-em-2 {
+  font-size: 2em;
+}
+
+.ly-font-size-em-2p25 {
+  font-size: 2.25em;
+}
+
+.ly-font-size-em-2p5 {
+  font-size: 2.5em;
+}
+
+.ly-font-size-em-2p75 {
+  font-size: 2.75em;
+}
+
+.ly-font-size-em-3 {
+  font-size: 3em;
+}
+
+.ly-font-size-em-3p25 {
+  font-size: 3.25em;
+}
+
+.ly-font-size-em-3p5 {
+  font-size: 3.5em;
+}
+
+.ly-font-size-em-3p75 {
+  font-size: 3.75em;
+}
+
+.ly-font-size-em-4 {
+  font-size: 4em;
+}
+
+.ly-font-size-em-4p25 {
+  font-size: 4.25em;
+}
+
+.ly-font-size-em-4p5 {
+  font-size: 4.5em;
+}
+
+.ly-font-size-em-4p75 {
+  font-size: 4.75em;
+}
+
+.ly-font-size-em-5 {
+  font-size: 5em;
+}
+
+.ly-font-size-em-5p25 {
+  font-size: 5.25em;
+}
+
+.ly-font-size-em-5p5 {
+  font-size: 5.5em;
+}
+
+.ly-font-size-em-5p75 {
+  font-size: 5.75em;
+}
+
+.ly-font-size-em-6 {
+  font-size: 6em;
+}
+
+.ly-font-size-em-6p25 {
+  font-size: 6.25em;
+}
+
+.ly-font-size-em-6p5 {
+  font-size: 6.5em;
+}
+
+.ly-font-size-em-6p75 {
+  font-size: 6.75em;
+}
+
+.ly-font-size-em-7 {
+  font-size: 7em;
+}
+
+.ly-font-size-em-7p25 {
+  font-size: 7.25em;
+}
+
+/* lydroc decoration text decoration classes [9] */
+.ly-text-decoration-none {
+  text-decoration: none;
+}
+
+.ly-text-decoration-underline {
+  text-decoration: underline;
+}
+
+.ly-text-decoration-overline {
+  text-decoration: overline;
+}
+
+.ly-text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.ly-text-decoration-dashed {
+  text-decoration: dashed;
+}
+
+.ly-text-decoration-dotted {
+  text-decoration: dotted;
+}
+
+.ly-text-decoration-double {
+  text-decoration: double;
+}
+
+.ly-text-decoration-solid {
+  text-decoration: solid;
+}
+
+.ly-text-decoration-wavy {
+  text-decoration: wavy;
+}
+
+.ly-text-decoration-none {
+  text-decoration: none;
+}
+
+/* lydroc decoration background color classes [0] */
+
+/* lydroc decoration foreground color classes [0] */
 

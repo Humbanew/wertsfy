@@ -1,22 +1,26 @@
-import './lydroc-decoration-styles.css';
+function _criaFuncoesCSS(id: string, classe: string) {
+
+  let funcaoDelete = function delDisplayBlock(elementId: string = id) { 
+    const element = document.getElementById(elementId).classList.remove(classe);
+    return element;
+  }
+
+  let funcaoAdder = function addDisplayBlock(elementId: string = id) {
+    const element = document.getElementById(elementId).classList.add(classe);
+    return element;
+  }
+
+  let funcoes: any[] = [funcaoDelete, funcaoAdder];
+
+  return funcoes;
+
+}
 
 export namespace LydrocDecorationStyles {
 
   export namespace LDDisplays {
 
-    export const displayBlockConfigs = [
-      
-      function delDisplayBlock(elementId: string) {
-        const element = document.getElementById(elementId).classList.remove('ly-display-block'); 
-        return element;
-      },
-
-      function setDisplayBlock(elementId: string) {
-        const element = document.getElementById(elementId).classList.add('ly-display-block');
-        return element;
-      }
-
-    ];
+    export const displayNone = (id: string) => _criaFuncoesCSS(id, 'ly-display-none');
 
   }
 

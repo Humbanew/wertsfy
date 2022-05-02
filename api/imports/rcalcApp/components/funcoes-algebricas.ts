@@ -1113,4 +1113,4 @@ export function $quadradoDePunnetExpandido(genotipo1: string, genotipo2: string)
 
 //# calcula o limite de uma função
 
-//# calcula a expressao de la precceção de uma função
+//# calcula a expressao de la precce de uma função

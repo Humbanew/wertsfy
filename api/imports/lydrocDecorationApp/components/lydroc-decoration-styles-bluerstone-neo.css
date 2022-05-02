@@ -1,4 +1,6 @@
-/* lydroc functions [96 + 18 + 12 + 18] */
+/* Analisar como implementar a natureza de váriaveis com o Typescript no CSS */
+
+/* lydroc functions [360] */
 
 /* lydroc decoration display classes [45] */
 
@@ -184,15 +186,35 @@
 
 /* lydroc decoration font display classes [3] */
 .ly-font-display-inherit {
-  font-display:inherit;
+  font-display: inherit;
 }
 
 .ly-font-display-initial {
-  font-display:initial;
+  font-display: initial;
 }
 
 .ly-font-display-unset {
-  font-display:unset;
+  font-display: unset;
+}
+
+.ly-font-display-auto {
+  font-display: auto;
+}
+
+.ly-font-display-block {
+  font-display: block;
+}
+
+.ly-font-display-swap {
+  font-display: swap;
+}
+
+.ly-font-display-fallback {
+  font-display: fallback;
+}
+
+.ly-font-display-optional {
+  font-display: optional;
 }
 
 /* lydroc decoration font weight classes [9] */
@@ -257,7 +279,43 @@
   font-style: initial;
 }
 
-/* lydroc decoration font size classes [0] */
+/* lydroc decoration font size classes [88] */
+.ly-font-size-smaller {
+  font-size: smaller;
+}
+
+.ly-font-size-small {
+  font-size: small;
+}
+
+.ly-font-size-medium {
+  font-size: medium;
+}
+
+.ly-font-size-larger {
+  font-size: larger;
+}
+
+.ly-font-size-x-large {
+  font-size: x-large;
+}
+
+.ly-font-size-xx-large {
+  font-size: xx-large;
+}
+
+.ly-font-size-x-small {
+  font-size: x-small;
+}
+
+.ly-font-size-xx-small {
+  font-size: xx-small;
+}
+
+.ly-font-size-em-0p25 {
+  font-size: 0.25em;
+}
+
 .ly-font-size-em-0p5 {
   font-size: 0.5em;
 }
@@ -368,6 +426,333 @@
 
 .ly-font-size-em-7p25 {
   font-size: 7.25em;
+}
+
+.ly-font-size-em-7p5 {
+  font-size: 7.5em;
+}
+
+.ly-font-size-em-7p75 {
+  font-size: 7.75em;
+}
+
+.ly-font-size-em-8 {
+  font-size: 8em;
+}
+
+.ly-font-size-em-8p25 {
+  font-size: 8.25em;
+}
+
+.ly-font-size-em-8p5 {
+  font-size: 8.5em;
+}
+
+.ly-font-size-em-8p75 {
+  font-size: 8.75em;
+}
+
+.ly-font-size-em-9 {
+  font-size: 9em;
+}
+
+.ly-font-size-em-9p25 {
+  font-size: 9.25em;
+}
+
+.ly-font-size-em-9p5 {
+  font-size: 9.5em;
+}
+
+.ly-font-size-em-9p75 {
+  font-size: 9.75em;
+}
+
+.ly-font-size-em-10 {
+  font-size: 10em;
+}
+
+.ly-font-size-rem-0p25 {
+  font-size: 0.25rem;
+}
+
+.ly-font-size-rem-0p5 {
+  font-size: 0.5rem;
+}
+
+.ly-font-size-rem-0p75 {
+  font-size: 0.75rem;
+}
+
+.ly-font-size-rem-1 {
+  font-size: 1rem;
+}
+
+.ly-font-size-rem-1p25 {
+  font-size: 1.25rem;
+}
+
+.ly-font-size-rem-1p5 {
+  font-size: 1.5rem;
+}
+
+.ly-font-size-rem-1p75 {
+  font-size: 1.75rem;
+}
+
+.ly-font-size-rem-2 {
+  font-size: 2rem;
+}
+
+.ly-font-size-rem-2p25 {
+  font-size: 2.25rem;
+}
+
+.ly-font-size-rem-2p5 {
+  font-size: 2.5rem;
+}
+
+.ly-font-size-rem-2p75 {
+  font-size: 2.75rem;
+}
+
+.ly-font-size-rem-3 {
+  font-size: 3rem;
+}
+
+.ly-font-size-rem-3p25 {
+  font-size: 3.25rem;
+}
+
+.ly-font-size-rem-3p5 {
+  font-size: 3.5rem;
+}
+
+.ly-font-size-rem-3p75 {
+  font-size: 3.75rem;
+}
+
+.ly-font-size-rem-4 {
+  font-size: 4rem;
+}
+
+.ly-font-size-rem-4p25 {
+  font-size: 4.25rem;
+}
+
+.ly-font-size-rem-4p5 {
+  font-size: 4.5rem;
+}
+
+.ly-font-size-rem-4p75 {
+  font-size: 4.75rem;
+}
+
+.ly-font-size-rem-5 {
+  font-size: 5rem;
+}
+
+.ly-font-size-rem-5p25 {
+  font-size: 5.25rem;
+}
+
+.ly-font-size-rem-5p5 {
+  font-size: 5.5rem;
+}
+
+.ly-font-size-rem-5p75 {
+  font-size: 5.75rem;
+}
+
+.ly-font-size-rem-6 {
+  font-size: 6rem;
+}
+
+.ly-font-size-rem-6p25 {
+  font-size: 6.25rem;
+}
+
+.ly-font-size-rem-6p5 {
+  font-size: 6.5rem;
+}
+
+.ly-font-size-rem-6p75 {
+  font-size: 6.75rem;
+}
+
+.ly-font-size-rem-7 {
+  font-size: 7rem;
+}
+
+.ly-font-size-rem-7p25 {
+  font-size: 7.25rem;
+}
+
+.ly-font-size-rem-7p5 {
+  font-size: 7.5rem;
+}
+
+.ly-font-size-rem-7p75 {
+  font-size: 7.75rem;
+}
+
+.ly-font-size-rem-8 {
+  font-size: 8rem;
+}
+
+.ly-font-size-rem-8p25 {
+  font-size: 8.25rem;
+}
+
+.ly-font-size-rem-8p5 {
+  font-size: 8.5rem;
+}
+
+.ly-font-size-rem-8p75 {
+  font-size: 8.75rem;
+}
+
+.ly-font-size-rem-9 {
+  font-size: 9rem;
+}
+
+.ly-font-size-rem-9p25 {
+  font-size: 9.25rem;
+}
+
+.ly-font-size-rem-9p5 {
+  font-size: 9.5rem;
+}
+
+.ly-font-size-rem-9p75 {
+  font-size: 9.75rem;
+}
+
+.ly-font-size-rem-10 {
+  font-size: 10rem;
+}
+
+/* lydroc decoration font size for export formats classes [0] */
+/* (caso seja necessário adicionar) */
+
+/* lydroc decoration font family classes [19] */
+.ly-font-family-unset {
+  font-family: unset;
+}
+
+.ly-font-family-inherit {
+  font-family: inherit;
+}
+
+.ly-font-family-initial {
+  font-family: initial;
+}
+
+.ly-font-family-cursive {
+  font-family: cursive;
+}
+
+.ly-font-family-fantasy {
+  font-family: fantasy;
+}
+
+.ly-font-family-monospace {
+  font-family: monospace;
+}
+
+.ly-font-family-serif {
+  font-family: serif;
+}
+
+.ly-font-family-sans-serif {
+  font-family: sans-serif;
+}
+
+.ly-font-family-courier-new {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ly-font-family-franklin-gothic-medium {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ly-font-family-gill-sans {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ly-font-family-times-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ly-font-family-segoe-ui {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ly-font-family-trebuchet-ms {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ly-font-family-verdana {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.ly-font-family-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ly-font-family-cambria {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ly-font-family-impact {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ly-font-family-apple-system {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Template que sera usado para as proximas implementacoes #ff0000 */
+.template {
+  font-size-adjust: none;
+  font-size-adjust: inherit;
+  font-size-adjust: initial;
+  font-size-adjust: unset;
+
+  font-variant-caps: all-petite-caps;
+  font-variant-caps: all-small-caps;
+  font-variant-caps: normal;
+  font-variant-caps: petite-caps;
+  font-variant-caps: small-caps;
+  font-variant-caps: titling-caps;
+  font-variant-caps: unicase;
+  font-variant-caps: inherit;
+  font-variant-caps: initial;
+  font-variant-caps: unset;
+
+  font-stretch: condensed;
+  font-stretch: expanded;
+  font-stretch: extra-condensed;
+  font-stretch: extra-expanded;
+  font-stretch: narrower;
+  font-stretch: normal;
+  font-stretch: semi-condensed;
+  font-stretch: semi-expanded;
+  font-stretch: ultra-condensed;
+  font-stretch: ultra-expanded;
+  font-stretch: wider;
+  font-stretch: inherit;
+  font-stretch: initial;
+  font-stretch: unset;
+
+  font-kerning: auto;
+  font-kerning: normal;
+  font-kerning: none;
+  font-kerning: inherit;
+  font-kerning: initial;
+  font-kerning: unset;
+
+  
 }
 
 /* lydroc decoration text decoration classes [9] */

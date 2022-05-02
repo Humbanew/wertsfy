@@ -1,6 +1,9 @@
 /* Analisar como implementar a natureza de váriaveis com o Typescript no CSS */
 
-/* lydroc functions [360] */
+/* lydroc decoration functions [698] */
+
+/* Template que sera usado para as proximas implementacoes #ff0000 */
+/* .template {} */
 
 /* lydroc decoration display classes [45] */
 
@@ -712,47 +715,687 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Template que sera usado para as proximas implementacoes #ff0000 */
-.template {
+/* lydroc decoration font-size-adjust classes [25] */
+.ly-font-size-adjust-none {
   font-size-adjust: none;
-  font-size-adjust: inherit;
-  font-size-adjust: initial;
+}
+
+.ly-font-size-adjust-unset {
   font-size-adjust: unset;
+}
 
-  font-variant-caps: all-petite-caps;
-  font-variant-caps: all-small-caps;
+.ly-font-size-adjust-inherit {
+  font-size-adjust: inherit;
+}
+
+.ly-font-size-adjust-initial {
+  font-size-adjust: initial;
+}
+
+.ly-font-size-adjust-0 {
+  font-size-adjust: 0;
+}
+
+.ly-font-size-adjust-1 {
+  font-size-adjust: 1;
+}
+
+.ly-font-size-adjust-2 {
+  font-size-adjust: 2;
+}
+
+.ly-font-size-adjust-3 {
+  font-size-adjust: 3;
+}
+
+.ly-font-size-adjust-4 {
+  font-size-adjust: 4;
+}
+
+.ly-font-size-adjust-5 {
+  font-size-adjust: 5;
+}
+
+.ly-font-size-adjust-6 {
+  font-size-adjust: 6;
+}
+
+.ly-font-size-adjust-7 {
+  font-size-adjust: 7;
+}
+
+.ly-font-size-adjust-8 {
+  font-size-adjust: 8;
+}
+
+.ly-font-size-adjust-9 {
+  font-size-adjust: 9;
+}
+
+.ly-font-size-adjust-10 {
+  font-size-adjust: 10;
+}
+
+.ly-font-size-adjust-11 {
+  font-size-adjust: 11;
+}
+
+.ly-font-size-adjust-12 {
+  font-size-adjust: 12;
+}
+
+.ly-font-size-adjust-13 {
+  font-size-adjust: 13;
+}
+
+.ly-font-size-adjust-14 {
+  font-size-adjust: 14;
+}
+
+.ly-font-size-adjust-15 {
+  font-size-adjust: 15;
+}
+
+.ly-font-size-adjust-16 {
+  font-size-adjust: 16;
+}
+
+.ly-font-size-adjust-17 {
+  font-size-adjust: 17;
+}
+
+.ly-font-size-adjust-18 {
+  font-size-adjust: 18;
+}
+
+.ly-font-size-adjust-19 {
+  font-size-adjust: 19;
+}
+
+.ly-font-size-adjust-20 {
+  font-size-adjust: 20;
+}
+
+/* lydroc decoration font variant caps classes [10] */
+.ly-font-variant-caps-normal {
   font-variant-caps: normal;
-  font-variant-caps: petite-caps;
+}
+
+.ly-font-variant-caps-small-caps {
   font-variant-caps: small-caps;
-  font-variant-caps: titling-caps;
+}
+
+.ly-font-variant-caps-all-small-caps {
+  font-variant-caps: all-small-caps;
+}
+
+.ly-font-variant-caps-petite-caps {
+  font-variant-caps: petite-caps;
+}
+
+.ly-font-variant-caps-all-petite-caps {
+  font-variant-caps: all-petite-caps;
+}
+
+.ly-font-variant-caps-unicase {
   font-variant-caps: unicase;
+}
+
+.ly-font-variant-caps-titling-caps {
+  font-variant-caps: titling-caps;
+}
+
+.ly-font-variant-caps-inherit {
   font-variant-caps: inherit;
+}
+
+.ly-font-variant-caps-initial {
   font-variant-caps: initial;
+}
+
+.ly-font-variant-caps-unset {
   font-variant-caps: unset;
+}
 
-  font-stretch: condensed;
-  font-stretch: expanded;
-  font-stretch: extra-condensed;
-  font-stretch: extra-expanded;
-  font-stretch: narrower;
+/* lydroc decoration font stretch classes [54] */
+.ly-font-stretch-normal {
   font-stretch: normal;
-  font-stretch: semi-condensed;
-  font-stretch: semi-expanded;
+}
+
+.ly-font-stretch-ultra-condensed {
   font-stretch: ultra-condensed;
+}
+
+.ly-font-stretch-extra-condensed {
+  font-stretch: extra-condensed;
+}
+
+.ly-font-stretch-condensed {
+  font-stretch: condensed;
+}
+
+.ly-font-stretch-semi-condensed {
+  font-stretch: semi-condensed;
+}
+
+.ly-font-stretch-semi-expanded {
+  font-stretch: semi-expanded;
+}
+
+.ly-font-stretch-expanded {
+  font-stretch: expanded;
+}
+
+.ly-font-stretch-extra-expanded {
+  font-stretch: extra-expanded;
+}
+
+.ly-font-stretch-ultra-expanded {
   font-stretch: ultra-expanded;
-  font-stretch: wider;
+}
+
+.ly-font-stretch-inherit {
   font-stretch: inherit;
+}
+
+.ly-font-stretch-initial {
   font-stretch: initial;
+}
+
+.ly-font-stretch-unset {
   font-stretch: unset;
+}
 
+.ly-font-stretch-wider {
+  font-stretch: wider;
+}
+
+.ly-font-stretch-narrower {
+  font-stretch: narrower;
+}
+
+.ly-font-stretch-0p25 {
+  font-stretch: 0.25;
+}
+
+.ly-font-stretch-0p5 {
+  font-stretch: 0.5;
+}
+
+.ly-font-stretch-0p75 {
+  font-stretch: 0.75;
+}
+
+.ly-font-stretch-1 {
+  font-stretch: 1;
+}
+
+.ly-font-stretch-1p25 {
+  font-stretch: 1.25;
+}
+
+.ly-font-stretch-1p5 {
+  font-stretch: 1.5;
+}
+
+.ly-font-stretch-1p75 {
+  font-stretch: 1.75;
+}
+
+.ly-font-stretch-2 {
+  font-stretch: 2;
+}
+
+.ly-font-stretch-2p25 {
+  font-stretch: 2.25;
+}
+
+.ly-font-stretch-2p5 {
+  font-stretch: 2.5;
+}
+
+.ly-font-stretch-2p75 {
+  font-stretch: 2.75;
+}
+
+.ly-font-stretch-3 {
+  font-stretch: 3;
+}
+
+.ly-font-stretch-3p25 {
+  font-stretch: 3.25;
+}
+
+.ly-font-stretch-3p5 {
+  font-stretch: 3.5;
+}
+
+.ly-font-stretch-3p75 {
+  font-stretch: 3.75;
+}
+
+.ly-font-stretch-4 {
+  font-stretch: 4;
+}
+
+.ly-font-stretch-4p25 {
+  font-stretch: 4.25;
+}
+
+.ly-font-stretch-4p5 {
+  font-stretch: 4.5;
+}
+
+.ly-font-stretch-4p75 {
+  font-stretch: 4.75;
+}
+
+.ly-font-stretch-5 {
+  font-stretch: 5;
+}
+
+.ly-font-stretch-5p25 {
+  font-stretch: 5.25;
+}
+
+.ly-font-stretch-5p5 {
+  font-stretch: 5.5;
+}
+
+.ly-font-stretch-5p75 {
+  font-stretch: 5.75;
+}
+
+.ly-font-stretch-6 {
+  font-stretch: 6;
+}
+
+.ly-font-stretch-6p25 {
+  font-stretch: 6.25;
+}
+
+.ly-font-stretch-6p5 {
+  font-stretch: 6.5;
+}
+
+.ly-font-stretch-6p75 {
+  font-stretch: 6.75;
+}
+
+.ly-font-stretch-7 {
+  font-stretch: 7;
+}
+
+.ly-font-stretch-7p25 {
+  font-stretch: 7.25;
+}
+
+.ly-font-stretch-7p5 {
+  font-stretch: 7.5;
+}
+
+.ly-font-stretch-7p75 {
+  font-stretch: 7.75;
+}
+
+.ly-font-stretch-8 {
+  font-stretch: 8;
+}
+
+.ly-font-stretch-8p25 {
+  font-stretch: 8.25;
+}
+
+.ly-font-stretch-8p5 {
+  font-stretch: 8.5;
+}
+
+.ly-font-stretch-8p75 {
+  font-stretch: 8.75;
+}
+
+.ly-font-stretch-9 {
+  font-stretch: 9;
+}
+
+.ly-font-stretch-9p25 {
+  font-stretch: 9.25;
+}
+
+.ly-font-stretch-9p5 {
+  font-stretch: 9.5;
+}
+
+.ly-font-stretch-9p75 {
+  font-stretch: 9.75;
+}
+
+.ly-font-stretch-10 {
+  font-stretch: 10;
+}
+
+/* lydroc decoration font kerning classes [27] */
+.ly-font-kerning-auto {
   font-kerning: auto;
-  font-kerning: normal;
-  font-kerning: none;
-  font-kerning: inherit;
-  font-kerning: initial;
-  font-kerning: unset;
+}
 
-  
+.ly-font-kerning-normal {
+  font-kerning: normal;
+}
+
+.ly-font-kerning-none {
+  font-kerning: none;
+}
+
+.ly-font-kerning-inherit {
+  font-kerning: inherit;
+}
+
+.ly-font-kerning-initial {
+  font-kerning: initial;
+}
+
+.ly-font-kerning-unset {
+  font-kerning: unset;
+}
+
+.ly-font-kerning-0 {
+  font-kerning: 0;
+}
+
+.ly-font-kerning-1 {
+  font-kerning: 1;
+}
+
+.ly-font-kerning-2 {
+  font-kerning: 2;
+}
+
+.ly-font-kerning-3 {
+  font-kerning: 3;
+}
+
+.ly-font-kerning-4 {
+  font-kerning: 4;
+}
+
+.ly-font-kerning-5 {
+  font-kerning: 5;
+}
+
+.ly-font-kerning-6 {
+  font-kerning: 6;
+}
+
+.ly-font-kerning-7 {
+  font-kerning: 7;
+}
+
+.ly-font-kerning-8 {
+  font-kerning: 8;
+}
+
+.ly-font-kerning-9 {
+  font-kerning: 9;
+}
+
+.ly-font-kerning-10 {
+  font-kerning: 10;
+}
+
+.ly-font-kerning-11 {
+  font-kerning: 11;
+}
+
+.ly-font-kerning-12 {
+  font-kerning: 12;
+}
+
+.ly-font-kerning-13 {
+  font-kerning: 13;
+}
+
+.ly-font-kerning-14 {
+  font-kerning: 14;
+}
+
+.ly-font-kerning-15 {
+  font-kerning: 15;
+}
+
+.ly-font-kerning-16 {
+  font-kerning: 16;
+}
+
+.ly-font-kerning-17 {
+  font-kerning: 17;
+}
+
+.ly-font-kerning-18 {
+  font-kerning: 18;
+}
+
+.ly-font-kerning-19 {
+  font-kerning: 19;
+}
+
+.ly-font-kerning-20 {
+  font-kerning: 20;
+}
+
+/* lydroc decoration font synthesis classes [28] */
+.ly-font-synthesis-none {
+  font-synthesis: none;
+}
+
+.ly-font-synthesis-style {
+  font-synthesis: style;
+}
+
+.ly-font-synthesis-weight {
+  font-synthesis: weight;
+}
+
+.ly-font-synthesis-style-weight {
+  font-synthesis: style weight;
+}
+
+.ly-font-synthesis-inherit {
+  font-synthesis: inherit;
+}
+
+.ly-font-synthesis-initial {
+  font-synthesis: initial;
+}
+
+.ly-font-synthesis-unset {
+  font-synthesis: unset;
+}
+
+.ly-font-synthesis-0 {
+  font-synthesis: 0;
+}
+
+.ly-font-synthesis-1 {
+  font-synthesis: 1;
+}
+
+.ly-font-synthesis-2 {
+  font-synthesis: 2;
+}
+
+.ly-font-synthesis-3 {
+  font-synthesis: 3;
+}
+
+.ly-font-synthesis-4 {
+  font-synthesis: 4;
+}
+
+.ly-font-synthesis-5 {
+  font-synthesis: 5;
+}
+
+.ly-font-synthesis-6 {
+  font-synthesis: 6;
+}
+
+.ly-font-synthesis-7 {
+  font-synthesis: 7;
+}
+
+.ly-font-synthesis-8 {
+  font-synthesis: 8;
+}
+
+.ly-font-synthesis-9 {
+  font-synthesis: 9;
+}
+
+.ly-font-synthesis-10 {
+  font-synthesis: 10;
+}
+
+.ly-font-synthesis-11 {
+  font-synthesis: 11;
+}
+
+.ly-font-synthesis-12 {
+  font-synthesis: 12;
+}
+
+.ly-font-synthesis-13 {
+  font-synthesis: 13;
+}
+
+.ly-font-synthesis-14 {
+  font-synthesis: 14;
+}
+
+.ly-font-synthesis-15 {
+  font-synthesis: 15;
+}
+
+.ly-font-synthesis-16 {
+  font-synthesis: 16;
+}
+
+.ly-font-synthesis-17 {
+  font-synthesis: 17;
+}
+
+.ly-font-synthesis-18 {
+  font-synthesis: 18;
+}
+
+.ly-font-synthesis-19 {
+  font-synthesis: 19;
+}
+
+.ly-font-synthesis-20 {
+  font-synthesis: 20;
+}
+
+/* lydroc decoration font variant east asian classes [13] */
+.ly-font-variant-east-asian-none {
+  font-variant-east-asian: none;
+}
+
+.ly-font-variant-east-asian-jis78 {
+  font-variant-east-asian: jis78;
+}
+
+.ly-font-variant-east-asian-jis83 {
+  font-variant-east-asian: jis83;
+}
+
+.ly-font-variant-east-asian-jis90 {
+  font-variant-east-asian: jis90;
+}
+
+.ly-font-variant-east-asian-jis04 {
+  font-variant-east-asian: jis04;
+}
+
+.ly-font-variant-east-asian-simplified {
+  font-variant-east-asian: simplified;
+}
+
+.ly-font-variant-east-asian-traditional {
+  font-variant-east-asian: traditional;
+}
+
+.ly-font-variant-east-asian-full-width {
+  font-variant-east-asian: full-width;
+}
+
+.ly-font-variant-east-asian-proportional-width {
+  font-variant-east-asian: proportional-width;
+}
+
+.ly-font-variant-east-asian-ruby {
+  font-variant-east-asian: ruby;
+}
+
+.ly-font-variant-east-asian-inherit {
+  font-variant-east-asian: inherit;
+}
+
+.ly-font-variant-east-asian-initial {
+  font-variant-east-asian: initial;
+}
+
+.ly-font-variant-east-asian-unset {
+  font-variant-east-asian: unset;
+}
+
+/* lydroc decoration font variant ligatures classes [12] */
+.ly-font-variant-ligatures-none {
+  font-variant-ligatures: none;
+}
+
+.ly-font-variant-ligatures-common-ligatures {
+  font-variant-ligatures: common-ligatures;
+}
+
+.ly-font-variant-ligatures-no-common-ligatures {
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.ly-font-variant-ligatures-discretionary-ligatures {
+  font-variant-ligatures: discretionary-ligatures;
+}
+
+.ly-font-variant-ligatures-no-discretionary-ligatures {
+  font-variant-ligatures: no-discretionary-ligatures;
+}
+
+.ly-font-variant-ligatures-historical-ligatures {
+  font-variant-ligatures: historical-ligatures;
+}
+
+.ly-font-variant-ligatures-no-historical-ligatures {
+  font-variant-ligatures: no-historical-ligatures;
+}
+
+.ly-font-variant-ligatures-contextual {
+  font-variant-ligatures: contextual;
+}
+
+.ly-font-variant-ligatures-no-contextual {
+  font-variant-ligatures: no-contextual;
+}
+
+.ly-font-variant-ligatures-inherit {
+  font-variant-ligatures: inherit;
+}
+
+.ly-font-variant-ligatures-initial {
+  font-variant-ligatures: initial;
+}
+
+.ly-font-variant-ligatures-unset {
+  font-variant-ligatures: unset;
 }
 
 /* lydroc decoration text decoration classes [9] */

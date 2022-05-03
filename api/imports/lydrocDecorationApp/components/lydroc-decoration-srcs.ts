@@ -29,7 +29,13 @@ export namespace LydrocDecorationStyles {
     export namespace config {
 
       export const displayNone = (id: string) => _criaFuncoesCSS(id, 'ly-display-none');
-
+      export const displayFlex = (id: string) => _criaFuncoesCSS(id, 'ly-display-flex');
+      export const displayGrid = (id: string) => _criaFuncoesCSS(id, 'ly-display-grid');
+      export const displayBlock = (id: string) => _criaFuncoesCSS(id, 'ly-display-block');
+      export const displayInline = (id: string) => _criaFuncoesCSS(id, 'ly-display-inline');
+      export const displayInlineBlock = (id: string) => _criaFuncoesCSS(id, 'ly-display-inline-block');
+      export const displayInlineFlex = (id: string) => _criaFuncoesCSS(id, 'ly-display-inline-flex');
+      export const displayInlineGrid = (id: string) => _criaFuncoesCSS(id, 'ly-display-inline-grid');
 
     }
 

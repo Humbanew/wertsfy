@@ -1442,28 +1442,6 @@
 /* Template que sera usado para as proximas implementacoes #ff0000 */
 .template {
 
-  background-color: darkviolet;
-  background-color: deeppink;
-  background-color: deepskyblue;
-  background-color: dimgray;
-  background-color: dodgerblue;
-  background-color: firebrick;
-  background-color: floralwhite;
-  background-color: forestgreen;
-  background-color: fuchsia;
-  background-color: gainsboro;
-  background-color: ghostwhite;
-  background-color: gold;
-  background-color: goldenrod;
-  background-color: gray;
-  background-color: green;
-  background-color: greenyellow;
-  background-color: grey;
-  background-color: honeydew;
-  background-color: hotpink;
-  background-color: indianred;
-  background-color: indigo;
-  background-color: ivory;
   background-color: khaki;
   background-color: lavender;
   background-color: lavenderblush;
@@ -3789,6 +3767,1376 @@
 .ly-background-color-darkviolet {
   background-color: darkviolet;
 }
+
+.ly-background-color-darkviolet-o1 {
+  background-color: #9400d311;
+}
+
+.ly-background-color-darkviolet-o2 {
+  background-color: #9400d322;
+}
+
+.ly-background-color-darkviolet-o3 {
+  background-color: #9400d333;
+}
+
+.ly-background-color-darkviolet-o4 {
+  background-color: #9400d344;
+}
+
+.ly-background-color-darkviolet-o5 {
+  background-color: #9400d355;
+}
+
+.ly-background-color-darkviolet-o6 {
+  background-color: #9400d366;
+}
+
+.ly-background-color-darkviolet-o7 {
+  background-color: #9400d377;
+}
+
+.ly-background-color-darkviolet-o8 {
+  background-color: #9400d388;
+}
+
+.ly-background-color-darkviolet-o9 {
+  background-color: #9400d399;
+}
+
+.ly-background-color-darkviolet-o10 {
+  background-color: #9400d3aa;
+}
+
+.ly-background-color-darkviolet-o11 {
+  background-color: #9400d3bb;
+}
+
+.ly-background-color-darkviolet-o12 {
+  background-color: #9400d3cc;
+}
+
+.ly-background-color-darkviolet-o13 {
+  background-color: #9400d3dd;
+}
+
+.ly-background-color-darkviolet-o14 {
+  background-color: #9400d3ee;
+}
+
+.ly-background-color-deeppink {
+  background-color: deeppink;
+}
+
+.ly-background-color-deeppink-o1 {
+  background-color: #ff149311;
+}
+
+.ly-background-color-deeppink-o2 {
+  background-color: #ff149322;
+}
+
+.ly-background-color-deeppink-o3 {
+  background-color: #ff149333;
+}
+
+.ly-background-color-deeppink-o4 {
+  background-color: #ff149444;
+}
+
+.ly-background-color-deeppink-o5 {
+  background-color: #ff149555;
+}
+
+.ly-background-color-deeppink-o6 {
+  background-color: #ff149666;
+}
+
+.ly-background-color-deeppink-o7 {
+  background-color: #ff149777;
+}
+
+.ly-background-color-deeppink-o8 {
+  background-color: #ff149888;
+}
+
+.ly-background-color-deeppink-o9 {
+  background-color: #ff149899;
+}
+
+.ly-background-color-deeppink-o10 {
+  background-color: #ff1498aa;
+}
+
+.ly-background-color-deeppink-o11 {
+  background-color: #ff1498bb;
+}
+
+.ly-background-color-deeppink-o12 {
+  background-color: #ff1498cc;
+}
+
+.ly-background-color-deeppink-o13 {
+  background-color: #ff1498dd;
+}
+
+.ly-background-color-deeppink-o14 {
+  background-color: #ff1498ee;
+}
+
+.ly-background-color-deepskyblue {
+  background-color: deepskyblue;
+}
+
+.ly-background-color-deepskyblue-o1 {
+  background-color: #00bfff11;
+}
+
+.ly-background-color-deepskyblue-o2 {
+  background-color: #00bfff22;
+}
+
+.ly-background-color-deepskyblue-o3 {
+  background-color: #00bfff33;
+}
+
+.ly-background-color-deepskyblue-o4 {
+  background-color: #00bfff44;
+}
+
+.ly-background-color-deepskyblue-o5 {
+  background-color: #00bfff55;
+}
+
+.ly-background-color-deepskyblue-o6 {
+  background-color: #00bfff66;
+}
+
+.ly-background-color-deepskyblue-o7 {
+  background-color: #00bfff77;
+}
+
+.ly-background-color-deepskyblue-o8 {
+  background-color: #00bfff88;
+}
+
+.ly-background-color-deepskyblue-o9 {
+  background-color: #00bfff99;
+}
+
+.ly-background-color-deepskyblue-o10 {
+  background-color: #00bfffaa;
+}
+
+.ly-background-color-deepskyblue-o11 {
+  background-color: #00bfffbb;
+}
+
+.ly-background-color-deepskyblue-o12 {
+  background-color: #00bfffcc;
+}
+
+.ly-background-color-deepskyblue-o13 {
+  background-color: #00bfffdd;
+}
+
+.ly-background-color-deepskyblue-o14 {
+  background-color: #00bfffee;
+}
+
+.ly-background-color-dimgray {
+  background-color: dimgray;
+}
+
+.ly-background-color-dimgray-o1 {
+  background-color: #69696911;
+}
+
+.ly-background-color-dimgray-o2 {
+  background-color: #69696922;
+}
+
+.ly-background-color-dimgray-o3 {
+  background-color: #69696933;
+}
+
+.ly-background-color-dimgray-o4 {
+  background-color: #69696944;
+}
+
+.ly-background-color-dimgray-o5 {
+  background-color: #69696955;
+}
+
+.ly-background-color-dimgray-o6 {
+  background-color: #69696966;
+}
+
+.ly-background-color-dimgray-o7 {
+  background-color: #69696977;
+}
+
+.ly-background-color-dimgray-o8 {
+  background-color: #69696988;
+}
+
+.ly-background-color-dimgray-o9 {
+  background-color: #69696999;
+}
+
+.ly-background-color-dimgray-o10 {
+  background-color: #696969aa;
+}
+
+.ly-background-color-dimgray-o11 {
+  background-color: #696969bb;
+}
+
+.ly-background-color-dimgray-o12 {
+  background-color: #696969cc;
+}
+
+.ly-background-color-dimgray-o13 {
+  background-color: #696969dd;
+}
+
+.ly-background-color-dimgray-o14 {
+  background-color: #696969ee;
+}
+
+.ly-background-color-dodgerblue {
+  background-color: dodgerblue;
+}
+
+.ly-background-color-dodgerblue-o1 {
+  background-color: #1e90ff11;
+}
+
+.ly-background-color-dodgerblue-o2 {
+  background-color: #1e90ff22;
+}
+
+.ly-background-color-dodgerblue-o3 {
+  background-color: #1e90ff33;
+}
+
+.ly-background-color-dodgerblue-o4 {
+  background-color: #1e90ff44;
+}
+
+.ly-background-color-dodgerblue-o5 {
+  background-color: #1e90ff55;
+}
+
+.ly-background-color-dodgerblue-o6 {
+  background-color: #1e90ff66;
+}
+
+.ly-background-color-dodgerblue-o7 {
+  background-color: #1e90ff77;
+}
+
+.ly-background-color-dodgerblue-o8 {
+  background-color: #1e90ff88;
+}
+
+.ly-background-color-dodgerblue-o9 {
+  background-color: #1e90ff99;
+}
+
+.ly-background-color-dodgerblue-o10 {
+  background-color: #1e90ffaa;
+}
+
+.ly-background-color-dodgerblue-o11 {
+  background-color: #1e90ffbb;
+}
+
+.ly-background-color-dodgerblue-o12 {
+  background-color: #1e90ffcc;
+}
+
+.ly-background-color-dodgerblue-o13 {
+  background-color: #1e90ffdd;
+}
+
+.ly-background-color-dodgerblue-o14 {
+  background-color: #1e90ffee;
+}
+
+.ly-background-color-firebrick {
+  background-color: firebrick;
+}
+
+.ly-background-color-firebrick-o1 {
+  background-color: #b2222211;
+}
+
+.ly-background-color-firebrick-o2 {
+  background-color: #b2222222;
+}
+
+.ly-background-color-firebrick-o3 {
+  background-color: #b2222233;
+}
+
+.ly-background-color-firebrick-o4 {
+  background-color: #b2222244;
+}
+
+.ly-background-color-firebrick-o5 {
+  background-color: #b2222255;
+}
+
+.ly-background-color-firebrick-o6 {
+  background-color: #b2222266;
+}
+
+.ly-background-color-firebrick-o7 {
+  background-color: #b2222277;
+}
+
+.ly-background-color-firebrick-o8 {
+  background-color: #b2222288;
+}
+
+.ly-background-color-firebrick-o9 {
+  background-color: #b2222299;
+}
+
+.ly-background-color-firebrick-o10 {
+  background-color: #b222222a;
+}
+
+.ly-background-color-firebrick-o11 {
+  background-color: #b222222b;
+}
+
+.ly-background-color-firebrick-o12 {
+  background-color: #b222222c;
+}
+
+.ly-background-color-firebrick-o13 {
+  background-color: #b222222d;
+}
+
+.ly-background-color-firebrick-o14 {
+  background-color: #b222222e;
+}
+
+.ly-background-color-floralwhite {
+  background-color: floralwhite;
+}
+
+.ly-background-color-floralwhite-o1 {
+  background-color: #fffafaff;
+}
+
+.ly-background-color-floralwhite-o2 {
+  background-color: #fffafbff;
+}
+
+.ly-background-color-floralwhite-o3 {
+  background-color: #fffafcff;
+}
+
+.ly-background-color-floralwhite-o4 {
+  background-color: #fffafdff;
+}
+
+.ly-background-color-floralwhite-o5 {
+  background-color: #fffafeff;
+}
+
+.ly-background-color-floralwhite-o6 {
+  background-color: #fffaffff;
+}
+
+.ly-background-color-floralwhite-o7 {
+  background-color: #fffbffff;
+}
+
+.ly-background-color-floralwhite-o8 {
+  background-color: #fffcffff;
+}
+
+.ly-background-color-floralwhite-o9 {
+  background-color: #fffdffff;
+}
+
+.ly-background-color-floralwhite-o10 {
+  background-color: #fffeffff;
+}
+
+.ly-background-color-floralwhite-o11 {
+  background-color: #ffffffff;
+}
+
+.ly-background-color-forestgreen {
+  background-color: forestgreen;
+}
+
+.ly-background-color-forestgreen-o1 {
+  background-color: #228b2211;
+}
+
+.ly-background-color-forestgreen-o2 {
+  background-color: #228b2222;
+}
+
+.ly-background-color-forestgreen-o3 {
+  background-color: #228b2233;
+}
+
+.ly-background-color-forestgreen-o4 {
+  background-color: #228b2244;
+}
+
+.ly-background-color-forestgreen-o5 {
+  background-color: #228b2255;
+}
+
+.ly-background-color-forestgreen-o6 {
+  background-color: #228b2266;
+}
+
+.ly-background-color-forestgreen-o7 {
+  background-color: #228b2277;
+}
+
+.ly-background-color-forestgreen-o8 {
+  background-color: #228b2288;
+}
+
+.ly-background-color-forestgreen-o9 {
+  background-color: #228b2299;
+}
+
+.ly-background-color-forestgreen-o10 {
+  background-color: #228b22aa;
+}
+
+.ly-background-color-forestgreen-o11 {
+  background-color: #228b22bb;
+}
+
+.ly-background-color-forestgreen-o12 {
+  background-color: #228b22cc;
+}
+
+.ly-background-color-forestgreen-o13 {
+  background-color: #228b22dd;
+}
+
+.ly-background-color-forestgreen-o14 {
+  background-color: #228b22ee;
+}
+
+.ly-background-color-fuchsia {
+  background-color: fuchsia;
+}
+
+.ly-background-color-fuchsia-o1 {
+  background-color: #ff00ff11;
+}
+
+.ly-background-color-fuchsia-o2 {
+  background-color: #ff01ff22;
+}
+
+.ly-background-color-fuchsia-o3 {
+  background-color: #ff02ff33;
+}
+
+.ly-background-color-fuchsia-o4 {
+  background-color: #ff03ff44;
+}
+
+.ly-background-color-fuchsia-o5 {
+  background-color: #ff04ff55;
+}
+
+.ly-background-color-fuchsia-o6 {
+  background-color: #ff05ff66;
+}
+
+.ly-background-color-fuchsia-o7 {
+  background-color: #ff06ff77;
+}
+
+.ly-background-color-fuchsia-o8 {
+  background-color: #ff07ff88;
+}
+
+.ly-background-color-fuchsia-o9 {
+  background-color: #ff08ff99;
+}
+
+.ly-background-color-fuchsia-o10 {
+  background-color: #ff09ffaa;
+}
+
+.ly-background-color-fuchsia-o11 {
+  background-color: #ff0affbb;
+}
+
+.ly-background-color-fuchsia-o12 {
+  background-color: #ff0bffcc;
+}
+
+.ly-background-color-fuchsia-o13 {
+  background-color: #ff0cffdd;
+}
+
+.ly-background-color-fuchsia-o14 {
+  background-color: #ff0dffee;
+}
+
+.ly-background-color-gainsboro {
+  background-color: gainsboro;
+}
+
+.ly-background-color-gainsboro-o1 {
+  background-color: #dcdcdc11;
+}
+
+.ly-background-color-gainsboro-o2 {
+  background-color: #dcdcdd22;
+}
+
+.ly-background-color-gainsboro-o3 {
+  background-color: #dcdcde33;
+}
+
+.ly-background-color-gainsboro-o4 {
+  background-color: #dcdcde44;
+}
+
+.ly-background-color-gainsboro-o5 {
+  background-color: #dcdcde55;
+}
+
+.ly-background-color-gainsboro-o6 {
+  background-color: #dcdcde66;
+}
+
+.ly-background-color-gainsboro-o7 {
+  background-color: #dcdcde77;
+}
+
+.ly-background-color-gainsboro-o8 {
+  background-color: #dcdcde88;
+}
+
+.ly-background-color-gainsboro-o9 {
+  background-color: #dcdcde99;
+}
+
+.ly-background-color-gainsboro-o10 {
+  background-color: #dcdcdeaa;
+}
+
+.ly-background-color-gainsboro-o11 {
+  background-color: #dcdcdebb;
+}
+
+.ly-background-color-gainsboro-o12 {
+  background-color: #dcdcdecc;
+}
+
+.ly-background-color-gainsboro-o13 {
+  background-color: #dcdcdedd;
+}
+
+.ly-background-color-gainsboro-o14 {
+  background-color: #dcdcdeee;
+}
+
+.ly-background-color-ghostwhite {
+  background-color: ghostwhite;
+}
+
+.ly-background-color-ghostwhite-o1 {
+  background-color: #f8f8f811;
+}
+
+.ly-background-color-ghostwhite-o2 {
+  background-color: #f8f8f922;
+}
+
+.ly-background-color-ghostwhite-o3 {
+  background-color: #f8f8fa33;
+}
+
+.ly-background-color-ghostwhite-o4 {
+  background-color: #f8f8fa44;
+}
+
+.ly-background-color-ghostwhite-o5 {
+  background-color: #f8f8fa55;
+}
+
+.ly-background-color-ghostwhite-o6 {
+  background-color: #f8f8fa66;
+}
+
+.ly-background-color-ghostwhite-o7 {
+  background-color: #f8f8fa77;
+}
+
+.ly-background-color-ghostwhite-o8 {
+  background-color: #f8f8fa88;
+}
+
+.ly-background-color-ghostwhite-o9 {
+  background-color: #f8f8fa99;
+}
+
+.ly-background-color-ghostwhite-o10 {
+  background-color: #f8f8faaa;
+}
+
+.ly-background-color-ghostwhite-o11 {
+  background-color: #f8f8fabb;
+}
+
+.ly-background-color-ghostwhite-o12 {
+  background-color: #f8f8facc;
+}
+
+.ly-background-color-ghostwhite-o13 {
+  background-color: #f8f8fadd;
+}
+
+.ly-background-color-ghostwhite-o14 {
+  background-color: #f8f8faee;
+}
+
+.ly-background-color-gold {
+  background-color: gold;
+}
+
+.ly-background-color-gold-o1 {
+  background-color: #ffd70011;
+}
+
+.ly-background-color-gold-o2 {
+  background-color: #ffd70122;
+}
+
+.ly-background-color-gold-o3 {
+  background-color: #ffd70233;
+}
+
+.ly-background-color-gold-o4 {
+  background-color: #ffd70244;
+}
+
+.ly-background-color-gold-o5 {
+  background-color: #ffd70255;
+}
+
+.ly-background-color-gold-o6 {
+  background-color: #ffd70266;
+}
+
+.ly-background-color-gold-o7 {
+  background-color: #ffd70277;
+}
+
+.ly-background-color-gold-o8 {
+  background-color: #ffd70288;
+}
+
+.ly-background-color-gold-o9 {
+  background-color: #ffd70299;
+}
+
+.ly-background-color-gold-o10 {
+  background-color: #ffd702aa;
+}
+
+.ly-background-color-gold-o11 {
+  background-color: #ffd702bb;
+}
+
+.ly-background-color-gold-o12 {
+  background-color: #ffd702cc;
+}
+
+.ly-background-color-gold-o13 {
+  background-color: #ffd702dd;
+}
+
+.ly-background-color-gold-o14 {
+  background-color: #ffd702ee;
+}
+
+.ly-background-color-goldenrod {
+  background-color: goldenrod;
+}
+
+.ly-background-color-goldenrod-o1 {
+  background-color: #daa52011;
+}
+
+.ly-background-color-goldenrod-o2 {
+  background-color: #daa52022;
+}
+
+.ly-background-color-goldenrod-o3 {
+  background-color: #daa52033;
+}
+
+.ly-background-color-goldenrod-o4 {
+  background-color: #daa52044;
+}
+
+.ly-background-color-goldenrod-o5 {
+  background-color: #daa52055;
+}
+
+.ly-background-color-goldenrod-o6 {
+  background-color: #daa52066;
+}
+
+.ly-background-color-goldenrod-o7 {
+  background-color: #daa52077;
+}
+
+.ly-background-color-goldenrod-o8 {
+  background-color: #daa52088;
+}
+
+.ly-background-color-goldenrod-o9 {
+  background-color: #daa52099;
+}
+
+.ly-background-color-goldenrod-o10 {
+  background-color: #daa520aa;
+}
+
+.ly-background-color-goldenrod-o11 {
+  background-color: #daa520bb;
+}
+
+.ly-background-color-goldenrod-o12 {
+  background-color: #daa520cc;
+}
+
+.ly-background-color-goldenrod-o13 {
+  background-color: #daa520dd;
+}
+
+.ly-background-color-goldenrod-o14 {
+  background-color: #daa520ee;
+}
+
+.ly-background-color-gray {
+  background-color: gray;
+}
+
+.ly-background-color-gray-o1 {
+  background-color: #80808011;
+}
+
+.ly-background-color-gray-o2 {
+  background-color: #80808022;
+}
+
+.ly-background-color-gray-o3 {
+  background-color: #80808033;
+}
+
+.ly-background-color-gray-o4 {
+  background-color: #80808044;
+}
+
+.ly-background-color-gray-o5 {
+  background-color: #80808055;
+}
+
+.ly-background-color-gray-o6 {
+  background-color: #80808066;
+}
+
+.ly-background-color-gray-o7 {
+  background-color: #80808077;
+}
+
+.ly-background-color-gray-o8 {
+  background-color: #80808088;
+}
+
+.ly-background-color-gray-o9 {
+  background-color: #80808099;
+}
+
+.ly-background-color-gray-o10 {
+  background-color: #808080aa;
+}
+
+.ly-background-color-gray-o11 {
+  background-color: #808080bb;
+}
+
+.ly-background-color-gray-o12 {
+  background-color: #808080cc;
+}
+
+.ly-background-color-gray-o13 {
+  background-color: #808080dd;
+}
+
+.ly-background-color-gray-o14 {
+  background-color: #808080ee;
+}
+
+.ly-background-color-green {
+  background-color: green;
+}
+
+.ly-background-color-green-o1 {
+  background-color: #00800011;
+}
+
+.ly-background-color-green-o2 {
+  background-color: #00800022;
+}
+
+.ly-background-color-green-o3 {
+  background-color: #00800033;
+}
+
+.ly-background-color-green-o4 {
+  background-color: #00800044;
+}
+
+.ly-background-color-green-o5 {
+  background-color: #00800055;
+}
+
+.ly-background-color-green-o6 {
+  background-color: #00800066;
+}
+
+.ly-background-color-green-o7 {
+  background-color: #00800077;
+}
+
+.ly-background-color-green-o8 {
+  background-color: #00800088;
+}
+
+.ly-background-color-green-o9 {
+  background-color: #00800099;
+}
+
+.ly-background-color-green-o10 {
+  background-color: #008000aa;
+}
+
+.ly-background-color-green-o11 {
+  background-color: #008000bb;
+}
+
+.ly-background-color-green-o12 {
+  background-color: #008000cc;
+}
+
+.ly-background-color-green-o13 {
+  background-color: #008000dd;
+}
+
+.ly-background-color-green-o14 {
+  background-color: #008000ee;
+}
+
+.ly-background-color-green-yellow {
+  background-color: greenyellow;
+}
+
+.ly-background-color-green-yellow-o1 {
+  background-color: #00ff0011;
+}
+
+.ly-background-color-green-yellow-o2 {
+  background-color: #00ff0022;
+}
+
+.ly-background-color-green-yellow-o3 {
+  background-color: #00ff0033;
+}
+
+.ly-background-color-green-yellow-o4 {
+  background-color: #00ff0044;
+}
+
+.ly-background-color-green-yellow-o5 {
+  background-color: #00ff0055;
+}
+
+.ly-background-color-green-yellow-o6 {
+  background-color: #00ff0066;
+}
+
+.ly-background-color-green-yellow-o7 {
+  background-color: #00ff0077;
+}
+
+.ly-background-color-green-yellow-o8 {
+  background-color: #00ff0088;
+}
+
+.ly-background-color-green-yellow-o9 {
+  background-color: #00ff0099;
+}
+
+.ly-background-color-green-yellow-o10 {
+  background-color: #00ff00aa;
+}
+
+.ly-background-color-green-yellow-o11 {
+  background-color: #00ff00bb;
+}
+
+.ly-background-color-green-yellow-o12 {
+  background-color: #00ff00cc;
+}
+
+.ly-background-color-green-yellow-o13 {
+  background-color: #00ff00dd;
+}
+
+.ly-background-color-green-yellow-o14 {
+  background-color: #00ff00ee;
+}
+
+.ly-background-color-honeydew {
+  background-color: honeydew;
+}
+
+.ly-background-color-honeydew-o1 {
+  background-color: #f0ffff11;
+}
+
+.ly-background-color-honeydew-o2 {
+  background-color: #f0ffff22;
+}
+
+.ly-background-color-honeydew-o3 {
+  background-color: #f0ffff33;
+}
+
+.ly-background-color-honeydew-o4 {
+  background-color: #f0ffff44;
+}
+
+.ly-background-color-honeydew-o5 {
+  background-color: #f0ffff55;
+}
+
+.ly-background-color-honeydew-o6 {
+  background-color: #f0ffff66;
+}
+
+.ly-background-color-honeydew-o7 {
+  background-color: #f0ffff77;
+}
+
+.ly-background-color-honeydew-o8 {
+  background-color: #f0ffff88;
+}
+
+.ly-background-color-honeydew-o9 {
+  background-color: #f0ffff99;
+}
+
+.ly-background-color-honeydew-o10 {
+  background-color: #f0ffffaa;
+}
+
+.ly-background-color-honeydew-o11 {
+  background-color: #f0ffffbb;
+}
+
+.ly-background-color-honeydew-o12 {
+  background-color: #f0ffffcc;
+}
+
+.ly-background-color-honeydew-o13 {
+  background-color: #f0ffffdd;
+}
+
+.ly-background-color-honeydew-o14 {
+  background-color: #f0ffffee;
+}
+
+.ly-background-color-hotpink {
+  background-color: hotpink;
+}
+
+.ly-background-color-hotpink-o1 {
+  background-color: #ff69b411;
+}
+
+.ly-background-color-hotpink-o2 {
+  background-color: #ff69b422;
+}
+
+.ly-background-color-hotpink-o3 {
+  background-color: #ff69b433;
+}
+
+.ly-background-color-hotpink-o4 {
+  background-color: #ff69b444;
+}
+
+.ly-background-color-hotpink-o5 {
+  background-color: #ff69b455;
+}
+
+.ly-background-color-hotpink-o6 {
+  background-color: #ff69b466;
+}
+
+.ly-background-color-hotpink-o7 {
+  background-color: #ff69b477;
+}
+
+.ly-background-color-hotpink-o8 {
+  background-color: #ff69b488;
+}
+
+.ly-background-color-hotpink-o9 {
+  background-color: #ff69b499;
+}
+
+.ly-background-color-hotpink-o10 {
+  background-color: #ff69b4aa;
+}
+
+.ly-background-color-hotpink-o11 {
+  background-color: #ff69b4bb;
+}
+
+.ly-background-color-hotpink-o12 {
+  background-color: #ff69b4cc;
+}
+
+.ly-background-color-hotpink-o13 {
+  background-color: #ff69b4dd;
+}
+
+.ly-background-color-hotpink-o14 {
+  background-color: #ff69b4ee;
+}
+
+.ly-background-color-indianred {
+  background-color: indianred;
+}
+
+.ly-background-color-indianred-o1 {
+  background-color: #cd5c5c11;
+}
+
+.ly-background-color-indianred-o2 {
+  background-color: #cd5c5c22;
+}
+
+.ly-background-color-indianred-o3 {
+  background-color: #cd5c5c33;
+}
+
+.ly-background-color-indianred-o4 {
+  background-color: #cd5c5c44;
+}
+
+.ly-background-color-indianred-o5 {
+  background-color: #cd5c5c55;
+}
+
+.ly-background-color-indianred-o6 {
+  background-color: #cd5c5c66;
+}
+
+.ly-background-color-indianred-o7 {
+  background-color: #cd5c5c77;
+}
+
+.ly-background-color-indianred-o8 {
+  background-color: #cd5c5c88;
+}
+
+.ly-background-color-indianred-o9 {
+  background-color: #cd5c5c99;
+}
+
+.ly-background-color-indianred-o10 {
+  background-color: #cd5c5caa;
+}
+
+.ly-background-color-indianred-o11 {
+  background-color: #cd5c5cbb;
+}
+
+.ly-background-color-indianred-o12 {
+  background-color: #cd5c5ccc;
+}
+
+.ly-background-color-indianred-o13 {
+  background-color: #cd5c5cdd;
+}
+
+.ly-background-color-indianred-o14 {
+  background-color: #cd5c5cee;
+}
+
+.ly-background-color-ivory {
+  background-color: ivory;
+}
+
+.ly-background-color-ivory-o1 {
+  background-color: #fffff011;
+}
+
+.ly-background-color-ivory-o2 {
+  background-color: #fffff022;
+}
+
+.ly-background-color-ivory-o3 {
+  background-color: #fffff033;
+}
+
+.ly-background-color-ivory-o4 {
+  background-color: #fffff044;
+}
+
+.ly-background-color-ivory-o5 {
+  background-color: #fffff055;
+}
+
+.ly-background-color-ivory-o6 {
+  background-color: #fffff066;
+}
+
+.ly-background-color-ivory-o7 {
+  background-color: #fffff077;
+}
+
+.ly-background-color-ivory-o8 {
+  background-color: #fffff088;
+}
+
+.ly-background-color-ivory-o9 {
+  background-color: #fffff099;
+}
+
+.ly-background-color-ivory-o10 {
+  background-color: #fffff0aa;
+}
+
+.ly-background-color-ivory-o11 {
+  background-color: #fffff0bb;
+}
+
+.ly-background-color-ivory-o12 {
+  background-color: #fffff0cc;
+}
+
+.ly-background-color-ivory-o13 {
+  background-color: #fffff0dd;
+}
+
+.ly-background-color-ivory-o14 {
+  background-color: #fffff0ee;
+}
+
+.ly-background-color-khaki {
+  background-color: khaki;
+}
+
+.ly-background-color-khaki-o1 {
+  background-color: #f0e68c11;
+}
+
+.ly-background-color-khaki-o2 {
+  background-color: #f0e68c22;
+}
+
+.ly-background-color-khaki-o3 {
+  background-color: #f0e68c33;
+}
+
+.ly-background-color-khaki-o4 {
+  background-color: #f0e68c44;
+}
+
+.ly-background-color-khaki-o5 {
+  background-color: #f0e68c55;
+}
+
+.ly-background-color-khaki-o6 {
+  background-color: #f0e68c66;
+}
+
+.ly-background-color-khaki-o7 {
+  background-color: #f0e68c77;
+}
+
+.ly-background-color-khaki-o8 {
+  background-color: #f0e68c88;
+}
+
+.ly-background-color-khaki-o9 {
+  background-color: #f0e68c99;
+}
+
+.ly-background-color-khaki-o10 {
+  background-color: #f0e68caa;
+}
+
+.ly-background-color-khaki-o11 {
+  background-color: #f0e68cbb;
+}
+
+.ly-background-color-khaki-o12 {
+  background-color: #f0e68ccc;
+}
+
+.ly-background-color-khaki-o13 {
+  background-color: #f0e68cdd;
+}
+
+.ly-background-color-khaki-o14 {
+  background-color: #f0e68cee;
+}
+
+.ly-background-color-lavender {
+  background-color: lavender;
+}
+
+.ly-background-color-lavender-o1 {
+  background-color: #e6e6f011;
+}
+
+.ly-background-color-lavender-o2 {
+  background-color: #e6e6f022;
+}
+
+.ly-background-color-lavender-o3 {
+  background-color: #e6e6f033;
+}
+
+.ly-background-color-lavender-o4 {
+  background-color: #e6e6f044;
+}
+
+.ly-background-color-lavender-o5 {
+  background-color: #e6e6f055;
+}
+
+.ly-background-color-lavender-o6 {
+  background-color: #e6e6f066;
+}
+
+.ly-background-color-lavender-o7 {
+  background-color: #e6e6f077;
+}
+
+.ly-background-color-lavender-o8 {
+  background-color: #e6e6f088;
+}
+
+.ly-background-color-lavender-o9 {
+  background-color: #e6e6f099;
+}
+
+.ly-background-color-lavender-o10 {
+  background-color: #e6e6f0aa;
+}
+
+.ly-background-color-lavender-o11 {
+  background-color: #e6e6f0bb;
+}
+
+.ly-background-color-lavender-o12 {
+  background-color: #e6e6f0cc;
+}
+
+.ly-background-color-lavender-o13 {
+  background-color: #e6e6f0dd;
+}
+
+.ly-background-color-lavender-o14 {
+  background-color: #e6e6f0ee;
+}
+
+.ly-background-color-lavender-blush {
+  background-color: lavenderblush;
+}
+
+.ly-background-color-lavender-blush-o1 {
+  background-color: #fff0f511;
+}
+
+.ly-background-color-lavender-blush-o2 {
+  background-color: #fff0f522;
+}
+
+.ly-background-color-lavender-blush-o3 {
+  background-color: #fff0f533;
+}
+
+.ly-background-color-lavender-blush-o4 {
+  background-color: #fff0f544;
+}
+
+.ly-background-color-lavender-blush-o5 {
+  background-color: #fff0f555;
+}
+
+.ly-background-color-lavender-blush-o6 {
+  background-color: #fff0f566;
+}
+
+.ly-background-color-lavender-blush-o7 {
+  background-color: #fff0f577;
+}
+
+.ly-background-color-lavender-blush-o8 {
+  background-color: #fff0f588;
+}
+
+.ly-background-color-lavender-blush-o9 {
+  background-color: #fff0f599;
+}
+
+.ly-background-color-lavender-blush-o10 {
+  background-color: #fff0f5aa;
+}
+
+.ly-background-color-lavender-blush-o11 {
+  background-color: #fff0f5bb;
+}
+
+.ly-background-color-lavender-blush-o12 {
+  background-color: #fff0f5cc;
+}
+
+.ly-background-color-lavender-blush-o13 {
+  background-color: #fff0f5dd;
+}
+
+.ly-background-color-lavender-blush-o14 {
+  background-color: #fff0f5ee;
+}
+
+.ly-background-color-lawngreen {
+  background-color: lawngreen;
+}
+
+
 
 /* lydroc decoration foreground color classes [1992] */
 .ly-foreground-color-transparent {

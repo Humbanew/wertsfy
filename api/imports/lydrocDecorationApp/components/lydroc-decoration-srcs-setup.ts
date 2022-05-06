@@ -1,20 +1,18 @@
-/** @class Gerador de classes de folha de estilo */
-export class StylesheetGeneratorClass {
-  [x: string]: string|any;
+/** @alias Configurador e Organizador de Classes de Estilo */
+export function _criaFuncoesCSS(id: string, classe: string) {
 
-  constructor(id: string, classe: string) {
-      this.id = id;
-      this.classe = classe;
+  let funcaoDelete = function delDisplayBlock(elementId: string = id) {
+    const element = document.getElementById(elementId).classList.remove(classe);
+    return element;
   }
 
-  funcaoDelete(elementId: string): string|any { 
-    const element = document.getElementById(this.id).classList.remove(this.classe); return element; 
+  let funcaoAdder = function addDisplayBlock(elementId: string = id) {
+    const element = document.getElementById(elementId).classList.add(classe);
+    return element;
   }
 
-  funcaoAdder(elementId: string): string|any {
-    const element = document.getElementById(this.id).classList.add(this.classe); return element;
-  }
+  let funcoes: any[] = [funcaoDelete, funcaoAdder];
 
-  unificador(): any[] { return [this.funcaoDelete, this.funcaoAdder]; };
+  return funcoes;
 
-};
+}

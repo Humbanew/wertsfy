@@ -1442,11 +1442,6 @@
 /* Template que sera usado para as proximas implementacoes #ff0000 */
 .template {
 
-  background-color: khaki;
-  background-color: lavender;
-  background-color: lavenderblush;
-  background-color: lawngreen;
-  background-color: lemonchiffon;
   background-color: lightblue;
   background-color: lightcoral;
   background-color: lightcyan;
@@ -5134,6 +5129,66 @@
 
 .ly-background-color-lawngreen {
   background-color: lawngreen;
+}
+
+.ly-background-color-lawngreen-o1 {
+  background-color: #7cfc0011;
+}
+
+.ly-background-color-lawngreen-o2 {
+  background-color: #7cfc0022;
+}
+
+.ly-background-color-lawngreen-o3 {
+  background-color: #7cfc0033;
+}
+
+.ly-background-color-lawngreen-o4 {
+  background-color: #7cfc0044;
+}
+
+.ly-background-color-lawngreen-o5 {
+  background-color: #7cfc0055;
+}
+
+.ly-background-color-lawngreen-o6 {
+  background-color: #7cfc0066;
+}
+
+.ly-background-color-lawngreen-o7 {
+  background-color: #7cfc0077;
+}
+
+.ly-background-color-lawngreen-o8 {
+  background-color: #7cfc0088;
+}
+
+.ly-background-color-lawngreen-o9 {
+  background-color: #7cfc0099;
+}
+
+.ly-background-color-lawngreen-o10 {
+  background-color: #7cfc00aa;
+}
+
+.ly-background-color-lawngreen-o11 {
+  background-color: #7cfc00bb;
+}
+
+.ly-background-color-lawngreen-o12 {
+  background-color: #7cfc00cc;
+}
+
+.ly-background-color-lawngreen-o13 {
+  background-color: #7cfc00dd;
+}
+
+.ly-background-color-lawngreen-o14 {
+  background-color: #7cfc00ee;
+}
+
+.ly-background-color-lemonchiffon {
+  background-color: lemonchiffon;
 }
 
 

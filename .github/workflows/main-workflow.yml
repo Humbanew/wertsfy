@@ -12,12 +12,6 @@ jobs:
     steps:
       - run: echo "WertsfyAPI Workflow Actions"
       
-      - uses: actions/checkout@v2
+      - name: Fazendo Checkout
+        uses: actions/checkout@v2
       
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-
-      - uses: getsentry/action-git-diff-suggestions@main
-        with:
-          message: 'eslint made the following change'

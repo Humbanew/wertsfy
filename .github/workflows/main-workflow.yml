@@ -1,4 +1,4 @@
-name: "@WertsfyAPI-Workflow/Main"
+name: "@workflow-main"
 
 on:
   push:

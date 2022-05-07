@@ -20,6 +20,8 @@ jobs:
 
       - run: yarn install
 
+      - run: yarn install lint
+
       - run: yarn lint
 
       - uses: getsentry/action-git-diff-suggestions@main

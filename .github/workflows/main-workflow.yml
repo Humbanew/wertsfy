@@ -20,5 +20,5 @@ jobs:
         with:
           package-manager: npm
           path: cli/
-          pattern: ^cli/imports\/.*.ts$
+          pattern: ^cli/imports\/.*.js$
           threshold: 100

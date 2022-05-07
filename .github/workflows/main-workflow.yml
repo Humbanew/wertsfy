@@ -11,23 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "WertsfyAPI Workflow Actions"
-      - name: Realizando Checkout
-        uses: actions/checkout@v2
-      - name: Configurando Node
-        uses: actions/setup-node@v1
+      
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-node@v1
         with:
           node-version: 12
 
-      - name: Configurando e Instalando Yarn
       - run: yarn install
 
-      - name: Fazendo verificação de erros com Lint
       - run: yarn lint
 
-      - name: Dando sugestões de código melhorado
       - uses: getsentry/action-git-diff-suggestions@main
         with:
           message: eslint
 
-      - name: Testando o código
       - run: yarn test

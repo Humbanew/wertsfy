@@ -12,13 +12,13 @@ export namespace LydrocDecorationStyles {
 
     export const config = {
 
-      /** @description Configuração de Display None */
+      /** @description Configuração de display sendo none */
       displayNone: (id: string) => _criaFuncoesCSS(id, 'ly-display-none'),
       
-      /** @description Configuração de Display Block */
+      /** @description Configuração de display sendo block */
       displayBlock: (id: string) => _criaFuncoesCSS(id, 'ly-display-block'),
       
-      /** @description Configuração de Display Inline */
+      /** @description Configuração de display sendo inline */
       displayInline: (id: string) => _criaFuncoesCSS(id, 'ly-display-inline'),
     
     }

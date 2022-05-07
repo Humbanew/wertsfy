@@ -1,4 +1,4 @@
-/** @alias Configurador e Organizador de Classes de Estilo */
+/** @alias Configurador de classes de folha de estilo */
 export function _criaFuncoesCSS(id: string, classe: string) {
 
   let funcaoDelete = function delDisplayBlock() {

@@ -26,4 +26,4 @@ jobs:
       - name: Analyze code statically using stylelint
         uses: moneyforward/stylelint-action@v0
         with:
-          working_directory: cli/
+          working_directory: ./cli/

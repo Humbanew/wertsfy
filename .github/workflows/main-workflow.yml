@@ -22,3 +22,7 @@ jobs:
           path: cli/
           pattern: ^cli/imports\/.*.js$
           threshold: 100
+
+      - name: Analyze code statically using stylelint
+        uses: moneyforward/stylelint-action@v0
+        

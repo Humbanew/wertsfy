@@ -7,11 +7,9 @@ on:
     branches: [ v1.0 ]
 
 jobs:
-  Workflow:
+  WertsfyAPI Workflow Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "WertsfyAPI Workflow Actions"
-      
       - name: Fazendo Checkout
         uses: actions/checkout@v2
         with:

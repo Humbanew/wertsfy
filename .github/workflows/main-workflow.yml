@@ -15,3 +15,10 @@ jobs:
       - name: Fazendo Checkout
         uses: actions/checkout@v2
       
+      - name: Run check flow coverage compare
+        uses: jackieo5023/flow-coverage-compare@v0.1
+        with:
+          package-manager: npm
+          path: cli/
+          pattern: ^cli/imports\/.*.ts$
+          threshold: 100

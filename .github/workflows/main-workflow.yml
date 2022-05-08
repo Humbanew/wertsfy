@@ -19,37 +19,4 @@ jobs:
     steps:
       - name: Fazendo Checkout
         uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}   # checkout the correct branch name
-          fetch-depth: 0                # fetch the whole repo history
 
-  wty-workflow-git:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Git Version
-        uses: codacy/git-version@2.2.0
-
-      - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@master
-      
-      - name: Actions Linter
-        uses: cschleiden/actions-linter@v1
-        with:
-          workflows: '[".github/workflows/*.yaml"]'
-      
-      - name: install node v12
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-
-      - name: yarn install
-        run: yarn install
-
-      # - name: eslint
-      #   uses: icrawl/action-eslint@v1
-
-      - name: tsc
-        uses: icrawl/action-tsc@v1
-
-      - name: Branch Guard
-        uses: cirrus-actions/branch-guard@v1.2

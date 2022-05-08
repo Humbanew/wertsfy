@@ -28,4 +28,25 @@ jobs:
 
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@master
-       
+      
+      - name: Actions Linter
+        uses: cschleiden/actions-linter@v1
+        with:
+          workflows: '[".github/workflows/*.yaml"]'
+      
+      - name: install node v12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: yarn install
+        run: yarn install
+
+      - name: eslint
+        uses: icrawl/action-eslint@v1
+
+      - name: tsc
+        uses: icrawl/action-tsc@v1
+
+      - name: Branch Guard
+        uses: cirrus-actions/branch-guard@v1.2

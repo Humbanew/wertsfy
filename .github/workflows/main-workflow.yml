@@ -14,7 +14,7 @@ on:
       - unlabeled
 
 jobs:
-  WertsfyAPI-Workflow-Actions:
+  wty-workflow-base:
     runs-on: ubuntu-latest
     steps:
       - name: Fazendo Checkout
@@ -23,6 +23,9 @@ jobs:
           ref: ${{ github.head_ref }}   # checkout the correct branch name
           fetch-depth: 0                # fetch the whole repo history
 
+  wty-workflow-git:
+    runs-on: ubuntu-latest
+    steps:
       - name: Git Version
         uses: codacy/git-version@2.2.0
 
@@ -42,8 +45,8 @@ jobs:
       - name: yarn install
         run: yarn install
 
-      - name: eslint
-        uses: icrawl/action-eslint@v1
+      # - name: eslint
+      #   uses: icrawl/action-eslint@v1
 
       - name: tsc
         uses: icrawl/action-tsc@v1

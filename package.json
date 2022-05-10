@@ -20,6 +20,10 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "sql-ts": "^6.1.0"
+    "prettiest": "^1.1.0",
+    "shelljs": "^0.8.5",
+    "shelljs.exec": "^1.1.8",
+    "sql-ts": "^6.1.0",
+    "yargs": "^17.4.1"
   }
 }

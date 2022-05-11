@@ -22,7 +22,7 @@ export namespace Models {
     camadaSubposta: string;
 
     /** @class Criador de cores rgby e rgbya */
-    constructor(camadaSubposta: any|string) {
+    constructor(camadaSubposta: any|string|(()=>{})) {
 
       this.camadaSubposta = camadaSubposta;
 

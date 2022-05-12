@@ -1,4 +1,4 @@
-import { $abbr, $acronym, $address, $anchor, $appconst, $area, $article, $aside, $audio } from './components/separadorAElements'
+import { $abbr, $acronym, $address, $anchor, $applet, $area, $article, $aside, $audio } from './components/separadorAElements'
 import { $b, $base, $basefont, $bdi, $bdo, $bgsound, $big, $blink, $blockquote, $body, $br, $button } from './components/separadorBElements'
 import { $canvas, $caption, $center, $cite, $code, $col, $colgroup, $content } from './components/separadorCElements'
 import { $data, $datalist, $dd, $del, $details, $dfn, $dialog, $dir, $div, $dl, $dt } from './components/separadorDElements'
@@ -40,7 +40,7 @@ export const lydrocCore = {
       anchor: $anchor,
 
       /** @method Gera um elemento applet */
-      appconst: $appconst,
+      applet: $applet,
 
       /** @method Gera um elemento area */
       area: $area,

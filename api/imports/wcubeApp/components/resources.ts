@@ -1,3 +1,4 @@
+/** @alias Informações da base do programa */
 export const $resources = {
 
   modosDeJogo: {

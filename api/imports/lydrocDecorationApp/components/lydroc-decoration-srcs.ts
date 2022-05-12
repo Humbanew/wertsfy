@@ -4,17 +4,5 @@
 
 import { _criaFuncoesCSS } from "./lydroc-decoration-srcs-setup";
 
-export namespace LydrocDecorationIcons { }
 
-export namespace LydrocDecorationStyles {
-
-  export namespace LDDisplays {
-
-    export const config = {
-    
-    }
-
-  }
-
-}
 

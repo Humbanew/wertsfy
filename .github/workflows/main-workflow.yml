@@ -20,8 +20,7 @@ jobs:
       - name: Fazendo Checkout
         uses: actions/checkout@v2
       
-      - name: Criando Hashes
-        uses: MCJack123/ghaction-generate-release-hashes@v1
+      - uses: MCJack123/ghaction-generate-release-hashes@v1
         with:
           hash-type: sha1
           file-name: hashes.txt

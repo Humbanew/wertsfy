@@ -4,5 +4,26 @@
 
 import { _criaFuncoesCSS } from "./lydroc-decoration-srcs-setup";
 
+export namespace LydrocDecConfig {
+
+  export class ConfiguradorClassesEstilo {
+
+    public id: string;
+
+    constructor(idElemento: string) {
+
+      this.id = idElemento;
+
+    }
+
+    public classes: {
+
+      display: { }
+
+    }
 
 
+  }
+
+
+}

@@ -16,10 +16,24 @@ export namespace LydrocDecConfig {
 
     }
 
-    public classes: {
+    public setup() {
 
-      display: { }
+      const classes = {
 
+        display: {
+
+          $block: _criaFuncoesCSS(this.id, 'ly-display-block'),
+
+          $contents: _criaFuncoesCSS(this.id, 'ly-display-contents'),
+
+          $none: _criaFuncoesCSS(this.id, 'ly-display-none'),
+
+          
+
+        }
+
+      }
+      
     }
 
 

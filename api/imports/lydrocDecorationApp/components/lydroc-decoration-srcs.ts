@@ -22,17 +22,20 @@ export namespace LydrocDecConfig {
 
         display: {
 
-          $block: _criaFuncoesCSS(this.id, 'ly-display-block'),
+          block: _criaFuncoesCSS(this.id, 'ly-display-block'),
+          contents: _criaFuncoesCSS(this.id, 'ly-display-contents'),
+          inherit: _criaFuncoesCSS(this.id, 'ly-display-inherit'),
+          initial: _criaFuncoesCSS(this.id, 'ly-display-initial'),
+          inline: _criaFuncoesCSS(this.id, 'ly-display-inline'),
+          inlineBlock: _criaFuncoesCSS(this.id, 'ly-display-inline-block'),
+          none: _criaFuncoesCSS(this.id, 'ly-display-none'),
 
-          $contents: _criaFuncoesCSS(this.id, 'ly-display-contents'),
-
-          $none: _criaFuncoesCSS(this.id, 'ly-display-none'),
-
-          
 
         }
 
       }
+
+      return classes;
       
     }
 

@@ -1,1 +1,5 @@
-export const LyDecElements = { };
+export const LyDecElements = {
+
+  display: { }
+
+};

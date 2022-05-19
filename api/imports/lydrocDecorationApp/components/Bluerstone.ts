@@ -1,24 +1,16 @@
-/** @alias Configurador de classes de folha de estilo */
-export function _criaFuncoesCSS(id: string, classe: string) {
+interface HexadecimalIdentifier {};
+interface OctadecimalIdentifier {};
 
-  let funcaoDelete = function delDisplayBlock() {
-    const element = document.getElementById(id).classList.remove(classe);
-    return element;
+export class Bluerstone {
+
+  adicionaClasseEstilo(id: string, classe: string) {
+    document.getElementById(id).classList.add(classe);
   }
 
-  let funcaoAdder = function addDisplayBlock() {
-    const element = document.getElementById(id).classList.add(classe);
-    return element;
+  removeClasseEstilo(id: string, classe: string) {
+    document.getElementById(id).classList.remove(classe);
   }
 
-  let funcoes: any[] = [funcaoDelete, funcaoAdder];
 
-  return funcoes;
 
-}
-
-interface HexadecimalIdentifier { };
-
-interface OctadecimalIdentifier { };
-
-export abstract class Bluerstone { };
+};

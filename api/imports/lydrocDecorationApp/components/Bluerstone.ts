@@ -1,5 +1,4 @@
-interface HexadecimalIdentifier {};
-interface OctadecimalIdentifier {};
+interface IdentificacaoEstilo {};
 
 export class Bluerstone {
 

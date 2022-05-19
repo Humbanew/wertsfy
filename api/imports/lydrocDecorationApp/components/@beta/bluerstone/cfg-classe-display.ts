@@ -1,4 +1,4 @@
-import { $dplBlock$, $dplContents$, $dplFlex$, $dplFlowRoot$, $dplGrid$, $dplInherit$, $dplInitial$, $dplInline$, $dplInlineBlock$, $dplInlineFlex$, $dplInlineGrid$, $dplMozBox$, $dplMozDeck$, $dplNone$, $dplRuby$, $dplRubyBase$, $dplRubyBaseContainer$, $dplRubyText$, $dplRubyTextContainer$, $dplRunIn$, $dplTable$, $dplTableCaption$, $dplTableCell$, $dplTableColumn$, $dplTableColumnGroup$, $dplTableFooterGroup$, $dplTableHeaderGroup$, $dplTableRow$, $dplTableRowGroup$, $dplUnset$ } from "./plch-classe-display";
+import { $dplBlock$, $dplContents$, $dplFlex$, $dplFlowRoot$, $dplGrid$, $dplInherit$, $dplInitial$, $dplInline$, $dplInlineBlock$, $dplInlineFlex$, $dplInlineGrid$, $dplMozBox$, $dplMozDeck$, $dplMozGrid$, $dplMozGridGroup$, $dplMozGridLine$, $dplMozGroupbox$, $dplMozInlineBox$, $dplMozInlineGrid$, $dplMozInlineStack$, $dplMozInlineTable$, $dplMozMarker$, $dplMozPopup$, $dplMozStack$, $dplNone$, $dplRuby$, $dplRubyBase$, $dplRubyBaseContainer$, $dplRubyText$, $dplRubyTextContainer$, $dplRunIn$, $dplTable$, $dplTableCaption$, $dplTableCell$, $dplTableColumn$, $dplTableColumnGroup$, $dplTableFooterGroup$, $dplTableHeaderGroup$, $dplTableRow$, $dplTableRowGroup$, $dplUnset$, $dplWebkitBox$, $dplWebkitFlex$, $dplWebkitInlineBox$, $dplWebkitInlineFlex$ } from "./plch-classe-display";
 
 export namespace ClassesCSSDisplay {
 
@@ -61,5 +61,35 @@ export namespace ClassesCSSDisplay {
   export const mozBox = window.customElements.define('lydef-display-moz-box', $dplMozBox$, undefined);
 
   export const mozDeck = window.customElements.define('lydef-display-moz-deck', $dplMozDeck$, undefined);
+
+  export const mozGrid = window.customElements.define('lydef-display-moz-grid', $dplMozGrid$, undefined);
+
+  export const mozGridGroup = window.customElements.define('lydef-display-moz-grid-group', $dplMozGridGroup$, undefined);
+
+  export const mozGridLine = window.customElements.define('lydef-display-moz-grid-line', $dplMozGridLine$, undefined);
+
+  export const mozGroupbox = window.customElements.define('lydef-display-moz-groupbox', $dplMozGroupbox$, undefined);
+
+  export const mozInlineBox = window.customElements.define('lydef-display-moz-inline-box', $dplMozInlineBox$, undefined);
+
+  export const mozInlineGrid = window.customElements.define('lydef-display-moz-inline-grid', $dplMozInlineGrid$, undefined);
+
+  export const mozInlineStack = window.customElements.define('lydef-display-moz-inline-stack', $dplMozInlineStack$, undefined);
+
+  export const mozInlineTable = window.customElements.define('lydef-display-moz-inline-table', $dplMozInlineTable$, undefined);
+
+  export const mozMarker = window.customElements.define('lydef-display-moz-marker', $dplMozMarker$, undefined);
+
+  export const mozPopup = window.customElements.define('lydef-display-moz-popup', $dplMozPopup$, undefined);
+
+  export const mozStack = window.customElements.define('lydef-display-moz-stack', $dplMozStack$, undefined);
+
+  export const webkitBox = window.customElements.define('lydef-display-webkit-box', $dplWebkitBox$, undefined);
+
+  export const webkitInlineBox = window.customElements.define('lydef-display-webkit-inline-box', $dplWebkitInlineBox$, undefined);
+
+  export const webkitFlex = window.customElements.define('lydef-display-webkit-flex', $dplWebkitFlex$, undefined);
+
+  export const webkitInlineFlex = window.customElements.define('lydef-display-webkit-inline-flex', $dplWebkitInlineFlex$, undefined);
 
 };

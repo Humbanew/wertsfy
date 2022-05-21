@@ -1,0 +1,29 @@
+{
+  "name": "aternosbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "chromium": "^3.0.3",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "gamedig": "^3.0.7",
+    "jquery": "^3.6.0",
+    "jsdom": "^18.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lib": "^4.3.3",
+    "puppeteer": "^10.4.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^17.2.1"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [],
+  "author": "Humba01",
+  "license": "ISC"
+}

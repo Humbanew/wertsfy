@@ -16,7 +16,7 @@
     "jsonwebtoken": "^8.5.1",
     "lib": "^4.3.3",
     "puppeteer": "^10.4.0",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "yargs": "^17.2.1"
   },
   "scripts": {},

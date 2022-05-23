@@ -5,7 +5,6 @@ class KMath {
 
   /** @description Constante de Euler. */
   public E = 2.7182818284590452353602874713527;
-  // 1/2,7182818284590452353602874713527=7,182818284590452353602874713527e+30
 
   /** @description Constante da Raiz de um. */
   public SQRT1 = 1.0;
@@ -291,8 +290,206 @@ class KMath {
     return -1 * (x ** (y ** l));
   }
 
+  /** @description Retorna o maior número de uma sequência. */
+  public max(x: number[]): number {
+    let max = x[0];
+    for(let i = 1; i < x.length; i++) {
+      if(x[i] > max) { max = x[i]; }
+    }
+    return max;
+  }
 
+  /** @description Retorna o menor número de uma sequência. */
+  public min(x: number[]): number {
+    let min = x[0];
+    for(let i = 1; i < x.length; i++) {
+      if(x[i] < min) { min = x[i]; }
+    }
+    return min;
+  }
 
+  /** @description Retorna o valor do arrendodamento de um número. */
+  public round(x: number) {}
+
+  /** @description Retorna o valor do arrendodamento de um número, porém negado. */
+  public roundNeg(x: number) {}
+
+  /** @description Retorna o valor do arrendodamento de um número para cima. */
+  public ceil(x: number) {}
+
+  /** @description Retorna o valor do arrendodamento de um número para cima, porém negado. */
+  public ceilNeg(x: number) {}
+
+  /** @description Retorna o valor do arrendodamento de um número para baixo. */
+  public floor(x: number) {}
+
+  /** @description Retorna o valor do arrendodamento de um número para baixo, porém negado. */
+  public floorNeg(x: number) {}
+  
+  /** @description Retorna o valor do logaritmo natural de um número. */
+  public ln(x: number) {}
+
+  /** @description Retorna o valor do logaritmo de base 2 de um número. */
+  public log2(x: number) {}
+
+  //? log de 5 na base 2
+  // 2**2=4
+  // 2**2.1=4.2870938501451726569
+  // 2**2.2=4.5947934199881400272
+  // 2**2.3=4.924577653379665138
+  // 2**2.31=4.9588307997559462464
+  // 2**2.32=4.9933221956064476944
+    // 2**2.321=4.9967845026135068021
+    // 2**2.322=5.0002492103408362096 (valor encontrado) [precisão de 3 casas decimais]
+  // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
+
+  /** @description Retorna o valor do logaritmo de base 10 de um número. */
+  public log10(x: number) {}
+
+  /** @description Retorna o valor do seno de um número. */
+  public sin(x: number) {}
+
+  /** @description Retorna o valor do seno de um número, porém negado. */
+  public sinNeg(x: number) {}
+
+  /** @description Retorna o valor do cosseno de um número. */
+  public cos(x: number) {}
+
+  /** @description Retorna o valor do cosseno de um número, porém negado. */
+  public cosNeg(x: number) {}
+
+  /** @description Retorna o valor da tangente de um número. */
+  public tan(x: number) {}
+
+  /** @description Retorna o valor da tangente de um número, porém negado. */
+  public tanNeg(x: number) {}
+
+  /** @description Retorna o valor da secante de um número. */
+  public sec(x: number) {}
+
+  /** @description Retorna o valor da secante de um número, porém negado. */
+  public secNeg(x: number) {}
+
+  /** @description Retorna o valor da cosecante de um número. */
+  public cossec(x: number) {}
+
+  /** @description Retorna o valor da cosecante de um número, porém negado. */
+  public cossecNeg(x: number) {}
+
+  /** @description Retorna o valor da cotangente de um número. */
+  public cotan(x: number) {}
+  
+  /** @description Retorna o valor da cotangente de um número, porém negado. */
+  public cotanNeg(x: number) {}
+
+  /** @description Retorna o valor da arcoseno de um número. */
+  public arcsin(x: number) {}
+
+  /** @description Retorna o valor da arcoseno de um número, porém negado. */
+  public arcsinNeg(x: number) {}
+
+  /** @description Retorna o valor da arccosseno de um número. */
+  public arccos(x: number) {}
+
+  /** @description Retorna o valor da arccosseno de um número, porém negado. */
+  public arccosNeg(x: number) {}
+
+  /** @description Retorna o valor da arctangente de um número. */
+  public arctan(x: number) {}
+
+  /** @description Retorna o valor da arctangente de um número, porém negado. */
+  public arctanNeg(x: number) {}
+
+  /** @description Retorna o valor da arcsecante de um número. */
+  public arcsec(x: number) {}
+
+  /** @description Retorna o valor da arcsecante de um número, porém negado. */
+  public arcsecNeg(x: number) {}
+
+  /** @description Retorna o valor da arccosecante de um número. */
+  public arccossec(x: number) {}
+
+  /** @description Retorna o valor da arccosecante de um número, porém negado. */
+  public arccossecNeg(x: number) {}
+  
+  /** @description Retorna o valor da arccotangente de um número. */
+  public arccotan(x: number) {}
+
+  /** @description Retorna o valor da arccotangente de um número, porém negado. */
+  public arccotanNeg(x: number) {}
+
+  /** @description Retorna o valor do seno hiperbólico de um número. */
+  public sinh(x: number) {}
+
+  /** @description Retorna o valor do seno hiperbólico de um número, porém negado. */
+  public sinhNeg(x: number) {}
+
+  /** @description Retorna o valor do cosseno hiperbólico de um número. */
+  public cosh(x: number) {}
+
+  /** @description Retorna o valor do cosseno hiperbólico de um número, porém negado. */
+  public coshNeg(x: number) {}
+
+  /** @description Retorna o valor da tangente hiperbólica de um número. */
+  public tanh(x: number) {}
+
+  /** @description Retorna o valor da tangente hiperbólica de um número, porém negado. */
+  public tanhNeg(x: number) {}
+
+  /** @description Retorna o valor da secante hiperbólica de um número. */
+  public sech(x: number) {}
+
+  /** @description Retorna o valor da secante hiperbólica de um número, porém negado. */
+  public sechNeg(x: number) {}
+
+  /** @description Retorna o valor da cosecante hiperbólica de um número. */
+  public cossech(x: number) {}
+
+  /** @description Retorna o valor da cosecante hiperbólica de um número, porém negado. */
+  public cossechNeg(x: number) {}
+
+  /** @description Retorna o valor da cotangente hiperbólica de um número. */
+  public cotanh(x: number) {}
+
+  /** @description Retorna o valor da cotangente hiperbólica de um número, porém negado. */
+  public cotanhNeg(x: number) {}
+
+  /** @description Retorna o valor da arcoseno hiperbólico de um número. */
+  public arcsinh(x: number) {}
+
+  /** @description Retorna o valor da arcoseno hiperbólico de um número, porém negado. */
+  public arcsinhNeg(x: number) {}
+
+  /** @description Retorna o valor da arccosseno hiperbólico de um número. */
+  public arccosh(x: number) {}
+
+  /** @description Retorna o valor da arccosseno hiperbólico de um número, porém negado. */
+  public arccoshNeg(x: number) {}
+
+  /** @description Retorna o valor da arctangente hiperbólica de um número. */
+  public arctanh(x: number) {}
+
+  /** @description Retorna o valor da arctangente hiperbólica de um número, porém negado. */
+  public arctanhNeg(x: number) {}
+
+  /** @description Retorna o valor da arcsecante hiperbólica de um número. */
+  public arcsech(x: number) {}
+
+  /** @description Retorna o valor da arcsecante hiperbólica de um número, porém negado. */
+  public arcsechNeg(x: number) {}
+
+  /** @description Retorna o valor da arccosecante hiperbólica de um número. */
+  public arccossech(x: number) {}
+
+  /** @description Retorna o valor da arccosecante hiperbólica de um número, porém negado. */
+  public arccossechNeg(x: number) {}
+
+  /** @description Retorna o valor da arccotangente hiperbólica de um número. */
+  public arccotanh(x: number) {}
+
+  /** @description Retorna o valor da arccotangente hiperbólica de um número, porém negado. */
+  public arccotanhNeg(x: number) {}
+  
 }
 
 export var kMath = new KMath();

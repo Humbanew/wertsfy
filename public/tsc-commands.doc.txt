@@ -1,155 +1,101 @@
 |#| CLI Commands
 Flag	Type
 
---all	boolean 
+--all	| boolean 
 -> Show all compiler options.
 
---generateTrace	string
+--generateTrace	| string
 -> Generates an event trace and a list of types.
 
---help boolean
+--help | boolean
 -> Gives local information for help on the CLI.
 
---init boolean
+--init | boolean
 -> Initializes a TypeScript project and creates a tsconfig.json file.
 
---listFilesOnly	boolean
+--listFilesOnly	| boolean
 -> Print names of files that are part of the compilation and then stop processing.
 
---locale string
+--locale | string
 -> Set the language of the messaging from TypeScript. This does not affect emit.
 
---project string
+--project | string
 -> Compile the project given the path to its configuration file, or to a folder with a 'tsconfig.json'.
 
---showConfig boolean
+--showConfig | boolean
 -> Print the final configuration instead of building.
 
---version	boolean
+--version	| boolean
 -> Print the compiler's version.
 
 |#| Build Options
 Flag	Type
---build	boolean
+--build	| boolean
 -> Build one or more projects and their dependencies, if out of date
 
---clean	boolean
+--clean	| boolean
 -> Delete the outputs of all projects.
 
---dry	
-boolean
+--dry	| boolean
+-> Show what would be built (or deleted, if specified with '--clean')
 
-Show what would be built (or deleted, if specified with '--clean')
+--force	| boolean
+-> Build all projects, including those that appear to be up to date.
 
---force	
-boolean
+--verbose	| boolean
+-> Enable verbose logging.
 
-Build all projects, including those that appear to be up to date.
-
---verbose	
-boolean
-
-Enable verbose logging.
-
-Watch Options
+|#| Watch Options
 Flag	Type
---excludeDirectories	
-list
+--excludeDirectories | list
+-> Remove a list of directories from the watch process.
 
-Remove a list of directories from the watch process.
+--excludeFiles | list
+-> Remove a list of files from the watch mode's processing.
 
---excludeFiles	
-list
+--fallbackPolling	| fixedinterval, priorityinterval, dynamicpriority, or fixedchunksize
+-> Specify what approach the watcher should use if the system runs out of native file watchers.
 
-Remove a list of files from the watch mode's processing.
+--synchronousWatchDirectory	| boolean
+-> Synchronously call callbacks and update the state of directory watchers on platforms that don`t support recursive watching natively.
 
---fallbackPolling	
-fixedinterval, priorityinterval, dynamicpriority, or fixedchunksize
+--watch	| boolean
+-> Watch input files.
 
-Specify what approach the watcher should use if the system runs out of native file watchers.
+--watchDirectory | usefsevents, fixedpollinginterval, dynamicprioritypolling, or fixedchunksizepolling
+-> Specify how directories are watched on systems that lack recursive file-watching functionality.
 
---synchronousWatchDirectory	
-boolean
+--watchFile	| fixedpollinginterval, prioritypollinginterval, dynamicprioritypolling, fixedchunksizepolling, usefsevents, or usefseventsonparentdirectory
+-> Specify how the TypeScript watch mode works.
 
-Synchronously call callbacks and update the state of directory watchers on platforms that don`t support recursive watching natively.
-
---watch	
-boolean
-
-Watch input files.
-
---watchDirectory	
-usefsevents, fixedpollinginterval, dynamicprioritypolling, or fixedchunksizepolling
-
-Specify how directories are watched on systems that lack recursive file-watching functionality.
-
---watchFile	
-fixedpollinginterval, prioritypollinginterval, dynamicprioritypolling, fixedchunksizepolling, usefsevents, or usefseventsonparentdirectory
-
-Specify how the TypeScript watch mode works.
-
-Compiler Flags
+|#| Compiler Flags
 Flag	Type	Default
---allowJs	
-boolean
+--allowJs	| boolean | false
+-> Allow JavaScript files to be a part of your program. Use the checkJS option to get errors from these files.
 
-false
+--allowSyntheticDefaultImports | boolean | true if module is system, or esModuleInterop and module is not es6/es2015 or esnext, false otherwise.
+-> Allow 'import x from y' when a module doesn't have a default export.
 
-Allow JavaScript files to be a part of your program. Use the checkJS option to get errors from these files.
+--allowUmdGlobalAccess | boolean | false
+-> Allow accessing UMD globals from modules.
 
---allowSyntheticDefaultImports	
-boolean
+--allowUnreachableCode | boolean 
+-> Disable error reporting for unreachable code.
 
-true if module is system, or esModuleInterop and module is not es6/es2015 or esnext,
+--allowUnusedLabels	| boolean 
+-> Disable error reporting for unused labels.
 
-false otherwise.
+--alwaysStrict | boolean | true if strict, false otherwise.
+-> Ensure 'use strict' is always emitted.
 
-Allow 'import x from y' when a module doesn't have a default export.
+--assumeChangesOnlyAffectDirectDependencies	| boolean | false
+-> Have recompiles in projects that use incremental and watch mode assume that changes within a file will only affect files directly depending on it.
 
---allowUmdGlobalAccess	
-boolean
+--baseUrl	| string
+-> Specify the base directory to resolve non-relative module names.
 
-false
-
-Allow accessing UMD globals from modules.
-
---allowUnreachableCode	
-boolean
-
-Disable error reporting for unreachable code.
-
---allowUnusedLabels	
-boolean
-
-Disable error reporting for unused labels.
-
---alwaysStrict	
-boolean
-
-true if strict,
-
-false otherwise.
-
-Ensure 'use strict' is always emitted.
-
---assumeChangesOnlyAffectDirectDependencies	
-boolean
-
-false
-
-Have recompiles in projects that use incremental and watch mode assume that changes within a file will only affect files directly depending on it.
-
---baseUrl	
-string
-
-Specify the base directory to resolve non-relative module names.
-
---charset	
-string
-
-utf8
-
-No longer supported. In early versions, manually set the text encoding for reading files.
+--charset	| string | utf8
+-> No longer supported. In early versions, manually set the text encoding for reading files.
 
 --checkJs	
 boolean

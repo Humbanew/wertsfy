@@ -1,4 +1,3 @@
-"use strict";
 exports.__esModule = true;
 exports.kMath = void 0;
 var KMath = /** @class */ (function () {
@@ -7,7 +6,6 @@ var KMath = /** @class */ (function () {
         this.PI = 3.141592653589793;
         /** @description Constante de Euler. */
         this.E = 2.7182818284590452353602874713527;
-        // 1/2,7182818284590452353602874713527=7,182818284590452353602874713527e+30
         /** @description Constante da Raiz de um. */
         this.SQRT1 = 1.0;
         /** @description Constante da Raiz de dois. */
@@ -233,10 +231,150 @@ var KMath = /** @class */ (function () {
         }
         return -1 * (Math.pow(x, (Math.pow(y, l))));
     };
-    /** @description Retorna o valor do logaritmo de base 2 de um número. */
-    KMath.prototype.log2 = function (x) {
-        return x / 2;
+    /** @description Retorna o maior número de uma sequência. */
+    KMath.prototype.max = function (x) {
+        var max = x[0];
+        for (var i = 1; i < x.length; i++) {
+            if (x[i] > max) {
+                max = x[i];
+            }
+        }
+        return max;
     };
+    /** @description Retorna o menor número de uma sequência. */
+    KMath.prototype.min = function (x) {
+        var min = x[0];
+        for (var i = 1; i < x.length; i++) {
+            if (x[i] < min) {
+                min = x[i];
+            }
+        }
+        return min;
+    };
+    /** @description Retorna o valor do arrendodamento de um número. */
+    KMath.prototype.round = function (x) { };
+    /** @description Retorna o valor do arrendodamento de um número, porém negado. */
+    KMath.prototype.roundNeg = function (x) { };
+    /** @description Retorna o valor do arrendodamento de um número para cima. */
+    KMath.prototype.ceil = function (x) { };
+    /** @description Retorna o valor do arrendodamento de um número para cima, porém negado. */
+    KMath.prototype.ceilNeg = function (x) { };
+    /** @description Retorna o valor do arrendodamento de um número para baixo. */
+    KMath.prototype.floor = function (x) { };
+    /** @description Retorna o valor do arrendodamento de um número para baixo, porém negado. */
+    KMath.prototype.floorNeg = function (x) { };
+    /** @description Retorna o valor do logaritmo natural de um número. */
+    KMath.prototype.ln = function (x) { };
+    /** @description Retorna o valor do logaritmo de base 2 de um número. */
+    KMath.prototype.log2 = function (x) { };
+    //? log de 5 na base 2
+    // 2**2=4
+    // 2**2.1=4.2870938501451726569
+    // 2**2.2=4.5947934199881400272
+    // 2**2.3=4.924577653379665138
+    // 2**2.31=4.9588307997559462464
+    // 2**2.32=4.9933221956064476944
+    // 2**2.321=4.9967845026135068021
+    // 2**2.322=5.0002492103408362096 (valor encontrado) [precisão de 3 casas decimais]
+    // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
+    /** @description Retorna o valor do logaritmo de base 10 de um número. */
+    KMath.prototype.log10 = function (x) { };
+    /** @description Retorna o valor do seno de um número. */
+    KMath.prototype.sin = function (x) { };
+    /** @description Retorna o valor do seno de um número, porém negado. */
+    KMath.prototype.sinNeg = function (x) { };
+    /** @description Retorna o valor do cosseno de um número. */
+    KMath.prototype.cos = function (x) { };
+    /** @description Retorna o valor do cosseno de um número, porém negado. */
+    KMath.prototype.cosNeg = function (x) { };
+    /** @description Retorna o valor da tangente de um número. */
+    KMath.prototype.tan = function (x) { };
+    /** @description Retorna o valor da tangente de um número, porém negado. */
+    KMath.prototype.tanNeg = function (x) { };
+    /** @description Retorna o valor da secante de um número. */
+    KMath.prototype.sec = function (x) { };
+    /** @description Retorna o valor da secante de um número, porém negado. */
+    KMath.prototype.secNeg = function (x) { };
+    /** @description Retorna o valor da cosecante de um número. */
+    KMath.prototype.cossec = function (x) { };
+    /** @description Retorna o valor da cosecante de um número, porém negado. */
+    KMath.prototype.cossecNeg = function (x) { };
+    /** @description Retorna o valor da cotangente de um número. */
+    KMath.prototype.cotan = function (x) { };
+    /** @description Retorna o valor da cotangente de um número, porém negado. */
+    KMath.prototype.cotanNeg = function (x) { };
+    /** @description Retorna o valor da arcoseno de um número. */
+    KMath.prototype.arcsin = function (x) { };
+    /** @description Retorna o valor da arcoseno de um número, porém negado. */
+    KMath.prototype.arcsinNeg = function (x) { };
+    /** @description Retorna o valor da arccosseno de um número. */
+    KMath.prototype.arccos = function (x) { };
+    /** @description Retorna o valor da arccosseno de um número, porém negado. */
+    KMath.prototype.arccosNeg = function (x) { };
+    /** @description Retorna o valor da arctangente de um número. */
+    KMath.prototype.arctan = function (x) { };
+    /** @description Retorna o valor da arctangente de um número, porém negado. */
+    KMath.prototype.arctanNeg = function (x) { };
+    /** @description Retorna o valor da arcsecante de um número. */
+    KMath.prototype.arcsec = function (x) { };
+    /** @description Retorna o valor da arcsecante de um número, porém negado. */
+    KMath.prototype.arcsecNeg = function (x) { };
+    /** @description Retorna o valor da arccosecante de um número. */
+    KMath.prototype.arccossec = function (x) { };
+    /** @description Retorna o valor da arccosecante de um número, porém negado. */
+    KMath.prototype.arccossecNeg = function (x) { };
+    /** @description Retorna o valor da arccotangente de um número. */
+    KMath.prototype.arccotan = function (x) { };
+    /** @description Retorna o valor da arccotangente de um número, porém negado. */
+    KMath.prototype.arccotanNeg = function (x) { };
+    /** @description Retorna o valor do seno hiperbólico de um número. */
+    KMath.prototype.sinh = function (x) { };
+    /** @description Retorna o valor do seno hiperbólico de um número, porém negado. */
+    KMath.prototype.sinhNeg = function (x) { };
+    /** @description Retorna o valor do cosseno hiperbólico de um número. */
+    KMath.prototype.cosh = function (x) { };
+    /** @description Retorna o valor do cosseno hiperbólico de um número, porém negado. */
+    KMath.prototype.coshNeg = function (x) { };
+    /** @description Retorna o valor da tangente hiperbólica de um número. */
+    KMath.prototype.tanh = function (x) { };
+    /** @description Retorna o valor da tangente hiperbólica de um número, porém negado. */
+    KMath.prototype.tanhNeg = function (x) { };
+    /** @description Retorna o valor da secante hiperbólica de um número. */
+    KMath.prototype.sech = function (x) { };
+    /** @description Retorna o valor da secante hiperbólica de um número, porém negado. */
+    KMath.prototype.sechNeg = function (x) { };
+    /** @description Retorna o valor da cosecante hiperbólica de um número. */
+    KMath.prototype.cossech = function (x) { };
+    /** @description Retorna o valor da cosecante hiperbólica de um número, porém negado. */
+    KMath.prototype.cossechNeg = function (x) { };
+    /** @description Retorna o valor da cotangente hiperbólica de um número. */
+    KMath.prototype.cotanh = function (x) { };
+    /** @description Retorna o valor da cotangente hiperbólica de um número, porém negado. */
+    KMath.prototype.cotanhNeg = function (x) { };
+    /** @description Retorna o valor da arcoseno hiperbólico de um número. */
+    KMath.prototype.arcsinh = function (x) { };
+    /** @description Retorna o valor da arcoseno hiperbólico de um número, porém negado. */
+    KMath.prototype.arcsinhNeg = function (x) { };
+    /** @description Retorna o valor da arccosseno hiperbólico de um número. */
+    KMath.prototype.arccosh = function (x) { };
+    /** @description Retorna o valor da arccosseno hiperbólico de um número, porém negado. */
+    KMath.prototype.arccoshNeg = function (x) { };
+    /** @description Retorna o valor da arctangente hiperbólica de um número. */
+    KMath.prototype.arctanh = function (x) { };
+    /** @description Retorna o valor da arctangente hiperbólica de um número, porém negado. */
+    KMath.prototype.arctanhNeg = function (x) { };
+    /** @description Retorna o valor da arcsecante hiperbólica de um número. */
+    KMath.prototype.arcsech = function (x) { };
+    /** @description Retorna o valor da arcsecante hiperbólica de um número, porém negado. */
+    KMath.prototype.arcsechNeg = function (x) { };
+    /** @description Retorna o valor da arccosecante hiperbólica de um número. */
+    KMath.prototype.arccossech = function (x) { };
+    /** @description Retorna o valor da arccosecante hiperbólica de um número, porém negado. */
+    KMath.prototype.arccossechNeg = function (x) { };
+    /** @description Retorna o valor da arccotangente hiperbólica de um número. */
+    KMath.prototype.arccotanh = function (x) { };
+    /** @description Retorna o valor da arccotangente hiperbólica de um número, porém negado. */
+    KMath.prototype.arccotanhNeg = function (x) { };
     return KMath;
 }());
 exports.kMath = new KMath();

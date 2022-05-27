@@ -308,29 +308,12 @@ class KMath {
     return min;
   }
 
-  /** Retorna o valor do arrendodamento de um número. */
-  public round(x: number) {}
-
-  /** Retorna o valor do arrendodamento de um número, porém negado. */
-  public roundNeg(x: number) {}
-
-  /** Retorna o valor do arrendodamento de um número para cima. */
-  public ceil(x: number) {}
-
-  /** Retorna o valor do arrendodamento de um número para cima, porém negado. */
-  public ceilNeg(x: number) {}
-
-  /** Retorna o valor do arrendodamento de um número para baixo. */
-  public floor(x: number) {}
-
-  /** Retorna o valor do arrendodamento de um número para baixo, porém negado. */
-  public floorNeg(x: number) {}
-  
+  // #ff0000 mexer aqui!!!
   /** Retorna o valor do logaritmo natural de um número. */
-  public ln(x: number) {}
+  protected ln(x: number) {}
 
   /** Retorna o valor do logaritmo de base 2 de um número. */
-  public log2(x: number) {}
+  protected log2(x: number) {}
 
   //? log de 5 na base 2
   // 2**2=4
@@ -344,152 +327,155 @@ class KMath {
   // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
 
   /** Retorna o valor do logaritmo de base 10 de um número. */
-  public log10(x: number) {}
+  protected log10(x: number) {}
 
   /** Retorna o valor do seno de um número. */
-  public sin(x: number) {}
+  protected sin(x: number) {}
 
   /** Retorna o valor do seno de um número, porém negado. */
-  public sinNeg(x: number) {}
+  protected sinNeg(x: number) {}
 
   /** Retorna o valor do cosseno de um número. */
-  public cos(x: number) {}
+  protected cos(x: number) {}
 
   /** Retorna o valor do cosseno de um número, porém negado. */
-  public cosNeg(x: number) {}
+  protected cosNeg(x: number) {}
 
   /** Retorna o valor da tangente de um número. */
-  public tan(x: number) {}
+  protected tan(x: number) {}
 
   /** Retorna o valor da tangente de um número, porém negado. */
-  public tanNeg(x: number) {}
+  protected tanNeg(x: number) {}
 
   /** Retorna o valor da secante de um número. */
-  public sec(x: number) {}
+  protected sec(x: number) {}
 
   /** Retorna o valor da secante de um número, porém negado. */
-  public secNeg(x: number) {}
+  protected secNeg(x: number) {}
 
   /** Retorna o valor da cosecante de um número. */
-  public cossec(x: number) {}
+  protected cossec(x: number) {}
 
   /** Retorna o valor da cosecante de um número, porém negado. */
-  public cossecNeg(x: number) {}
+  protected cossecNeg(x: number) {}
 
   /** Retorna o valor da cotangente de um número. */
-  public cotan(x: number) {}
+  protected cotan(x: number) {}
   
   /** Retorna o valor da cotangente de um número, porém negado. */
-  public cotanNeg(x: number) {}
+  protected cotanNeg(x: number) {}
 
   /** Retorna o valor da arcoseno de um número. */
-  public arcsin(x: number) {}
+  protected arcsin(x: number) {}
 
   /** Retorna o valor da arcoseno de um número, porém negado. */
-  public arcsinNeg(x: number) {}
+  protected arcsinNeg(x: number) {}
 
   /** Retorna o valor da arccosseno de um número. */
-  public arccos(x: number) {}
+  protected arccos(x: number) {}
 
   /** Retorna o valor da arccosseno de um número, porém negado. */
-  public arccosNeg(x: number) {}
+  protected arccosNeg(x: number) {}
 
   /** Retorna o valor da arctangente de um número. */
-  public arctan(x: number) {}
+  protected arctan(x: number) {}
 
   /** Retorna o valor da arctangente de um número, porém negado. */
-  public arctanNeg(x: number) {}
+  protected arctanNeg(x: number) {}
 
   /** Retorna o valor da arcsecante de um número. */
-  public arcsec(x: number) {}
+  protected arcsec(x: number) {}
 
   /** Retorna o valor da arcsecante de um número, porém negado. */
-  public arcsecNeg(x: number) {}
+  protected arcsecNeg(x: number) {}
 
   /** Retorna o valor da arccosecante de um número. */
-  public arccossec(x: number) {}
+  protected arccossec(x: number) {}
 
   /** Retorna o valor da arccosecante de um número, porém negado. */
-  public arccossecNeg(x: number) {}
+  protected arccossecNeg(x: number) {}
   
   /** Retorna o valor da arccotangente de um número. */
-  public arccotan(x: number) {}
+  protected arccotan(x: number) {}
 
   /** Retorna o valor da arccotangente de um número, porém negado. */
-  public arccotanNeg(x: number) {}
+  protected arccotanNeg(x: number) {}
 
   /** Retorna o valor do seno hiperbólico de um número. */
-  public sinh(x: number) {}
+  protected sinh(x: number) {}
 
   /** Retorna o valor do seno hiperbólico de um número, porém negado. */
-  public sinhNeg(x: number) {}
+  protected sinhNeg(x: number) {}
 
   /** Retorna o valor do cosseno hiperbólico de um número. */
-  public cosh(x: number) {}
+  protected cosh(x: number) {}
 
   /** Retorna o valor do cosseno hiperbólico de um número, porém negado. */
-  public coshNeg(x: number) {}
+  protected coshNeg(x: number) {}
 
   /** Retorna o valor da tangente hiperbólica de um número. */
-  public tanh(x: number) {}
+  protected tanh(x: number) {}
 
   /** Retorna o valor da tangente hiperbólica de um número, porém negado. */
-  public tanhNeg(x: number) {}
+  protected tanhNeg(x: number) {}
 
   /** Retorna o valor da secante hiperbólica de um número. */
-  public sech(x: number) {}
+  protected sech(x: number) {}
 
   /** Retorna o valor da secante hiperbólica de um número, porém negado. */
-  public sechNeg(x: number) {}
+  protected sechNeg(x: number) {}
 
   /** Retorna o valor da cosecante hiperbólica de um número. */
-  public cossech(x: number) {}
+  protected cossech(x: number) {}
 
   /** Retorna o valor da cosecante hiperbólica de um número, porém negado. */
-  public cossechNeg(x: number) {}
+  protected cossechNeg(x: number) {}
 
   /** Retorna o valor da cotangente hiperbólica de um número. */
-  public cotanh(x: number) {}
+  protected cotanh(x: number) {}
 
   /** Retorna o valor da cotangente hiperbólica de um número, porém negado. */
-  public cotanhNeg(x: number) {}
+  protected cotanhNeg(x: number) {}
 
   /** Retorna o valor da arcoseno hiperbólico de um número. */
-  public arcsinh(x: number) {}
+  protected arcsinh(x: number) {}
 
   /** Retorna o valor da arcoseno hiperbólico de um número, porém negado. */
-  public arcsinhNeg(x: number) {}
+  protected arcsinhNeg(x: number) {}
 
   /** Retorna o valor da arccosseno hiperbólico de um número. */
-  public arccosh(x: number) {}
+  protected arccosh(x: number) {}
 
   /** Retorna o valor da arccosseno hiperbólico de um número, porém negado. */
-  public arccoshNeg(x: number) {}
+  protected arccoshNeg(x: number) {}
 
   /** Retorna o valor da arctangente hiperbólica de um número. */
-  public arctanh(x: number) {}
+  protected arctanh(x: number) {}
 
   /** Retorna o valor da arctangente hiperbólica de um número, porém negado. */
-  public arctanhNeg(x: number) {}
+  protected arctanhNeg(x: number) {}
 
   /** Retorna o valor da arcsecante hiperbólica de um número. */
-  public arcsech(x: number) {}
+  protected arcsech(x: number) {}
 
   /** Retorna o valor da arcsecante hiperbólica de um número, porém negado. */
-  public arcsechNeg(x: number) {}
+  protected arcsechNeg(x: number) {}
 
   /** Retorna o valor da arccosecante hiperbólica de um número. */
-  public arccossech(x: number) {}
+  protected arccossech(x: number) {}
 
   /** Retorna o valor da arccosecante hiperbólica de um número, porém negado. */
-  public arccossechNeg(x: number) {}
+  protected arccossechNeg(x: number) {}
 
   /** Retorna o valor da arccotangente hiperbólica de um número. */
-  public arccotanh(x: number) {}
+  protected arccotanh(x: number) {}
 
   /** Retorna o valor da arccotangente hiperbólica de um número, porém negado. */
-  public arccotanhNeg(x: number) {}
-  
+  protected arccotanhNeg(x: number) {}
+
+  /** Retorna um valor aleatório */
+  protected random() {}
+
 }
 
 export var kMath = new KMath();

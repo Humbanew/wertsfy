@@ -17,7 +17,7 @@ class TerminalPencils {
   // \033[1;46m - Ciano Claro
   // \033[1;47m - Branco
 
-  selecionaLapis() { }
+  selecionaLapis(): void { }
 
 
 } export var terminalPencils = new TerminalPencils();

@@ -476,6 +476,15 @@ class WMath {
   /** Retorna um valor aleatório */
   protected random() {}
 
+  /** Retorna o valor arredondado pra cima de um número. */
+  protected ceil(x: number) {}
+
+  /** Retorna o valor arredondado pra baixo de um número. */
+  protected floor(x: number) {}
+
+  /** Retorna o valor arredondado de um número. */
+  protected round(x: number) {}
+
 }
 
 export var wMath = new WMath();

@@ -1,1 +1,1 @@
-import { kMath } from "./kmath.lib";
+import { kMath } from "./wmath.lib";

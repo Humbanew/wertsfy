@@ -1,4 +1,4 @@
-class KMath {
+class WMath {
   
   /** Constante de Arquimedes ou número de Ludoph. */
   public PI = 3.141592653589793;
@@ -478,4 +478,4 @@ class KMath {
 
 }
 
-export var kMath = new KMath();
+export var wMath = new WMath();

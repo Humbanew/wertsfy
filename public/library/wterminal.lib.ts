@@ -1,25 +1,60 @@
+// Lembrete: Adicionar os caracteres unicode e ascii na classe.
+
 class WTerminal { 
 
+  /** 
+   * @description Configura o símbolo de entrada de dados para o terminal. 
+   */
   public SETUP_INPUT_SYMBOL: string = '|>';
 
+  /**
+   * @description Configura o símbolo de retorno da entrada do terminal.
+   */
   public SETUP_OUTPUT_SYMBOL: string = '|<';
 
+  /**
+   * @description Configura o símbolo de divisão de partes de um programa.
+   */
   public SETUP_DIVIDER_SYMBOL: string = '<<<=====>>>';
 
+  /**
+   * @description Configura o modelo de 25% da tela de carregamento de um processo no terminal.
+   */
   public SETUP_LOADING_SYMBOL_25: string = '\\';
 
+  /**
+   * @description Configura o modelo de 50% da tela de carregamento de um processo no terminal.
+   */
   public SETUP_LOADING_SYMBOL_50: string = '|';
 
+  /**
+   * @description Configura o modelo de 75% da tela de carregamento de um processo no terminal.
+   */
   public SETUP_LOADING_SYMBOL_75: string = '/';
 
+  /**
+   * @description Configura o modelo de 100% da tela de carregamento de um processo no terminal.
+   */
   public SETUP_LOADING_SYMBOL_100: string = '-';
 
+  /**
+   * @description Adiciona um caractere de escape de nova linha.
+   */
   public SETUP_ESCAPE_CHARACTER_NEW_LINE: string = '\n';
 
+  /**
+   * @description Adiciona um caractere de escape de tab.
+   */
   public SETUP_ESCAPE_CHARACTER_TAB: string = '\t';
 
+  /**
+   * @description Adiciona um caractere de escape de backspace.
+   */
   public SETUP_ESCAPE_CHARACTER_BACKSPACE: string = '\b';
 
+  /**
+   * @description Adiciona um caractere de escape de reínicio da linha.
+   */
   public SETUP_ESCAPE_CHARACTER_RESTART_LINE: string = '\r';
 
   public COR_TERMINAL_000000: string = '#000000';

@@ -3,132 +3,132 @@ class WMath {
   /** 
    * @description Constante de Arquimedes ou número de Ludoph. 
    */
-  public PI = 3.141592653589793;
+  public PI: number = 3.141592653589793;
 
   /** 
    * @description Constante de Euler. 
    */
-  public E = 2.7182818284590452353602874713527;
+  public E: number = 2.7182818284590452353602874713527;
 
   /** 
    * @description Constante da Raiz de um. 
    */
-  public SQRT1 = 1.0;
+  public SQRT1: number = 1.0;
 
   /** 
    * @description Constante da Raiz de dois. 
    */
-  public SQRT2 = 1.414213562373095;
+  public SQRT2: number = 1.414213562373095;
 
   /** 
    * @description Constante da Raiz de tres. 
    */
-  public SQRT3 = 1.732050807568877;
+  public SQRT3: number = 1.732050807568877;
 
   /** 
    * @description Constante da Raiz de quatro. 
    */
-  public SQRT4 = 2.0;
+  public SQRT4: number = 2.0;
 
   /** 
    * @description Constante da Raiz de cinco. 
    */
-  public SQRT5 = 2.23606797749979;
+  public SQRT5: number = 2.23606797749979;
 
   /** 
    * @description Constante da Raiz de seis. 
    */
-  public SQRT6 = 2.449489742783178;
+  public SQRT6: number = 2.449489742783178;
 
   /** 
    * @description Constante da Raiz de sete. 
    */
-  public SQRT7 = 2.64575131106459;
+  public SQRT7: number = 2.64575131106459;
 
   /** 
    * @description Constante da Raiz de oito. 
    */
-  public SQRT8 = 2.82842712474619;
+  public SQRT8: number = 2.82842712474619;
 
   /** 
    * @description Constante da Raiz de nove. 
    */
-  public SQRT9 = 3.0;
+  public SQRT9: number = 3.0;
 
   /** 
    * @description Constante da Raiz de dez. 
    */
-  public SQRT10 = 3.16227766016838;
+  public SQRT10: number = 3.16227766016838;
 
   /** 
    * @description Constante da Raiz Cúbica de um. 
    */
-  public CBRT1 = 1.0;
+  public CBRT1: number = 1.0;
 
   /** 
    * @description Constante da Raiz Cúbica de dois. 
    */
-  public CBRT2 = 1.25992104989487;
+  public CBRT2: number = 1.25992104989487;
 
   /** 
    * @description Constante da Raiz Cúbica de tres. 
    */
-  public CBRT3 = 1.5874010519682;
+  public CBRT3: number = 1.5874010519682;
 
   /** 
    * @description Constante da Raiz Cúbica de quatro. 
    */
-  public CBRT4 = 1.99999999999999;
+  public CBRT4: number = 1.99999999999999;
 
   /** 
    * @description Constante da Raiz Cúbica de cinco. 
    */
-  public CBRT5 = 2.23606797749979;
+  public CBRT5: number = 2.23606797749979;
 
   /** 
    * @description Constante da Raiz Cúbica de seis. 
    */
-  public CBRT6 = 2.58198889747161;
+  public CBRT6: number = 2.58198889747161;
 
   /** 
    * @description Constante da Raiz Cúbica de sete. 
    */
-  public CBRT7 = 2.91293118277239;
+  public CBRT7: number = 2.91293118277239;
 
   /** 
    * @description Constante da Raiz Cúbica de oito. 
    */
-  public CBRT8 = 3.26249509498958;
+  public CBRT8: number = 3.26249509498958;
 
   /** 
    * @description Constante da Raiz Cúbica de nove. 
    */
-  public CBRT9 = 3.62449963442055;
+  public CBRT9: number = 3.62449963442055;
 
   /** 
    * @description Constante da Raiz Cúbica de dez. 
    */
-  public CBRT10 = 3.99999999999999;
+  public CBRT10: number = 3.99999999999999;
 
   /** 
    * @description Constante de Logaritmo Natural de dois. 
    */
-  public LN2 = 0.6931471805599453;
+  public LN2: number = 0.6931471805599453;
 
   /** 
    * @description Constante de Logaritmo Natural de dez. 
    */
-  public LN10 = 2.302585092994046;
+  public LN10: number = 2.302585092994046;
 
   /** 
    * @description Constante de Logaritmo de 2. 
    */
-  public LOG2E = 1.4426950408889634;
+  public LOG2E: number = 1.4426950408889634;
 
   /** 
    * @description Constante de Logaritmo de 10. 
    */
-  public LOG10E = 0.4342944819032518;
+  public LOG10E: number = 0.4342944819032518;
 
   /**
    *  @augments x entrada do cálculo. **[ Type: ``number`` ]**

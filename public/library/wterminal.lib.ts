@@ -477,10 +477,14 @@ class WTerminal {
    */
   public COR_TERMINAL_5FFFFF: string = '#5FFFFF';
 
-// Cor schema 8 bit @088 => #870000 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 870000. 
+   */
   public COR_TERMINAL_870000: string = '#870000';
 
-// Cor schema 8 bit @089 => #87005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 87005F. 
+   */
   public COR_TERMINAL_87005F: string = '#87005F';
 
 // Cor schema 8 bit @090 => #870087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

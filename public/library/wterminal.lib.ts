@@ -114,7 +114,7 @@ class WTerminal {
 
   /**
    * @description Adiciona a cor do hexadecimal FFFF00.
-   *
+   */
   public COR_TERMINAL_FFFF00: string = '#FFFF00';
 
   /**
@@ -138,6 +138,8 @@ class WTerminal {
   public COR_TERMINAL_FFFFFF: string = '#FFFFFF';
 
 // Cor schema 8 bit @017 => #00005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+
   public COR_TERMINAL_00005F: string = '#00005F';
 
 // Cor schema 8 bit @018 => #000087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

@@ -277,22 +277,34 @@ class WTerminal {
    */
   public COR_TERMINAL_00D7FF: string = '#00D7FF';
 
-// Cor schema 8 bit @047 => #00ff5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00FF5F. 
+   */
   public COR_TERMINAL_00FF5F: string = '#00FF5F';
 
-// Cor schema 8 bit @048 => #00ff87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00FF87. 
+   */
   public COR_TERMINAL_00FF87: string = '#00FF87';
 
-// Cor schema 8 bit @049 => #00ffaf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00FFAF. 
+   */
   public COR_TERMINAL_00FFAF: string = '#00FFAF';
 
-// Cor schema 8 bit @050 => #00ffd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00FFD7. 
+   */
   public COR_TERMINAL_00FFD7: string = '#00FFD7';
 
-// Cor schema 8 bit @052 => #5f0000 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F0000. 
+   */
   public COR_TERMINAL_5F0000: string = '#5F0000';
 
-// Cor schema 8 bit @053 => #5f005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F005F. 
+   */
   public COR_TERMINAL_5F005F: string = '#5F005F';
 
 // Cor schema 8 bit @054 => #5f0087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

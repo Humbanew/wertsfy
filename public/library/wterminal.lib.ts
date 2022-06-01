@@ -57,36 +57,84 @@ class WTerminal {
    */
   public SETUP_ESCAPE_CHARACTER_RESTART_LINE: string = '\r';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 000000.
+   */
   public COR_TERMINAL_000000: string = '#000000';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 800000.
+   */
   public COR_TERMINAL_800000: string = '#800000';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 008000.
+   */
   public COR_TERMINAL_008000: string = '#008000';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 808000.
+   */
   public COR_TERMINAL_808000: string = '#808000';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 000080.
+   */
   public COR_TERMINAL_000080: string = '#000080';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 800080.
+   */
   public COR_TERMINAL_800080: string = '#800080';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 008080.
+   */
   public COR_TERMINAL_008080: string = '#008080';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 808080.
+   */
   public COR_TERMINAL_808080: string = '#808080';
 
+  /**
+   * @description Adiciona a cor do hexadecimal C0C0C0.
+   */
   public COR_TERMINAL_C0C0C0: string = '#C0C0C0';
 
+  /**
+   * @description Adiciona a cor do hexadecimal FF0000.
+   */
   public COR_TERMINAL_FF0000: string = '#FF0000';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 00FF00.
+   */
   public COR_TERMINAL_00FF00: string = '#00FF00';
 
+  /**
+   * @description Adiciona a cor do hexadecimal FFFF00.
+   *
   public COR_TERMINAL_FFFF00: string = '#FFFF00';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 0000FF.
+   */
   public COR_TERMINAL_0000FF: string = '#0000FF';
 
+  /**
+   * @description Adiciona a cor do hexadecimal FF00FF.
+   */
   public COR_TERMINAL_FF00FF: string = '#FF00FF';
 
+  /**
+   * @description Adiciona a cor do hexadecimal 00FFFF.
+   */
   public COR_TERMINAL_00FFFF: string = '#00FFFF';
 
+  /**
+   * @description Adiciona a cor do hexadecimal FFFFFF.
+   */
   public COR_TERMINAL_FFFFFF: string = '#FFFFFF';
 
 // Cor schema 8 bit @017 => #00005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

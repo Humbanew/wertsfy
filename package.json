@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
   "devDependencies": {
+    "jasmine": "^4.1.0",
     "typescript": "^4.6.2"
   },
   "dependencies": {

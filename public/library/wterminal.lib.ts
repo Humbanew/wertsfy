@@ -137,90 +137,144 @@ class WTerminal {
    */
   public COR_TERMINAL_FFFFFF: string = '#FFFFFF';
 
-// Cor schema 8 bit @017 => #00005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
-
-
+  /** 
+   * @description Adiciona a cor do hexadecimal 00005F. 
+   */
   public COR_TERMINAL_00005F: string = '#00005F';
 
-// Cor schema 8 bit @018 => #000087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 000087. 
+   */
   public COR_TERMINAL_000087: string = '#000087';
-
-// Cor schema 8 bit @019 => #0000af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  
+  /** 
+   * @description Adiciona a cor do hexadecimal 0000AF. 
+   */
   public COR_TERMINAL_0000AF: string = '#0000AF';
 
-// Cor schema 8 bit @020 => #0000d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 0000D7. 
+   */
   public COR_TERMINAL_0000D7: string = '#0000D7';
 
-// Cor schema 8 bit @022 => #005f00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005F00. 
+   */
   public COR_TERMINAL_005F00: string = '#005F00';
 
-// Cor schema 8 bit @023 => #005f5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005F5F. 
+   */
   public COR_TERMINAL_005F5F: string = '#005F5F';
 
-// Cor schema 8 bit @024 => #005f87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005F87. 
+   */
   public COR_TERMINAL_005F87: string = '#005F87';
 
-// Cor schema 8 bit @025 => #005faf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005FAF. 
+   */
   public COR_TERMINAL_005FAF: string = '#005FAF';
 
-// Cor schema 8 bit @026 => #005fd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005FD7. 
+   */
   public COR_TERMINAL_005FD7: string = '#005FD7';
 
-// Cor schema 8 bit @027 => #005fff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 005FFF. 
+   */
   public COR_TERMINAL_005FFF: string = '#005FFF';
 
-// Cor schema 8 bit @028 => #008700 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 008700. 
+   */
   public COR_TERMINAL_008700: string = '#008700';
 
-// Cor schema 8 bit @029 => #00875f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00875F. 
+   */
   public COR_TERMINAL_00875F: string = '#00875F';
 
-// Cor schema 8 bit @030 => #008787 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 008787. 
+   */
   public COR_TERMINAL_008787: string = '#008787';
 
-// Cor schema 8 bit @031 => #0087af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 0087AF. 
+   */
   public COR_TERMINAL_0087AF: string = '#0087AF';
 
-// Cor schema 8 bit @032 => #0087d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 0087D7. 
+   */
   public COR_TERMINAL_0087D7: string = '#0087D7';
 
-// Cor schema 8 bit @033 => #0087ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 0087FF. 
+   */
   public COR_TERMINAL_0087FF: string = '#0087FF';
 
-// Cor schema 8 bit @034 => #00af00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AF00. 
+   */
   public COR_TERMINAL_00AF00: string = '#00AF00';
 
-// Cor schema 8 bit @035 => #00af5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AF5F. 
+   */
   public COR_TERMINAL_00AF5F: string = '#00AF5F';
 
-// Cor schema 8 bit @036 => #00af87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AF87. 
+   */
   public COR_TERMINAL_00AF87: string = '#00AF87';
 
-// Cor schema 8 bit @037 => #00afaf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AFAF. 
+   */
   public COR_TERMINAL_00AFAF: string = '#00AFAF';
 
-// Cor schema 8 bit @038 => #00afd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AFD7. 
+   */
   public COR_TERMINAL_00AFD7: string = '#00AFD7';
 
-// Cor schema 8 bit @039 => #00afff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00AFFF. 
+   */
   public COR_TERMINAL_00AFFF: string = '#00AFFF';
 
-// Cor schema 8 bit @040 => #00d700 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D700. 
+   */
   public COR_TERMINAL_00D700: string = '#00D700';
 
-// Cor schema 8 bit @041 => #00d75f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D75F. 
+   */
   public COR_TERMINAL_00D75F: string = '#00D75F';
 
-// Cor schema 8 bit @042 => #00d787 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D787. 
+   */
   public COR_TERMINAL_00D787: string = '#00D787';
 
-// Cor schema 8 bit @043 => #00d7af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D7AF. 
+   */
   public COR_TERMINAL_00D7AF: string = '#00D7AF';
 
-// Cor schema 8 bit @044 => #00d7d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D7D7. 
+   */
   public COR_TERMINAL_00D7D7: string = '#00D7D7';
 
-// Cor schema 8 bit @045 => #00d7ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 00D7FF. 
+   */
   public COR_TERMINAL_00D7FF: string = '#00D7FF';
 
 // Cor schema 8 bit @047 => #00ff5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

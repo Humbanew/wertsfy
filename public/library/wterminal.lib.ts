@@ -307,106 +307,174 @@ class WTerminal {
    */
   public COR_TERMINAL_5F005F: string = '#5F005F';
 
-// Cor schema 8 bit @054 => #5f0087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F0087. 
+   */
   public COR_TERMINAL_5F0087: string = '#5F0087';
 
-// Cor schema 8 bit @055 => #5f00af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F00AF. 
+   */
   public COR_TERMINAL_5F00AF: string = '#5F00AF';
 
-// Cor schema 8 bit @056 => #5f00d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F00D7. 
+   */
   public COR_TERMINAL_5F00D7: string = '#5F00D7';
 
-// Cor schema 8 bit @057 => #5f00ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F00FF. 
+   */
   public COR_TERMINAL_5F00FF: string = '#5F00FF';
 
-// Cor schema 8 bit @058 => #5f5f00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5F00. 
+   */
   public COR_TERMINAL_5F5F00: string = '#5F5F00';
 
-// Cor schema 8 bit @059 => #5f5f5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5F5F. 
+   */
   public COR_TERMINAL_5F5F5F: string = '#5F5F5F';
 
-// Cor schema 8 bit @060 => #5f5f87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5F87. 
+   */
   public COR_TERMINAL_5F5F87: string = '#5F5F87';
 
-// Cor schema 8 bit @061 => #5f5faf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5FAF. 
+   */
   public COR_TERMINAL_5F5FAF: string = '#5F5FAF';
 
-// Cor schema 8 bit @062 => #5f5fd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5FD7. 
+   */
   public COR_TERMINAL_5F5FD7: string = '#5F5FD7';
 
-// Cor schema 8 bit @063 => #5f5fff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F5FFF. 
+   */
   public COR_TERMINAL_5F5FFF: string = '#5F5FFF';
 
-// Cor schema 8 bit @064 => #5f8700 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F8700. 
+   */
   public COR_TERMINAL_5F8700: string = '#5F8700';
 
-// Cor schema 8 bit @065 => #5f875f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F875F. 
+   */
   public COR_TERMINAL_5F875F: string = '#5F875F';
 
-// Cor schema 8 bit @066 => #5f8787 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F8787. 
+   */
   public COR_TERMINAL_5F8787: string = '#5F8787';
 
-// Cor schema 8 bit @067 => #5f87af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F87AF. 
+   */
   public COR_TERMINAL_5F87AF: string = '#5F87AF';
 
-// Cor schema 8 bit @068 => #5f87d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F87D7. 
+   */
   public COR_TERMINAL_5F87D7: string = '#5F87D7';
 
-// Cor schema 8 bit @069 => #5f87ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5F87FF. 
+   */
   public COR_TERMINAL_5F87FF: string = '#5F87FF';
 
-// Cor schema 8 bit @070 => #5faf00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAF00. 
+   */
   public COR_TERMINAL_5FAF00: string = '#5FAF00';
 
-// Cor schema 8 bit @071 => #5faf5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAF5F. 
+   */
   public COR_TERMINAL_5FAF5F: string = '#5FAF5F';
 
-// Cor schema 8 bit @072 => #5faf87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAF87. 
+   */
   public COR_TERMINAL_5FAF87: string = '#5FAF87';
 
-// Cor schema 8 bit @073 => #5fafaf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAFAF. 
+   */
   public COR_TERMINAL_5FAFAF: string = '#5FAFAF';
 
-// Cor schema 8 bit @074 => #5fafd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAFD7. 
+   */
   public COR_TERMINAL_5FAFD7: string = '#5FAFD7';
 
-// Cor schema 8 bit @075 => #5fafff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FAFFF. 
+   */
   public COR_TERMINAL_5FAFFF: string = '#5FAFFF';
 
-// Cor schema 8 bit @076 => #5fd700 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD700. 
+   */
   public COR_TERMINAL_5FD700: string = '#5FD700';
 
-// Cor schema 8 bit @077 => #5fd75f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD75F. 
+   */
   public COR_TERMINAL_5FD75F: string = '#5FD75F';
 
-// Cor schema 8 bit @078 => #5fd787 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD787. 
+   */
   public COR_TERMINAL_5FD787: string = '#5FD787';
 
-// Cor schema 8 bit @079 => #5fd7af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD7AF. 
+   */
   public COR_TERMINAL_5FD7AF: string = '#5FD7AF';
 
-// Cor schema 8 bit @080 => #5fd7d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD7D7. 
+   */
   public COR_TERMINAL_5FD7D7: string = '#5FD7D7';
 
-// Cor schema 8 bit @081 => #5fd7ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FD7FF. 
+   */
   public COR_TERMINAL_5FD7FF: string = '#5FD7FF';
 
-// Cor schema 8 bit @082 => #5fff00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFF00. 
+   */
   public COR_TERMINAL_5FFF00: string = '#5FFF00';
 
-// Cor schema 8 bit @083 => #5fff5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFF5F. 
+   */
   public COR_TERMINAL_5FFF5F: string = '#5FFF5F';
 
-// Cor schema 8 bit @084 => #5fff87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFF87. 
+   */
   public COR_TERMINAL_5FFF87: string = '#5FFF87';
 
-// Cor schema 8 bit @085 => #5fffaf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFFAF. 
+   */
   public COR_TERMINAL_5FFFAF: string = '#5FFFAF';
 
-// Cor schema 8 bit @086 => #5fffd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFFD7. 
+   */
   public COR_TERMINAL_5FFFD7: string = '#5FFFD7';
 
-// Cor schema 8 bit @087 => #5fffff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /** 
+   * @description Adiciona a cor do hexadecimal 5FFFFF. 
+   */
   public COR_TERMINAL_5FFFFF: string = '#5FFFFF';
 
 // Cor schema 8 bit @088 => #870000 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;

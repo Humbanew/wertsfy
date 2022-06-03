@@ -2671,47 +2671,381 @@ class WTerminal {
 
 // Cor schema 8 bit @043 => #00d7af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00d7af de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00d7af(texto: string): string {
+    return `\033[38;5;43m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00d7af.
+   */
+  public adicionaFormatacaoFundo8BitVerde00d7af(texto: string): string {
+    return `\033[48;5;43m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @044 => #00d7d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00d7d7 de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00d7d7(texto: string): string {
+    return `\033[38;5;44m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00d7d7.
+   */
+  public adicionaFormatacaoFundo8BitVerde00d7d7(texto: string): string {
+    return `\033[48;5;44m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @045 => #00d7ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
-// Cor schema 8 bit @046 => #00ff00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00d7ff de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00d7ff(texto: string): string {
+    return `\033[38;5;45m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00d7ff.
+   */
+  public adicionaFormatacaoFundo8BitVerde00d7ff(texto: string): string {
+    return `\033[48;5;45m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @047 => #00ff5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00ff5f de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00ff5f(texto: string): string {
+    return `\033[38;5;47m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00ff5f.
+   */
+  public adicionaFormatacaoFundo8BitVerde00ff5f(texto: string): string {
+    return `\033[48;5;47m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @048 => #00ff87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00ff87 de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00ff87(texto: string): string {
+    return `\033[38;5;48m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00ff87.
+   */
+  public adicionaFormatacaoFundo8BitVerde00ff87(texto: string): string {
+    return `\033[48;5;48m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @049 => #00ffaf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00ffaf de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00ffaf(texto: string): string {
+    return `\033[38;5;49m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00ffaf.
+   */
+  public adicionaFormatacaoFundo8BitVerde00ffaf(texto: string): string {
+    return `\033[48;5;49m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @050 => #00ffd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00ffd7 de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00ffd7(texto: string): string {
+    return `\033[38;5;50m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00ffd7.
+   */
+  public adicionaFormatacaoFundo8BitVerde00ffd7(texto: string): string {
+    return `\033[48;5;50m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @051 => #00ffff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 00ffff de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde00ffff(texto: string): string {
+    return `\033[38;5;51m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 00ffff.
+   */
+  public adicionaFormatacaoFundo8BitVerde00ffff(texto: string): string {
+    return `\033[48;5;51m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @052 => #5f0000 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor vermelho 5f0000 de texto.
+   */
+  public adicionaFormatacaoCor8BitVermelho5f0000(texto: string): string {
+    return `\033[38;5;52m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor vermelho 5f0000.
+   */
+  public adicionaFormatacaoFundo8BitVermelho5f0000(texto: string): string {
+    return `\033[48;5;52m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @053 => #5f005f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor roxo 5f005f de texto.
+   */
+  public adicionaFormatacaoCor8BitRoxo5f005f(texto: string): string {
+    return `\033[38;5;53m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor roxo 5f005f.
+   */
+  public adicionaFormatacaoFundo8BitRoxo5f005f(texto: string): string {
+    return `\033[48;5;53m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @054 => #5f0087 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor roxo 5f0087 de texto.
+   */
+  public adicionaFormatacaoCor8BitRoxo5f0087(texto: string): string {
+    return `\033[38;5;54m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor roxo 5f0087.
+   */
+  public adicionaFormatacaoFundo8BitRoxo5f0087(texto: string): string {
+    return `\033[48;5;54m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @055 => #5f00af <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor roxo 5f00af de texto.
+   */
+  public adicionaFormatacaoCor8BitRoxo5f00af(texto: string): string {
+    return `\033[38;5;55m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor roxo 5f00af.
+   */
+  public adicionaFormatacaoFundo8BitRoxo5f00af(texto: string): string {
+    return `\033[48;5;55m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @056 => #5f00d7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor roxo 5f00d7 de texto.
+   */
+  public adicionaFormatacaoCor8BitRoxo5f00d7(texto: string): string {
+    return `\033[38;5;56m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor roxo 5f00d7.
+   */
+  public adicionaFormatacaoFundo8BitRoxo5f00d7(texto: string): string {
+    return `\033[48;5;56m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @057 => #5f00ff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor roxo 5f00ff de texto.
+   */
+  public adicionaFormatacaoCor8BitRoxo5f00ff(texto: string): string {
+    return `\033[38;5;57m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor roxo 5f00ff.
+   */
+  public adicionaFormatacaoFundo8BitRoxo5f00ff(texto: string): string {
+    return `\033[48;5;57m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @058 => #5f5f00 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 5f5f00 de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde5f5f00(texto: string): string {
+    return `\033[38;5;58m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 5f5f00.
+   */
+  public adicionaFormatacaoFundo8BitVerde5f5f00(texto: string): string {
+    return `\033[48;5;58m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @059 => #5f5f5f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor cinza 5f5f5f de texto.
+   */
+  public adicionaFormatacaoCor8BitCinza5f5f5f(texto: string): string {
+    return `\033[38;5;59m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor cinza 5f5f5f.
+   */
+  public adicionaFormatacaoFundo8BitCinza5f5f5f(texto: string): string {
+    return `\033[48;5;59m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @060 => #5f5f87 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor cinza 5f5f87 de texto.
+   */
+  public adicionaFormatacaoCor8BitCinza5f5f87(texto: string): string {
+    return `\033[38;5;60m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor cinza 5f5f87.
+   */
+  public adicionaFormatacaoFundo8BitCinza5f5f87(texto: string): string {
+    return `\033[48;5;60m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @061 => #5f5faf <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor cinza 5f5faf de texto.
+   */
+  public adicionaFormatacaoCor8BitCinza5f5faf(texto: string): string {
+    return `\033[38;5;61m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor cinza 5f5faf.
+   */
+  public adicionaFormatacaoFundo8BitCinza5f5faf(texto: string): string {
+    return `\033[48;5;61m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @062 => #5f5fd7 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor cinza 5f5fd7 de texto.
+   */
+  public adicionaFormatacaoCor8BitCinza5f5fd7(texto: string): string {
+    return `\033[38;5;62m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor cinza 5f5fd7.
+   */
+  public adicionaFormatacaoFundo8BitCinza5f5fd7(texto: string): string {
+    return `\033[48;5;62m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @063 => #5f5fff <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor cinza 5f5fff de texto.
+   */
+  public adicionaFormatacaoCor8BitCinza5f5fff(texto: string): string {
+    return `\033[38;5;63m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor cinza 5f5fff.
+   */
+  public adicionaFormatacaoFundo8BitCinza5f5fff(texto: string): string {
+    return `\033[48;5;63m${texto}\033[0m`;
+  }
+
 // Cor schema 8 bit @064 => #5f8700 <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor verde 5f8700 de texto.
+   */
+  public adicionaFormatacaoCor8BitVerde5f8700(texto: string): string {
+    return `\033[38;5;64m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de fundo na cor verde 5f8700.
+   */
+  public adicionaFormatacaoFundo8BitVerde5f8700(texto: string): string {
+    return `\033[48;5;64m${texto}\033[0m`;
+  }
 
 // Cor schema 8 bit @065 => #5f875f <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
@@ -3096,7 +3430,41 @@ class WTerminal {
 // Cor schema 8 bit @255 => #eeeeee <=> \033[38;5;(n)m <=> \033[48;5;(n)m;
 
 
-// Cor schema 24 bit => \033[38 <=> \033[38;2;r;g;b <=> \033[48;2;r;g;b;
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @augments red quantidade de vermelho a ser usado. **[ Type: ``number`` ]**. 
+   * @todo ***[red] deve estar entre 0 e 255***.
+   * @augments green quantidade de verde a ser usado. **[ Type: ``number`` ]**. 
+   * @todo ***[green] deve estar entre 0 e 255***.
+   * @augments blue quantidade de azul a ser usado. **[ Type: ``number`` ]**. 
+   * @todo ***[blue] deve estar entre 0 e 255***.
+   * @description Adiciona formatação da cor 24 bits no texto.
+   */
+  public static adicionaFormatacaoCor24Bit(texto: string, red: number, green: number, blue: number): string {
+    if(!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
+      console.error('Os valores devem estar entre 0 e 255.');
+      return texto;
+    }
+    return `\033[38;2;${red};${green};${blue}m${texto}\033[0m`;
+  }
+
+  /**
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @augments red quantidade de vermelho a ser usado. **[ Type: ``number`` ]**.
+   * @todo ***[red] deve estar entre 0 e 255***.
+   * @augments green quantidade de verde a ser usado. **[ Type: ``number`` ]**.
+   * @todo ***[green] deve estar entre 0 e 255***.
+   * @augments blue quantidade de azul a ser usado. **[ Type: ``number`` ]**.
+   * @todo ***[blue] deve estar entre 0 e 255***.
+   * @description Adiciona formatação da cor 24 bits no fundo.
+   */
+  public static adicionaFormatacaoCor24BitFundo(texto: string, red: number, green: number, blue: number): string {
+    if(!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
+      console.error('Os valores devem estar entre 0 e 255.');
+      return texto;
+    }
+    return `\033[48;2;${red};${green};${blue}m${texto}\033[0m`;
+  }
 
 } export var wTerminal = new WTerminal();
 

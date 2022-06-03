@@ -5,13 +5,6 @@ on:
     branches: [ v1.0 ]
   pull_request:
     branches: [ v1.0 ]
-    types:
-      - opened
-      - synchronize
-      - reopened
-      - ready_for_review
-      - labeled
-      - unlabeled
 
 jobs:
   wty-workflow-base:

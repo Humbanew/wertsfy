@@ -57,6 +57,31 @@ class WTerminal {
    */
   public SETUP_ESCAPE_CHARACTER_RESTART_LINE: string = '\r';
 
+  /** 
+   * @description Caractere de escape de tab vertical. 
+   */
+  public SETUP_ESCAPE_CHARACTER_VERTICAL_TAB: string = '\v';
+
+  /**
+   * @description Caractere de escape de form feed.
+   */
+  public SETUP_ESCAPE_CHARACTER_FORM_FEED: string = '\f';
+
+  /**
+   * @description Caractere de escape nulo. 
+   */
+  public SETUP_ESCAPE_CHARACTER_NULL: string = '\0';
+
+  /** 
+   * @description Caractere de escape de single quote. 
+   */
+  public SETUP_ESCAPE_CHARACTER_SINGLE_QUOTE: string = '\'';
+
+  /**
+   * @description Caractere de escape de double quote.
+   */
+  public SETUP_ESCAPE_CHARACTER_DOUBLE_QUOTE: string = '\"';
+
   /**
    * @description Cor hexadecimal 000000.
    */

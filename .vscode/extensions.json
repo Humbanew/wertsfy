@@ -13,6 +13,8 @@
     "anweber.dot-icons",
     "njzy.stats-bar",
     "ms-azuretools.vscode-docker",
-    "naumovs.color-highlight"
+    "naumovs.color-highlight",
+    "shd101wyy.markdown-preview-enhanced",
+    "DavidAnson.vscode-markdownlint"
   ]
 }

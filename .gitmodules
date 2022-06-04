@@ -1,3 +1,6 @@
 [submodule "wiki/Wertsfy.wiki"]
-	path = wiki/Wertsfy.wiki
+	path = Wertsfy.wiki
+	url = https://github.com/Humba01/Wertsfy.wiki.git
+[submodule "Wertsfy.wiki"]
+	path = Wertsfy.wiki
 	url = https://github.com/Humba01/Wertsfy.wiki.git

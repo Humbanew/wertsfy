@@ -3,5 +3,4 @@
 class WCharacter {
 
 
-
 } export var wCharacter = new WCharacter();

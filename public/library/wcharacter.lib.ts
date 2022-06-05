@@ -642,6 +642,7 @@ class WCharacter {
    */
   public MISC_SYMB_ARROW_U2B0F: string = '\u2B0F';
 
+
   // MISC SYMBOLS AND ARROWS: U2B00 - U2BF0;
   // Supplemental Arrows-A: U27F0 - U27FF;
   // Supplemental Arrows-B: U2900 - U297F;

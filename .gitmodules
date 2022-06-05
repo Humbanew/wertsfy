@@ -4,12 +4,6 @@
 [submodule "Kambler"]
 	path = Kambler
 	url = git@github.com:Humba01/Kambler.git
-[submodule "XGoEmulator"]
-	path = XGoEmulator
-	url = https://github.com/Humba01/XGoEmulator.git
-[submodule "Avarua"]
-	path = Avarua
-	url = git@github.com:Humba01/Avarua.git
 [submodule "KartaboApplications"]
 	path = KartaboApplications
 	url = git@github.com:Humba01/KartaboApplications.git

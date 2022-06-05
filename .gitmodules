@@ -7,6 +7,3 @@
 [submodule "KartaboApplications"]
 	path = KartaboApplications
 	url = git@github.com:Humba01/KartaboApplications.git
-[submodule "AvaruaIntegration"]
-	path = AvaruaIntegration
-	url = git@github.com:Humba01/AvaruaIntegration.git

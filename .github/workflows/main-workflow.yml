@@ -2,14 +2,19 @@ name: "@workflow-main"
 
 on:
   push:
-    branches: [ v1.0 ]
+    branches: [ v1.0-Beta ]
   pull_request:
-    branches: [ v1.0 ]
+    branches: [ v1.0-Beta ]
 
 jobs:
-  wty-workflow-base:
+  wty-workflow-checkout:
     runs-on: ubuntu-latest
     steps:
       - name: Fazendo Checkout
         uses: actions/checkout@v2
-      
+
+  wty-workflow-lint:
+  
+  wty-workflow-optimize:
+
+  wty-workflow-servers:

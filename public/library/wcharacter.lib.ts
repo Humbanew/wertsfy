@@ -644,6 +644,7 @@ class WCharacter {
 
 
   // MISC SYMBOLS AND ARROWS: U2B00 - U2BF0;
+  
   // Supplemental Arrows-A: U27F0 - U27FF;
   // Supplemental Arrows-B: U2900 - U297F;
   // Supplemental Arrows-C: U1F80 - U1F8F;

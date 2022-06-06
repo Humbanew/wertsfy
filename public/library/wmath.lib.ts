@@ -491,8 +491,11 @@ class WMath {
     }
     return min;
   }
+// #ff0000 mexer aqui!!!
 
-  // #ff0000 mexer aqui!!!
+  /** @description Retorna um valor aleatório entre 0 e 1. */
+  protected random() {}
+
   /** @description Retorna o valor do logaritmo natural de um número. */
   protected ln(x: number) {}
 
@@ -515,6 +518,9 @@ class WMath {
 
   /** @description Retorna o valor do seno de um número. */
   protected sin(x: number) {}
+
+  // ((2*pi*x) / 4) / 90 = 1º Grau;
+  // variantes do valor de pi = diferentes porcentagens de imprecisão;
 
   /** @description Retorna o valor do seno de um número, porém negado. */
   protected sinNeg(x: number) {}
@@ -656,9 +662,6 @@ class WMath {
 
   /** @description Retorna o valor da arccotangente hiperbólica de um número, porém negado. */
   protected arccotanhNeg(x: number) {}
-
-  /** @description Retorna um valor aleatório */
-  protected random() {}
 
   /** @description Retorna o valor arredondado pra cima de um número. */
   protected ceil(x: number) {}

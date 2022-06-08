@@ -10,12 +10,14 @@
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
     "microsoft-isvexptools.powerplatform-vscode",
-    "anweber.dot-icons",
     "njzy.stats-bar",
     "ms-azuretools.vscode-docker",
     "naumovs.color-highlight",
     "shd101wyy.markdown-preview-enhanced",
     "davidanson.vscode-markdownlint",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "anwar.papyrus-pdf",
+    "eliverlara.sweet-vscode-icons",
+    "PKief.material-icon-theme"
   ]
 }

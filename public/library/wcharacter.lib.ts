@@ -1828,6 +1828,171 @@ class WCharacter {
    */
   public SUPPL_B_ARROW_U291F: string = '\u291F';
 
+  /**
+   * @description Retorna o caractere unicode 2920. ``⤠``
+   */
+  public SUPPL_B_ARROW_U2920: string = '\u2920';
+
+  /**
+   * @description Retorna o caractere unicode 2921. ``⤡``
+   */
+  public SUPPL_B_ARROW_U2921: string = '\u2921';
+
+  /**
+   * @description Retorna o caractere unicode 2922. ``⤢``
+   */
+  public SUPPL_B_ARROW_U2922: string = '\u2922';
+
+  /**
+   * @description Retorna o caractere unicode 2923. ``⤣``
+   */
+  public SUPPL_B_ARROW_U2923: string = '\u2923';
+
+  /**
+   * @description Retorna o caractere unicode 2924. ``⤤``
+   */
+  public SUPPL_B_ARROW_U2924: string = '\u2924';
+
+  /**
+   * @description Retorna o caractere unicode 2925. ``⤥``
+   */
+  public SUPPL_B_ARROW_U2925: string = '\u2925';
+
+  /**
+   * @description Retorna o caractere unicode 2926. ``⤦``
+   */
+  public SUPPL_B_ARROW_U2926: string = '\u2926';
+
+  /**
+   * @description Retorna o caractere unicode 2927. ``⤧``
+   */
+  public SUPPL_B_ARROW_U2927: string = '\u2927';
+
+  /**
+   * @description Retorna o caractere unicode 2928. ``⤨``
+   */
+  public SUPPL_B_ARROW_U2928: string = '\u2928';
+
+  /**
+   * @description Retorna o caractere unicode 2929. ``⤩``
+   */
+  public SUPPL_B_ARROW_U2929: string = '\u2929';
+
+  /**
+   * @description Retorna o caractere unicode 292A. ``⤪``
+   */
+  public SUPPL_B_ARROW_U292A: string = '\u292A';
+
+  /**
+   * @description Retorna o caractere unicode 292B. ``⤫``
+   */
+  public SUPPL_B_ARROW_U292B: string = '\u292B';
+
+  /**
+   * @description Retorna o caractere unicode 292C. ``⤬``
+   */
+  public SUPPL_B_ARROW_U292C: string = '\u292C';
+
+  /**
+   * @description Retorna o caractere unicode 292D. ``⤭``
+   */
+  public SUPPL_B_ARROW_U292D: string = '\u292D';
+
+  /**
+   * @description Retorna o caractere unicode 292E. ``⤮``
+   */
+  public SUPPL_B_ARROW_U292E: string = '\u292E';
+
+  /**
+   * @description Retorna o caractere unicode 292F. ``⤯``
+   */
+  public SUPPL_B_ARROW_U292F: string = '\u292F';
+
+  /**
+   * @description Retorna o caractere unicode 2930. ``⤰``
+   */
+  public SUPPL_B_ARROW_U2930: string = '\u2930';
+
+  /**
+   * @description Retorna o caractere unicode 2931. ``⤱``
+   */
+  public SUPPL_B_ARROW_U2931: string = '\u2931';
+
+  /**
+   * @description Retorna o caractere unicode 2932. ``⤲``
+   */
+  public SUPPL_B_ARROW_U2932: string = '\u2932';
+
+  /**
+   * @description Retorna o caractere unicode 2933. ``⤳``
+   */
+  public SUPPL_B_ARROW_U2933: string = '\u2933';
+
+  /**
+   * @description Retorna o caractere unicode 2934. ``⤴``
+   */
+  public SUPPL_B_ARROW_U2934: string = '\u2934';
+
+  /**
+   * @description Retorna o caractere unicode 2935. ``⤵``
+   */
+  public SUPPL_B_ARROW_U2935: string = '\u2935';
+
+  /**
+   * @description Retorna o caractere unicode 2936. ``⤶``
+   */
+  public SUPPL_B_ARROW_U2936: string = '\u2936';
+
+  /**
+   * @description Retorna o caractere unicode 2937. ``⤷``
+   */
+  public SUPPL_B_ARROW_U2937: string = '\u2937';
+
+  /**
+   * @description Retorna o caractere unicode 2938. ``⤸``
+   */
+  public SUPPL_B_ARROW_U2938: string = '\u2938';
+
+  /**
+   * @description Retorna o caractere unicode 2939. ``⤹``
+   */
+  public SUPPL_B_ARROW_U2939: string = '\u2939';
+
+  /**
+   * @description Retorna o caractere unicode 293A. ``⤺``
+   */
+  public SUPPL_B_ARROW_U293A: string = '\u293A';
+
+  /**
+   * @description Retorna o caractere unicode 293B. ``⤻``
+   */
+  public SUPPL_B_ARROW_U293B: string = '\u293B';
+
+  /**
+   * @description Retorna o caractere unicode 293C. ``⤼``
+   */
+  public SUPPL_B_ARROW_U293C: string = '\u293C';
+
+  /**
+   * @description Retorna o caractere unicode 293D. ``⤽``
+   */
+  public SUPPL_B_ARROW_U293D: string = '\u293D';
+
+  /**
+   * @description Retorna o caractere unicode 293E. ``⤾``
+   */
+  public SUPPL_B_ARROW_U293E: string = '\u293E';
+
+  /**
+   * @description Retorna o caractere unicode 293F. ``⤿``
+   */
+  public SUPPL_B_ARROW_U293F: string = '\u293F';
+
+  /**
+   * @description Retorna o caractere unicode 2940. ``⥀``
+   */
+  public SUPPL_B_ARROW_U2940: string = '\u2940';
+
   // Supplemental Arrows-C: U1F800 - U1F8FF;
   // Mathematical Unicodes;
     // Base: U2200 - U22FF;

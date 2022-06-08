@@ -1,0 +1,67 @@
+// Configuração babel
+// {
+//   "presets": [
+//     "@babel/preset-env",
+//     "@babel/preset-react"
+//   ],
+//   "plugins": [
+//     "@babel/plugin-proposal-class-properties",
+//     "@babel/plugin-proposal-object-rest-spread"
+//   ]
+// }
+//
+// Compare this snippet from package.json:
+// // Configuração package
+// // {
+// //   "name": "babel-config",
+// //   "version": "1.0.0",
+// //   "description": "",
+// //   "main": "index.js",
+// //   "scripts": {
+// //     "test": "echo \"Error: no test specified\" && exit 1"
+// //   },
+// //   "author": "",
+// //   "license": "ISC",
+// //   "devDependencies": {
+// //     "babel-cli": "^6.26.0",
+// //     "babel-preset-env": "^1.7.0",
+// //     "babel-preset-react": "^6.24.1"
+// //   }
+// // }
+//
+// Compare this snippet from tsconfig.json:
+// // Configuração tsconfig
+// // {
+// //   "compilerOptions": {
+// //     "target": "es5",
+// //     "module": "commonjs",
+// //     "moduleResolution": "node",
+// //     "sourceMap": true,
+// //     "declaration": true,
+// //     "emitDecoratorMetadata": true,
+// //     "experimentalDecorators": true,
+// //     "removeComments": false,
+// //     "noImplicitAny": false,
+// //     "lib": [
+// //       "es2015",
+// //       "dom" 
+// //     ],
+// //     "outDir": "./dist",
+// //     "rootDir": "./src",
+// //     "baseUrl": "./src",
+// //     "paths": {
+// //       "*": [
+// //         "*",
+// //         "./node_modules/*"
+// //       ]
+// //     }
+// //   },
+// //   "exclude": [
+// //     "node_modules",
+// //     "typings"
+// //   ],
+// //   "include": [
+// //     "src"
+// //   ]
+// // }
+//

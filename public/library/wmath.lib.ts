@@ -491,11 +491,28 @@ class WMath {
     }
     return min;
   }
-// #ff0000 mexer aqui!!!
-
-  /** @description Retorna um valor aleatório entre 0 e 1. */
+// #ff0000 resolver aqui!!!
+  /** 
+   * @description Retorna um valor aleatório entre 0 e 1. 
+   */
   protected random() {}
 
+  /** 
+   * @description Retorna o valor arredondado pra cima de um número. 
+   */
+  protected ceil(x: number) { }
+
+  /** 
+   * @description Retorna o valor arredondado pra baixo de um número. 
+   */
+  protected floor(x: number) { }
+
+  /** 
+   * @description Retorna o valor arredondado de um número. 
+   */
+  protected round(x: number) { }
+
+// #ff3300 arrumar aqui!!!
   /** @description Retorna o valor do logaritmo natural de um número. */
   protected ln(x: number) {}
 
@@ -662,15 +679,6 @@ class WMath {
 
   /** @description Retorna o valor da arccotangente hiperbólica de um número, porém negado. */
   protected arccotanhNeg(x: number) {}
-
-  /** @description Retorna o valor arredondado pra cima de um número. */
-  protected ceil(x: number) {}
-
-  /** @description Retorna o valor arredondado pra baixo de um número. */
-  protected floor(x: number) {}
-
-  /** @description Retorna o valor arredondado de um número. */
-  protected round(x: number) {}
 
 }
 

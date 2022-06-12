@@ -1,3 +1,3 @@
 # WertsfyAPI
 
-![Wertsfy Logo Gen2](https://user-images.githubusercontent.com/59739253/159108368-cf6301e0-7d74-47fe-84b6-63c2de236260.png)
+![Wertsfy-Logo-Final](https://user-images.githubusercontent.com/59739253/173217877-ddac3231-90f4-4502-8300-9e5134e1bff1.png)

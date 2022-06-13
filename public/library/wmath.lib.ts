@@ -491,28 +491,88 @@ class WMath {
     }
     return min;
   }
-// #ff0000 resolver aqui!!!
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor arredondado pra baixo de um número. 
+   */
+  public round(x: number): number {
+    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+    const resultado = verificador.exec(x.toString());
+    return parseInt(resultado[0]);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor arredondado pra cima de um número. 
+   */
+  public fround(x: number): number {
+    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+    const resultado = verificador.exec(x.toString());
+    if (parseFloat(resultado[1]) >= 0.5) {
+      return parseInt(resultado[0] + 1);
+    }
+    return parseInt(resultado[0]);
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna um símbolo dizendo o sinal do número.
+   */
+  public sign(x: number): number {
+    if (x > 0) {
+      return 1;
+    }
+    if (x < 0) {
+      return -1;
+    }
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor sem partes de pronto flutuante de um número.
+   */
+  public trunc(x: number): number {
+    return parseInt(x.toString());
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor de uma multiplicação de inteiro de 32-bit.
+   */
+  public imul(x: number, y: number): number {
+    return x * y;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o menor inteiro que é menor ou igual a um número.
+   */
+  public ceil(x: number): number {
+    if (x < x + 0.5) {
+      return parseInt(x.toString());
+    }
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o maior inteiro que é maior ou igual a um número.
+   */
+  public floor(x: number): number {
+    if (x > x + 0.5) {
+      return parseInt(x.toString());
+    }
+  }
+
+// #005500 resolver aqui!!!
+
   /** 
    * @description Retorna um valor aleatório entre 0 e 1. 
    */
   protected random() {}
 
-  /** 
-   * @description Retorna o valor arredondado pra cima de um número. 
-   */
-  protected ceil(x: number) { }
+// #2255ff arrumar aqui!!!
 
-  /** 
-   * @description Retorna o valor arredondado pra baixo de um número. 
-   */
-  protected floor(x: number) { }
-
-  /** 
-   * @description Retorna o valor arredondado de um número. 
-   */
-  protected round(x: number) { }
-
-// #ff3300 arrumar aqui!!!
   /** @description Retorna o valor do logaritmo natural de um número. */
   protected ln(x: number) {}
 

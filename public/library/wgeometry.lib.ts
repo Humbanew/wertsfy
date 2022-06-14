@@ -1,38 +1,38 @@
-function Cube<Geometry>(object: Geometry): Geometry { return object; };
+function Cube<Format>(object: Format): Format { return object; }
 
-function Sphere<Geometry>(object: Geometry): Geometry { return object; }
+function Sphere<Format>(object: Format): Format { return object; }
 
-function Cylinder<Geometry>(object: Geometry): Geometry { return object; }
+function Cylinder<Format>(object: Format): Format { return object; }
 
-function Cone<Geometry>(object: Geometry): Geometry { return object; }
+function Cone<Format>(object: Format): Format { return object; }
 
-function Torus<Geometry>(object: Geometry): Geometry { return object; }
+function Torus<Format>(object: Format): Format { return object; }
 
-function TorusKnot<Geometry>(object: Geometry): Geometry { return object; }
+function TorusKnot<Format>(object: Format): Format { return object; }
 
-function Plane<Geometry>(object: Geometry): Geometry { return object; }
+function Plane<Format>(object: Format): Format { return object; }
 
-function Ring<Geometry>(object: Geometry): Geometry { return object; }
+function Ring<Format>(object: Format): Format { return object; }
 
-function Tube<Geometry>(object: Geometry): Geometry { return object; }
+function Tube<Format>(object: Format): Format { return object; }
 
-function Lathe<Geometry>(object: Geometry): Geometry { return object; }
+function Lathe<Format>(object: Format): Format { return object; }
 
-function Extrude<Geometry>(object: Geometry): Geometry { return object; }
+function Extrude<Format>(object: Format): Format { return object; }
 
-function Shape<Geometry>(object: Geometry): Geometry { return object; }
+function Shape<Format>(object: Format): Format { return object; }
 
-function ExtrudeGeometry<Geometry>(object: Geometry): Geometry { return object; }
+function ExtrudeFormat<Format>(object: Format): Format { return object; }
 
-function ShapeGeometry<Geometry>(object: Geometry): Geometry { return object; }
+function ShapeFormat<Format>(object: Format): Format { return object; }
 
-function ShapePath<Geometry>(object: Geometry): Geometry { return object; }
+function ShapePath<Format>(object: Format): Format { return object; }
 
-function Path<Geometry>(object: Geometry): Geometry { return object; }
+function Path<Format>(object: Format): Format { return object; }
 
-function Font<Geometry>(object: Geometry): Geometry { return object; }
+function Font<Format>(object: Format): Format { return object; }
 
-function TextModel<Geometry>(object: Geometry): Geometry { return object; }
+function TextModel<Format>(object: Format): Format { return object; }
 
-function TextPath<Geometry>(object: Geometry): Geometry { return object; }
+function TextPath<Format>(object: Format): Format { return object; }
 

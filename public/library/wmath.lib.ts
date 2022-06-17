@@ -703,6 +703,7 @@ class WMath {
 
     // Constantes que serão usadas aqui.
     this.callStack;
+    
     this.n;
 
   }

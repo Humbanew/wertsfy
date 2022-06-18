@@ -1667,7 +1667,7 @@ class WCharacter {
    */
   public SUPPL_A_ARROW_U27FF: string = '\u27FF';
 
-  // Supplemental Arrows-B: U2900 - U297F;
+// Supplemental Arrows-B: U2900 - U297F;
   /**
    * @description Retorna o caractere unicode 2900. ``⤀``
    */

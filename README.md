@@ -1,3 +1,3 @@
-# WertsfyAPI
+# Wertsfy (Application Programming Interface)
 
-![Wertsfy-Logo-Final](https://user-images.githubusercontent.com/59739253/173217877-ddac3231-90f4-4502-8300-9e5134e1bff1.png)
+![Wertsfy-New-Logo](https://user-images.githubusercontent.com/59739253/176809652-3cee6edb-27a3-479e-bb86-1ee1de9b8f6e.png)

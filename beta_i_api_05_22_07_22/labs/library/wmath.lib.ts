@@ -1,7 +1,25 @@
-class wMath {
+class WMath {
 
-  // protected prop = class Propriedades { };
+  /**
+   * @description Instancia a pilha de chamada de funções.
+   */
+  private static callStack: number = 0;
 
+  /**
+   * @description Cria o modelo de análise de verificação de números.
+   */
+  private static n: number = 1;
+
+  /**
+   * @description Gera a instancia de pilha de chamada de funções.
+   */
+  private get callStack(): number { return this.callStack; }
+
+  /** 
+   * @description Gera a criação do modelo de análise de verificação de números.
+   */
+  private get n(): number { return this.n; }
+  
   /** 
    * @description Constante de Arquimedes ou número de Ludoph. 
    */
@@ -160,42 +178,42 @@ class wMath {
   /**
    * @description Maior valor numérico em notação científica possível [base 2].
    */
-  public MAX_VALUE_SB2: number = 2 ** 1000000000000000;
+  public MAX_VALUE_SB2: number = 2**1000000000000000;
 
   /**
    * @description Maior valor numérico em notação científica possível [base 3].
    */
-  public MAX_VALUE_SB3: number = 3 ** 1000000000000000;
+  public MAX_VALUE_SB3: number = 3**1000000000000000;
 
   /**
    * @description Maior valor numérico em notação científica possível [base 4].
    */
-  public MAX_VALUE_SB4: number = 4 ** 1000000000000000;
+  public MAX_VALUE_SB4: number = 4**1000000000000000;
 
   /**
    * @description Maior valor numérico em notação científica possível [base 5].
    */
-  public MAX_VALUE_SB5: number = 5 ** 1000000000000000;
+  public MAX_VALUE_SB5: number = 5**1000000000000000;
 
   /**
    * @description Maior valor númerico em notação científica possível [base 6].
    */
-  public MAX_VALUE_SB6: number = 6 ** 1000000000000000;
+  public MAX_VALUE_SB6: number = 6**1000000000000000;
 
   /**
    * @description Maior valor númerico em notação científica possível [base 7].
    */
-  public MAX_VALUE_SB7: number = 7 ** 1000000000000000;
+  public MAX_VALUE_SB7: number = 7**1000000000000000;
 
   /**
    * @description Maior valor númerico em notação científica possível [base 8].
    */
-  public MAX_VALUE_SB8: number = 8 ** 1000000000000000;
+  public MAX_VALUE_SB8: number = 8**1000000000000000;
 
   /**
    * @description Maior valor númerico em notação científica possível [base 9].
    */
-  public MAX_VALUE_SB9: number = 9 ** 1000000000000000;
+  public MAX_VALUE_SB9: number = 9**1000000000000000;
 
   /**
    * @description Menor valor númerico preciso possível.
@@ -205,49 +223,49 @@ class wMath {
   /**
    * @description Menor valor númerico em notação científica possível [base 2].
    */
-  public MIN_VALUE_SB2: number = 2 ** -1000000000000000;
-
+  public MIN_VALUE_SB2: number = 2**-1000000000000000;
+  
   /**
    * @description Menor valor númerico em notação científica possível [base 3].
    */
-  public MIN_VALUE_SB3: number = 3 ** -1000000000000000;
+  public MIN_VALUE_SB3: number = 3**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 4].
    */
-  public MIN_VALUE_SB4: number = 4 ** -1000000000000000;
+  public MIN_VALUE_SB4: number = 4**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 5].
    */
-  public MIN_VALUE_SB5: number = 5 ** -1000000000000000;
+  public MIN_VALUE_SB5: number = 5**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 6].
    */
-  public MIN_VALUE_SB6: number = 6 ** -1000000000000000;
+  public MIN_VALUE_SB6: number = 6**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 7].
    */
-  public MIN_VALUE_SB7: number = 7 ** -1000000000000000;
+  public MIN_VALUE_SB7: number = 7**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 8].
    */
-  public MIN_VALUE_SB8: number = 8 ** -1000000000000000;
+  public MIN_VALUE_SB8: number = 8**-1000000000000000;
 
   /**
    * @description Menor valor númerico em notação científica possível [base 9].
    */
-  public MIN_VALUE_SB9: number = 9 ** -1000000000000000;
+  public MIN_VALUE_SB9: number = 9**-1000000000000000;
 
   /**
- *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
- *  @description Retorna o valor absoluto de um número. 
- */
-  public abs(x: number): number {
-    return x < 0 ? -1 * x : x;
+   *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   *  @description Retorna o valor absoluto de um número. 
+   */
+  public abs(x: number): number { 
+    return x < 0 ? -1 * x : x; 
   }
 
   /** 
@@ -263,7 +281,7 @@ class wMath {
    * @description Retorna o valor da raiz quadrada de um número. 
    */
   public sqrt(x: number): number {
-    return x ** (1 / 2);
+    return x ** (1/2);
   }
 
   /** 
@@ -271,15 +289,15 @@ class wMath {
    * @description Retorna o valor da raiz quadrada de um número, porém negado. 
    */
   public sqrtNeg(x: number): number {
-    return -1 * (x ** (1 / 2));
+    return -1 * (x ** (1/2));
   }
-
+ 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description Retorna o valor da raiz cúbica de um número.
    */
   public cbrt(x: number): number {
-    return x ** (1 / 3);
+    return x ** (1/3);
   }
 
   /** 
@@ -287,7 +305,7 @@ class wMath {
    * @description Retorna o valor da raiz cúbica de um número, porém negado. 
    */
   public cbrtNeg(x: number): number {
-    return -1 * (x ** (1 / 3));
+    return -1 * (x ** (1/3));
   }
 
   /** 
@@ -295,7 +313,7 @@ class wMath {
    * @description Retorna o valor da raiz à quarta potência de um número. 
    */
   public quart(x: number): number {
-    return x ** (1 / 4);
+    return x ** (1/4);
   }
 
   /** 
@@ -303,7 +321,7 @@ class wMath {
    * @description Retorna o valor da raiz à quarta potência de um número, porém negado. 
    */
   public quartNeg(x: number): number {
-    return -1 * (x ** (1 / 4));
+    return -1 * (x ** (1/4));
   }
 
   /**
@@ -311,7 +329,7 @@ class wMath {
    * @description Retorna o valor da raiz à quinta potência de um número. 
    */
   public quint(x: number): number {
-    return x ** (1 / 5);
+    return x ** (1/5);
   }
 
   /** 
@@ -319,7 +337,7 @@ class wMath {
    * @description Retorna o valor da raiz à quinta potência de um número, porém negado. 
    */
   public quintNeg(x: number): number {
-    return -1 * (x ** (1 / 5));
+    return -1 * (x ** (1/5));
   }
 
   /** 
@@ -327,7 +345,7 @@ class wMath {
    * @description Retorna o valor da raiz à sexta potência de um número. 
    */
   public sext(x: number): number {
-    return x ** (1 / 6);
+    return x ** (1/6);
   }
 
   /** 
@@ -335,7 +353,7 @@ class wMath {
    * @description Retorna o valor da raiz à sexta potência de um número, porém negado. 
    */
   public sextNeg(x: number): number {
-    return -1 * (x ** (1 / 6));
+    return -1 * (x ** (1/6));
   }
 
   /** 
@@ -343,7 +361,7 @@ class wMath {
    * @description Retorna o valor da raiz à sétima potência de um número. 
    */
   public sept(x: number): number {
-    return x ** (1 / 7);
+    return x ** (1/7);
   }
 
   /** 
@@ -351,7 +369,7 @@ class wMath {
    * @description Retorna o valor da raiz à sétima potência de um número, porém negado. 
    */
   public septNeg(x: number): number {
-    return -1 * (x ** (1 / 7));
+    return -1 * (x ** (1/7));
   }
 
   /** 
@@ -359,7 +377,7 @@ class wMath {
    * @description Retorna o valor da raiz à oitava potência de um número. 
    */
   public oct(x: number): number {
-    return x ** (1 / 8);
+    return x ** (1/8);
   }
 
   /** 
@@ -367,7 +385,7 @@ class wMath {
    * @description Retorna o valor da raiz à oitava potência de um número, porém negado. 
    */
   public octNeg(x: number): number {
-    return -1 * (x ** (1 / 8));
+    return -1 * (x ** (1/8));
   }
 
   /** 
@@ -375,7 +393,7 @@ class wMath {
    * @description Retorna o valor da raiz à nona potência de um número. 
    */
   public non(x: number): number {
-    return x ** (1 / 9);
+    return x ** (1/9);
   }
 
   /** 
@@ -383,7 +401,7 @@ class wMath {
    * @description Retorna o valor da raiz à nona potência de um número, porém negado. 
    */
   public nonNeg(x: number): number {
-    return -1 * (x ** (1 / 9));
+    return -1 * (x ** (1/9));
   }
 
   /** 
@@ -391,7 +409,7 @@ class wMath {
    * @description Retorna o valor da raiz à décima potência de um número. 
    */
   public dec(x: number): number {
-    return x ** (1 / 10);
+    return x ** (1/10);
   }
 
   /** 
@@ -399,7 +417,7 @@ class wMath {
    * @description Retorna o valor da raiz à décima potência de um número, porém negado. 
    */
   public decNeg(x: number): number {
-    return -1 * (x ** (1 / 10));
+    return -1 * (x ** (1/10));
   }
 
   /** 
@@ -566,8 +584,8 @@ class wMath {
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description Retorna o valor da potência de potência um número. 
    */
-  public powOfPow(x: number, y: number, z?: number[]): number {
-    let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+  public powOfPow(x: number, y: number, z?:number[]): number {
+    let l = 0; for(let i = 0; i < z.length; i++) { l += z[i]; }
     return x ** (y ** l);
   }
 
@@ -575,8 +593,8 @@ class wMath {
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description Retorna o valor da potência de potência um número, porém negada. 
    */
-  public powOfPowNeg(x: number, y: number, z?: number[]): number {
-    let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+  public powOfPowNeg(x: number, y: number, z?:number[]): number {
+    let l = 0; for(let i = 0; i < z.length; i++) { l += z[i]; }
     return -1 * (x ** (y ** l));
   }
 
@@ -586,8 +604,8 @@ class wMath {
    */
   public max(x: number[]): number {
     let max = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] > max) { max = x[i]; }
+    for(let i = 1; i < x.length; i++) {
+      if(x[i] > max) { max = x[i]; }
     }
     return max;
   }
@@ -598,8 +616,8 @@ class wMath {
    */
   public min(x: number[]): number {
     let min = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] < min) { min = x[i]; }
+    for(let i = 1; i < x.length; i++) {
+      if(x[i] < min) { min = x[i]; }
     }
     return min;
   }
@@ -676,121 +694,116 @@ class wMath {
     }
   }
 
+// #005500 resolver aqui!!!
+
   /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do seno de um número. 
+   * @description Retorna um valor aleatório entre 0 e 1. 
    */
-  public sin(x: number) {
-    const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
-    return resultado;
+  protected random() {
+
+    // Constantes que serão usadas aqui.
+    this.callStack;
+    
+    this.n;
+
   }
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do cosseno de um número.
-   */
-  protected cos(x: number) {
-    const resultado: number = (-1 * (((2 * WMath.PI * 1) / 4) / 90)) * x;
-    return resultado;
-  }
+// #2255ff arrumar aqui!!!
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da tangente de um número.
-   */
-  protected tan(x: number) {
-    const resultado: number = WMath.sin(x) / WMath.cos(x);
-    return resultado;
-  }
+  /** @description Retorna o valor do logaritmo natural de um número. */
+  protected ln(x: number) {}
+    // const. euler**<exponente> => começando de 0.1
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da secante de um número.
-   */
-  protected sec(x: number) {
-    const resultado: number = 1 / WMath.cos(x);
-    return resultado;
-  }
+  /** @description Retorna o valor do logaritmo de base 2 de um número. */
+  protected log2(x: number) {}
+    //? log de 5 na base 2
+    // 2**2=4
+    // 2**2.1=4.2870938501451726569
+    // 2**2.2=4.5947934199881400272
+    // 2**2.3=4.924577653379665138
+    // 2**2.31=4.9588307997559462464
+    // 2**2.32=4.9933221956064476944
+      // 2**2.321=4.9967845026135068021
+      // 2**2.322=5.0002492103408362096 (valor encontrado) [precisão de 3 casas decimais]
+    // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cosecante de um número.
-   */
-  protected cosec(x: number) {
-    const resultado: number = 1 / WMath.sin(x);
-    return resultado;
-  }
+  /** @description Retorna o valor do logaritmo de base 10 de um número. */
+  protected log10(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cotangente de um número.
-   */
-  protected cotan(x: number) {
-    const resultado: number = 1 / (WMath.cos(x) / WMath.sin(x));
-    return resultado;
-  }
-  
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do seno hiperbólico de um número.
-   */
-  protected sinh(x: number) {
-    const resultado: number = 1 / (((2 * WMath.PI * 1) / 4) / 90) * x;
-    return resultado;
-  }
+  /** @description Retorna o valor do seno de um número. */
+  protected sin(x: number) {}
+    // ((2*pi*x) / 4) / 90 = 1º Grau;
+    // variantes do valor de pi = diferentes porcentagens de imprecisão;
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do cosseno hiperbólico de um número.
-   */
-  protected cosh(x: number) {
-    const resultado: number = 1 / (-1 * ((2 * WMath.PI * 1) / 4) / 90) * x;
-    return resultado;
-  }
+  /** @description Retorna o valor do cosseno de um número. */
+  protected cos(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da tangente hiperbólica de um número.
-   */
-  protected tanh(x: number) {
-    const resultado: number = 1 / (WMath.sin(x) / WMath.cos(x));
-    return resultado;
-  }
+  /** @description Retorna o valor da tangente de um número. */
+  protected tan(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da secante hiperbólica de um número.
-   */
-  protected sech(x: number) {
-    const resultado: number = 1 / WMath.cosh(x);
-    return resultado;
-  }
+  /** @description Retorna o valor da secante de um número. */
+  protected sec(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cosecante hiperbólica de um número.
-   */
-  protected cosech(x: number) {
-    const resultado: number = 1 / WMath.sinh(x);
-    return resultado;
-  }
+  /** @description Retorna o valor da cosecante de um número. */
+  protected cossec(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cotangente hiperbólica de um número.
-   */
-  protected cotanh(x: number) {
-    const resultado: number = 1 / (WMath.cosh(x) / WMath.sinh(x));
-    return resultado;
-  }
+  /** @description Retorna o valor da cotangente de um número. */
+  protected cotan(x: number) {}
 
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco seno de um número.
-   */
-  protected arcsin(x: number) {
-    const resultado: number = (((2 * WMath.PI * 1) / 4) * 90) * x;
-    return resultado;
-  }
+  /** @description Retorna o valor da arcoseno de um número. */
+  protected arcsin(x: number) {}
 
-} var WMath = new wMath();
+  /** @description Retorna o valor da arccosseno de um número. */
+  protected arccos(x: number) {}
+
+  /** @description Retorna o valor da arctangente de um número. */
+  protected arctan(x: number) {}
+
+  /** @description Retorna o valor da arcsecante de um número. */
+  protected arcsec(x: number) {}
+
+  /** @description Retorna o valor da arccosecante de um número. */
+  protected arccossec(x: number) {}
+
+  /** @description Retorna o valor da arccotangente de um número. */
+  protected arccotan(x: number) {}
+
+  /** @description Retorna o valor do seno hiperbólico de um número. */
+  protected sinh(x: number) {}
+
+  /** @description Retorna o valor do cosseno hiperbólico de um número. */
+  protected cosh(x: number) {}
+
+  /** @description Retorna o valor da tangente hiperbólica de um número. */
+  protected tanh(x: number) {}
+
+  /** @description Retorna o valor da secante hiperbólica de um número. */
+  protected sech(x: number) {}
+
+  /** @description Retorna o valor da cosecante hiperbólica de um número. */
+  protected cossech(x: number) {}
+
+  /** @description Retorna o valor da cotangente hiperbólica de um número. */
+  protected cotanh(x: number) {}
+
+  /** @description Retorna o valor da arcoseno hiperbólico de um número. */
+  protected arcsinh(x: number) {}
+
+  /** @description Retorna o valor da arccosseno hiperbólico de um número. */
+  protected arccosh(x: number) {}
+
+  /** @description Retorna o valor da arctangente hiperbólica de um número. */
+  protected arctanh(x: number) {}
+
+  /** @description Retorna o valor da arcsecante hiperbólica de um número. */
+  protected arcsech(x: number) {}
+
+  /** @description Retorna o valor da arccosecante hiperbólica de um número. */
+  protected arccossech(x: number) {}
+
+  /** @description Retorna o valor da arccotangente hiperbólica de um número. */
+  protected arccotanh(x: number) {}
+
+}
+
+export var wMath = new WMath();

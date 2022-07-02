@@ -1,4 +1,4 @@
-class WTerminal {
+class WTerminal { 
 
   /** 
    * @description Símbolo de entrada de dados para o terminal. 
@@ -169,7 +169,7 @@ class WTerminal {
    * @description Cor hexadecimal 000087. 
    */
   public COR_TERMINAL_000087: string = '#000087';
-
+  
   /** 
    * @description Cor hexadecimal 0000AF. 
    */
@@ -1322,7 +1322,7 @@ class WTerminal {
   public adicionaFormatacaoNegrito(texto: string): string {
     return `\033[1m${texto}\033[0m`;
   }
-
+  
   /** 
    * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
    * @description Adiciona formatação em faint no texto. 
@@ -5926,8 +5926,8 @@ class WTerminal {
    * @todo ***[blue] deve estar entre 0 e 255***.
    * @description Adiciona formatação da cor 24 bits no texto.
    */
-  public adicionaFormatacaoCor24Bit(texto: string, red: number, green: number, blue: number): string {
-    if (!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
+  public static adicionaFormatacaoCor24Bit(texto: string, red: number, green: number, blue: number): string {
+    if(!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
       console.error('Os valores devem estar entre 0 e 255.');
       return texto;
     }
@@ -5944,8 +5944,8 @@ class WTerminal {
    * @todo ***[blue] deve estar entre 0 e 255***.
    * @description Adiciona formatação da cor 24 bits no fundo.
    */
-  public adicionaFormatacaoCor24BitFundo(texto: string, red: number, green: number, blue: number): string {
-    if (!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
+  public static adicionaFormatacaoCor24BitFundo(texto: string, red: number, green: number, blue: number): string {
+    if(!(red < 0 || red > 255) || !(green < 0 || green > 255) || !(blue < 0 || blue > 255)) {
       console.error('Os valores devem estar entre 0 e 255.');
       return texto;
     }

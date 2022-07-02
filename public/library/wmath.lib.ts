@@ -789,7 +789,7 @@ class wMath {
    * @description Retorna o valor do arco seno de um número.
    */
   protected arcsin(x: number) {
-    const resultado: number = (((2 * WMath.PI * 1) / 4) * 90) * x;
+    const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 

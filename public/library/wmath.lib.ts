@@ -973,6 +973,10 @@ class wMath {
     return resultado;
   }
 
+  // templates
+  // // log2(x), log3(x), log4(x), log5(x), log6(x), log7(x), log8(x), log9(x), log(x), logw(x)
+  // // ln2(x), ln3(x), ln4(x), ln5(x), ln6(x), ln7(x), ln8(x), ln9(x), ln(x), lnw(x) 
+
   /** @description Retorna o valor do logaritmo de base 2 de um número. */
   // //? log de 5 na base 2
   // // 2**2=4

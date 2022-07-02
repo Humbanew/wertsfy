@@ -1,6 +1,15 @@
 class wMath {
 
-  // protected prop = class Propriedades { };
+  protected prop = [
+
+    {   
+      regexps: {
+        trigonometricos: /(\.)/gi,
+        arcTrigonometricos: /(\.)?/gi
+      }
+    }
+
+  ];
 
   /** 
    * @description Constante de Arquimedes ou número de Ludoph. 
@@ -681,6 +690,9 @@ class wMath {
    * @description Retorna o valor do seno de um número. 
    */
   public sin(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if(scan == true) { return NaN; } 
+    
     const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
     return resultado;
   }
@@ -690,6 +702,9 @@ class wMath {
    * @description Retorna o valor do cosseno de um número.
    */
   protected cos(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = (-1 * (((2 * WMath.PI * 1) / 4) / 90)) * x;
     return resultado;
   }
@@ -699,6 +714,9 @@ class wMath {
    * @description Retorna o valor da tangente de um número.
    */
   protected tan(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+    
     const resultado: number = WMath.sin(x) / WMath.cos(x);
     return resultado;
   }
@@ -708,6 +726,9 @@ class wMath {
    * @description Retorna o valor da secante de um número.
    */
   protected sec(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / WMath.cos(x);
     return resultado;
   }
@@ -717,6 +738,9 @@ class wMath {
    * @description Retorna o valor da cosecante de um número.
    */
   protected cosec(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / WMath.sin(x);
     return resultado;
   }
@@ -726,6 +750,9 @@ class wMath {
    * @description Retorna o valor da cotangente de um número.
    */
   protected cotan(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / (WMath.cos(x) / WMath.sin(x));
     return resultado;
   }
@@ -735,6 +762,9 @@ class wMath {
    * @description Retorna o valor do seno hiperbólico de um número.
    */
   protected sinh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / (((2 * WMath.PI * 1) / 4) / 90) * x;
     return resultado;
   }
@@ -744,6 +774,9 @@ class wMath {
    * @description Retorna o valor do cosseno hiperbólico de um número.
    */
   protected cosh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / (-1 * ((2 * WMath.PI * 1) / 4) / 90) * x;
     return resultado;
   }
@@ -753,6 +786,9 @@ class wMath {
    * @description Retorna o valor da tangente hiperbólica de um número.
    */
   protected tanh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / (WMath.sin(x) / WMath.cos(x));
     return resultado;
   }
@@ -762,6 +798,9 @@ class wMath {
    * @description Retorna o valor da secante hiperbólica de um número.
    */
   protected sech(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / WMath.cosh(x);
     return resultado;
   }
@@ -771,6 +810,9 @@ class wMath {
    * @description Retorna o valor da cosecante hiperbólica de um número.
    */
   protected cosech(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / WMath.sinh(x);
     return resultado;
   }
@@ -780,6 +822,9 @@ class wMath {
    * @description Retorna o valor da cotangente hiperbólica de um número.
    */
   protected cotanh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = 1 / (WMath.cosh(x) / WMath.sinh(x));
     return resultado;
   }
@@ -789,8 +834,157 @@ class wMath {
    * @description Retorna o valor do arco seno de um número.
    */
   protected arcsin(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
     const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
     return resultado;
   }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cosseno de um número.
+   */
+  protected arccos(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = -1 * (((2 * WMath.PI * 1) / 4) / 90) * x;
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco tangente de um número.
+   */
+  protected arctan(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = (this.arcsin(x) / this.arccos(x));
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco secante de um número.
+   */
+  protected arcsec(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arccos(x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cosecante de um número.
+   */
+  protected arccosec(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arcsin(x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cotangente de um número.
+   */
+  protected arccotan(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arctan(x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco seno hiperbólico de um número.
+   */
+  protected arcsinh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / (((2 * WMath.PI * 1) / 4) / 90) * x;
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cosseno hiperbólico de um número.
+   */
+  protected arccosh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / (-1 * (((2 * WMath.PI * 1) / 4) / 90) * x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco tangente hiperbólica de um número.
+   */
+  protected arctanh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / (this.arcsinh(x) / this.arccosh(x));
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco secante hiperbólica de um número.
+   */
+  protected arcsech(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arccosh(x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cosecante hiperbólica de um número.
+   */
+  protected arccosech(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arcsinh(x);
+    return resultado;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do arco cotangente hiperbólica de um número.
+   */
+  protected arccotanh(x: number) {
+    const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
+    if (scan == true) { return NaN; }
+
+    const resultado: number = 1 / this.arctanh(x);
+    return resultado;
+  }
+
+  /** @description Retorna o valor do logaritmo de base 2 de um número. */
+  // //? log de 5 na base 2
+  // // 2**2=4
+  // // 2**2.1=4.2870938501451726569
+  // // 2**2.2=4.5947934199881400272
+  // // 2**2.3=4.924577653379665138
+  // // 2**2.31=4.9588307997559462464
+  // // 2**2.32=4.9933221956064476944
+  // // 2**2.321=4.9967845026135068021
+  // // 2**2.322=5.0002492103408362096 (valor encontrado) [precisão de 3 casas decimais]
+  // // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
+  public log2(x: number) {}
+
 
 } var WMath = new wMath();

@@ -1,15 +1,6 @@
 class wMath {
 
-  protected prop = [
-
-    {   
-      regexps: {
-        trigonometricos: /(\.)/gi,
-        arcTrigonometricos: /(\.)?/gi
-      }
-    },
-
-  ];
+  protected prop = [ { regexps: { trigonometricos: /(\.)/gi, arcTrigonometricos: /(\.)?/gi } } ];
 
   /** 
    * @description Constante de Arquimedes ou número de Ludoph. 
@@ -252,9 +243,9 @@ class wMath {
   public MIN_VALUE_SB9: number = 9 ** -1000000000000000;
 
   /**
- *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
- *  @description Retorna o valor absoluto de um número. 
- */
+   *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   *  @description Retorna o valor absoluto de um número. 
+   */
   public abs(x: number): number {
     return x < 0 ? -1 * x : x;
   }
@@ -264,7 +255,7 @@ class wMath {
    * @description Retorna o valor absoluto de um número, porém negado. 
    */
   public absNeg(x: number): number {
-    return -1 * x;
+    return -1 * (x < 0 ? -1 * x : x);
   }
 
   /** 
@@ -972,9 +963,6 @@ class wMath {
     const resultado: number = 1 / this.arctanh(x);
     return resultado;
   }
-
-  // templates
-  // // log2(x), log3(x), log4(x), log5(x), log6(x), log7(x), log8(x), log9(x), log(x), logw(x), ln(x)
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 

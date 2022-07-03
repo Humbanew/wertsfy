@@ -7,7 +7,7 @@ class wMath {
         trigonometricos: /(\.)/gi,
         arcTrigonometricos: /(\.)?/gi
       }
-    }
+    },
 
   ];
 
@@ -974,21 +974,372 @@ class wMath {
   }
 
   // templates
-  // // log2(x), log3(x), log4(x), log5(x), log6(x), log7(x), log8(x), log9(x), log(x), logw(x)
-  // // ln2(x), ln3(x), ln4(x), ln5(x), ln6(x), ln7(x), ln8(x), ln9(x), ln(x), lnw(x) 
+  // // log2(x), log3(x), log4(x), log5(x), log6(x), log7(x), log8(x), log9(x), log(x), logw(x), ln(x)
 
-  /** @description Retorna o valor do logaritmo de base 2 de um número. */
-  // //? log de 5 na base 2
-  // // 2**2=4
-  // // 2**2.1=4.2870938501451726569
-  // // 2**2.2=4.5947934199881400272
-  // // 2**2.3=4.924577653379665138
-  // // 2**2.31=4.9588307997559462464
-  // // 2**2.32=4.9933221956064476944
-  // // 2**2.321=4.9967845026135068021
-  // // 2**2.322=5.0002492103408362096 (valor encontrado) [precisão de 3 casas decimais]
-  // // 2**2.33=5.0280534980873134087 (valor encontrado) [precisão de 2 casas decimais]
-  public log2(x: number) {}
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
+   * @description Retorna o valor do logaritmo de base 2 de um número. 
+   */
+  public log2(x: number) {
+    
+    if(x == 0) { return NaN; }
+
+    let exp = 2;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(2 ** exp != x) { 
+        
+        if(2 ** exp != x) {
+          
+          if (2 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 3 de um número.
+   */
+  public log3(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 3;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(3 ** exp != x) { 
+        
+        if(3 ** exp != x) {
+          
+          if (3 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 4 de um número.
+   */
+  public log4(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 4;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(4 ** exp != x) { 
+        
+        if(4 ** exp != x) {
+          
+          if (4 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 5 de um número.
+   */
+  public log5(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 5;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(5 ** exp != x) { 
+        
+        if(5 ** exp != x) {
+          
+          if (5 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 6 de um número.
+   */
+  public log6(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 6;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(6 ** exp != x) { 
+        
+        if(6 ** exp != x) {
+          
+          if (6 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 7 de um número.
+   */
+  public log7(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 7;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(7 ** exp != x) { 
+        
+        if(7 ** exp != x) {
+          
+          if (7 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 8 de um número.
+   */
+  public log8(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 8;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(8 ** exp != x) { 
+        
+        if(8 ** exp != x) {
+          
+          if (8 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 9 de um número.
+   */
+  public log9(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 9;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(9 ** exp != x) { 
+        
+        if(9 ** exp != x) {
+          
+          if (9 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo de base 10 de um número.
+   */
+  public log(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = 10;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(10 ** exp != x) { 
+        
+        if(10 ** exp != x) {
+          
+          if (10 ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo natural de um número.
+   */
+  public ln(x: number) {
+    if(x == 0) { return NaN; }
+
+    let exp = WMath.E;
+    let scan = x % exp;
+
+    while(scan != 0) {
+
+      scan = scan % exp;
+
+      if(WMath.E ** exp != x) { 
+        
+        if(WMath.E ** exp != x) {
+          
+          if (WMath.E ** exp != x) {
+
+            exp += 0.0001;
+          }
+          
+          exp += 0.001;
+        }
+      
+        exp += 0.01; 
+      } 
+
+      exp += 0.1;
+
+    }
+
+    return exp;
+  }
+
+  public random() {
+    const i: number = 0; 
+  }
 
 
 } var WMath = new wMath();

@@ -1337,8 +1337,13 @@ class wMath {
     return exp;
   }
 
-  public random() {
-    const i: number = 0; 
+  /**
+   * @augments x entrada de um multiplicador. **[ Type: ``number`` ]**
+   * @description Retorna um valor aleatório.
+   */
+  public random(x: number): number {
+    const rand: number = (Int8Array.of(400).length / Int8Array.of(200).length) * x;
+    return rand; 
   }
 
 

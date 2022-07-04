@@ -18,6 +18,7 @@
     "eamodio.gitlens",
     "anwar.papyrus-pdf",
     "eliverlara.sweet-vscode-icons",
-    "PKief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "aaron-bond.better-comments"
   ]
 }

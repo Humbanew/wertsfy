@@ -1323,15 +1323,21 @@ class wTerminal {
    * @description Adiciona formatação em um texto. 
    */
   public adicionaFormatacaoTexto(modelo: '01m@negrito'|'02m@faint'|'03m@italico'|'04m@sublinhado'|'05m@slowblink'|'06m@rapidblink'|'07m@reverse'|'08m@conceal'|'09m@crossedout'|'10m@defaultfont'|'11m@altfont1'|'12m@altfont2'|'13m@altfont3'|'14m@altfont4'|'15m@altfont5'|'16m@altfont6'|'17m@altfont7'|'18m@altfont8'|'19m@altfont9'|'20m@fraktur'|'21m@doublyunderline'|'22m@normalintensity'|'23m@notitalic'|'24m@notunderline'|'25m@blinkoff'|'26m@spacing'|'27m@reverseoff'|'28m@concealoff'|'29m@notcrossed'|'50m@propositalspacing'|'51m@framed'|'52m@encircled'|'53m@overlined'|'54m@notframed'|'55m@notencircled'|'58m@sublinhado'|'59m@sublinhadopadrao'|'60m@ideogramsublinhado'|'61m@ideogramsublinhadoduplo'|'62m@ideogramoverline'|'63m@ideogramoverlineduplo'|'64m@ideogramstress'|'65@noideogramattr'|'73m@superscript'|'74m@subscript'|'75m@nonsuperscriptsubscript', texto: string): string {
-    const scan: RegExp = /([0]{1})([0-9]+m)/gi;
+    const scan: RegExp = /(([0]{1})?([0-9]+m))/gi;
     const tipo = scan.exec(modelo)[1].toString();
     return `\033[${tipo}${texto}\033[0m`;
   };
 
   protected adicionaCorTexto(modelo: '', texto: string): string {
-    let scan: RegExp = /([0-9]+\;)?([0-9]+\;)?([0]{1})?([0-9]+m)/gi, tipo; 
+    let tipo = null; 
+    let scan: RegExp = /(([0-9]+\;)?([0-9]+\;)?([0]{1})?([0-9]+m))/gi;
 
-    tipo = scan.exec(modelo)[0].toString();
+    // 3b4 bit
+    if(scan) { }
+    // 8 bit
+    if(scan) { }
+    // 24 bit
+    if(scan) { }
 
     return `\033[${tipo}${texto}\033[0m`;
   }

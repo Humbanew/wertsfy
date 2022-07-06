@@ -1360,8 +1360,4 @@ class wTerminal {
     return `\033[${tipo}${texto}\033[0m`;
   }
 
-  protected geraErrosDeExecucao() { }
-
-  protected geraCodigosDeErroDeExec() { }
-
 } export var WTerminal = new wTerminal();

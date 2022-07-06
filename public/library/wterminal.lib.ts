@@ -1320,285 +1320,36 @@ class wTerminal {
   /**
    * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.
    * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação em um texto. 
+   * @description Adiciona formatação da letra em um texto. 
    */
   public adicionaFormatacaoTexto(modelo: '01m@negrito'|'02m@faint'|'03m@italico'|'04m@sublinhado'|'05m@slowblink'|'06m@rapidblink'|'07m@reverse'|'08m@conceal'|'09m@crossedout'|'10m@defaultfont'|'11m@altfont1'|'12m@altfont2'|'13m@altfont3'|'14m@altfont4'|'15m@altfont5'|'16m@altfont6'|'17m@altfont7'|'18m@altfont8'|'19m@altfont9'|'20m@fraktur'|'21m@doublyunderline'|'22m@normalintensity'|'23m@notitalic'|'24m@notunderline'|'25m@blinkoff'|'26m@spacing'|'27m@reverseoff'|'28m@concealoff'|'29m@notcrossed'|'50m@propositalspacing'|'51m@framed'|'52m@encircled'|'53m@overlined'|'54m@notframed'|'55m@notencircled'|'58m@sublinhado'|'59m@sublinhadopadrao'|'60m@ideogramsublinhado'|'61m@ideogramsublinhadoduplo'|'62m@ideogramoverline'|'63m@ideogramoverlineduplo'|'64m@ideogramstress'|'65@noideogramattr'|'73m@superscript'|'74m@subscript'|'75m@nonsuperscriptsubscript', texto: string): string {
-    const scan: RegExp = /(([0]{1})?([0-9]+m))/gi;
-    const tipo = scan.exec(modelo)[1].toString();
+    const scan: RegExp = /(([0]{1})?([0-9]+m))/gi,
+    tipo = scan.exec(modelo)[2].toString();
     return `\033[${tipo}${texto}\033[0m`;
   };
 
-  protected adicionaCorTexto(modelo: '', texto: string): string {
-    let tipo = null; 
-    let scan: RegExp = /(([0-9]+\;)?([0-9]+\;)?([0]{1})?([0-9]+m))/gi;
-
-    // 3b4 bit
-    if(scan) { }
-    // 8 bit
-    if(scan) { }
-    // 24 bit
-    if(scan) { }
-
+  /**
+   * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.
+   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
+   * @description Adiciona formatação de cor da letra ou fundo em um texto. 
+   */
+  public adicionaCorTexto(modelo: '3b4bit/30;0m@cpreta'|'3b4bit/40;0m@fpreta'|'3b4bit/31;0m@cvermelha'|'3b4bit/41;0m@fvermelha'|'3b4bit/32;0m@cverde'|'3b4bit/42;0m@fverde'|'3b4bit/33;0m@camarela'|'3b4bit/43;0m@famarela'|'3b4bit/34;0m@cazul'|'3b4bit/44;0m@fazul'|'3b4bit/35;0m@croxa'|'3b4bit/45;0m@froxa'|'3b4bit/36;0m@cciano'|'3b4bit/46;0m@fciano'|'3b4bit/37;0m@ccinza'|'3b4bit/47;0m@fcinza'|'3b4bit/90;0m@ccinzaclaro'|'3b4bit/100;0m@fcinzaclaro'|'3b4bit/91;0m@cvermelhoclaro'|'3b4bit/101:0m@fvermelhoclaro'|'3b4bit/92;0m@cverdeclaro'|'3b4bit/102;0m@fverdeclaro'|'3b4bit/93;0m@camareloclaro'|'3b4bit/103;0m@famareloclaro'|'3b4bit/94;0m@cazulclassico'|'3b4bit/104;0m@fazulclassico'|'3b4bit/95;0m@crosa'|'3b4bit/105;0m@frosa'|'3b4bit/96;0m@cazulclaro'|'3b4bit/106;0m@fazulclaro'|'3b4bit/97;0m@cbranco'|'3b4bit/107;0m@fbranco', texto: string, schema?: { red: string, green: string, blue: string}): string {
+    const scan: RegExp = /(([0-9]+\;)?(([0-9]+\;)|([25]\;)([r]{1}\;[g]{1}\;|[0-9]{1,3}\;[0-9]{1,3}\;)?)?(([0]{1})?[0-9]+m|[b]m))/gi,
+    tipo = scan.exec(modelo)[0].toString();
+    if(scan.exec(modelo)[5].toString() == "r;g;" && scan.exec(modelo)[6].toString() == "bm") {
+      tipo.replace("r", schema.red);
+      tipo.replace("g", schema.green);
+      tipo.replace("b", schema.blue);
+      return `\033[${tipo}${texto}\033[0m`;
+    }
     return `\033[${tipo}${texto}\033[0m`;
   }
 
+  protected geraErrosDeExecucao() { }
+
+  protected geraCodigosDeErroDeExec() { }
+
 // Parte antiga do código.
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**. 
-   * @description Adiciona formatação de cor preta de texto.
-   */
-  public adicionaFormatacaoCor3B4BitPreta(texto: string): string {
-    return `\033[30;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor preta.
-   */
-  public adicionaFormatacaoFundo3B4BitPreta(texto: string): string {
-    return `\033[40;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor vermelha de texto.
-   */
-  public adicionaFormatacaoCor3B4BitVermelha(texto: string): string {
-    return `\033[31;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor vermelha.
-   */
-  public adicionaFormatacaoFundo3B4BitVermelha(texto: string): string {
-    return `\033[41;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor verde de texto.
-   */
-  public adicionaFormatacaoCor3B4BitVerde(texto: string): string {
-    return `\033[32;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor verde.
-   */
-  public adicionaFormatacaoFundo3B4BitVerde(texto: string): string {
-    return `\033[42;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor amarela de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAmarela(texto: string): string {
-    return `\033[33;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor amarela.
-   */
-  public adicionaFormatacaoFundo3B4BitAmarela(texto: string): string {
-    return `\033[43;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor azul de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAzul(texto: string): string {
-    return `\033[34;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor azul.
-   */
-  public adicionaFormatacaoFundo3B4BitAzul(texto: string): string {
-    return `\033[44;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor roxa de texto.
-   */
-  public adicionaFormatacaoCor3B4BitRoxa(texto: string): string {
-    return `\033[35;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor roxa.
-   */
-  public adicionaFormatacaoFundo3B4BitRoxa(texto: string): string {
-    return `\033[45;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor azul ciano de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAzulCiano(texto: string): string {
-    return `\033[36;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor azul ciano.
-   */
-  public adicionaFormatacaoFundo3B4BitAzulCiano(texto: string): string {
-    return `\033[46;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor cinza de texto.
-   */
-  public adicionaFormatacaoCor3B4BitCinza(texto: string): string {
-    return `\033[37;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor cinza.
-   */
-  public adicionaFormatacaoFundo3B4BitCinza(texto: string): string {
-    return `\033[47;0m${texto}\033[0m`;
-  }
-
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor cinza-claro de texto.
-   */
-  public adicionaFormatacaoCor3B4BitCinzaClaro(texto: string): string {
-    return `\033[90;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor cinza-claro.
-   */
-  public adicionaFormatacaoFundo3B4BitCinzaClaro(texto: string): string {
-    return `\033[100;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor vermelha de texto.
-   */
-  public adicionaFormatacaoCor3B4BitVermelhoClaro(texto: string): string {
-    return `\033[91;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor vermelha-claro.
-   */
-  public adicionaFormatacaoFundo3B4BitVermelhoClaro(texto: string): string {
-    return `\033[101;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor verde-claro de texto.
-   */
-  public adicionaFormatacaoCor3B4BitVerdeClaro(texto: string): string {
-    return `\033[92;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor verde-claro.
-   */
-  public adicionaFormatacaoFundo3B4BitVerdeClaro(texto: string): string {
-    return `\033[102;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor amarela-claro de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAmareloClaro(texto: string): string {
-    return `\033[93;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor amarela-claro.
-   */
-  public adicionaFormatacaoFundo3B4BitAmareloClaro(texto: string): string {
-    return `\033[103;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor azul tradicional de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAzulT(texto: string): string {
-    return `\033[94;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor azul tradicional.
-   */
-  public adicionaFormatacaoFundo3B4BitAzulT(texto: string): string {
-    return `\033[104;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor rosa de texto.
-   */
-  public adicionaFormatacaoCor3B4BitRosa(texto: string): string {
-    return `\033[95;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor rosa.
-   */
-  public adicionaFormatacaoFundo3B4BitRosa(texto: string): string {
-    return `\033[105;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor azul-claro de texto.
-   */
-  public adicionaFormatacaoCor3B4BitAzulClaro(texto: string): string {
-    return `\033[96;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor azul-claro.
-   */
-  public adicionaFormatacaoFundo3B4BitAzulClaro(texto: string): string {
-    return `\033[106;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de cor branca de texto.
-   */
-  public adicionaFormatacaoCor3B4BitBranco(texto: string): string {
-    return `\033[97;0m${texto}\033[0m`;
-  }
-
-  /**
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description Adiciona formatação de fundo na cor branca.
-   */
-  public adicionaFormatacaoFundo3B4BitBranco(texto: string): string {
-    return `\033[107;0m${texto}\033[0m`;
-  }
 
   /**
    * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.

@@ -2165,4 +2165,4 @@ class wMath {
     return rand; 
   }
 
-} var WMath = new wMath();
+} export var WMath = new wMath();

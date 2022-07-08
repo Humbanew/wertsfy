@@ -1,3 +1,3 @@
 class wKarzok {
 
-} var WKarzok = new wKarzok();
+} export var WKarzok = new wKarzok();

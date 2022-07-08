@@ -82,4 +82,4 @@ class wLydroc {
   // folhas de estilo customizadas
 
 
-} var WLydroc = new wLydroc();
+} export var WLydroc = new wLydroc();

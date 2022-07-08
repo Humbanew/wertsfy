@@ -5,4 +5,4 @@ WTerminal.adicionaCorTexto('3b4bit/100;0m@fcinzaclaro', '');
 
 WTerminal.adicionaCorTexto('8bit/38;5;tm@ctempcustom', '', 30);
 
-WXsalis.pegaCorTemplateTerminal('hex000000');
+WXsalis.pegaCorTemplateTerminal('hex=000000');

@@ -1,4 +1,4 @@
-import { INPUT_SYMBOL, OUTPUT_SYMBOL } from './wterminal.lib.d';
+import { DIVIDER_SYMBOL, INPUT_SYMBOL, LOADING_SYMBOL_100, LOADING_SYMBOL_25, LOADING_SYMBOL_50, LOADING_SYMBOL_75, OUTPUT_SYMBOL } from './wterminal.lib.d';
 
 class wTerminal {
 
@@ -7,6 +7,21 @@ class wTerminal {
 
   /** @description Constante de Simbolo de Saida. */
   public outputSymbol = OUTPUT_SYMBOL;
+
+  /** @description Constante de Simbolo de Divisão. */
+  public dividerSymbol = DIVIDER_SYMBOL;
+
+  /** @description Constante de Simbolo de Carregamento. (25%) */
+  public loadingSymbol25 = LOADING_SYMBOL_25;
+
+  /** @description Constante de Simbolo de Carregamento. (50%) */
+  public loadingSymbol50 = LOADING_SYMBOL_50;
+
+  /** @description Constante de Simbolo de Carregamento. (75%) */
+  public loadingSymbol75 = LOADING_SYMBOL_75;
+   
+  /** @description Constante de Simbolo de Carregamento. (100%) */
+  public loadingSymbol100 = LOADING_SYMBOL_100;
 
   /**
    * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.

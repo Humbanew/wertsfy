@@ -1,52 +1,12 @@
+import { INPUT_SYMBOL, OUTPUT_SYMBOL } from './wterminal.lib.d';
+
 class wTerminal {
 
-  /** @description Símbolo de entrada de dados para o terminal. */
-  public SETUP_INPUT_SYMBOL: string = '|>';
+  /** @description Constante de Simbolo de Entrada. */
+  public inputSymbol = INPUT_SYMBOL;
 
-  /** @description Símbolo de retorno da entrada do terminal. */
-  public SETUP_OUTPUT_SYMBOL: string = '|<';
-
-  /** @description Símbolo de divisão de partes de um programa. */
-  public SETUP_DIVIDER_SYMBOL: string = '<|==|>';
-
-  /** @description Modelo de 25% da tela de carregamento de um processo no terminal. */
-  public SETUP_LOADING_SYMBOL_25: string = '\\';
-
-  /** @description Modelo de 50% da tela de carregamento de um processo no terminal. */
-  public SETUP_LOADING_SYMBOL_50: string = '|';
-
-  /** @description Modelo de 75% da tela de carregamento de um processo no terminal. */
-  public SETUP_LOADING_SYMBOL_75: string = '/';
-
-  /** @description Modelo de 100% da tela de carregamento de um processo no terminal. */
-  public SETUP_LOADING_SYMBOL_100: string = '-';
-
-  /** @description Caractere de escape de nova linha. */
-  public SETUP_ESCAPE_CHARACTER_NEW_LINE: string = '\n';
-
-  /** @description Caractere de escape de tab. */
-  public SETUP_ESCAPE_CHARACTER_TAB: string = '\t';
-
-  /** @description Caractere de escape de backspace. */
-  public SETUP_ESCAPE_CHARACTER_BACKSPACE: string = '\b';
-
-  /** @description Caractere de escape de reínicio da linha. */
-  public SETUP_ESCAPE_CHARACTER_RESTART_LINE: string = '\r';
-
-  /** @description Caractere de escape de tab vertical. */
-  public SETUP_ESCAPE_CHARACTER_VERTICAL_TAB: string = '\v';
-
-  /** @description Caractere de escape de form feed. */
-  public SETUP_ESCAPE_CHARACTER_FORM_FEED: string = '\f';
-
-  /** @description Caractere de escape nulo. */
-  public SETUP_ESCAPE_CHARACTER_NULL: string = '\0';
-
-  /** @description Caractere de single quote. */
-  public SETUP_CHARACTER_SINGLE_QUOTE: string = '\'';
-
-  /** @description Caractere de double quote. */
-  public SETUP_CHARACTER_DOUBLE_QUOTE: string = '\"';
+  /** @description Constante de Simbolo de Saida. */
+  public outputSymbol = OUTPUT_SYMBOL;
 
   /**
    * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.

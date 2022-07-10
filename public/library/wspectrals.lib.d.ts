@@ -1,3 +1,4 @@
+/** @description Define os esquemas disponíveis para a formação de novas cores. */
 export declare enum Schemas {
   format_a = '00',
   format_b = '11',
@@ -15,6 +16,7 @@ export declare enum Schemas {
   format_n = 'dd'
 }
 
+/** @description Define a estrutura esquemática de uma família de cores. */
 export declare interface StructureColor {
   corI: string,
   cor: string;

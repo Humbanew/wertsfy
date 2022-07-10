@@ -1,16 +1,4 @@
-// Antiga HN XColors e HN Xolors
-
-export const VariantsColor = (corBase: string): string[] => { 
-  return [corBase+'00', corBase+'11', corBase+'22', corBase+'33', corBase+'44', corBase+'55', corBase+'66', corBase+'77', corBase+'88', corBase+'99', corBase+'AA', corBase+'BB', corBase+'CC', corBase+'DD']; 
-};
-
-type AppendedColor = StructureColor;
-
-interface StructureColor {
-  corI?: string,
-  corVariantes: typeof VariantsColor,
-  gancho?: AppendedColor[]
-};
+import {Schemas, StructureColor} from './wspectrals.lib.d';
 
 class wSpectrals {
 
@@ -32,8 +20,36 @@ class wSpectrals {
     return modelo;
   }
 
-  protected pegaCorTemplateRGBY(entrada: string) { }
+  /**
+   * @augments entrada Seleciona a cor a ser utilizada. **[ Type: ``string`` ]**.
+   * @description Retorna uma coleção de cores RGB com um 4º espectro agrupado de uma cor definida.  
+   */
+  public pegaCorTemplateRGBN(entrada: string, espectro: string): string[]|any {
 
-  protected pegaCorTemplateRGBYW(entrada: string) { }
+    const base: StructureColor = { 
+      corI: entrada.match(/\#[0-9a-fA-F]{6}/gi).toString(), 
+      cor: espectro.match(/\#[0-9a-fA-F]{6}/gi).toString() 
+    };
+
+    const colecao = [base.corI, [] ];
+
+    colecao[1][0].push(base.cor+Schemas.format_a);
+    colecao[1][0].push(base.cor+Schemas.format_b);
+    colecao[1][0].push(base.cor+Schemas.format_c);
+    colecao[1][0].push(base.cor+Schemas.format_d);
+    colecao[1][0].push(base.cor+Schemas.format_e);
+    colecao[1][0].push(base.cor+Schemas.format_f);
+    colecao[1][0].push(base.cor+Schemas.format_g);
+    colecao[1][0].push(base.cor+Schemas.format_h);
+    colecao[1][0].push(base.cor+Schemas.format_i);
+    colecao[1][0].push(base.cor+Schemas.format_j);
+    colecao[1][0].push(base.cor+Schemas.format_k);
+    colecao[1][0].push(base.cor+Schemas.format_l);
+    colecao[1][0].push(base.cor+Schemas.format_m);
+    colecao[1][0].push(base.cor+Schemas.format_n);
+
+    return colecao;
+
+  }
 
 } export var WSpectrals = new wSpectrals();

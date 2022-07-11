@@ -1,4 +1,4 @@
-import { DIVIDER_SYMBOL, INPUT_SYMBOL, LOADING_SYMBOL_100, LOADING_SYMBOL_25, LOADING_SYMBOL_50, LOADING_SYMBOL_75, OUTPUT_SYMBOL } from './wterminal.lib.d';
+import { CHARACTER_DOUBLE_QUOTE, CHARACTER_SINGLE_QUOTE, DIVIDER_SYMBOL, ESCAPE_CHARACTER_BACKSPACE, ESCAPE_CHARACTER_FORM_FEED, ESCAPE_CHARACTER_NEW_LINE, ESCAPE_CHARACTER_NULL, ESCAPE_CHARACTER_RESTART_LINE, ESCAPE_CHARACTER_TAB, ESCAPE_CHARACTER_VERTICAL_TAB, INPUT_SYMBOL, LOADING_SYMBOL_100, LOADING_SYMBOL_25, LOADING_SYMBOL_50, LOADING_SYMBOL_75, OUTPUT_SYMBOL } from './wterminal.lib.d';
 
 class wTerminal {
 
@@ -22,6 +22,33 @@ class wTerminal {
    
   /** @description Constante de Simbolo de Carregamento. (100%) */
   public loadingSymbol100 = LOADING_SYMBOL_100;
+
+  /** @description Constante de Simbolo de Caractere de Escape de nova linha. */
+  public escapeCharacterNewLine = ESCAPE_CHARACTER_NEW_LINE;
+
+  /** @description Constante de Simbolo de Caractere de Escape de tab. */
+  public escapeCharacterTab = ESCAPE_CHARACTER_TAB;
+
+  /** @description Constante de Simbolo de Caractere de Escape de backspace. */
+  public escapeCharacterBackspace = ESCAPE_CHARACTER_BACKSPACE;
+
+  /** @description Constante de Simbolo de Caractere de Escape de reinicio de linha. */
+  public escapeCharacterRestartLine = ESCAPE_CHARACTER_RESTART_LINE;
+
+  /** @description Constante de Simbolo de Caractere de Escape de tab vertical. */
+  public escapeCharacterVerticalTab = ESCAPE_CHARACTER_VERTICAL_TAB;
+
+  /** @description Constante de Simbolo de Caractere de Escape de form feed. */
+  public escapeCharacterFormFeed = ESCAPE_CHARACTER_FORM_FEED;
+
+  /** @description Constante de Simbolo de Caractere de Escape nulo. */
+  public escapeCharacterNull = ESCAPE_CHARACTER_NULL;
+
+  /** @description Constante de Caractere de Aspas Simples. */
+  public characterSingleQuote = CHARACTER_SINGLE_QUOTE;
+
+  /** @description Constante de Caractere de Aspas Duplas. */
+  public characterDoubleQuote = CHARACTER_DOUBLE_QUOTE;
 
   /**
    * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.

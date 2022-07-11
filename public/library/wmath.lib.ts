@@ -1,246 +1,104 @@
+import { CBRT1, CBRT10, CBRT2, CBRT3, CBRT4, CBRT5, CBRT6, CBRT7, CBRT8, CBRT9, E, LN10, LN2, LOG10E, LOG2E, MAX_VALUE, MIN_VALUE, NA, NEWTON, PI, PLANCK, SQRT1, SQRT10, SQRT2, SQRT3, SQRT4, SQRT5, SQRT6, SQRT7, SQRT8, SQRT9, TESLA } from './wmath.lib.d';
+
 class wMath {
 
   protected prop = [ { regexps: { trigonometricos: /(\.)/gi, arcTrigonometricos: /(\.)?/gi } } ];
 
-  /** 
-   * @description Constante de Arquimedes ou número de Ludoph. 
-   */
-  public PI: number = 3.141592653589793;
+  /** @description Constante PI. */
+  public pi = PI;
 
-  /** 
-   * @description Constante de Euler. 
-   */
-  public E: number = 2.7182818284590452353602874713527;
+  /** @description Constante Euler. */
+  public euler = E;
 
-  /**
-   * @description Constante de Planck.
-   */
-  public PLANCK: number = 6.62606896e-34;
+  /** @description Contante Plank. */
+  public plank = PLANCK;
 
-  /**
-   * @description Constante de Avogadro.
-   */
-  public NA: number = 6.022140857e23;
+  /** @description Constante Avogadro. */
+  public avogadro = NA;
 
-  /**
-   * @description Constante de Newton.
-   */
-  public NEWTON: number = 0.6931471805599453;
+  /** @description Constante Newton. */
+  public newton = NEWTON;
 
-  /**
-   * @description Constante de Tesla.
-   */
-  public TESLA: number = 1.6021766208e-19;
+  /** @description Constante Tesla. */
+  public tesla = TESLA;
 
-  /** 
-   * @description Constante da Raiz de um. 
-   */
-  public SQRT1: number = 1.0;
+  /** @description Constante da raiz quadrada de 1. */
+  public sqrt1 = SQRT1;
 
-  /** 
-   * @description Constante da Raiz de dois. 
-   */
-  public SQRT2: number = 1.414213562373095;
+  /** @description Constante da raiz quadrada de 2. */
+  public sqrt2 = SQRT2;
 
-  /** 
-   * @description Constante da Raiz de tres. 
-   */
-  public SQRT3: number = 1.732050807568877;
+  /** @description Constante da raiz quadrada de 3. */
+  public sqrt3 = SQRT3;
 
-  /** 
-   * @description Constante da Raiz de quatro. 
-   */
-  public SQRT4: number = 2.0;
+  /** @description Constante da raiz quadrada de 4. */
+  public sqrt4 = SQRT4;
 
-  /** 
-   * @description Constante da Raiz de cinco. 
-   */
-  public SQRT5: number = 2.23606797749979;
+  /** @description Constante da raiz quadrada de 5. */
+  public sqrt5 = SQRT5;
 
-  /** 
-   * @description Constante da Raiz de seis. 
-   */
-  public SQRT6: number = 2.449489742783178;
+  /** @description Constante da raiz quadrada de 6. */
+  public sqrt6 = SQRT6;
 
-  /** 
-   * @description Constante da Raiz de sete. 
-   */
-  public SQRT7: number = 2.64575131106459;
+  /** @description Constante da raiz quadrada de 7. */
+  public sqrt7 = SQRT7;
 
-  /** 
-   * @description Constante da Raiz de oito. 
-   */
-  public SQRT8: number = 2.82842712474619;
+  /** @description Constante da raiz quadrada de 8. */
+  public sqrt8 = SQRT8;
 
-  /** 
-   * @description Constante da Raiz de nove. 
-   */
-  public SQRT9: number = 3.0;
+  /** @description Constante da raiz quadrada de 9. */
+  public sqrt9 = SQRT9;
 
-  /** 
-   * @description Constante da Raiz de dez. 
-   */
-  public SQRT10: number = 3.16227766016838;
+  /** @description Constante da raiz quadrada de 10. */
+  public sqrt10 = SQRT10;
 
-  /** 
-   * @description Constante da Raiz Cúbica de um. 
-   */
-  public CBRT1: number = 1.0;
+  /** @description Constante da raiz cúbica de 1. */
+  public cbrt1 = CBRT1;
 
-  /** 
-   * @description Constante da Raiz Cúbica de dois. 
-   */
-  public CBRT2: number = 1.25992104989487;
+  /** @description Constante da raiz cúbica de 2. */
+  public cbrt2 = CBRT2;
 
-  /** 
-   * @description Constante da Raiz Cúbica de tres. 
-   */
-  public CBRT3: number = 1.5874010519682;
+  /** @description Constante da raiz cúbica de 3. */
+  public cbrt3 = CBRT3;
 
-  /** 
-   * @description Constante da Raiz Cúbica de quatro. 
-   */
-  public CBRT4: number = 1.99999999999999;
+  /** @description Constante da raiz cúbica de 4. */
+  public cbrt4 = CBRT4;
 
-  /** 
-   * @description Constante da Raiz Cúbica de cinco. 
-   */
-  public CBRT5: number = 2.23606797749979;
+  /** @description Constante da raiz cúbica de 5. */
+  public cbrt5 = CBRT5;
 
-  /** 
-   * @description Constante da Raiz Cúbica de seis. 
-   */
-  public CBRT6: number = 2.58198889747161;
+  /** @description Constante da raiz cúbica de 6. */
+  public cbrt6 = CBRT6;
 
-  /** 
-   * @description Constante da Raiz Cúbica de sete. 
-   */
-  public CBRT7: number = 2.91293118277239;
+  /** @description Constante da raiz cúbica de 7. */
+  public cbrt7 = CBRT7;
 
-  /** 
-   * @description Constante da Raiz Cúbica de oito. 
-   */
-  public CBRT8: number = 3.26249509498958;
+  /** @description Constante da raiz cúbica de 8. */
+  public cbrt8 = CBRT8;
 
-  /** 
-   * @description Constante da Raiz Cúbica de nove. 
-   */
-  public CBRT9: number = 3.62449963442055;
+  /** @description Constante da raiz cúbica de 9. */
+  public cbrt9 = CBRT9;
 
-  /** 
-   * @description Constante da Raiz Cúbica de dez. 
-   */
-  public CBRT10: number = 3.99999999999999;
+  /** @description Constante da raiz cúbica de 10. */
+  public cbrt10 = CBRT10;
 
-  /** 
-   * @description Constante de Logaritmo Natural de dois. 
-   */
-  public LN2: number = 0.6931471805599453;
+  /** @description Constante do logarítmo natural de 2. */
+  public ln2 = LN2;
 
-  /** 
-   * @description Constante de Logaritmo Natural de dez. 
-   */
-  public LN10: number = 2.302585092994046;
+  /** @description Constante do logarítmo natural de 10. */
+  public ln10 = LN10;
 
-  /** 
-   * @description Constante de Logaritmo de 2. 
-   */
-  public LOG2E: number = 1.4426950408889634;
+  /** @description Constante do logarítmo de euler na base 2. */
+  public log2e = LOG2E;
 
-  /** 
-   * @description Constante de Logaritmo de 10. 
-   */
-  public LOG10E: number = 0.4342944819032518;
+  /** @description Constante do logarítmo de euler na base 10. */
+  public log10e = LOG10E;
 
-  /** 
-   * @description Maior valor numérico preciso possível.
-   */
-  public MAX_VALUE: number = 999999999999999;
+  /** @description Constante do máximo valor possível. */
+  public maxValue = MAX_VALUE;
 
-  /**
-   * @description Maior valor numérico em notação científica possível [base 2].
-   */
-  public MAX_VALUE_SB2: number = 2 ** 1000000000000000;
-
-  /**
-   * @description Maior valor numérico em notação científica possível [base 3].
-   */
-  public MAX_VALUE_SB3: number = 3 ** 1000000000000000;
-
-  /**
-   * @description Maior valor numérico em notação científica possível [base 4].
-   */
-  public MAX_VALUE_SB4: number = 4 ** 1000000000000000;
-
-  /**
-   * @description Maior valor numérico em notação científica possível [base 5].
-   */
-  public MAX_VALUE_SB5: number = 5 ** 1000000000000000;
-
-  /**
-   * @description Maior valor númerico em notação científica possível [base 6].
-   */
-  public MAX_VALUE_SB6: number = 6 ** 1000000000000000;
-
-  /**
-   * @description Maior valor númerico em notação científica possível [base 7].
-   */
-  public MAX_VALUE_SB7: number = 7 ** 1000000000000000;
-
-  /**
-   * @description Maior valor númerico em notação científica possível [base 8].
-   */
-  public MAX_VALUE_SB8: number = 8 ** 1000000000000000;
-
-  /**
-   * @description Maior valor númerico em notação científica possível [base 9].
-   */
-  public MAX_VALUE_SB9: number = 9 ** 1000000000000000;
-
-  /**
-   * @description Menor valor númerico preciso possível.
-   */
-  public MIN_VALUE: number = -999999999999999;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 2].
-   */
-  public MIN_VALUE_SB2: number = 2 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 3].
-   */
-  public MIN_VALUE_SB3: number = 3 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 4].
-   */
-  public MIN_VALUE_SB4: number = 4 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 5].
-   */
-  public MIN_VALUE_SB5: number = 5 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 6].
-   */
-  public MIN_VALUE_SB6: number = 6 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 7].
-   */
-  public MIN_VALUE_SB7: number = 7 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 8].
-   */
-  public MIN_VALUE_SB8: number = 8 ** -1000000000000000;
-
-  /**
-   * @description Menor valor númerico em notação científica possível [base 9].
-   */
-  public MIN_VALUE_SB9: number = 9 ** -1000000000000000;
+  /** @description Constante do mínimo valor possível. */
+  public minValue = MIN_VALUE;
 
   /**
    *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
@@ -684,7 +542,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if(scan == true) { return NaN; } 
     
-    const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = (((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -696,7 +554,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (-1 * (((2 * WMath.PI * 1) / 4) / 90)) * x;
+    const resultado: number = (-1 * (((2 * WMath.pi * 1) / 4) / 90)) * x;
     return resultado;
   }
 
@@ -756,7 +614,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -768,7 +626,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * ((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (-1 * ((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -828,7 +686,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = (((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -840,7 +698,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = -1 * (((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = -1 * (((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -900,7 +758,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * WMath.PI * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (((2 * WMath.pi * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -912,7 +770,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * (((2 * WMath.PI * 1) / 4) / 90) * x);
+    const resultado: number = 1 / (-1 * (((2 * WMath.pi * 1) / 4) / 90) * x);
     return resultado;
   }
 
@@ -2055,18 +1913,18 @@ class wMath {
   public ln(x: number) {
     if(x == 0) { return NaN; }
 
-    let exp = WMath.E;
+    let exp = WMath.euler;
     let scan = x % exp;
 
     while(scan != 0) {
 
       scan = scan % exp;
 
-      if(WMath.E ** exp != x) { 
+      if(WMath.euler ** exp != x) { 
         
-        if(WMath.E ** exp != x) {
+        if(WMath.euler ** exp != x) {
           
-          if(WMath.E ** exp != x) {
+          if(WMath.euler ** exp != x) {
 
             exp += 0.0001;
           }
@@ -2091,18 +1949,18 @@ class wMath {
   public lnm1(x: number) {
     if(x == 0) { return NaN; }
 
-    let exp = WMath.E;
+    let exp = WMath.euler;
     let scan = x % exp;
 
     while(scan != 0) {
 
       scan = scan % exp;
 
-      if(WMath.E ** exp != x) { 
+      if(WMath.euler ** exp != x) { 
         
-        if(WMath.E ** exp != x) {
+        if(WMath.euler ** exp != x) {
           
-          if(WMath.E ** exp != x) {
+          if(WMath.euler ** exp != x) {
 
             exp += 0.0001;
           }
@@ -2127,18 +1985,18 @@ class wMath {
   public lnp1(x: number) {
     if(x == 0) { return NaN; }
 
-    let exp = WMath.E;
+    let exp = WMath.euler;
     let scan = x % exp;
 
     while(scan != 0) {
 
       scan = scan % exp;
 
-      if(WMath.E ** exp != x) { 
+      if(WMath.euler ** exp != x) { 
         
-        if(WMath.E ** exp != x) {
+        if(WMath.euler ** exp != x) {
           
-          if(WMath.E ** exp != x) {
+          if(WMath.euler ** exp != x) {
 
             exp += 0.0001;
           }

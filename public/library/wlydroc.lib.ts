@@ -11,9 +11,9 @@ class wLydroc {
     return elemento; 
   }
 
-  protected criaElementoSVG() { }
+  protected criaElementoSVG(tag: '', idElemento: string) { }
 
-  protected criaElementoCustomizado() { }
+  protected criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string) { }
 
   /**
    * @augments id1 id do elemento base do vínculo a ser gerado. **[ Type: ``string`` ]**.
@@ -27,6 +27,10 @@ class wLydroc {
   }
 
   // attrs tags html
+
+  // attrs tags svg
+
+  // attrs tags customizadas
 
   // folhas de estilo predefinidas
 

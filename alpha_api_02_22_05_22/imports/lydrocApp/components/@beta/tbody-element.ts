@@ -1,1 +1,0 @@
-export function $tbody() { const elemento = document.createElement('tbody'); return elemento; }

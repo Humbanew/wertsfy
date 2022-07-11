@@ -1,1 +1,0 @@
-export function $figure() { const elemento = document.createElement('figure'); return elemento; }

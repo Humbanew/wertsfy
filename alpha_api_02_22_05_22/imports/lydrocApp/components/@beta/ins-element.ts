@@ -1,1 +1,0 @@
-export function $ins() { const elemento = document.createElement('ins'); return elemento; }

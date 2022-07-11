@@ -1,1 +1,0 @@
-export function $ul() { const elemento = document.createElement('ul'); return elemento; }

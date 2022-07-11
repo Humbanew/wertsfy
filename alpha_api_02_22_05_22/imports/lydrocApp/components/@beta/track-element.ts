@@ -1,1 +1,0 @@
-export function $track() { const elemento = document.createElement('track'); return elemento; }

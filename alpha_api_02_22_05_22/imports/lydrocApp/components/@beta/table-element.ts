@@ -1,1 +1,0 @@
-export function $table() { const elemento = document.createElement('table'); return elemento; }

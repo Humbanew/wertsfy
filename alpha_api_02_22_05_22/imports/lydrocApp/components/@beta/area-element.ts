@@ -1,1 +1,0 @@
-export function $area() { const elemento = document.createElement('area'); return elemento; }

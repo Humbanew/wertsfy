@@ -1,1 +1,0 @@
-export function $label() { const elemento = document.createElement('label'); return elemento; }

@@ -1,1 +1,0 @@
-export function $ol() { const elemento = document.createElement('ol'); return elemento; }

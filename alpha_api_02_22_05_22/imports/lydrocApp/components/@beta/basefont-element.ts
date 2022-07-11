@@ -1,1 +1,0 @@
-export function $basefont() { const elemento = document.createElement('basefont'); return elemento; }

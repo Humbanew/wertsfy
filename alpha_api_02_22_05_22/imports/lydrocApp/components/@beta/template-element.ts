@@ -1,1 +1,0 @@
-export function $template() { const elemento = document.createElement('template'); return elemento; }

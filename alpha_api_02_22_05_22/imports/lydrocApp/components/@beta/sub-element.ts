@@ -1,1 +1,0 @@
-export function $sub() { const elemento = document.createElement('sub'); return elemento; }

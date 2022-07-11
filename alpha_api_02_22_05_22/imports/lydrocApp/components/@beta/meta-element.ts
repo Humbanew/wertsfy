@@ -1,1 +1,0 @@
-export function $meta () { const elemento = document.createElement('meta'); return elemento; }

@@ -1,1 +1,0 @@
-export function $address() { const elemento = document.createElement('address'); return elemento; }

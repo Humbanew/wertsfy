@@ -1,1 +1,0 @@
-export function $td() { const elemento = document.createElement('td'); return elemento; }

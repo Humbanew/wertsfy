@@ -1,1 +1,0 @@
-export function $bdi() { const elemento = document.createElement('bdi'); return elemento; }

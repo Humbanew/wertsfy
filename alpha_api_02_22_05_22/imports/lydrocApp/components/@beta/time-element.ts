@@ -1,1 +1,0 @@
-export function $time() { const elemento = document.createElement('time'); return elemento; }

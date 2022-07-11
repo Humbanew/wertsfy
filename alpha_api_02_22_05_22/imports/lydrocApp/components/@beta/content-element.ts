@@ -1,1 +1,0 @@
-export function $content() { const elemento = document.createElement('content'); return elemento; }

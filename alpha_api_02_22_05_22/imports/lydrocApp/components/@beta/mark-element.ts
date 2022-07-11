@@ -1,1 +1,0 @@
-export function $mark() { const elemento = document.createElement('mark'); return elemento; }

@@ -1,1 +1,0 @@
-export function $rtc() { const elemento = document.createElement('rtc'); return elemento; }

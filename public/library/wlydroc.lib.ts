@@ -13,6 +13,7 @@ class wLydroc {
 
   // tags svg
   // // 
+  // //
   protected criaElementoSVG(tag: '', idElemento: string) { }
 
   protected criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string) { }

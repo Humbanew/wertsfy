@@ -1,1 +1,0 @@
-gcc lista.c -o lista.exe

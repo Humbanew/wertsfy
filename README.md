@@ -1,6 +1,6 @@
 # Wertsfy (Application Programming Interface)
 
-
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Humba01/Wertsfy/)
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=gray)](https://www.reddit.com/r/Wertsfy/)
 [![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=black)](https://www.npmjs.com/package/wertsfy)
 

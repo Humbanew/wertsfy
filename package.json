@@ -1,7 +1,7 @@
 {
   "name": "wertsfy",
   "version": "1.0.4",
-  "description": "![Wertsfy Logo](https://user-images.githubusercontent.com/59739253/155042856-13ea1e77-654e-45c4-8e38-f6105f6c9329.png)",
+  "description": "Wertsfy - Ultimate API of Things.",
   "main": "copyfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

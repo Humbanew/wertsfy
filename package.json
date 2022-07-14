@@ -31,6 +31,6 @@
     "doc": "docs"
   },
   "publishConfig": {
-    "@humba01:registry": "https://npm.pkg.github.com"
+    "@Humba01:registry": "https://npm.pkg.github.com"
   }
 }

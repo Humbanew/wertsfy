@@ -2,7 +2,7 @@
   "name": "wertsfy",
   "version": "1.0.0-4-betaII",
   "description": "Wertsfy - Ultimate API of Things.",
-  "main": "copyfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

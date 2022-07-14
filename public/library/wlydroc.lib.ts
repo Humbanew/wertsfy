@@ -25,7 +25,17 @@ class wLydroc {
   // tags customizadas;
   protected criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string) {
 
-    const elemento = class CustomHTMLElement extends HTMLElement { };
+    const elemento = class CustomHTMLElement extends HTMLElement {
+
+      constructor() {
+        super();
+        this.id = idElemento;
+        if (herdeiro) {
+          this.setAttribute('herdeiro', herdeiro);
+        }
+      }
+
+    };
 
   }
 

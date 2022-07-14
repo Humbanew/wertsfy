@@ -93,9 +93,30 @@ class wLydroc {
     return elemento.getAttribute(atributo);
   }
 
-  // folhas de estilo predefinidas (CSS)
+  /**
+   * @augments idFolhaDeEstilo id da folha de estilo a ser adicionada. **[ Type: ``string`` ]**.
+   * @augments caminhoFolhaDeEstilo caminho da folha de estilo a ser adicionada. **[ Type: ``string`` ]**.
+   * @description gera um elemento customizado.
+   */
+  protected defineFolhaDeEstilo(idFolhaDeEstilo: string, caminhoFolhaDeEstilo: string): void {
+    const folhaDeEstilo = document.createElement('link');
+    folhaDeEstilo.setAttribute('id', idFolhaDeEstilo);
+    folhaDeEstilo.setAttribute('rel', 'stylesheet');
+    folhaDeEstilo.setAttribute('href', caminhoFolhaDeEstilo);
+    document.head.appendChild(folhaDeEstilo);
+  }
 
-  // folhas de estilo customizadas (CSS)
-  protected defineFolhaDeEstilo(idFolhaDeEstilo: string, caminhoFolhaDeEstilo: string): void { }
+  /**
+   * @augments idFolhaDeEstilo id do elemento a ser adicionado. **[ Type: ``string`` ]**.
+   * @augments caminhoFolhaDeEstilo caminho da folha de estilo a ser adicionada. **[ Type: ``string`` ]**.
+   * @description gera um elemento customizado. 
+  */
+  protected defineFolhaDeEstiloJS(idFolhaDeEstilo: string, caminhoFolhaDeEstilo: string): void {
+    const folhaDeEstilo = document.createElement('script');
+    folhaDeEstilo.setAttribute('id', idFolhaDeEstilo);
+    folhaDeEstilo.setAttribute('type', 'text/javascript');
+    folhaDeEstilo.setAttribute('src', caminhoFolhaDeEstilo);
+    document.body.appendChild(folhaDeEstilo);
+  }
 
 } export var WLydroc = new wLydroc();

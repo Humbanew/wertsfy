@@ -7,10 +7,16 @@
 
 ## Informations:<br></br>
 ![Github](https://img.shields.io/github/package-json/v/Humba01/Wertsfy?style=for-the-badge&color=blueviolet)
-![Github](https://img.shields.io/github/commit-activity/w/Humba01/Wertsfy?color=red&style=for-the-badge)
 ![Github](https://img.shields.io/github/issues/Humba01/Wertsfy?color=yellow&style=for-the-badge)
 ![Github](https://img.shields.io/github/issues-pr/Humba01/Wertsfy?color=blue&style=for-the-badge)
+![Github](https://img.shields.io/snyk/vulnerabilities/github/Humba01/Wertsfy?color=black&style=for-the-badge)
+![Github](https://img.shields.io/github/stars/Humba01/Wertsfy?color=powderblue&style=for-the-badge)
+
+![Github](https://img.shields.io/github/commit-activity/w/Humba01/Wertsfy?color=red&style=for-the-badge)
+![Github](https://img.shields.io/github/languages/top/Humba01/Wertsfy?color=darkblue&style=for-the-badge)
+![Github](https://img.shields.io/github/languages/count/Humba01/Wertsfy?color=darkturquoise&style=for-the-badge)
 ![NPM](https://img.shields.io/npm/dt/wertsfy?color=green&style=for-the-badge)
+
 
 ---
 

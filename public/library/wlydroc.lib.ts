@@ -33,6 +33,7 @@ class wLydroc {
         if (herdeiro) {
           this.setAttribute('herdeiro', herdeiro);
         }
+        
       }
 
     };

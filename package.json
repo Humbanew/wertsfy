@@ -29,5 +29,8 @@
   },
   "directories": {
     "doc": "docs"
+  },
+  "publishConfig": {
+    "@humba01:registry": "https://npm.pkg.github.com"
   }
 }

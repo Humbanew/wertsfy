@@ -1,4 +1,4 @@
-name: "@workflow-main"
+name: "workflow-main"
 
 on:
   push:

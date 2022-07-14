@@ -16,6 +16,10 @@
 ![Github](https://img.shields.io/github/languages/count/Humba01/Wertsfy?color=darkturquoise&style=for-the-badge)
 ![Github](https://img.shields.io/github/stars/Humba01/Wertsfy?color=powderblue&style=for-the-badge)
 
+![NPM](https://img.shields.io/npm/l/wertsfy?color=maroon&style=for-the-badge)
+![NPM](https://img.shields.io/npm/dt/wertsfy?color=darkorchid&style=for-the-badge)
+![Github](https://img.shields.io/github/last-commit/Humba01/Wertsfy?color=lightseagreen&logoColor=black&style=for-the-badge)
+
 ---
 
 ![Wertsfy-New-Logo](https://user-images.githubusercontent.com/59739253/176809652-3cee6edb-27a3-479e-bb86-1ee1de9b8f6e.png)

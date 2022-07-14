@@ -13,8 +13,3 @@ jobs:
       - name: Fazendo Checkout
         uses: actions/checkout@v2
 
-  wty-workflow-lint:
-  
-  wty-workflow-optimize:
-
-  wty-workflow-servers:

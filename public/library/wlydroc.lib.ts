@@ -23,7 +23,11 @@ class wLydroc {
   }
 
   // tags customizadas;
-  protected criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string) { }
+  protected criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string) {
+
+    const elemento = class CustomHTMLElement extends HTMLElement { };
+
+  }
 
   /**
    * @augments id1 id do elemento base do vínculo a ser gerado. **[ Type: ``string`` ]**.

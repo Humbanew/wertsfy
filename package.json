@@ -1,6 +1,6 @@
 {
   "name": "wertsfy",
-  "version": "1.0.0-3-betaII",
+  "version": "1.0.0-4-betaII",
   "description": "Wertsfy - Ultimate API of Things.",
   "main": "copyfile.js",
   "scripts": {

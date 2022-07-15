@@ -1,0 +1,9 @@
+# Configuracao do dockerfile
+FROM ubuntu:latest
+RUN mkdir application
+RUN cd application
+RUN apt-get update
+RUN apt-get install -y php
+RUN apt-get install -y php-fpm
+RUN apt-get install -y php-mysql
+RUN apt-get install -y php-curl

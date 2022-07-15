@@ -1,25 +1,17 @@
 {
   "recommendations": [
-    "raidou.calc",
-    "github.copilot",
-    "trixnz.go-to-method",
-    "visualstudioexptteam.intellicode-api-usage-examples",
-    "huacat.office-theme",
+    "ms-vscode-remote.vscode-remote-extensionpack",
     "ms-ceintl.vscode-language-pack-pt-br",
-    "tal7aouy.rainbow-bracket",
-    "donjayamanne.git-extension-pack",
-    "donjayamanne.githistory",
-    "microsoft-isvexptools.powerplatform-vscode",
-    "njzy.stats-bar",
+    "ms-vscode-remote.remote-ssh-edit",
     "ms-azuretools.vscode-docker",
+    "tal7aouy.rainbow-bracket",
     "naumovs.color-highlight",
+    "github.copilot",
+    "raidou.calc",
     "shd101wyy.markdown-preview-enhanced",
+    "techer.open-in-browser",
     "davidanson.vscode-markdownlint",
-    "eamodio.gitlens",
-    "anwar.papyrus-pdf",
-    "eliverlara.sweet-vscode-icons",
-    "pkief.material-icon-theme",
-    "aaron-bond.better-comments",
-    "Babobski.jsregextester"
+    "zhuangtongfa.material-theme",
+    "PKief.material-icon-theme"
   ]
 }

@@ -1,1 +1,6 @@
-{}
+{
+  "compilerOptions": {
+    "outDir": "./production",
+    "target": "es2022",
+  }
+}

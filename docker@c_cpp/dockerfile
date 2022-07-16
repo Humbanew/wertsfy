@@ -1,0 +1,2 @@
+# Configuração do dockerfile
+FROM ubuntu:latest

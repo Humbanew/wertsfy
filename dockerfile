@@ -1,9 +1,7 @@
 # Configuracao do dockerfile
 FROM ubuntu:latest
-RUN mkdir application
-RUN cd application
+ENV key=development
 RUN apt-get update
-RUN apt-get install -y nodejs
-RUN apt-get install -y npm
+RUN apt-get install -y nodejs npm docker
 RUN npm i -g typescript
-RUN npx tsc ./public/library/ -outDir ./test/library/
+CMD npx tsc ./public/wertsfy.ts -outDir ./test/

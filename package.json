@@ -21,6 +21,7 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
+    "chromium": "^3.0.3",
     "prettiest": "^1.1.0",
     "shelljs": "^0.8.5",
     "shelljs.exec": "^1.1.8",

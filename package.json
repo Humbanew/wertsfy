@@ -4,7 +4,7 @@
   "description": "Wertsfy - Ultimate API of Things.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": ""
   },
   "repository": {
     "type": "git",

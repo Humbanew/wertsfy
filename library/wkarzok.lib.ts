@@ -1,13 +1,1 @@
-class wKarzok {
-
-  protected minecraftBlockstates = () => { };
-
-  protected minecraftModelBlocks = () => { };
-
-  protected minecraftModelItems = () => { };
-
-  protected minecraftLangFile = () => { };
-
-  protected minecraftTextFile = () => { };
-
-} export var WKarzok = new wKarzok();
+class wKarzok { } export var WKarzok = new wKarzok();

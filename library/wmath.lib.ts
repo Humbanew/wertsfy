@@ -1,108 +1,198 @@
-import { CBRT1, CBRT10, CBRT2, CBRT3, CBRT4, CBRT5, CBRT6, CBRT7, CBRT8, CBRT9, E, LN10, LN2, LOG10E, LOG2E, MAX_VALUE, MIN_VALUE, NA, NEWTON, PI, PLANCK, SQRT1, SQRT10, SQRT2, SQRT3, SQRT4, SQRT5, SQRT6, SQRT7, SQRT8, SQRT9, TESLA } from './wmath.def';
-
 class wMath {
 
+  /**
+   * @description Registra as propriedades desta biblioteca.
+   */
   protected prop = [ { regexps: { trigonometricos: /(\.)/gi, arcTrigonometricos: /(\.)?/gi } } ];
 
-  /** @description Constante PI. */
-  public pi = PI;
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @augments expo expoente do calculo. **[ Type: ``number`` ]**
+   * @description Retorna o valor do logaritmo desejado.
+   */
+  protected _log(expo: number, x: number): number {
+    let exp = expo , scan = x % exp;
 
-  /** @description Constante Euler. */
-  public euler = E;
+    while(scan != 0) {
+      scan = scan % exp;
 
-  /** @description Contante Plank. */
-  public plank = PLANCK;
+      if(expo ** exp != x) {   
+        if(expo ** exp != x) {
+          if (expo ** exp != x) {
+            exp += 0.0001;
+          }
+          exp += 0.001;
+        }
+        exp += 0.01; 
+      } 
+      exp += 0.1;
+    }
+    return exp;
+  };
+  
+  /** 
+   * @description **Constante de Arquimedes ou número de Ludoph.** |  _Archimedes or Ludoph number constant._ 
+   */
+  public PI = 3.141592653589793;
 
-  /** @description Constante Avogadro. */
-  public avogadro = NA;
+  /** 
+   * @description **Constante de Euler.** | _Euler constant._
+   */
+  public E = 2.7182818284590452353602874713527;
 
-  /** @description Constante Newton. */
-  public newton = NEWTON;
+  /** 
+   * @description **Constante de Planck.** | _Planck constant._
+   */
+  public PLANCK = 6.62606896e-34;
 
-  /** @description Constante Tesla. */
-  public tesla = TESLA;
+  /** 
+   * @description **Constante de Avogadro.** | _Avogadro constant._
+   */
+  public NA = 6.022140857e23;
 
-  /** @description Constante da raiz quadrada de 1. */
-  public sqrt1 = SQRT1;
+  /** 
+   * @description **Constante de Newton.** |  _Newton constant._
+   */
+  public NEWTON = 0.6931471805599453;
 
-  /** @description Constante da raiz quadrada de 2. */
-  public sqrt2 = SQRT2;
+  /** 
+   * @description **Constante de Tesla.** | _Tesla constant._
+   */
+  public TESLA = 1.6021766208e-19;
 
-  /** @description Constante da raiz quadrada de 3. */
-  public sqrt3 = SQRT3;
+  /** 
+   * @description **Constante da Raiz Quadrada de um.** | _Square root of one constant._ 
+   */
+  public SQRT1 = 1.0;
 
-  /** @description Constante da raiz quadrada de 4. */
-  public sqrt4 = SQRT4;
+  /** 
+   * @description **Constante da Raiz Quadrada de dois.** | _Square root of two constant._
+   */
+  public SQRT2 = 1.414213562373095;
 
-  /** @description Constante da raiz quadrada de 5. */
-  public sqrt5 = SQRT5;
+  /** 
+   * @description **Constante da Raiz Quadrada de tres.** | _Square root of three constant._ 
+   */
+  public SQRT3 = 1.732050807568877;
 
-  /** @description Constante da raiz quadrada de 6. */
-  public sqrt6 = SQRT6;
+  /** 
+   * @description **Constante da Raiz Quadrada de quatro.** | _Square root of four constant._ 
+   */
+  public SQRT4 = 2.0;
 
-  /** @description Constante da raiz quadrada de 7. */
-  public sqrt7 = SQRT7;
+  /** 
+   * @description **Constante da Raiz Quadrada de cinco.** | _Square root of five constant._ 
+   */
+  public SQRT5 = 2.23606797749979;
 
-  /** @description Constante da raiz quadrada de 8. */
-  public sqrt8 = SQRT8;
+  /** 
+   * @description **Constante da Raiz Quadrada de seis.** | _Square root of six constant._ 
+   */
+  public SQRT6 = 2.449489742783178;
 
-  /** @description Constante da raiz quadrada de 9. */
-  public sqrt9 = SQRT9;
+  /** 
+   * @description **Constante da Raiz Quadrada de sete.** | _Square root of seven constant._ 
+   */
+  public SQRT7 = 2.64575131106459;
 
-  /** @description Constante da raiz quadrada de 10. */
-  public sqrt10 = SQRT10;
+  /** 
+   * @description **Constante da Raiz Quadrada de oito.** | _Square root of eight constant._ 
+   */
+  public SQRT8 = 2.82842712474619;
 
-  /** @description Constante da raiz cúbica de 1. */
-  public cbrt1 = CBRT1;
+  /** 
+   * @description **Constante da Raiz Quadrada de nove.** | _Square root of nine constant._ 
+   */
+  public SQRT9 = 3.0;
 
-  /** @description Constante da raiz cúbica de 2. */
-  public cbrt2 = CBRT2;
+  /** 
+   * @description **Constante da Raiz Quadrada de dez.** | _Square root of ten constant._ 
+   */
+  public SQRT10 = 3.16227766016838;
 
-  /** @description Constante da raiz cúbica de 3. */
-  public cbrt3 = CBRT3;
+  /** 
+   * @description **Constante da Raiz Cúbica de um.** | _Cube root of one constant._ 
+   */
+  public CBRT1 = 1.0;
 
-  /** @description Constante da raiz cúbica de 4. */
-  public cbrt4 = CBRT4;
+  /** 
+   * @description **Constante da Raiz Cúbica de dois.** | _Cube root of two constant._ 
+   */
+  public CBRT2 = 1.25992104989487;
 
-  /** @description Constante da raiz cúbica de 5. */
-  public cbrt5 = CBRT5;
+  /** 
+   * @description **Constante da Raiz Cúbica de tres.** | _Cube root of three constant._ 
+   */
+  public CBRT3 = 1.5874010519682;
 
-  /** @description Constante da raiz cúbica de 6. */
-  public cbrt6 = CBRT6;
+  /** 
+   * @description **Constante da Raiz Cúbica de quatro.** | _Cube root of four constant._
+   */
+  public CBRT4 = 1.99999999999999;
 
-  /** @description Constante da raiz cúbica de 7. */
-  public cbrt7 = CBRT7;
+  /** 
+   * @description **Constante da Raiz Cúbica de cinco.** | _Cube root of five constant._ 
+   */
+  public CBRT5 = 2.23606797749979;
 
-  /** @description Constante da raiz cúbica de 8. */
-  public cbrt8 = CBRT8;
+  /** 
+   * @description **Constante da Raiz Cúbica de seis.** | _Cube root of six constant._ 
+   */
+  public CBRT6 = 2.58198889747161;
 
-  /** @description Constante da raiz cúbica de 9. */
-  public cbrt9 = CBRT9;
+  /** 
+   * @description **Constante da Raiz Cúbica de sete.** | _Cube root of seven constant._ 
+   */
+  public CBRT7 = 2.91293118277239;
 
-  /** @description Constante da raiz cúbica de 10. */
-  public cbrt10 = CBRT10;
+  /** 
+   * @description **Constante da Raiz Cúbica de oito.** | _Cube root of eight constant._
+   */
+  public CBRT8 = 3.26249509498958;
 
-  /** @description Constante do logarítmo natural de 2. */
-  public ln2 = LN2;
+  /** 
+   * @description **Constante da Raiz Cúbica de nove.** | _Cube root of nine constant._
+   */
+  public CBRT9 = 3.62449963442055;
 
-  /** @description Constante do logarítmo natural de 10. */
-  public ln10 = LN10;
+  /** 
+   * @description **Constante da Raiz Cúbica de dez.** | _Cube root of ten constant._ 
+   */
+  public CBRT10 = 3.99999999999999;
 
-  /** @description Constante do logarítmo de euler na base 2. */
-  public log2e = LOG2E;
+  /** 
+   * @description **Constante de Logaritmo Natural de dois.** | _Natural logarithm of two constant._ 
+   */
+  public LN2 = 0.6931471805599453;
 
-  /** @description Constante do logarítmo de euler na base 10. */
-  public log10e = LOG10E;
+  /** 
+   * @description **Constante de Logaritmo Natural de dez.** | _Natural logarithm of ten constant._ 
+   */
+  public LN10 = 2.302585092994046;
 
-  /** @description Constante do máximo valor possível. */
-  public maxValue = MAX_VALUE;
+  /** 
+   * @description **Constante de Logaritmo de 2.** | _Logarithm of 2 constant._
+   */
+  public LOG2E = 1.4426950408889634;
 
-  /** @description Constante do mínimo valor possível. */
-  public minValue = MIN_VALUE;
+  /** 
+   * @description **Constante de Logaritmo de 10.** | _Logarithm of 10 constant._ 
+   */
+  public LOG10E = 0.4342944819032518;
+
+  /** 
+   * @description **Maior valor numérico preciso possível.** | _Maximum accurate numeric value possible._
+   */
+  public MAX_VALUE = 999999999999999;
+
+  /** 
+   * @description **Menor valor númerico preciso possível.** | _Minimum accurate numeric value possible._
+   */
+  public MIN_VALUE = -999999999999999;
 
   /**
    *  @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   *  @description Retorna o valor absoluto de um número. 
+   *  @description **Retorna o valor absoluto de um número.** | _Returns the absolute value of a number._ 
    */
   public abs(x: number): number {
     return x < 0 ? -1 * x : x;
@@ -110,7 +200,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor absoluto de um número, porém negado. 
+   * @description **Retorna o valor absoluto de um número, porém negado.** | _Returns the absolute value of a number, but negated._ 
    */
   public absNeg(x: number): number {
     return -1 * (x < 0 ? -1 * x : x);
@@ -118,7 +208,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz quadrada de um número. 
+   * @description **Retorna o valor da raiz quadrada de um número.** | _Returns the square root of a number._
    */
   public sqrt(x: number): number {
     return x ** (1 / 2);
@@ -126,7 +216,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz quadrada de um número, porém negado. 
+   * @description **Retorna o valor da raiz quadrada de um número, porém negado.** | _Returns the square root of a number, but negated._ 
    */
   public sqrtNeg(x: number): number {
     return -1 * (x ** (1 / 2));
@@ -134,7 +224,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz cúbica de um número.
+   * @description **Retorna o valor da raiz cúbica de um número.** | _Returns the cube root of a number._
    */
   public cbrt(x: number): number {
     return x ** (1 / 3);
@@ -542,7 +632,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if(scan == true) { return NaN; } 
     
-    const resultado: number = (((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = (((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -554,7 +644,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (-1 * (((2 * WMath.pi * 1) / 4) / 90)) * x;
+    const resultado: number = (-1 * (((2 * this.PI * 1) / 4) / 90)) * x;
     return resultado;
   }
 
@@ -614,7 +704,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -626,7 +716,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * ((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (-1 * ((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -686,7 +776,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = (((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -698,7 +788,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = -1 * (((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = -1 * (((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -758,7 +848,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * WMath.pi * 1) / 4) / 90) * x;
+    const resultado: number = 1 / (((2 * this.PI * 1) / 4) / 90) * x;
     return resultado;
   }
 
@@ -770,7 +860,7 @@ class wMath {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * (((2 * WMath.pi * 1) / 4) / 90) * x);
+    const resultado: number = 1 / (-1 * (((2 * this.PI * 1) / 4) / 90) * x);
     return resultado;
   }
 
@@ -827,36 +917,10 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 2 de um número. 
    */
   public log2(x: number) {
-    
     if(x == 0) { return NaN; }
-
-    let exp = 2;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(2 ** exp != x) { 
-        
-        if(2 ** exp != x) {
-          
-          if (2 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(2, x);
+    return res;
   }
 
   /**
@@ -864,36 +928,10 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 2 de um número menos 1. 
    */
   public log2m1(x: number) {
-    
     if(x == 0) { return NaN; }
-
-    let exp = 2;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(2 ** exp != x) { 
-        
-        if(2 ** exp != x) {
-          
-          if (2 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(2, x);
+    return res - 1;
   }
 
 
@@ -902,36 +940,10 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 2 de um número mais 1. 
    */
   public log2p1(x: number) {
-    
     if(x == 0) { return NaN; }
-
-    let exp = 2;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(2 ** exp != x) { 
-        
-        if(2 ** exp != x) {
-          
-          if (2 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(2, x);
+    return res + 1;
   } 
 
   /**
@@ -940,34 +952,9 @@ class wMath {
    */
   public log3(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 3;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(3 ** exp != x) { 
-        
-        if(3 ** exp != x) {
-          
-          if (3 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(3, x);
+    return res;
   }
 
   /**
@@ -976,33 +963,9 @@ class wMath {
    */
   public log3m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 3;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(3 ** exp != x) {
-
-        if(3 ** exp != x) {
-
-          if(3 ** exp != x) {
-
-            exp += 0.0001;
-          }
-
-          exp += 0.001;
-        }
-
-        exp += 0.01;
-      }
-
-      exp += 0.1;
-    }
-
-    return exp - 1;
+    
+    let res = this._log(3, x);
+    return res - 1;
   }
 
   /**
@@ -1010,35 +973,10 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 3 de um número mais 1.
    */
   public log3p1(x: number) {
-    if (x == 0) { return NaN; }
-
-    let exp = 3;
-    let scan = x % exp;
-
-    while (scan != 0) {
-
-      scan = scan % exp;
-
-      if(3 ** exp != x) {
-
-        if(3 ** exp != x) {
-
-          if(3 ** exp != x) {
-
-            exp += 0.0001;
-          }
-
-          exp += 0.001;
-        }
-
-        exp += 0.01;
-      }
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    if(x == 0) { return NaN; }
+    
+    let res = this._log(3, x);
+    return res + 1;
   }
 
   /**
@@ -1047,34 +985,9 @@ class wMath {
    */
   public log4(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 4;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(4 ** exp != x) { 
-        
-        if(4 ** exp != x) {
-          
-          if(4 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(4, x);
+    return res;
   }
 
   /**
@@ -1083,34 +996,9 @@ class wMath {
    */
   public log4m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 4;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(4 ** exp != x) { 
-        
-        if(4 ** exp != x) {
-          
-          if(4 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(4, x);
+    return res - 1;
   }
 
   
@@ -1120,34 +1008,9 @@ class wMath {
    */
   public log4p1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 4;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(4 ** exp != x) { 
-        
-        if(4 ** exp != x) {
-          
-          if(4 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(4, x);
+    return res + 1;
   }
 
   /**
@@ -1156,34 +1019,9 @@ class wMath {
    */
   public log5(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 5;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(5 ** exp != x) { 
-        
-        if(5 ** exp != x) {
-          
-          if(5 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(5, x);
+    return res;
   }
 
   /**
@@ -1192,34 +1030,9 @@ class wMath {
    */
   public log5m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 5;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(5 ** exp != x) { 
-        
-        if(5 ** exp != x) {
-          
-          if(5 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(5, x);
+    return res - 1;
   }
 
   /**
@@ -1228,34 +1041,9 @@ class wMath {
    */
   public log5p1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 5;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(5 ** exp != x) { 
-        
-        if(5 ** exp != x) {
-          
-          if(5 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(5, x);
+    return res + 1;
   }
 
   /**
@@ -1264,34 +1052,9 @@ class wMath {
    */
   public log6(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 6;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(6 ** exp != x) { 
-        
-        if(6 ** exp != x) {
-          
-          if(6 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(6, x);
+    return res;
   }
 
   /**
@@ -1300,34 +1063,9 @@ class wMath {
    */
   public log6m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 6;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(6 ** exp != x) { 
-        
-        if(6 ** exp != x) {
-          
-          if(6 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(6, x);
+    return res - 1;
   }
 
   /**
@@ -1336,34 +1074,9 @@ class wMath {
    */
   public log6p1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 6;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(6 ** exp != x) { 
-        
-        if(6 ** exp != x) {
-          
-          if(6 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(6, x);
+    return res + 1;
   }
 
   /**
@@ -1372,34 +1085,9 @@ class wMath {
    */
   public log7(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 7;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(7 ** exp != x) { 
-        
-        if(7 ** exp != x) {
-          
-          if(7 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(7, x);
+    return res;
   }
 
   /**
@@ -1408,34 +1096,9 @@ class wMath {
    */
   public log7m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 7;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(7 ** exp != x) { 
-        
-        if(7 ** exp != x) {
-          
-          if(7 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(3, x);
+    return res - 1;
   }
 
   /**
@@ -1444,34 +1107,9 @@ class wMath {
    */
   public log7p1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 7;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(7 ** exp != x) { 
-        
-        if(7 ** exp != x) {
-          
-          if(7 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(7, x);
+    return res + 1;
   }
 
   /**
@@ -1480,34 +1118,9 @@ class wMath {
    */
   public log8(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 8;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(8 ** exp != x) { 
-        
-        if(8 ** exp != x) {
-          
-          if(8 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(8, x);
+    return res;
   }
 
   /**
@@ -1516,34 +1129,9 @@ class wMath {
    */
   public log8m1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 8;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(8 ** exp != x) { 
-        
-        if(8 ** exp != x) {
-          
-          if(8 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(8, x);
+    return res - 1;
   }
 
   /**
@@ -1551,35 +1139,9 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 8 de um número mais 1.
    */
   public log8p1(x: number) {
-    if(x == 0) { return NaN; }
-
-    let exp = 8;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(8 ** exp != x) { 
-        
-        if(8 ** exp != x) {
-          
-          if(8 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(8, x);
+    return res + 1;
   }
 
   /**
@@ -1588,34 +1150,9 @@ class wMath {
    */
   public log9(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 9;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(9 ** exp != x) { 
-        
-        if(9 ** exp != x) {
-          
-          if(9 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(9, x);
+    return res;
   }
 
   /**
@@ -1623,35 +1160,9 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 9 de um número menos 1.
    */
   public log9m1(x: number) {
-    if(x == 0) { return NaN; }
-
-    let exp = 9;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(9 ** exp != x) { 
-        
-        if(9 ** exp != x) {
-          
-          if(9 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(9, x);
+    return res - 1;
   }
 
   /**
@@ -1660,34 +1171,9 @@ class wMath {
    */
   public log9p1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 9;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(9 ** exp != x) { 
-        
-        if(9 ** exp != x) {
-          
-          if(9 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(9, x);
+    return res + 1;
   }
 
   /**
@@ -1696,34 +1182,9 @@ class wMath {
    */
   public log(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 10;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(10 ** exp != x) { 
-        
-        if(10 ** exp != x) {
-          
-          if(10 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(10, x);
+    return res;
   }
 
   /**
@@ -1732,34 +1193,9 @@ class wMath {
    */
   public logm1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = 10;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(10 ** exp != x) { 
-        
-        if(10 ** exp != x) {
-          
-          if(10 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(10, x);
+    return res - 1;
   }
 
   /**
@@ -1767,35 +1203,9 @@ class wMath {
    * @description Retorna o valor do logaritmo de base 10 de um número mais 1.
    */
   public logp1(x: number) {
-    if(x == 0) { return NaN; }
-
-    let exp = 10;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(10 ** exp != x) { 
-        
-        if(10 ** exp != x) {
-          
-          if(10 ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(10, x);
+    return res + 1;
   }
 
   /**
@@ -1804,34 +1214,9 @@ class wMath {
    */
   public logx(x: number, base: number) {
     if(x == 0) { return NaN; }
-
-    let exp = base;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(base ** exp != x) { 
-        
-        if(base ** exp != x) {
-          
-          if(base ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(base, x);
+    return res;
   }
 
   /**
@@ -1840,34 +1225,9 @@ class wMath {
    */
   public logxm1(x: number, base: number) {
     if(x == 0) { return NaN; }
-
-    let exp = base;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(base ** exp != x) { 
-        
-        if(base ** exp != x) {
-          
-          if(base ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(base, x);
+    return res - 1;
   }
 
   /**
@@ -1875,35 +1235,9 @@ class wMath {
    * @description Retorna o valor do logaritmo de base qualquer de um número mais 1.
    */
   public logxp1(x: number, base: number) {
-    if(x == 0) { return NaN; }
-
-    let exp = base;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(base ** exp != x) { 
-        
-        if(base ** exp != x) {
-          
-          if(base ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(base, x);
+    return res + 1;
   }
 
   /**
@@ -1912,34 +1246,9 @@ class wMath {
    */
   public ln(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = WMath.euler;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(WMath.euler ** exp != x) { 
-        
-        if(WMath.euler ** exp != x) {
-          
-          if(WMath.euler ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp;
+    
+    let res = this._log(this.E, x);
+    return res;
   }
 
   /**
@@ -1948,34 +1257,9 @@ class wMath {
    */
   public lnm1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = WMath.euler;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(WMath.euler ** exp != x) { 
-        
-        if(WMath.euler ** exp != x) {
-          
-          if(WMath.euler ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp - 1;
+    
+    let res = this._log(this.E, x);
+    return res - 1;
   }
 
   /**
@@ -1984,34 +1268,9 @@ class wMath {
    */
   public lnp1(x: number) {
     if(x == 0) { return NaN; }
-
-    let exp = WMath.euler;
-    let scan = x % exp;
-
-    while(scan != 0) {
-
-      scan = scan % exp;
-
-      if(WMath.euler ** exp != x) { 
-        
-        if(WMath.euler ** exp != x) {
-          
-          if(WMath.euler ** exp != x) {
-
-            exp += 0.0001;
-          }
-          
-          exp += 0.001;
-        }
-      
-        exp += 0.01; 
-      } 
-
-      exp += 0.1;
-
-    }
-
-    return exp + 1;
+    
+    let res = this._log(this.E, x);
+    return res + 1;
   }
 
   /**

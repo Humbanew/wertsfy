@@ -232,7 +232,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz cúbica de um número, porém negado. 
+   * @description **Retorna o valor da raiz cúbica de um número, porém negado.** | _Returns the cube root of a number, but negated._ 
    */
   public cbrtNeg(x: number): number {
     return -1 * (x ** (1 / 3));
@@ -240,7 +240,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à quarta potência de um número. 
+   * @description **Retorna o valor da raiz à quarta potência de um número.** | _Returns the fourth root of a number._ 
    */
   public quart(x: number): number {
     return x ** (1 / 4);
@@ -248,7 +248,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à quarta potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à quarta potência de um número, porém negado.** | _Returns the fourth root of a number, but negated._ 
    */
   public quartNeg(x: number): number {
     return -1 * (x ** (1 / 4));
@@ -256,7 +256,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
-   * @description Retorna o valor da raiz à quinta potência de um número. 
+   * @description **Retorna o valor da raiz à quinta potência de um número.** | _Returns the fifth root of a number._ 
    */
   public quint(x: number): number {
     return x ** (1 / 5);
@@ -264,7 +264,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à quinta potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à quinta potência de um número, porém negado.** | _Returns the fifth root of a number, but negated._ 
    */
   public quintNeg(x: number): number {
     return -1 * (x ** (1 / 5));
@@ -272,7 +272,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à sexta potência de um número. 
+   * @description **Retorna o valor da raiz à sexta potência de um número.** | _Returns the sixth root of a number._ 
    */
   public sext(x: number): number {
     return x ** (1 / 6);
@@ -280,7 +280,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à sexta potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à sexta potência de um número, porém negado.** | _Returns the sixth root of a number, but negated._ 
    */
   public sextNeg(x: number): number {
     return -1 * (x ** (1 / 6));
@@ -288,7 +288,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à sétima potência de um número. 
+   * @description **Retorna o valor da raiz à sétima potência de um número.** | _Returns the seventh root of a number._ 
    */
   public sept(x: number): number {
     return x ** (1 / 7);
@@ -296,7 +296,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à sétima potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à sétima potência de um número, porém negado.** | _Returns the seventh root of a number, but negated._ 
    */
   public septNeg(x: number): number {
     return -1 * (x ** (1 / 7));
@@ -304,7 +304,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à oitava potência de um número. 
+   * @description **Retorna o valor da raiz à oitava potência de um número.** | _Returns the eighth root of a number._ 
    */
   public oct(x: number): number {
     return x ** (1 / 8);
@@ -312,7 +312,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à oitava potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à oitava potência de um número, porém negado.** | _Returns the eighth root of a number, but negated._ 
    */
   public octNeg(x: number): number {
     return -1 * (x ** (1 / 8));
@@ -320,7 +320,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à nona potência de um número. 
+   * @description **Retorna o valor da raiz à nona potência de um número.** | _Returns the ninth root of a number._ 
    */
   public non(x: number): number {
     return x ** (1 / 9);
@@ -328,7 +328,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à nona potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à nona potência de um número, porém negado.** | _Returns the ninth root of a number, but negated._ 
    */
   public nonNeg(x: number): number {
     return -1 * (x ** (1 / 9));
@@ -336,7 +336,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à décima potência de um número. 
+   * @description **Retorna o valor da raiz à décima potência de um número.** | _Returns the tenth root of a number._ 
    */
   public dec(x: number): number {
     return x ** (1 / 10);
@@ -344,7 +344,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da raiz à décima potência de um número, porém negado. 
+   * @description **Retorna o valor da raiz à décima potência de um número, porém negado.** | _Returns the tenth root of a number, but negated._ 
    */
   public decNeg(x: number): number {
     return -1 * (x ** (1 / 10));
@@ -352,7 +352,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de um número. 
+   * @description **Retorna o valor da potência de um número.** | _Returns the power of a number._ 
    */
   public pow(x: number, y: number): number {
     return x ** y;
@@ -360,7 +360,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de um número, porém negada. 
+   * @description **Retorna o valor da potência de um número, porém negada.** | _Returns the power of a number, but negated._ 
    */
   public powNeg(x: number, y: number): number {
     return -1 * (x ** y);
@@ -368,151 +368,151 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de dois. 
+   * @description **Retorna o valor da potência de dois.** | _Returns the power of two._ 
    */
-  public pow2(x: number): number {
-    return 2 ** x;
+  public pow2(y: number): number {
+    return 2 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de dois, porém negada. 
+   * @description **Retorna o valor da potência de dois, porém negada.** | _Returns the power of two, but negated._ 
    */
-  public pow2Neg(x: number): number {
-    return -1 * (2 ** x);
+  public pow2Neg(y: number): number {
+    return -1 * (2 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de três. 
+   * @description **Retorna o valor da potência de três.** | _Returns the power of three._ 
    */
-  public pow3(x: number): number {
-    return 3 ** x;
+  public pow3(y: number): number {
+    return 3 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de três, porém negada. 
+   * @description **Retorna o valor da potência de três, porém negada.** | _Returns the power of three, but negated._ 
    */
-  public pow3Neg(x: number): number {
-    return -1 * (3 ** x);
+  public pow3Neg(y: number): number {
+    return -1 * (3 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de quatro. 
+   * @description **Retorna o valor da potência de quatro.** | _Returns the power of four._ 
    */
-  public pow4(x: number): number {
-    return 4 ** x;
+  public pow4(y: number): number {
+    return 4 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de quatro, porém negada. 
+   * @description **Retorna o valor da potência de quatro, porém negada.** | _Returns the power of four, but negated._ 
    */
-  public pow4Neg(x: number): number {
-    return -1 * (4 ** x);
+  public pow4Neg(y: number): number {
+    return -1 * (4 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de cinco. 
+   * @description **Retorna o valor da potência de cinco.** | _Returns the power of five._ 
    */
-  public pow5(x: number): number {
-    return 5 ** x;
+  public pow5(y: number): number {
+    return 5 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de cinco, porém negada. 
+   * @description **Retorna o valor da potência de cinco, porém negada.** | _Returns the power of five, but negated._ 
    */
-  public pow5Neg(x: number): number {
-    return -1 * (5 ** x);
+  public pow5Neg(y: number): number {
+    return -1 * (5 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de seis. 
+   * @description **Retorna o valor da potência de six.** | _Returns the power of six._ 
    */
-  public pow6(x: number): number {
-    return 6 ** x;
+  public pow6(y: number): number {
+    return 6 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de seis, porém negada. 
+   * @description **Retorna o valor da potência de six, porém negada.** | _Returns the power of six, but negated._ 
    */
-  public pow6Neg(x: number): number {
-    return -1 * (6 ** x);
+  public pow6Neg(y: number): number {
+    return -1 * (6 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de sete. 
+   * @description **Retorna o valor da potência de sete.** | _Returns the power of seven._ 
    */
-  public pow7(x: number): number {
-    return 7 ** x;
+  public pow7(y: number): number {
+    return 7 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de sete, porém negada. 
+   * @description **Retorna o valor da potência de sete, porém negada.** | _Returns the power of seven, but negated._ 
    */
-  public pow7Neg(x: number): number {
-    return -1 * (7 ** x);
+  public pow7Neg(y: number): number {
+    return -1 * (7 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de oito. 
+   * @description **Retorna o valor da potência de oito.** | _Returns the power of eight._ 
    */
-  public pow8(x: number): number {
-    return 8 ** x;
+  public pow8(y: number): number {
+    return 8 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de oito, porém negada. 
+   * @description **Retorna o valor da potência de oito, porém negada.** | _Returns the power of eight, but negated._ 
    */
-  public pow8Neg(x: number): number {
-    return -1 * (8 ** x);
-  }
-
-  /**
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de nove. 
-   */
-  public pow9(x: number): number {
-    return 9 ** x;
+  public pow8Neg(y: number): number {
+    return -1 * (8 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de nove, porém negada. 
+   * @description **Retorna o valor da potência de nove.** | _Returns the power of nine._ 
    */
-  public pow9Neg(x: number): number {
-    return -1 * (9 ** x);
+  public pow9(y: number): number {
+    return 9 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de dez. 
+   * @description **Retorna o valor da potência de nove, porém negada.** | _Returns the power of nine, but negated._ 
    */
-  public pow10(x: number): number {
-    return 10 ** x;
+  public pow9Neg(y: number): number {
+    return -1 * (9 ** y);
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de dez, porém negada. 
+   * @description **Retorna o valor da potência de dez.** | _Returns the power of ten._ 
    */
-  public pow10Neg(x: number): number {
-    return -1 * (10 ** x);
+  public pow10(y: number): number {
+    return 10 ** y;
   }
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de potência um número. 
+   * @description **Retorna o valor da potência de dez, porém negada.** | _Returns the power of ten, but negated._ 
+   */
+  public pow10Neg(y: number): number {
+    return -1 * (10 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de potência um número.** | _Returns the power of a number._ 
    */
   public powOfPow(x: number, y: number, z?: number[]): number {
     let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
@@ -521,7 +521,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da potência de potência um número, porém negada. 
+   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the power of a number, but negated._ 
    */
   public powOfPowNeg(x: number, y: number, z?: number[]): number {
     let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
@@ -530,7 +530,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o maior número de uma sequência. 
+   * @description **Retorna o maior número de uma sequência.** | _Returns the largest number of a sequence._ 
    */
   public max(x: number[]): number {
     let max = x[0];
@@ -542,7 +542,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o menor número de uma sequência. 
+   * @description **Retorna o menor número de uma sequência.** | _Returns the smallest number of a sequence._ 
    */
   public min(x: number[]): number {
     let min = x[0];
@@ -554,7 +554,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor arredondado pra baixo de um número. 
+   * @description **Retorna o valor arredondado pra baixo de um número.** | _Returns the value rounded down of a number._ 
    */
   public round(x: number): number {
     const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
@@ -564,7 +564,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor arredondado pra cima de um número. 
+   * @description **Retorna o valor arredondado pra cima de um número.** | _Returns the value rounded up of a number._ 
    */
   public fround(x: number): number {
     const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
@@ -577,7 +577,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna um símbolo dizendo o sinal do número.
+   * @description **Retorna um símbolo dizendo o sinal do número.** | _Returns a symbol saying the sign of a number._
    */
   public sign(x: number): number {
     if (x > 0) {
@@ -590,7 +590,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor sem partes de pronto flutuante de um número.
+   * @description **Retorna o valor sem partes de pronto flutuante de um número.** | _Returns the value without floating parts of a number._
    */
   public trunc(x: number): number {
     return parseInt(x.toString());
@@ -598,7 +598,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor de uma multiplicação de inteiro de 32-bit.
+   * @description **Retorna o valor de uma multiplicação de inteiro de 32-bit.** | _Returns the value of a 32-bit integer multiplication._
    */
   public imul(x: number, y: number): number {
     return x * y;
@@ -606,7 +606,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o menor inteiro que é menor ou igual a um número.
+   * @description **Retorna o menor inteiro que é menor ou igual a um número.** | _Returns the smallest integer that is less than or equal to a number._
    */
   public ceil(x: number): number {
     if (x < x + 0.5) {
@@ -616,7 +616,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o maior inteiro que é maior ou igual a um número.
+   * @description **Retorna o maior inteiro que é maior ou igual a um número.** | _Returns the largest integer that is greater than or equal to a number._
    */
   public floor(x: number): number {
     if (x > x + 0.5) {
@@ -626,7 +626,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do seno de um número. 
+   * @description **Retorna o valor do seno de um número.** | _Returns the value of the sine of a number._ 
    */
   public sin(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -638,7 +638,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do cosseno de um número.
+   * @description **Retorna o valor do cosseno de um número.** | _Returns the value of the cosine of a number._
    */
   protected cos(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -650,7 +650,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da tangente de um número.
+   * @description **Retorna o valor da tangente de um número.** | _Returns the value of the tangent of a number._
    */
   protected tan(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -662,7 +662,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da secante de um número.
+   * @description **Retorna o valor da secante de um número.** | _Returns the value of the secant of a number._
    */
   protected sec(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -674,7 +674,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cosecante de um número.
+   * @description **Retorna o valor da cosecante de um número.** | _Returns the value of the cosecant of a number._
    */
   protected cosec(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -686,7 +686,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cotangente de um número.
+   * @description **Retorna o valor da cotangente de um número.** | _Returns the value of the cotangent of a number._
    */
   protected cotan(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -698,7 +698,7 @@ class wMath {
   
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do seno hiperbólico de um número.
+   * @description **Retorna o valor do seno hiperbólico de um número.** | _Returns the value of the hyperbolic sine of a number._
    */
   protected sinh(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -710,7 +710,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do cosseno hiperbólico de um número.
+   * @description **Retorna o valor do cosseno hiperbólico de um número.** | _Returns the value of the hyperbolic cosine of a number._
    */
   protected cosh(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -722,7 +722,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da tangente hiperbólica de um número.
+   * @description **Retorna o valor da tangente hiperbólica de um número.** | _Returns the value of the hyperbolic tangent of a number._
    */
   protected tanh(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -734,7 +734,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da secante hiperbólica de um número.
+   * @description **Retorna o valor da secante hiperbólica de um número.** | _Returns the value of the hyperbolic secant of a number._
    */
   protected sech(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -746,7 +746,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cosecante hiperbólica de um número.
+   * @description **Retorna o valor da cosecante hiperbólica de um número.** | _Returns the value of the hyperbolic cosecant of a number._
    */
   protected cosech(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -758,7 +758,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor da cotangente hiperbólica de um número.
+   * @description **Retorna o valor da cotangente hiperbólica de um número.** | _Returns the value of the hyperbolic cotangent of a number._
    */
   protected cotanh(x: number) {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
@@ -770,7 +770,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco seno de um número.
+   * @description **Retorna o valor do arco seno de um número.** | _Returns the value of the arc sine of a number._
    */
   protected arcsin(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -782,7 +782,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cosseno de um número.
+   * @description **Retorna o valor do arco cosseno de um número.** | _Returns the value of the arc cosine of a number._
    */
   protected arccos(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -794,7 +794,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco tangente de um número.
+   * @description **Retorna o valor do arco tangente de um número.** | _Returns the value of the arc tangent of a number._
    */
   protected arctan(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -806,7 +806,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco secante de um número.
+   * @description **Retorna o valor do arco secante de um número.** | _Returns the value of the arc secant of a number._
    */
   protected arcsec(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -818,7 +818,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cosecante de um número.
+   * @description **Retorna o valor do arco cosecante de um número.** | _Returns the value of the arc cosecant of a number._
    */
   protected arccosec(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -830,7 +830,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cotangente de um número.
+   * @description **Retorna o valor do arco cotangente de um número.** | _Returns the value of the arc cotangent of a number._
    */
   protected arccotan(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -842,7 +842,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco seno hiperbólico de um número.
+   * @description **Retorna o valor do arco seno hiperbólico de um número.** | _Returns the value of the hyperbolic arc sine of a number._
    */
   protected arcsinh(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -854,7 +854,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cosseno hiperbólico de um número.
+   * @description **Retorna o valor do arco cosseno hiperbólico de um número.** | _Returns the value of the hyperbolic arc cosine of a number._
    */
   protected arccosh(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -866,7 +866,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco tangente hiperbólica de um número.
+   * @description **Retorna o valor do arco tangente hiperbólica de um número.** | _Returns the value of the hyperbolic arc tangent of a number._
    */
   protected arctanh(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -878,7 +878,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco secante hiperbólica de um número.
+   * @description **Retorna o valor do arco secante hiperbólica de um número.** | _Returns the value of the hyperbolic arc secant of a number._
    */
   protected arcsech(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -890,7 +890,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cosecante hiperbólica de um número.
+   * @description **Retorna o valor do arco cosecante hiperbólica de um número.** | _Returns the value of the hyperbolic arc cosecant of a number._
    */
   protected arccosech(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -902,7 +902,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do arco cotangente hiperbólica de um número.
+   * @description **Retorna o valor do arco cotangente hiperbólica de um número.** | _Returns the value of the hyperbolic arc cotangent of a number._
    */
   protected arccotanh(x: number) {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
@@ -914,7 +914,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
-   * @description Retorna o valor do logaritmo de base 2 de um número. 
+   * @description **Retorna o valor do logaritmo de base 2 de um número.** | _Returns the value of the base 2 logarithm of a number._ 
    */
   public log2(x: number) {
     if(x == 0) { return NaN; }
@@ -925,7 +925,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
-   * @description Retorna o valor do logaritmo de base 2 de um número menos 1. 
+   * @description **Retorna o valor do logaritmo de base 2 de um número menos 1.** | _Returns the value of the base 2 logarithm of a number minus 1._ 
    */
   public log2m1(x: number) {
     if(x == 0) { return NaN; }
@@ -937,7 +937,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
-   * @description Retorna o valor do logaritmo de base 2 de um número mais 1. 
+   * @description **Retorna o valor do logaritmo de base 2 de um número mais 1.** | _Returns the value of the base 2 logarithm of a number plus 1._ 
    */
   public log2p1(x: number) {
     if(x == 0) { return NaN; }
@@ -948,7 +948,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 3 de um número.
+   * @description **Retorna o valor do logaritmo de base 3 de um número.** | _Returns the value of the base 3 logarithm of a number._
    */
   public log3(x: number) {
     if(x == 0) { return NaN; }
@@ -959,7 +959,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 3 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 3 de um número menos 1.** | _Returns the value of the base 3 logarithm of a number minus 1._
    */
   public log3m1(x: number) {
     if(x == 0) { return NaN; }
@@ -970,7 +970,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 3 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 3 de um número mais 1.** | _Returns the value of the base 3 logarithm of a number plus 1._
    */
   public log3p1(x: number) {
     if(x == 0) { return NaN; }
@@ -981,7 +981,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 4 de um número.
+   * @description **Retorna o valor do logaritmo de base 4 de um número.** | _Returns the value of the base 4 logarithm of a number._
    */
   public log4(x: number) {
     if(x == 0) { return NaN; }
@@ -992,7 +992,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 4 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 4 de um número menos 1.** | _Returns the value of the base 4 logarithm of a number minus 1._
    */
   public log4m1(x: number) {
     if(x == 0) { return NaN; }
@@ -1004,7 +1004,7 @@ class wMath {
   
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 4 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 4 de um número mais 1.** | _Returns the value of the base 4 logarithm of a number plus 1._
    */
   public log4p1(x: number) {
     if(x == 0) { return NaN; }
@@ -1015,7 +1015,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 5 de um número.
+   * @description **Retorna o valor do logaritmo de base 5 de um número.** | _Returns the value of the base 5 logarithm of a number._
    */
   public log5(x: number) {
     if(x == 0) { return NaN; }
@@ -1026,7 +1026,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 5 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 5 de um número menos 1.** | _Returns the value of the base 5 logarithm of a number minus 1._
    */
   public log5m1(x: number) {
     if(x == 0) { return NaN; }
@@ -1037,7 +1037,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 5 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 5 de um número mais 1.** | _Returns the value of the base 5 logarithm of a number plus 1._
    */
   public log5p1(x: number) {
     if(x == 0) { return NaN; }
@@ -1048,7 +1048,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 6 de um número.
+   * @description **Retorna o valor do logaritmo de base 6 de um número.** | _Returns the value of the base 6 logarithm of a number._
    */
   public log6(x: number) {
     if(x == 0) { return NaN; }
@@ -1059,7 +1059,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 6 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 6 de um número menos 1.** | _Returns the value of the base 6 logarithm of a number minus 1._
    */
   public log6m1(x: number) {
     if(x == 0) { return NaN; }
@@ -1070,7 +1070,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 6 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 6 de um número mais 1.** | _Returns the value of the base 6 logarithm of a number plus 1._
    */
   public log6p1(x: number) {
     if(x == 0) { return NaN; }
@@ -1081,7 +1081,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 7 de um número.
+   * @description **Retorna o valor do logaritmo de base 7 de um número.** | _Returns the value of the base 7 logarithm of a number._
    */
   public log7(x: number) {
     if(x == 0) { return NaN; }
@@ -1092,7 +1092,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 7 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 7 de um número menos 1.** | _Returns the value of the base 7 logarithm of a number minus 1._
    */
   public log7m1(x: number) {
     if(x == 0) { return NaN; }
@@ -1103,7 +1103,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 7 de um número.
+   * @description **Retorna o valor do logaritmo de base 7 de um número.** | _Returns the value of the base 7 logarithm of a number._
    */
   public log7p1(x: number) {
     if(x == 0) { return NaN; }
@@ -1114,7 +1114,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 8 de um número.
+   * @description **Retorna o valor do logaritmo de base 8 de um número.** | _Returns the value of the base 8 logarithm of a number._
    */
   public log8(x: number) {
     if(x == 0) { return NaN; }
@@ -1125,7 +1125,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 8 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 8 de um número menos 1.** | _Returns the value of the base 8 logarithm of a number minus 1._
    */
   public log8m1(x: number) {
     if(x == 0) { return NaN; }
@@ -1136,7 +1136,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 8 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 8 de um número mais 1.** | _Returns the value of the base 8 logarithm of a number plus 1._
    */
   public log8p1(x: number) {
     
@@ -1146,7 +1146,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 9 de um número.
+   * @description **Retorna o valor do logaritmo de base 9 de um número.** | _Returns the value of the base 9 logarithm of a number._
    */
   public log9(x: number) {
     if(x == 0) { return NaN; }
@@ -1157,7 +1157,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 9 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 9 de um número menos 1.** | _Returns the value of the base 9 logarithm of a number minus 1._
    */
   public log9m1(x: number) {
     
@@ -1167,7 +1167,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 9 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 9 de um número mais 1.** | _Returns the value of the base 9 logarithm of a number plus 1._
    */
   public log9p1(x: number) {
     if(x == 0) { return NaN; }
@@ -1178,7 +1178,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 10 de um número.
+   * @description **Retorna o valor do logaritmo de base 10 de um número.** | _Returns the value of the base 10 logarithm of a number._
    */
   public log(x: number) {
     if(x == 0) { return NaN; }
@@ -1189,7 +1189,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 10 de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base 10 de um número menos 1.** | _Returns the value of the base 10 logarithm of a number minus 1._
    */
   public logm1(x: number) {
     if(x == 0) { return NaN; }
@@ -1200,7 +1200,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base 10 de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base 10 de um número mais 1.** | _Returns the value of the base 10 logarithm of a number plus 1._
    */
   public logp1(x: number) {
     
@@ -1210,7 +1210,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base qualquer de um número.
+   * @description **Retorna o valor do logaritmo de base qualquer de um número.** | _Returns the value of the base-any logarithm of a number._
    */
   public logx(x: number, base: number) {
     if(x == 0) { return NaN; }
@@ -1221,7 +1221,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base qualquer de um número menos 1.
+   * @description **Retorna o valor do logaritmo de base qualquer de um número menos 1.** | _Returns the value of the base-any logarithm of a number minus 1._
    */
   public logxm1(x: number, base: number) {
     if(x == 0) { return NaN; }
@@ -1232,7 +1232,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo de base qualquer de um número mais 1.
+   * @description **Retorna o valor do logaritmo de base qualquer de um número mais 1.** | _Returns the value of the base-any logarithm of a number plus 1._
    */
   public logxp1(x: number, base: number) {
     
@@ -1242,7 +1242,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo natural de um número.
+   * @description **Retorna o valor do logaritmo natural de um número.** | _Returns the value of the natural logarithm of a number._
    */
   public ln(x: number) {
     if(x == 0) { return NaN; }
@@ -1253,7 +1253,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo natural de um número menos 1.
+   * @description **Retorna o valor do logaritmo natural de um número menos 1.** | _Returns the value of the natural logarithm of a number minus 1._
    */
   public lnm1(x: number) {
     if(x == 0) { return NaN; }
@@ -1264,7 +1264,7 @@ class wMath {
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description Retorna o valor do logaritmo natural de um número mais 1.
+   * @description **Retorna o valor do logaritmo natural de um número mais 1.** | _Returns the value of the natural logarithm of a number plus 1._
    */
   public lnp1(x: number) {
     if(x == 0) { return NaN; }
@@ -1275,7 +1275,7 @@ class wMath {
 
   /**
    * @augments x entrada de um multiplicador. **[ Type: ``number`` ]**
-   * @description Retorna um valor aleatório.
+   * @description **Retorna um valor aleatório.** | _Returns a random value._
    */
   public random(x: number): number {
     const rand: number = (Int8Array.of(400).length / Int8Array.of(200).length) * x;

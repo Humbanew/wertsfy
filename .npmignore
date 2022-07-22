@@ -3,4 +3,16 @@
 /.vscode/
 /.github/
 /.git/
+/docker@c_cpp/
+/docker@php/
+/wiki/
+/Wertsfy.wiki/
+/KartaboApplications/
+/Kambler/
 /public/
+/database/
+/library/next/
+/library/wkarzok.lib.ts
+/library/wexceptions.lib.ts
+/library/wcli.exec.py
+/library/wtransform.py

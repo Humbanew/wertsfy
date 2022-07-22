@@ -1,2 +1,4 @@
-/node-modules/
-/vendor/
+bin
+boot
+etc
+dev

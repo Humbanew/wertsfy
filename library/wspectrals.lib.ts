@@ -1,4 +1,4 @@
-import {Schemas, StructureColor} from './wspectrals.lib.d';
+import {Schemas, StructureColor} from './wspectrals.def';
 
 class wSpectrals {
 

@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "outDir": "./production",
     "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
   }
 }

@@ -2,18 +2,26 @@
 FROM ubuntu:latest 
 FROM node:latest
 
-WORKDIR /app
+WORKDIR /conteiner
 
-COPY package.json /app
+COPY tsconfig.json /conteiner/tsconfig.json
 
-COPY tsconfig.json /app
+COPY package.json /conteiner/package.json
 
-COPY /library /app/library
+COPY /library/wmath.lib.ts /conteiner/library/wmath.lib.ts
 
-RUN ls -al
+COPY /library/wmath.def.ts /conteiner/library/wmath.def.ts
 
-RUN npm install
+RUN npm install 
 
-RUN npx tsc ./library/wlydroc.lib.ts --outDir ./library/escape/
+RUN npx tsc ./library/wmath.lib.ts ./library/wmath.def.ts --outDir ./ultimate/ 
 
-CMD []
+RUN rm -r /conteiner/node_modules/
+
+RUN rm -r /conteiner/library/
+
+RUN rm -r /conteiner/package.json
+
+RUN rm -r /conteiner/package-lock.json
+
+RUN rm -r /conteiner/tsconfig.json

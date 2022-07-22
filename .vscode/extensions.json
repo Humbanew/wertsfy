@@ -12,6 +12,7 @@
     "techer.open-in-browser",
     "davidanson.vscode-markdownlint",
     "zhuangtongfa.material-theme",
-    "PKief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "vscode-icons-team.vscode-icons"
   ]
 }

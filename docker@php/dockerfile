@@ -1,4 +1,0 @@
-# Configuracao do dockerfile
-FROM ubuntu:latest
-ENV key=development
-RUN apt-get update

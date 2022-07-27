@@ -515,8 +515,12 @@ class wMath {
    * @description **Retorna o valor da potência de potência um número.** | _Returns the power of a number._ 
    */
   public powOfPow(x: number, y: number, z?: number[]): number {
-    let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-    return x ** (y ** l);
+    let res;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return res = x ** (y ** l);
+    }
+    return res;
   }
 
   /** 
@@ -524,8 +528,12 @@ class wMath {
    * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the power of a number, but negated._ 
    */
   public powOfPowNeg(x: number, y: number, z?: number[]): number {
-    let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-    return -1 * (x ** (y ** l));
+    let res;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return res = -1 * x ** (y ** l);
+    }
+    return res;
   }
 
   /** 
@@ -558,7 +566,8 @@ class wMath {
    */
   public round(x: number): number {
     const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    const resultado = verificador.exec(x.toString());
+    let resultado;
+    resultado = verificador.exec(x.toString());
     return parseInt(resultado[0]);
   }
 
@@ -568,7 +577,8 @@ class wMath {
    */
   public fround(x: number): number {
     const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    const resultado = verificador.exec(x.toString());
+    let resultado;
+    resultado = verificador.exec(x.toString());
     if (parseFloat(resultado[1]) >= 0.5) {
       return parseInt(resultado[0] + 1);
     }
@@ -580,12 +590,10 @@ class wMath {
    * @description **Retorna um símbolo dizendo o sinal do número.** | _Returns a symbol saying the sign of a number._
    */
   public sign(x: number): number {
-    if (x > 0) {
-      return 1;
-    }
-    if (x < 0) {
-      return -1;
-    }
+    let v;
+    if (x > 0) { return v = 1; }
+    if (x < 0) { return v = -1; }
+    return v;
   }
 
   /**
@@ -609,9 +617,9 @@ class wMath {
    * @description **Retorna o menor inteiro que é menor ou igual a um número.** | _Returns the smallest integer that is less than or equal to a number._
    */
   public ceil(x: number): number {
-    if (x < x + 0.5) {
-      return parseInt(x.toString());
-    }
+    let v;
+    if (x < x + 0.5) { v = parseInt(x.toString()); }
+    return v;
   }
 
   /**
@@ -619,9 +627,9 @@ class wMath {
    * @description **Retorna o maior inteiro que é maior ou igual a um número.** | _Returns the largest integer that is greater than or equal to a number._
    */
   public floor(x: number): number {
-    if (x > x + 0.5) {
-      return parseInt(x.toString());
-    }
+    let v;
+    if (x > x + 0.5) { v = parseInt(x.toString()); }
+    return v;
   }
 
   /** 
@@ -1281,5 +1289,12 @@ class wMath {
     const rand: number = (Int8Array.of(400).length / Int8Array.of(200).length) * x;
     return rand; 
   }
+
+  // Update v1.2.0
+  protected exp() { }
+
+  protected expm1() { }
+
+  protected expp1() { }
 
 } export var WMath = new wMath();

@@ -4,7 +4,8 @@
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Humba01/Wertsfy/)
 [![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=black)](https://www.npmjs.com/package/wertsfy)
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://www.reddit.com/r/Wertsfy/)
-![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)
+![Twitter](https://img.shields.io/badge/Twitter-Comming_Soon-skyblue.svg?style=for-the-badge&logo=Twitter&logoColor=white&labelColor=blue)
+![Slack](https://img.shields.io/badge/Slack-Comming_Soon-blueviolet.svg?style=for-the-badge&logo=Slack&logoColor=white&labelColor=purple)
 
 ## Informations:<br></br>
 ![Github](https://img.shields.io/github/package-json/v/Humba01/Wertsfy?style=for-the-badge&color=blueviolet)

@@ -1233,6 +1233,10 @@ class wMath {
   }
 
   // Update v1.2.0
+
+  // 125 = 5 ^ 3;
+  // 4 = 2 ^ 2;
+  // 27 = 3 ^ 3;
   protected exp() { }
 
   protected expm1() { }

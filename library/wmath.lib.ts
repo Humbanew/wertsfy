@@ -515,12 +515,12 @@ class wMath {
    * @description **Retorna o valor da potência de potência um número.** | _Returns the power of a number._ 
    */
   public powOfPow(x: number, y: number, z?: number[]): number {
-    let res;
+    let rest;
     if(z != null) {
       let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return res = x ** (y ** l);
+      return rest = x ** (y ** l);
     }
-    return res;
+    return rest;
   }
 
   /** 
@@ -528,12 +528,12 @@ class wMath {
    * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the power of a number, but negated._ 
    */
   public powOfPowNeg(x: number, y: number, z?: number[]): number {
-    let res;
+    let rest;
     if(z != null) {
       let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return res = -1 * x ** (y ** l);
+      return rest = -1 * x ** (y ** l);
     }
-    return res;
+    return rest;
   }
 
   /** 
@@ -636,310 +636,284 @@ class wMath {
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do seno de um número.** | _Returns the value of the sine of a number._ 
    */
-  public sin(x: number) {
+  public sin(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if(scan == true) { return NaN; } 
     
-    const resultado: number = (((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return (((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do cosseno de um número.** | _Returns the value of the cosine of a number._
    */
-  public cos(x: number) {
+  public cos(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (-1 * (((2 * this.PI * 1) / 4) / 90)) * x;
-    return resultado;
+    return (-1 * (((2 * this.PI * 1) / 4) / 90)) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da tangente de um número.** | _Returns the value of the tangent of a number._
    */
-  public tan(x: number) {
+  public tan(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
     
-    const resultado: number = WMath.sin(x) / WMath.cos(x);
-    return resultado;
+    return WMath.sin(x) / WMath.cos(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da secante de um número.** | _Returns the value of the secant of a number._
    */
-  public sec(x: number) {
+  public sec(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / WMath.cos(x);
-    return resultado;
+    return 1 / WMath.cos(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da cosecante de um número.** | _Returns the value of the cosecant of a number._
    */
-  public cosec(x: number) {
+  public cosec(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / WMath.sin(x);
-    return resultado;
+    return 1 / WMath.sin(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da cotangente de um número.** | _Returns the value of the cotangent of a number._
    */
-  public cotan(x: number) {
+  public cotan(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (WMath.cos(x) / WMath.sin(x));
-    return resultado;
+    return 1 / (WMath.cos(x) / WMath.sin(x));
   }
   
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do seno hiperbólico de um número.** | _Returns the value of the hyperbolic sine of a number._
    */
-  public sinh(x: number) {
+  public sinh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return 1 / (((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do cosseno hiperbólico de um número.** | _Returns the value of the hyperbolic cosine of a number._
    */
-  public cosh(x: number) {
+  public cosh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * ((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return 1 / (-1 * ((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da tangente hiperbólica de um número.** | _Returns the value of the hyperbolic tangent of a number._
    */
-  public tanh(x: number) {
+  public tanh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (WMath.sin(x) / WMath.cos(x));
-    return resultado;
+    return 1 / (WMath.sin(x) / WMath.cos(x));
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da secante hiperbólica de um número.** | _Returns the value of the hyperbolic secant of a number._
    */
-  public sech(x: number) {
+  public sech(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / WMath.cosh(x);
-    return resultado;
+    return 1 / WMath.cosh(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da cosecante hiperbólica de um número.** | _Returns the value of the hyperbolic cosecant of a number._
    */
-  public cosech(x: number) {
+  public cosech(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / WMath.sinh(x);
-    return resultado;
+    return 1 / WMath.sinh(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor da cotangente hiperbólica de um número.** | _Returns the value of the hyperbolic cotangent of a number._
    */
-  public cotanh(x: number) {
+  public cotanh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.trigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (WMath.cosh(x) / WMath.sinh(x));
-    return resultado;
+    return 1 / (WMath.cosh(x) / WMath.sinh(x));
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco seno de um número.** | _Returns the value of the arc sine of a number._
    */
-  public arcsin(x: number) {
+  public arcsin(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return (((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cosseno de um número.** | _Returns the value of the arc cosine of a number._
    */
-  public arccos(x: number) {
+  public arccos(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = -1 * (((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return -1 * (((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco tangente de um número.** | _Returns the value of the arc tangent of a number._
    */
-  public arctan(x: number) {
+  public arctan(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = (this.arcsin(x) / this.arccos(x));
-    return resultado;
+    return (this.arcsin(x) / this.arccos(x));
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco secante de um número.** | _Returns the value of the arc secant of a number._
    */
-  public arcsec(x: number) {
+  public arcsec(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arccos(x);
-    return resultado;
+    return 1 / this.arccos(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cosecante de um número.** | _Returns the value of the arc cosecant of a number._
    */
-  public arccosec(x: number) {
+  public arccosec(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arcsin(x);
-    return resultado;
+    return 1 / this.arcsin(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cotangente de um número.** | _Returns the value of the arc cotangent of a number._
    */
-  public arccotan(x: number) {
+  public arccotan(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arctan(x);
-    return resultado;
+    return 1 / this.arctan(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco seno hiperbólico de um número.** | _Returns the value of the hyperbolic arc sine of a number._
    */
-  public arcsinh(x: number) {
+  public arcsinh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (((2 * this.PI * 1) / 4) / 90) * x;
-    return resultado;
+    return 1 / (((2 * this.PI * 1) / 4) / 90) * x;
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cosseno hiperbólico de um número.** | _Returns the value of the hyperbolic arc cosine of a number._
    */
-  public arccosh(x: number) {
+  public arccosh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (-1 * (((2 * this.PI * 1) / 4) / 90) * x);
-    return resultado;
+    return 1 / (-1 * (((2 * this.PI * 1) / 4) / 90) * x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco tangente hiperbólica de um número.** | _Returns the value of the hyperbolic arc tangent of a number._
    */
-  public arctanh(x: number) {
+  public arctanh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / (this.arcsinh(x) / this.arccosh(x));
-    return resultado;
+    return 1 / (this.arcsinh(x) / this.arccosh(x));
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco secante hiperbólica de um número.** | _Returns the value of the hyperbolic arc secant of a number._
    */
-  public arcsech(x: number) {
+  public arcsech(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arccosh(x);
-    return resultado;
+    return 1 / this.arccosh(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cosecante hiperbólica de um número.** | _Returns the value of the hyperbolic arc cosecant of a number._
    */
-  public arccosech(x: number) {
+  public arccosech(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arcsinh(x);
-    return resultado;
+    return 1 / this.arcsinh(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do arco cotangente hiperbólica de um número.** | _Returns the value of the hyperbolic arc cotangent of a number._
    */
-  public arccotanh(x: number) {
+  public arccotanh(x: number): number {
     const scan = RegExp(this.prop[0].regexps.arcTrigonometricos).test(x.toString());
     if (scan == true) { return NaN; }
 
-    const resultado: number = 1 / this.arctanh(x);
-    return resultado;
+    return 1 / this.arctanh(x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
    * @description **Retorna o valor do logaritmo de base 2 de um número.** | _Returns the value of the base 2 logarithm of a number._ 
    */
-  public log2(x: number) {
+  public log2(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(2, x);
-    return res;
+    return this._log(2, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
    * @description **Retorna o valor do logaritmo de base 2 de um número menos 1.** | _Returns the value of the base 2 logarithm of a number minus 1._ 
    */
-  public log2m1(x: number) {
+  public log2m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(2, x);
-    return res - 1;
+    return this._log(2 - 1, x);
   }
 
 
@@ -947,66 +921,60 @@ class wMath {
    * @augments x entrada do cálculo. **[ Type: ``number`` ]** 
    * @description **Retorna o valor do logaritmo de base 2 de um número mais 1.** | _Returns the value of the base 2 logarithm of a number plus 1._ 
    */
-  public log2p1(x: number) {
+  public log2p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(2, x);
-    return res + 1;
+    return this._log(2 + 1, x);
   } 
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 3 de um número.** | _Returns the value of the base 3 logarithm of a number._
    */
-  public log3(x: number) {
+  public log3(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(3, x);
-    return res;
+    return this._log(3, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 3 de um número menos 1.** | _Returns the value of the base 3 logarithm of a number minus 1._
    */
-  public log3m1(x: number) {
+  public log3m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(3, x);
-    return res - 1;
+    return this._log(3 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 3 de um número mais 1.** | _Returns the value of the base 3 logarithm of a number plus 1._
    */
-  public log3p1(x: number) {
+  public log3p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(3, x);
-    return res + 1;
+    return this._log(3 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 4 de um número.** | _Returns the value of the base 4 logarithm of a number._
    */
-  public log4(x: number) {
+  public log4(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(4, x);
-    return res;
+    return this._log(4, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 4 de um número menos 1.** | _Returns the value of the base 4 logarithm of a number minus 1._
    */
-  public log4m1(x: number) {
+  public log4m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(4, x);
-    return res - 1;
+    return this._log(4 - 1, x);
   }
 
   
@@ -1014,271 +982,246 @@ class wMath {
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 4 de um número mais 1.** | _Returns the value of the base 4 logarithm of a number plus 1._
    */
-  public log4p1(x: number) {
+  public log4p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(4, x);
-    return res + 1;
+    return this._log(4 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 5 de um número.** | _Returns the value of the base 5 logarithm of a number._
    */
-  public log5(x: number) {
+  public log5(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(5, x);
-    return res;
+    return this._log(5, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 5 de um número menos 1.** | _Returns the value of the base 5 logarithm of a number minus 1._
    */
-  public log5m1(x: number) {
+  public log5m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(5, x);
-    return res - 1;
+    return this._log(5 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 5 de um número mais 1.** | _Returns the value of the base 5 logarithm of a number plus 1._
    */
-  public log5p1(x: number) {
+  public log5p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(5, x);
-    return res + 1;
+    return this._log(5 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 6 de um número.** | _Returns the value of the base 6 logarithm of a number._
    */
-  public log6(x: number) {
+  public log6(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(6, x);
-    return res;
+    return this._log(6, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 6 de um número menos 1.** | _Returns the value of the base 6 logarithm of a number minus 1._
    */
-  public log6m1(x: number) {
+  public log6m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(6, x);
-    return res - 1;
+    return this._log(6 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 6 de um número mais 1.** | _Returns the value of the base 6 logarithm of a number plus 1._
    */
-  public log6p1(x: number) {
+  public log6p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(6, x);
-    return res + 1;
+    return this._log(6 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 7 de um número.** | _Returns the value of the base 7 logarithm of a number._
    */
-  public log7(x: number) {
+  public log7(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(7, x);
-    return res;
+    return this._log(7, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 7 de um número menos 1.** | _Returns the value of the base 7 logarithm of a number minus 1._
    */
-  public log7m1(x: number) {
+  public log7m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(3, x);
-    return res - 1;
+    return this._log(7 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 7 de um número.** | _Returns the value of the base 7 logarithm of a number._
    */
-  public log7p1(x: number) {
+  public log7p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(7, x);
-    return res + 1;
+    return this._log(7 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 8 de um número.** | _Returns the value of the base 8 logarithm of a number._
    */
-  public log8(x: number) {
+  public log8(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(8, x);
-    return res;
+    return this._log(8, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 8 de um número menos 1.** | _Returns the value of the base 8 logarithm of a number minus 1._
    */
-  public log8m1(x: number) {
+  public log8m1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(8, x);
-    return res - 1;
+    return this._log(8 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 8 de um número mais 1.** | _Returns the value of the base 8 logarithm of a number plus 1._
    */
-  public log8p1(x: number) {
+  public log8p1(x: number): number {
     
-    let res = this._log(8, x);
-    return res + 1;
+    return this._log(8 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 9 de um número.** | _Returns the value of the base 9 logarithm of a number._
    */
-  public log9(x: number) {
+  public log9(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(9, x);
-    return res;
+    return this._log(9, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 9 de um número menos 1.** | _Returns the value of the base 9 logarithm of a number minus 1._
    */
-  public log9m1(x: number) {
+  public log9m1(x: number): number {
     
-    let res = this._log(9, x);
-    return res - 1;
+    return this._log(9 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 9 de um número mais 1.** | _Returns the value of the base 9 logarithm of a number plus 1._
    */
-  public log9p1(x: number) {
+  public log9p1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(9, x);
-    return res + 1;
+    return this._log(9 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 10 de um número.** | _Returns the value of the base 10 logarithm of a number._
    */
-  public log(x: number) {
+  public log(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(10, x);
-    return res;
+    return this._log(10 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 10 de um número menos 1.** | _Returns the value of the base 10 logarithm of a number minus 1._
    */
-  public logm1(x: number) {
+  public logm1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(10, x);
-    return res - 1;
+    return this._log(10 - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base 10 de um número mais 1.** | _Returns the value of the base 10 logarithm of a number plus 1._
    */
-  public logp1(x: number) {
+  public logp1(x: number): number {
     
-    let res = this._log(10, x);
-    return res + 1;
+    return this._log(10 + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base qualquer de um número.** | _Returns the value of the base-any logarithm of a number._
    */
-  public logx(x: number, base: number) {
+  public logx(x: number, base: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(base, x);
-    return res;
+    return this._log(base, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base qualquer de um número menos 1.** | _Returns the value of the base-any logarithm of a number minus 1._
    */
-  public logxm1(x: number, base: number) {
+  public logxm1(x: number, base: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(base, x);
-    return res - 1;
+    return this._log(base - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo de base qualquer de um número mais 1.** | _Returns the value of the base-any logarithm of a number plus 1._
    */
-  public logxp1(x: number, base: number) {
+  public logxp1(x: number, base: number): number {
     
-    let res = this._log(base, x);
-    return res + 1;
+    return this._log(base + 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo natural de um número.** | _Returns the value of the natural logarithm of a number._
    */
-  public ln(x: number) {
+  public ln(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(this.E, x);
-    return res;
+    return this._log(this.E, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo natural de um número menos 1.** | _Returns the value of the natural logarithm of a number minus 1._
    */
-  public lnm1(x: number) {
+  public lnm1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(this.E, x);
-    return res - 1;
+    return this._log(this.E - 1, x);
   }
 
   /**
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
    * @description **Retorna o valor do logaritmo natural de um número mais 1.** | _Returns the value of the natural logarithm of a number plus 1._
    */
-  public lnp1(x: number) {
+  public lnp1(x: number): number {
     if(x == 0) { return NaN; }
     
-    let res = this._log(this.E, x);
-    return res + 1;
+    return this._log(this.E + 1, x);
   }
 
   /**

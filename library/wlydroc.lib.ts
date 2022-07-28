@@ -29,7 +29,7 @@ class wLydroc {
    * @augments extensao define a extensão do elemento a ser criado. **[ Type: ``HTMLElement`` ]**.
    * @description **Cria um novo elemento customizado.** | _Create a new custom element._
    */
-  public criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string, extensao?: HTMLElement): any {
+  public criaElementoCustomizado(tag: string, idElemento: string, herdeiro?: string, extensao?: Node|any): any {
 
     if(herdeiro != 'abbr'||'acronym'||'address'||'anchor'||'applet'||'area'||'article'||'audio'||'b'||'base'||'basefont'||'bdi'||'bdo'||'bgsound'||'big'||'blink'||'blockquote'||'body'||'br'||'button'||'canvas'||'caption'||'center'||'cite'||'code'||'col'||'colgroup'||'content'||'data'||'datalist'||'dd'||'del'||'details'||'dfn'||'dialog'||'dir'||'div'||'dl'||'dt'||'em'||'embed'||'fieldset'||'figcaption'||'figure'||'font'||'footer'||'form'||'frameset'||'h1'||'h2'||'h3'||'h4'||'h5'||'h6'||'head'||'header'||'hgroup'||'hr'||'html'||'i'||'iframe'||'image'||'img'||'input'||'ins'||'kbd'||'keygen'||'label'||'legend'||'li'||'link'||'main'||'map'||'mark'||'marquee'||'menu'||'menuitem'||'meta'||'meter'||'nav'||'nobr'||'noembed'||'noframes'||'noscript'||'object'||'ol'||'optgroup'||'option'||'output'||'paragraph'||'param'||'picture'||'plaintext'||'portal'||'pre'||'progress'||'q'||'rb'||'rp'||'rt'||'rtc'||'ruby'||'s'||'samp'||'script'||'section'||'select'||'shadow'||'slot'||'small'||'spacer'||'span'||'strike'||'strong'||'style'||'sub'||'summary'||'sup'||'table'||'tbody'||'td'||'template'||'textarea'||'tfoot'||'th'||'thead'||'time'||'title'||'tr'||'track'||'tt'||'u'||'ul'||'var'||'video'||'wbr'||'xmp') return 0;
 
@@ -58,7 +58,7 @@ class wLydroc {
   public adicionaVinculoAoElemento(id1: string, id2: string): void {
     const elemento1 = document.getElementById(id1);
     const elemento2 = document.getElementById(id2);
-    elemento1.appendChild(elemento2);
+    if(elemento1 != null && elemento2 != null) elemento1.appendChild(elemento2);
   }
 
   /**
@@ -69,7 +69,7 @@ class wLydroc {
    */
   public adicionaAtributoAoElemento(atributo: 'abbr'|'accept'|'accept-charset'|'accesskey'|'action'|'align'|'allow'|'allowfullscreen'|'allowpaymentrequest'|'allowusermedia'|'alt'|'as'|'async'|'autocomplete'|'autoplay'|'autosave'|'bgcolor'|'border'|'buffered'|'challenge'|'charset'|'checked'|'cite'|'class'|'code'|'codebase'|'color'|'download'|'draggable'|'dropzone'|'enctype'|'for'|'form'|'formaction'|'formenctype'|'formmethod'|'formnovalidate'|'formtarget'|'frameborder'|'headers'|'label'|'lang'|'list'|'loop'|'low'|'manifest'|'marginheight'|'marginwidth'|'max'|'maxlength'|'media'|'mediagroup'|'method'|'min'|'minlength'|'multiple'|'muted'|'name'|'nonce'|'novalidate'|'open'|'optimum'|'pattern'|'placeholder'|'playsinline'|'poster'|'preload'|'profile'|'radiogroup'|'readonly'|'referrerpolicy'|'rel'|'required'|'reversed'|'rows'|'rowspan'|'sandbox'|'scope'|'scoped'|'scrolling'|'seamless'|'selected'|'shape'|'size'|'sizes'|'span'|'spellcheck'|'src'|'srcdoc'|'srclang'|'srcset'|'start'|'step'|'style'|'tabindex'|'target'|'title'|'translate'|'type'|'usemap'|'value'|'width'|'wrap', idElemento: string, valor: string): void {
     const elemento = document.getElementById(idElemento);
-    elemento.setAttribute(atributo, valor);
+    if(elemento != null) elemento.setAttribute(atributo, valor);
   }
 
   /**
@@ -80,7 +80,7 @@ class wLydroc {
    */
   public adicionaAtributoAoElementoSVG(atributo: 'accent-height'|'accumulate-ascent'|'accumulate-descent'|'additive-operator'|'alignment-baseline'|'alphabetic'|'amplitude'|'arabic-form'|'ascent'|'attribute-name'|'attribute-namespace'|'attribute-type'|'azimuth'|'baseProfile'|'baseline-shift'|'bbox'|'begin'|'bias'|'by'|'calcMode'|'cap-height'|'class'|'clip'|'clip-path'|'clip-rule'|'clipPathUnits'|'color'|'color-interpolation'|'color-interpolation-filters'|'color-profile'|'color-rendering'|'content'|'contentScriptType'|'contentStyleType'|'contentType'|'cursor'|'cx'|'cy'|'d'|'decelerate'|'descent'|'diffuse-lighting'|'direction'|'display'|'divisor'|'dominant-baseline'|'dur'|'dx'|'dy'|'edge-mode'|'elevation'|'end'|'exponent'|'externalResourcesRequired'|'fill'|'fill-opacity'|'fill-rule'|'filter'|'filterRes'|'filterUnits'|'flood-color'|'flood-opacity'|'focusable'|'font-family'|'font-size'|'font-size-adjust'|'font-stretch'|'font-style'|'font-variant'|'font-weight'|'format'|'from'|'fx'|'fy'|'g1'|'g2'|'glyph-name'|'glyph-orientation-horizontal'|'glyph-orientation-vertical'|'glyphRef'|'gradientTransform'|'gradientUnits'|'hanging'|'height'|'href'|'horiz-adv-x'|'horiz-origin-x'|'horiz-origin-y'|'id'|'ideographic'|'image-rendering'|'in'|'in2'|'intercept'|'k'|'k1'|'k2'|'k3'|'k4'|'kernelMatrix'|'kernelUnitLength'|'kerning'|'keyPoints'|'keySplines'|'keyTimes'|'lengthAdjust'|'letter-spacing'|'lighting-color'|'limitingConeAngle'|'local'|'marker-end'|'marker-mid'|'marker-start'|'marker-units'|'markerHeight'|'markerUnits'|'markerWidth'|'mask'|'maskContentUnits'|'maskUnits'|'mathematical'|'mode'|'name'|'numOctaves'|'offset'|'opacity'|'operator'|'order'|'orient'|'orientation'|'origin'|'overflow'|'overline-position'|'overline-thickness'|'paint-order'|'path'|'pathLength'|'patternContentUnits'|'patternTransform'|'patternUnits'|'pointer-events'|'points'|'pointsAtX'|'pointsAtY'|'pointsAtZ'|'preserveAlpha'|'preserveAspectRatio'|'primitiveUnits'|'r'|'radius'|'refX'|'refY'|'rendering-intent'|'repeatCount'|'repeatDur'|'requiredExtensions'|'requiredFeatures'|'restart'|'results'|'rotate'|'rx'|'ry'|'scale'|'seed'|'shape-renderizing'|'slope'|'spacing'|'specularConstant'|'specularExponent'|'specularConstantAttr'|'specularExponentAttr'|'spreadMethod'|'startOffset'|'stdDeviation'|'stemh'|'stemv'|'stitchTiles'|'stop-color'|'stop-opacity'|'strikethrough-position'|'strikethrough-thickness'|'string'|'stroke'|'stroke-dasharray'|'stroke-dashoffset'|'stroke-linecap'|'stroke-linejoin'|'stroke-miterlimit'|'stroke-opacity'|'stroke-width'|'surfaceScale'|'systemLanguage'|'tableValues'|'target'|'targetX'|'targetY'|'text-anchor'|'text-decoration'|'text-rendering'|'textLength'|'to'|'transform'|'type'|'u1'|'u2'|'underline-position'|'underline-thickness'|'unicode'|'unicode-bidi'|'unicode-range'|'units-per-em'|'values'|'v-alphabetic'|'v-hanging'|'v-ideographic'|'v-mathematical'|'vector-effect'|'version'|'vert-adv-y'|'vert-origin-x'|'vert-origin-y'|'viewBox'|'viewTarget'|'visibility'|'width'|'widths'|'word-spacing'|'writing-mode'|'x'|'x-height'|'x1'|'x2'|'xChannelSelector'|'y'|'y1'|'y2'|'yChannelSelector'|'z'|'zoomAndPan', idElemento: string, valor: string): any {
     const elemento = document.getElementById(idElemento);
-    elemento.setAttribute(atributo, valor);
+    if(elemento != null) elemento.setAttribute(atributo, valor);
   }
 
   /**
@@ -90,7 +90,8 @@ class wLydroc {
    */
   public coletaAtributoDoElemento(atributo: string, idElemento: string): any {
     const elemento = document.getElementById(idElemento);
-    return elemento.getAttribute(atributo);
+    if(elemento!= null) elemento.getAttribute(atributo);
+    return elemento; 
   }
 
   /**

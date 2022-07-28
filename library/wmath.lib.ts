@@ -1229,8 +1229,7 @@ class wMath {
    * @description **Retorna um valor aleatório.** | _Returns a random value._
    */
   public random(x: number): number {
-    const rand: number = (Int8Array.of(400).length / Int8Array.of(200).length) * x;
-    return rand; 
+    return (Int8Array.of(400).length / Int8Array.of(200).length) * x;
   }
 
   // Update v1.2.0

@@ -8,10 +8,10 @@
     "naumovs.color-highlight",
     "github.copilot",
     "raidou.calc",
-    "shd101wyy.markdown-preview-enhanced",
     "techer.open-in-browser",
     "davidanson.vscode-markdownlint",
     "zhuangtongfa.material-theme",
-    "pkief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "searking.preview-vscode"
   ]
 }

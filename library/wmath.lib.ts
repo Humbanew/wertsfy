@@ -1232,15 +1232,31 @@ class wMath {
     return (Int8Array.of(400).length / Int8Array.of(200).length) * x;
   }
 
-  // Update v1.2.0
+  /**
+   * @augments base entrada de uma base. **[ Type: ``number`` ]**
+   * @augments valorLg entrada de um número. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da função exponencial.** | _Returns the value of the exponential function._
+   */
+  public exp(base: number, valorLg: number): number {
+    return WMath.logx(valorLg, base);
+  }
 
-  // 125 = 5 ^ 3;
-  // 4 = 2 ^ 2;
-  // 27 = 3 ^ 3;
-  protected exp() { }
+  /**
+   * @augments base entrada de uma base. **[ Type: ``number`` ]**
+   * @augments valorLg entrada de um número. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da função exponencial menos 1.** | _Returns the value of the exponential function minus 1._
+   */
+  public expm1(base: number, valorLg: number): number {
+    return WMath.logxm1(valorLg, base);
+  }
 
-  protected expm1() { }
-
-  protected expp1() { }
+  /**
+   * @augments base entrada de uma base. **[ Type: ``number`` ]**
+   * @augments valorLg entrada de um número. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da função exponencial mais 1.** | _Returns the value of the exponential function plus 1._ 
+   */
+  public expp1(base: number, valorLg: number): number {
+    return WMath.logxp1(valorLg, base);
+  }
 
 } export var WMath = new wMath();

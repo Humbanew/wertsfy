@@ -5,8 +5,13 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true,
     "alwaysStrict": true,
+    "rootDir": "./library/",
+    "outDir": "./dist/",
+    "declarationDir": "./dist-def/",
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "buildOptions": {
     "incremental": true,

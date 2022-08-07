@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./stylemain.css" />
+<style></style>
 
 <h1 class="ubuntu-font"> Wertsfy </h1>
 

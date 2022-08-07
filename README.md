@@ -27,7 +27,7 @@
 
 ---
 
-![Wertsfy-New-Logo](https://user-images.githubusercontent.com/59739253/176809652-3cee6edb-27a3-479e-bb86-1ee1de9b8f6e.png)
+![Wertsfy-Logotype-UltimateX](https://user-images.githubusercontent.com/59739253/183273922-3c3d5bd5-a86b-445a-a55e-ebf3a184ca7a.png)
 
 **Warning:** This package is still under development, if there are bugs, please report it. 
 

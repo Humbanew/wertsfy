@@ -146,167 +146,167 @@ ___
 >> **WMath.abs( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the absolute value of a number.
-> 
+>> 
 >> **WMath.absNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the absolute value of a number, but negated.
-> 
+>> 
 >> **WMath.sqrt( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the square root of a number.
-> 
+>> 
 >> **WMath.sqrtNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the square root of a number, but negated.
-> 
+>> 
 >> **WMath.cbrt( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the cube root of a number.
-> 
+>> 
 >> **WMath.cbrtNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the cube root of a number.
-> 
+>> 
 >> **WMath.quart( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the fourth root of a number.
-> 
+>> 
 >> **WMath.quartNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the fourth root of a number, but negated.
-> 
+>> 
 >> **WMath.quint( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the fifth root of a number.
-> 
+>> 
 >> **WMath.quintNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the fifth root of a number, but negated.
-> 
+>> 
 >> **WMath.sext( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the sixth root of a number.
-> 
+>> 
 >> **WMath.sextNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the sixth root of a number, but negated.
-> 
+>> 
 >> **WMath.sept( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the seventh root of a number.
-> 
+>> 
 >> **WMath.septNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the seventh root of a number, but negated.
-> 
+>> 
 >> **WMath.oct( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the eighth root of a number.
-> 
+>> 
 >> **WMath.octNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the eighth root of a number, but negated.
-> 
+>> 
 >> **WMath.non( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the ninth root of a number.
-> 
+>> 
 >> **WMath.nonNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the ninth root of a number, but negated.
->
+>>
 >> **WMath.dec( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the tenth root of a number.
-> 
+>> 
 >> **WMath.decNeg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the tenth root of a number, but negated.
-> 
+>> 
 >> **WMath.pow( x: number, y: number ): number**
 >>> Attrs: [x => calculation input (base)] [y => calculation input (index)]<br>
 >>> Description: Returns the potency of a number.
-> 
+>> 
 >> **WMath.powNeg( x: number, y:number ): number**
 >>> Attrs: [x => calculation input (base)] [y => calculation input (index)]<br>
 >>> Description: Returns the potency of a number, but negated.
-> 
+>> 
 >> **WMath.pow2( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of two.
-> 
+>> 
 >> **WMath.pow2Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of two, but negated.
-> 
+>> 
 >> **WMath.pow3( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of three.
-> 
+>> 
 >> **WMath.pow3Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of three, but negated.
-> 
+>> 
 >> **WMath.pow4( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of four.
-> 
+>> 
 >> **WMath.pow4Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of four, but negated.
-> 
+>> 
 >> **WMath.pow5( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of five.
-> 
+>> 
 >> **WMath.pow5Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of five, but negated.
-> 
+>> 
 >> **WMath.pow6( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of six.
-> 
+>> 
 >> **WMath.pow6Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of six, but negated.
-> 
+>> 
 >> **WMath.pow7( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of seven.
-> 
+>> 
 >> **WMath.pow7Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of seven, but negated.
-> 
+>> 
 >> **WMath.pow8( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of eight.
-> 
+>> 
 >> **WMath.pow8Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of eight, but negated.
-> 
+>> 
 >> **WMath.pow9( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of nine.
-> 
+>> 
 >> **WMath.pow9Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of nine, but negated.
-> 
+>> 
 >> **WMath.pow10( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of ten.
-> 
+>> 
 >> **WMath.pow10Neg( x: number ): number**
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns the potency of ten, but negated.
-> 
+>> 
 >> **WMath.powOfPow( x: number, y: number, z: number[] ): number**
 >>> Attrs: [x => calculation input (base)] [y => calculation input (index base)] [z => calculation input (index array)]<br>
 >>> Description: Returns the potency of potency of a number.
-> 
+>> 
 >> **WMath.powOfPowNeg( x: number, y: number, z: number[] ): number**
 >>> Attrs: [x => calculation input (base)] [y => calculation input (index base)] [z => calculation input (index array)]<br>
 >>> Description: Returns the potency of potency of a number, but negated.

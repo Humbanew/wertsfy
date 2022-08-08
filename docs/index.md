@@ -310,3 +310,283 @@ ___
 >> **WMath.powOfPowNeg( x: number, y: number, z: number[] ): number**
 >>> Attrs: [x => calculation input (base)] [y => calculation input (index base)] [z => calculation input (index array)]<br>
 >>> Description: Returns the potency of potency of a number, but negated.
+>> 
+>> **WMath.max( x: number ): number**
+>>> Attrs: [x => sequency number input]<br>
+>>> Description: Returns the maximum value of sequency.
+>> 
+>> **WMath.min( x: number ): number**
+>>> Attrs: [x => sequency number input]<br>
+>>> Description: Returns the minimum value of sequency.
+>> 
+>> **WMath.round( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value rounded down of a number. 
+>> 
+>> **WMath.fround( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value rounded up of a number.
+>> 
+>> **WMath.sign( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns a symbol saying the sign of a number.
+>> 
+>> **WMath.trunc( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value without floating parts of a number.
+>> 
+>> **WMath.imul( x: number, y: number ): number**
+>>> Attrs: [x => calculation input] [y => calculation input]<br>
+>>> Description: Returns the value of a 32-bit integer multiplication.
+>> 
+>> **WMath.ceil( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the smallest integer that is less than or equal to a number.
+>> 
+>> **WMath.floor( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the largest integer that is greater than or equal to a number.
+>> 
+>> **WMath.sin( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the sine of a number.
+>> 
+>> **WMath.cos( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the cosine of a number.
+>> 
+>> **WMath.tan( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the tangent of a number.
+>> 
+>> **WMath.sec( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the secant of a number.
+>> 
+>> **WMath.cosec( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the cosecant of a number.
+>> 
+>> **WMath.cotan( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the cotangent of a number.
+>> 
+>> **WMath.sinh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic sine of a number.
+>> 
+>> **WMath.cosh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic cosine of a number.
+>> 
+>> **WMath.tanh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic tangent of a number.
+>> 
+>> **WMath.sech( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic secant of a number.
+>> 
+>> **WMath.cosech( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic cosecant of a number.
+>> 
+>> **WMath.cotanh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic cotangent of a number.
+>> 
+>> **WMath.arcsin( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc sine of a number.
+>> 
+>> **WMath.arccos( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc cosine of a number.
+>> 
+>> **WMath.arctan( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc tangent of a number.
+>> 
+>> **WMath.arcsec( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc secant of a number.
+>> 
+>> **WMath.arccosec( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc cosecant of a number.
+>> 
+>> **WMath.arccotan( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the arc cotangent of a number.
+>> 
+>> **WMath.arcsinh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc sine of a number.
+>> 
+>> **WMath.arccosh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc cosine of a number.
+>> 
+>> **WMath.arctanh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc tangent of a number.
+>> 
+>> **WMath.arcsech( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc secant of a number.
+>> 
+>> **WMath.arccosech( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc cosecant of a number.
+>> 
+>> **WMath.arccotanh( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the hiperbolic arc cotangent of a number.
+>> 
+>> **WMath.log2( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 2 logarithm of a number.
+>> 
+>> **WMath.log2m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 2 logarithm of a number minus 1.
+>> 
+>> **WMath.log2p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 2 logarithm of a number plus 1.
+>> 
+>> **WMath.log3( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 3 logarithm of a number.
+>> 
+>> **WMath.log3m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 3 logarithm of a number minus 1.
+>> 
+>> **WMath.log3p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 3 logarithm of a number plus 1.
+>> 
+>> **WMath.log4( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 4 logarithm of a number.
+>> 
+>> **WMath.log4m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 4 logarithm of a number minus 1.
+>> 
+>> **WMath.log4p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 4 logarithm of a number plus 1.
+>> 
+>> **WMath.log5( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 5 logarithm of a number.
+>> 
+>> **WMath.log5m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 5 logarithm of a number minus 1.
+>> 
+>> **WMath.log5p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 5 logarithm of a number plus 1.
+>> 
+>> **WMath.log6( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 6 logarithm of a number.
+>> 
+>> **WMath.log6m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 6 logarithm of a number minus 1.
+>> 
+>> **WMath.log6p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 6 logarithm of a number plus 1.
+>> 
+>> **WMath.log7( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 7 logarithm of a number.
+>> 
+>> **WMath.log7m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 7 logarithm of a number minus 1.
+>> 
+>> **WMath.log7p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 7 logarithm of a number plus 1.
+>> 
+>> **WMath.log8( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 8 logarithm of a number.
+>> 
+>> **WMath.log8m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 8 logarithm of a number minus 1.
+>> 
+>> **WMath.log8p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 8 logarithm of a number plus 1.
+>> 
+>> **WMath.log9( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 9 logarithm of a number.
+>> 
+>> **WMath.log9m1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 9 logarithm of a number minus 1.
+>> 
+>> **WMath.log9p1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 9 logarithm of a number plus 1.
+>> 
+>> **WMath.log( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 10 logarithm of a number.
+>> 
+>> **WMath.logm1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 10 logarithm of a number minus 1.
+>> 
+>> **WMath.logp1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the base 10 logarithm of a number plus 1.
+>> 
+>> **WMath.logx( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the any base logarithm of a number.
+>> 
+>> **WMath.logxm1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the any base logarithm of a number minus 1.
+>> 
+>> **WMath.logxp1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the any base logarithm of a number plus 1.
+>> 
+>> **WMath.ln( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the natural logarithm of a number.
+>> 
+>> **WMath.lnm1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the natural logarithm of a number minus 1.
+>> 
+>> **WMath.lnp1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of the natural logarithm of a number plus 1.
+>> 
+>> **WMath.random( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns a random value.
+>> 
+>> **WMath.exp( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of exponencial function.
+>> 
+>> **WMath.expm1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of exponencial function minus 1.
+>> 
+>> **WMath.expp1( x: number ): number**
+>>> Attrs: [x => calculation input]<br>
+>>> Description: Returns the value of exponencial function plus 1.

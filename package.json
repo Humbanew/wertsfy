@@ -1,6 +1,6 @@
 {
   "name": "wertsfy",
-  "version": "1.2.0-3",
+  "version": "1.2.0-4",
   "description": "Wertsfy - Ultimate API of Things.",
   "main": "index.js",
   "scripts": {

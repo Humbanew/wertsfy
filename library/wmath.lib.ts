@@ -512,7 +512,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de potência um número.** | _Returns the potency of a number._ 
+   * @description **Retorna o valor da potência de potência um número.** | _Returns the potency of potency of a number._ 
    */
   public powOfPow(x: number, y: number, z?: number[]): number {
     let rest;
@@ -525,7 +525,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the potency of a number, but negated._ 
+   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the potency of potency of a number, but negated._ 
    */
   public powOfPowNeg(x: number, y: number, z?: number[]): number {
     let rest;

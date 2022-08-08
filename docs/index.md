@@ -1,4 +1,6 @@
-<head><link rel="shortcut icon" type="image/svg" href="./icon/hn_wertsfy_icon.svg"></head>
+<head>
+  <link rel="icon" href="./icon/hn_wertsfy_icon.svg"/>
+</head>
 
 # Wertsfy
 ___

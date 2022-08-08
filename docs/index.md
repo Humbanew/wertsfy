@@ -1,3 +1,5 @@
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+
 # Wertsfy
 ___
 ### **▬▧▣▧▣▧▣ Introduction ▧▣▧▣▧▣▬**

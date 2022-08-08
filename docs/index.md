@@ -1,7 +1,3 @@
-<head>
-  <link rel="icon" href="./icon/hn_wertsfy_icon.svg"/>
-</head>
-
 # Wertsfy
 ___
 ### **▬▧▣▧▣▧▣ Introduction ▧▣▧▣▧▣▬**

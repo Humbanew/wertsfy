@@ -352,7 +352,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de um número.** | _Returns the power of a number._ 
+   * @description **Retorna o valor da potência de um número.** | _Returns the potency of a number._ 
    */
   public pow(x: number, y: number): number {
     return x ** y;
@@ -360,7 +360,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de um número, porém negada.** | _Returns the power of a number, but negated._ 
+   * @description **Retorna o valor da potência de um número, porém negada.** | _Returns the potency of a number, but negated._ 
    */
   public powNeg(x: number, y: number): number {
     return -1 * (x ** y);
@@ -368,7 +368,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dois.** | _Returns the power of two._ 
+   * @description **Retorna o valor da potência de dois.** | _Returns the potency of two._ 
    */
   public pow2(y: number): number {
     return 2 ** y;
@@ -376,7 +376,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dois, porém negada.** | _Returns the power of two, but negated._ 
+   * @description **Retorna o valor da potência de dois, porém negada.** | _Returns the potency of two, but negated._ 
    */
   public pow2Neg(y: number): number {
     return -1 * (2 ** y);
@@ -384,7 +384,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de três.** | _Returns the power of three._ 
+   * @description **Retorna o valor da potência de três.** | _Returns the potency of three._ 
    */
   public pow3(y: number): number {
     return 3 ** y;
@@ -392,7 +392,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de três, porém negada.** | _Returns the power of three, but negated._ 
+   * @description **Retorna o valor da potência de três, porém negada.** | _Returns the potency of three, but negated._ 
    */
   public pow3Neg(y: number): number {
     return -1 * (3 ** y);
@@ -400,7 +400,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de quatro.** | _Returns the power of four._ 
+   * @description **Retorna o valor da potência de quatro.** | _Returns the potency of four._ 
    */
   public pow4(y: number): number {
     return 4 ** y;
@@ -408,7 +408,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de quatro, porém negada.** | _Returns the power of four, but negated._ 
+   * @description **Retorna o valor da potência de quatro, porém negada.** | _Returns the potency of four, but negated._ 
    */
   public pow4Neg(y: number): number {
     return -1 * (4 ** y);
@@ -416,7 +416,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de cinco.** | _Returns the power of five._ 
+   * @description **Retorna o valor da potência de cinco.** | _Returns the potency of five._ 
    */
   public pow5(y: number): number {
     return 5 ** y;
@@ -424,7 +424,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de cinco, porém negada.** | _Returns the power of five, but negated._ 
+   * @description **Retorna o valor da potência de cinco, porém negada.** | _Returns the potency of five, but negated._ 
    */
   public pow5Neg(y: number): number {
     return -1 * (5 ** y);
@@ -432,7 +432,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de six.** | _Returns the power of six._ 
+   * @description **Retorna o valor da potência de six.** | _Returns the potency of six._ 
    */
   public pow6(y: number): number {
     return 6 ** y;
@@ -440,7 +440,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de six, porém negada.** | _Returns the power of six, but negated._ 
+   * @description **Retorna o valor da potência de six, porém negada.** | _Returns the potency of six, but negated._ 
    */
   public pow6Neg(y: number): number {
     return -1 * (6 ** y);
@@ -448,7 +448,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de sete.** | _Returns the power of seven._ 
+   * @description **Retorna o valor da potência de sete.** | _Returns the potency of seven._ 
    */
   public pow7(y: number): number {
     return 7 ** y;
@@ -456,7 +456,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de sete, porém negada.** | _Returns the power of seven, but negated._ 
+   * @description **Retorna o valor da potência de sete, porém negada.** | _Returns the potency of seven, but negated._ 
    */
   public pow7Neg(y: number): number {
     return -1 * (7 ** y);
@@ -464,7 +464,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de oito.** | _Returns the power of eight._ 
+   * @description **Retorna o valor da potência de oito.** | _Returns the potency of eight._ 
    */
   public pow8(y: number): number {
     return 8 ** y;
@@ -472,7 +472,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de oito, porém negada.** | _Returns the power of eight, but negated._ 
+   * @description **Retorna o valor da potência de oito, porém negada.** | _Returns the potency of eight, but negated._ 
    */
   public pow8Neg(y: number): number {
     return -1 * (8 ** y);
@@ -480,7 +480,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de nove.** | _Returns the power of nine._ 
+   * @description **Retorna o valor da potência de nove.** | _Returns the potency of nine._ 
    */
   public pow9(y: number): number {
     return 9 ** y;
@@ -488,7 +488,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de nove, porém negada.** | _Returns the power of nine, but negated._ 
+   * @description **Retorna o valor da potência de nove, porém negada.** | _Returns the potency of nine, but negated._ 
    */
   public pow9Neg(y: number): number {
     return -1 * (9 ** y);
@@ -496,7 +496,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dez.** | _Returns the power of ten._ 
+   * @description **Retorna o valor da potência de dez.** | _Returns the potency of ten._ 
    */
   public pow10(y: number): number {
     return 10 ** y;
@@ -504,7 +504,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dez, porém negada.** | _Returns the power of ten, but negated._ 
+   * @description **Retorna o valor da potência de dez, porém negada.** | _Returns the potency of ten, but negated._ 
    */
   public pow10Neg(y: number): number {
     return -1 * (10 ** y);
@@ -512,7 +512,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de potência um número.** | _Returns the power of a number._ 
+   * @description **Retorna o valor da potência de potência um número.** | _Returns the potency of a number._ 
    */
   public powOfPow(x: number, y: number, z?: number[]): number {
     let rest;
@@ -525,7 +525,7 @@ class wMath {
 
   /** 
    * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the power of a number, but negated._ 
+   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the potency of a number, but negated._ 
    */
   public powOfPowNeg(x: number, y: number, z?: number[]): number {
     let rest;

@@ -1,3 +1,5 @@
+<head><link rel="shortcut icon" type="image/svg" href="https://github.com/Humba01/hn-assets-library-conteiner/blob/main/development/hn-icons/hn_wertsfy_icon.svg"></head>
+
 # Wertsfy
 ___
 ### **▬▧▣▧▣▧▣ Introduction ▧▣▧▣▧▣▬**

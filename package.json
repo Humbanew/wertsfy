@@ -4,7 +4,7 @@
   "description": "Wertsfy - Ultimate API of Things.",
   "main": "index.js",
   "scripts": {
-    "tsc": ""
+    "webserver": "npx gulp server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-devserver": "^0.6.4",
     "typescript": "^4.6.2"
   },
   "dependencies": {

@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var wlydroc_lib_1 = require("../library/wlydroc.lib");
+document.querySelector("html").id = "@wtfy-gh-pg-root";
+wlydroc_lib_1.WLydroc.adicionaVinculoAoElemento("@wtfy-gh-pg-root", "@wtfy-gh-pg-cab");
+wlydroc_lib_1.WLydroc.criaElementoComum("head", "@wtfy-gh-pg-cab");
+wlydroc_lib_1.WLydroc.criaElementoComum("link", "@wtfy-gh-pg-icon");
+wlydroc_lib_1.WLydroc.adicionaVinculoAoElemento("@wtfy-gh-pg-cab", "@wtfy-gh-pg-icon");
+wlydroc_lib_1.WLydroc.adicionaAtributoAoElemento("rel", "@wtfy-gh-pg-icon", "icon");
+wlydroc_lib_1.WLydroc.adicionaAtributoAoElemento("href", "@wtfy-gh-pg-icon", "./icons/favicon.png");

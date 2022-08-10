@@ -7,7 +7,7 @@ The API-type tool, Wertsfy, came with the objective of facilitating several task
 ___
 ### **▬▧▣▧▣▧▣ Info Wiki ▧▣▧▣▧▣▬**
 
-## ⨠ Libraries
+## Library WMath
 
 > **``wmath.lib.ts``**
 >
@@ -579,14 +579,14 @@ ___
 >>> Attrs: [x => calculation input]<br>
 >>> Description: Returns a random value.
 >> 
->> **WMath.exp( x: number ): number**
->>> Attrs: [x => calculation input]<br>
+>> **WMath.exp( base: number, valorLg: number ): number**
+>>> Attrs: [base => exp base] [valorLg => exp index]<br>
 >>> Description: Returns the value of exponencial function.
 >> 
->> **WMath.expm1( x: number ): number**
->>> Attrs: [x => calculation input]<br>
+>> **WMath.expm1( base: number, valorLg: number ): number**
+>>> Attrs: [x => calculation input] [valorLg => exp index]<br>
 >>> Description: Returns the value of exponencial function minus 1.
 >> 
->> **WMath.expp1( x: number ): number**
->>> Attrs: [x => calculation input]<br>
+>> **WMath.expp1( base: number, valorLg: number ): number**
+>>> Attrs: [x => calculation input] [valorLg => exp index]<br>
 >>> Description: Returns the value of exponencial function plus 1.

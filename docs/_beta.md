@@ -1,3 +1,3 @@
-## Library WLydroc
+## Library WSpectrals
 
-> **``wlydroc.lib.ts``**
+## Library WTerminal

@@ -7,6 +7,46 @@ The API-type tool, Wertsfy, came with the objective of facilitating several task
 ___
 ### **▬▧▣▧▣▧▣ Info Wiki ▧▣▧▣▧▣▬**
 
+## Library WLydroc
+
+> **``wlydroc.lib.ts``**
+>
+>> **WLydroc.criaElementoComum(tag: string-template, idElemento): HTMLElement**
+>>> Attrs: [tag => string-template] [idElemento => id html element]<br>
+>>> Description: Create a new html element.
+>>
+>> **WLydroc.criaElementoSVG(tag: string-template, idElemento): SVGElement**
+>>> Attrs: [tag => string-template] [idElemento => id html element]<br>
+>>> Description: Create a new svg element.
+>>
+>> **WLydroc.criaElementoCustomizado(tag: string-template, idElemento): HTMLElement**
+>>> Attrs: [tag => string-template] [idElemento => id html element]<br>
+>>> Description: Create a new custom element.
+>>
+>> **WLydroc.adicionaVinculoAoElemento(id1: string, id2: string): Void**
+>>> Attrs: [id1 => id html element] [id2 => id html element]<br>
+>>> Description: Add a link between two html elements.
+>>
+>> **WLydroc.adicionaAtributoAoElemento(atributo: string-template, idElemento: string, valor: string): Void**
+>>> Attrs: [atributo => string-template] [idElemento => id html element] [valor => string]<br>
+>>> Description: Add an attribute to an html element.
+>>
+>> **WLydroc.adicionaAtributoAoElementoSVG(atributo: string-template, idElemento: string, valor: string): Void**
+>>> Attrs: [atributo => string-template] [idElemento => id html element] [valor => string]<br>
+>>> Description: Add an attribute to an svg element.
+>>
+>> **WLydroc.coletaAtributoDoElemento(atributo: string, idElemento: string): Any**
+>>> Attrs: [atributo => string] [idElemento => id html element]<br>
+>>> Description: Generates a custom attribute.
+>>
+>> **WLydroc.defineFolhaDeEstilo(idFolhaDeEstilo: string, caminhoFolhaDeEstilo: string): Any**
+>>> Attrs: [idFolhaDeEstilo => id html element] [caminhoFolhaDeEstilo => string]<br>
+>>> Description: Defines a style sheet.
+>>
+>> **WLydroc.defineFolhaDeEstiloJS(idFolhaDeEstilo: string, caminhoFolhaDeEstilo: string): Any**
+>>> Attrs: [idFolhaDeEstilo => id html element] [caminhoFolhaDeEstilo => string]<br>
+>>> Description: Defines a style sheet for Javascript files.
+
 ## Library WMath
 
 > **``wmath.lib.ts``**

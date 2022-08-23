@@ -1,2 +1,3 @@
-const frameCommander = module.exports('')
+import commander from 'commander';
 
+commander.Command( 'convecter', () => { } );

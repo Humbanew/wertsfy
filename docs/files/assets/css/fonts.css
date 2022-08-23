@@ -1,8 +1,0 @@
-/* Imports */
-@import url(https://github.com/Humba01/hn-assets-library-conteiner/blob/main/development/hn-fonts/ChakraPetch-Light.ttf);
-@import url(https://github.com/Humba01/hn-assets-library-conteiner/blob/main/development/hn-fonts/Gugi-Regular.ttf);
-@import url(https://github.com/Humba01/hn-assets-library-conteiner/blob/main/development/hn-fonts/Ubuntu-Light.ttf);
-
-/* Setups */
-h1, h2, h3, h4, h5, h6 { font-family: 'ChakraPetch', sans-serif; }
-p, span { font-family: 'Ubuntu', sans-serif; }

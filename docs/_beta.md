@@ -1,3 +1,2 @@
 ## Library WSpectrals
 
-## Library WTerminal

@@ -1,3 +1,3 @@
 import commander from 'commander';
 
-commander.Command( 'convecter', () => { } );
+new commander.Command('conv').addArgument('--javascript');

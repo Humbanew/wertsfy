@@ -9,17 +9,10 @@
 [![Gmail](https://img.shields.io/badge/Email-Support-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=red)](mailto:support@humbanew.com.br)
 
 ## Informations:<br></br>
-![Github](https://img.shields.io/github/package-json/v/Humba01/Wertsfy?style=for-the-badge&color=blueviolet&labelColor=mintcream)
-![NPM](https://img.shields.io/npm/dt/wertsfy?color=darkorchid&style=for-the-badge&labelColor=mintcream)
-![Github](https://img.shields.io/github/stars/Humba01/Wertsfy?color=powderblue&style=for-the-badge&labelColor=mintcream)
-![NPM](https://img.shields.io/npm/l/wertsfy?color=maroon&style=for-the-badge&labelColor=mintcream)
-
-![Github](https://img.shields.io/github/commit-activity/w/Humba01/Wertsfy?color=red&style=for-the-badge&labelColor=mintcream)
-![Github](https://img.shields.io/github/last-commit/Humba01/Wertsfy?color=lightseagreen&logoColor=black&style=for-the-badge&labelColor=mintcream)
-
-![Github](https://img.shields.io/github/issues/Humba01/Wertsfy?color=yellow&style=for-the-badge&labelColor=mintcream)
-![Github](https://img.shields.io/github/issues-pr/Humba01/Wertsfy?color=blue&style=for-the-badge&labelColor=mintcream)
-![Github](https://img.shields.io/snyk/vulnerabilities/github/Humba01/Wertsfy?color=black&style=for-the-badge&labelColor=mintcream)
+![Github](https://img.shields.io/github/package-json/v/Humba01/Wertsfy?style=for-the-badge&color=blueviolet&labelColor=silver)
+![NPM](https://img.shields.io/npm/dt/wertsfy?color=darkorchid&style=for-the-badge&labelColor=silver)
+![NPM](https://img.shields.io/npm/l/wertsfy?color=maroon&style=for-the-badge&labelColor=silver)
+![Github](https://img.shields.io/github/stars/Humba01/Wertsfy?color=steelblue&style=for-the-badge&labelColor=silver)
 
 
 ## Languages:<br></br>

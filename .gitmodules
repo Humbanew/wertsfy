@@ -1,9 +1,0 @@
-[submodule "Wertsfy.wiki"]
-	path = Wertsfy.wiki
-	url = https://github.com/Humba01/Wertsfy.wiki.git
-[submodule "Kambler"]
-	path = Kambler
-	url = git@github.com:Humba01/Kambler.git
-[submodule "KartaboApplications"]
-	path = KartaboApplications
-	url = git@github.com:Humba01/KartaboApplications.git

@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Wertsfy - Ultimate API of Things.",
   "scripts": {
-    "webserver": "npx gulp server"
+    "none": ""
   },
   "repository": {
     "type": "git",

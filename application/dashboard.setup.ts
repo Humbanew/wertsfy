@@ -1,4 +1,4 @@
-/** @copyright Copyright 2021-2022 */
+/** @copyright Copyright 2020-2022 */
 const cmd = require('commander'), shell = require('shelljs');
 
 // Interfaces para a criação de libs

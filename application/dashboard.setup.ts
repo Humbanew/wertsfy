@@ -1,4 +1,3 @@
-let cmd = require('commander');
-let shell = require('shelljs');
+const cmd = require('commander');
+const shell = require('shelljs');
 
-class Dashboard { protected formatWertsfyMathematics = class WMath { }; }

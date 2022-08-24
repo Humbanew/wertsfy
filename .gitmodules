@@ -1,0 +1,3 @@
+[submodule "Kambler"]
+	path = Kambler
+	url = git@github.com:Humba01/Kambler.git

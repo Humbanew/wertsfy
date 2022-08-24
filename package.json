@@ -17,5 +17,9 @@
   "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
   "devDependencies": {
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "shelljs": "^0.8.5"
   }
 }

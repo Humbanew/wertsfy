@@ -1,4 +1,4 @@
-const cmd = require('commander'), shell = require('shelljs');
+import { Command } from "commander";
 
 // Interfaces para a criação de libs
 interface conteiner_funcao { id_conteiner: string|number, conteudoBloco: [] }
@@ -10,7 +10,20 @@ interface tokens_autenticador { tipo: string, formato: string, token_ligacao: st
 
 class Architectureboard {
 
+  public wertsfy_command_line_interface = class WCLI {
+
+    public CLI = new Command();
+    public cli_name = this.CLI.name('Wertsfy CLI');
+    public cli_version = this.CLI.version('v0.0.1-B');
+
+  };
+
   public wertsfy_mathematics = class WMath { };
-  
+  public wertsfy_terminal = class WTerminal { };
+  public wertsfy_spectrals = class WSpectrals { };
+  public wertsfy_lydroc = class WLydroc { };
+  public wertsfy_karzok = class WKarzok { };
+  public wersfty_blogmk = class WBlogmk { };
+
 
 } export var architectureboard = new Architectureboard();

@@ -10,6 +10,7 @@ interface tokens_autenticador { tipo: string, formato: string, token_ligacao: st
 
 class Architectureboard {
 
-  protected command_line_interface = [ ];
+  public wertsfy_mathematics = class WMath { };
+  
 
 } export var architectureboard = new Architectureboard();

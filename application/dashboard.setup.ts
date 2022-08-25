@@ -1,6 +1,6 @@
-/** @copyright Copyright 2020-2022 */
-const cmd = require('commander'), shell = require('shelljs');
+const cmd = require('commander'), shell = require('shelljs'), fs = require('fs');
 
 // Interfaces para a criação de libs
-interface constant_register { name: string, value: string, description: string }
-interface function_container { conteiner_id: string|number, contentBlock: [] }
+interface conteiner_funcao { id_conteiner: string|number, conteudoBloco: [] }
+interface registro_constante { nome: string, valor: string, descricao: string }
+interface registro_nomenclatura { nome: string, formato: string }

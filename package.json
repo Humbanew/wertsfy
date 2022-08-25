@@ -22,6 +22,7 @@
   "dependencies": {
     "commander": "^9.4.0",
     "fs": "^0.0.1-security",
+    "jasmine": "^4.3.0",
     "shelljs": "^0.8.5"
   }
 }

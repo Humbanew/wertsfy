@@ -8,4 +8,4 @@
 
 </div>
 
-![Wertsfy Infograph](https://user-images.githubusercontent.com/59739253/186737768-88002ea5-fcc7-4947-82f0-be65e1fd64d8.png)
+![Wertsfy Infograph v2](https://user-images.githubusercontent.com/59739253/186742979-e1fdc516-dcbd-4a41-afa9-4b3f09bed2d1.png)

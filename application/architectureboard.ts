@@ -1,4 +1,4 @@
-const cmd = require('commander'), shell = require('shelljs'), fs = require('fs');
+const cmd = require('commander'), shell = require('shelljs');
 
 // Interfaces para a criação de libs
 interface conteiner_funcao { id_conteiner: string|number, conteudoBloco: [] }

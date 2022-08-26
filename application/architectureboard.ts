@@ -25,8 +25,11 @@ class Architectureboard {
 
   public wertsfy_mathematics = class WMath {
 
-    pi: registro_constante = { nome: "PI Constant", valor: 3.141592653589793 }
-    euler: registro_constante = { nome: "Euler Constant", valor: 2.7182818284590452353602874713527 };
+    PI: registro_constante = { nome: "PI Constant", valor: 3.141592653589793 };
+    EULER: registro_constante = { nome: "Euler Constant", valor: 2.7182818284590452353602874713527 };
+    PLANK: registro_constante = { nome: "Plank Constant", valor: 6.62606896e-34 };
+    NA: registro_constante = { nome: "Avogrado Constant", valor: 6.022140857e23 };
+    NEWTON: registro_constante = { nome: "Newton Constant", valor: 0.6931471805599453 };
 
   };
   public wertsfy_terminal = class WTerminal { };

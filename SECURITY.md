@@ -5,11 +5,21 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version | Supported          |
+| Version | Security Supported |
 | ------- | ------------------ |
-| 1.0 Alpha   | ❌ |
-| 1.0 Beta   | ❌ |
-| 1.0 Beta II | ✔️ |
+| wertsfy 1.0 Alpha   | ❌ |
+| wertsfy 1.0 Beta I  | ❌ |
+| wertsfy 1.0 Beta II | ✔️ |
+| wertsfy 1.0.0 | ✔️ |
+| wertsfy 1.1.0 | ✔️ |
+| wertsfy 1.2.0 | ✔️ |
+| wertsfy 1.2.0-1 | ✔️ |
+| wertsfy 1.2.0-2 | ✔️ |
+| wertsfy 1.2.0-3 | ✔️ |
+| wertsfy 1.2.0-4 | ✔️ |
+| wertsfy 1.2.0-5 | ✔️ |
+| wertsfy 1.3.0 | ✔️ |
+| wertsfy 2.0.0 Beta | ⚠️ |
 
 ## Reporting a Vulnerability
 

@@ -3,12 +3,12 @@
 import { Command } from "commander";
 
 // Tipos para a criação de libs
-type colecao<tipo> = [tipo: Object|Array<number|string>];
+  // Nada adicionado aqui.
 
 // Interfaces para a criação de libs
 interface conteiner_funcao { id_conteiner: string|number, conteudoBloco: [] }
-interface colecao_tipos { nome_colecao: string, tipos: string|Enumerator[] }
-interface colecao_constantes { colecao: [][][] }
+interface colecao_tipos { nome_colecao: string, tipos: [{}] }
+interface colecao_constantes { colecao: [{}] }
 interface registro_constante { valor: string|number }
 interface registro_nomenclatura { nome: string, formato: string }
 interface tokens_gerador { tipo: string, formato: string, conteudo: string }
@@ -27,12 +27,12 @@ class Architectureboard {
     public cli_version = this.CLI.version('v0.0.1-B');
     
     public cli_export_ts = this.CLI.command('export').action( () => { } );
+    public cli_export_ts_description = this.cli_export_ts.description("export ts code");
     public cli_export_ts_arguments = [
       { 
-        od: this.CLI.command('export').argument('-od', "Direciona a saída dos arquivos compilados.")
+        od: this.CLI.command('xpt').argument('-outdir').description("export directory")
       }
     ]
-    public cli_export_ts_description = this.cli_export_ts.description("Exporta código Typescript.");
     
     public cli_parser = this.CLI.parse();
 
@@ -78,16 +78,46 @@ class Architectureboard {
     };
     SQRT7: registro_constante = {
       valor: 2.64575131106459
-    }
+    };
     SQRT8: registro_constante = {
       valor: 2.82842712474619
-    }
+    };
     SQRT9: registro_constante = {
       valor: 3.0
-    }
+    };
     SQRT10: registro_constante = {
       valor: 3.16227766016838
-    }
+    };
+    CBRT1: registro_constante = {
+      valor: 1.0
+    };
+    CBRT2: registro_constante = {
+      valor: 1.25992104989487
+    };
+    CBRT3: registro_constante = {
+      valor: 1.5874010519682
+    };
+    CBRT4: registro_constante = {
+      valor: 1.99999999999999
+    };
+    CBRT5: registro_constante = {
+      valor: 2.23606797749979
+    };
+    CBRT6: registro_constante = {
+      valor: 2.58198889747161
+    };
+    CBRT7: registro_constante = {
+      valor: 2.91293118277239
+    };
+    CBRT8: registro_constante = {
+      valor: 3.26249509498958
+    };
+    CBRT9: registro_constante = {
+      valor: 3.62449963442055
+    };
+    CBRT10: registro_constante = {
+      valor: 3.99999999999999
+    };
 
     public funcs: conteiner_funcao = { 
       id_conteiner: "#wmath", 
@@ -106,3 +136,7 @@ class Architectureboard {
 
 console.log(new architectureboard.wertsfy_mathematics().PI);
 console.log("[Wertsfy ArchitectureBoard] Testing finished!");
+
+console.log("\n\n");
+
+new architectureboard.wertsfy_command_line_interface().cli_parser;

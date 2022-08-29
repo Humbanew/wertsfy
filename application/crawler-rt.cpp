@@ -1,1 +1,1 @@
-static enum reserved_tokens { };
+static enum reserved_tokens { boolean, integer, float, double };

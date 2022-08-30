@@ -2,11 +2,13 @@
 
 import { Command } from "commander";
 
-// Tipos para a criação de libs
-  // Nada adicionado aqui.
-
-// Interfaces para a criação de libs
+// Interfaces de token de biblioteca
 interface token_key { idtoken: string, token: string };
+
+// Tipos de biblioteca
+type complex_group_web_colors=unknown;
+type complex_group_bash_colors=unknown;
+
 
 class Architectureboard {
 
@@ -24,7 +26,11 @@ class Architectureboard {
     public cli_export_ts_description = this.cli_export_ts.description("export ts code");
     public cli_export_ts_arguments = [
       { 
-        outdir: this.CLI.command('export').argument('-outdir').description("export directory")
+        outdir: this.CLI
+          .command('export')
+          .option("-od|--outDir")
+          .argument("DIRECTORY")
+          .description("export directory")
       }
     ]
     
@@ -207,6 +213,31 @@ class Architectureboard {
         abs: 
         (x: number): number => {
           return x < 0 ? -1 * x : x;
+        },
+
+        absNeg:
+        (x: number): number => {
+          return -1 * (x < 0 ? -1 * x : x);
+        },
+
+        sqrt:
+        (x: number): number => {
+          return x ** (1 / 2);
+        },
+      
+        sqrtNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 2));
+        },
+
+        cbrt:
+        (x: number): number => {
+          return x ** (1 / 3);
+        },
+      
+        cbrtNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 3));
         }
 
       }

@@ -1,3 +1,6 @@
 [submodule "Kambler"]
 	path = Kambler
-	url = https://github.com/Humba01/Kambler.git
+	url = git@github.com:Humba01/Kambler.git
+[submodule "wertsfy-community-edition"]
+	path = wertsfy-community-edition
+	url = git@github.com:Humba01/wertsfy-community-edition.git

@@ -6,9 +6,11 @@ import { Command } from 'commander';
 interface token_key { idtoken: string, token: string };
 
 // Tipos de biblioteca
-type complex_group_web_colors=unknown;
-type complex_group_bash_colors=unknown;
-type complex_group_custom_colors=unknown;
+type ColorPalette = { };
+
+type WebColorCollection=unknown;
+type BashColorCollection=unknown;
+type CustomColorCollection=unknown;
 
 
 class Architectureboard {

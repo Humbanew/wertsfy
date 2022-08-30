@@ -11,15 +11,18 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [ 6060 ],
+	
 	"portsAttributes": {
 		"3000": {
 			"label": "Codespace 3030 Port",
 			"onAutoForward": "notify",
 			"elevateIfNeeded": false,
 			"protocol": "https",
-			"requireLocalPort": false
+			"requireLocalPort": false,
+			"visibility": "public"
 		}
 	},
+
 	"otherPortsAttributes": {
 		"onAutoForward": "ignore"
 	},
@@ -28,6 +31,17 @@
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
+	
+	"features": {
+		"git": "latest",
+		"git-lfs": "latest",
+		"github-cli": "latest",
+		"aws-cli": "latest",
+		"sshd": "latest",
+		"python": "latest",
+		"gradle": "latest"
+	},
+
 	"extensions": [
 		"ms-ceintl.vscode-language-pack-pt-br",
 		"bierner.markdown-preview-github-styles",
@@ -40,8 +54,6 @@
 		"equinusocio.vsc-community-material-theme",
 		"mkxml.vscode-filesize",
 		"suhay.vscode-editor-group-minimizer"
-	],
-	"features": {
-		"sshd": "latest"
-	}
+	]
+
 }

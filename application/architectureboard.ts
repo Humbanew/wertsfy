@@ -8,6 +8,7 @@ interface token_key { idtoken: string, token: string };
 // Tipos de biblioteca
 type complex_group_web_colors=unknown;
 type complex_group_bash_colors=unknown;
+type complex_group_custom_colors=unknown;
 
 
 class Architectureboard {

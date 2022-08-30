@@ -8,6 +8,8 @@
     "pkief.material-icon-theme",
     "ms-vscode-remote.vscode-remote-extensionpack",
     "equinusocio.vsc-material-theme",
-    "Equinusocio.vsc-community-material-theme"
+    "equinusocio.vsc-community-material-theme",
+    "mkxml.vscode-filesize",
+    "suhay.vscode-editor-group-minimizer"
   ]
 }

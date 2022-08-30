@@ -13,13 +13,12 @@
 	"forwardPorts": [ 6060 ],
 	
 	"portsAttributes": {
-		"3000": {
+		"6060": {
 			"label": "Codespace 3030 Port",
 			"onAutoForward": "notify",
 			"elevateIfNeeded": false,
 			"protocol": "https",
-			"requireLocalPort": false,
-			"visibility": "public"
+			"requireLocalPort": false
 		}
 	},
 
@@ -36,10 +35,8 @@
 		"git": "latest",
 		"git-lfs": "latest",
 		"github-cli": "latest",
-		"aws-cli": "latest",
 		"sshd": "latest",
-		"python": "latest",
-		"gradle": "latest"
+		"python": "latest"
 	},
 
 	"extensions": [
@@ -54,6 +51,23 @@
 		"equinusocio.vsc-community-material-theme",
 		"mkxml.vscode-filesize",
 		"suhay.vscode-editor-group-minimizer"
-	]
+	],
+
+	"settings": {
+		"[markdown]": {
+			"editor.unicodeHighlight.ambiguousCharacters": false,
+			"editor.unicodeHighlight.invisibleCharacters": false,
+			"editor.wordWrap": "on"
+		},
+		"editor.tabSize": 2,
+		"remote.localPortHost": "localhost",
+		"comments.openView": "file",
+		"comments.useRelativeTime": true,
+		"workbench.settings.openDefaultKeybindings": false,
+		"workbench.iconTheme": "eq-material-theme-icons-darker",
+		"workbench.colorTheme": "Community Material Theme Lighter High Contrast",
+		"extensions.closeExtensionDetailsOnViewChange": true,
+		"remote.restoreForwardedPorts": true
+	}
 
 }

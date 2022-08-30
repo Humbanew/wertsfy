@@ -6,7 +6,19 @@ import { Command } from 'commander';
 interface token_key { idtoken: string, token: string };
 
 // Tipos de biblioteca
-type ColorPalette = { };
+type ColorPalette= 
+  { 
+    schemas:
+    {
+    
+      web:
+      {
+          
+      }
+    
+    }   
+  
+  };
 
 type WebColorCollection=unknown;
 type BashColorCollection=unknown;

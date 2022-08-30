@@ -10,19 +10,18 @@
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [ 6060, 50000 ],
+	"forwardPorts": [ 6060 ],
 	"portsAttributes": {
-		"6060": {
-			"label": "Port One",
+		"3000": {
+			"label": "Codespace 3030 Port",
 			"onAutoForward": "notify",
-			"protocol": "https",
 			"elevateIfNeeded": false,
+			"protocol": "https",
 			"requireLocalPort": false
-		},
-		"50000": {
-			"label": "Port Two",
-			"onAutoForward": "ignore"
 		}
+	},
+	"otherPortsAttributes": {
+		"onAutoForward": "ignore"
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",

@@ -11,10 +11,11 @@ type ColorPalette=
     schemas:
     {
     
-      web:
-      {
-          
-      }
+      "#web": WebColorCollection,
+
+      "#bash": BashColorCollection,
+
+      "#custom": CustomColorCollection
     
     }   
   

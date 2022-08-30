@@ -11,12 +11,37 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [ 6060, 50000 ],
-
+	"portsAttributes": {
+		"6060": {
+			"label": "Port One",
+			"onAutoForward": "notify",
+			"protocol": "https",
+			"elevateIfNeeded": false,
+			"requireLocalPort": false
+		},
+		"50000": {
+			"label": "Port Two",
+			"onAutoForward": "ignore"
+		}
+	},
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
+	"extensions": [
+		"ms-ceintl.vscode-language-pack-pt-br",
+		"bierner.markdown-preview-github-styles",
+		"ms-azuretools.vscode-docker",
+		"tal7aouy.rainbow-bracket",
+		"naumovs.color-highlight",
+		"pkief.material-icon-theme",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"equinusocio.vsc-material-theme",
+		"equinusocio.vsc-community-material-theme",
+		"mkxml.vscode-filesize",
+		"suhay.vscode-editor-group-minimizer"
+	],
 	"features": {
 		"sshd": "latest"
 	}

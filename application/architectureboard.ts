@@ -1,6 +1,6 @@
 'use strict'
 
-import { Command } from "commander";
+import { Command } from 'commander';
 
 // Interfaces de token de biblioteca
 interface token_key { idtoken: string, token: string };

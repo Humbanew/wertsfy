@@ -21,7 +21,9 @@ type PaletaCores=
   
   };
 
-type CatalogoGrandezas= { };
+type CatalogoGrandezas={ };
+
+type CatalogoExpressoesRegulares={ };
 
 
 class Architectureboard {
@@ -274,196 +276,155 @@ class Architectureboard {
           return -1 * (x ** (1 / 5));
         },
 
+        sext:
+        (x: number): number => {
+          return x ** (1 / 6);
+        },
 
+        sextNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 6));
+        },
+
+        sept:
+        (x: number): number => {
+          return x ** (1 / 7);
+        },
+
+        septNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 7));
+        },
+
+        oct:
+        (x: number): number => {
+          return x ** (1 / 8);
+        },
+
+        octNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 8));
+        },
+
+        non:
+        (x: number): number => {
+          return x ** (1 / 9);
+        },
+
+        nonNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 9));
+        },
+
+        dec:
+        (x: number): number => {
+          return x ** (1 / 10);
+        },
+
+        decNeg:
+        (x: number): number => {
+          return -1 * (x ** (1 / 10));
+        },
+
+        pow:
+        (x: number, y: number): number => {
+          return x ** y;
+        },
+
+        powNeg:
+        (x: number, y: number): number => {
+          return -1 * (x ** y);
+        },
+
+        pow2:
+        (x: number): number => {
+          return 2 ** x;
+        },
+
+        pow2Neg:
+        (x: number): number => {
+          return -1 * (2 ** x);
+        },
+
+        pow3:
+        (x: number): number => {
+          return 3 ** x;
+        },
+
+        pow3Neg:
+        (x: number): number => {
+          return -1 * (3 ** x);
+        },
+
+        pow4:
+        (x: number): number => {
+          return 4 ** x;
+        },
+
+        pow4Neg:
+        (x: number): number => {
+          return -1 * (4 ** x);
+        },
+
+        pow5:
+        (x: number): number => {
+          return 5 ** x;
+        },
+
+        pow5Neg:
+        (x: number): number => {
+          return -1 * (5 ** x);
+        },
+
+        pow6:
+        (x: number): number => {
+          return 6 ** x;
+        },
+
+        pow6Neg:
+        (x: number): number => {
+          return -1 * (6 ** x);
+        },
+
+        pow7:
+        (x: number): number => {
+          return 7 ** x;
+        },
+
+        pow7Neg:
+        (x: number): number => {
+          return -1 * (7 ** x);
+        },
+
+        pow8:
+        (x: number): number => {
+          return 8 ** x;
+        },
+
+        pow8Neg:
+        (x: number): number => {
+          return -1 * (8 ** x);
+        },
+
+        pow9:
+        (x: number): number => {
+          return 9 ** x;
+        },
+
+        pow9Neg:
+        (x: number): number => {
+          return -1 * (9 ** x);
+        },
+
+        pow10:
+        (x: number): number => {
+          return 10 ** x;
+        },
         
-
-  sext(x: number): number {
-    return x ** (1 / 6);
-  },
-
-  sextNeg(x: number): number {
-    return -1 * (x ** (1 / 6));
-  },
-
-  sept(x: number): number {
-    return x ** (1 / 7);
-  },
-
-  septNeg(x: number): number {
-    return -1 * (x ** (1 / 7));
-  },
-
-  oct(x: number): number {
-    return x ** (1 / 8);
-  },
-
-  octNeg(x: number): number {
-    return -1 * (x ** (1 / 8));
-  },
-
-  non(x: number): number {
-    return x ** (1 / 9);
-  },
-
-  nonNeg(x: number): number {
-    return -1 * (x ** (1 / 9));
-  },
-
-  dec(x: number): number {
-    return x ** (1 / 10);
-  },
-
-  decNeg(x: number): number {
-    return -1 * (x ** (1 / 10));
-  },
-
-  pow(x: number, y: number): number {
-    return x ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de um número, porém negada.** | _Returns the potency of a number, but negated._ 
-   */
-  powNeg(x: number, y: number): number {
-    return -1 * (x ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dois.** | _Returns the potency of two._ 
-   */
-  pow2(y: number): number {
-    return 2 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dois, porém negada.** | _Returns the potency of two, but negated._ 
-   */
-  pow2Neg(y: number): number {
-    return -1 * (2 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de três.** | _Returns the potency of three._ 
-   */
-  pow3(y: number): number {
-    return 3 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de três, porém negada.** | _Returns the potency of three, but negated._ 
-   */
-  pow3Neg(y: number): number {
-    return -1 * (3 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de quatro.** | _Returns the potency of four._ 
-   */
-  pow4(y: number): number {
-    return 4 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de quatro, porém negada.** | _Returns the potency of four, but negated._ 
-   */
-  pow4Neg(y: number): number {
-    return -1 * (4 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de cinco.** | _Returns the potency of five._ 
-   */
-  pow5(y: number): number {
-    return 5 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de cinco, porém negada.** | _Returns the potency of five, but negated._ 
-   */
-  pow5Neg(y: number): number {
-    return -1 * (5 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de six.** | _Returns the potency of six._ 
-   */
-  pow6(y: number): number {
-    return 6 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de six, porém negada.** | _Returns the potency of six, but negated._ 
-   */
-  pow6Neg(y: number): number {
-    return -1 * (6 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de sete.** | _Returns the potency of seven._ 
-   */
-  pow7(y: number): number {
-    return 7 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de sete, porém negada.** | _Returns the potency of seven, but negated._ 
-   */
-  pow7Neg(y: number): number {
-    return -1 * (7 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de oito.** | _Returns the potency of eight._ 
-   */
-  pow8(y: number): number {
-    return 8 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de oito, porém negada.** | _Returns the potency of eight, but negated._ 
-   */
-  pow8Neg(y: number): number {
-    return -1 * (8 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de nove.** | _Returns the potency of nine._ 
-   */
-  pow9(y: number): number {
-    return 9 ** y;
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de nove, porém negada.** | _Returns the potency of nine, but negated._ 
-   */
-  pow9Neg(y: number): number {
-    return -1 * (9 ** y);
-  },
-
-  /** 
-   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
-   * @description **Retorna o valor da potência de dez.** | _Returns the potency of ten._ 
-   */
-  pow10(y: number): number {
-    return 10 ** y;
-  },
+        pow10Neg:
+        (x: number): number => {
+          return -1 * (10 ** x);
+        }
 
 
       }

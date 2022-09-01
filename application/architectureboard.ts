@@ -461,39 +461,96 @@ class Architectureboard {
           return -1 * (10 ** x);
         },
 
-  powOfPow(x: number, y: number, z?: number[]): number {
-    let rest;
-    if(z != null) {
-      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return rest = x ** (y ** l);
-    }
-    return rest;
-  },
+        powOfPow:
+        (x: number, y: number, z?: number[]): number => {
+          let rest: number;
+          if(z != null) {
+            let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+            return rest = x ** (y ** l);
+          }
+          return rest;
+        },
 
-  powOfPowNeg(x: number, y: number, z?: number[]): number {
-    let rest;
-    if(z != null) {
-      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return rest = -1 * x ** (y ** l);
-    }
-    return rest;
-  },
+        powOfPowNeg:
+        (x: number, y: number, z?: number[]): number => {
+          let rest: number;
+          if(z != null) {
+            let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+            return rest = -1 * x ** (y ** l);
+          }
+          return rest;
+        },
 
-  max(x: number[]): number {
-    let max = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] > max) { max = x[i]; }
-    }
-    return max;
-  },
+        max:
+        (x: number[]): number => {
+          let max = x[0];
+          for (let i = 1; i < x.length; i++) {
+            if (x[i] > max) { max = x[i]; }
+          }
+          return max;
+        },
 
-  min(x: number[]): number {
-    let min = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] < min) { min = x[i]; }
-    }
-    return min;
-  }
+        min:
+        (x: number[]): number => {
+          let min = x[0];
+          for (let i = 1; i < x.length; i++) {
+            if (x[i] < min) { min = x[i]; }
+          }
+          return min;
+        },
+              
+        round:
+        (x: number): number => {
+          const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+          let resultado: number|RegExpExecArray;
+          resultado = verificador.exec(x.toString());
+          return parseInt(resultado[0]);
+        },
+
+        fround:
+        (x: number): number => {
+          const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+          let resultado: number|RegExpExecArray;
+          resultado = verificador.exec(x.toString());
+          if (parseFloat(resultado[1]) >= 0.5) {
+            return parseInt(resultado[0] + 1);
+          }
+          return parseInt(resultado[0]);
+        },
+
+        sign:
+        (x: number): number => {
+          let v: number;
+          if (x > 0) { return v = 1; }
+          if (x < 0) { return v = -1; }
+          return v;
+        },
+
+        trunc:
+        (x: number): number => {
+          return parseInt(x.toString());
+        },
+
+
+        imul:
+        (x: number, y: number): number => {
+          return x * y;
+        },
+
+        ceil:
+        (x: number): number => {
+          let v: number;
+          if (x < x + 0.5) { v = parseInt(x.toString()); }
+          return v;
+        },
+
+
+        floor:
+        (x: number): number => {
+          let v: number;
+          if (x > x + 0.5) { v = parseInt(x.toString()); }
+          return v;
+        }
 
 
       }

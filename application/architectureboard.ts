@@ -459,7 +459,41 @@ class Architectureboard {
         pow10Neg:
         (x: number): number => {
           return -1 * (10 ** x);
-        }
+        },
+
+  powOfPow(x: number, y: number, z?: number[]): number {
+    let rest;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return rest = x ** (y ** l);
+    }
+    return rest;
+  },
+
+  powOfPowNeg(x: number, y: number, z?: number[]): number {
+    let rest;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return rest = -1 * x ** (y ** l);
+    }
+    return rest;
+  },
+
+  max(x: number[]): number {
+    let max = x[0];
+    for (let i = 1; i < x.length; i++) {
+      if (x[i] > max) { max = x[i]; }
+    }
+    return max;
+  },
+
+  min(x: number[]): number {
+    let min = x[0];
+    for (let i = 1; i < x.length; i++) {
+      if (x[i] < min) { min = x[i]; }
+    }
+    return min;
+  }
 
 
       }

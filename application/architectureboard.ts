@@ -1,5 +1,10 @@
 'use strict'
 
+// Modelo de objetos descritiva herdada do PHP.
+  // Declaração das chaves.
+    // Objetivo - facilitar o entendimento em grande escala.
+
+
 import { Command } from 'commander';
 
 // Interfaces de token de biblioteca
@@ -62,8 +67,21 @@ class Architectureboard {
 
         let exp = expo , scan = x % exp;
 
-        return 0;
-
+        while(scan != 0) {
+          scan = scan % exp;
+    
+          if(expo ** exp != x) {   
+            if(expo ** exp != x) {
+              if (expo ** exp != x) {
+                exp += 0.0001;
+              }
+              exp += 0.001;
+            }
+            exp += 0.01; 
+          } 
+          exp += 0.1;
+        }
+        return exp;
 
       } 
     

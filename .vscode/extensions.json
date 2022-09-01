@@ -10,6 +10,7 @@
     "equinusocio.vsc-material-theme",
     "equinusocio.vsc-community-material-theme",
     "mkxml.vscode-filesize",
-    "suhay.vscode-editor-group-minimizer"
+    "suhay.vscode-editor-group-minimizer",
+    "eamodio.gitlens"
   ]
 }

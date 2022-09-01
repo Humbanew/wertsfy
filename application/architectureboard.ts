@@ -23,8 +23,6 @@ type PaletaCores=
 
 type CatalogoGrandezas={ };
 
-type CatalogoExpressoesRegulares={ };
-
 
 class Architectureboard {
 
@@ -54,9 +52,28 @@ class Architectureboard {
 
   };
 
+  private wertsfy_core_functions = {
+
+    maths: 
+    { 
+      
+      logaritmo: (expo: number, x: number): number => 
+      {
+
+        let exp = expo , scan = x % exp;
+
+        return 0;
+
+
+      } 
+    
+    }
+
+  };
+
   public wertsfy_mathematics = class WMath {
 
-    public mathematics_square = {
+    mathematics_square = {
     
       constante: 
       { 

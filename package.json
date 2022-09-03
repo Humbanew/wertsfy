@@ -1,6 +1,6 @@
 {
   "name": "wertsfy-dev-edition",
-  "version": "2.0.0-outsider",
+  "version": "2.0.0-outsider-beta",
   "description": "Wertsfy - Ultimate API of Things.",
   "scripts": {
     "none": ""

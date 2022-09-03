@@ -564,6 +564,7 @@ class Architectureboard {
   public wertsfy_karzok = class WKarzok { };
   public wersfty_blogmk = class WBlogmk { };
   public wertsfy_websv = class WWebsv { };
+  public wertsfy_wcrypto = class WCrypto { };
 
 
 } export var architectureboard = new Architectureboard();

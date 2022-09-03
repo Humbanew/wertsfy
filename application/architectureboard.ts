@@ -1,5 +1,10 @@
 'use strict'
 
+// Modelo de objetos descritiva herdada do PHP.
+  // Declaração das chaves.
+    // Objetivo - facilitar o entendimento em grande escala.
+
+
 import { Command } from 'commander';
 
 // Interfaces de token de biblioteca
@@ -62,8 +67,21 @@ class Architectureboard {
 
         let exp = expo , scan = x % exp;
 
-        return 0;
-
+        while(scan != 0) {
+          scan = scan % exp;
+    
+          if(expo ** exp != x) {   
+            if(expo ** exp != x) {
+              if (expo ** exp != x) {
+                exp += 0.0001;
+              }
+              exp += 0.001;
+            }
+            exp += 0.01; 
+          } 
+          exp += 0.1;
+        }
+        return exp;
 
       } 
     
@@ -441,6 +459,97 @@ class Architectureboard {
         pow10Neg:
         (x: number): number => {
           return -1 * (10 ** x);
+        },
+
+        powOfPow:
+        (x: number, y: number, z?: number[]): number => {
+          let rest: number;
+          if(z != null) {
+            let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+            return rest = x ** (y ** l);
+          }
+          return rest;
+        },
+
+        powOfPowNeg:
+        (x: number, y: number, z?: number[]): number => {
+          let rest: number;
+          if(z != null) {
+            let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+            return rest = -1 * x ** (y ** l);
+          }
+          return rest;
+        },
+
+        max:
+        (x: number[]): number => {
+          let max = x[0];
+          for (let i = 1; i < x.length; i++) {
+            if (x[i] > max) { max = x[i]; }
+          }
+          return max;
+        },
+
+        min:
+        (x: number[]): number => {
+          let min = x[0];
+          for (let i = 1; i < x.length; i++) {
+            if (x[i] < min) { min = x[i]; }
+          }
+          return min;
+        },
+              
+        round:
+        (x: number): number => {
+          const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+          let resultado: number|RegExpExecArray;
+          resultado = verificador.exec(x.toString());
+          return parseInt(resultado[0]);
+        },
+
+        fround:
+        (x: number): number => {
+          const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+          let resultado: number|RegExpExecArray;
+          resultado = verificador.exec(x.toString());
+          if (parseFloat(resultado[1]) >= 0.5) {
+            return parseInt(resultado[0] + 1);
+          }
+          return parseInt(resultado[0]);
+        },
+
+        sign:
+        (x: number): number => {
+          let v: number;
+          if (x > 0) { return v = 1; }
+          if (x < 0) { return v = -1; }
+          return v;
+        },
+
+        trunc:
+        (x: number): number => {
+          return parseInt(x.toString());
+        },
+
+
+        imul:
+        (x: number, y: number): number => {
+          return x * y;
+        },
+
+        ceil:
+        (x: number): number => {
+          let v: number;
+          if (x < x + 0.5) { v = parseInt(x.toString()); }
+          return v;
+        },
+
+
+        floor:
+        (x: number): number => {
+          let v: number;
+          if (x > x + 0.5) { v = parseInt(x.toString()); }
+          return v;
         }
 
 
@@ -454,6 +563,7 @@ class Architectureboard {
   public wertsfy_lydroc = class WLydroc { };
   public wertsfy_karzok = class WKarzok { };
   public wersfty_blogmk = class WBlogmk { };
+  public wertsfy_websv = class WWebsv { };
 
 
 } export var architectureboard = new Architectureboard();

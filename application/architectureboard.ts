@@ -550,8 +550,20 @@ class Architectureboard {
           let v: number;
           if (x > x + 0.5) { v = parseInt(x.toString()); }
           return v;
-        }
+        },
 
+
+  sin(x: number): number {  
+    return (((2 * this.PI * 1) / 4) / 90) * x;
+  },
+
+  cos(x: number): number {
+    return (-1 * (((2 * this.PI * 1) / 4) / 90)) * x;
+  },
+
+  tan(x: number): number {
+    return Wertsfy.wMath.sin(x) / Wertsfy.wMath.cos(x);
+  }
 
       }
     
@@ -564,10 +576,11 @@ class Architectureboard {
   public wertsfy_karzok = class WKarzok { };
   public wersfty_blogmk = class WBlogmk { };
   public wertsfy_websv = class WWebsv { };
+  public wertsfy_http = class WHttp { };
   public wertsfy_wcrypto = class WCrypto { };
 
 
-} export var architectureboard = new Architectureboard();
+} var architectureboard = new Architectureboard();
 
 console.log(new architectureboard.wertsfy_mathematics().mathematics_square.constante.PI);
 console.log("[Wertsfy ArchitectureBoard] Testing finished!");
@@ -575,3 +588,21 @@ console.log("[Wertsfy ArchitectureBoard] Testing finished!");
 console.log("\n\n");
 
 new architectureboard.wertsfy_command_line_interface().cli_parser;
+
+const root_wmath = new architectureboard.wertsfy_mathematics();
+
+// Abstração da architectureboard
+export var Wertsfy = {
+
+  wMath:
+  {
+
+    PI: root_wmath.mathematics_square.constante.PI,
+    E: root_wmath.mathematics_square.constante.EULER,
+
+    sin: (x: number) => root_wmath.mathematics_square.funcoes.sin(x),
+    cos: (x: number) => root_wmath.mathematics_square.funcoes.cos(x)
+
+  }
+
+};

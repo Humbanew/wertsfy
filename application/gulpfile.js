@@ -16,7 +16,7 @@ gulp.task('phpserver', () => {
     proxy: "127.0.0.1:5500",
     watch: true,
     watchEvents: true,
-    files: ["./**"]
+    files: ["gulpfile.js", "dashboard.php"]
 
     }) 
   });

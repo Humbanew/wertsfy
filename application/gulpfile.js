@@ -13,10 +13,9 @@ gulp.task('phpserver', () => {
     "open": false
   }, () => { browserSync({
 
+    files: ["dashboard.php", "gulpfile.js"],
     proxy: "127.0.0.1:5500",
     watch: true,
-    watchEvents: true,
-    files: ["./**"]
 
     }) 
   });

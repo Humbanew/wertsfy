@@ -6,6 +6,7 @@
 
 
 import { Command } from 'commander';
+import { argv } from 'process';
 
 // Interfaces de token de biblioteca
 interface token_chave { idtoken: string, token: string };
@@ -53,7 +54,7 @@ class Architectureboard {
       }
     ]
     
-    public cli_parser = this.CLI.parse();
+    public cli_parser = this.CLI.parse(argv);
 
   };
 
@@ -563,7 +564,20 @@ class Architectureboard {
 
   tan(x: number): number {
     return Wertsfy.wMath.sin(x) / Wertsfy.wMath.cos(x);
+  },
+  
+  sec(x: number): number {
+    return 1 / Wertsfy.wMath.cos(x);
+  },
+  
+  cosec(x: number): number {
+    return 1 / Wertsfy.wMath.sin(x);
+  },
+
+  cotan(x: number): number {
+    return 1 / (Wertsfy.wMath.cos(x) / Wertsfy.wMath.sin(x));
   }
+    
 
       }
     

@@ -9,7 +9,7 @@
 
 </div>
 
-1. - [x] **Architectureboard**
+1. - [x] **Wboard**
 2. - [ ] **Módulo de Bibliotecas**
 3. - [ ] **Módulo de Testes Nikko**
 4. - [ ] **Command Line Interface**

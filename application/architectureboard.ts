@@ -613,6 +613,7 @@ export var Wertsfy = {
 
     PI: root_wmath.mathematics_square.constante.PI,
     E: root_wmath.mathematics_square.constante.EULER,
+    PLANK: root_wmath.mathematics_square.constante.PLANK,
 
     sin: (x: number) => root_wmath.mathematics_square.funcoes.sin(x),
     cos: (x: number) => root_wmath.mathematics_square.funcoes.cos(x)

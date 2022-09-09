@@ -1,6 +1,8 @@
 <?php session_create_id( "wtsfy" ); ?>
 <?php header('Access-Control-Allow-Origin: *'); ?>
 
+<!-- Kambler Application -->
+
 <!DOCTYPE html>
 <html>
 

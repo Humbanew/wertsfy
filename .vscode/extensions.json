@@ -1,16 +1,3 @@
 {
-  "recommendations": [
-    "ms-ceintl.vscode-language-pack-pt-br",
-    "bierner.markdown-preview-github-styles",
-    "ms-azuretools.vscode-docker",
-    "tal7aouy.rainbow-bracket",
-    "naumovs.color-highlight",
-    "pkief.material-icon-theme",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "equinusocio.vsc-material-theme",
-    "equinusocio.vsc-community-material-theme",
-    "mkxml.vscode-filesize",
-    "suhay.vscode-editor-group-minimizer",
-    "eamodio.gitlens"
-  ]
+  "recommendations": []
 }

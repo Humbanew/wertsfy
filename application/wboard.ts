@@ -143,10 +143,17 @@ class WBoard {
         return x < 0 ? -1 * x : x;
       }
 
+      absNeg(x: number): number 
+      {
+        return -1 * (x < 0 ? -1 * x : x);
+      }
+
     }
 
 
   }
+
+  protected base_math = new this.wtsy_lib.prototype.Math();
 
   // Abstração de toda a Aplicação para o mundo externo
   public wertsfy= 
@@ -155,35 +162,37 @@ class WBoard {
     math:
     {
 
-      Pi: new this.wtsy_lib.prototype.Math().pi,
+      Pi: this.base_math.pi,
 
-      Euler: new this.wtsy_lib.prototype.Math().euler,
+      Euler: this.base_math.euler,
       
-      Plank: new this.wtsy_lib.prototype.Math().plank,
+      Plank: this.base_math.plank,
 
-      Avogadro: new this.wtsy_lib.prototype.Math().avogadro,
+      Avogadro: this.base_math.avogadro,
 
-      Newton: new this.wtsy_lib.prototype.Math().newton,
+      Newton: this.base_math.newton,
 
-      Testa: new this.wtsy_lib.prototype.Math().tesla,
+      Testa: this.base_math.tesla,
 
-      Sqrt: new this.wtsy_lib.prototype.Math().sqrt,
+      Sqrt: this.base_math.sqrt,
 
-      Cbrt: new this.wtsy_lib.prototype.Math().cbrt,
+      Cbrt: this.base_math.cbrt,
 
-      Ln2: new this.wtsy_lib.prototype.Math().ln2,
+      Ln2: this.base_math.ln2,
 
-      Ln10: new this.wtsy_lib.prototype.Math().ln10,
+      Ln10: this.base_math.ln10,
 
-      Log2e: new this.wtsy_lib.prototype.Math().log2e,
+      Log2e: this.base_math.log2e,
 
-      Log10e: new this.wtsy_lib.prototype.Math().log10e,
+      Log10e: this.base_math.log10e,
 
-      Maxvalue: new this.wtsy_lib.prototype.Math().maxvalue,
+      Maxvalue: this.base_math.maxvalue,
 
-      Minvalue: new this.wtsy_lib.prototype.Math().minvalue,
+      Minvalue: this.base_math.minvalue,
 
-      abs: (x: number) => new this.wtsy_lib.prototype.Math().abs(x) 
+      abs: (x: number) => this.base_math.abs(x),
+      
+      absNeg: (x: number) => this.base_math.absNeg(x)
 
     }
 

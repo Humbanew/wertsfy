@@ -13,7 +13,7 @@
 	"forwardPorts": [ 6060 ],
 	
 	"portsAttributes": {
-		"6060": {
+		"3030": {
 			"label": "Codespace 3030 Port",
 			"onAutoForward": "notify",
 			"elevateIfNeeded": false,
@@ -44,13 +44,13 @@
 		"ms-azuretools.vscode-docker",
 		"tal7aouy.rainbow-bracket",
 		"naumovs.color-highlight",
-		"pkief.material-icon-theme",
 		"ms-vscode-remote.vscode-remote-extensionpack",
 		"mkxml.vscode-filesize",
 		"suhay.vscode-editor-group-minimizer",
 		"eamodio.gitlens",
 		"olivertasevski.vscode-space",
-		"johnpapa.winteriscoming"
+		"johnpapa.winteriscoming",
+		"equinusocio.vsc-material-theme-icons"
 	],
 
 	"settings": {
@@ -65,7 +65,7 @@
 		"comments.useRelativeTime": true,
 		"workbench.settings.openDefaultKeybindings": false,
 		"workbench.iconTheme": "eq-material-theme-icons-darker",
-		"workbench.colorTheme": "Community Material Theme Lighter High Contrast",
+		"workbench.colorTheme": "Winter is Coming (Dark Black)",
 		"extensions.closeExtensionDetailsOnViewChange": true
 	}
 

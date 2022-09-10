@@ -10,13 +10,13 @@
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [ 6060 ],
+	"forwardPorts": [ 3030 ],
 	
 	"portsAttributes": {
 		"3030": {
 			"label": "Codespace 3030 Port",
 			"onAutoForward": "notify",
-			"elevateIfNeeded": false,
+			"elevateIfNeeded": true,
 			"protocol": "https",
 			"requireLocalPort": false
 		}

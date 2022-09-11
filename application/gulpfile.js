@@ -10,10 +10,10 @@ gulp.task('phpserver', () => {
   connection.server({
     "port": 5500,
     "base": "./",
-    "open": false
+    "open": false,
   }, () => { browserSync({
 
-    files: ["kambler-dashboard.php", "gulpfile.js"],
+    files: ["kdashboard.php", "gulpfile.js"],
     proxy: "127.0.0.1:5500",
     watch: true,
 

@@ -198,9 +198,292 @@ class WBoard {
         return x ** (1 / 10);
       }
 
+      
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de um número.** | _Returns the potency of a number._ 
+   */
+  public pow(x: number, y: number): number {
+    return x ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de um número, porém negada.** | _Returns the potency of a number, but negated._ 
+   */
+  public powNeg(x: number, y: number): number {
+    return -1 * (x ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de dois.** | _Returns the potency of two._ 
+   */
+  public pow2(y: number): number {
+    return 2 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de dois, porém negada.** | _Returns the potency of two, but negated._ 
+   */
+  public pow2Neg(y: number): number {
+    return -1 * (2 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de três.** | _Returns the potency of three._ 
+   */
+  public pow3(y: number): number {
+    return 3 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de três, porém negada.** | _Returns the potency of three, but negated._ 
+   */
+  public pow3Neg(y: number): number {
+    return -1 * (3 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de quatro.** | _Returns the potency of four._ 
+   */
+  public pow4(y: number): number {
+    return 4 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de quatro, porém negada.** | _Returns the potency of four, but negated._ 
+   */
+  public pow4Neg(y: number): number {
+    return -1 * (4 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de cinco.** | _Returns the potency of five._ 
+   */
+  public pow5(y: number): number {
+    return 5 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de cinco, porém negada.** | _Returns the potency of five, but negated._ 
+   */
+  public pow5Neg(y: number): number {
+    return -1 * (5 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de six.** | _Returns the potency of six._ 
+   */
+  public pow6(y: number): number {
+    return 6 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de six, porém negada.** | _Returns the potency of six, but negated._ 
+   */
+  public pow6Neg(y: number): number {
+    return -1 * (6 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de sete.** | _Returns the potency of seven._ 
+   */
+  public pow7(y: number): number {
+    return 7 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de sete, porém negada.** | _Returns the potency of seven, but negated._ 
+   */
+  public pow7Neg(y: number): number {
+    return -1 * (7 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de oito.** | _Returns the potency of eight._ 
+   */
+  public pow8(y: number): number {
+    return 8 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de oito, porém negada.** | _Returns the potency of eight, but negated._ 
+   */
+  public pow8Neg(y: number): number {
+    return -1 * (8 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de nove.** | _Returns the potency of nine._ 
+   */
+  public pow9(y: number): number {
+    return 9 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de nove, porém negada.** | _Returns the potency of nine, but negated._ 
+   */
+  public pow9Neg(y: number): number {
+    return -1 * (9 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de dez.** | _Returns the potency of ten._ 
+   */
+  public pow10(y: number): number {
+    return 10 ** y;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de dez, porém negada.** | _Returns the potency of ten, but negated._ 
+   */
+  public pow10Neg(y: number): number {
+    return -1 * (10 ** y);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de potência um número.** | _Returns the potency of potency of a number._ 
+   */
+  public powOfPow(x: number, y: number, z?: number[]): number {
+    let rest;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return rest = x ** (y ** l);
+    }
+    return rest;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor da potência de potência um número, porém negada.** | _Returns the potency of potency of a number, but negated._ 
+   */
+  public powOfPowNeg(x: number, y: number, z?: number[]): number {
+    let rest;
+    if(z != null) {
+      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+      return rest = -1 * x ** (y ** l);
+    }
+    return rest;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o maior número de uma sequência.** | _Returns the largest number of a sequence._ 
+   */
+  public max(x: number[]): number {
+    let max = x[0];
+    for (let i = 1; i < x.length; i++) {
+      if (x[i] > max) { max = x[i]; }
+    }
+    return max;
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o menor número de uma sequência.** | _Returns the smallest number of a sequence._ 
+   */
+  public min(x: number[]): number {
+    let min = x[0];
+    for (let i = 1; i < x.length; i++) {
+      if (x[i] < min) { min = x[i]; }
+    }
+    return min;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor arredondado pra baixo de um número.** | _Returns the value rounded down of a number._ 
+   */
+  public round(x: number): number {
+    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+    let resultado;
+    resultado = verificador.exec(x.toString());
+    return parseInt(resultado[0]);
+  }
+
+  /** 
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor arredondado pra cima de um número.** | _Returns the value rounded up of a number._ 
+   */
+  public fround(x: number): number {
+    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+    let resultado;
+    resultado = verificador.exec(x.toString());
+    if (parseFloat(resultado[1]) >= 0.5) {
+      return parseInt(resultado[0] + 1);
+    }
+    return parseInt(resultado[0]);
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna um símbolo dizendo o sinal do número.** | _Returns a symbol saying the sign of a number._
+   */
+  public sign(x: number): number {
+    let v;
+    if (x > 0) { return v = 1; }
+    if (x < 0) { return v = -1; }
+    return v;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor sem partes de pronto flutuante de um número.** | _Returns the value without floating parts of a number._
+   */
+  public trunc(x: number): number {
+    return parseInt(x.toString());
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o valor de uma multiplicação de inteiro de 32-bit.** | _Returns the value of a 32-bit integer multiplication._
+   */
+  public imul(x: number, y: number): number {
+    return x * y;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o menor inteiro que é menor ou igual a um número.** | _Returns the smallest integer that is less than or equal to a number._
+   */
+  public ceil(x: number): number {
+    let v;
+    if (x < x + 0.5) { v = parseInt(x.toString()); }
+    return v;
+  }
+
+  /**
+   * @augments x entrada do cálculo. **[ Type: ``number`` ]**
+   * @description **Retorna o maior inteiro que é maior ou igual a um número.** | _Returns the largest integer that is greater than or equal to a number._
+   */
+  public floor(x: number): number {
+    let v;
+    if (x > x + 0.5) { v = parseInt(x.toString()); }
+    return v;
+  }
+
 
     }
-    
+
 
   }
 

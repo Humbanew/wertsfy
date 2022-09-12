@@ -117,31 +117,35 @@
       <h1 class="title">Wertsfy Dashboard</h1>
     </div>
 
-    <section id="configurations-module">
-      <p>Configurations</p>
-    </section>
-
-    <section id="wertsfy-cli-shell-module">
-      <p>Wertsfy CLI Shell</p>
-    </section>
+    <section>
+      
+      <section id="configurations-module">
+        <p>Configurations</p>
+      </section>
   
-    <section id="nikko-module"></section>
+      <section id="wertsfy-cli-shell-module">
+        <p>Wertsfy CLI Shell</p>
+      </section>
+    
+      <section id="nikko-module"></section>
+  
+      <section id="kriptonight-module"></section>
+  
+      <section id="crawler-module"></section>
+  
+      <section id="eclypsus-module"></section>
+  
+      <section id="database-module"></section>
+  
+      <section id="cloud-services-module"></section>
+  
+      <section id="optionals-module"></section>
+  
+      <section id="io-connections-module"></section>
+  
+      <section id="language-selector-module"></section>
 
-    <section id="kriptonight-module"></section>
-
-    <section id="crawler-module"></section>
-
-    <section id="eclypsus-module"></section>
-
-    <section id="database-module"></section>
-
-    <section id="cloud-services-module"></section>
-
-    <section id="optionals-module"></section>
-
-    <section id="io-connections-module"></section>
-
-    <section id="language-selector-module"></section>
+    </section>
 
   </body>
 

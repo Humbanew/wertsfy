@@ -9,12 +9,6 @@
   </head>
 
   <style>
-    @font-face
-    {
-      font-family: "Exo2-Regular";
-      src: url(https://github.com/Humba01/hn-librarys/blob/main/bibliotecas/fontes/development/exo2/Exo2-Regular.ttf);
-    }
-
     div, section, p, h1, h2, h3, h4, h5, h6, head, body, html
     {
       margin: 0;

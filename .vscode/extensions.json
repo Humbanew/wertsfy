@@ -1,7 +1,6 @@
 {
   "recommendations": [
-    "oscarcs.dart-syntax-highlighting-only",
     "dart-code.dart-code",
-    "PeterHdd.dartgettersetter"
+    "peterhdd.dartgettersetter"
   ]
 }

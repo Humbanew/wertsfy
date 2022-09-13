@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browsersync": "^0.0.1-security",
     "gulp": "^4.0.2",
-    "gulp-connect-php": "^1.0.3"
+    "gulp-connect-php": "^1.0.3",
+    "gulp-dev-server": "^1.1.3"
   }
 }

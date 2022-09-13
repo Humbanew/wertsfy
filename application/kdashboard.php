@@ -9,13 +9,7 @@
   </head>
 
   <style>
-    .dark-theme { }
-
-    .light-theme { }
-
-    .kambler-theme { }
-
-    .winter-theme { }
+    :root { }
 
     @font-face {
       font-family: Exo2;

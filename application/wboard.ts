@@ -435,4 +435,4 @@ class WBoard {
 
 }
 
-let abstraction = new WBoard().wertsfy;
+const abstraction = new WBoard().wertsfy;

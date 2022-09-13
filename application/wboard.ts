@@ -389,7 +389,29 @@ class WBoard {
 
       pow: (x: number, y: number, neg?: boolean) => this.rdcmath.pow(x, y, neg),
 
-      pow2: (y: number, neg?: boolean) => this.rdcmath.pow2(y, neg)
+      pow2: (y: number, neg?: boolean) => this.rdcmath.pow2(y, neg),
+      
+      pow3: (y: number, neg?: boolean) => this.rdcmath.pow3(y, neg),
+      
+      pow4: (y: number, neg?: boolean) => this.rdcmath.pow4(y, neg),
+      
+      pow5: (y: number, neg?: boolean) => this.rdcmath.pow5(y, neg),
+      
+      pow6: (y: number, neg?: boolean) => this.rdcmath.pow6(y, neg),
+      
+      pow7: (y: number, neg?: boolean) => this.rdcmath.pow7(y, neg),
+      
+      pow8: (y: number, neg?: boolean) => this.rdcmath.pow8(y, neg),
+      
+      pow9: (y: number, neg?: boolean) => this.rdcmath.pow9(y, neg),
+      
+      pow10: (y: number, neg?: boolean) => this.rdcmath.pow10(y, neg),
+
+      powOfPow: (x: number, y: number, z?: number[], neg?: boolean) => this.rdcmath.powOfPow(x, y, z, neg),
+
+      max: (x: number[]) => this.rdcmath.max(x),
+
+      min: (x: number[]) => this.rdcmath.min(x)
 
     }
 

@@ -411,7 +411,11 @@ class WBoard {
 
       max: (x: number[]) => this.rdcmath.max(x),
 
-      min: (x: number[]) => this.rdcmath.min(x)
+      min: (x: number[]) => this.rdcmath.min(x),
+
+      round: (x: number) => this.rdcmath.round(x),
+
+      fround: (x: number) => this.rdcmath.fround(x)
 
     }
 
@@ -421,4 +425,4 @@ class WBoard {
 
 }
 
-new WBoard().wertsfy;
+let abstraction = new WBoard().wertsfy;

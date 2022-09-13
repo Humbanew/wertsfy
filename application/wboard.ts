@@ -415,7 +415,17 @@ class WBoard {
 
       round: (x: number) => this.rdcmath.round(x),
 
-      fround: (x: number) => this.rdcmath.fround(x)
+      fround: (x: number) => this.rdcmath.fround(x),
+
+      sign: (x: number) => this.rdcmath.sign(x),
+
+      trunc: (x: number) => this.rdcmath.trunc(x),
+
+      imul: (x: number, y: number) => this.rdcmath.imul(x, y),
+
+      ceil: (x: number) => this.rdcmath.ceil(x),
+
+      floor: (x: number) => this.rdcmath.floor(x)
 
     }
 

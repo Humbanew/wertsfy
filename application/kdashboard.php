@@ -9,7 +9,10 @@
   </head>
 
   <style>
-    :root { }
+    :root {
+      --dark-theme-background-color: #222222;
+      --light-theme-background-color: #eeeeee;
+    }
 
     @font-face {
       font-family: Exo2;
@@ -26,7 +29,7 @@
       margin: 0;
     }
 
-    .base-conteiner 
+    .kambler-cabecalho 
     {
       display: inline-block;
     }
@@ -41,7 +44,6 @@
       font-size: 1.2rem; 
       font-weight: 900;
       padding: 0.4vw 0.6vw;
-      display: inline-block;
       width: 48.8vw;
     }
 
@@ -76,32 +78,46 @@
       padding: 0.4vw 0.6vw;
       box-shadow: 0px 0px 10px #666666;
     }
+    
+    .options-control-conteiner
+    {
+      display: inline-block;
+      width: 98%;
+      height: 72%;
+      margin-top: 2vw;
+      margin-left: 1vw;
+    }
 
+    .options-conteiner 
+    {
+      display: flex;
+    }
+    
     #configurations-module, #wertsfy-cli-shell-module
     {
-      background-color: #222222;
+      background-color: #eeeeee;
       border: 1px solid #111111;
+      box-shadow: 1px 1px 5px #000000;
       border-radius: 4px; 
       color: #006666;
-      display: inline-block;
+      display: flex;
       font-family: Exo2;
       font-size: 2.2em;
       font-weight: 800;
-      rotate: -90deg;
-      margin-top: 17vw;
-      margin-left: -14vw;
+      /* rotate: -90deg; */
       padding: 0.6vw 0.7vw;
       width: 70vh;
     }
 
+    #configurations-module
+    { }
+
     #wertsfy-cli-shell-module
-    {
-      margin-left: -29.8vw;
-    }
+    { }
   </style>
 
   <body>
-    <div class="base-container">
+    <div class="kambler-cabecalho">
       <p class="base">Kambler
         <p class="base inv"><span class="base-border">v1.0.0</span></p>
       </p>
@@ -111,35 +127,39 @@
       <h1 class="title">Wertsfy Dashboard</h1>
     </div>
 
-    <section>
-      
-      <section id="configurations-module">
-        <p>Configurations</p>
-      </section>
-  
-      <section id="wertsfy-cli-shell-module">
-        <p>Wertsfy CLI Shell</p>
-      </section>
-    
-      <section id="nikko-module"></section>
-  
-      <section id="kriptonight-module"></section>
-  
-      <section id="crawler-module"></section>
-  
-      <section id="eclypsus-module"></section>
-  
-      <section id="database-module"></section>
-  
-      <section id="cloud-services-module"></section>
-  
-      <section id="optionals-module"></section>
-  
-      <section id="io-connections-module"></section>
-  
-      <section id="language-selector-module"></section>
+    <div class="options-control-conteiner">
 
-    </section>
+      <div class="options-conteiner">
+        
+        <section id="configurations-module">
+          <p>Configurations</p>
+        </section>
+    
+        <section id="wertsfy-cli-shell-module">
+          <p>Wertsfy CLI Shell</p>
+        </section>
+      
+        <section id="nikko-module"></section>
+    
+        <section id="kriptonight-module"></section>
+    
+        <section id="crawler-module"></section>
+    
+        <section id="eclypsus-module"></section>
+    
+        <section id="database-module"></section>
+    
+        <section id="cloud-services-module"></section>
+    
+        <section id="optionals-module"></section>
+    
+        <section id="io-connections-module"></section>
+    
+        <section id="language-selector-module"></section>
+  
+      </div>
+
+    </div>
 
   </body>
 

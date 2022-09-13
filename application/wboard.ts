@@ -282,14 +282,14 @@ class WBoard {
 
       round(x: number): number {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-        let resultado;
+        let resultado = undefined;
         resultado = verificador.exec(x.toString());
         return parseInt(resultado[0]);
       }
 
       fround(x: number): number {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-        let resultado;
+        let resultado = undefined;
         resultado = verificador.exec(x.toString());
         if (parseFloat(resultado[1]) >= 0.5) {
           return parseInt(resultado[0] + 1);
@@ -298,7 +298,7 @@ class WBoard {
       }
 
       sign(x: number): number {
-        let v;
+        let v = undefined;
         if (x > 0) { return v = 1; }
         if (x < 0) { return v = -1; }
         return v;
@@ -313,13 +313,13 @@ class WBoard {
       }
 
       ceil(x: number): number {
-        let v;
+        let v = undefined;
         if (x < x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }
 
       floor(x: number): number {
-        let v;
+        let v = undefined;
         if (x > x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }

@@ -90,7 +90,7 @@
 
     .options-conteiner 
     {
-      display: flex;
+      display: inline-flex;
     }
     
     #configurations-module, #wertsfy-cli-shell-module
@@ -100,7 +100,7 @@
       box-shadow: 1px 1px 5px #000000;
       border-radius: 4px; 
       color: #006666;
-      display: flex;
+      display: inline-flex;
       font-family: Exo2;
       font-size: 2.2em;
       font-weight: 800;

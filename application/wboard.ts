@@ -6,6 +6,12 @@ class WBoard {
   // bloco de implementação do Command Line Interface
   protected wtsy_cli = class WCLI { }
 
+  // bloco de implementação de Testes
+  protected wtsy_nkk = class WNikko { }
+
+  // bloco de implementação de Transcompilação
+  protected wtsy_tscp = class WTscp { }
+
   // bloco de implementação das Bibliotecas
   protected wtsy_lib = class WLib {
 
@@ -200,101 +206,63 @@ class WBoard {
 
 
 
-  pow(x: number, y: number): number {
+  pow(x: number, y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (x ** y);
     return x ** y;
   }
 
-  powNeg(x: number, y: number): number {
-    return -1 * (x ** y);
-  }
-
-  pow2(y: number): number {
+  pow2(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (2 ** y);
     return 2 ** y;
   }
 
-  pow2Neg(y: number): number {
-    return -1 * (2 ** y);
-  }
-
-  pow3(y: number): number {
+  pow3(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (3 ** y);
     return 3 ** y;
   }
 
-  pow3Neg(y: number): number {
-    return -1 * (3 ** y);
-  }
-
-  pow4(y: number): number {
+  pow4(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (4 ** y);
     return 4 ** y;
   }
 
-  pow4Neg(y: number): number {
-    return -1 * (4 ** y);
-  }
-
-  pow5(y: number): number {
+  pow5(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (5 ** y);
     return 5 ** y;
   }
 
-  pow5Neg(y: number): number {
-    return -1 * (5 ** y);
-  }
-
-  pow6(y: number): number {
+  pow6(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (6 ** y);
     return 6 ** y;
   }
 
-  pow6Neg(y: number): number {
-    return -1 * (6 ** y);
-  }
-
-  pow7(y: number): number {
+  pow7(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (7 ** y);
     return 7 ** y;
   }
 
-  pow7Neg(y: number): number {
-    return -1 * (7 ** y);
-  }
-
-  pow8(y: number): number {
+  pow8(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (8 ** y);
     return 8 ** y;
   }
 
-  pow8Neg(y: number): number {
-    return -1 * (8 ** y);
-  }
-
-  pow9(y: number): number {
+  pow9(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (9 ** y);
     return 9 ** y;
   }
 
-  pow9Neg(y: number): number {
-    return -1 * (9 ** y);
-  }
-
-  pow10(y: number): number {
+  pow10(y: number, neg?: boolean): number {
+    if(neg == true) return -1 * (2 ** y);
     return 10 ** y;
   }
 
-  pow10Neg(y: number): number {
-    return -1 * (10 ** y);
-  }
-
-  powOfPow(x: number, y: number, z?: number[]): number {
+  powOfPow(x: number, y: number, z?: number[], neg?: boolean): number {
     let rest;
     if(z != null) {
       let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
       return rest = x ** (y ** l);
     }
-    return rest;
-  }
-
-  powOfPowNeg(x: number, y: number, z?: number[]): number {
-    let rest;
-    if(z != null) {
-      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return rest = -1 * x ** (y ** l);
-    }
+    if(neg == true) return -1 * rest;
     return rest;
   }
 

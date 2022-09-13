@@ -204,127 +204,125 @@ class WBoard {
         return x ** (1 / 10);
       }
 
+      pow(x: number, y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (x ** y);
+        return x ** y;
+      }
 
+      pow2(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (2 ** y);
+        return 2 ** y;
+      }
 
-  pow(x: number, y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (x ** y);
-    return x ** y;
-  }
+      pow3(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (3 ** y);
+        return 3 ** y;
+      }
 
-  pow2(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (2 ** y);
-    return 2 ** y;
-  }
+      pow4(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (4 ** y);
+        return 4 ** y;
+      }
 
-  pow3(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (3 ** y);
-    return 3 ** y;
-  }
+      pow5(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (5 ** y);
+        return 5 ** y;
+      }
 
-  pow4(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (4 ** y);
-    return 4 ** y;
-  }
+      pow6(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (6 ** y);
+        return 6 ** y;
+      }
 
-  pow5(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (5 ** y);
-    return 5 ** y;
-  }
+      pow7(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (7 ** y);
+        return 7 ** y;
+      }
 
-  pow6(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (6 ** y);
-    return 6 ** y;
-  }
+      pow8(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (8 ** y);
+        return 8 ** y;
+      }
 
-  pow7(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (7 ** y);
-    return 7 ** y;
-  }
+      pow9(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (9 ** y);
+        return 9 ** y;
+      }
 
-  pow8(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (8 ** y);
-    return 8 ** y;
-  }
+      pow10(y: number, neg?: boolean): number {
+        if(neg == true) return -1 * (2 ** y);
+        return 10 ** y;
+      }
 
-  pow9(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (9 ** y);
-    return 9 ** y;
-  }
+      powOfPow(x: number, y: number, z?: number[], neg?: boolean): number {
+        let rest;
+        if(z != null) {
+          let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
+          return rest = x ** (y ** l);
+        }
+        if(neg == true) return -1 * rest;
+        return rest;
+      }
 
-  pow10(y: number, neg?: boolean): number {
-    if(neg == true) return -1 * (2 ** y);
-    return 10 ** y;
-  }
+      max(x: number[]): number {
+        let max = x[0];
+        for (let i = 1; i < x.length; i++) {
+          if (x[i] > max) { max = x[i]; }
+        }
+        return max;
+      }
 
-  powOfPow(x: number, y: number, z?: number[], neg?: boolean): number {
-    let rest;
-    if(z != null) {
-      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return rest = x ** (y ** l);
-    }
-    if(neg == true) return -1 * rest;
-    return rest;
-  }
+      min(x: number[]): number {
+        let min = x[0];
+        for (let i = 1; i < x.length; i++) {
+          if (x[i] < min) { min = x[i]; }
+        }
+        return min;
+      }
 
-  max(x: number[]): number {
-    let max = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] > max) { max = x[i]; }
-    }
-    return max;
-  }
+      round(x: number): number {
+        const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+        let resultado;
+        resultado = verificador.exec(x.toString());
+        return parseInt(resultado[0]);
+      }
 
-  min(x: number[]): number {
-    let min = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] < min) { min = x[i]; }
-    }
-    return min;
-  }
+      fround(x: number): number {
+        const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
+        let resultado;
+        resultado = verificador.exec(x.toString());
+        if (parseFloat(resultado[1]) >= 0.5) {
+          return parseInt(resultado[0] + 1);
+        }
+        return parseInt(resultado[0]);
+      }
 
-  round(x: number): number {
-    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    let resultado;
-    resultado = verificador.exec(x.toString());
-    return parseInt(resultado[0]);
-  }
+      sign(x: number): number {
+        let v;
+        if (x > 0) { return v = 1; }
+        if (x < 0) { return v = -1; }
+        return v;
+      }
 
-  fround(x: number): number {
-    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    let resultado;
-    resultado = verificador.exec(x.toString());
-    if (parseFloat(resultado[1]) >= 0.5) {
-      return parseInt(resultado[0] + 1);
-    }
-    return parseInt(resultado[0]);
-  }
+      trunc(x: number): number {
+        return parseInt(x.toString());
+      }
 
-  sign(x: number): number {
-    let v;
-    if (x > 0) { return v = 1; }
-    if (x < 0) { return v = -1; }
-    return v;
-  }
+      imul(x: number, y: number): number {
+        return x * y;
+      }
 
-  trunc(x: number): number {
-    return parseInt(x.toString());
-  }
+      ceil(x: number): number {
+        let v;
+        if (x < x + 0.5) { v = parseInt(x.toString()); }
+        return v;
+      }
 
-  imul(x: number, y: number): number {
-    return x * y;
-  }
-
-  ceil(x: number): number {
-    let v;
-    if (x < x + 0.5) { v = parseInt(x.toString()); }
-    return v;
-  }
-
-  floor(x: number): number {
-    let v;
-    if (x > x + 0.5) { v = parseInt(x.toString()); }
-    return v;
-  }
+      floor(x: number): number {
+        let v;
+        if (x > x + 0.5) { v = parseInt(x.toString()); }
+        return v;
+      }
 
 
     }
@@ -387,7 +385,11 @@ class WBoard {
 
       non: (x: number, neg?: boolean) => this.rdcmath.non(x, neg),
 
-      dec: (x: number, neg?: boolean) => this.rdcmath.dec(x, neg)
+      dec: (x: number, neg?: boolean) => this.rdcmath.dec(x, neg),
+
+      pow: (x: number, y: number, neg?: boolean) => this.rdcmath.pow(x, y, neg),
+
+      pow2: (y: number, neg?: boolean) => this.rdcmath.pow2(y, neg)
 
     }
 

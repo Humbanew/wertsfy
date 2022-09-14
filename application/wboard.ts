@@ -443,7 +443,7 @@ class WBoard {
         return 1 / this.arctanh(x);
       }
 
-      log2(x: number): number {
+      log2(x: number, minus1?: boolean, plus1?: boolean): number {
         if(x == 0) { return NaN; }  
         return WLib.prototype._log(2, x);
       }

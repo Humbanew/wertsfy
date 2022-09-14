@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 [submodule "wertsfy-community-edition"]
 	path = wertsfy-community-edition
 	url = git@github.com:Humba01/wertsfy-community-edition.git
+=======
+[submodule "Kambler"]
+	path = Kambler
+	url = https://github.com/Humba01/Kambler.git
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5

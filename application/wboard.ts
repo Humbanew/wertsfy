@@ -325,6 +325,19 @@ class WBoard {
       }
 
 
+  sin(x: number): number {
+    return (((2 * this.pi * 1) / 4) / 90) * x;
+  }
+
+  cos(x: number): number {
+    return (-1 * (((2 * this.pi * 1) / 4) / 90)) * x;
+  }
+
+  tan(x: number): number {    
+    return this.sin(x) / this.cos(x);
+  }
+
+
     }
 
 

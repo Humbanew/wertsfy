@@ -1,4 +1,4 @@
-<?php $defines = []; ?>
+<?php $session_informations = []; ?>
 
 <DOCTYPE html>
 <html>

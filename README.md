@@ -1,30 +1,54 @@
-# Wertsfy (Application Programming Interface)
+# wertsfy
 
-## Links:<br></br>
-[![GitHub](https://img.shields.io/badge/github-homepage-020202.svg?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/Humba01/Wertsfy/)
-[![GitHub](https://img.shields.io/badge/github-pull_request-040404.svg?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/Humba01/Wertsfy/pulls)
-
-[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=black)](https://www.npmjs.com/package/wertsfy)
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://www.reddit.com/r/Wertsfy/)
-[![Gmail](https://img.shields.io/badge/Email-Support-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=red)](mailto:support@humbanew.com.br)
-
-## Informations:<br></br>
-![Github](https://img.shields.io/github/package-json/v/Humba01/Wertsfy?style=for-the-badge&color=blueviolet&labelColor=silver)
-![NPM](https://img.shields.io/npm/dt/wertsfy?color=darkorchid&style=for-the-badge&labelColor=silver)
-![NPM](https://img.shields.io/npm/l/wertsfy?color=maroon&style=for-the-badge&labelColor=silver)
-![Github](https://img.shields.io/github/stars/Humba01/Wertsfy?color=steelblue&style=for-the-badge&labelColor=silver)
-
-
-## Languages:<br></br>
 ![TypeScript](https://img.shields.io/badge/typescript-steelblue.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-blue.svg?style=for-the-badge&logo=python&logoColor=gold)
 
----
 
-![Wertsfy-Logotype-UltimateX](https://user-images.githubusercontent.com/59739253/183273922-3c3d5bd5-a86b-445a-a55e-ebf3a184ca7a.png)
+<div align="center"> 
 
-**Warning:** This package is still under development, if there are bugs, please report it. 
+## Planejamento v2.0[^1]
 
-=> Wertsfy has authorized support for open source contributions.
+</div>
 
-=> The link to create pull request is above in the "Links" section.
+1. - [x] **Wboard**
+2. - [ ] **Módulo de Bibliotecas**
+3. - [ ] **Módulo de Testes Nikko**
+4. - [ ] **Command Line Interface**
+5. - [ ] **Modo e Acesso Kernel**
+6. - [ ] **Linguagem Crawler**
+
+<div align="center"> 
+
+## Linguagens Projetos Associados[^2]
+
+![Crawler-Lang-Logo](https://user-images.githubusercontent.com/59739253/187043188-e4a3415c-abca-47b1-bcbf-6227339b3339.png)
+
+</div>
+
+<div align="center"> 
+
+## Changelog
+
+<div align="left">
+
+> ### Version 1.0.0 to 1.2.0-5:
+>
+>> added ``wlydroc.lib.ts``;<br>
+>> added ``wmath.lib.ts``;<br>
+>> added ``wterminal.lib.ts``;<br>
+>> added ``wspectrals.lib.ts``;
+
+</div>
+
+</div>
+
+<div align="center"> 
+
+## Infográfico 
+
+![Wertsfy Infograph v2](https://user-images.githubusercontent.com/59739253/186742979-e1fdc516-dcbd-4a41-afa9-4b3f09bed2d1.png)
+
+</div>
+
+[^1]: Ainda em desenvolvimento, versão 1.0 e suas variações removidas temporariamente do NPM.
+
+[^2]: Projetos com associação direta ao projeto Wertsfy.

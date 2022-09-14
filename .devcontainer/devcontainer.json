@@ -1,0 +1,72 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.1/containers/ubuntu
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
+		// Use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon.
+		"args": { "VARIANT": "ubuntu-22.04" }
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [ 3030 ],
+	
+	"portsAttributes": {
+		"3030": {
+			"label": "Codespace 3030 Port",
+			"onAutoForward": "notify",
+			"elevateIfNeeded": true,
+			"protocol": "https",
+			"requireLocalPort": false
+		}
+	},
+
+	"otherPortsAttributes": {
+		"onAutoForward": "ignore"
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+	
+	"features": {
+		"git": "latest",
+		"git-lfs": "latest",
+		"github-cli": "latest",
+		"sshd": "latest",
+		"python": "latest"
+	},
+
+	"extensions": [
+		"ms-ceintl.vscode-language-pack-pt-br",
+		"ms-azuretools.vscode-docker",
+		"tal7aouy.rainbow-bracket",
+		"naumovs.color-highlight",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"mkxml.vscode-filesize",
+		"suhay.vscode-editor-group-minimizer",
+		"eamodio.gitlens",
+		"olivertasevski.vscode-space",
+		"johnpapa.winteriscoming",
+		"equinusocio.vsc-material-theme-icons"
+	],
+
+	"settings": {
+		"[markdown]": {
+			"editor.unicodeHighlight.ambiguousCharacters": false,
+			"editor.unicodeHighlight.invisibleCharacters": false,
+			"editor.wordWrap": "on"
+		},
+		"editor.tabSize": 2,
+		"remote.localPortHost": "localhost",
+		"comments.openView": "file",
+		"comments.useRelativeTime": true,
+		"workbench.settings.openDefaultKeybindings": false,
+		"workbench.iconTheme": "eq-material-theme-icons-darker",
+		"workbench.colorTheme": "Winter is Coming (Dark Black)",
+		"extensions.closeExtensionDetailsOnViewChange": true
+	}
+
+}

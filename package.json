@@ -1,10 +1,9 @@
 {
-  "name": "wertsfy",
-  "version": "1.2.0-5",
+  "name": "wertsfy-dev-edition",
+  "version": "2.0.0-outsider.development",
   "description": "Wertsfy - Ultimate API of Things.",
-  "main": "index.js",
   "scripts": {
-    "webserver": "npx gulp server"
+    "none": ""
   },
   "repository": {
     "type": "git",
@@ -17,18 +16,14 @@
   },
   "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-devserver": "^0.6.2",
+    "@types/node": "^18.7.14",
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "chromium": "^3.0.3",
     "commander": "^9.4.0",
-    "prettiest": "^1.1.0",
-    "shelljs": "^0.8.5",
-    "yargs": "^17.5.1"
-  },
-  "directories": {
-    "doc": "docs"
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.5"
   }
 }

@@ -1,0 +1,1 @@
+{"version":3,"file":"architectureboard.d.ts","sourceRoot":"","sources":["../application/architectureboard.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAW,MAAM,WAAW,CAAC;AAU7C,cAAM,iBAAiB;IAErB,SAAS,CAAC,sBAAsB,0BAK/B;IAEM,mBAAmB;;MAAmB;IACtC,gBAAgB;;MAAuB;IACvC,iBAAiB;;MAAwB;IACzC,cAAc;;MAAqB;IACnC,cAAc;;MAAqB;CAG3C;AAAC,eAAO,IAAI,iBAAiB,mBAA0B,CAAC"}

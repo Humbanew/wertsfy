@@ -1,16 +1,6 @@
 {
   "recommendations": [
-    "ms-ceintl.vscode-language-pack-pt-br",
-    "bierner.markdown-preview-github-styles",
-    "ms-azuretools.vscode-docker",
-    "tal7aouy.rainbow-bracket",
-    "naumovs.color-highlight",
-    "github.copilot",
-    "raidou.calc",
-    "techer.open-in-browser",
-    "davidanson.vscode-markdownlint",
-    "pkief.material-icon-theme",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "donjayamanne.python-extension-pack"
+    "dart-code.dart-code",
+    "peterhdd.dartgettersetter"
   ]
 }

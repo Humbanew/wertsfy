@@ -1,0 +1,17 @@
+{
+  "name": "app-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "php-server": "npx gulp phpwebserver"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "open": "^8.4.0"
+  }
+}

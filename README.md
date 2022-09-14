@@ -9,7 +9,11 @@
 
 </div>
 
+<<<<<<< HEAD
 1. - [x] **Wboard**
+=======
+1. - [x] **Architectureboard**
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5
 2. - [ ] **Módulo de Bibliotecas**
 3. - [ ] **Módulo de Testes Nikko**
 4. - [ ] **Command Line Interface**
@@ -22,6 +26,7 @@
 
 ![Crawler-Lang-Logo](https://user-images.githubusercontent.com/59739253/187043188-e4a3415c-abca-47b1-bcbf-6227339b3339.png)
 
+<<<<<<< HEAD
 </div>
 
 <div align="center"> 
@@ -38,6 +43,8 @@
 >> added ``wspectrals.lib.ts``;
 
 </div>
+=======
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5
 
 </div>
 

@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "wertsfy-dev-edition",
   "version": "2.0.0-outsider.development",
+=======
+  "name": "wertsfy",
+  "version": "2.0.0-RM",
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5
   "description": "Wertsfy - Ultimate API of Things.",
   "scripts": {
     "none": ""
@@ -16,13 +21,22 @@
   },
   "homepage": "https://github.com/Humba01/WertsfyAPI#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "@types/node": "^18.7.14",
+=======
+    "@types/jasmine": "^4.3.0",
+    "@types/node": "^18.7.13",
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5
     "typescript": "^4.6.2"
   },
   "dependencies": {
     "commander": "^9.4.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^10.1.0",
+<<<<<<< HEAD
+=======
+    "jasmine": "^4.3.0",
+>>>>>>> 70e710439eecb1869a950f2d441a7f9409f6b1e5
     "path": "^0.12.7",
     "shelljs": "^0.8.5"
   }

@@ -14,9 +14,32 @@ class WBoard {
 
   // bloco de implementação das Bibliotecas
   protected wtsy_lib = class WLib {
+    
+    _log(expo: number, x: number): number {
+      let exp = expo , scan = x % exp;
+  
+      while(scan != 0) {
+        scan = scan % exp;
+  
+        if(expo ** exp != x) {   
+          if(expo ** exp != x) {
+            if (expo ** exp != x) {
+              exp += 0.0001;
+            }
+            exp += 0.001;
+          }
+          exp += 0.01; 
+        } 
+        exp += 0.1;
+      }
+      return exp;
+    };
+
 
     // bloco de implementação da Biblioteca "Math"
     public Math = class WMath {
+
+      
 
       get pi()
       { 
@@ -324,18 +347,285 @@ class WBoard {
         return v;
       }
 
+      sin(x: number): number {
+        return (((2 * this.pi * 1) / 4) / 90) * x;
+      }
 
-  sin(x: number): number {
-    return (((2 * this.pi * 1) / 4) / 90) * x;
-  }
+      cos(x: number): number {
+        return (-1 * (((2 * this.pi * 1) / 4) / 90)) * x;
+      }
 
-  cos(x: number): number {
-    return (-1 * (((2 * this.pi * 1) / 4) / 90)) * x;
-  }
+      tan(x: number): number {    
+        return this.sin(x) / this.cos(x);
+      }
 
-  tan(x: number): number {    
-    return this.sin(x) / this.cos(x);
-  }
+      sec(x: number): number {
+        return 1 / this.cos(x);
+      }
+
+      cosec(x: number): number {
+        return 1 / this.sin(x);
+      }
+
+      cotan(x: number): number {
+        return 1 / (this.cos(x) / this.sin(x));
+      }
+      
+      sinh(x: number): number {
+        return 1 / (((2 * this.pi * 1) / 4) / 90) * x;
+      }
+
+      cosh(x: number): number {
+        return 1 / (-1 * ((2 * this.pi * 1) / 4) / 90) * x;
+      }
+
+      tanh(x: number): number {
+        return 1 / (this.sin(x) / this.cos(x));
+      }
+
+      sech(x: number): number {
+        return 1 / this.cosh(x);
+      }
+
+      cosech(x: number): number {
+        return 1 / this.sinh(x);
+      }
+
+      cotanh(x: number): number {
+        return 1 / (this.cosh(x) / this.sinh(x));
+      }
+
+      arcsin(x: number): number {
+        return (((2 * this.pi * 1) / 4) / 90) * x;
+      }
+
+      arccos(x: number): number {
+        return -1 * (((2 * this.pi * 1) / 4) / 90) * x;
+      }
+
+      arctan(x: number): number {
+        return (this.arcsin(x) / this.arccos(x));
+      }
+
+      arcsec(x: number): number {
+        return 1 / this.arccos(x);
+      }
+
+      arccosec(x: number): number {
+        return 1 / this.arcsin(x);
+      }
+
+      arccotan(x: number): number {
+        return 1 / this.arctan(x);
+      }
+
+      arcsinh(x: number): number {
+        return 1 / (((2 * this.pi * 1) / 4) / 90) * x;
+      }
+
+      arccosh(x: number): number {
+        return 1 / (-1 * (((2 * this.pi * 1) / 4) / 90) * x);
+      }
+
+      arctanh(x: number): number {
+        return 1 / (this.arcsinh(x) / this.arccosh(x));
+      }
+
+      arcsech(x: number): number {
+        return 1 / this.arccosh(x);
+      }
+
+      arccosech(x: number): number {
+        return 1 / this.arcsinh(x);
+      }
+
+      arccotanh(x: number): number {
+        return 1 / this.arctanh(x);
+      }
+
+      log2(x: number): number {
+        if(x == 0) { return NaN; }  
+        return WLib.prototype._log(2, x);
+      }
+
+      log2m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(2 - 1, x);
+      }
+
+      log2p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(2 + 1, x);
+      } 
+
+      log3(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(3, x);
+      }
+
+      log3m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(3 - 1, x);
+      }
+
+      log3p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(3 + 1, x);
+      }
+
+      log4(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(4, x);
+      }
+
+      log4m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(4 - 1, x);
+      }
+
+      log4p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(4 + 1, x);
+      }
+
+      log5(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(5, x);
+      }
+
+      log5m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(5 - 1, x);
+      }
+
+      log5p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(5 + 1, x);
+      }
+
+      log6(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(6, x);
+      }
+
+      log6m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(6 - 1, x);
+      }
+
+      log6p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(6 + 1, x);
+      }
+
+      log7(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(7, x);
+      }
+
+      log7m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(7 - 1, x);
+      }
+
+      log7p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(7 + 1, x);
+      }
+
+      log8(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(8, x);
+      }
+
+      log8m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(8 - 1, x);
+      }
+
+      log8p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(8 + 1, x);
+      }
+
+      log9(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(9, x);
+      }
+
+      log9m1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(9 - 1, x);
+      }
+
+      log9p1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(9 + 1, x);
+      }
+
+      log(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(10 - 1, x);
+      }
+
+      logm1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(10 - 1, x);
+      }
+
+      logp1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(10 + 1, x);
+      }
+
+      logx(x: number, base: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(base, x);
+      }
+
+      logxm1(x: number, base: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(base - 1, x);
+      }
+
+      logxp1(x: number, base: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(base + 1, x);
+      }
+
+      ln(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(this.euler, x);
+      }
+
+      lnm1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(this.euler - 1, x);
+      }
+
+      lnp1(x: number): number {
+        if(x == 0) { return NaN; }
+        return WLib.prototype._log(this.euler + 1, x);
+      }
+
+      random(x: number): number {
+        return (Int8Array.of(400).length / Int8Array.of(200).length) * x;
+      }
+
+      exp(base: number, valorLg: number): number {
+        if(base == 0) { return NaN; }
+        return this.logx(valorLg, base);
+      }
+
+      expm1(base: number, valorLg: number): number {
+        if(base == 0) { return NaN; }
+        return this.logxm1(valorLg, base);
+      }
+
+      expp1(base: number, valorLg: number): number {
+        if(base == 0) { return NaN; }
+        return this.logxp1(valorLg, base);
+      }
 
 
     }

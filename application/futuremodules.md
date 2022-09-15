@@ -1,11 +1,5 @@
 # Future Modules
 
-## Ainda não transferidos:
-
-- WSpectrals
-- WTerminal
-- WLydroc
-
 ## Na fila para serem adicionados:
 
 - WBlog
@@ -20,15 +14,10 @@
 - WIO
 - WDatabase
 - WPlaceholders
-- WHttp
-- WBanksystem
 - WPaint
-- WReactnative
 - WReact
 - WMicroservices
-- WTester
 - WIonic
-- WSystems
 - WOS
 - WAjax
 - WAngular

@@ -1,7 +1,15 @@
-static enum tokens 
+static enum rtokens 
 { 
   boolean, 
   inumber,
   fnumber,
-  string 
+  string,
+  pstring,
+
+  object,
+  class,
+
+  public,
+  private,
+  protected 
 };

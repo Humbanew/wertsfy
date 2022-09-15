@@ -1,0 +1,19 @@
+{
+    "name": "humba01/wertsfy",
+    "description": "Ultimate API of Things.",
+    "license": "The Humbanew Technologies License Use Terms v2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Humba01\\Wertsfy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Humberto Bravo",
+            "email": "humbandroid@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

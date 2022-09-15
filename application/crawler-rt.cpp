@@ -1,1 +1,7 @@
-static enum reserved_tokens { boolean, integer, float, double };
+static enum tokens 
+{ 
+  boolean, 
+  inumber,
+  fnumber,
+  string 
+};

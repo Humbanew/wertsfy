@@ -227,6 +227,8 @@ class WBoard {
         return x ** (1 / 10);
       }
 
+
+      
       pow(x: number, y: number, neg?: boolean): number {
         if(neg == true) return -1 * (x ** y);
         return x ** y;

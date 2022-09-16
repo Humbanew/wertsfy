@@ -15,10 +15,6 @@ gulp.task('phpwebserver', () => {
     watch: true,
     watchEvents: true,
     open: false,
-    cors: {
-      "Access-Control-Allow-Origin": "*"
-    }
-
     }) 
   });
 

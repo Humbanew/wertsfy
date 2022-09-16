@@ -1,8 +1,6 @@
 'use strict'
 
-Function
-
-type doublefunction = { funcs: { f1: (any) => { }, f2: (any) => { } } };
+interface DoubleFunction { };
 
 // Quadro base de arquitetura
 class WBoard {

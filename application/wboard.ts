@@ -1,5 +1,6 @@
 'use strict'
 
+let hook = Function;
 interface DoubleFunction { };
 
 // Quadro base de arquitetura

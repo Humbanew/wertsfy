@@ -1,5 +1,7 @@
 'use strict'
 
+Function
+
 type doublefunction = { funcs: { f1: (any) => { }, f2: (any) => { } } };
 
 // Quadro base de arquitetura
@@ -173,31 +175,6 @@ class WBoard {
       {
         if(neg == true) return -1 * (x < 0 ? -1 * x : x);
         return x < 0 ? -1 * x : x;
-      }
-
-      absolute: doublefunction= 
-      { 
-        
-        funcs: 
-        { 
-          
-          f1: (x: number)=> 
-          { 
-            return x < 0 ? -1 * x : x; 
-          },
-          
-          f2: (x: number)=> 
-          {
-            return -1 * (x < 0 ? -1 * x : x)
-          }
-        
-        } 
-     
-      }
-
-      absd()
-      {
-        return this.absolute;
       }
 
       sqrt(x: number, neg?: boolean): number 

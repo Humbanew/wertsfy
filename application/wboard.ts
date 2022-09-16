@@ -175,7 +175,7 @@ class WBoard {
         return x < 0 ? -1 * x : x;
       }
 
-      absd: doublefunction= 
+      absolute: doublefunction= 
       { 
         
         funcs: 
@@ -195,9 +195,9 @@ class WBoard {
      
       }
 
-      get absolute()
+      absd()
       {
-        return this.absd;
+        return this.absolute;
       }
 
       sqrt(x: number, neg?: boolean): number 

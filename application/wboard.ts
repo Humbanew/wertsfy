@@ -226,61 +226,70 @@ class WBoard {
         if(neg == true) return -1 * (x ** (1 / 10));
         return x ** (1 / 10);
       }
-
-
       
-      pow(x: number, y: number, neg?: boolean): number {
+      pow(x: number, y: number, neg?: boolean): number
+      {
         if(neg == true) return -1 * (x ** y);
         return x ** y;
       }
 
-      pow2(y: number, neg?: boolean): number {
+      pow2(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (2 ** y);
         return 2 ** y;
       }
 
-      pow3(y: number, neg?: boolean): number {
+      pow3(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (3 ** y);
         return 3 ** y;
       }
 
-      pow4(y: number, neg?: boolean): number {
+      pow4(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (4 ** y);
         return 4 ** y;
       }
 
-      pow5(y: number, neg?: boolean): number {
+      pow5(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (5 ** y);
         return 5 ** y;
       }
 
-      pow6(y: number, neg?: boolean): number {
+      pow6(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (6 ** y);
         return 6 ** y;
       }
 
-      pow7(y: number, neg?: boolean): number {
+      pow7(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (7 ** y);
         return 7 ** y;
       }
 
-      pow8(y: number, neg?: boolean): number {
+      pow8(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (8 ** y);
         return 8 ** y;
       }
 
-      pow9(y: number, neg?: boolean): number {
+      pow9(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (9 ** y);
         return 9 ** y;
       }
 
-      pow10(y: number, neg?: boolean): number {
+      pow10(y: number, neg?: boolean): number 
+      {
         if(neg == true) return -1 * (2 ** y);
         return 10 ** y;
       }
 
-      powOfPow(x: number, y: number, z?: number[], neg?: boolean): number {
-        let rest;
+      powOfPow(x: number, y: number, z?: number[], neg?: boolean): number 
+      {
+        let rest: number;
         if(z != null) {
           let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
           return rest = x ** (y ** l);
@@ -289,7 +298,8 @@ class WBoard {
         return rest;
       }
 
-      max(x: number[]): number {
+      max(x: number[]): number 
+      {
         let max = x[0];
         for (let i = 1; i < x.length; i++) {
           if (x[i] > max) { max = x[i]; }
@@ -297,7 +307,8 @@ class WBoard {
         return max;
       }
 
-      min(x: number[]): number {
+      min(x: number[]): number 
+      {
         let min = x[0];
         for (let i = 1; i < x.length; i++) {
           if (x[i] < min) { min = x[i]; }
@@ -305,14 +316,16 @@ class WBoard {
         return min;
       }
 
-      round(x: number): number {
+      round(x: number): number 
+      {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
         let resultado = undefined;
         resultado = verificador.exec(x.toString());
         return parseInt(resultado[0]);
       }
 
-      fround(x: number): number {
+      fround(x: number): number 
+      {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
         let resultado = undefined;
         resultado = verificador.exec(x.toString());
@@ -322,224 +335,272 @@ class WBoard {
         return parseInt(resultado[0]);
       }
 
-      sign(x: number): number {
+      sign(x: number): number 
+      {
         let v = undefined;
         if (x > 0) { return v = 1; }
         if (x < 0) { return v = -1; }
         return v;
       }
 
-      trunc(x: number): number {
+      trunc(x: number): number 
+      {
         return parseInt(x.toString());
       }
 
-      imul(x: number, y: number): number {
+      imul(x: number, y: number): number 
+      {
         return x * y;
       }
 
-      ceil(x: number): number {
+      ceil(x: number): number 
+      {
         let v = undefined;
         if (x < x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }
 
-      floor(x: number): number {
+      floor(x: number): number 
+      {
         let v = undefined;
         if (x > x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }
 
-      sin(x: number): number {
+      sin(x: number): number 
+      {
         return (((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      cos(x: number): number {
+      cos(x: number): number 
+      {
         return (-1 * (((2 * this.pi * 1) / 4) / 90)) * x;
       }
 
-      tan(x: number): number {    
+      tan(x: number): number 
+      {    
         return this.sin(x) / this.cos(x);
       }
 
-      sec(x: number): number {
+      sec(x: number): number 
+      {
         return 1 / this.cos(x);
       }
 
-      cosec(x: number): number {
+      cosec(x: number): number 
+      {
         return 1 / this.sin(x);
       }
 
-      cotan(x: number): number {
+      cotan(x: number): number 
+      {
         return 1 / (this.cos(x) / this.sin(x));
       }
       
-      sinh(x: number): number {
+      sinh(x: number): number 
+      {
         return 1 / (((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      cosh(x: number): number {
+      cosh(x: number): number 
+      {
         return 1 / (-1 * ((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      tanh(x: number): number {
+      tanh(x: number): number 
+      {
         return 1 / (this.sin(x) / this.cos(x));
       }
 
-      sech(x: number): number {
+      sech(x: number): number 
+      {
         return 1 / this.cosh(x);
       }
 
-      cosech(x: number): number {
+      cosech(x: number): number 
+      {
         return 1 / this.sinh(x);
       }
 
-      cotanh(x: number): number {
+      cotanh(x: number): number 
+      {
         return 1 / (this.cosh(x) / this.sinh(x));
       }
 
-      arcsin(x: number): number {
+      arcsin(x: number): number 
+      {
         return (((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      arccos(x: number): number {
+      arccos(x: number): number 
+      {
         return -1 * (((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      arctan(x: number): number {
+      arctan(x: number): number 
+      {
         return (this.arcsin(x) / this.arccos(x));
       }
 
-      arcsec(x: number): number {
+      arcsec(x: number): number 
+      {
         return 1 / this.arccos(x);
       }
 
-      arccosec(x: number): number {
+      arccosec(x: number): number 
+      {
         return 1 / this.arcsin(x);
       }
 
-      arccotan(x: number): number {
+      arccotan(x: number): number 
+      {
         return 1 / this.arctan(x);
       }
 
-      arcsinh(x: number): number {
+      arcsinh(x: number): number 
+      {
         return 1 / (((2 * this.pi * 1) / 4) / 90) * x;
       }
 
-      arccosh(x: number): number {
+      arccosh(x: number): number 
+      {
         return 1 / (-1 * (((2 * this.pi * 1) / 4) / 90) * x);
       }
 
-      arctanh(x: number): number {
+      arctanh(x: number): number 
+      {
         return 1 / (this.arcsinh(x) / this.arccosh(x));
       }
 
-      arcsech(x: number): number {
+      arcsech(x: number): number 
+      {
         return 1 / this.arccosh(x);
       }
 
-      arccosech(x: number): number {
+      arccosech(x: number): number 
+      {
         return 1 / this.arcsinh(x);
       }
 
-      arccotanh(x: number): number {
+      arccotanh(x: number): number 
+      {
         return 1 / this.arctanh(x);
       }
 
-      log2(x: number, minus1?: boolean, plus1?: boolean): number {
+      log2(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(2 - 1, x);
         if(plus1 == true) return WLib.prototype._log(2 + 1, x);
         return WLib.prototype._log(2, x);
       }
 
-      log3(x: number, minus1?: boolean, plus1?: boolean): number {
+      log3(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(3 - 1, x);
         if(plus1 == true) return WLib.prototype._log(3 + 1, x);
         return WLib.prototype._log(3, x);
       }
 
-      log4(x: number, minus1?: boolean, plus1?: boolean): number {
+      log4(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(4 - 1, x);
         if(plus1 == true) return WLib.prototype._log(4 + 1, x);
         return WLib.prototype._log(4, x);
       }
 
-      log5(x: number, minus1?: boolean, plus1?: boolean): number {
+      log5(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(5 - 1, x);
         if(plus1 == true) return WLib.prototype._log(5 + 1, x);
         return WLib.prototype._log(5, x);
       }
 
-      log6(x: number, minus1?: boolean, plus1?: boolean): number {
+      log6(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(6 - 1, x);
         if(plus1 == true) return WLib.prototype._log(6 + 1, x);
         return WLib.prototype._log(6, x);
       }
 
-      log7(x: number, minus1?: boolean, plus1?: boolean): number {
+      log7(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(7 - 1, x);
         if(plus1 == true) return WLib.prototype._log(7 + 1, x);
         return WLib.prototype._log(7, x);
       }
 
-      log8(x: number, minus1?: boolean, plus1?: boolean): number {
+      log8(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(8 - 1, x);
         if(plus1 == true) return WLib.prototype._log(8 + 1, x);
         return WLib.prototype._log(8, x);
       }
 
-      log9(x: number, minus1?: boolean, plus1?: boolean): number {
+      log9(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(9 - 1, x);
         if(plus1 == true) return WLib.prototype._log(9 + 1, x);
         return WLib.prototype._log(9, x);
       }
 
-      log(x: number, minus1?: boolean, plus1?: boolean): number {
+      log(x: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(10 - 1, x);
         if(plus1 == true) return WLib.prototype._log(10 + 1, x);
         return WLib.prototype._log(10 - 1, x);
       }
 
-      logx(x: number, base: number, minus1?: boolean, plus1?: boolean): number {
+      logx(x: number, base: number, minus1?: boolean, plus1?: boolean): number 
+      {
         if(minus1 == true) return WLib.prototype._log(base - 1, x);
         if(plus1 == true) return WLib.prototype._log(base + 1, x);
         return WLib.prototype._log(base, x);
       }
 
-      logxm1(x: number, base: number): number {
+      logxm1(x: number, base: number): number 
+      {
         return WLib.prototype._log(base - 1, x);
       }
 
-      logxp1(x: number, base: number): number {
+      logxp1(x: number, base: number): number 
+      {
         return WLib.prototype._log(base + 1, x);
       }
 
-      ln(x: number): number {
+      ln(x: number): number 
+      {
         return WLib.prototype._log(this.euler, x);
       }
 
-      lnm1(x: number): number {
+      lnm1(x: number): number 
+      {
         return WLib.prototype._log(this.euler - 1, x);
       }
 
-      lnp1(x: number): number {
+      lnp1(x: number): number 
+      {
         return WLib.prototype._log(this.euler + 1, x);
       }
 
-      random(x: number): number {
+      random(x: number): number 
+      {
         return (Int8Array.of(400).length / Int8Array.of(200).length) * x;
       }
 
-      exp(base: number, valorLg: number): number {
+      exp(base: number, valorLg: number): number 
+      {
         if(base == 0) { return NaN; }
         return this.logx(valorLg, base);
       }
 
-      expm1(base: number, valorLg: number): number {
+      expm1(base: number, valorLg: number): number 
+      {
         if(base == 0) { return NaN; }
         return this.logxm1(valorLg, base);
       }
 
-      expp1(base: number, valorLg: number): number {
+      expp1(base: number, valorLg: number): number 
+      {
         if(base == 0) { return NaN; }
         return this.logxp1(valorLg, base);
       }

@@ -3,6 +3,8 @@ const gulp = require('gulp')
   ,phpConnect = require('gulp-connect-php')
   ,browserSync = require('browser-sync')
   ,openUrl = require('open')
+  ,express = require('express')
+  ,cors = require('cors')
 
 let connection = new phpConnect();
 

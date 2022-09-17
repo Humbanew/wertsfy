@@ -1,8 +1,5 @@
 'use strict'
 
-let hook = Function;
-interface DoubleFunction { };
-
 // Quadro base de arquitetura
 class WBoard {
 
@@ -170,134 +167,113 @@ class WBoard {
         return -999999999999999;
       }
 
-      abs(x: number, neg?: boolean): number 
+      abs(x: number): number 
       {
-        if(neg == true) return -1 * (x < 0 ? -1 * x : x);
         return x < 0 ? -1 * x : x;
       }
 
-      sqrt(x: number, neg?: boolean): number 
+      sqrt(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 2));
         return x ** (1 / 2);
       }
 
-      cbrt(x: number, neg?: boolean): number 
+      cbrt(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 3));
         return x ** (1 / 3);
       }
 
-      quart(x: number, neg?: boolean): number 
+      quart(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 4));
         return x ** (1 / 4);
       }
 
-      quint(x: number, neg?: boolean): number 
+      quint(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 5));
         return x ** (1 / 5);
       }
 
-      sext(x: number, neg?: boolean): number 
+      sext(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 6));
         return x ** (1 / 6);
       }
 
-      sept(x: number, neg?: boolean): number 
+      sept(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 7));
         return x ** (1 / 7);
       }
 
-      oct(x: number, neg?: boolean): number 
+      oct(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 8));
         return x ** (1 / 8);
       }
 
-      non(x: number, neg?: boolean): number 
+      non(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 9));
         return x ** (1 / 9);
       }
 
-      dec(x: number, neg?: boolean): number 
+      dec(x: number): number 
       {
-        if(neg == true) return -1 * (x ** (1 / 10));
         return x ** (1 / 10);
       }
       
-      pow(x: number, y: number, neg?: boolean): number
+      pow(x: number, y: number): number
       {
-        if(neg == true) return -1 * (x ** y);
         return x ** y;
       }
 
-      pow2(y: number, neg?: boolean): number 
+      pow2(y: number): number 
       {
-        if(neg == true) return -1 * (2 ** y);
         return 2 ** y;
       }
 
-      pow3(y: number, neg?: boolean): number 
+      pow3(y: number): number 
       {
-        if(neg == true) return -1 * (3 ** y);
         return 3 ** y;
       }
 
-      pow4(y: number, neg?: boolean): number 
+      pow4(y: number): number 
       {
-        if(neg == true) return -1 * (4 ** y);
         return 4 ** y;
       }
 
-      pow5(y: number, neg?: boolean): number 
+      pow5(y: number): number 
       {
-        if(neg == true) return -1 * (5 ** y);
         return 5 ** y;
       }
 
-      pow6(y: number, neg?: boolean): number 
+      pow6(y: number): number 
       {
-        if(neg == true) return -1 * (6 ** y);
         return 6 ** y;
       }
 
-      pow7(y: number, neg?: boolean): number 
+      pow7(y: number): number 
       {
-        if(neg == true) return -1 * (7 ** y);
         return 7 ** y;
       }
 
-      pow8(y: number, neg?: boolean): number 
+      pow8(y: number): number 
       {
-        if(neg == true) return -1 * (8 ** y);
         return 8 ** y;
       }
 
-      pow9(y: number, neg?: boolean): number 
+      pow9(y: number): number 
       {
-        if(neg == true) return -1 * (9 ** y);
         return 9 ** y;
       }
 
-      pow10(y: number, neg?: boolean): number 
+      pow10(y: number): number 
       {
-        if(neg == true) return -1 * (2 ** y);
         return 10 ** y;
       }
 
-      powOfPow(x: number, y: number, z?: number[], neg?: boolean): number 
+      powOfPow(x: number, y: number, z?: number[]): number 
       {
         let rest: number;
         if(z != null) {
           let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
           return rest = x ** (y ** l);
         }
-        if(neg == true) return -1 * rest;
         return rest;
       }
 
@@ -490,73 +466,143 @@ class WBoard {
         return 1 / this.arctanh(x);
       }
 
-      log2(x: number, minus1?: boolean, plus1?: boolean): number 
+      log2(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(2 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(2 + 1, x);
         return WLib.prototype._log(2, x);
       }
 
-      log3(x: number, minus1?: boolean, plus1?: boolean): number 
+      log2m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(3 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(3 + 1, x);
+        return WLib.prototype._log(2-1, x);
+      }
+
+      log2p1(x: number): number 
+      {
+        return WLib.prototype._log(2+1, x);
+      }
+
+      log3(x: number): number 
+      {
         return WLib.prototype._log(3, x);
       }
 
-      log4(x: number, minus1?: boolean, plus1?: boolean): number 
+      log3m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(4 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(4 + 1, x);
+        return WLib.prototype._log(3-1, x);
+      }
+
+      log3p1(x: number): number 
+      {
+        return WLib.prototype._log(3+1, x);
+      }
+
+      log4(x: number): number 
+      {
         return WLib.prototype._log(4, x);
       }
 
-      log5(x: number, minus1?: boolean, plus1?: boolean): number 
+      log4m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(5 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(5 + 1, x);
+        return WLib.prototype._log(4-1, x);
+      }
+
+      log4p1(x: number): number 
+      {
+        return WLib.prototype._log(4+1, x);
+      }
+
+      log5(x: number): number 
+      {
         return WLib.prototype._log(5, x);
       }
 
-      log6(x: number, minus1?: boolean, plus1?: boolean): number 
+      log5m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(6 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(6 + 1, x);
+        return WLib.prototype._log(5-1, x);
+      }
+
+      log5p1(x: number): number 
+      {
+        return WLib.prototype._log(5+1, x);
+      }
+
+      log6(x: number): number 
+      {
         return WLib.prototype._log(6, x);
       }
 
-      log7(x: number, minus1?: boolean, plus1?: boolean): number 
+      log6m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(7 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(7 + 1, x);
+        return WLib.prototype._log(6-1, x);
+      }
+
+      log6p1(x: number): number 
+      {
+        return WLib.prototype._log(6+1, x);
+      }
+
+      log7(x: number): number 
+      {
         return WLib.prototype._log(7, x);
       }
 
-      log8(x: number, minus1?: boolean, plus1?: boolean): number 
+      log7m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(8 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(8 + 1, x);
+        return WLib.prototype._log(7-1, x);
+      }
+
+      log7p1(x: number): number 
+      {
+        return WLib.prototype._log(7+1, x);
+      }
+
+      log8(x: number): number 
+      {
         return WLib.prototype._log(8, x);
       }
 
-      log9(x: number, minus1?: boolean, plus1?: boolean): number 
+      log8m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(9 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(9 + 1, x);
+        return WLib.prototype._log(8-1, x);
+      }
+
+      log8p1(x: number): number 
+      {
+        return WLib.prototype._log(8+1, x);
+      }
+
+      log9(x: number): number 
+      {
         return WLib.prototype._log(9, x);
       }
 
-      log(x: number, minus1?: boolean, plus1?: boolean): number 
+      log9m1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(10 - 1, x);
-        if(plus1 == true) return WLib.prototype._log(10 + 1, x);
-        return WLib.prototype._log(10 - 1, x);
+        return WLib.prototype._log(9-1, x);
       }
 
-      logx(x: number, base: number, minus1?: boolean, plus1?: boolean): number 
+      log9p1(x: number): number 
       {
-        if(minus1 == true) return WLib.prototype._log(base - 1, x);
-        if(plus1 == true) return WLib.prototype._log(base + 1, x);
+        return WLib.prototype._log(9+1, x);
+      }
+
+      log(x: number): number 
+      {
+        return WLib.prototype._log(10, x);
+      }
+
+      logm1(x: number): number 
+      {
+        return WLib.prototype._log(10-1, x);
+      }
+
+      logp1(x: number): number 
+      {
+        return WLib.prototype._log(10+1, x);
+      }
+
+      logx(x: number, base: number): number 
+      {
         return WLib.prototype._log(base, x);
       }
 
@@ -592,25 +638,27 @@ class WBoard {
 
       exp(base: number, valorLg: number): number 
       {
-        if(base == 0) { return NaN; }
+        if(base == 0) { return 0; }
         return this.logx(valorLg, base);
       }
 
       expm1(base: number, valorLg: number): number 
       {
-        if(base == 0) { return NaN; }
+        if(base == 0) { return 0; }
         return this.logxm1(valorLg, base);
       }
 
       expp1(base: number, valorLg: number): number 
       {
-        if(base == 0) { return NaN; }
+        if(base == 0) { return 0; }
         return this.logxp1(valorLg, base);
       }
 
 
     }
 
+    
+    public Terminal = class WTerminal { }
 
   }
 
@@ -623,75 +671,89 @@ class WBoard {
     math:
     {
 
+      /** @description PI Constant */
       Pi: this.rdcmath.pi,
 
+      /** @description EULER Constant */
       Euler: this.rdcmath.euler,
       
+      /** @description PLANK Constant */
       Plank: this.rdcmath.plank,
 
+      /** @description AVOGADRO Constant */
       Avogadro: this.rdcmath.avogadro,
 
+      /** @description NEWTON Constant */
       Newton: this.rdcmath.newton,
 
-      Testa: this.rdcmath.tesla,
+      /** @description TESLA Constant */
+      Tesla: this.rdcmath.tesla,
 
+      /** @description SQUARE ROOT Constants */
       Sqrt: this.rdcmath.sqrtd,
 
+      /** @description CUBIC ROOT Constants */
       Cbrt: this.rdcmath.cbrtd,
 
+      /** @description NATURAL LOG OF 2 Constant  */
       Ln2: this.rdcmath.ln2,
 
+      /** @description NATURAL LOG OF 10 Constant */
       Ln10: this.rdcmath.ln10,
 
+      /** @description LOG 2 WITH BASE EULER Constant */
       Log2e: this.rdcmath.log2e,
 
+      /** @description LOG 10 WITH BASE EULER Constant */
       Log10e: this.rdcmath.log10e,
 
+      /** @description MAXVALUE Constant */
       Maxvalue: this.rdcmath.maxvalue,
 
+      /** @description MINVALUE Constant */
       Minvalue: this.rdcmath.minvalue,
 
-      abs: (x: number, neg?: boolean) => this.rdcmath.abs(x, neg),
+      abs: (x: number) => this.rdcmath.abs(x),
 
-      sqrt: (x: number, neg?: boolean) => this.rdcmath.sqrt(x, neg),
+      sqrt: (x: number) => this.rdcmath.sqrt(x),
 
-      cbrt: (x: number, neg?: boolean) => this.rdcmath.cbrt(x, neg),
+      cbrt: (x: number) => this.rdcmath.cbrt(x),
 
-      quart: (x: number, neg?: boolean) => this.rdcmath.quart(x, neg),
+      quart: (x: number) => this.rdcmath.quart(x),
 
-      quint: (x: number, neg?: boolean) => this.rdcmath.quint(x, neg),
+      quint: (x: number) => this.rdcmath.quint(x),
 
-      sext: (x: number, neg?: boolean) => this.rdcmath.sext(x, neg),
+      sext: (x: number) => this.rdcmath.sext(x),
 
-      sept: (x: number, neg?: boolean) => this.rdcmath.sept(x, neg),
+      sept: (x: number) => this.rdcmath.sept(x),
 
-      oct: (x: number, neg?: boolean) => this.rdcmath.oct(x, neg),
+      oct: (x: number) => this.rdcmath.oct(x),
 
-      non: (x: number, neg?: boolean) => this.rdcmath.non(x, neg),
+      non: (x: number) => this.rdcmath.non(x),
 
-      dec: (x: number, neg?: boolean) => this.rdcmath.dec(x, neg),
+      dec: (x: number) => this.rdcmath.dec(x),
 
-      pow: (x: number, y: number, neg?: boolean) => this.rdcmath.pow(x, y, neg),
+      pow: (x: number, y: number) => this.rdcmath.pow(x, y),
 
-      pow2: (y: number, neg?: boolean) => this.rdcmath.pow2(y, neg),
+      pow2: (y: number) => this.rdcmath.pow2(y),
       
-      pow3: (y: number, neg?: boolean) => this.rdcmath.pow3(y, neg),
+      pow3: (y: number) => this.rdcmath.pow3(y),
       
-      pow4: (y: number, neg?: boolean) => this.rdcmath.pow4(y, neg),
+      pow4: (y: number) => this.rdcmath.pow4(y),
       
-      pow5: (y: number, neg?: boolean) => this.rdcmath.pow5(y, neg),
+      pow5: (y: number) => this.rdcmath.pow5(y),
       
-      pow6: (y: number, neg?: boolean) => this.rdcmath.pow6(y, neg),
+      pow6: (y: number) => this.rdcmath.pow6(y),
       
-      pow7: (y: number, neg?: boolean) => this.rdcmath.pow7(y, neg),
+      pow7: (y: number) => this.rdcmath.pow7(y),
       
-      pow8: (y: number, neg?: boolean) => this.rdcmath.pow8(y, neg),
+      pow8: (y: number) => this.rdcmath.pow8(y),
       
-      pow9: (y: number, neg?: boolean) => this.rdcmath.pow9(y, neg),
+      pow9: (y: number) => this.rdcmath.pow9(y),
       
-      pow10: (y: number, neg?: boolean) => this.rdcmath.pow10(y, neg),
+      pow10: (y: number) => this.rdcmath.pow10(y),
 
-      powOfPow: (x: number, y: number, z?: number[], neg?: boolean) => this.rdcmath.powOfPow(x, y, z, neg),
+      powOfPow: (x: number, y: number, z?: number[]) => this.rdcmath.powOfPow(x, y, z),
 
       max: (x: number[]) => this.rdcmath.max(x),
 
@@ -709,13 +771,135 @@ class WBoard {
 
       ceil: (x: number) => this.rdcmath.ceil(x),
 
-      floor: (x: number) => this.rdcmath.floor(x)
+      floor: (x: number) => this.rdcmath.floor(x),
+
+      sin: (x: number) => this.rdcmath.sin(x),
+
+      cos: (x: number) => this.rdcmath.cos(x),
+
+      tan: (x: number) => this.rdcmath.tan(x),
+
+      sec: (x: number) => this.rdcmath.sec(x),
+
+      cosec: (x: number) => this.rdcmath.cosec(x),
+
+      cotan: (x: number) => this.rdcmath.cotan(x),
+
+      sinh: (x: number) => this.rdcmath.sinh(x),
+
+      cosh: (x: number) => this.rdcmath.cosh(x),
+
+      tanh: (x: number) => this.rdcmath.tanh(x),
+
+      sech: (x: number) => this.rdcmath.sech(x),
+
+      cosech: (x: number) => this.rdcmath.cosech(x),
+
+      cotanh: (x: number) => this.rdcmath.cotanh(x),
+
+      arcsin: (x: number) => this.rdcmath.arcsin(x),
+
+      arccos: (x: number) => this.rdcmath.arccos(x),
+
+      arctan: (x: number) => this.rdcmath.arctan(x),
+
+      arcsec: (x: number) => this.rdcmath.arcsec(x),
+
+      arccosec: (x: number) => this.rdcmath.arccosec(x),
+
+      arccotan: (x: number) => this.rdcmath.arccotan(x),
+
+      arcsinh: (x: number) => this.rdcmath.arcsinh(x),
+
+      arccosh: (x: number) => this.rdcmath.arccosh(x),
+
+      arctanh: (x: number) => this.rdcmath.arctanh(x),
+
+      arcsech: (x: number) => this.rdcmath.arcsech(x),
+
+      arccosech: (x: number) => this.rdcmath.arccosech(x),
+
+      arccotanh: (x: number) => this.rdcmath.arccotanh(x),
+
+      log2: (x: number) => this.rdcmath.log2(x),
+
+      log2m1: (x: number) => this.rdcmath.log2m1(x),
+
+      log2p1: (x: number) => this.rdcmath.log2p1(x),
+      
+      log3: (x: number) => this.rdcmath.log3(x),
+
+      log3m1: (x: number) => this.rdcmath.log3m1(x),
+
+      log3p1: (x: number) => this.rdcmath.log3p1(x),
+      
+      log4: (x: number) => this.rdcmath.log4(x),
+
+      log4m1: (x: number) => this.rdcmath.log4m1(x),
+
+      log4p1: (x: number) => this.rdcmath.log4p1(x),
+      
+      log5: (x: number) => this.rdcmath.log5(x),
+
+      log5m1: (x: number) => this.rdcmath.log5m1(x),
+
+      log5p1: (x: number) => this.rdcmath.log5p1(x),
+      
+      log6: (x: number) => this.rdcmath.log6(x),
+
+      log6m1: (x: number) => this.rdcmath.log6m1(x),
+
+      log6p1: (x: number) => this.rdcmath.log6p1(x),
+      
+      log7: (x: number) => this.rdcmath.log7(x),
+
+      log7m1: (x: number) => this.rdcmath.log7m1(x),
+
+      log7p1: (x: number) => this.rdcmath.log7p1(x),
+      
+      log8: (x: number) => this.rdcmath.log8(x),
+
+      log8m1: (x: number) => this.rdcmath.log8m1(x),
+
+      log8p1: (x: number) => this.rdcmath.log8p1(x),
+      
+      log9: (x: number) => this.rdcmath.log9(x),
+
+      log9m1: (x: number) => this.rdcmath.log9m1(x),
+
+      log9p1: (x: number) => this.rdcmath.log9p1(x),
+      
+      log: (x: number) => this.rdcmath.log(x),
+
+      logm1: (x: number) => this.rdcmath.logm1(x),
+
+      logp1: (x: number) => this.rdcmath.logp1(x),
+      
+      logx: (x: number, base: number) => this.rdcmath.logx(x, base),
+
+      logxm1: (x: number, base: number) => this.rdcmath.logxm1(x, base),
+
+      logxp1: (x: number, base: number) => this.rdcmath.logxp1(x, base),
+
+      ln: (x: number) => this.rdcmath.ln(x),
+
+      lnm1: (x: number) => this.rdcmath.lnm1(x),
+
+      lnp1: (x: number) => this.rdcmath.lnp1(x),
+
+      random: (x: number) => this.rdcmath.random(x),
+
+      exp: (x: number, valorLg: number) => this.rdcmath.exp(x, valorLg),
+
+      expm1: (x: number, valorLg: number) => this.rdcmath.expm1(x, valorLg),
+
+      expp1: (x: number, valorLg: number) => this.rdcmath.expp1(x, valorLg)
 
     }
 
-
+    
   }
-
+  
 
 }
 

@@ -671,48 +671,96 @@ class WBoard {
     math:
     {
 
-      /** @description PI Constant */
+      /** 
+       * @description **``Constant``**
+       * Returns the pi value. 
+       */
       Pi: this.rdcmath.pi,
 
-      /** @description EULER Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the euler value.
+       */
       Euler: this.rdcmath.euler,
       
-      /** @description PLANK Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the plank value.
+       */
       Plank: this.rdcmath.plank,
 
-      /** @description AVOGADRO Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the avogrado value.
+       */
       Avogadro: this.rdcmath.avogadro,
 
-      /** @description NEWTON Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the newton value.
+       */
       Newton: this.rdcmath.newton,
 
-      /** @description TESLA Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the tesla value.
+       */
       Tesla: this.rdcmath.tesla,
 
-      /** @description SQUARE ROOT Constants */
+      /** 
+       * @description **``Constant``** 
+       * Returns the root square values.
+       */
       Sqrt: this.rdcmath.sqrtd,
 
-      /** @description CUBIC ROOT Constants */
+      /** 
+       * @description **``Constant``** 
+       * Returns the cubic square values.
+       */
       Cbrt: this.rdcmath.cbrtd,
 
-      /** @description NATURAL LOG OF 2 Constant  */
+      /** 
+       * @description **``Constant``** 
+       * Returns the natural logarithm with base two value.
+       */
       Ln2: this.rdcmath.ln2,
 
-      /** @description NATURAL LOG OF 10 Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the natural logarithm with base ten value.
+       */
       Ln10: this.rdcmath.ln10,
 
-      /** @description LOG 2 WITH BASE EULER Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the logarithm of euler with base two value.
+       */
       Log2e: this.rdcmath.log2e,
 
-      /** @description LOG 10 WITH BASE EULER Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the logarithm of euler with base ten value.
+       */
       Log10e: this.rdcmath.log10e,
 
-      /** @description MAXVALUE Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the maxvalue.
+       */
       Maxvalue: this.rdcmath.maxvalue,
 
-      /** @description MINVALUE Constant */
+      /** 
+       * @description **``Constant``** 
+       * Returns the minvalue.
+       */
       Minvalue: this.rdcmath.minvalue,
 
+      /** 
+       * @description **``Method``** 
+       * Returns the absolute value.
+       * @arguments ``x``
+       * Number value. 
+       */
       abs: (x: number) => this.rdcmath.abs(x),
 
       sqrt: (x: number) => this.rdcmath.sqrt(x),

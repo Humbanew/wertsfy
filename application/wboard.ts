@@ -758,51 +758,177 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the absolute value.
-       * @arguments ``x``
+       * @augments ``x``
        * Number value. 
        */
       abs: (x: number) => this.rdcmath.abs(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the root square value.
+       * @augments ``x``
+       * Number value. 
+       */      
       sqrt: (x: number) => this.rdcmath.sqrt(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the cubic root value.
+       * @augments ``x``
+       * Number value. 
+       */
       cbrt: (x: number) => this.rdcmath.cbrt(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the four root value.
+       * @augments ``x``
+       * Number value. 
+       */
       quart: (x: number) => this.rdcmath.quart(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the five root value.
+       * @augments ``x``
+       * Number value. 
+       */
       quint: (x: number) => this.rdcmath.quint(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the six root value.
+       * @augments ``x``
+       * Number value. 
+       */
       sext: (x: number) => this.rdcmath.sext(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the seven root value.
+       * @augments ``x``
+       * Number value. 
+       */
       sept: (x: number) => this.rdcmath.sept(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the eight root value.
+       * @augments ``x``
+       * Number value. 
+       */
       oct: (x: number) => this.rdcmath.oct(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the nine root value.
+       * @augments ``x``
+       * Number value. 
+       */
       non: (x: number) => this.rdcmath.non(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the ten root value.
+       * @augments ``x``
+       * Number value. 
+       */
       dec: (x: number) => this.rdcmath.dec(x),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the power value.
+       * @augments ``x``
+       * Number base value. 
+       * @augments ``y``
+       * Number power value.
+       */
       pow: (x: number, y: number) => this.rdcmath.pow(x, y),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base two value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow2: (y: number) => this.rdcmath.pow2(y),
-      
+
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base three value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow3: (y: number) => this.rdcmath.pow3(y),
       
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base four value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow4: (y: number) => this.rdcmath.pow4(y),
       
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base five value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow5: (y: number) => this.rdcmath.pow5(y),
       
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base six value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow6: (y: number) => this.rdcmath.pow6(y),
-      
+
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base seven value.
+       * @augments ``y``
+       * Number value. 
+       */      
       pow7: (y: number) => this.rdcmath.pow7(y),
       
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base eight value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow8: (y: number) => this.rdcmath.pow8(y),
-      
+
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base nine value.
+       * @augments ``y``
+       * Number value. 
+       */
       pow9: (y: number) => this.rdcmath.pow9(y),
-      
+
+      /** 
+       * @description **``Method``** 
+       * Returns the power with base ten value.
+       * @augments ``y``
+       * Number value. 
+       */      
       pow10: (y: number) => this.rdcmath.pow10(y),
 
+      /** 
+       * @description **``Method``** 
+       * Returns the power of a value's power.
+       * @augments ``x``
+       * Base number value.
+       * @augments ``y``
+       * Power number value.
+       * @augments ``z`` (Optional)
+       * Power's sequency values. 
+       */
       powOfPow: (x: number, y: number, z?: number[]) => this.rdcmath.powOfPow(x, y, z),
-
+// parou aqui
       max: (x: number[]) => this.rdcmath.max(x),
 
       min: (x: number[]) => this.rdcmath.min(x),

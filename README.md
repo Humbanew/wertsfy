@@ -9,7 +9,7 @@
 
 </div>
 
-1. - [x] **Architectureboard**
+1. - [x] **Wboard**
 2. - [ ] **Módulo de Bibliotecas**
 3. - [ ] **Módulo de Testes Nikko**
 4. - [ ] **Command Line Interface**
@@ -22,6 +22,22 @@
 
 ![Crawler-Lang-Logo](https://user-images.githubusercontent.com/59739253/187043188-e4a3415c-abca-47b1-bcbf-6227339b3339.png)
 
+</div>
+
+<div align="center"> 
+
+## Changelog
+
+<div align="left">
+
+> ### Version 1.0.0 to 1.2.0-5:
+>
+>> added ``wlydroc.lib.ts``;<br>
+>> added ``wmath.lib.ts``;<br>
+>> added ``wterminal.lib.ts``;<br>
+>> added ``wspectrals.lib.ts``;
+
+</div>
 
 </div>
 

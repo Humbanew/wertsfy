@@ -39,8 +39,6 @@ class WBoard {
     // bloco de implementação da Biblioteca "Math"
     public Math = class WMath {
 
-      
-
       get pi()
       { 
         return 3.141592653589793; 
@@ -220,51 +218,6 @@ class WBoard {
       pow(x: number, y: number): number
       {
         return x ** y;
-      }
-
-      pow2(y: number): number 
-      {
-        return 2 ** y;
-      }
-
-      pow3(y: number): number 
-      {
-        return 3 ** y;
-      }
-
-      pow4(y: number): number 
-      {
-        return 4 ** y;
-      }
-
-      pow5(y: number): number 
-      {
-        return 5 ** y;
-      }
-
-      pow6(y: number): number 
-      {
-        return 6 ** y;
-      }
-
-      pow7(y: number): number 
-      {
-        return 7 ** y;
-      }
-
-      pow8(y: number): number 
-      {
-        return 8 ** y;
-      }
-
-      pow9(y: number): number 
-      {
-        return 9 ** y;
-      }
-
-      pow10(y: number): number 
-      {
-        return 10 ** y;
       }
 
       powOfPow(x: number, y: number, z?: number[]): number 
@@ -466,126 +419,6 @@ class WBoard {
         return 1 / this.arctanh(x);
       }
 
-      log2(x: number): number 
-      {
-        return WLib.prototype._log(2, x);
-      }
-
-      log2m1(x: number): number 
-      {
-        return WLib.prototype._log(2-1, x);
-      }
-
-      log2p1(x: number): number 
-      {
-        return WLib.prototype._log(2+1, x);
-      }
-
-      log3(x: number): number 
-      {
-        return WLib.prototype._log(3, x);
-      }
-
-      log3m1(x: number): number 
-      {
-        return WLib.prototype._log(3-1, x);
-      }
-
-      log3p1(x: number): number 
-      {
-        return WLib.prototype._log(3+1, x);
-      }
-
-      log4(x: number): number 
-      {
-        return WLib.prototype._log(4, x);
-      }
-
-      log4m1(x: number): number 
-      {
-        return WLib.prototype._log(4-1, x);
-      }
-
-      log4p1(x: number): number 
-      {
-        return WLib.prototype._log(4+1, x);
-      }
-
-      log5(x: number): number 
-      {
-        return WLib.prototype._log(5, x);
-      }
-
-      log5m1(x: number): number 
-      {
-        return WLib.prototype._log(5-1, x);
-      }
-
-      log5p1(x: number): number 
-      {
-        return WLib.prototype._log(5+1, x);
-      }
-
-      log6(x: number): number 
-      {
-        return WLib.prototype._log(6, x);
-      }
-
-      log6m1(x: number): number 
-      {
-        return WLib.prototype._log(6-1, x);
-      }
-
-      log6p1(x: number): number 
-      {
-        return WLib.prototype._log(6+1, x);
-      }
-
-      log7(x: number): number 
-      {
-        return WLib.prototype._log(7, x);
-      }
-
-      log7m1(x: number): number 
-      {
-        return WLib.prototype._log(7-1, x);
-      }
-
-      log7p1(x: number): number 
-      {
-        return WLib.prototype._log(7+1, x);
-      }
-
-      log8(x: number): number 
-      {
-        return WLib.prototype._log(8, x);
-      }
-
-      log8m1(x: number): number 
-      {
-        return WLib.prototype._log(8-1, x);
-      }
-
-      log8p1(x: number): number 
-      {
-        return WLib.prototype._log(8+1, x);
-      }
-
-      log9(x: number): number 
-      {
-        return WLib.prototype._log(9, x);
-      }
-
-      log9m1(x: number): number 
-      {
-        return WLib.prototype._log(9-1, x);
-      }
-
-      log9p1(x: number): number 
-      {
-        return WLib.prototype._log(9+1, x);
-      }
-
       log(x: number): number 
       {
         return WLib.prototype._log(10, x);
@@ -657,12 +490,13 @@ class WBoard {
 
     }
 
-    
+    // bloco de implementação da Biblioteca "Terminal"
     public Terminal = class WTerminal { }
 
   }
 
   protected rdcmath = new this.wtsy_lib.prototype.Math();
+  protected rdcterminal = new this.wtsy_lib.prototype.Terminal();
 
   // Abstração de toda a Aplicação para o mundo externo
   public wertsfy= 
@@ -758,7 +592,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the absolute value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       abs: (x: number) => this.rdcmath.abs(x),
@@ -766,7 +600,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the root square value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */      
       sqrt: (x: number) => this.rdcmath.sqrt(x),
@@ -774,7 +608,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the cubic root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       cbrt: (x: number) => this.rdcmath.cbrt(x),
@@ -782,7 +616,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the four root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       quart: (x: number) => this.rdcmath.quart(x),
@@ -790,7 +624,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the five root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       quint: (x: number) => this.rdcmath.quint(x),
@@ -798,7 +632,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the six root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       sext: (x: number) => this.rdcmath.sext(x),
@@ -806,7 +640,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the seven root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       sept: (x: number) => this.rdcmath.sept(x),
@@ -814,7 +648,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the eight root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       oct: (x: number) => this.rdcmath.oct(x),
@@ -822,7 +656,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the nine root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       non: (x: number) => this.rdcmath.non(x),
@@ -830,7 +664,7 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the ten root value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number value. 
        */
       dec: (x: number) => this.rdcmath.dec(x),
@@ -838,235 +672,398 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the power value.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Number base value. 
-       * @augments ``y``
+       * @augments ``y``|**``number``**
        * Number power value.
        */
       pow: (x: number, y: number) => this.rdcmath.pow(x, y),
 
       /** 
        * @description **``Method``** 
-       * Returns the power with base two value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow2: (y: number) => this.rdcmath.pow2(y),
-
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base three value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow3: (y: number) => this.rdcmath.pow3(y),
-      
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base four value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow4: (y: number) => this.rdcmath.pow4(y),
-      
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base five value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow5: (y: number) => this.rdcmath.pow5(y),
-      
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base six value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow6: (y: number) => this.rdcmath.pow6(y),
-
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base seven value.
-       * @augments ``y``
-       * Number value. 
-       */      
-      pow7: (y: number) => this.rdcmath.pow7(y),
-      
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base eight value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow8: (y: number) => this.rdcmath.pow8(y),
-
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base nine value.
-       * @augments ``y``
-       * Number value. 
-       */
-      pow9: (y: number) => this.rdcmath.pow9(y),
-
-      /** 
-       * @description **``Method``** 
-       * Returns the power with base ten value.
-       * @augments ``y``
-       * Number value. 
-       */      
-      pow10: (y: number) => this.rdcmath.pow10(y),
-
-      /** 
-       * @description **``Method``** 
        * Returns the power of a value's power.
-       * @augments ``x``
+       * @augments ``x``|**``number``**
        * Base number value.
-       * @augments ``y``
+       * @augments ``y``|**``number``**
        * Power number value.
-       * @augments ``z`` (Optional)
+       * @augments ``z``|**``number[]``** (Optional)
        * Power's sequency values. 
        */
       powOfPow: (x: number, y: number, z?: number[]) => this.rdcmath.powOfPow(x, y, z),
-// parou aqui
+
+      /** 
+       * @description **``Method``**
+       * Returns the max value.
+       * @augments ``x``|**``number[]``**
+       * Number sequence.
+       */
       max: (x: number[]) => this.rdcmath.max(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the min value.
+       * @augments ``x``|**``number[]``**
+       * Number sequence.
+       */
       min: (x: number[]) => this.rdcmath.min(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the rounded value.
+       * @augments ``x``|**``number``**
+       * Floating value.
+       */
       round: (x: number) => this.rdcmath.round(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the precision rounded value.
+       * @augments ``x``|**``number``**
+       * Floating value.
+       */
       fround: (x: number) => this.rdcmath.fround(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the signal of value.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       sign: (x: number) => this.rdcmath.sign(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the number value without floating point parts.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       trunc: (x: number) => this.rdcmath.trunc(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the result of the 32-bit integer multiplication of two numbers.
+       * @augments ``x``|**``number``** ``y``|**``number``**
+       * Number value.
+       */
       imul: (x: number, y: number) => this.rdcmath.imul(x, y),
 
+      /** 
+       * @description **``Method``**
+       * Returns the smallest integer greater than or equal to number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       ceil: (x: number) => this.rdcmath.ceil(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the largest integer less than or equal to number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       floor: (x: number) => this.rdcmath.floor(x),
 
+      /**
+       * @description **``Method``**
+       * Returns the sine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       sin: (x: number) => this.rdcmath.sin(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the cosine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cos: (x: number) => this.rdcmath.cos(x),
 
+      /**
+       * @description **``Method``**
+       * Returns the tangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       tan: (x: number) => this.rdcmath.tan(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the secant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       sec: (x: number) => this.rdcmath.sec(x),
 
+      /**
+       * @description **``Method``**
+       * Returns the cosecant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cosec: (x: number) => this.rdcmath.cosec(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the cotangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cotan: (x: number) => this.rdcmath.cotan(x),
 
+      /**
+       * @description **``Method``**
+       * Returns the hiperbolic sine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       sinh: (x: number) => this.rdcmath.sinh(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic cosine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cosh: (x: number) => this.rdcmath.cosh(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic tangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       tanh: (x: number) => this.rdcmath.tanh(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic secant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       sech: (x: number) => this.rdcmath.sech(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic cosecant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cosech: (x: number) => this.rdcmath.cosech(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic cotangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       cotanh: (x: number) => this.rdcmath.cotanh(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the arc sine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       arcsin: (x: number) => this.rdcmath.arcsin(x),
 
-      arccos: (x: number) => this.rdcmath.arccos(x),
+      /** 
+       * @description **``Method``**
+       * Returns the arc cosine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccos: (x: number) => this.rdcmath.arccos(x),
 
-      arctan: (x: number) => this.rdcmath.arctan(x),
+      /** 
+       * @description **``Method``**
+       * Returns the arc tangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arctan: (x: number) => this.rdcmath.arctan(x),
 
-      arcsec: (x: number) => this.rdcmath.arcsec(x),
+      /** 
+       * @description **``Method``**
+       * Returns the arc secant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arcsec: (x: number) => this.rdcmath.arcsec(x),
 
-      arccosec: (x: number) => this.rdcmath.arccosec(x),
+      /** 
+       * @description **``Method``**
+       * Returns the arc cosecant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccosec: (x: number) => this.rdcmath.arccosec(x),
 
-      arccotan: (x: number) => this.rdcmath.arccotan(x),
+      /** 
+       * @description **``Method``**
+       * Returns the arc cotangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccotan: (x: number) => this.rdcmath.arccotan(x),
 
-      arcsinh: (x: number) => this.rdcmath.arcsinh(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc sine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arcsinh: (x: number) => this.rdcmath.arcsinh(x),
 
-      arccosh: (x: number) => this.rdcmath.arccosh(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc cosine of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccosh: (x: number) => this.rdcmath.arccosh(x),
 
-      arctanh: (x: number) => this.rdcmath.arctanh(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc tangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arctanh: (x: number) => this.rdcmath.arctanh(x),
 
-      arcsech: (x: number) => this.rdcmath.arcsech(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc secant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arcsech: (x: number) => this.rdcmath.arcsech(x),
 
-      arccosech: (x: number) => this.rdcmath.arccosech(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc cosecant of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccosech: (x: number) => this.rdcmath.arccosech(x),
 
-      arccotanh: (x: number) => this.rdcmath.arccotanh(x),
-
-      log2: (x: number) => this.rdcmath.log2(x),
-
-      log2m1: (x: number) => this.rdcmath.log2m1(x),
-
-      log2p1: (x: number) => this.rdcmath.log2p1(x),
+      /** 
+       * @description **``Method``**
+       * Returns the hiperbolic arc cotangent of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       arccotanh: (x: number) => this.rdcmath.arccotanh(x),
       
-      log3: (x: number) => this.rdcmath.log3(x),
+      /** 
+       * @description **``Method``**
+       * Returns the logarithm of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       log: (x: number) => this.rdcmath.log(x),
 
-      log3m1: (x: number) => this.rdcmath.log3m1(x),
-
-      log3p1: (x: number) => this.rdcmath.log3p1(x),
-      
-      log4: (x: number) => this.rdcmath.log4(x),
-
-      log4m1: (x: number) => this.rdcmath.log4m1(x),
-
-      log4p1: (x: number) => this.rdcmath.log4p1(x),
-      
-      log5: (x: number) => this.rdcmath.log5(x),
-
-      log5m1: (x: number) => this.rdcmath.log5m1(x),
-
-      log5p1: (x: number) => this.rdcmath.log5p1(x),
-      
-      log6: (x: number) => this.rdcmath.log6(x),
-
-      log6m1: (x: number) => this.rdcmath.log6m1(x),
-
-      log6p1: (x: number) => this.rdcmath.log6p1(x),
-      
-      log7: (x: number) => this.rdcmath.log7(x),
-
-      log7m1: (x: number) => this.rdcmath.log7m1(x),
-
-      log7p1: (x: number) => this.rdcmath.log7p1(x),
-      
-      log8: (x: number) => this.rdcmath.log8(x),
-
-      log8m1: (x: number) => this.rdcmath.log8m1(x),
-
-      log8p1: (x: number) => this.rdcmath.log8p1(x),
-      
-      log9: (x: number) => this.rdcmath.log9(x),
-
-      log9m1: (x: number) => this.rdcmath.log9m1(x),
-
-      log9p1: (x: number) => this.rdcmath.log9p1(x),
-      
-      log: (x: number) => this.rdcmath.log(x),
+      /** 
+       * @description **``Method``**
+       * Returns the logarithm minus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
 
       logm1: (x: number) => this.rdcmath.logm1(x),
-
-      logp1: (x: number) => this.rdcmath.logp1(x),
       
-      logx: (x: number, base: number) => this.rdcmath.logx(x, base),
+      /** 
+       * @description **``Method``**
+       * Returns the logarithm plus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
+       logp1: (x: number) => this.rdcmath.logp1(x),
+      
+      /** 
+       * @description **``Method``**
+       * Returns the any logarithm of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       * @augments ``base``|**``number``**
+       * Base logarithm number value.
+       */
+       logx: (x: number, base: number) => this.rdcmath.logx(x, base),
 
+      /** 
+       * @description **``Method``**
+       * Returns the any logarithm minus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       * @augments ``base``|**``number``**
+       * Base logarithm number value.
+       */
       logxm1: (x: number, base: number) => this.rdcmath.logxm1(x, base),
-
+      
+      /** 
+       * @description **``Method``**
+       * Returns the any logarithm plus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       * @augments ``base``|**``number``**
+       * Base logarithm number value.
+       */      
       logxp1: (x: number, base: number) => this.rdcmath.logxp1(x, base),
-
+      
+      /** 
+       * @description **``Method``**
+       * Returns the any natural logarithm of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */      
       ln: (x: number) => this.rdcmath.ln(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the any natural logarithm minus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */      
       lnm1: (x: number) => this.rdcmath.lnm1(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the any natural logarithm plus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */      
       lnp1: (x: number) => this.rdcmath.lnp1(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the random number.
+       * @augments ``x``|**``number``**
+       * Number multiplier or base value.
+       */ 
       random: (x: number) => this.rdcmath.random(x),
 
+      /** 
+       * @description **``Method``**
+       * Returns the exponencial of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */      
       exp: (x: number, valorLg: number) => this.rdcmath.exp(x, valorLg),
 
+      /** 
+       * @description **``Method``**
+       * Returns the exponencial minus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */      
       expm1: (x: number, valorLg: number) => this.rdcmath.expm1(x, valorLg),
 
+      /** 
+       * @description **``Method``**
+       * Returns the exponencial plus one of number.
+       * @augments ``x``|**``number``**
+       * Number value.
+       */
       expp1: (x: number, valorLg: number) => this.rdcmath.expp1(x, valorLg)
 
     }

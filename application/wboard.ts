@@ -1,5 +1,8 @@
 'use strict'
 
+// Interfaces da arquitetura
+// Tipagens da arquitetura
+
 // Classes abstratas da arquitetura
 abstract class WCollections { };
 

@@ -1,5 +1,8 @@
 'use strict'
 
+// Classes abstratas da arquitetura
+abstract class WCollections { };
+
 // Quadro base de arquitetura
 class WBoard {
 
@@ -491,7 +494,76 @@ class WBoard {
     }
 
     // bloco de implementação da Biblioteca "Terminal"
-    public Terminal = class WTerminal { }
+    public Terminal = class WTerminal extends WCollections { 
+
+      get inputSymbol()
+      {
+        return '|>';
+      }
+
+      get outSymbol()
+      {
+        return '|<';
+      }
+
+      get divSymbol()
+      {
+        return '=//\\\\//\\\\//\\\\='
+      }
+
+      get loadingSymbols()
+      {
+        
+        return (
+
+          {
+            '025': '\\',
+            '050': '|',
+            '075': '/',
+            '100': '-'
+          }
+        
+        )
+      
+      }
+
+      get escapeCharacterNewLine()
+      {
+        return '\n';
+      }
+
+      get escapeCharacterTab()
+      {
+        return '\t';
+      }
+
+      get escapeCharacterBackspace()
+      {
+        return '\b';
+      }
+
+      get escapeCharacterRestartLine()
+      {
+        return '\r';
+      }
+
+      get escapeCharacterVerticalTab()
+      {
+        return '\v';
+      }
+
+      get escapeCharacterFormFeed()
+      {
+        return '\f';
+      }
+
+      get escapeCharacterNull()
+      {
+        return '\0';
+      }
+
+
+    }
 
   }
 
@@ -1070,7 +1142,7 @@ class WBoard {
 
     
   }
-  
+
 
 }
 
@@ -1079,86 +1151,6 @@ const abstraction = new WBoard().wertsfy;
 // // v1.2.0-5-basin
    // Código legado para conversão
 class wTerminal {
-
-  /** 
-   * @description **Símbolo de entrada de dados para o terminal.** | _Input symbol for terminal._ 
-   */
-  public INPUT_SYMBOL = '|>';
-
-  /** 
-   * @description **Símbolo de retorno da entrada do terminal.** | _Return symbol for terminal input._ 
-   */
-  public OUTPUT_SYMBOL = '|<';
-
-  /** 
-   * @description **Símbolo de divisão de partes de um programa.** | _Division symbol for program parts._ 
-   */
-  public DIVIDER_SYMBOL = '<|==|>';
-
-  /** 
-   * @description **Modelo de 25% da tela de carregamento de um processo no terminal.** | _Loading screen model for 25% of terminal screen._ 
-   */
-  public LOADING_SYMBOL_25 = '\\';
-
-  /** 
-   * @description **Modelo de 50% da tela de carregamento de um processo no terminal.** | _Loading screen model for 50% of terminal screen._ 
-   */
-  public LOADING_SYMBOL_50 = '|';
-
-  /** 
-   * @description **Modelo de 75% da tela de carregamento de um processo no terminal.** | _Loading screen model for 75% of terminal screen._ 
-   */
-  public LOADING_SYMBOL_75 = '/';
-
-  /** 
-   * @description **Modelo de 100% da tela de carregamento de um processo no terminal.** | _Loading screen model for 100% of terminal screen._ 
-   */
-  public LOADING_SYMBOL_100 = '-';
-
-  /** 
-   * @description **Caractere de escape de nova linha.** | _Escape character for new line._ 
-   */
-  public ESCAPE_CHARACTER_NEW_LINE = '\n';
-
-  /** 
-   * @description **Caractere de escape de tab.** | _Escape character for tab._ 
-   */
-  public ESCAPE_CHARACTER_TAB = '\t';
-
-  /** 
-   * @description **Caractere de escape de backspace.** | _Escape character for backspace._
-   */
-  public ESCAPE_CHARACTER_BACKSPACE = '\b';
-
-  /** 
-   * @description **Caractere de escape de reínicio da linha.** | _Escape character for line restart._ 
-   */
-  public ESCAPE_CHARACTER_RESTART_LINE = '\r';
-
-  /** 
-   * @description **Caractere de escape de tab vertical.** | _Escape character for vertical tab._ 
-   */
-  public ESCAPE_CHARACTER_VERTICAL_TAB = '\v';
-
-  /** 
-   * @description **Caractere de escape de form feed.** | _Escape character for form feed._
-   */
-  public ESCAPE_CHARACTER_FORM_FEED = '\f';
-
-  /** 
-   * @description **Caractere de escape nulo.** | _Escape character for null._ 
-   */
-  public ESCAPE_CHARACTER_NULL = '\0';
-
-  /** 
-   * @description **Caractere de single quote.** | _Single quote character._ 
-   */
-  public CHARACTER_SINGLE_QUOTE = '\'';
-
-  /** 
-   * @description **Caractere de double quote.** | _Double quote character._ 
-   */
-  public CHARACTER_DOUBLE_QUOTE = '\"';
 
   /**
    * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.

@@ -1,1 +1,0 @@
-const webgl = new WebGLProgram();

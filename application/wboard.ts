@@ -69,7 +69,8 @@ abstract class WCollections {
       0xAA006: this["@terminal/rapidblink"].definicao,
       0xAA007: this["@terminal/reverse"].definicao,
       0xAA008: this["@terminal/conceal"].definicao,
-      0xAA009: this["@terminal/crossedout"].definicao 
+      0xAA009: this["@terminal/crossedout"].definicao,
+      0xAA010: this["@terminal/defaultfont"].definicao 
     }
 
   };

@@ -560,7 +560,7 @@ class WBoard {
       }
 
       public adicionaFormatacaoTexto(modelo: WCollections, texto: string): string {
-        let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.$template).toString();
+        let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.Template).toString();
         return `\033[${formato}${texto}\033[0m`;
       };
 

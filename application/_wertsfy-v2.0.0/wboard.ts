@@ -1,82 +1,5 @@
 'use strict'
 
-// Tipagens da arquitetura
-type Tipagem<Modelo> = { Descricao: String, Layout: Modelo };
-
-// Interfaces da arquitetura
-interface TType { definicao: Tipagem<String> };
-
-// Classes abstratas da arquitetura
-abstract class WCollections {
-
-  // Definições de Tipagem
-  public "@terminal/negrito": TType = { definicao: { Descricao: "#?negrito", Layout: "01m" } };
-  public "@terminal/faint": TType = { definicao: { Descricao: "#?faint", Layout: "02m" } };
-  public "@terminal/italico": TType = { definicao: { Descricao: "#?italico", Layout: "03m" } };
-  public "@terminal/sublinhado": TType = { definicao: { Descricao: "#?sublinhado", Layout: "04m" } };
-  public "@terminal/slowblink": TType = { definicao: { Descricao: "#?slowblink", Layout: "05m" } };
-  public "@terminal/rapidblink": TType = { definicao: { Descricao: "#?rapidblink", Layout: "06m" } };
-  public "@terminal/reverse": TType = { definicao: { Descricao: "#?reverse", Layout: "07m" } };
-  public "@terminal/conceal": TType = { definicao: { Descricao: "#?conceal", Layout: "08m" } };
-  public "@terminal/crossedout": TType = { definicao: { Descricao: "#?crossedout", Layout: "09m" } };
-  public "@terminal/defaultfont": TType = { definicao: { Descricao: "#?defaultfont", Layout: "10m" } };
-  public "@terminal/altfont1": TType = { definicao: { Descricao: "#?altfont1", Layout: "11m" } };
-  public "@terminal/altfont2": TType = { definicao: { Descricao: "#?altfont2", Layout: "12m" } };
-  public "@terminal/altfont3": TType = { definicao: { Descricao: "#?altfont3", Layout: "13m" } };
-  public "@terminal/altfont4": TType = { definicao: { Descricao: "#?altfont4", Layout: "14m" } };
-  public "@terminal/altfont5": TType = { definicao: { Descricao: "#?altfont5", Layout: "15m" } };
-  public "@terminal/altfont6": TType = { definicao: { Descricao: "#?altfont6", Layout: "16m" } };
-  public "@terminal/altfont7": TType = { definicao: { Descricao: "#?altfont7", Layout: "17m" } };
-  public "@terminal/altfont8": TType = { definicao: { Descricao: "#?altfont8", Layout: "18m" } };
-  public "@terminal/altfont9": TType = { definicao: { Descricao: "#?altfont9", Layout: "19m" } };
-  public "@terminal/fraktur": TType = { definicao: { Descricao: "#?fraktur", Layout: "20m" } };
-  public "@terminal/doublyunderline": TType = { definicao: { Descricao: "#?doublyunderline", Layout: "21m" } };
-  public "@terminal/normalintensity": TType = { definicao: { Descricao: "#?normalintensity", Layout: "22m" } };
-  public "@terminal/notitalic": TType = { definicao: { Descricao: "#?notitalic", Layout: "23m" } };
-  public "@terminal/notunderline": TType = { definicao: { Descricao: "#?notunderline", Layout: "24m" } };
-  public "@terminal/blinkoff": TType = { definicao: { Descricao: "#?blinkoff", Layout: "25m" } };
-  public "@terminal/spacing": TType = { definicao: { Descricao: "#?spacing", Layout: "26m" } };
-  public "@terminal/reverseoff": TType = { definicao: { Descricao: "#?reverseoff", Layout: "27m" } };
-  public "@terminal/concealoff": TType = { definicao: { Descricao: "#?concealoff", Layout: "28m" } };
-  public "@terminal/notcrossed": TType = { definicao: { Descricao: "#?cotcrossed", Layout: "29m" } };
-  public "@terminal/propositalspacing": TType = { definicao: { Descricao: "#?propositalspacing", Layout: "50m" } };
-  public "@terminal/framed": TType = { definicao: { Descricao: "#?framed", Layout: "51m" } };
-  public "@terminal/encircled": TType = { definicao: { Descricao: "#?encircled", Layout: "52m" } };
-  public "@terminal/overlined": TType = { definicao: { Descricao: "#?overlined", Layout: "53m" } };
-  public "@terminal/notframed": TType = { definicao: { Descricao: "#?notframed", Layout: "54m" } };
-  public "@terminal/notencircled": TType = { definicao: { Descricao: "#?notencircled", Layout: "55m" } };
-  public "@terminal/sublinhadopadrao": TType = { definicao: { Descricao: "#?sublinhadopadrao", Layout: "59m" } };
-  public "@terminal/ideogramsublinhado": TType = { definicao: { Descricao: "#?ideogramsublinhado", Layout: "60m" } };
-  public "@terminal/ideogramsublinhadoduplo": TType = { definicao: { Descricao: "#?ideogramsublinhadoduplo", Layout: "61m" } };
-  public "@terminal/ideogramoverline": TType = { definicao: { Descricao: "#?ideogramoverline", Layout: "62m" } };
-  public "@terminal/ideogramoverlineduplo": TType = { definicao: { Descricao: "#?ideogramoverlineduplo", Layout: "63m" } };
-  public "@terminal/ideogramstress": TType = { definicao: { Descricao: "#?ideogramstress", Layout: "64m" } };
-  public "@terminal/noideogramattr": TType = { definicao: { Descricao: "#?noideogramattr", Layout: "65m" } };
-  public "@terminal/superscript": TType = { definicao: { Descricao: "#?superscript", Layout: "73m" } };
-  public "@terminal/subscript": TType = { definicao: { Descricao: "#?subscript", Layout: "74m" } };
-  public "@terminal/nonsuperscriptsubscript": TType = { definicao: { Descricao: "#?nonsuperscriptsubscript", Layout: "75m" } };
-
-  // Organização das Tipagens
-  CollectionConstructor = {
-
-    Terminal: 
-    {
-      0xAA001: this["@terminal/negrito"].definicao,
-      0xAA002: this["@terminal/faint"].definicao,
-      0xAA003: this["@terminal/italico"].definicao,
-      0xAA004: this["@terminal/sublinhado"].definicao,
-      0xAA005: this["@terminal/slowblink"].definicao,
-      0xAA006: this["@terminal/rapidblink"].definicao,
-      0xAA007: this["@terminal/reverse"].definicao,
-      0xAA008: this["@terminal/conceal"].definicao,
-      0xAA009: this["@terminal/crossedout"].definicao,
-      0xAA010: this["@terminal/defaultfont"].definicao 
-    }
-
-  };
-
-};
-
 // Quadro base de arquitetura
 class WBoard {
 
@@ -568,7 +491,7 @@ class WBoard {
     }
 
     // bloco de implementação da Biblioteca "Terminal"
-    public Terminal = class WTerminal extends WCollections { 
+    public Terminal = class WTerminal {
 
       get inputSymbol()
       {
@@ -636,6 +559,10 @@ class WBoard {
         return '\0';
       }
 
+      public adicionaFormatacaoTexto(modelo: WCollections, texto: string): string {
+        let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.$template).toString();
+        return `\033[${formato}${texto}\033[0m`;
+      };
 
     }
 
@@ -1212,8 +1139,7 @@ class WBoard {
        */
       expp1: (x: number, valorLg: number) => this.rdcmath.expp1(x, valorLg)
 
-    }
-
+    },
     
   }
 
@@ -1225,17 +1151,6 @@ const abstraction = new WBoard().wertsfy;
 // // v1.2.0-5-basin
    // Código legado para conversão
 class wTerminal {
-
-  /**
-   * @augments modelo tipo de formatação a ser aplicada. **[ Type: ``models`` ]**.
-   * @augments texto texto a ser modificado. **[ Type: ``string`` ]**.
-   * @description **Adiciona formatação da letra em um texto.** | _Adds letter formatting to a text._
-   */
-  public adicionaFormatacaoTexto(modelo: '01m@negrito'|'02m@faint'|'03m@italico'|'04m@sublinhado'|'05m@slowblink'|'06m@rapidblink'|'07m@reverse'|'08m@conceal'|'09m@crossedout'|'10m@defaultfont'|'11m@altfont1'|'12m@altfont2'|'13m@altfont3'|'14m@altfont4'|'15m@altfont5'|'16m@altfont6'|'17m@altfont7'|'18m@altfont8'|'19m@altfont9'|'20m@fraktur'|'21m@doublyunderline'|'22m@normalintensity'|'23m@notitalic'|'24m@notunderline'|'25m@blinkoff'|'26m@spacing'|'27m@reverseoff'|'28m@concealoff'|'29m@notcrossed'|'50m@propositalspacing'|'51m@framed'|'52m@encircled'|'53m@overlined'|'5ideogram4m@notfrdo5m@notencircled'|'58m@sublinhado'|'59m@sublinhadopadrao'|'60m@ideogramsublinduplohado'|'61m@ideogramsublinhadoduplo'|'62mideogramsublinhadoduploe'|'63m@ideog1amoverlineduplo'|'64m@ideogramstress'|'65@noideogramattr'|'73m@superscript'|'74m@subscript'|'75m@nonsuperscriptsubscript', texto: string): string {
-    const scan: RegExp = /(([0]{1})?([0-9]+m))/gi,
-    tipo = scan.exec(modelo)?.[2]?.toString();
-    return `\033[${tipo}${texto}\033[0m`;
-  };
 
   /**
    * @augments modelo tipo de formatação de cor a ser aplicada. ||3/4-bits|| **[ Type: ``models`` ]**.

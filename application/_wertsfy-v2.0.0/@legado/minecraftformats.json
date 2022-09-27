@@ -1,3 +1,29 @@
 { 
-  "minecraft": { } 
+
+  "minecraft": {
+
+    "assets": {
+
+      "blockstates": {
+
+        "variants": {
+
+          "face": "ceiling"||"#none"
+
+        }
+
+
+      }
+
+
+    },
+
+    "data": {
+
+
+
+    }
+
+  } 
+
 }

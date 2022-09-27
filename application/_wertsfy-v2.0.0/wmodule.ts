@@ -1,2 +1,2 @@
-const jasmine = undefined;
-const karma = undefined;
+const jasmine: object = undefined;
+const karma: object = undefined;

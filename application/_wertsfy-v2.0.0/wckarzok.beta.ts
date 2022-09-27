@@ -180,6 +180,12 @@ const structure = {
               }
               
 
+            },
+
+            "apply": {
+
+              "model": String
+
             }
 
 
@@ -200,3 +206,5 @@ const structure = {
 
 
 }
+
+type WCKarzok = Object; 

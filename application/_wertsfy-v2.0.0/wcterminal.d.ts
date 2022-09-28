@@ -96,7 +96,13 @@ declare type WCTerminalFormatacao=
   '24bit/38;2;r;g;bm@chexcustom'
   '24bit/48;2;r;g;bm@fhexcustom' */
 
-declare type WCTerminalColoracao=()=>
+declare type WCTerminalColoracao=
+(
+  r?: number, 
+  g?: number, 
+  b?: number, 
+  t?: number
+)=>
 {
   Template:
   {

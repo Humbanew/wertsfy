@@ -121,16 +121,26 @@ declare type WCTerminalColoracao=
           "30m#corpreta"|
           "31m#corvermelha"|
           "32m#corverde"|
-          "33m#coramarela",
+          "33m#coramarela"|
+          "34m#corazul"|
+          "35m#corroxa"|
+          "36m#corciano"|
+          "37m#corcinza",
         
         CorFundo:
           "40m#fundopreto"|
           "41m#fundovermelho"|
           "42m#fundoverde"|
-          "43m#fundoamarelo"
+          "43m#fundoamarelo"|
+          "44m#fundoazul"|
+          "45m#fundoroxo"|
+          "46m#fundociano"|
+          "47m#fundocinza"
 
       },
+
       "8bit": { },
+      
       "24bit": { }
 
     }

@@ -8,6 +8,11 @@ declare type WCTerminal=
 
 }
 
+declare type WCCRed<Number> = 0;
+declare type WCCBlue<Number> = 0;
+declare type WCCGreen<Number> = 0;
+declare type WCCTemplate<Number> = 0;
+
 declare type WCTerminalFormatacao= 
 {
   Template: 
@@ -110,7 +115,21 @@ declare type WCTerminalColoracao=
     Formato:
     {
 
-      "3b4bit": { },
+      "3b4bit": {
+
+        CorLetra:
+          "30m#corpreta"|
+          "31m#corvermelha"|
+          "32m#corverde"|
+          "33m#coramarela",
+        
+        CorFundo:
+          "40m#fundopreto"|
+          "41m#fundovermelho"|
+          "42m#fundoverde"|
+          "43m#fundoamarelo"
+
+      },
       "8bit": { },
       "24bit": { }
 

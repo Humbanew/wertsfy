@@ -1,5 +1,7 @@
 'use strict'
 
+import { WCollections } from "./wcollections";
+
 // Quadro base de arquitetura
 class WBoard {
 
@@ -222,7 +224,7 @@ class WBoard {
 
       powOfPow(x: number, y: number, z?: number[]): number 
       {
-        let rest: number;
+        let rest: any;
         if(z != null) {
           let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
           return rest = x ** (y ** l);
@@ -251,7 +253,7 @@ class WBoard {
       round(x: number): number 
       {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-        let resultado = undefined;
+        let resultado: any;
         resultado = verificador.exec(x.toString());
         return parseInt(resultado[0]);
       }
@@ -259,7 +261,7 @@ class WBoard {
       fround(x: number): number 
       {
         const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-        let resultado = undefined;
+        let resultado: any;
         resultado = verificador.exec(x.toString());
         if (parseFloat(resultado[1]) >= 0.5) {
           return parseInt(resultado[0] + 1);
@@ -269,7 +271,7 @@ class WBoard {
 
       sign(x: number): number 
       {
-        let v = undefined;
+        let v: any;
         if (x > 0) { return v = 1; }
         if (x < 0) { return v = -1; }
         return v;
@@ -287,14 +289,14 @@ class WBoard {
 
       ceil(x: number): number 
       {
-        let v = undefined;
+        let v: any;
         if (x < x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }
 
       floor(x: number): number 
       {
-        let v = undefined;
+        let v: any;
         if (x > x + 0.5) { v = parseInt(x.toString()); }
         return v;
       }
@@ -560,7 +562,7 @@ class WBoard {
       }
 
       public adicionaFormatacaoTexto(modelo: WCollections, texto: string): string {
-        let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.Template).toString();
+        let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.Template)?.toString();
         return `\033[${formato}${texto}\033[0m`;
       };
 

@@ -1,5 +1,5 @@
 // Tipos da arquitetura
-declare type WCollections= 
+export declare type WCollections= 
 { 
   Terminal: WCTerminal  
 }

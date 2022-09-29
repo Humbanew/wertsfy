@@ -12,6 +12,7 @@ declare type WCCRed<Number> = 0;
 declare type WCCBlue<Number> = 0;
 declare type WCCGreen<Number> = 0;
 declare type WCCTemplate<Number> = 0;
+declare type WCColor<None> = 0;
 
 declare type WCTerminalFormatacao= 
 {

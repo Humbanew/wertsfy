@@ -1170,6 +1170,9 @@ class WBoard {
       expp1: (x: number, valorLg: number) => this.rdcmath.expp1(x, valorLg)
 
     },
+
+    terminal:
+    {}
     
   }
 

@@ -1,6 +1,6 @@
 'use strict'
 
-import { WCollections } from "./wcollections";
+import { WCollections } from "./wcollections.type";
 
 // Quadro base de arquitetura
 class WBoard {

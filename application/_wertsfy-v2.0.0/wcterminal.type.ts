@@ -64,13 +64,7 @@ declare type WCTerminalFormatacao=
   '24bit/38;2;r;g;bm@chexcustom'
   '24bit/48;2;r;g;bm@fhexcustom' */
 
-declare type WCTerminalColoracao=
-(
-  r?: number, 
-  g?: number, 
-  b?: number, 
-  t?: number
-)=>
+declare type WCTerminalColoracao= 
 {
   Template:
   {
@@ -118,9 +112,21 @@ declare type WCTerminalColoracao=
 
       },
 
-      "8bit": { },
+      "8bit": {
+
+        CorLetra: "",
+
+        CorFundo: ""
+
+      },
       
-      "24bit": { }
+      "24bit": {
+
+        CorLetra: "",
+
+        CorFundo: ""
+
+      }
 
     }
 

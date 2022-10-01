@@ -69,7 +69,7 @@ declare type WCTerminalColoracao=
     Formato:
     {
 
-      "3b4bit": {
+      f_3b4bit: {
 
         CorLetra:
           "30m#corpreta"|
@@ -109,7 +109,7 @@ declare type WCTerminalColoracao=
 
       },
 
-      "8bit": {
+      f_8bit: {
 
         CorLetra: 
           `38;5;${TColoracao}m#cortempcustom`,
@@ -119,7 +119,7 @@ declare type WCTerminalColoracao=
 
       },
       
-      "24bit": {
+      f_24bit: {
 
         CorLetra: 
           `38;2;${TColoracao};${TColoracao};${TColoracao}m#corhexcustom`,

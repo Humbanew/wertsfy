@@ -59,12 +59,9 @@ declare type WCTerminalFormatacao=
     "75m#nonsuperscriptsubscript" 
 }
 
-/*'8bit/38;5;tm@ctempcustom'
-  '8bit/48;5;tm@ftempcustom'
-  '24bit/38;2;r;g;bm@chexcustom'
-  '24bit/48;2;r;g;bm@fhexcustom' */
+declare type TColoracao = number;
 
-declare type WCTerminalColoracao= 
+declare type WCTerminalColoracao=
 {
   Template:
   {
@@ -114,17 +111,21 @@ declare type WCTerminalColoracao=
 
       "8bit": {
 
-        CorLetra: "",
+        CorLetra: 
+          `38;5;${TColoracao}m#cortempcustom`,
 
-        CorFundo: ""
+        CorFundo: 
+          `48;5;${TColoracao}m#fundotempcustom`
 
       },
       
       "24bit": {
 
-        CorLetra: "",
+        CorLetra: 
+          `38;2;${TColoracao};${TColoracao};${TColoracao}m#corhexcustom`,
 
-        CorFundo: ""
+        CorFundo: 
+          `48;2;${TColoracao};${TColoracao};${TColoracao}m#fundohexcustom`
 
       }
 

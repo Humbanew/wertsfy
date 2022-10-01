@@ -1,6 +1,6 @@
 'use strict'
 
-import { WCollections } from "./wcollections.type";
+import { WCollections } from "./wcollections";
 
 // Quadro base de arquitetura
 class WBoard {
@@ -565,6 +565,11 @@ class WBoard {
         let formato = /[0-9]m/gi.exec(modelo.Terminal.Tipo.Formatacao.Template)?.toString();
         return `\033[${formato}${texto}\033[0m`;
       };
+
+      public adicionaColorizacaoTexto(modelo: WCollections, texto: string): string {
+        let formato = null;
+        return "";
+      }
 
     }
 

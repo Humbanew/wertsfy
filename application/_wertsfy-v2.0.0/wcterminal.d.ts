@@ -8,12 +8,6 @@ declare type WCTerminal=
 
 }
 
-declare type WCCRed<Number> = 0;
-declare type WCCBlue<Number> = 0;
-declare type WCCGreen<Number> = 0;
-declare type WCCTemplate<Number> = 0;
-declare type WCColor<None> = 0;
-
 declare type WCTerminalFormatacao= 
 {
   Template: 
@@ -65,23 +59,7 @@ declare type WCTerminalFormatacao=
     "75m#nonsuperscriptsubscript" 
 }
 
-/*'3b4bit/90;0m@ccinzaclaro'
-  '3b4bit/100;0m@fcinzaclaro'
-  '3b4bit/91;0m@cvermelhoclaro'
-  '3b4bit/101:0m@fvermelhoclaro'
-  '3b4bit/92;0m@cverdeclaro'
-  '3b4bit/102;0m@fverdeclaro'
-  '3b4bit/93;0m@camareloclaro'
-  '3b4bit/103;0m@famareloclaro'
-  '3b4bit/94;0m@cazulclassico'
-  '3b4bit/104;0m@fazulclassico'
-  '3b4bit/95;0m@crosa'
-  '3b4bit/105;0m@frosa'
-  '3b4bit/96;0m@cazulclaro'
-  '3b4bit/106;0m@fazulclaro'
-  '3b4bit/97;0m@cbranco'
-  '3b4bit/107;0m@fbranco'
-  '8bit/38;5;tm@ctempcustom'
+/*'8bit/38;5;tm@ctempcustom'
   '8bit/48;5;tm@ftempcustom'
   '24bit/38;2;r;g;bm@chexcustom'
   '24bit/48;2;r;g;bm@fhexcustom' */
@@ -110,7 +88,15 @@ declare type WCTerminalColoracao=
           "34m#corazul"|
           "35m#corroxa"|
           "36m#corciano"|
-          "37m#corcinza",
+          "37m#corcinza"|
+          "90m#corcinzaclaro"|
+          "91m#corvermelhoclaro"|
+          "92m#corverdeclaro"|
+          "93m#coramareloclaro"|
+          "94m#corazulclassico"|
+          "95m#corrosa"|
+          "96m#corazulclaro"|
+          "97m#corbranca",
         
         CorFundo:
           "40m#fundopreto"|
@@ -120,7 +106,15 @@ declare type WCTerminalColoracao=
           "44m#fundoazul"|
           "45m#fundoroxo"|
           "46m#fundociano"|
-          "47m#fundocinza"
+          "47m#fundocinza"|
+          "100m#fundocinzaclaro"|
+          "101m#fundovermelhoclaro"|
+          "102m#fundoverdeclaro"|
+          "103m#fundoamareloclaro"|
+          "104m#fundoazulclassico"|
+          "105m#fundorosa"|
+          "106m#fundoazulclaro"|
+          "107m#fundobranco"
 
       },
 

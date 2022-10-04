@@ -158,7 +158,6 @@ const structure = {
             Nulled: "~none",
             Bottom: "bottom",
             Double: "double",
-            Type: "type",
             Top: "top"
 
           },
@@ -181,7 +180,11 @@ const structure = {
             Level0: "0",
             Level1: "1",
             Level2: "2",
-            Level3: "3"
+            Level3: "3",
+            Level4: "4",
+            Level5: "5",
+            Level6: "6",
+            Level7: "7"
 
           },
 
@@ -213,7 +216,156 @@ const structure = {
 
           },
 
-          "candles": { }
+          "candles": {
+
+            Nulled: "~none",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4"
+
+          },
+
+          "orientation": {
+
+            Nulled: "~none",
+            DownEast: "down_east",
+            DownNorth: "down_north",
+            DownSouth: "down_south",
+            DownWest: "down_west",
+            EastUp: "east_up",
+            NorthUp: "north_up",
+            SouthUp: "south_up",
+            WestUp: "west_up",
+            UpEast: "up_east",
+            UpNorth: "up_north",
+            UpSouth: "up_south",
+            UpWest: "up_west"
+
+          },
+
+          "snowy": {
+              
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+          
+          },
+
+          "thickness": {
+
+            Nulled: "~none",
+            Base: "base",
+            Frustum: "frustum",
+            Middle: "middle",
+            Tip: "tip",
+            TipMerge: "tip_merge"
+
+          },
+
+          "vertical_direction": {
+
+            Nulled: "~none",
+            Down: "down",
+            Up: "up"
+
+          },
+
+          "locked": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "delay": {
+
+            Nulled: "~none",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4"
+
+          },
+
+          "conditional": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "charges": {
+
+            Nulled: "~none",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4",
+            Level5: "5"
+
+          },
+
+          "layers": {
+
+            Nulled: "~none",
+            Level0: "0",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4",
+            Level5: "5",
+            Level6: "6",
+            Level7: "7",
+            Level8: "8"
+
+          },
+
+          "hanging": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "extended": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "attached": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "eggs": {
+
+            Nulled: "~none",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4"
+
+          },
+
+          "hatch": {
+
+            Nulled: "~none",
+            Level0: "0",
+            Level1: "1",
+            Level2: "2"
+
+          },
+
 
         },
 
@@ -271,7 +423,9 @@ const structure = {
                 Small: "small",
                 Large: "large"
 
-              }
+              },
+
+              "OR": { }
               
             },
 

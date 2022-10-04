@@ -158,7 +158,9 @@ const structure = {
             Nulled: "~none",
             Bottom: "bottom",
             Double: "double",
-            Top: "top"
+            Top: "top",
+            Sticky: "sticky",
+            Normal: "normal"
 
           },
 
@@ -365,6 +367,14 @@ const structure = {
             Level2: "2"
 
           },
+          
+          "short": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
 
 
         },
@@ -425,13 +435,47 @@ const structure = {
 
               },
 
-              "OR": { }
+              "OR": {
+
+                "north": {
+
+                  Nulled: "~none",
+                  None: "none",
+                  SideUp: "side|up"
+
+                },
+
+                "south": {
+                  
+                  Nulled: "~none",
+                  None: "none",
+                  SideUp: "side|up"
+
+                },
+
+                "west": {
+
+                  Nulled: "~none",
+                  None: "none",
+                  SideUp: "side|up"
+
+                },
+
+                "east": {
+
+                  Nulled: "~none",
+                  None: "none",
+                  SideUp: "side|up"
+
+                }
+
+              }
               
             },
 
             "apply": {
 
-              "model": String||Array
+              "model": String||Array||"none"||"side|up"
 
             }
 

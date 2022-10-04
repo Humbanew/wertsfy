@@ -6,13 +6,14 @@
     "sourceMap": true,
     "declaration": true,
     "alwaysStrict": true,
-    "declarationDir": "./dist-def/",
+    "declarationDir": "./dist-def/appdev/",
     "declarationMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowJs": true,
     "checkJs": true,
-    "outDir": "./dist"
+    "outDir": "./dist/app/",
+    "rootDirs": [""]
   },
   "buildOptions": {
     "incremental": true,

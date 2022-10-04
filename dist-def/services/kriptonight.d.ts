@@ -1,1 +1,0 @@
-//# sourceMappingURL=kriptonight.d.ts.map

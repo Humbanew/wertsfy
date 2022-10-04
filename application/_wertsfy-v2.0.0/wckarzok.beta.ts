@@ -158,10 +158,62 @@ const structure = {
             Nulled: "~none",
             Bottom: "bottom",
             Double: "double",
-            Type: "type"
+            Type: "type",
+            Top: "top"
 
-          }
+          },
 
+          "honey_level": {
+
+            Nulled: "~none",
+            Level0: "0",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3",
+            Level4: "4",
+            Level5: "5"
+
+          },
+
+          "age": {
+
+            Nulled: "~none",
+            Level0: "0",
+            Level1: "1",
+            Level2: "2",
+            Level3: "3"
+
+          },
+
+          "attachment": {
+
+            Nulled: "~none",
+            Ceiling: "ceiling",
+            DoubleWall: "double_wall",
+            Floor: "floor",
+            SingleWall: "single_wall"
+
+          },
+
+          "tilt": {
+
+            Nulled: "~none",
+            Full: "full",
+            None: "none",
+            Partial: "partial",
+            Unstable: "unstable"
+
+          },
+
+          "lit": {
+
+            Nulled: "~none",
+            Disabled: "false"||false,
+            Enabled: "true"||true
+
+          },
+
+          "candles": { }
 
         },
 
@@ -177,14 +229,55 @@ const structure = {
                 Disabled: "false"||false,
                 Enabled: "true"||true
               
+              },
+
+              "north": {
+
+                Nulled: "~none",
+                Low: "low",
+                Tall: "tall"
+
+              },
+
+              "south": {
+
+                Nulled: "~none",
+                Low: "low",
+                Tall: "tall"
+
+              },
+
+              "east": {
+                
+                Nulled: "~none",
+                Low: "low",
+                Tall: "tall"
+
+              },
+
+              "west": {
+                
+                Nulled: "~none",
+                Low: "low",
+                Tall: "tall"
+
+              },
+
+              "age": String,
+
+              "leaves": {
+
+                Nulled: "~none",
+                Small: "small",
+                Large: "large"
+
               }
               
-
             },
 
             "apply": {
 
-              "model": String
+              "model": String||Array
 
             }
 

@@ -9,7 +9,10 @@
     "declarationDir": "./dist-def/",
     "declarationMap": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist"
   },
   "buildOptions": {
     "incremental": true,

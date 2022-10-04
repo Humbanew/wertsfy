@@ -1,4 +1,8 @@
 // Tipos da arquitetura
+
+import { WCRegExp } from "./wcregexp";
+import { WCTerminal } from "./wcterminal";
+
 export declare type WCollections= 
 {
   Terminal: WCTerminal,

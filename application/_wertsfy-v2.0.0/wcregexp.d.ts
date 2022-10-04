@@ -1,1 +1,1 @@
-declare type WCRegExp = { }
+export declare type WCRegExp = { }

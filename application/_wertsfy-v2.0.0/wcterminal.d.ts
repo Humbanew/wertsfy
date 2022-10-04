@@ -1,4 +1,4 @@
-declare type WCTerminal=
+export declare type WCTerminal=
 {
   Tipo:
   {

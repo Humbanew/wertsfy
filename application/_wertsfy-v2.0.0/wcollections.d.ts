@@ -6,5 +6,4 @@ export declare type WCollections=
 }
 
 export declare type WTrmSClr = "3b4bit"|"8bit"|"24bit";
-
 export declare type WTrmSClrF = "C"|"F";

@@ -500,7 +500,7 @@ class WBoard {
         return '|>';
       }
 
-      get outSymbol()
+      get outputSymbol()
       {
         return '|<';
       }
@@ -609,10 +609,14 @@ class WBoard {
 
     }
 
+    // bloco de implementação da Biblioteca "Spectrals"
+    public Spectrals = class WSpectrals { }
+
   }
 
   protected rdcmath = new this.wtsy_lib.prototype.Math();
   protected rdcterminal = new this.wtsy_lib.prototype.Terminal();
+  protected rdcspectrals = new this.wtsy_lib.prototype.Spectrals();
 
   // Abstração de toda a Aplicação para o mundo externo
   public wertsfy= 
@@ -1185,7 +1189,95 @@ class WBoard {
     },
 
     terminal:
-    {}
+    {
+
+      /** 
+       * @description **``Constant``**
+       * Returns the input symbol. 
+       */
+      InputSymbol: this.rdcterminal.inputSymbol,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the output symbol. 
+       */
+      OutputSymbol: this.rdcterminal.outputSymbol,
+      
+      /** 
+       * @description **``Constant``**
+       * Returns the div symbol. 
+       */
+      DivSymbol: this.rdcterminal.divSymbol,
+      
+      /** 
+       * @description **``Constant``**
+       * Returns the loading symbol. 
+       */
+      LoadingSymbol: this.rdcterminal.loadingSymbols,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character new line **(\n)**. 
+       */
+      EcpCharNewLine: this.rdcterminal.escapeCharacterNewLine,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character tab **(\t)**. 
+       */
+      EcpCharTab: this.rdcterminal.escapeCharacterTab,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character backspace **(\b)**. 
+       */
+      EcpCharBackspace: this.rdcterminal.escapeCharacterBackspace,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character restart line **(\r)**. 
+       */
+      EcpCharRestartLine: this.rdcterminal.escapeCharacterRestartLine,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character vertical tab **(\v)**. 
+       */      
+      EcpCharVerticalTab: this.rdcterminal.escapeCharacterVerticalTab,
+
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character form feed **(\f)**. 
+       */
+      EcpCharFromFeed: this.rdcterminal.escapeCharacterFormFeed,
+      
+      /** 
+       * @description **``Constant``**
+       * Returns the escape character null **(\n)**. 
+       */
+      EcpCharNull: this.rdcterminal.escapeCharacterNull,
+
+      /** 
+       * @description **``Method``** 
+       * Returns the text with formatation.
+       * @augments ``modelo``|**``WCollections``**
+       * Model template selection.
+       * @augments ``texto``|**``string``**
+       * Text to format. 
+       */
+      addformtexto: (m: WCollections, texto: string) => this.rdcterminal.adicionaFormTexto(m, texto),
+
+      /** 
+       * @description **``Method``** 
+       * Returns the text with color formatation.
+       * @augments ``modelo``|**``WCollections``**
+       * Model template selection.
+       * @augments ``texto``|**``string``**
+       * Text to format. 
+       */
+      addformcor: (m: WCollections, texto: string) => this.rdcterminal.adicionaFormTexto(m, texto)
+
+    }
     
   }
 

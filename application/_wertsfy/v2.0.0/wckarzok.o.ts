@@ -541,6 +541,3 @@ const structure = {
   "malibu": { }
 
 }
-
-const WCKarzok = structure; 
-export default WCKarzok;

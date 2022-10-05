@@ -425,7 +425,13 @@ const structure = {
 
               },
 
-              "age": String,
+              "age": {
+
+                Nulled: "~none",
+                Level0: "0",
+                Level1: "1"
+
+              },
 
               "leaves": {
 

@@ -492,15 +492,35 @@ const structure = {
         }
 
 
-      }
+      },
 
+      "fonts": { },
+        
+      "lang": { },
+
+      "models": { 
+        
+        "block": { }, 
+        
+        "item": { }  
+      
+      },
+
+      "particles": { },
+
+      "shaders": { },
+
+      "texts": { }
 
     },
 
-    "data": { }
+    "data": { },
 
-  } 
+  },
+  
+  "cubbic": { },
 
+  "malibu": { }
 
 }
 

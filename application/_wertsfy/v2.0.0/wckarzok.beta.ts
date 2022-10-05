@@ -531,6 +531,10 @@ const structure = {
     },
 
   },
+
+  "beamngdrive": { },
+
+  "terraria": { },
   
   "cubbic": { },
 

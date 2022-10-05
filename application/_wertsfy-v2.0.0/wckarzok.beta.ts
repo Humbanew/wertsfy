@@ -510,11 +510,25 @@ const structure = {
 
       "shaders": { },
 
-      "texts": { }
+      "texts": { },
+
+      "other": { }
 
     },
 
-    "data": { },
+    "data": {
+
+      "advancements": { },
+
+      "loot_tables": { },
+
+      "recipes": { },
+
+      "structures": { },
+
+      "tags": { }
+
+    },
 
   },
   

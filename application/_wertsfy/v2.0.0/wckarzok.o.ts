@@ -1,4 +1,4 @@
-const structure = { 
+export const structure = { 
 
   "minecraft": {
 

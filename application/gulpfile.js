@@ -8,6 +8,8 @@ const gulp = require('gulp')
 
 let connection = new phpConnect();
 
+const url = "_wertsfy/v2.0.0/components/services/kdashboard.php";
+
 gulp.task('phpwebserver', () => {
 
   connection.server({ port: 5500 }, () => { browserSync({
@@ -24,6 +26,6 @@ gulp.task('phpwebserver', () => {
     browserSync.reload();
   });
 
-  openUrl('localhost:5501/kdashboard.php', {app: {name: 'firefox'}})
+  openUrl('localhost:5501/' + url, {app: {name: 'firefox'}})
 
 });

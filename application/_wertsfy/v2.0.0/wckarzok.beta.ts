@@ -542,4 +542,5 @@ const structure = {
 
 }
 
-type WCKarzok = Object; 
+const WCKarzok = structure; 
+export default WCKarzok;

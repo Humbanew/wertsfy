@@ -496,7 +496,26 @@ export const structure = {
 
       "fonts": {
 
-        "providers": { }
+        "providers": {
+
+          "type": {
+            
+            Bitmap: "bitmap", 
+            LegacyUnicode: "legacy_unicode"
+          
+          },
+
+          "sizes": String,
+
+          "template": String,
+
+          "file": String,
+
+          "ascent": Number,
+
+          "chars": Array
+          
+        }
 
       },
         

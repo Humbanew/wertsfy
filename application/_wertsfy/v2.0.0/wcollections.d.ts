@@ -2,6 +2,7 @@
 
 import { WCRegExp } from "./wcregexp";
 import { WCTerminal } from "./wcterminal";
+import { WCSpectrals } from "./wcspectrals";
 
 export declare type WCollections= 
 {

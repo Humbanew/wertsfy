@@ -6,7 +6,8 @@ import { WCTerminal } from "./wcterminal";
 export declare type WCollections= 
 {
   Terminal: WCTerminal,
-  ExpressoesRegulares: WCRegExp 
+  ExpressoesRegulares: WCRegExp,
+  Spectrals: WCSpectrals 
 }
 
 export declare type WTrmSClr = "3b4bit"|"8bit"|"24bit";

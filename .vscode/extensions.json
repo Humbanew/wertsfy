@@ -1,6 +1,9 @@
 {
   "recommendations": [
     "dart-code.dart-code",
-    "peterhdd.dartgettersetter"
+    "peterhdd.dartgettersetter",
+    "johnpapa.winteriscoming",
+    "ms-ceintl.vscode-language-pack-pt-br",
+    "miguelsolorio.fluent-icons"
   ]
 }

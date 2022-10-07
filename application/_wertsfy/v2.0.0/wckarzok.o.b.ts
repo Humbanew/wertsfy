@@ -494,7 +494,11 @@ export const structure = {
 
       },
 
-      "fonts": { },
+      "fonts": {
+
+        "providers": { }
+
+      },
         
       "lang": { },
 
@@ -541,3 +545,5 @@ export const structure = {
   "malibu": { }
 
 }
+
+let WCKarzok = structure;

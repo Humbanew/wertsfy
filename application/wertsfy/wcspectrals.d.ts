@@ -264,12 +264,12 @@ declare type CorWeb = {
     Antiquewhite: "antiquewhite";
     Aqua: "aqua";
     Aquamarine: "aquamarine";
+    Azure: "azure";
+    Beige: "beige";
+    Bisque: "bisque";
+    Black: "black";
+    Blanchedalmond: "blanchedalmond";
     
-    "azure"
-    "beige"
-    "bisque"
-    "black"
-    "blanchedalmond"
     "blue"
     "blueviolet"
     "brown"

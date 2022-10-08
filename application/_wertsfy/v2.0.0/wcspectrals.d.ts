@@ -1,7 +1,8 @@
+declare const key;
 type Cor<Formato extends CorTerminal | CorWeb | CorCustomizada> = Formato;
-type CorTerminal = () => { };
-type CorWeb = () => { };
-type CorCustomizada = () => { };
+type CorTerminal = { };
+type CorWeb = { };
+type CorCustomizada = { };
 
 export declare type WCSpectrals = { }
 

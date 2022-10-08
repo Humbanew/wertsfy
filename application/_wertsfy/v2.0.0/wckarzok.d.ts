@@ -1,4 +1,5 @@
-export const structure = { 
+export type WCKarzok= 
+{ 
 
   "minecraft": {
 
@@ -14,8 +15,8 @@ export const structure = {
             "uvlock": {
 
               Nulled: "~none",
-              Disabled: "false"||false,
-              Enabled: "true"||true
+              Disabled: "false"|false,
+              Enabled: "true"|true
 
             },
             "x": 0|90|180|270,
@@ -33,32 +34,32 @@ export const structure = {
                 "east": {
 
                   Nulled: "~none",
-                  Disabled: "false"||false,
-                  Enabled: "true"||true
+                  Disabled: "false"|false,
+                  Enabled: "true"|true
 
                 },
 
                 "west": {
 
                   Nulled: "~none",
-                  Disabled: "false"||false,
-                  Enabled: "true"||true
+                  Disabled: "false"|false,
+                  Enabled: "true"|true
 
                 },
 
                 "north": {
 
                   Nulled: "~none",
-                  Disabled: "false"||false,
-                  Enabled: "true"||true
+                  Disabled: "false"|false,
+                  Enabled: "true"|true
 
                 },
 
                 "south": {
 
                   Nulled: "~none",
-                  Disabled: "false"||false,
-                  Enabled: "true"||true
+                  Disabled: "false"|false,
+                  Enabled: "true"|true
 
                 }
 
@@ -107,8 +108,8 @@ export const structure = {
           "in_wall": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -123,16 +124,16 @@ export const structure = {
           "open": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
           "powered": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
             
           },
 
@@ -213,8 +214,8 @@ export const structure = {
           "lit": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -249,8 +250,8 @@ export const structure = {
           "snowy": {
               
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
           
           },
 
@@ -276,8 +277,8 @@ export const structure = {
           "locked": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -294,8 +295,8 @@ export const structure = {
           "conditional": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -328,24 +329,24 @@ export const structure = {
           "hanging": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
           "extended": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
           "attached": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -371,8 +372,8 @@ export const structure = {
           "short": {
 
             Nulled: "~none",
-            Disabled: "false"||false,
-            Enabled: "true"||true
+            Disabled: "false"|false,
+            Enabled: "true"|true
 
           },
 
@@ -388,8 +389,8 @@ export const structure = {
               "up": {
               
                 Nulled: "~none",
-                Disabled: "false"||false,
-                Enabled: "true"||true
+                Disabled: "false"|false,
+                Enabled: "true"|true
               
               },
 
@@ -481,7 +482,7 @@ export const structure = {
 
             "apply": {
 
-              "model": String||Array||"none"||"side|up"
+              "model": String|Array<String>|"none"|"side|up"
 
             }
 
@@ -513,7 +514,7 @@ export const structure = {
 
           "ascent": Number,
 
-          "chars": Array
+          "chars": Array<String>
           
         }
 
@@ -564,5 +565,3 @@ export const structure = {
   "malibu": { }
 
 }
-
-let WCKarzok = structure;

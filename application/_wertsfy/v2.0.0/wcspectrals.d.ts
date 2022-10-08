@@ -3,7 +3,7 @@ declare type CorTerminal = { };
 declare type CorWeb = { };
 declare type CorCustomizada = { };
 
-export declare type WCSpectrals = { }
+export declare type WCSpectrals = { };
 
 // // v1.2.0-5-basin
   // Código legado para conversão

@@ -12,12 +12,397 @@ declare type CorTerminal = {
     t800080: "#800080";
     t008080: "#008080";
     t808080: "#808080";
+    tC0C0C0: "#C0C0C0";
+    tFF0000: "#FF0000";
+    t00FF00: "#00FF00";
+    tFFFF00: "#FFFF00";
+    t0000FF: "#0000FF";
+    tFF00FF: "#FF00FF";
+    t00FFFF: "#00FFFF";
+    tFFFFFF: "#FFFFFF";
+    t00005F: "#00005F";
+    t000087: "#000087";
+    t0000AF: "#0000AF";
+    t0000D7: "#0000D7";
+    t005F00: "#005F00";
+    t005F5F: "#005F5F";
+    t005F87: "#005F87";
+    t005FAF: "#005FAF";
+    t005FD7: "#005FD7";
+    t005FFF: "#005FFF";
+    t008700: "#008700";
+    t00875F: "#00875F";
+    t008787: "#008787";
+    t0087AF: "#0087AF";
+    t0087D7: "#0087D7";
+    t0087FF: "#0087FF";
+    t00AF00: "#00AF00";
+    t00AF5F: "#00AF5F";
+    t00AF87: "#00AF87";
+    t00AFAF: "#00AFAF";
+    t00AFD7: "#00AFD7";
+    t00AFFF: "#00AFFF";
+    t00D700: "#00D700";
+    t00D75F: "#00D75F";
+    t00D787: "#00D787";
+    t00D7AF: "#00D7AF";
+    t00D7D7: "#00D7D7";
+    t00D7FF: "#00D7FF";
+    t00FF5F: "#00FF5F";
+    t00FF87: "#00FF87";
+    t00FFAF: "#00FFAF";
+    t00FFD7: "#00FFD7";
+    t5F0000: "#5F0000";
+    t5F005F: "#5F005F";
+    t5F0087: "#5F0087";
+    t5F00AF: "#5F00AF";
+    t5F00D7: "#5F00D7";
+    t5F00FF: "#5F00FF";
+    t5F5F00: "#5F5F00";
+    t5F5F5F: "#5F5F5F";
+    t5F5F87: "#5F5F87";
+    t5F5FAF: "#5F5FAF";
+    t5F5FD7: "#5F5FD7";
+    t5F5FFF: "#5F5FFF";
+    t5F8700: "#5F8700";
+    t5F875F: "#5F875F";
+    t5F8787: "#5F8787";
+    t5F87AF: "#5F87AF";
+    t5F87D7: "#5F87D7";
+    t5F87FF: "#5F87FF";
+    t5FAF00: "#5FAF00";
+    t5FAF5F: "#5FAF5F";
+    t5FAF87: "#5FAF87";
+    t5FAFAF: "#5FAFAF";
+    t5FAFD7: "#5FAFD7";
+    t5FAFFF: "#5FAFFF";
+    t5FD700: "#5FD700";
+    t5FD75F: "#5FD75F";
+    t5FD787: "#5FD787";
+    t5FD7AF: "#5FD7AF";
+    t5FD7D7: "#5FD7D7";
+    t5FD7FF: "#5FD7FF";
+    t5FFF00: "#5FFF00";
+    t5FFF5F: "#5FFF5F";
+    t5FFF87: "#5FFF87";
+    t5FFFAF: "#5FFFAF";
+    t5FFFD7: "#5FFFD7";
+    t5FFFFF: "#5FFFFF";
+    t870000: "#870000";
+    t87005F: "#87005F";
+    t870087: "#870087";
+    t8700AF: "#8700AF";
+    t8700D7: "#8700D7";
+    t8700FF: "#8700FF";
+    t875F00: "#875F00";
+    t875F5F: "#875F5F";
+    t875F87: "#875F87";
+    t875FAF: "#875FAF";
+    t875FD7: "#875FD7";
+    t875FFF: "#875FFF";
+    t878700: "#878700";
+    t87875F: "#87875F";
+    t878787: "#878787";
+    t8787AF: "#8787AF";
+    t8787D7: "#8787D7";
+    t8787FF: "#8787FF";
+    t87AF00: "#87AF00";
+    t87AF5F: "#87AF5F";
+    t87AF87: "#87AF87";
+    t87AFAF: "#87AFAF";
+    t87AFD7: "#87AFD7";
+    t87AFFF: "#87AFFF";
+    t87D700: "#87D700";
+    t87D75F: "#87D75F";
+    t87D787: "#87D787";
+    t87D7AF: "#87D7AF";
+    t87D7D7: "#87D7D7";
+    t87D7FF: "#87D7FF";
+    t87FF00: "#87FF00";
+    t87FF5F: "#87FF5F";
+    t87FF87: "#87FF87";
+    t87FFAF: "#87FFAF";
+    t87FFD7: "#87FFD7";
+    t87FFFF: "#87FFFF";
+    tAF0000: "#AF0000";
+    tAF005F: "#AF005F";
+    tAF0087: "#AF0087";
+    tAF00AF: "#AF00AF";
+    tAF00D7: "#AF00D7";
+    tAF00FF: "#AF00FF";
+    tAF5F00: "#AF5F00";
+    tAF5F5F: "#AF5F5F";
+    tAF5F87: "#AF5F87";
+    tAF5FAF: "#AF5FAF";
+    tAF5FD7: "#AF5FD7";
+    tAF5FFF: "#AF5FFF";
+    tAF8700: "#AF8700";
+    tAF875F: "#AF875F";
+    tAF8787: "#AF8787";
+    tAF87AF: "#AF87AF";
+    tAF87D7: "#AF87D7";
+    tAF87FF: "#AF87FF";
+    tAFAF00: "#AFAF00";
+    tAFAF5F: "#AFAF5F";
+    tAFAF87: "#AFAF87";
+    tAFAFAF: "#AFAFAF";
+    tAFAFD7: "#AFAFD7";
+    tAFAFFF: "#AFAFFF";
+    tAFD700: "#AFD700";
+    tAFD75F: "#AFD75F";
+    tAFD787: "#AFD787";
+    tAFD7AF: "#AFD7AF";
+    tAFD7D7: "#AFD7D7";
+    tAFD7FF: "#AFD7FF";
+    tAFFF00: "#AFFF00";
+    tAFFF5F: "#AFFF5F";
+    tAFFF87: "#AFFF87";
+    tAFFFAF: "#AFFFAF";
+    tAFFFD7: "#AFFFD7";
+    tAFFFFF: "#AFFFFF";
+    tD70000: "#D70000";
+    tD7005F: "#D7005F";
+    tD70087: "#D70087";
+    tD700AF: "#D700AF";
+    tD700D7: "#D700D7";
+    tD700FF: "#D700FF";
+    tD75F00: "#D75F00";
+    tD75F5F: "#D75F5F";
+    tD75F87: "#D75F87";
+    tD75FAF: "#D75FAF";
+    tD75FD7: "#D75FD7";
+    tD75FFF: "#D75FFF";
+    tD78700: "#D78700";
+    tD7875F: "#D7875F";
+    tD78787: "#D78787";
+    tD787AF: "#D787AF";
+    tD787D7: "#D787D7";
+    tD787FF: "#D787FF";
+    tD7AF00: "#D7AF00";
+    tD7AF5F: "#D7AF5F";
+    tD7AF87: "#D7AF87";
+    tD7AFAF: "#D7AFAF";
+    tD7AFD7: "#D7AFD7";
+    tD7AFFF: "#D7AFFF";
+    tD7D700: "#D7D700";
+    tD7D75F: "#D7D75F";
+    tD7D787: "#D7D787";
+    tD7D7AF: "#D7D7AF";
+    tD7D7D7: "#D7D7D7";
+    tD7D7FF: "#D7D7FF";
+    tD7FF00: "#D7FF00";
+    tD7FF5F: "#D7FF5F";
+    tD7FF87: "#D7FF87";
+    tD7FFAF: "#D7FFAF";
+    tD7FFD7: "#D7FFD7";
+    tD7FFFF: "#D7FFFF";
+    tFF005F: "#FF005F";
+    tFF0087: "#FF0087";
+    tFF00AF: "#FF00AF";
+    tFF00D7: "#FF00D7";
+    tFF5F00: "#FF5F00";
+    tFF5F5F: "#FF5F5F";
+    tFF5F87: "#FF5F87";
+    tFF5FAF: "#FF5FAF";
+    tFF5FD7: "#FF5FD7";
+    tFF5FFF: "#FF5FFF";
+    tFF8700: "#FF8700";
+    tFF875F: "#FF875F";
+    tFF8787: "#FF8787";
+    tFF87AF: "#FF87AF";
+    tFF87D7: "#FF87D7";
+    tFF87FF: "#FF87FF";
+    tFFAF00: "#FFAF00";
+    tFFAF5F: "#FFAF5F";
+    tFFAF87: "#FFAF87";
+    tFFAFAF: "#FFAFAF";
+    tFFAFD7: "#FFAFD7";
+    tFFAFFF: "#FFAFFF";
+    tFFD700: "#FFD700";
+    tFFD75F: "#FFD75F";
+    tFFD787: "#FFD787";
+    tFFD7AF: "#FFD7AF";
+    tFFD7D7: "#FFD7D7";
+    tFFD7FF: "#FFD7FF";
+    tFFFF5F: "#FFFF5F";
+    tFFFF87: "#FFFF87";
+    tFFFFAF: "#FFFFAF";
+    tFFFFD7: "#FFFFD7";
+    t080808: "#080808";
+    t121212: "#121212";
+    t1C1C1C: "#1C1C1C";
+    t262626: "#262626";
+    t303030: "#303030";
+    t3A3A3A: "#3A3A3A";
+    t444444: "#444444";
+    t4E4E4E: "#4E4E4E";
+    t585858: "#585858";
+    t626262: "#626262";
+    t6C6C6C: "#6C6C6C";
+    t767676: "#767676";
+    t8A8A8A: "#8A8A8A";
+    t949494: "#949494";
+    t9E9E9E: "#9E9E9E";
+    tA8A8A8: "#A8A8A8";
+    tB2B2B2: "#B2B2B2";
+    tBCBCBC: "#BCBCBC";
+    tC6C6C6: "#C6C6C6";
+    tD0D0D0: "#D0D0D0";
+    tDADADA: "#DADADA";
+    tE4E4E4: "#E4E4E4";
+    tEEEEEE: "#EEEEEE";
   
   }
 
 };
 
-declare type CorWeb = { };
+declare type CorWeb = {
+
+  coreshtml: {
+
+    Aliceblue: "aliceblue"; 
+    
+    "antiquewhite"
+    "aqua"
+    "aquamarine"
+    "azure"
+    "beige"
+    "bisque"
+    "black"
+    "blanchedalmond"
+    "blue"
+    "blueviolet"
+    "brown"
+    "burlywood"
+    "cadetblue"
+    "chartreuse"
+    "chocolate"
+    "coral"
+    "cornflowerblue"
+    "cornsilk"
+    "crimson"
+    "cyan"
+    "darkblue"
+    "darkcyan"
+    "darkgoldenrod"
+    "darkgray"
+    "darkgreen"
+    "darkkhaki"
+    "darkmagenta"
+    "darkolivegreen"
+    "darkorange"
+    "darkorchid"
+    "darkred"
+    "darksalmon"
+    "darkseagreen"
+    "darkslateblue"
+    "darkslategray"
+    "darkturquoise"
+    "darkviolet"
+    "deeppink"
+    "deepskyblue"
+    "dimgray"
+    "dodgerblue"
+    "firebrick"
+    "floralwhite"
+    "florestgreen"
+    "fucsia"
+    "gainsboro"
+    "ghostwhite"
+    "gold"
+    "goldenrod"
+    "gray"
+    "green"
+    "greenyellow"
+    "honeydew"
+    "hotpink"
+    "indianred"
+    "ivory"
+    "khaki"
+    "lavender"
+    "lavenderblush"
+    "lawngreen"
+    "lemonchiffon"
+    "lightblue"
+    "lightcoral"
+    "lightcyan"
+    "lightgoldenrodyellow"
+    "lightgray"
+    "lightgreen"
+    "lightpink"
+    "lightsalmon"
+    "lightseagreen"
+    "lightskyblue"
+    "lightslategray"
+    "lightsteelblue"
+    "lightyellow"
+    "lime"
+    "limegreen"
+    "linen"
+    "magenta"
+    "maroon"
+    "mediumaquamarine"
+    "mediumblue"
+    "mediumorchid"
+    "mediumseagreen"
+    "mediumslateblue"
+    "mediumspringgreen"
+    "mediumturquoise"
+    "mediumvioletred"
+    "midnightblue"
+    "mintcream"
+    "mistyrose"
+    "moccasin"
+    "navajowhite"
+    "navy"
+    "oldlace"
+    "olive"
+    "olivedrab"
+    "orange"
+    "orangered"
+    "orchid"
+    "palegoldenrod"
+    "palegreen"
+    "paleturquoise"
+    "palevioletred"
+    "papayawhip"
+    "peachpuff"
+    "peru"
+    "pink"
+    "plum"
+    "powderblue"
+    "purple"
+    "red"
+    "rosybrown"
+    "royalblue"
+    "saddlebrown"
+    "salmon"
+    "sandybrown"
+    "seagreen"
+    "seashell"
+    "silver"
+    "skyblue"
+    "slateblue"
+    "slategray"
+    "snow"
+    "springgreen"
+    "steelblue"
+    "tan"
+    "teal"
+    "thistle"
+    "tomato"
+    "turquiose"
+    "violet"
+    "wheat"
+    "white"
+    "whitesmoke"
+    "yellow"
+    "yellowgreen"
+
+  }
+
+};
+
 declare type CorCustomizada = { };
 
 export declare type WCSpectrals = {
@@ -32,17 +417,7 @@ export declare type WCSpectrals = {
 
 };
 
-// // v1.2.0-5-basin
-  // Código legado para conversão
-
-    // Wertsfy Spectrals - Cores Terminal
-  /** 
-   * template 1
-   * 
-   *'hex=000000'|'hex=800000'|'hex=008000'|'hex=808000'|'hex=000080'|'hex=800080'|'hex=008080'|'hex=808080'|'hex=C0C0C0'|'hex=FF0000'|'hex=00FF00'|'hex=FFFF00'|'hex=0000FF'|'hex=FF00FF'|'hex=00FFFF'|'hex=FFFFFF'|'hex=00005F'|'hex=000087'|'hex=0000AF'|'hex=0000D7'|'hex=005F00'|'hex=005F5F'|'hex=005F87'|'hex=005FAF'|'hex=005FD7'|'hex=005FFF'|'hex=008700'|'hex=00875F'|'hex=008787'|'hex=0087AF'|'hex=0087D7'|'hex=0087FF'|'hex=00AF00'|'hex=00AF5F'|'hex=00AF87'|'hex=00AFAF'|'hex=00AFD7'|'hex=00AFFF'|'hex=00D700'|'hex=00D75F'|'hex=00D787'|'hex=00D7AF'|'hex=00D7D7'|'hex=00D7FF'|'hex=00FF5F'|'hex=00FF87'|'hex=00FFAF'|'hex=00FFD7'|'hex=5F0000'|'hex=5F005F'|'hex=5F0087'|'hex=5F00AF'|'hex=5F00D7'|'hex=5F00FF'|'hex=5F5F00'|'hex=5F5F5F'|'hex=5F5F87'|'hex=5F5FAF'|'hex=5F5FD7'|'hex=5F5FFF'|'hex=5F8700'|'hex=5F875F'|'hex=5F8787'|'hex=5F87AF'|'hex=5F87D7'|'hex=5F87FF'|'hex=5FAF00'|'hex=5FAF5F'|'hex=5FAF87'|'hex=5FAFAF'|'hex=5FAFD7'|'hex=5FAFFF'|'hex=5FD700'|'hex=5FD75F'|'hex=5FD787'|'hex=5FD7AF'|'hex=5FD7D7'|'hex=5FD7FF'|'hex=5FFF00'|'hex=5FFF5F'|'hex=5FFF87'|'hex=5FFFAF'|'hex=5FFFD7'|'hex=5FFFFF'|'hex=870000'|'hex=87005F'|'hex=870087'|'hex=8700AF'|'hex=8700D7'|'hex=8700FF'|'hex=875F00'|'hex=875F5F'|'hex=875F87'|'hex=875FAF'|'hex=875FD7'|'hex=875FFF'|'hex=878700'|'hex=87875F'|'hex=878787'|'hex=8787AF'|'hex=8787D7'|'hex=8787FF'|'hex=87AF00'|'hex=87AF5F'|'hex=87AF87'|'hex=87AFAF'|'hex=87AFD7'|'hex=87AFFF'|'hex=87D700'|'hex=87D75F'|'hex=87D787'|'hex=87D7AF'|'hex=87D7D7'|'hex=87D7FF'|'hex=87FF00'|'hex=87FF5F'|'hex=87FF87'|'hex=87FFAF'|'hex=87FFD7'|'hex=87FFFF'|'hex=AF0000'|'hex=AF005F'|'hex=AF0087'|'hex=AF00AF'|'hex=AF00D7'|'hex=AF00FF'|'hex=AF5F00'|'hex=AF5F5F'|'hex=AF5F87'|'hex=AF5FAF'|'hex=AF5FD7'|'hex=AF5FFF'|'hex=AF8700'|'hex=AF875F'|'hex=AF8787'|'hex=AF87AF'|'hex=AF87D7'|'hex=AF87FF'|'hex=AFAF00'|'hex=AFAF5F'|'hex=AFAF87'|'hex=AFAFAF'|'hex=AFAFD7'|'hex=AFAFFF'|'hex=AFD700'|'hex=AFD75F'|'hex=AFD787'|'hex=AFD7AF'|'hex=AFD7D7'|'hex=AFD7FF'|'hex=AFFF00'|'hex=AFFF5F'|'hex=AFFF87'|'hex=AFFFAF'|'hex=AFFFD7'|'hex=AFFFFF'|'hex=D70000'|'hex=D7005F'|'hex=D70087'|'hex=D700AF'|'hex=D700D7'|'hex=D700FF'|'hex=D75F00'|'hex=D75F5F'|'hex=D75F87'|'hex=D75FAF'|'hex=D75FD7'|'hex=D75FFF'|'hex=D78700'|'hex=D7875F'|'hex=D78787'|'hex=D787AF'|'hex=D787D7'|'hex=D787FF'|'hex=D7AF00'|'hex=D7AF5F'|'hex=D7AF87'|'hex=D7AFAF'|'hex=D7AFD7'|'hex=D7AFFF'|'hex=D7D700'|'hex=D7D75F'|'hex=D7D787'|'hex=D7D7AF'|'hex=D7D7D7'|'hex=D7D7FF'|'hex=D7FF00'|'hex=D7FF5F'|'hex=D7FF87'|'hex=D7FFAF'|'hex=D7FFD7'|'hex=D7FFFF'|'hex=FF005F'|'hex=FF0087'|'hex=FF00AF'|'hex=FF00D7'|'hex=FF5F00'|'hex=FF5F5F'|'hex=FF5F87'|'hex=FF5FAF'|'hex=FF5FD7'|'hex=FF5FFF'|'hex=FF8700'|'hex=FF875F'|'hex=FF8787'|'hex=FF87AF'|'hex=FF87D7'|'hex=FF87FF'|'hex=FFAF00'|'hex=FFAF5F'|'hex=FFAF87'|'hex=FFAFAF'|'hex=FFAFD7'|'hex=FFAFFF'|'hex=FFD700'|'hex=FFD75F'|'hex=FFD787'|'hex=FFD7AF'|'hex=FFD7D7'|'hex=FFD7FF'|'hex=FFFF5F'|'hex=FFFF87'|'hex=FFFFAF'|'hex=FFFFD7'|'hex=080808'|'hex=121212'|'hex=1C1C1C'|'hex=262626'|'hex=303030'|'hex=3A3A3A'|'hex=444444'|'hex=4E4E4E'|'hex=585858'|'hex=626262'|'hex=6C6C6C'|'hex=767676'|'hex=8A8A8A'|'hex=949494'|'hex=9E9E9E'|'hex=A8A8A8'|'hex=B2B2B2'|'hex=BCBCBC'|'hex=C6C6C6'|'hex=D0D0D0'|'hex=DADADA'|'hex=E4E4E4'|'hex=EEEEEE'
-   */
-
-    // Wertsfy Spectrals - Cores Web
+// Wertsfy Spectrals - Cores Web
   /**
    * 
    * template 2

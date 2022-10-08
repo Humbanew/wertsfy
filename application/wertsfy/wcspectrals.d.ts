@@ -260,42 +260,42 @@ declare type CorWeb = {
 
   coreshtml: {
 
-    Aliceblue: "aliceblue"; 
-    Antiquewhite: "antiquewhite";
+    AliceBlue: "aliceblue"; 
+    AntiqueWhite: "antiquewhite";
     Aqua: "aqua";
-    Aquamarine: "aquamarine";
+    AquaMarine: "aquamarine";
     Azure: "azure";
     Beige: "beige";
     Bisque: "bisque";
     Black: "black";
     Blanchedalmond: "blanchedalmond";
+    Blue: "blue";
+    BlueViolet: "blueviolet";
+    Brown: "brown";
+    Burlywood: "burlywood";
+    CadetBlue: "cadetblue";
+    Chartreuse: "chartreuse";
+    Chocolate: "chocolate";
+    Coral: "coral";
+    CornFlowerBlue: "cornflowerblue";
+    Cornsilk: "cornsilk";
+    Crimson: "crimson";
+    Cyan: "cyan";
+    DarkBlue: "darkblue";
+    DarkCyan: "darkcyan";
+    DarkGoldenRod: "darkgoldenrod";
+    DarkGray: "darkgray";
+    DarkGreen: "darkgreen";
+    DarkKhaki: "darkkhaki";
+    DarkMagenta: "darkmagenta";
+    DarkOliveGreen: "darkolivegreen";
+    DarkOrange: "darkorange";
+    DarkOrchild: "darkorchid";
+    DarkRed: "darkred";
+    DarkSalmon: "darksalmon";
+    DarkSeaGreen: "darkseagreen";
+    DarkSlateBlue: "darkslateblue";
     
-    "blue"
-    "blueviolet"
-    "brown"
-    "burlywood"
-    "cadetblue"
-    "chartreuse"
-    "chocolate"
-    "coral"
-    "cornflowerblue"
-    "cornsilk"
-    "crimson"
-    "cyan"
-    "darkblue"
-    "darkcyan"
-    "darkgoldenrod"
-    "darkgray"
-    "darkgreen"
-    "darkkhaki"
-    "darkmagenta"
-    "darkolivegreen"
-    "darkorange"
-    "darkorchid"
-    "darkred"
-    "darksalmon"
-    "darkseagreen"
-    "darkslateblue"
     "darkslategray"
     "darkturquoise"
     "darkviolet"
@@ -416,11 +416,3 @@ export declare type WCSpectrals = {
   }
 
 };
-
-// Wertsfy Spectrals - Cores Web
-  /**
-   * 
-   * template 2
-   * 
-   * 'aliceblue'|'antiquewhite'|'aqua'|'aquamarine'|'azure'|'beige'|'bisque'|'black'|'blanchedalmond'|'blue'|'blueviolet'|'brown'|'burlywood'|'cadetblue'|'chartreuse'|'chocolate'|'coral'|'cornflowerblue'|'cornsilk'|'crimson'|'cyan'|'darkblue'|'darkcyan'|'darkgoldenrod'|'darkgray'|'darkgreen'|'darkkhaki'|'darkmagenta'|'darkolivegreen'|'darkorange'|'darkorchid'|'darkred'|'darksalmon'|'darkseagreen'|'darkslateblue'|'darkslategray'|'darkturquoise'|'darkviolet'|'deeppink'|'deepskyblue'|'dimgray'|'dodgerblue'|'firebrick'|'floralwhite'|'florestgreen'|'fucsia'|'gainsboro'|'ghostwhite'|'gold'|'goldenrod'|'gray'|'green'|'greenyellow'|'honeydew'|'hotpink'|'indianred'|'ivory'|'khaki'|'lavender'|'lavenderblush'|'lawngreen'|'lemonchiffon'|'lightblue'|'lightcoral'|'lightcyan'|'lightgoldenrodyellow'|'lightgray'|'lightgreen'|'lightpink'|'lightsalmon'|'lightseagreen'|'lightskyblue'|'lightslategray'|'lightsteelblue'|'lightyellow'|'lime'|'limegreen'|'linen'|'magenta'|'maroon'|'mediumaquamarine'|'mediumblue'|'mediumorchid'|'mediumseagreen'|'mediumslateblue'|'mediumspringgreen'|'mediumturquoise'|'mediumvioletred'|'midnightblue'|'mintcream'|'mistyrose'|'moccasin'|'navajowhite'|'navy'|'oldlace'|'olive'|'olivedrab'|'orange'|'orangered'|'orchid'|'palegoldenrod'|'palegreen'|'paleturquoise'|'palevioletred'|'papayawhip'|'peachpuff'|'peru'|'pink'|'plum'|'powderblue'|'purple'|'red'|'rosybrown'|'royalblue'|'saddlebrown'|'salmon'|'sandybrown'|'seagreen'|'seashell'|'silver'|'skyblue'|'slateblue'|'slategray'|'snow'|'springgreen'|'steelblue'|'tan'|'teal'|'thistle'|'tomato'|'turquiose'|'violet'|'wheat'|'white'|'whitesmoke'|'yellow'|'yellowgreen'
-   */ 

@@ -1,4 +1,6 @@
-type Cor<Formato extends Function> = Formato;
+type Cor<Formato extends TerminalCor | WebCor> = Formato;
+type TerminalCor = () => { };
+type WebCor = () => { };
 
 export declare type WCSpectrals= 
 { }

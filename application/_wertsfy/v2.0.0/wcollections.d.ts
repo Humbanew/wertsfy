@@ -8,9 +8,9 @@ import { WCKarzok } from "./wckarzok";
 export declare type WCollections= 
 {
   Terminal: WCTerminal,
-  ExpressoesRegulares: WCRegExp,
   Spectrals: WCSpectrals,
-  Karzok: WCKarzok
+  Karzok: WCKarzok,
+  ExpressoesRegulares: WCRegExp
 }
 
 export declare type WTrmSClr = "3b4bit"|"8bit"|"24bit";

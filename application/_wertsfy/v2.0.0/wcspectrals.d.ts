@@ -1,3 +1,5 @@
+type Cor<Formato extends Function> = Formato;
+
 export declare type WCSpectrals= 
 { }
 

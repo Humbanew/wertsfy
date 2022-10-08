@@ -1285,3 +1285,5 @@ class WBoard {
 }
 
 const abstraction = new WBoard().wertsfy;
+
+let test: WCollections;

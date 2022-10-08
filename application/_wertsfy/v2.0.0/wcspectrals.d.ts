@@ -1,9 +1,31 @@
 declare type Cor<Formato extends CorTerminal | CorWeb | CorCustomizada> = Formato;
-declare type CorTerminal = { };
+declare type CorTerminal = {
+
+  hexadecimal: {
+    
+    t000000: 0x000000;
+    t800000: 0x800000;
+    t008000: 0x008000;
+    t808000: 0x808000;
+    t000080: 0x000080;
+  
+  }
+
+};
 declare type CorWeb = { };
 declare type CorCustomizada = { };
 
-export declare type WCSpectrals = { };
+export declare type WCSpectrals = {
+
+  colorizacao: { 
+
+    frontendweb: Cor<CorWeb>;
+    terminal: Cor<CorTerminal>;
+    customizada: Cor<CorCustomizada>;
+
+  }
+
+};
 
 // // v1.2.0-5-basin
   // Código legado para conversão

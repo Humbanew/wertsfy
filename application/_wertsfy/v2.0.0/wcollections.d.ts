@@ -1,5 +1,4 @@
 // Tipos da arquitetura
-
 import { WCRegExp } from "./wcregexp";
 import { WCTerminal } from "./wcterminal";
 import { WCSpectrals } from "./wcspectrals";

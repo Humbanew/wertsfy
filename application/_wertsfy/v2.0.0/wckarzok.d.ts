@@ -505,15 +505,10 @@ export type WCKarzok=
             LegacyUnicode: "legacy_unicode"
           
           },
-
           "sizes": String,
-
           "template": String,
-
           "file": String,
-
           "ascent": Number,
-
           "chars": Array<String>
           
         }

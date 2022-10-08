@@ -261,10 +261,10 @@ declare type CorWeb = {
   coreshtml: {
 
     Aliceblue: "aliceblue"; 
+    Antiquewhite: "antiquewhite";
+    Aqua: "aqua";
+    Aquamarine: "aquamarine";
     
-    "antiquewhite"
-    "aqua"
-    "aquamarine"
     "azure"
     "beige"
     "bisque"

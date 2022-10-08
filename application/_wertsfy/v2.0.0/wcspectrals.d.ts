@@ -1,13 +1,5 @@
 export declare type WCSpectrals= 
-{
-
-  terminal: { },
-
-  web: { }, 
-
-  custom: { }
-
-}
+{ }
 
 // // v1.2.0-5-basin
   // Código legado para conversão

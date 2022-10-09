@@ -295,21 +295,21 @@ declare type CorWeb = {
     DarkSalmon: "darksalmon";
     DarkSeaGreen: "darkseagreen";
     DarkSlateBlue: "darkslateblue";
+    DarkSlateGray: "darkslategray";
+    DarkTurquiose: "darkturquoise";
+    DarkViolet: "darkviolet";
+    DeepPink: "deeppink";
+    DeepSkyBlue: "deepskyblue";
+    DimGray: "dimgray";
+    DodgerBlue: "dodgerblue";
+    Firebrick: "firebrick";
+    Floralwhite: "floralwhite";
+    FlorestGreen: "florestgreen";
+    Fucsia: "fucsia";
+    Gainsboro: "gainsboro";
+    Ghostwhite: "ghostwhite";
+    Gold: "gold";
     
-    "darkslategray"
-    "darkturquoise"
-    "darkviolet"
-    "deeppink"
-    "deepskyblue"
-    "dimgray"
-    "dodgerblue"
-    "firebrick"
-    "floralwhite"
-    "florestgreen"
-    "fucsia"
-    "gainsboro"
-    "ghostwhite"
-    "gold"
     "goldenrod"
     "gray"
     "green"
@@ -414,5 +414,5 @@ export declare type WCSpectrals = {
     customizada: Cor<CorCustomizada>;
 
   }
-
+  
 };

@@ -309,38 +309,38 @@ declare type CorWeb = {
     Gainsboro: "gainsboro";
     Ghostwhite: "ghostwhite";
     Gold: "gold";
+    GoldenRod: "goldenrod";
+    Gray: "gray";
+    Green: "green";
+    GreenYellow: "greenyellow";
+    Honeydew: "honeydew";
+    Hotpink: "hotpink";
+    IndianRed: "indianred";
+    Ivory: "ivory";
+    Khaki: "khaki"; 
+    Lavender: "lavender";
+    LavenderBlush: "lavenderblush";
+    LawnGreen: "lawngreen";
+    Lemonchiffon: "lemonchiffon";
+    LightBlue: "lightblue";
+    LightCoral: "lightcoral";
+    LightCyan: "lightcyan";
+    LightGoldenRodYellow: "lightgoldenrodyellow";
+    LightGray: "lightgray";
+    LightGreen: "lightgreen";
+    LightPink: "lightpink";
+    LightSalmon: "lightsalmon";
+    LightSeaGreen: "lightseagreen";
+    LightSkyBlue:  "lightskyblue";
+    LightSlateGray: "lightslategray";
+    LightSteelBlue: "lightsteelblue";
+    LightYellow: "lightyellow";
+    Lime: "lime"; 
+    LimeGreen: "limegreen"; 
+    Linen: "linen";
+    Magenta: "magenta";
+    Maroon: "maroon"; 
     
-    "goldenrod"
-    "gray"
-    "green"
-    "greenyellow"
-    "honeydew"
-    "hotpink"
-    "indianred"
-    "ivory"
-    "khaki"
-    "lavender"
-    "lavenderblush"
-    "lawngreen"
-    "lemonchiffon"
-    "lightblue"
-    "lightcoral"
-    "lightcyan"
-    "lightgoldenrodyellow"
-    "lightgray"
-    "lightgreen"
-    "lightpink"
-    "lightsalmon"
-    "lightseagreen"
-    "lightskyblue"
-    "lightslategray"
-    "lightsteelblue"
-    "lightyellow"
-    "lime"
-    "limegreen"
-    "linen"
-    "magenta"
-    "maroon"
     "mediumaquamarine"
     "mediumblue"
     "mediumorchid"

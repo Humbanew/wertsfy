@@ -402,7 +402,31 @@ declare type CorWeb = {
 
 };
 
-declare type CorCustomizada = { };
+declare type CorCustomizada = {
+
+  rgby: { 
+    
+    camadaUm: { }, 
+    camadaDois: { } 
+  
+  }
+
+  rgbw: { 
+    
+    camadaUm: { }, 
+    camadaDois: { }
+  
+  }
+
+  rgbyw: { 
+    
+    camadaUm: { }, 
+    camadaDois: { }, 
+    camadaTres: { } 
+  
+  }
+
+};
 
 export declare type WCSpectrals = {
 

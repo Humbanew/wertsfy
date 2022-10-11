@@ -1,5 +1,72 @@
 declare type Cor<Formato extends CorTerminal | CorWeb | CorCustomizada> = Formato;
 
+declare type TAmarelo = {
+
+  p01: "#FFFF0000";
+  p02: "#FFFF0011";
+  p03: "#FFFF0022";
+  p04: "#FFFF0033";
+  p05: "#FFFF0044";
+  p06: "#FFFF0055";
+  p07: "#FFFF0066";
+  p08: "#FFFF0077";
+  p09: "#FFFF0088";
+  p10: "#FFFF0099";
+  p11: "#FFFF00AA";
+  p12: "#FFFF00BB";
+  p13: "#FFFF00CC";
+  p14: "#FFFF00DD";
+  p15: "#FFFF00EE";
+  p16: "#FFFF00FF";
+
+};
+
+declare type TBranco = {
+  
+  p01: "#FFFFFF00";
+  p02: "#FFFFFF11";
+  p03: "#FFFFFF22";
+  p04: "#FFFFFF33";
+  p05: "#FFFFFF44";
+  p06: "#FFFFFF55";
+  p07: "#FFFFFF66";
+  p08: "#FFFFFF77";
+  p09: "#FFFFFF88";
+  p10: "#FFFFFF99";
+  p11: "#FFFFFFAA";
+  p12: "#FFFFFFBB";
+  p13: "#FFFFFFCC";
+  p14: "#FFFFFFDD";
+  p15: "#FFFFFFEE";
+  p16: "#FFFFFFFF";
+
+};
+
+declare type TPreto = {
+  
+  p01: "#00000000";
+  p02: "#00000011";
+  p03: "#00000022";
+  p04: "#00000033";
+  p05: "#00000044";
+  p06: "#00000055";
+  p07: "#00000066";
+  p08: "#00000077";
+  p09: "#00000088";
+  p10: "#00000099";
+  p11: "#000000AA";
+  p12: "#000000BB";
+  p13: "#000000CC";
+  p14: "#000000DD";
+  p15: "#000000EE";
+  p16: "#000000FF";
+
+};
+
+declare type TSCollection = TAmarelo | TBranco | TPreto;
+declare type Presets<Format extends TSCollection> = Format;
+declare type DefinePresets<Selecao extends Presets<TSCollection>> = Selecao;
+
 declare type CorTerminal = {
 
   hexadecimal: {
@@ -404,26 +471,38 @@ declare type CorWeb = {
 
 declare type CorCustomizada = {
 
-  rgby: { 
-    
-    camadaUm: { }, 
-    camadaDois: { } 
-  
+  RGBY: { 
+    c1: String; 
+    c2: DefinePresets<Presets <TAmarelo>>; 
   }
 
-  rgbw: { 
-    
-    camadaUm: { }, 
-    camadaDois: { }
-  
+  RGBW: { 
+    c1: String;
+    c2: DefinePresets<Presets <TBranco>>;
   }
 
-  rgbyw: { 
-    
-    camadaUm: { }, 
-    camadaDois: { }, 
-    camadaTres: { } 
-  
+  RGBBK: {
+    c1: String;
+    c2: DefinePresets<Presets <TPreto>>;
+  }
+
+  RGBYW: { 
+    c1: String; 
+    c2: DefinePresets<Presets <TAmarelo>>; 
+    c3: DefinePresets<Presets <TBranco>>;
+  }
+
+  RGBYBK: {
+    c1: String;
+    c2: DefinePresets<Presets <TAmarelo>>;
+    c3: DefinePresets<Presets <TPreto>>;
+  }
+
+  RGBYWBK: {
+    c1: String;
+    c2: DefinePresets<Presets <TAmarelo>>;
+    c3: DefinePresets<Presets <TBranco>>;
+    c4: DefinePresets<Presets <TPreto>>;
   }
 
 };

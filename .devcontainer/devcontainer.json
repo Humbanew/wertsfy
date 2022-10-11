@@ -65,9 +65,11 @@
 		"comments.openView": "file",
 		"comments.useRelativeTime": true,
 		"workbench.settings.openDefaultKeybindings": false,
-		"workbench.iconTheme": "eq-material-theme-icons-darker",
+		"workbench.iconTheme": "moxer-icons",
 		"workbench.colorTheme": "Winter is Coming (Dark Black)",
-		"extensions.closeExtensionDetailsOnViewChange": true
+		"extensions.closeExtensionDetailsOnViewChange": true,
+		// color highlight extension configs
+		"color-highlight.markerType": "underline"
 	}
 
 }

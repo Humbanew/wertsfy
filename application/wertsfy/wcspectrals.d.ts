@@ -340,65 +340,64 @@ declare type CorWeb = {
     Linen: "linen";
     Magenta: "magenta";
     Maroon: "maroon"; 
+    MediumAquamarine: "mediumaquamarine";
+    MediumBlue: "mediumblue";
+    MediumOrchid: "mediumorchid";
+    MediumSeaGreen: "mediumseagreen";
+    MediumSlateBlue: "mediumslateblue";
+    MediumSpringGreen: "mediumspringgreen";
+    MediumTurquiose: "mediumturquoise";
+    MediumVioletRed: "mediumvioletred";
+    MidmightBlue: "midnightblue";
+    MintCream: "mintcream";
+    Mistyrose: "mistyrose";
+    Moccasin: "moccasin";
+    NavajoWhite: "navajowhite";
+    Navy: "navy";
+    OldLace: "oldlace";
+    Olive: "olive";
+    OliveDrab: "olivedrab";
+    Orange: "orange";
+    OrangeRed: "orangered";
+    Orchid: "orchid";
+    PaleGoldenRod: "palegoldenrod";
+    PaleGreen: "palegreen";
+    PaleTurquoise: "paleturquoise";
+    PaleVioletRed: "palevioletred";
+    PapayaWhip: "papayawhip";
+    Peachpuff: "peachpuff";
+    Peru: "peru";
+    Pink: "pink";
+    Plum: "plum";
+    PowderBlue: "powderblue";
+    Purple: "purple";
+    Red: "red";
+    RosyBrown: "rosybrown";
+    RoyalBlue: "royalblue";
+    SaddleBrown: "saddlebrown";
+    Salmon: "salmon";
+    Sandybrown: "sandybrown";
+    SeaGreen: "seagreen";
+    Seashell: "seashell";
+    Silver: "silver";
+    SkyBlue: "skyblue";
+    SlateBlue: "slateblue";
+    SlateGray: "slategray";
+    Snow: "snow";
+    SpringGreen: "springgreen";
+    SteelBlue: "steelblue";
+    Tan: "tan";
+    Teal: "teal";
+    Thistle: "thistle";
+    Tomato: "tomato";
+    Turquiose: "turquiose";
+    Violet: "violet";
+    Wheat: "wheat";
+    White: "white";
+    Whitesmoke: "whitesmoke";
+    Yellow: "yellow";
+    YellowGreen: "yellowgreen";
     
-    "mediumaquamarine"
-    "mediumblue"
-    "mediumorchid"
-    "mediumseagreen"
-    "mediumslateblue"
-    "mediumspringgreen"
-    "mediumturquoise"
-    "mediumvioletred"
-    "midnightblue"
-    "mintcream"
-    "mistyrose"
-    "moccasin"
-    "navajowhite"
-    "navy"
-    "oldlace"
-    "olive"
-    "olivedrab"
-    "orange"
-    "orangered"
-    "orchid"
-    "palegoldenrod"
-    "palegreen"
-    "paleturquoise"
-    "palevioletred"
-    "papayawhip"
-    "peachpuff"
-    "peru"
-    "pink"
-    "plum"
-    "powderblue"
-    "purple"
-    "red"
-    "rosybrown"
-    "royalblue"
-    "saddlebrown"
-    "salmon"
-    "sandybrown"
-    "seagreen"
-    "seashell"
-    "silver"
-    "skyblue"
-    "slateblue"
-    "slategray"
-    "snow"
-    "springgreen"
-    "steelblue"
-    "tan"
-    "teal"
-    "thistle"
-    "tomato"
-    "turquiose"
-    "violet"
-    "wheat"
-    "white"
-    "whitesmoke"
-    "yellow"
-    "yellowgreen"
-
   }
 
 };

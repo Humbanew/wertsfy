@@ -68,9 +68,19 @@
  * \_ global attributes:
  *    \\ accesskey,
  *    \\ autocapitalize [off or none, on or sentences, words, characters],
- * 
- *    \\ \\ class
- *    \\ \\ id
+ *    \\ autofocus,
+ *    \\ class,
+ *    \\ contenteditable [true, false],
+ *    \\ contextmenu (deprecated),
+ *    \\ data-*,
+ *    \\ dir [ltr, rtl, auto],
+ *    \\ draggable [true, false],
+ *    \\ enterkeyhint,
+ *    \\ exportparts (experimental),
+ *    \\ hidden, 
+ *    \\ id,
+ *    \\ inputmode,
+ *    \\ is,
  * 
  * <html> 
  * \_ attributes: 

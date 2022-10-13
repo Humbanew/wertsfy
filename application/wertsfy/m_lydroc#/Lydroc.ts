@@ -1,4 +1,9 @@
 /** 
+ * 
+ * // links //
+ * - https://developer.mozilla.org/en-US/docs/Web/HTML/Element;
+ * - https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes;
+ * 
  * html elements
  * 
  * \_ event handler attributes:
@@ -81,6 +86,13 @@
  *    \\ id,
  *    \\ inputmode,
  *    \\ is,
+ *    \\ itemid,
+ *    \\ itemprop,
+ *    \\ itemref,
+ *    \\ itemscope,
+ *    \\ itemtype,
+ *    \\ lang,
+ *    \\ nonce,
  * 
  * <html> 
  * \_ attributes: 

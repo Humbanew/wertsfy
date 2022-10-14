@@ -265,7 +265,11 @@
  * \_ global attributes,
  * \_ attributes: 
  *    \\ href, 
- *    \\ target [_self, _blank, _parent, _top].
+ *    \\ target. 
+ *       # _self, 
+ *       # _blank, 
+ *       # _parent, 
+ *       # _top.
  * 
  * <head> 
  * \_ global attributes,
@@ -275,10 +279,27 @@
  * <link>
  * \_ global attributes,
  * \_ attributes: 
- *    \\ as [audio, document, embed, fetch, font, image, object, script, style, track, video, worker], 
- *    \\ crossorigin [anonymous, use-credentials], 
+ *    \\ as, 
+ *       # audio, 
+ *       # document, 
+ *       # embed, 
+ *       # fetch, 
+ *       # font, 
+ *       # image, 
+ *       # object, 
+ *       # script, 
+ *       # style, 
+ *       # track, 
+ *       # video, 
+ *       # worker. 
+ *    \\ crossorigin 
+ *       # anonymous, 
+ *       # use-credentials. 
  *    \\ disabled (deprecated, non-standand), 
- *    \\ fetchpriority [high, low, auto] (experimental), 
+ *    \\ fetchpriority (experimental),
+ *       # high, 
+ *       # low, 
+ *       # auto. 
  *    \\ href, 
  *    \\ hreflang, 
  *    \\ imagesizes, 
@@ -286,9 +307,17 @@
  *    \\ integrity, 
  *    \\ media, 
  *    \\ prefetch (experimental), 
- *    \\ referrerpolicy [no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url], 
+ *    \\ referrerpolicy,
+ *       # no-referrer, 
+ *       # no-referrer-when-downgrade, 
+ *       # origin, 
+ *       # origin-when-cross-origin, 
+ *       # unsafe-url. 
  *    \\ rel, 
- *    \\ sizes [any, white-space=>"<width in pixels>x<height in pixels> or <width in pixels>X<height in pixels>"] (experimental), 
+ *    \\ sizes (experimental),
+ *       # any, 
+ *       # white-space.
+ *         ## "<width in pixels>x<height in pixels> or <width in pixels>X<height in pixels>". 
  *    \\ title, 
  *    \\ type, 
  *    \\ methods (deprecated, non-standand), 
@@ -301,7 +330,12 @@
  * \_ attributes: 
  *    \\ charset, 
  *    \\ content, 
- *    \\ http-equiv [content-security-policy, content-type, default-style, x-ua-compatible, refresh], 
+ *    \\ http-equiv,
+ *       # content-security-policy, 
+ *       # content-type, 
+ *       # default-style, 
+ *       # x-ua-compatible, 
+ *       # refresh. 
  *    \\ name.
  * 
  * <style>
@@ -415,7 +449,12 @@
  * \_ global attributes,
  * \_ attributes:
  *    \\ value,
- *    \\ type [a, A, i, I, 1] (deprecated, non-standard).
+ *    \\ type (deprecated, non-standard).
+ *       # a, 
+ *       # A, 
+ *       # i, 
+ *       # I, 
+ *       # 1. 
  * 
  * <menu>
  * \_ global attributes.
@@ -426,7 +465,12 @@
  * \_ attributes:
  *    \\ reversed,
  *    \\ start,
- *    \\ type [a, A, i, I, 1].
+ *    \\ type.
+ *       # a, 
+ *       # A, 
+ *       # i, 
+ *       # I, 
+ *       # 1.
  * 
  * <p>
  * \_ global attributes.
@@ -442,8 +486,53 @@
  * \_ global attributes,
  * \_ attributes:
  *    \\ compact (deprecated, non-standard),
- *    \\ type [circle, disc, square, triangle] (deprecated, non-standard).
- *   
+ *    \\ type (deprecated, non-standard).
+ *       # circle, 
+ *       # disc, 
+ *       # square, 
+ *       # triangle.
+ * 
+ * <a>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ download,
+ *    \\ href,
+ *    \\ hreflang,
+ *    \\ ping,
+ *    \\ referrerpolicy,
+ *       # no-referrer, 
+ *       # no-referrer-when-downgrade, 
+ *       # origin, 
+ *       # origin-when-cross-origin, 
+ *       # same-origin, 
+ *       # strict-origin, 
+ *       # strict-origin-when-cross-origin, 
+ *       # unsafe-url.
+ *    \\ rel, 
+ *    \\ target. 
+ *       # _self, 
+ *       # _blank, 
+ *       # _parent, 
+ *       # _top.
+ *    \\ type,
+ *    \\ charset (deprecated),
+ *    \\ coords (deprecated),
+ *    \\ name (deprecated),
+ *    \\ rev (deprecated),
+ *    \\ shape (deprecated).
+ * 
+ * <abbr>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ title.
+ * 
+ * <b>
+ * \_ global attributes.
+ * 
+ * <bdi>
+ * \_ global attributes.
+ * 
+ * 
  */
 
 class Lydroc { }

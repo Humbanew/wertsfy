@@ -532,6 +532,29 @@
  * <bdi>
  * \_ global attributes.
  * 
+ * <bdo>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ dir,
+ *       # ltr,
+ *       # rtl.
+ * 
+ * <br>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ clear (deprecated).
+ * 
+ * 
+ * <cite>
+ * \_ global attributes.
+ * 
+ * <code>
+ * \_ global attributes.
+ * 
+ * <data>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ value.
  * 
  */
 

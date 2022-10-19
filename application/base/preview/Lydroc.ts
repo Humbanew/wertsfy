@@ -70,7 +70,8 @@
  *    \\ ontoggle,
  *    \\ onvolumechange,
  *    \\ onwaiting.
- * 
+ */ 
+ /** 
  * \_ global attributes:
  *    \\ accesskey,
  *    \\ autocapitalize [off or none, on or sentences, words, characters],
@@ -102,8 +103,9 @@
  *    \\ tabindex,
  *    \\ title,
  *    \\ translate.
- * 
- * \_ aria attributes:
+ */ 
+ /**
+ *  \_ aria attributes:
  *    \\_ roles:
  *        \\\_ widget roles:
  *            \\ button,
@@ -253,7 +255,8 @@
  *
  *        \\\_ microsoftEdge-specific properties:
  *            \\ x-ms-aria-flowfrom Non-standard.
- * 
+ */ 
+ /** 
  * <html> 
  * \_ global attributes,
  * \_ attributes: 
@@ -555,6 +558,38 @@
  * \_ global attributes,
  * \_ attributes:
  *    \\ value.
+ * 
+ * <dfn>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ title.
+ * 
+ * <em>
+ * \_ global attributes.
+ * 
+ * <i>
+ * \_ global attributes.
+ * 
+ * <kbd>
+ * \_ global attributes.
+ * 
+ * <mark>
+ * \_ global attributes.
+ * 
+ * <q>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ cite.
+ * 
+ * <rp>
+ * \_ global attributes.
+ * 
+ * <rt>
+ * \_ global attributes.
+ *  
+ * <ruby>
+ * \_ global attributes.
+ *  
  * 
  */
 

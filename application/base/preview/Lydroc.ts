@@ -629,4 +629,4 @@
  *  [...]
  */
 
-class Lydroc { }
+class WLydroc { }

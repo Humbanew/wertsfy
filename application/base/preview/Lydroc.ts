@@ -589,6 +589,42 @@
  *  
  * <ruby>
  * \_ global attributes.
+ * 
+ * <s>
+ * \_ global attributes.
+ * 
+ * <samp>
+ * \_ global attributes.
+ * 
+ * <small>
+ * \_ global attributes.
+ * 
+ * <span>
+ * \_ global attributes.
+ * 
+ * <strong>
+ * \_ global attributes.
+ * 
+ * <sub>
+ * \_ global attributes.
+ * 
+ * <sup>
+ * \_ global attributes.
+ * 
+ * <time>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ datetime,
+ *    \\ pubdate.
+ * 
+ * <u>
+ * \_ global attributes.
+ * 
+ * <var>
+ * \_ global attributes.
+ * 
+ * <wbr>
+ * \_ global attributes.
  *  
  *  [...]
  */

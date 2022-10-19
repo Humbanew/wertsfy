@@ -492,6 +492,8 @@ export declare type WCKarzok=
 
         }
 
+        // arrumar aqui... #?#
+        "presets": { }
 
       }
 
@@ -512,6 +514,9 @@ export declare type WCKarzok=
           "chars": Array<String>
           
         }
+
+        // arrumar aqui... #?#
+        "presets": { }
 
       }
         
@@ -595,6 +600,9 @@ export declare type WCKarzok=
           }
 
         }
+
+        // arrumar aqui... #?#
+        "presets": { }
 
       }
 

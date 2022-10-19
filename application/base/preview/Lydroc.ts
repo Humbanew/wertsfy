@@ -590,7 +590,7 @@
  * <ruby>
  * \_ global attributes.
  *  
- * 
+ *  [...]
  */
 
 class Lydroc { }

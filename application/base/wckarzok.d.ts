@@ -9,7 +9,7 @@ export declare type WCKarzok=
 
         "variants": {
           
-          "@configuration": {
+          "configuration": {
 
             "model": String
             "uvlock": {
@@ -382,7 +382,7 @@ export declare type WCKarzok=
 
         "multipart": {
 
-          "@configuration": {
+          "configuration": {
 
             "when": {
               

@@ -2,14 +2,12 @@
 import { WCRegExp } from "./wcregexp";
 import { WCTerminal } from "./wcterminal";
 import { WCSpectrals } from "./wcspectrals";
-import { WCKarzok } from "./wckarzok";
 import { WCConsts } from "./wcconsts";
 
 export declare type WCollections= 
 {
   Terminal: WCTerminal;
   Spectrals: WCSpectrals;
-  Karzok: WCKarzok;
   Constantes: WCConsts;
   ExpressoesRegulares: WCRegExp;
 }

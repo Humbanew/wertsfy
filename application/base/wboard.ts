@@ -17,6 +17,7 @@ class WBoard {
   // bloco de implementação das Bibliotecas
   protected wtsy_lib = class WLib {
     
+    // método privado para logarítmo
     _log(expo: number, x: number): number {
       let exp = expo , scan = x % exp;
   
@@ -610,7 +611,16 @@ class WBoard {
     }
 
     // bloco de implementação da Biblioteca "Spectrals"
-    public Spectrals = class WSpectrals { }
+    public Spectrals = class WSpectrals {
+
+      public selecionaUmaCor(cor: WCollections): WCollections { 
+        return cor; 
+      }
+
+    }
+
+    // bloco de implementação da Biblioteca "Karzok"
+    // bloco de implementação da Biblioteca "Lydroc"
 
   }
 
@@ -1277,6 +1287,19 @@ class WBoard {
        */
       addformcor: (m: WCollections, texto: string) => this.rdcterminal.adicionaFormTexto(m, texto)
 
+    },
+
+    spectrals:
+    {
+    
+      /** 
+       * @description **``Method``** 
+       * Returns the color collection.
+       * @augments ``cor``|**``WCollections``**
+       * Model color selection.
+       */
+      selecionaCor: (cor: WCollections) => this.rdcspectrals.selecionaUmaCor(cor)
+    
     }
     
   }

@@ -22,12 +22,13 @@
 				"ms-ceintl.vscode-language-pack-pt-br",
 				"johnpapa.winteriscoming",
 				"prazdevs.zarp-icons"
-			]
+			],
+			"devPort": 0
 		}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [ 6000 ],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",

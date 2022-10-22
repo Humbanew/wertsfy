@@ -21,7 +21,8 @@
 				"dbaeumer.vscode-eslint",
 				"ms-ceintl.vscode-language-pack-pt-br",
 				"johnpapa.winteriscoming",
-				"prazdevs.zarp-icons"
+				"prazdevs.zarp-icons",
+				"ms-python.python"
 			],
 			"devPort": 0
 		}

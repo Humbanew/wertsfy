@@ -491,9 +491,6 @@ declare type Karzok = {
 
         }
 
-        // arrumar aqui... #?#
-        "presets": { }
-
       }
 
       "fonts": {
@@ -513,9 +510,6 @@ declare type Karzok = {
           "chars": Array<String>
           
         }
-
-        // arrumar aqui... #?#
-        "presets": { }
 
       }
         
@@ -600,9 +594,6 @@ declare type Karzok = {
 
         }
 
-        // arrumar aqui... #?#
-        "presets": { }
-
       }
 
       "models": { 
@@ -635,7 +626,9 @@ declare type Karzok = {
 
       "tags": { }
 
-    }
+    },
+
+    "presets": { }
 
   }
 

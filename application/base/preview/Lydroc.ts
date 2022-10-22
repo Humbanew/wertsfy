@@ -660,6 +660,15 @@
  * 
  * <audio>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ autoplay,
+ *    \\ controls,
+ *    \\ controlslist (deprecated, experimental),
+ *    \\ crossorigin 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ 
+ * 
  * 
  * <img>
  * \_ global attributes,

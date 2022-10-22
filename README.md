@@ -6,7 +6,9 @@
 ![CSS](https://img.shields.io/badge/css-black.svg?style=for-the-badge&logo=css3&logoColor=darkblue)
 ![PHP](https://img.shields.io/badge/php-black.svg?style=for-the-badge&logo=php&logoColor=blue)
 ![C](https://img.shields.io/badge/c_/_c++-black.svg?style=for-the-badge&logo=c&logoColor=lightblue)
+![Python](https://img.shields.io/badge/python-white.svg?style=for-the-badge&logo=python&logoColor=darkskyblue)
 <!-- ![D](https://img.shields.io/badge/d-black.svg?style=for-the-badge&logo=d&logoColor=darkred) -->
+
 
 <div align="center"> 
 

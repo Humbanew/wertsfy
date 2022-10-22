@@ -628,7 +628,12 @@ declare type Karzok = {
 
     },
 
-    "presets": { }
+    "presets": {
+
+      // modelo: "minecraft:block/barrel"
+      "blockstates_model": ""
+
+    }
 
   }
 

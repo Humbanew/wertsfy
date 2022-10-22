@@ -1,1 +1,2 @@
+interface char { };
 class WCharacter { };

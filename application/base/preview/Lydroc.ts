@@ -664,20 +664,103 @@
  *    \\ autoplay,
  *    \\ controls,
  *    \\ controlslist (deprecated, experimental),
- *    \\ crossorigin 
+ *    \\ crossorigin,
  *       # anonymous, 
  *       # use-credentials.
- *    \\ 
- * 
+ *    \\ disableremoteplayback,
+ *    \\ loop,
+ *    \\ muted,
+ *    \\ preload,
+ *       # none,
+ *       # metadata,
+ *       # auto.
+ *    \\ src.
+ * \_ events:
+ *    \\ audioprocess,
+ *    \\ canplay,
+ *    \\ canplaythrough,
+ *    \\ complete,
+ *    \\ durationchange,
+ *    \\ emptied,
+ *    \\ ended,
+ *    \\ loadeddata,
+ *    \\ loadedmetadata,
+ *    \\ pause,
+ *    \\ play,
+ *    \\ playing,
+ *    \\ ratechange,
+ *    \\ seeked,
+ *    \\ seeking,
+ *    \\ stalled,
+ *    \\ suspend,
+ *    \\ timeupdate,
+ *    \\ volumechange,
+ *    \\ waiting.
  * 
  * <img>
  * \_ global attributes,
- * 
+ * \_ attributes:
+ *    \\ alt,
+ *    \\ crossorigin, 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ decoding,
+ *       # sync,
+ *       # async,
+ *       # auto.
+ *    \\ fetchpriority,
+ *       # high,
+ *       # low,
+ *       # auto.
+ *    \\ height,
+ *    \\ ismap,
+ *    \\ loading,
+ *       # eager,
+ *       # lazy.
+ *    \\ referrerpolicy,
+ *       # no-referrer,
+ *       # no-referrer-when-downgrade,
+ *       # origin,
+ *       # origin-when-cross-origin,
+ *       # same-origin,
+ *       # strict-origin,
+ *       # strict-origin-when-cross-origin,
+ *       # unsafe-url.
+ *    \\ sizes,
+ *    \\ src,
+ *    \\ srcset,
+ *    \\ width,
+ *    \\ usemap,
+ *    \\ align (deprecated),
+ *       # top,
+ *       # middle,
+ *       # bottom,
+ *       # left,
+ *       # right.
+ *    \\ border (deprecated),
+ *    \\ hspace (deprecated),
+ *    \\ longdesc (deprecated),
+ *    \\ name (deprecated),
+ *    \\ vspace (deprecated).
+ *    
  * <map>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ name.
  * 
  * <track>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ default,
+ *    \\ kind,
+ *       # subtitles,
+ *       # captions,
+ *       # descriptions,
+ *       # chapters,
+ *       # metadata.
+ *    \\ label,
+ *    \\ src,
+ *    \\ srclang. 
  * 
  * <video>
  * \_ global attributes,

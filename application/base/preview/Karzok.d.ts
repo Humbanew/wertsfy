@@ -583,7 +583,11 @@ declare type Karzok = {
             "list": String
             "object_list": String
 
-          },
+          }
+
+        }
+
+        "narration": {
 
           "suggestion": {
 
@@ -593,6 +597,7 @@ declare type Karzok = {
           }
 
         }
+
 
       }
 

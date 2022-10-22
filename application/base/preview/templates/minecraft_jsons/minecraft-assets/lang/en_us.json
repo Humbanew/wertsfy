@@ -22,7 +22,8 @@
   "narrator.position.object_list": "Selected row element %s out of %s",
   "narration.suggestion.tooltip": "Selected suggestion %d out of %d: %s (%s)",
   "narration.suggestion": "Selected suggestion %d out of %d: %s",
-  "narration.button": "Button: %s",
+
+  "narration.button": "Button: %s", 
   "narration.button.usage.focused": "Press Enter to activate",
   "narration.button.usage.hovered": "Left click to activate",
   "narration.cycle_button.usage.focused": "Press Enter to switch to %s",

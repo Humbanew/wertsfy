@@ -512,7 +512,7 @@
  *       # strict-origin-when-cross-origin, 
  *       # unsafe-url.
  *    \\ rel, 
- *    \\ target. 
+ *    \\ target, 
  *       # _self, 
  *       # _blank, 
  *       # _parent, 
@@ -625,8 +625,381 @@
  * 
  * <wbr>
  * \_ global attributes.
- *  
- *  [...]
+ * 
+ * <area>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ alt,
+ *    \\ coords,
+ *       # rect,
+ *       # circle,
+ *       # poly.
+ *    \\ download,
+ *    \\ href,
+ *    \\ hreflang (deprecated),
+ *    \\ ping,
+ *    \\ referrerpolicy,
+ *       # no-referrer,
+ *       # no-referrer-when-downgrade,
+ *       # origin,
+ *       # origin-when-cross-origin,
+ *       # same-origin,
+ *       # strict-origin,
+ *       # strict-origin-when-cross-origin,
+ *       # unsafe-url.
+ *    \\ rel,
+ *    \\ shape,
+ *    \\ target, 
+ *       # _self, 
+ *       # _blank, 
+ *       # _parent, 
+ *       # _top.
+ *    \\ name (deprecated),
+ *    \\ nohref (deprecated),
+ *    \\ type (deprecated).
+ * 
+ * <audio>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ autoplay,
+ *    \\ controls,
+ *    \\ controlslist (deprecated, experimental),
+ *    \\ crossorigin,
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ disableremoteplayback,
+ *    \\ loop,
+ *    \\ muted,
+ *    \\ preload,
+ *       # none,
+ *       # metadata,
+ *       # auto.
+ *    \\ src.
+ * \_ events:
+ *    \\ audioprocess,
+ *    \\ canplay,
+ *    \\ canplaythrough,
+ *    \\ complete,
+ *    \\ durationchange,
+ *    \\ emptied,
+ *    \\ ended,
+ *    \\ loadeddata,
+ *    \\ loadedmetadata,
+ *    \\ pause,
+ *    \\ play,
+ *    \\ playing,
+ *    \\ ratechange,
+ *    \\ seeked,
+ *    \\ seeking,
+ *    \\ stalled,
+ *    \\ suspend,
+ *    \\ timeupdate,
+ *    \\ volumechange,
+ *    \\ waiting.
+ * 
+ * <img>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ alt,
+ *    \\ crossorigin, 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ decoding,
+ *       # sync,
+ *       # async,
+ *       # auto.
+ *    \\ fetchpriority,
+ *       # high,
+ *       # low,
+ *       # auto.
+ *    \\ height,
+ *    \\ ismap,
+ *    \\ loading,
+ *       # eager,
+ *       # lazy.
+ *    \\ referrerpolicy,
+ *       # no-referrer,
+ *       # no-referrer-when-downgrade,
+ *       # origin,
+ *       # origin-when-cross-origin,
+ *       # same-origin,
+ *       # strict-origin,
+ *       # strict-origin-when-cross-origin,
+ *       # unsafe-url.
+ *    \\ sizes,
+ *    \\ src,
+ *    \\ srcset,
+ *    \\ width,
+ *    \\ usemap,
+ *    \\ align (deprecated),
+ *       # top,
+ *       # middle,
+ *       # bottom,
+ *       # left,
+ *       # right.
+ *    \\ border (deprecated),
+ *    \\ hspace (deprecated),
+ *    \\ longdesc (deprecated),
+ *    \\ name (deprecated),
+ *    \\ vspace (deprecated).
+ *    
+ * <map>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ name.
+ * 
+ * <track>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ default,
+ *    \\ kind,
+ *       # subtitles,
+ *       # captions,
+ *       # descriptions,
+ *       # chapters,
+ *       # metadata.
+ *    \\ label,
+ *    \\ src,
+ *    \\ srclang. 
+ * 
+ * <video>
+ * \_ global attributes,
+ * \_ attributes:
+ *    \\ autoplay,
+ *    \\ autopictureinpicture (experimental),
+ *    \\ controls,
+ *    \\ controlslist (deprecated, experimental),
+ *    \\ crossorigin, 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ disablepictureinpicture (experimental),
+ *    \\ disableremoteplayback (experimental),
+ *    \\ height,
+ *    \\ loop,
+ *    \\ muted,
+ *    \\ playsinline,
+ *    \\ poster,
+ *    \\ preload,
+ *       # none,
+ *       # metadata,
+ *       # auto.
+ *    \\ src,
+ *    \\ width.    
+ * 
+ * 
+ * // Embedded content
+ * <embed>
+ * \_ global attributes,
+ * 
+ * <iframe>
+ * \_ global attributes,
+ * 
+ * <object>
+ * \_ global attributes,
+ * 
+ * <picture>
+ * \_ global attributes,
+ * 
+ * <portal>
+ * \_ global attributes,
+ * 
+ * <source>
+ * \_ global attributes,
+ * 
+ * // SVG and MathML
+ * <svg>
+ * \_ global attributes,
+ * 
+ * <math>
+ * \_ global attributes,
+ * 
+ * // Scripting
+ * <canvas>
+ * \_ global attributes,
+ * 
+ * <noscript>
+ * \_ global attributes,
+ * 
+ * <script>
+ * \_ global attributes,
+ * 
+ * // Demarcating edits
+ * <del>
+ * \_ global attributes,
+ * 
+ * <ins>
+ * \_ global attributes,
+ * 
+ * // Table content
+ * <caption>
+ * \_ global attributes,
+ * 
+ * <col>
+ * \_ global attributes,
+ * 
+ * <colgroup>
+ * \_ global attributes,
+ * 
+ * <table>
+ * \_ global attributes,
+ * 
+ * <tbody>
+ * \_ global attributes,
+ * 
+ * <td>
+ * \_ global attributes,
+ * 
+ * <tfoot>
+ * \_ global attributes,
+ * 
+ * <th>
+ * \_ global attributes,
+ * 
+ * <thead>
+ * \_ global attributes,
+ * 
+ * <tr>
+ * \_ global attributes,
+ * 
+ * // Forms
+ * <button>
+ * \_ global attributes,
+ * 
+ * <datalist>
+ * \_ global attributes,
+ * 
+ * <fieldset>
+ * \_ global attributes,
+ * 
+ * <form>
+ * \_ global attributes,
+ * 
+ * <input>
+ * \_ global attributes,
+ * 
+ * <label>
+ * \_ global attributes,
+ * 
+ * <legend>
+ * \_ global attributes,
+ * 
+ * <meter>
+ * \_ global attributes,
+ * 
+ * <optgroup>
+ * \_ global attributes,
+ * 
+ * <option>
+ * \_ global attributes,
+ * 
+ * <output>
+ * \_ global attributes,
+ * 
+ * <progress>
+ * \_ global attributes,
+ * 
+ * <select>
+ * \_ global attributes,
+ * 
+ * <textarea>
+ * \_ global attributes,
+ * 
+ * // Interactive elements
+ * <details>
+ * \_ global attributes,
+ * 
+ * <dialog>
+ * \_ global attributes,
+ * 
+ * <summary>
+ * \_ global attributes,
+ * 
+ * // Web Components
+ * <slot>
+ * \_ global attributes,
+ * 
+ * <template>
+ * \_ global attributes,
+ * 
+ * // Obsolete and deprecated elements
+ * <acronym>
+ * \_ global attributes,
+ * 
+ * <applet>
+ * \_ global attributes,
+ * 
+ * <bgsound>
+ * \_ global attributes,
+ * 
+ * <big>
+ * \_ global attributes,
+ * 
+ * <blink>
+ * \_ global attributes,
+ * 
+ * <center>
+ * \_ global attributes,
+ * 
+ * <content>
+ * \_ global attributes,
+ * 
+ * <dir>
+ * \_ global attributes,
+ * 
+ * <font>
+ * \_ global attributes,
+ * 
+ * <frameset>
+ * \_ global attributes,
+ * 
+ * <image>
+ * \_ global attributes,
+ * 
+ * <keygen>
+ * \_ global attributes,
+ * 
+ * <marquee>
+ * \_ global attributes,
+ * 
+ * <menuitem>
+ * \_ global attributes,
+ * 
+ * <nobr>
+ * \_ global attributes,
+ * 
+ * <noembled>
+ * \_ global attributes,
+ * 
+ * <noframes>
+ * \_ global attributes,
+ * 
+ * <param>
+ * \_ global attributes,
+ * 
+ * <plaintext>
+ * \_ global attributes,
+ * 
+ * <rb>
+ * \_ global attributes,
+ * 
+ * <rtc>
+ * \_ global attributes,
+ * 
+ * <shadow>
+ * \_ global attributes,
+ * 
+ * <spacer>
+ * \_ global attributes,
+ * 
+ * <strike>
+ * \_ global attributes,
+ * 
+ * <tt>
+ * \_ global attributes,
+ * 
+ * <xmp>
+ * \_ global attributes,
+ * 
  */
 
 class WLydroc { }

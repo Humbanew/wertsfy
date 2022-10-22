@@ -790,9 +790,52 @@
  * // Embedded content
  * <embed>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ height,
+ *    \\ src,
+ *    \\ type,
+ *    \\ width. 
  * 
  * <iframe>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ allow,
+ *    \\ allowfullscreen,
+ *    \\ allowpaymentrequest (experimental),
+ *    \\ csp,
+ *    \\ fetchpriority,
+ *       # high,
+ *       # low,
+ *       # auto.
+ *    \\ height,
+ *    \\ loading,
+ *       # eager, 
+ *       # lazy.
+ *    \\ name,
+ *    \\ referrerpolicy,
+ *       # no-referrer,
+ *       # no-referrer-when-downgrade,
+ *       # origin,
+ *       # origin-when-cross-origin,
+ *       # same-origin,
+ *       # strict-origin,
+ *       # strict-origin-when-cross-origin,
+ *       # unsafe-url.
+ *    \\ sandbox,
+ *       # allow-downloads-without-user-activation (experimental),
+ *       # allow-downloads,
+ *       # allow-forms,
+ *       # allow-modals,
+ *       # allow-orientation-lock,
+ *       # allow-pointer-lock,
+ *       # allow-popups,
+ *       # allow-popups-to-escape-sandbox,
+ *       # allow-presentation,
+ *       # allow-same-origin,
+ *       # allow-scripts,
+ *       # allow-storage-access-by-user-activation (experimental),
+ *       # allow-top-navegation,
+ *        
  * 
  * <object>
  * \_ global attributes,

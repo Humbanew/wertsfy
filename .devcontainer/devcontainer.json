@@ -41,8 +41,6 @@
 		"git-lfs": "latest",
 		"github-cli": "latest",
 		"sshd": "latest",
-		"powershell": "latest",
-		"npm": "latest",
-		"nodejs": "latest"
+		"powershell": "latest"
 	}
 }

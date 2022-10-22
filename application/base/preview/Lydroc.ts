@@ -512,7 +512,7 @@
  *       # strict-origin-when-cross-origin, 
  *       # unsafe-url.
  *    \\ rel, 
- *    \\ target. 
+ *    \\ target, 
  *       # _self, 
  *       # _blank, 
  *       # _parent, 
@@ -626,104 +626,193 @@
  * <wbr>
  * \_ global attributes.
  * 
- * 
- * **** colocar mais infos ↓
- * 
- * // Image and multimedia
  * <area>
+ * \_ global attributes.
+ * \_ attributes:
+ *    \\ alt,
+ *    \\ coords,
+ *       # rect,
+ *       # circle,
+ *       # poly.
+ *    \\ download,
+ *    \\ href,
+ *    \\ hreflang (deprecated),
+ *    \\ ping,
+ *    \\ referrerpolicy,
+ *       # no-referrer,
+ *       # no-referrer-when-downgrade,
+ *       # origin,
+ *       # origin-when-cross-origin,
+ *       # same-origin,
+ *       # strict-origin,
+ *       # strict-origin-when-cross-origin,
+ *       # unsafe-url.
+ *    \\ rel,
+ *    \\ shape,
+ *    \\ target, 
+ *       # _self, 
+ *       # _blank, 
+ *       # _parent, 
+ *       # _top.
+ *    \\ name (deprecated),
+ *    \\ nohref (deprecated),
+ *    \\ type (deprecated).
+ * 
  * <audio>
+ * 
  * <img>
+ * 
  * <map>
+ * 
  * <track>
+ * 
  * <video>
  * 
  * // Embedded content
  * <embed>
+ * 
  * <iframe>
+ * 
  * <object>
+ * 
  * <picture>
+ * 
  * <portal>
+ * 
  * <source>
  * 
  * // SVG and MathML
  * <svg>
+ * 
  * <math>
  * 
  * // Scripting
  * <canvas>
+ * 
  * <noscript>
+ * 
  * <script>
  * 
  * // Demarcating edits
  * <del>
+ * 
  * <ins>
  * 
  * // Table content
  * <caption>
+ * 
  * <col>
+ * 
  * <colgroup>
+ * 
  * <table>
+ * 
  * <tbody>
+ * 
  * <td>
+ * 
  * <tfoot>
+ * 
  * <th>
+ * 
  * <thead>
+ * 
  * <tr>
  * 
  * // Forms
  * <button>
+ * 
  * <datalist>
+ * 
  * <fieldset>
+ * 
  * <form>
+ * 
  * <input>
+ * 
  * <label>
+ * 
  * <legend>
+ * 
  * <meter>
+ * 
  * <optgroup>
+ * 
  * <option>
+ * 
  * <output>
+ * 
  * <progress>
+ * 
  * <select>
+ * 
  * <textarea>
  * 
  * // Interactive elements
  * <details>
+ * 
  * <dialog>
+ * 
  * <summary>
  * 
  * // Web Components
  * <slot>
+ * 
  * <template>
  * 
  * // Obsolete and deprecated elements
  * <acronym>
+ * 
  * <applet>
+ * 
  * <bgsound>
+ * 
  * <big>
+ * 
  * <blink>
+ * 
  * <center>
+ * 
  * <content>
+ * 
  * <dir>
+ * 
  * <font>
+ * 
  * <frameset>
+ * 
  * <image>
+ * 
  * <keygen>
+ * 
  * <marquee>
+ * 
  * <menuitem>
+ * 
  * <nobr>
+ * 
  * <noembled>
+ * 
  * <noframes>
+ * 
  * <param>
+ * 
  * <plaintext>
+ * 
  * <rb>
+ * 
  * <rtc>
+ * 
  * <shadow>
+ * 
  * <spacer>
+ * 
  * <strike>
+ * 
  * <tt>
+ * 
  * <xmp>
  * 
- *  [...]
  */
 
 class WLydroc { }

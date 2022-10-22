@@ -835,19 +835,57 @@
  *       # allow-scripts,
  *       # allow-storage-access-by-user-activation (experimental),
  *       # allow-top-navegation,
- *        
+ *       # allow-top-navigation-by-user-activation.
+ *    \\ src,
+ *    \\ srcdoc,
+ *    \\ width,
+ *    \\ align (deprecated),
+ *    \\ frameborder (deprecated),
+ *    \\ longdesc (deprecated),
+ *    \\ marginheight (deprecated),
+ *    \\ marginwidth (deprecated),
+ *    \\ scrolling (deprecated),
+ *       # auto,
+ *       # yes,
+ *       # no.
  * 
  * <object>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ archive (deprecated),
+ *    \\ border (deprecated),
+ *    \\ classid (deprecated),
+ *    \\ codebase (deprecated),
+ *    \\ codetype (deprecated),
+ *    \\ data,
+ *    \\ declare (deprecated),
+ *    \\ form,
+ *    \\ height,
+ *    \\ name,
+ *    \\ standby (deprecated),
+ *    \\ type,
+ *    \\ usemap,
+ *    \\ width.
  * 
  * <picture>
- * \_ global attributes,
+ * \_ global attributes.
  * 
  * <portal>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ referrerpolicy,
+ *    \\ src.
  * 
  * <source>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ type,
+ *    \\ src,
+ *    \\ srcset,
+ *    \\ sizes,
+ *    \\ media,
+ *    \\ height,
+ *    \\ width.
  * 
  * // SVG and MathML
  * <svg>

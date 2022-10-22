@@ -627,7 +627,7 @@
  * \_ global attributes.
  * 
  * <area>
- * \_ global attributes.
+ * \_ global attributes,
  * \_ attributes:
  *    \\ alt,
  *    \\ coords,
@@ -659,159 +659,232 @@
  *    \\ type (deprecated).
  * 
  * <audio>
+ * \_ global attributes,
  * 
  * <img>
+ * \_ global attributes,
  * 
  * <map>
+ * \_ global attributes,
  * 
  * <track>
+ * \_ global attributes,
  * 
  * <video>
+ * \_ global attributes,
  * 
  * // Embedded content
  * <embed>
+ * \_ global attributes,
  * 
  * <iframe>
+ * \_ global attributes,
  * 
  * <object>
+ * \_ global attributes,
  * 
  * <picture>
+ * \_ global attributes,
  * 
  * <portal>
+ * \_ global attributes,
  * 
  * <source>
+ * \_ global attributes,
  * 
  * // SVG and MathML
  * <svg>
+ * \_ global attributes,
  * 
  * <math>
+ * \_ global attributes,
  * 
  * // Scripting
  * <canvas>
+ * \_ global attributes,
  * 
  * <noscript>
+ * \_ global attributes,
  * 
  * <script>
+ * \_ global attributes,
  * 
  * // Demarcating edits
  * <del>
+ * \_ global attributes,
  * 
  * <ins>
+ * \_ global attributes,
  * 
  * // Table content
  * <caption>
+ * \_ global attributes,
  * 
  * <col>
+ * \_ global attributes,
  * 
  * <colgroup>
+ * \_ global attributes,
  * 
  * <table>
+ * \_ global attributes,
  * 
  * <tbody>
+ * \_ global attributes,
  * 
  * <td>
+ * \_ global attributes,
  * 
  * <tfoot>
+ * \_ global attributes,
  * 
  * <th>
+ * \_ global attributes,
  * 
  * <thead>
+ * \_ global attributes,
  * 
  * <tr>
+ * \_ global attributes,
  * 
  * // Forms
  * <button>
+ * \_ global attributes,
  * 
  * <datalist>
+ * \_ global attributes,
  * 
  * <fieldset>
+ * \_ global attributes,
  * 
  * <form>
+ * \_ global attributes,
  * 
  * <input>
+ * \_ global attributes,
  * 
  * <label>
+ * \_ global attributes,
  * 
  * <legend>
+ * \_ global attributes,
  * 
  * <meter>
+ * \_ global attributes,
  * 
  * <optgroup>
+ * \_ global attributes,
  * 
  * <option>
+ * \_ global attributes,
  * 
  * <output>
+ * \_ global attributes,
  * 
  * <progress>
+ * \_ global attributes,
  * 
  * <select>
+ * \_ global attributes,
  * 
  * <textarea>
+ * \_ global attributes,
  * 
  * // Interactive elements
  * <details>
+ * \_ global attributes,
  * 
  * <dialog>
+ * \_ global attributes,
  * 
  * <summary>
+ * \_ global attributes,
  * 
  * // Web Components
  * <slot>
+ * \_ global attributes,
  * 
  * <template>
+ * \_ global attributes,
  * 
  * // Obsolete and deprecated elements
  * <acronym>
+ * \_ global attributes,
  * 
  * <applet>
+ * \_ global attributes,
  * 
  * <bgsound>
+ * \_ global attributes,
  * 
  * <big>
+ * \_ global attributes,
  * 
  * <blink>
+ * \_ global attributes,
  * 
  * <center>
+ * \_ global attributes,
  * 
  * <content>
+ * \_ global attributes,
  * 
  * <dir>
+ * \_ global attributes,
  * 
  * <font>
+ * \_ global attributes,
  * 
  * <frameset>
+ * \_ global attributes,
  * 
  * <image>
+ * \_ global attributes,
  * 
  * <keygen>
+ * \_ global attributes,
  * 
  * <marquee>
+ * \_ global attributes,
  * 
  * <menuitem>
+ * \_ global attributes,
  * 
  * <nobr>
+ * \_ global attributes,
  * 
  * <noembled>
+ * \_ global attributes,
  * 
  * <noframes>
+ * \_ global attributes,
  * 
  * <param>
+ * \_ global attributes,
  * 
  * <plaintext>
+ * \_ global attributes,
  * 
  * <rb>
+ * \_ global attributes,
  * 
  * <rtc>
+ * \_ global attributes,
  * 
  * <shadow>
+ * \_ global attributes,
  * 
  * <spacer>
+ * \_ global attributes,
  * 
  * <strike>
+ * \_ global attributes,
  * 
  * <tt>
+ * \_ global attributes,
  * 
  * <xmp>
+ * \_ global attributes,
  * 
  */
 

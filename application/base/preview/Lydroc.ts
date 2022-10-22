@@ -764,6 +764,28 @@
  * 
  * <video>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ autoplay,
+ *    \\ autopictureinpicture (experimental),
+ *    \\ controls,
+ *    \\ controlslist (deprecated, experimental),
+ *    \\ crossorigin, 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ disablepictureinpicture (experimental),
+ *    \\ disableremoteplayback (experimental),
+ *    \\ height,
+ *    \\ loop,
+ *    \\ muted,
+ *    \\ playsinline,
+ *    \\ poster,
+ *    \\ preload,
+ *       # none,
+ *       # metadata,
+ *       # auto.
+ *    \\ src,
+ *    \\ width.    
+ * 
  * 
  * // Embedded content
  * <embed>

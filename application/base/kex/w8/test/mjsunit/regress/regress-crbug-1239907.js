@@ -7,7 +7,7 @@
 
 async_hooks.createHook({ promiseResolve() { throw new Error(); } }).enable()
 
-import("./does_not_exist.js").then();
+import("./does_not_exist.js.js").then();
 function target() {
   isFinite.__proto__.__proto__ = new Proxy(target, {
     get() { return Promise.resolve(); }

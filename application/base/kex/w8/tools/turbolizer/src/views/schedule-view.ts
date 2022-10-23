@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import * as C from "./../common/constants";
+import * as C from "../common/constants";
 import { storageSetItem } from "../common/util";
 import { TextView } from "./text-view";
 import { SelectionStorage } from "../selection/selection-storage";

@@ -3,4 +3,4 @@
 // found in the LICENSE file.
 
 export let foo = 42;
-export * as foo from "./doesnt-even-matter.mjs";
+export * as foo from "./doesnt-even-matter.mjs.js";

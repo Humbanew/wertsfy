@@ -786,7 +786,6 @@
  *    \\ src,
  *    \\ width.    
  * 
- * 
  * // Embedded content
  * <embed>
  * \_ global attributes,

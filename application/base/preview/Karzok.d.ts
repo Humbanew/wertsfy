@@ -598,6 +598,83 @@ declare type Karzok = {
 
         }
 
+        "chat_screen": { }
+
+        "gui": { }
+
+        "translation": { }
+    
+        "menu": { }
+
+        "optimizeWorld": { }
+
+        "selectWorld": { }
+
+        "createWorld": { }
+
+        "datapackFaiture": { }
+
+        "editGamerule": { }
+
+        "gameMode": { }
+
+        "spectatorMenu": { }
+
+        "generator": { }
+
+        "selectServer": { }
+
+        "addServer": { }
+
+        "lanServer": { }
+
+        "multiplayerWarning": { }
+
+        "multiplayer": { }
+
+        "chat": { }
+
+        "demo": { }
+
+        "connect": { }
+
+        "disconnect": { }
+
+        "soundCategory": { }
+
+        "record": { }
+
+        "options": { }
+
+        "difficulty": { }
+
+        "title": { }
+
+        "controls": { }
+
+        "key": { }
+
+        "pack": { }
+
+        "resourcePack": { }
+
+        "dataPack": { }
+
+        "sign": { }
+
+        "book": { }
+
+        "mechant": { }
+
+        "block": { }
+
+        "item": { }
+
+        "container": { }
+
+        "structure_block": { }
+
+        "jigsaw": { }
 
       }
 

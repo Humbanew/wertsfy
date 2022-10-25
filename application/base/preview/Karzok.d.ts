@@ -674,8 +674,62 @@ declare type Karzok = {
 
         "structure_block": { }
 
-        "jigsaw": { }
+        "jigsaw_block": { }
 
+        "filled_map": { }
+
+        "entity": { }
+
+        "death": { }
+
+        "deathScreen": { }
+
+        "effect": { }
+
+        "potion": { }
+
+        "enchantment": { }
+
+        "advancements": { }
+
+        "stats": { }
+
+        "stat": { }
+
+        "stat_type": { }
+
+        "recipe": { }
+
+        "itemGroup": { }
+
+        "advMode": { }
+
+        "mount": { }
+
+        "build": { }
+
+        "attribute": { }
+
+        "screenshot": { }
+
+        "subtitles": { }
+
+        "commands": { }
+
+        "argument": { }
+
+        "passing": { }
+
+        "biome": { }
+
+        "gamerule": { }
+
+        "mirror": { }
+
+        "sleep": { }
+
+        "compliance": { }
+        
       }
 
       "models": { 

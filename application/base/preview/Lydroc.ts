@@ -892,6 +892,10 @@
  * 
  * <math>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ display,
+ *       # block,
+ *       # inline.
  * 
  * // Scripting
  * <canvas>

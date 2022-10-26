@@ -1143,88 +1143,491 @@
  *    \\ datetime.
  * 
  * // Table content
+ * [
+ *  FLOW CONTENT>>
+ *     # CAPTION
+ *     # COLGROUP
+ *     # THEAD
+ *     # TBODY
+ *     # TR
+ *     # TFOOT
+ * ]
+ * 
  * <caption>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated).
+ *       # left,
+ *       # right,
+ *       # top,
+ *       # bottom.
  * 
  * <col>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ span,
+ *    \\ align (deprecated),
+ *       # left,
+ *       # right,
+ *       # top,
+ *       # bottom.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated),
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
+ *    \\ width. 
  * 
  * <colgroup>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ span,
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
  * 
  * <table>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right.
+ *    \\ bgcolor (deprecated),
+ *    \\ border (deprecated),
+ *    \\ cellpadding (deprecated),
+ *    \\ cellspacing (deprecated),
+ *    \\ frame (deprecated),
+ *    \\ rules (deprecated),
+ *       # none,
+ *       # groups,
+ *       # rows,
+ *       # columns,
+ *       # all.
+ *    \\ summary,
+ *    \\ width.
  * 
  * <tbody>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
  * 
  * <td>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ colspan,
+ *    \\ headers,
+ *    \\ rowspan,
+ *    \\ abbr (deprecated),
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ axis (deprecated),
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ scope (deprecated),
+ *    \\ height (deprecated),
+ *    \\ valign (deprecated),
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
+ *    \\ width.
  * 
  * <tfoot>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
  * 
  * <th>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ abbr,
+ *    \\ colspan,
+ *    \\ headers,
+ *    \\ rowspan,
+ *    \\ scope,
+ *       # row,
+ *       # col,
+ *       # rowgroup,
+ *       # colgroup.
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ axis (deprecated),
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ height (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle.
+ *    \\ width (deprecated).
  * 
  * <thead>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle. 
  * 
  * <tr>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ align (deprecated),
+ *       # left,
+ *       # center,
+ *       # right,
+ *       # justify,
+ *       # char.
+ *    \\ bgcolor (deprecated),
+ *    \\ char (deprecated),
+ *    \\ charoff (deprecated),
+ *    \\ valign (deprecated).
+ *       # baseline,
+ *       # bottom,
+ *       # middle,
+ *       # top.
  * 
  * // Forms
  * <button>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ autofocus,
+ *    \\ autocomplete (non-standard),
+ *    \\ disabled,
+ *    \\ form,
+ *    \\ formaction,
+ *    \\ formenctype,
+ *       # application/x-www-form-urlencoded,
+ *       # multipart/form-data,
+ *       # text/plain.
+ *    \\ formmethod,
+ *       # post,
+ *       # get.
+ *    \\ formnovalidate,
+ *    \\ formtarget,
+ *       # _self,
+ *       # _blank,
+ *       # _parent,
+ *       # _top.
+ *    \\ name,
+ *    \\ type,
+ *       # submit,
+ *       # reset,
+ *       # button.
+ *    \\ value.
  * 
  * <datalist>
- * \_ global attributes,
+ * \_ global attributes.
  * 
  * <fieldset>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ disabled,
+ *    \\ form,
+ *    \\ name.
  * 
  * <form>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ accept (deprecated),
+ *    \\ accept-charset,
+ *    \\ autocaptalize (non-standard),
+ *       # none,
+ *       # sentences,
+ *       # words,
+ *       # characters.
+ *    \\ autocomplete,
+ *       # on,
+ *       # off.
+ *    \\ name,
+ *    \\ rel,
+ *    \\ action,
+ *    \\ enctype,
+ *       # application/x-www-form-urlencoded,
+ *       # multipart/form-data,
+ *       # text/plain.
+ *    \\ method,
+ *       # post,
+ *       # get,
+ *       # dialog.
+ *    \\ novalidate,
+ *    \\ target,
+ *       # _self,
+ *       # _blank,
+ *       # _parent,
+ *       # _top.
  * 
  * <input>
  * \_ global attributes,
+ * \_ types:
+ *    \\ button,
+ *    \\ checkbox,
+ *    \\ color,
+ *    \\ date,
+ *    \\ datetime-local,
+ *    \\ email,
+ *    \\ file,
+ *    \\ hidden,
+ *    \\ image,
+ *    \\ month,
+ *    \\ number,
+ *    \\ password,
+ *    \\ radio,
+ *    \\ range,
+ *    \\ reset,
+ *    \\ search,
+ *    \\ submit,
+ *    \\ tel,
+ *    \\ text,
+ *    \\ time,
+ *    \\ url,
+ *    \\ week,
+ *    \\ datetime (obsolete).
+ * 
+ * \_ attributes:
+ *     \\ accept => file,
+ *     \\ alt => text,
+ *     \\ autocomplete => checkbox, radio, buttons,
+ *     \\ capture => file,
+ *     \\ checked => checkbox, radio,
+ *     \\ disabled	=> all,
+ *     \\ form =>	all,
+ *     \\ formaction => image,
+ *     \\ formenctype => image,
+ *     \\ formmethod =>	image, submit,	
+ *     \\ formnovalidate =>	image, submit,	
+ *     \\ formtarget =>	image, submit,
+ *     \\ height => image,
+ *     \\ list => all except hidden, password, checkbox, radio, and buttons,	
+ *     \\ max => date, month, week, time, datetime-local, range,
+ *     \\ maxlength => text, search, url, tel, email, password,
+ *     \\ min => date, month, week, time, datetime-local, range,
+ *     \\ minlength => text, search, url, tel, email, password,
+ *     \\ multiple =>	email, file	Boolean,
+ *     \\ name =>	all,
+ *     \\ pattern => text, search, url, tel, email, password,
+ *     \\ placeholder => text, search, url, tel, email, password, number,
+ *     \\ readonly =>	all except hidden, range, color, checkbox, radio, and buttons	Boolean,
+ *     \\ required =>	all except hidden, range, color, and buttons	Boolean,
+ *     \\ size =>	text, search, url, tel, email, password,
+ *     \\ src => image	Same as src attribute for <img>; address of image resource,
+ *     \\ step =>	date, month, week, time, datetime-local, range,
+ *     \\ type =>	all,	
+ *     \\ value => all,
+ *     \\ width => image.
+ * 
+ * \_ individual attributes:
+ *     \\ accept,
+ *     \\ alt,
+ *     \\ autocomplete,
+ *     \\ autofocus,
+ *     \\ capture,
+ *     \\ checked,
+ *     \\ dirname,
+ *     \\ disabled,
+ *     \\ form,
+ *     \\ formaction,
+ *     \\ formenctype,
+ *     \\ formmethod,
+ *     \\ formnovalidate,
+ *     \\ formtarget,
+ *     \\ height,
+ *     \\ id,
+ *     \\ inputmode,
+ *     \\ list,
+ *     \\ max,
+ *     \\ maxlength,
+ *     \\ min,
+ *     \\ minlength,
+ *     \\ multiple,
+ *     \\ name,
+ *     \\ pattern,
+ *     \\ placeholder,
+ *     \\ readonly,
+ *     \\ required,
+ *     \\ size,
+ *     \\ src,
+ *     \\ step,
+ *     \\ tabindex,
+ *     \\ title,
+ *     \\ type,
+ *     \\ value,
+ *     \\ width.
+ * 
+ * \_ non-standard attributes:
+ *     \\ autocorrect,
+ *        # on,
+ *        # off.
+ *     \\ incremental,
+ *     \\ mozactionhint,
+ *     \\ orient,
+ *     \\ results,
+ *     \\ webkitdirectory.
+ * 
+ * \_ methods:
+ *     \\ checkValidity(),
+ *     \\ reportValidity(),
+ *     \\ select(),
+ *     \\ setCustomValidity(),
+ *     \\ setRangeText(),
+ *     \\ setSelectionRange(),
+ *     \\ stepDown(),
+ *     \\ stepUp().  
  * 
  * <label>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ for.
  * 
  * <legend>
- * \_ global attributes,
+ * \_ global attributes.
  * 
  * <meter>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ value,
+ *    \\ min,
+ *    \\ max,
+ *    \\ low,
+ *    \\ high,
+ *    \\ optimum.
  * 
  * <optgroup>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ disabled,
+ *    \\ label.
  * 
  * <option>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ disabled,
+ *    \\ label,
+ *    \\ selected,
+ *    \\ value.
  * 
  * <output>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ for,
+ *    \\ form,
+ *    \\ name.
  * 
  * <progress>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ max,
+ *    \\ value.
  * 
  * <select>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ autocomplete,
+ *    \\ autofocus,
+ *    \\ disabled,
+ *    \\ form,
+ *    \\ multiple,
+ *    \\ name,
+ *    \\ required,
+ *    \\ size.
  * 
  * <textarea>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ autocomplete,
+ *       # on,
+ *       # off.
+ *    \\ autocorrect (non-standard),
+ *       # on,
+ *       # off.
+ *    \\ autofocus,
+ *    \\ cols,
+ *    \\ disabled,
+ *    \\ form,
+ *    \\ maxlength,
+ *    \\ minlength,
+ *    \\ name,
+ *    \\ placeholder,
+ *    \\ readonly,
+ *    \\ required,
+ *    \\ rows,
+ *    \\ spellcheck,
+ *       # true,
+ *       # false,
+ *       # default.
+ *    \\ wrap.
+ *       # hard,
+ *       # soft,
+ *       # off (non-standard).
  * 
  * // Interactive elements
  * <details>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ open.
  * 
  * <dialog>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ open.
  * 
  * <summary>
- * \_ global attributes,
+ * \_ global attributes.
  * 
  * // Web Components
  * <slot>

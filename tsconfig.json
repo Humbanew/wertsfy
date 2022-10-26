@@ -18,5 +18,12 @@
     "incremental": true,
     "traceResolution": false,
     "verbose": false
-  }
+  },
+  "exclude": [
+    "/oldSrc/",
+    "/integration/",
+    "/application/kex/",
+    "/application/nikko/",
+    "/application/preview/"
+  ]
 }

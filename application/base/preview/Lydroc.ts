@@ -889,6 +889,201 @@
  * // SVG and MathML
  * <svg>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ baseProfile (deprecated),
+ *    \\ contentScriptType (deprecated),
+ *    \\ contentStyleType (deprecated),
+ *    \\ height,
+ *    \\ perserveAspectRadio,
+ *       # none,
+ *       # xMinYMin,
+ *       # xMidYMin,
+ *       # xMaxYMin,
+ *       # xMinYMid,
+ *       # xMidYMid,
+ *       # xMaxYMid,
+ *       # xMinYMax,
+ *       # xMidYMax,
+ *       # xMaxYMax,
+ *       # meet,
+ *       # slice.
+ *    \\ version (deprecated),
+ *    \\ viewbox,
+ *    \\ width,
+ *    \\ x,
+ *    \\ y.
+ * 
+ * \_ core attributes:
+ *    \\ id,
+ *    \\ tabindex.
+ * 
+ * \_ styling attibutes:
+ *    \\ class,
+ *    \\ style.
+ * 
+ * \_ conditional processing attributes:
+ *    \\ requiredExtensions, 
+ *    \\ systemLanguage.
+ *
+ * \_ event attributes:
+ *    \\_ animation event attributes:
+ *        \\ onbegin, 
+ *        \\ onend, 
+ *        \\ onrepeat.
+ *
+ *    \\_ document event attributes:
+ *        \\ onabort, 
+ *        \\ onerror, 
+ *        \\ onresize, 
+ *        \\ onscroll, 
+ *        \\ onunload.
+ *
+ *    \\_ document element event attributes:
+ *        \\ oncopy, 
+ *        \\ oncut, 
+ *        \\ onpaste.
+ *
+ *    \\_ global event attributes:
+ *        \\ oncancel, 
+ *        \\ oncanplay, 
+ *        \\ oncanplaythrough, 
+ *        \\ onchange, 
+ *        \\ onclick, 
+ *        \\ onclose, 
+ *        \\ oncuechange, 
+ *        \\ ondblclick, 
+ *        \\ ondrag, 
+ *        \\ ondragend, 
+ *        \\ ondragenter, 
+ *        \\ ondragleave, 
+ *        \\ ondragover, 
+ *        \\ ondragstart, 
+ *        \\ ondrop, 
+ *        \\ ondurationchange, 
+ *        \\ onemptied, 
+ *        \\ onended, 
+ *        \\ onerror, 
+ *        \\ onfocus, 
+ *        \\ oninput, 
+ *        \\ oninvalid, 
+ *        \\ onkeydown, 
+ *        \\ onkeypress, 
+ *        \\ onkeyup, 
+ *        \\ onload, 
+ *        \\ onloadeddata, 
+ *        \\ onloadedmetadata, 
+ *        \\ onloadstart, 
+ *        \\ onmousedown, 
+ *        \\ onmouseenter, 
+ *        \\ onmouseleave, 
+ *        \\ onmousemove, 
+ *        \\ onmouseout, 
+ *        \\ onmouseover, 
+ *        \\ onmouseup, 
+ *        \\ onmousewheel, 
+ *        \\ onpause, 
+ *        \\ onplay, 
+ *        \\ onplaying, 
+ *        \\ onprogress, 
+ *        \\ onratechange, 
+ *        \\ onreset, 
+ *        \\ onresize, 
+ *        \\ onscroll, 
+ *        \\ onseeked, 
+ *        \\ onseeking, 
+ *        \\ onselect, 
+ *        \\ onshow, 
+ *        \\ onstalled, 
+ *        \\ onsubmit, 
+ *        \\ onsuspend, 
+ *        \\ ontimeupdate, 
+ *        \\ ontoggle, 
+ *        \\ onvolumechange, 
+ *        \\ onwaiting.
+ *
+ *    \\_ graphical event attributes:
+ *        \\ onactivate, 
+ *        \\ onfocusin, 
+ *        \\ onfocusout.
+ *
+ *    \\_ presentation attributes:
+ *        \\ clip-path, 
+ *        \\ clip-rule, 
+ *        \\ color, 
+ *        \\ color-interpolation, 
+ *        \\ color-rendering, 
+ *        \\ cursor, 
+ *        \\ display, 
+ *        \\ fill, 
+ *        \\ fill-opacity, 
+ *        \\ fill-rule, 
+ *        \\ filter, 
+ *        \\ mask, 
+ *        \\ opacity, 
+ *        \\ pointer-events, 
+ *        \\ shape-rendering, 
+ *        \\ stroke, 
+ *        \\ stroke-dasharray, 
+ *        \\ stroke-dashoffset, 
+ *        \\ stroke-linecap, 
+ *        \\ stroke-linejoin, 
+ *        \\ stroke-miterlimit, 
+ *        \\ stroke-opacity, 
+ *        \\ stroke-width, 
+ *        \\ transform, 
+ *        \\ vector-effect, 
+ *        \\ visibility.
+ *
+ *    \\_ aria attributes:
+ *        \\ aria-activedescendant, 
+ *        \\ aria-atomic, 
+ *        \\ aria-autocomplete, 
+ *        \\ aria-busy, 
+ *        \\ aria-checked, 
+ *        \\ aria-colcount, 
+ *        \\ aria-colindex, 
+ *        \\ aria-colspan, 
+ *        \\ aria-controls, 
+ *        \\ aria-current, 
+ *        \\ aria-describedby, 
+ *        \\ aria-details, 
+ *        \\ aria-disabled, 
+ *        \\ aria-dropeffect, 
+ *        \\ aria-errormessage, 
+ *        \\ aria-expanded, 
+ *        \\ aria-flowto, 
+ *        \\ aria-grabbed, 
+ *        \\ aria-haspopup, 
+ *        \\ aria-hidden, 
+ *        \\ aria-invalid, 
+ *        \\ aria-keyshortcuts, 
+ *        \\ aria-label, 
+ *        \\ aria-labelledby, 
+ *        \\ aria-level, 
+ *        \\ aria-live, 
+ *        \\ aria-modal, 
+ *        \\ aria-multiline, 
+ *        \\ aria-multiselectable, 
+ *        \\ aria-orientation, 
+ *        \\ aria-owns, 
+ *        \\ aria-placeholder, 
+ *        \\ aria-posinset, 
+ *        \\ aria-pressed, 
+ *        \\ aria-readonly, 
+ *        \\ aria-relevant, 
+ *        \\ aria-required, 
+ *        \\ aria-roledescription, 
+ *        \\ aria-rowcount, 
+ *        \\ aria-rowindex, 
+ *        \\ aria-rowspan, 
+ *        \\ aria-selected, 
+ *        \\ aria-setsize, 
+ *        \\ aria-sort, 
+ *        \\ aria-valuemax, 
+ *        \\ aria-valuemin, 
+ *        \\ aria-valuenow,
+ *        \\ aria-valuetext, 
+ *        \\ role.
  * 
  * <math>
  * \_ global attributes,
@@ -902,7 +1097,7 @@
  * \_ global attributes,
  * 
  * <noscript>
- * \_ global attributes,
+ * \_ global attributes.
  * 
  * <script>
  * \_ global attributes,

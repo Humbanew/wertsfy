@@ -3063,6 +3063,9 @@ X-UA-Compatible Non-standard
 Used by Internet Explorer to signal which document mode to use.
 
  * ?? PLACEHOLDERS ??
+
+-> adicionandos conforme a necessidade e surgimento de ideias de criação.
+
  * 
  */
 

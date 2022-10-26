@@ -780,7 +780,4 @@ declare type Karzok = {
     // formatos de games
   "cubbic": { }
 
-    // blog placeholders
-  "malibu": { }
-
 }

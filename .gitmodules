@@ -1,3 +1,6 @@
 [submodule "wertsfy-community-edition"]
 	path = wertsfy-community-edition
 	url = git@github.com:Humba01/wertsfy-community-edition.git
+[submodule "wertsfy-cloud-services"]
+	path = wertsfy-cloud-services
+	url = git@github.com:Humba01/wertsfy-cloud-services.git

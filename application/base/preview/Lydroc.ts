@@ -1095,19 +1095,52 @@
  * // Scripting
  * <canvas>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ height,
+ *    \\ moz-opaque (non-standard, deprecated),
+ *    \\ width.
  * 
  * <noscript>
  * \_ global attributes.
  * 
  * <script>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ async,
+ *    \\ crossorigin 
+ *       # anonymous, 
+ *       # use-credentials.
+ *    \\ defer, 
+ *    \\ fetchpriority (experimental),
+ *       # high, 
+ *       # low, 
+ *       # auto.
+ *    \\ integrity,
+ *    \\ nomodule,
+ *    \\ nonce,
+ *    \\ referrerpolicy,
+ *       # no-referrer, 
+ *       # no-referrer-when-downgrade, 
+ *       # origin, 
+ *       # origin-when-cross-origin, 
+ *       # unsafe-url.
+ *    \\ src,
+ *    \\ type,
+ *    \\ charset (deprecated),
+ *    \\ language (deprecated, non-standard).   
  * 
  * // Demarcating edits
  * <del>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ cite,
+ *    \\ datetime.
  * 
  * <ins>
  * \_ global attributes,
+ * \_ attributes:
+ *    \\ cite,
+ *    \\ datetime.
  * 
  * // Table content
  * <caption>

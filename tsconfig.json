@@ -20,10 +20,10 @@
     "verbose": false
   },
   "exclude": [
-    "/oldSrc/",
-    "/integration/",
-    "/application/kex/",
-    "/application/nikko/",
-    "/application/preview/"
+    "/oldSrc/*",
+    "/integration/*",
+    "/application/kex/*",
+    "/application/nikko/*",
+    "/application/preview/*"
   ]
 }

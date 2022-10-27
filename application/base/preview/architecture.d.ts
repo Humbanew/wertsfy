@@ -3,7 +3,7 @@ declare interface Native {
 }
 
 // parents of Native:
-/***/  declare interface Struct { create(root: Object): Object; }
+/***/  declare interface Struct { create(root: object): object; }
 
 declare interface Ecmascript { }
 

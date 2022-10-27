@@ -35,10 +35,10 @@ jobs:
         with:
           node-version: 16
 
-      - run: yarn install
-      - run: yarn lint
+      - run: npm install
+      - run: npm lint
       - uses: getsentry/action-git-diff-suggestions@main
         with:
           message: eslint
 
-      - run: yarn test
+      - run: npm test

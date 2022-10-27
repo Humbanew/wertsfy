@@ -6,4 +6,5 @@ on:
   pull_request:
     branches: [ main, version-2.0.0 ]
 
-
+jobs:
+  echo: 🎉 Enabled this action.

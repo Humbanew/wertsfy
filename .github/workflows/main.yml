@@ -8,4 +8,4 @@ on:
 
 jobs:
   welcome:
-      name: 🎉 Enabled this action.
+    name: 🎉 Enabled this action.

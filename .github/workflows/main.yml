@@ -7,18 +7,17 @@ on:
     branches: [ main, version-2.0.0 ]
 
 jobs:
-  eslint:
-    name: eslint
+  build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v1
-    - name: install node v12
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12
-    - name: yarn install
-      run: yarn install
-    - name: eslint
-      uses: icrawl/action-eslint@v1
-      with:
-        custom-glob: apps
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          check-latest: true
+
+      - name: Install dependencies
+        run: yarn install # or npm ci if you use npm and have the package-lock.json file
+
+      - uses: CatChen/eslint-suggestion-action@v2

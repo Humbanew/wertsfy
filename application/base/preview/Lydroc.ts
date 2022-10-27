@@ -74,6 +74,9 @@
  *    \\ onwaiting.
  */
 
+    import { Native } from "arch-native";
+    const EventHandlersAttr = Native.struct.create( { OnAbort: Function } );
+
  /** 
  * \_ global attributes:
  *    \\ accesskey,

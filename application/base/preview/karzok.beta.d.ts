@@ -515,88 +515,11 @@ declare type Karzok = {
         
       "lang": {
 
-        "language": {
+        "language": { }
 
-          "name": String
-          "region": String
-          "code": String
+        "narrator": { }
 
-        }
-
-        "narrator": {
-
-          "button": {
-
-            "#": String
-            "accessibility": String
-            "language": String
-            "difficulty_lock": {
-              
-              "#": String
-              "unlocked": String
-              "locked": String
-              "usage": {
-
-                "focused": String,
-                "hovered": String
-
-              }
-            
-            }
-
-          }
-
-          "screen": {
-
-            "title": String
-            "usage": String
-
-          }
-
-          "controls": {
-
-            "reset": String
-            "bound": String
-            "unbound": String
-
-          }
-
-          "select": {
-
-            "#": String
-            "world": String
-
-          }
-
-          "loading": {
-
-            "#": String
-            "done": String
-
-          }
-
-          "joining": String
-
-          "position": {
-
-            "screen": String
-            "list": String
-            "object_list": String
-
-          }
-
-        }
-
-        "narration": {
-
-          "suggestion": {
-
-            "#": String
-            "tooltip": String
-
-          }
-
-        }
+        "narration": { }
 
         "chat_screen": { }
 
@@ -767,7 +690,7 @@ declare type Karzok = {
     "presets": {
 
       // modelo: "minecraft:block/barrel"
-      "blockstates_model": ""
+      "blockstates_model": String
 
     }
 

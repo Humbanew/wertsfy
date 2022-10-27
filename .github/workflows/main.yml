@@ -7,5 +7,7 @@ on:
     branches: [ main, version-2.0.0 ]
 
 jobs:
-  build:
-    name: 🎉 Enabled this action.
+  welcome:
+    
+    steps:
+      name: 🎉 Enabled this action.

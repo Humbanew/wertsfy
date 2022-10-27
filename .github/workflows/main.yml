@@ -29,8 +29,8 @@ jobs:
         uses: CatChen/eslint-suggestion-action@v2
         with:
           github-token: ${{ github.token }}
-          directory: "/application/"
-          targets: "/application/**/.ts"
+          directory: "./application/"
+          targets: "./application/**/.ts"
           fail-check: true
           request-changes: true
 

@@ -9,20 +9,45 @@ on:
 jobs:
   # ESLint Report Action 
   # (https://github.com/marketplace/actions/eslint-report)
-  lint:
+  code_lint:
     runs-on: ubuntu-latest
     steps:
-      - name: 0️⃣ Fazendo checkout 
+      - name: Fazendo checkout 
         uses: actions/checkout@v3
       
-      - name: 1️⃣ Configurando NodeJS
+      - name: Configurando NodeJS
         uses: actions/setup-node@v3
         with:
           node-version: 16
       
-      - name: 2️⃣ Rodando integração de código
+      - name: Rodando integração de código
         run: npm ci
       
-      - name: 3️⃣ Rodando verificador de falhas de código e exportando em um JSON
+      - name: Rodando verificador de falhas de código e exportando em um JSON
         run: npm run lint:json
         continue-on-error: true
+ 
+  code_test_javascript:
+   runs-on: ubuntu-latest
+   steps:
+    - uses: actions/es-check-action@1.0.2
+      with:
+        directory: 'application'
+        ecmaVersion: 'es2022'
+        files: '*.js'
+  
+  code_test_typescript:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Typecheck
+        uses: andoshin11/typescript-error-reporter-action@v1.0.2

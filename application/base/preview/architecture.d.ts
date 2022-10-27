@@ -7,6 +7,9 @@ declare interface Native {
 
 declare interface Ecmascript { }
 
+// parents of Ecmascript:
+/***/
+
 declare module "arch-native" { 
   export var Native: Native;
 }

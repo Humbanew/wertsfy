@@ -1,6 +1,16 @@
 declare interface Native { 
   struct: Struct;
-} export var Native: Native;
+}
 
 // parents of Native:
-/***/  declare interface Struct { setter(formats: Object): Object; }
+/***/  declare interface Struct { create(root: Object): Object; }
+
+declare interface Ecmascript { }
+
+declare module "[arch-native]" { 
+  export var Native: Native; 
+}
+
+declare module "[arch-ecmascript]" {
+  export var Ecmascript: Ecmascript
+}

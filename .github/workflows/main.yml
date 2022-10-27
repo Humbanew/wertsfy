@@ -8,6 +8,4 @@ on:
 
 jobs:
   welcome:
-    runs-on: ubuntu-latest
-    steps:
       name: 🎉 Enabled this action.

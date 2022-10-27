@@ -26,12 +26,10 @@ jobs:
         run: yarn install
 
       - name: 3️⃣ Realizando a criação de sugestões de código
-        uses: CatChen/eslint-suggestion-action@v2
+        uses: CatChen/eslint-suggestion-action
         with:
-          directory: "./application/"
-          targets: "./application/**/.ts"
           fail-check: true
-          request-changes: true
+          request-changes: false
 
   # ESLint Report Action 
   # (https://github.com/marketplace/actions/eslint-report)

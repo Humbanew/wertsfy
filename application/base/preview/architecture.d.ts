@@ -7,10 +7,10 @@ declare interface Native {
 
 declare interface Ecmascript { }
 
-declare module "[arch-native]" { 
-  export var Native: Native; 
+declare module "arch-native" { 
+  export var Native: Native;
 }
 
-declare module "[arch-ecmascript]" {
-  export var Ecmascript: Ecmascript
+declare module "arch-ecmascript" {
+  export var Ecmascript: Ecmascript;
 }

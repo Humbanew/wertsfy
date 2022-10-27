@@ -1,4 +1,4 @@
-name: ESLint Workflow
+name: Git Versioning
 
 on: 
   push:
@@ -7,17 +7,14 @@ on:
     branches: [ main, version-2.0.0 ]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
         with:
-          node-version: "16"
-          check-latest: true
+          ref: ${{ github.head_ref }}   # checkout the correct branch name
+          fetch-depth: 0                # fetch the whole repo history
 
-      - name: Install dependencies
-        run: yarn install # or npm ci if you use npm and have the package-lock.json file
-
-      - uses: CatChen/eslint-suggestion-action@v2
+      - name: Git Version
+        uses: codacy/git-version@2.5.4

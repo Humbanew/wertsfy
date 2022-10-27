@@ -6,49 +6,4 @@ on:
   pull_request:
     branches: [ main, version-2.0.0 ]
 
-jobs:
-  # ESLint Suggestion Action 
-  # (https://github.com/marketplace/actions/eslint-suggestion)
-  build:
-    runs-on: ubuntu-latest
 
-    steps:
-      - name: 0️⃣ Fazendo checkout 
-        uses: actions/checkout@v3
-      
-      - name: 1️⃣ Configurando NodeJS
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16"
-          check-latest: true
-
-      - name: 2️⃣ Instalando dependências
-        run: yarn install
-
-      - name: 3️⃣ Realizando a criação de sugestões de código
-        uses: CatChen/eslint-suggestion-action@v2
-        with:
-          directory: "./application/"
-          targets: "./application/**/.ts"
-          fail-check: true
-          request-changes: true
-
-  # ESLint Report Action 
-  # (https://github.com/marketplace/actions/eslint-report)
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 0️⃣ Fazendo checkout 
-        uses: actions/checkout@v3
-      
-      - name: 1️⃣ Configurando NodeJS
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      
-      - name: 2️⃣ Rodando integração de código
-        run: npm ci
-      
-      - name: 3️⃣ Rodando verificador de falhas de código e exportando em um JSON
-        run: npm run lint:json
-        continue-on-error: true

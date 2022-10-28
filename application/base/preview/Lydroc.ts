@@ -75,7 +75,8 @@
  */
 
     import { Native } from "arch-native";
-    let EventHandlersAttrs = Native.struct.constructor = { }
+    let EventHandlersAttrs = Native.struct.constructor = { };
+    let GlobalAttrs = Native.struct.constructor = { };
 
  /** 
  * \_ global attributes:

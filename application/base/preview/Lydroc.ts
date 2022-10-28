@@ -74,10 +74,10 @@
  *    \\ onwaiting.
  */
 
-    import { Native } from "arch-native";
-    let EventHandlersAttrs = Native.struct.constructor = { };
-    let GlobalAttrs = Native.struct.constructor = { };
-    let AriaAttrs = Native.struct.constructor = { };
+   import { Native } from "arch-native";
+   let EventHandlersAttrs = Native.struct.constructor = { };
+   let GlobalAttrs = Native.struct.constructor = { };
+   let AriaAttrs = Native.struct.constructor = { };
 
  /** 
  * \_ global attributes:

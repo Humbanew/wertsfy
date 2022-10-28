@@ -3,7 +3,11 @@ declare interface Native {
 }
 
 // parents of Native:
-/***/  declare interface Struct { create(root: object): object; }
+/***/  
+declare interface Struct { 
+  constructor: Object
+}
+/***/
 
 declare interface Ecmascript { }
 
@@ -17,3 +21,4 @@ declare module "arch-native" {
 declare module "arch-ecmascript" {
   export var Ecmascript: Ecmascript;
 }
+

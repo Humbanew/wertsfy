@@ -75,7 +75,7 @@
  */
 
     import { Native } from "arch-native";
-    const EventHandlersAttr = Native.struct.create( { OnAbort: Function } );
+    let EventHandlersAttrs = Native.struct.constructor = { }
 
  /** 
  * \_ global attributes:

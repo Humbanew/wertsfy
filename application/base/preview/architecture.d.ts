@@ -1,5 +1,6 @@
 declare interface Native { 
   struct: Struct;
+  matriz: Matriz;
 }
 
 // parents of Native:
@@ -9,11 +10,18 @@ declare interface Native {
   }
   /***/
 
+  /***/
+  declare interface Matriz {
+    constructor: ArrayConstructor[][]
+  }
+  /***/
+
 declare interface Ecmascript { }
 
 // parents of Ecmascript:
   /***/
 
+// modules declarations
 declare module "arch-native" { 
   export var Native: Native;
 }
@@ -21,4 +29,3 @@ declare module "arch-native" {
 declare module "arch-ecmascript" {
   export var Ecmascript: Ecmascript;
 }
-

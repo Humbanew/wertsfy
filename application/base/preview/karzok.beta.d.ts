@@ -846,7 +846,27 @@ declare type Karzok = {
           // "selectWorld.create": "Create New World",
           "create": String
           // "selectWorld.recreate": "Re-Create",
-          "recreate": String
+          // "selectWorld.recreate.error.title": "An error occurred!",
+          // "selectWorld.recreate.error.text": "Something went wrong while trying to recreate a world.",
+          // "selectWorld.recreate.customized.title": "Customized worlds are no longer supported",
+          // "selectWorld.recreate.customized.text": "Customized worlds are no longer supported in this version of Minecraft. We can try to recreate it with the same seed and properties, but any terrain customizations will be lost. We're sorry for the inconvenience!",
+          "recreate": {
+
+            Default: String
+            "error": {
+
+              "title": String
+              "text": String
+
+            }
+            "customized": {
+
+              "title": String
+              "text": String
+
+            }
+
+          }
           // "selectWorld.createDemo": "Play New Demo World",
           "createDemo": String
           // "selectWorld.delete": "Delete",
@@ -920,10 +940,15 @@ declare type Karzok = {
           // "selectWorld.customizeType": "Customize",
           "customizeType": String
           // "selectWorld.version": "Version:",
+          "version": String
           // "selectWorld.versionUnknown": "unknown",
+          "versionUnknown": String
           // "selectWorld.versionQuestion": "Do you really want to load this world?",
+          "versionQuestion": String
           // "selectWorld.versionWarning": "This world was last played in version %s and loading it in this version could cause corruption!",
+          "versionWarning": String
           // "selectWorld.versionJoinButton": "Load Anyway",
+          "versionJoinButton": String
           // "selectWorld.backupQuestion.snapshot": "Do you really want to load this world?",
           // "selectWorld.backupWarning.snapshot": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!",
           // "selectWorld.backupQuestion.downgrade": "Downgrading a world is not supported",
@@ -932,24 +957,62 @@ declare type Karzok = {
           // "selectWorld.backupWarning.customized": "Unfortunately, we do not support customized worlds in this version of Minecraft. We can still load this world and keep everything the way it was, but any newly generated terrain will no longer be customized. We're sorry for the inconvenience!",
           // "selectWorld.backupQuestion.experimental": "Worlds using Experimental Settings are not supported",
           // "selectWorld.backupWarning.experimental": "This world uses experimental settings that could stop working at any time. We cannot guarantee it will load or work. Here be dragons!",
+          "backupQuestion": {
+
+            "snapshot": String
+            "downgrade": String
+            "customized": String
+            "experimental": String
+
+          }
+          "backupWarning": {
+
+            "snapshot": String
+            "downgrade": String
+            "customized": String
+            "experimental": String
+
+          }
           // "selectWorld.backupEraseCache": "Erase cached data",
+          "backupEraseCache": String
           // "selectWorld.backupJoinConfirmButton": "Create Backup and Load",
+          "backupJoinConfirmButton": String
           // "selectWorld.backupJoinSkipButton": "I know what I'm doing!",
+          "backupJoinSkipButton": String
           // "selectWorld.tooltip.fromNewerVersion1": "World was saved in a newer version,",
           // "selectWorld.tooltip.fromNewerVersion2": "loading this world could cause problems!",
           // "selectWorld.tooltip.snapshot1": "Don't forget to back up this world",
           // "selectWorld.tooltip.snapshot2": "before you load it in this snapshot.",
+          "tooltip": {
+
+            "fromNewerVersion1": String
+            "fromNewerVersion2": String
+            "snapshot1": String
+            "snapshot2": String
+
+          }
           // "selectWorld.unable_to_load": "Unable to load worlds",
+          "unable_to_load": String
           // "selectWorld.futureworld.error.title": "An error occurred!",
           // "selectWorld.futureworld.error.text": "Something went wrong while trying to load a world from a future version. This was a risky operation to begin with; sorry it didn't work.",
-          // "selectWorld.recreate.error.title": "An error occurred!",
-          // "selectWorld.recreate.error.text": "Something went wrong while trying to recreate a world.",
-          // "selectWorld.recreate.customized.title": "Customized worlds are no longer supported",
-          // "selectWorld.recreate.customized.text": "Customized worlds are no longer supported in this version of Minecraft. We can try to recreate it with the same seed and properties, but any terrain customizations will be lost. We're sorry for the inconvenience!",
+          "futureworld": {
+
+            "error": {
+
+              "title": String
+              "text": String
+
+            }
+
+          }
           // "selectWorld.load_folder_access": "Unable to read or access folder where game worlds are saved!",
+          "load_folder_access": String
           // "selectWorld.access_failure": "Failed to access world",
+          "access_failure": String
           // "selectWorld.delete_failure": "Failed to delete world",
+          "delete_failure": String
           // "selectWorld.data_read": "Reading world data...",
+          "data_read": String
           // "selectWorld.gameMode": "Game Mode",
           // "selectWorld.gameMode.survival": "Survival",
           // "selectWorld.gameMode.survival.line1": "Search for resources, craft, gain",
@@ -966,6 +1029,7 @@ declare type Karzok = {
           // "selectWorld.gameMode.adventure": "Adventure",
           // "selectWorld.gameMode.adventure.line1": "Same as Survival Mode, but blocks can't",
           // "selectWorld.gameMode.adventure.line2": "be added or removed",
+          
           // "selectWorld.moreWorldOptions": "More World Options...",
           // "selectWorld.gameRules": "Game Rules",
           // "selectWorld.mapFeatures": "Generate Structures",

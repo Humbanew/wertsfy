@@ -865,21 +865,60 @@ declare type Karzok = {
           // "selectWorld.edit.export_worldgen_settings": "Export World Generation Settings",
           // "selectWorld.edit.export_worldgen_settings.success": "Exported",
           // "selectWorld.edit.export_worldgen_settings.failure": "Export failed",
-          "edit": { }
+          "edit": {
+
+            Default: String
+            "title": String
+            "resetIcon": String
+            "openFolder": String
+            "save": String
+            "backup": String
+            "backupFolder": String
+            "backupFailed": String
+            "backupCreated": String
+            "backupSize": String
+            "optimize": String
+            "export_worldgen_settings": {
+
+              Default: String
+              "success": String
+              "failure": String
+
+            }
+
+          }
           // "selectWorld.deleteQuestion": "Are you sure you want to delete this world?",
+          "deleteQuestion": String
           // "selectWorld.deleteWarning": "'%s' will be lost forever! (A long time!)",
+          "deleteWarning": String
           // "selectWorld.deleteButton": "Delete",
+          "deleteButton": String
           // "selectWorld.conversion": "Must be converted!",
           // "selectWorld.conversion.tooltip": "This world must be opened in an older version (like 1.6.4) to be safely converted",
+          "conversion": {
+
+            Default: String
+            "tooltip": String
+
+          }
           // "selectWorld.locked": "Locked by another running instance of Minecraft",
+          "locked": String
           // "selectWorld.incompatible_series": "Created by an incompatible version",
+          "incompatible_series": String
           // "selectWorld.newWorld": "New World",
+          "newWorld": String
           // "selectWorld.enterName": "World Name",
+          "enterName": String
           // "selectWorld.resultFolder": "Will be saved in:",
+          "resultFolder": String
           // "selectWorld.enterSeed": "Seed for the world generator",
+          "enterSeed": String
           // "selectWorld.seedInfo": "Leave blank for a random seed",
+          "seedInfo": String
           // "selectWorld.cheats": "Cheats",
+          "cheats": String
           // "selectWorld.customizeType": "Customize",
+          "customizeType": String
           // "selectWorld.version": "Version:",
           // "selectWorld.versionUnknown": "unknown",
           // "selectWorld.versionQuestion": "Do you really want to load this world?",
@@ -1358,12 +1397,242 @@ declare type Karzok = {
 
   "terraria": { }
   
-    // formatos de games
-  "cubbic": { }
+  "cubbic": {
+
+    "tamanho": {
+
+      "tam02x02": {
+        
+        "estrutura": [[][]]
+        "aviso": String 
+      
+      }
+      "tam03x03": {
+        
+        "estrutura": [[][][]] 
+        "aviso": String 
+      
+      }
+      "tam04x04": {
+        
+        "estrutura": [[][][][]] 
+        "aviso": String 
+      
+      }
+      "tam05x05": {
+        
+        "estrutura": [[][][][][]] 
+        "aviso": String 
+      
+      }
+      "tam06x06": {
+        
+        "estrutura": [[][][][][][]] 
+        "aviso": String 
+      
+      }
+      "tam07x07": {
+        
+        "estrutura": [[][][][][][][]] 
+        "aviso": String 
+      
+      }
+      "tam08x08": {
+        
+        "estrutura": [[][][][][][][][]] 
+        "aviso": String 
+      
+      }
+      "tam09x09": {
+        
+        "estrutura": [[][][][][][][][][]] 
+        "aviso": String 
+      
+      }
+      "tam10x10": {
+        
+        "estrutura": [[][][][][][][][][][]] 
+        "aviso": String 
+      
+      }
+
+    }
+
+    "pontuacao": {
+
+      "valorm2": {
+
+        "nvl01": {
+          
+          "valor": 2 
+          "cor": String
+        
+        }
+        "nvl02": {
+          
+          "valor": 4 
+          "cor": String
+        
+        }
+        "nvl03": {
+          
+          "valor": 8 
+          "cor": String
+        
+        }
+        "nvl04": {
+          
+          "valor": 16 
+          "cor": String
+        
+        }
+        "nvl05": {
+          
+          "valor": 32 
+          "cor": String
+        
+        }
+        "nvl06": {
+          
+          "valor": 64 
+          "cor": String
+        
+        }
+        "nvl07": {
+          
+          "valor": 128 
+          "cor": String
+        
+        }
+        "nvl08": {
+          
+          "valor": 256 
+          "cor": String
+        
+        }
+        "nvl09": {
+          
+          "valor": 512 
+          "cor": String
+        
+        }
+        "nvl10": {
+          
+          "valor": 1024 
+          "cor": String
+        
+        }
+        "nvl11": {
+          
+          "valor": 2048 
+          "cor": String
+        
+        }
+        "nvl12": {
+          
+          "valor": 4096 
+          "cor": String
+        
+        }
+        "nvl13": {
+          
+          "valor": 8192 
+          "cor": String
+        
+        }
+        "nvl14": {
+          
+          "valor": 16384 
+          "cor": String
+        
+        }
+        "nvl15": {
+          
+          "valor": 32768 
+          "cor": String
+        
+        }
+        "nvl16": {
+          
+          "valor": 65536 
+          "cor": String
+        
+        }
+        "nvl17": {
+          
+          "valor": 131072 
+          "cor": String
+        
+        }
+        "nvl18": {
+          
+          "valor": 262144 
+          "cor": String
+        
+        }
+        "nvl19": {
+          
+          "valor": 524288 
+          "cor": String
+        
+        }
+        "nvl20": {
+          
+          "valor": 1048576 
+          "cor": String
+        
+        }
+
+      }
+
+    }
+
+    "rank": {
+
+      "rankE": {
+
+        "meta": 1500
+        "nome": "E"
+
+      }
+      "rankD": {
+
+        "meta": 8200
+        "nome": "D"
+
+      }
+      "rankC": {
+
+        "meta": 18000
+        "nome": "C"
+
+      }
+      "rankB": {
+      
+        "meta": 30000
+        "nome": "B"
+      
+      }
+      "rankA": {
+
+        "meta": 60280
+        "nome": "A"
+
+      }
+      "rankS": {
+
+        "meta": 290000
+        "nome": "S"
+
+      }
+
+    }
+
+  }
 
 }
 
-
+  // @@ lang minecraft asset file
 // "editGamerule.title": "Edit Game Rules",
 // "editGamerule.default": "Default: %s",
 // "gameMode.survival": "Survival Mode",

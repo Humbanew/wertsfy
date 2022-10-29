@@ -711,52 +711,30 @@ declare type Karzok = {
     
           "socialInteractions": {
 
-            // "gui.socialInteractions.title": "Social Interactions",
             "title": String
-            // "gui.socialInteractions.tab_all": "All",
             "tab_all": String
-            // "gui.socialInteractions.tab_hidden": "Hidden",
             "tab_hidden": String
-            // "gui.socialInteractions.tab_blocked": "Blocked",
             "tab_blocked": String
-            // "gui.socialInteractions.blocking_hint": "Manage with Microsoft account",
             "blocking_hint": String
-            // "gui.socialInteractions.status_hidden": "Hidden",
             "status_hidden": String
-            // "gui.socialInteractions.status_blocked": "Blocked",
             "status_blocked": String
-            // "gui.socialInteractions.status_offline": "Offline",
             "status_offline": String
-            // "gui.socialInteractions.status_hidden_offline": "Hidden - Offline",
             "status_hidden_offline": String
-            // "gui.socialInteractions.status_blocked_offline": "Blocked - Offline",
             "status_blocked_offline": String
-            // "gui.socialInteractions.server_label.single": "%s - %s player",
-            // "gui.socialInteractions.server_label.multiple": "%s - %s players",
             "server_label": {
 
               "single": String
               "multiple": String
 
             }
-            // "gui.socialInteractions.search_hint": "Search...",
             "search_hint": String
-            // "gui.socialInteractions.search_empty": "Couldn't find any players with that name",
             "search_empty": String
-            // "gui.socialInteractions.empty_hidden": "No players hidden in chat",
             "empty_hidden": String
-            // "gui.socialInteractions.empty_blocked": "No blocked players in chat",
             "empty_blocked": String
-            // "gui.socialInteractions.hide": "Hide in Chat",
             "hide": String
-            // "gui.socialInteractions.show": "Show in Chat",
             "show": String
-            // "gui.socialInteractions.hidden_in_chat": "Chat messages from %s will be hidden",
             "hidden_in_chat": String
-            // "gui.socialInteractions.shown_in_chat": "Chat messages from %s will be shown",
             "shown_in_chat": String
-            // "gui.socialInteractions.tooltip.hide": "Hide messages from %s in chat",
-            // "gui.socialInteractions.tooltip.show": "Show messages from %s in chat",
             "tooltip": {
 
               "hide": String
@@ -765,9 +743,6 @@ declare type Karzok = {
             }
             
           }
-          // "gui.narrate.button": "%s button",
-          // "gui.narrate.slider": "%s slider",
-          // "gui.narrate.editBox": "%s edit box: %s",
           "narrate": {
 
             "button": String
@@ -775,11 +750,8 @@ declare type Karzok = {
             "editBox": String
 
           }
-          // "gui.advancements": "Advancements",
           "advancements": String
-          // "gui.stats": "Statistics",
           "stats": String
-          // "gui.entity_tooltip.type": "Type: %s",
           "entity_tooltip": {
 
             "type": String
@@ -792,166 +764,188 @@ declare type Karzok = {
           
           "test": {
 
-            // "translation.test.none": "Hello, world!",
             "none": String
-            // "translation.test.complex": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
             "complex": String
-            // "translation.test.escape": "%%s %%%s %%%%s %%%%%s",
             "escape": String
-            // "translation.test.invalid": "hi %",
             "invalid": String
-            // "translation.test.invalid2": "hi %  s",
             "invalid2": String
-            // "translation.test.args": "%s %s",
             "args": String
-            // "translation.test.world": "world",
             "world": String
 
           }
 
         }
     
-        // "menu.game": "Game Menu",
-        // "menu.singleplayer": "Singleplayer",
-        // "menu.multiplayer": "Multiplayer",
-        // "menu.online": "Minecraft Realms",
-        // "menu.options": "Options...",
-        // "menu.quit": "Quit Game",
-        // "menu.returnToMenu": "Save and Quit to Title",
-        // "menu.disconnect": "Disconnect",
-        // "menu.returnToGame": "Back to Game",
-        // "menu.generatingLevel": "Generating world",
-        // "menu.loadingLevel": "Loading world",
-        // "menu.savingLevel": "Saving world",
-        // "menu.working": "Working...",
-        // "menu.savingChunks": "Saving chunks",
-        // "menu.preparingSpawn": "Preparing spawn area: %s%%",
-        // "menu.loadingForcedChunks": "Loading forced chunks for dimension %s",
-        // "menu.generatingTerrain": "Building terrain",
-        // "menu.convertingLevel": "Converting world",
-        // "menu.respawning": "Respawning",
-        // "menu.shareToLan": "Open to LAN",
-        // "menu.sendFeedback": "Give Feedback",
-        // "menu.reportBugs": "Report Bugs",
-        // "menu.paused": "Game Paused",
-        // "menu.modded": " (Modded)",
-        // "menu.playdemo": "Play Demo World",
-        // "menu.resetdemo": "Reset Demo World",
-        "menu": { }
+        "menu": {
+          
+          "game": String
+          "singleplayer": String
+          "multiplayer": String
+          "online": String
+          "options": String
+          "quit": String
+          "returnToMenu": String
+          "disconnect": String
+          "returnToGame": String
+          "generatingLevel": String
+          "loadingLevel": String
+          "savingLevel": String
+          "working": String
+          "savingChunks": String
+          "preparingSpawn": String
+          "loadingForcedChunks": String
+          "generatingTerrain": String
+          "convertingLevel": String
+          "respawning": String
+          "shareToLan": String
+          "sendFeedback": String
+          "reportBugs": String
+          "paused": String
+          "modded": String
+          "playdemo": String
+          "resetdemo": String
 
-        // "optimizeWorld.confirm.title": "Optimize World",
-        // "optimizeWorld.confirm.description": "This will attempt to optimize your world by making sure all data is stored in the most recent game format. This can take a very long time, depending on your world. Once done, your world may play faster but will no longer be compatible with older versions of the game. Are you sure you wish to proceed?",
-        // "optimizeWorld.title": "Optimizing World '%s'",
-        // "optimizeWorld.stage.counting": "Counting chunks...",
-        // "optimizeWorld.stage.upgrading": "Upgrading all chunks...",
-        // "optimizeWorld.stage.finished": "Finishing up...",
-        // "optimizeWorld.stage.failed": "Failed! :(",
-        // "optimizeWorld.info.converted": "Upgraded chunks: %s",
-        // "optimizeWorld.info.skipped": "Skipped chunks: %s",
-        // "optimizeWorld.info.total": "Total chunks: %s",
-        "optimizeWorld": { }
+        }
 
-        // "selectWorld.title": "Select World",
-        // "selectWorld.search": "search for worlds",
-        // "selectWorld.world": "World",
-        // "selectWorld.select": "Play Selected World",
-        // "selectWorld.create": "Create New World",
-        // "selectWorld.recreate": "Re-Create",
-        // "selectWorld.createDemo": "Play New Demo World",
-        // "selectWorld.delete": "Delete",
-        // "selectWorld.edit": "Edit",
-        // "selectWorld.edit.title": "Edit World",
-        // "selectWorld.edit.resetIcon": "Reset Icon",
-        // "selectWorld.edit.openFolder": "Open World Folder",
-        // "selectWorld.edit.save": "Save",
-        // "selectWorld.edit.backup": "Make Backup",
-        // "selectWorld.edit.backupFolder": "Open Backups Folder",
-        // "selectWorld.edit.backupFailed": "Backup failed",
-        // "selectWorld.edit.backupCreated": "Backed up: %s",
-        // "selectWorld.edit.backupSize": "size: %s MB",
-        // "selectWorld.edit.optimize": "Optimize World",
-        // "selectWorld.edit.export_worldgen_settings": "Export World Generation Settings",
-        // "selectWorld.edit.export_worldgen_settings.success": "Exported",
-        // "selectWorld.edit.export_worldgen_settings.failure": "Export failed",
-        // "selectWorld.deleteQuestion": "Are you sure you want to delete this world?",
-        // "selectWorld.deleteWarning": "'%s' will be lost forever! (A long time!)",
-        // "selectWorld.deleteButton": "Delete",
-        // "selectWorld.conversion": "Must be converted!",
-        // "selectWorld.conversion.tooltip": "This world must be opened in an older version (like 1.6.4) to be safely converted",
-        // "selectWorld.locked": "Locked by another running instance of Minecraft",
-        // "selectWorld.incompatible_series": "Created by an incompatible version",
-        // "selectWorld.newWorld": "New World",
-        // "selectWorld.enterName": "World Name",
-        // "selectWorld.resultFolder": "Will be saved in:",
-        // "selectWorld.enterSeed": "Seed for the world generator",
-        // "selectWorld.seedInfo": "Leave blank for a random seed",
-        // "selectWorld.cheats": "Cheats",
-        // "selectWorld.customizeType": "Customize",
-        // "selectWorld.version": "Version:",
-        // "selectWorld.versionUnknown": "unknown",
-        // "selectWorld.versionQuestion": "Do you really want to load this world?",
-        // "selectWorld.versionWarning": "This world was last played in version %s and loading it in this version could cause corruption!",
-        // "selectWorld.versionJoinButton": "Load Anyway",
-        // "selectWorld.backupQuestion.snapshot": "Do you really want to load this world?",
-        // "selectWorld.backupWarning.snapshot": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!",
-        // "selectWorld.backupQuestion.downgrade": "Downgrading a world is not supported",
-        // "selectWorld.backupWarning.downgrade": "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work. If you still want to continue, please make a backup!",
-        // "selectWorld.backupQuestion.customized": "Customized worlds are no longer supported",
-        // "selectWorld.backupWarning.customized": "Unfortunately, we do not support customized worlds in this version of Minecraft. We can still load this world and keep everything the way it was, but any newly generated terrain will no longer be customized. We're sorry for the inconvenience!",
-        // "selectWorld.backupQuestion.experimental": "Worlds using Experimental Settings are not supported",
-        // "selectWorld.backupWarning.experimental": "This world uses experimental settings that could stop working at any time. We cannot guarantee it will load or work. Here be dragons!",
-        // "selectWorld.backupEraseCache": "Erase cached data",
-        // "selectWorld.backupJoinConfirmButton": "Create Backup and Load",
-        // "selectWorld.backupJoinSkipButton": "I know what I'm doing!",
-        // "selectWorld.tooltip.fromNewerVersion1": "World was saved in a newer version,",
-        // "selectWorld.tooltip.fromNewerVersion2": "loading this world could cause problems!",
-        // "selectWorld.tooltip.snapshot1": "Don't forget to back up this world",
-        // "selectWorld.tooltip.snapshot2": "before you load it in this snapshot.",
-        // "selectWorld.unable_to_load": "Unable to load worlds",
-        // "selectWorld.futureworld.error.title": "An error occurred!",
-        // "selectWorld.futureworld.error.text": "Something went wrong while trying to load a world from a future version. This was a risky operation to begin with; sorry it didn't work.",
-        // "selectWorld.recreate.error.title": "An error occurred!",
-        // "selectWorld.recreate.error.text": "Something went wrong while trying to recreate a world.",
-        // "selectWorld.recreate.customized.title": "Customized worlds are no longer supported",
-        // "selectWorld.recreate.customized.text": "Customized worlds are no longer supported in this version of Minecraft. We can try to recreate it with the same seed and properties, but any terrain customizations will be lost. We're sorry for the inconvenience!",
-        // "selectWorld.load_folder_access": "Unable to read or access folder where game worlds are saved!",
-        // "selectWorld.access_failure": "Failed to access world",
-        // "selectWorld.delete_failure": "Failed to delete world",
-        // "selectWorld.data_read": "Reading world data...",
-        // "selectWorld.gameMode": "Game Mode",
-        // "selectWorld.gameMode.survival": "Survival",
-        // "selectWorld.gameMode.survival.line1": "Search for resources, craft, gain",
-        // "selectWorld.gameMode.survival.line2": "levels, health and hunger",
-        // "selectWorld.gameMode.creative": "Creative",
-        // "selectWorld.gameMode.creative.line1": "Unlimited resources, free flying and",
-        // "selectWorld.gameMode.creative.line2": "destroy blocks instantly",
-        // "selectWorld.gameMode.spectator": "Spectator",
-        // "selectWorld.gameMode.spectator.line1": "You can look but don't touch",
-        // "selectWorld.gameMode.spectator.line2": "",
-        // "selectWorld.gameMode.hardcore": "Hardcore",
-        // "selectWorld.gameMode.hardcore.line1": "Same as Survival Mode, locked at hardest",
-        // "selectWorld.gameMode.hardcore.line2": "difficulty, and one life only",
-        // "selectWorld.gameMode.adventure": "Adventure",
-        // "selectWorld.gameMode.adventure.line1": "Same as Survival Mode, but blocks can't",
-        // "selectWorld.gameMode.adventure.line2": "be added or removed",
-        // "selectWorld.moreWorldOptions": "More World Options...",
-        // "selectWorld.gameRules": "Game Rules",
-        // "selectWorld.mapFeatures": "Generate Structures",
-        // "selectWorld.mapFeatures.info": "Villages, dungeons etc.",
-        // "selectWorld.mapType": "World Type",
-        // "selectWorld.mapType.normal": "Normal",
-        // "selectWorld.allowCommands": "Allow Cheats",
-        // "selectWorld.allowCommands.info": "Commands like /gamemode, /experience",
-        // "selectWorld.dataPacks": "Data Packs",
-        // "selectWorld.bonusItems": "Bonus Chest",
-        // "selectWorld.import_worldgen_settings": "Import Settings",
-        // "selectWorld.import_worldgen_settings.select_file": "Select settings file (.json)",
-        // "selectWorld.import_worldgen_settings.failure": "Error importing settings",
-        // "selectWorld.import_worldgen_settings.experimental.title": "Warning! These settings are using experimental features",
-        // "selectWorld.import_worldgen_settings.experimental.question": "These settings are experimental and could one day stop working. Do you wish to proceed?",
-        // "selectWorld.import_worldgen_settings.deprecated.title": "Warning! These settings are using deprecated features",
-        // "selectWorld.import_worldgen_settings.deprecated.question": "Some features used are deprecated and will stop working in the future. Do you wish to proceed?",
-        "selectWorld": { }
+        "optimizeWorld": {
+
+          "confirm": {
+
+            "title": String
+            "description": String
+
+          }
+          "title": String
+          "stage": {
+
+            "counting": String
+            "upgrading": String
+            "finished": String
+            "failed": String
+
+          }
+          "info": {
+          
+            "converted": String
+            "skipped": String
+            "total": String
+          
+          }
+
+        }
+        "selectWorld": {
+  
+          // "selectWorld.title": "Select World",
+          "title": String
+          // "selectWorld.search": "search for worlds",
+          "search": String
+          // "selectWorld.world": "World",
+          "world": String
+          // "selectWorld.select": "Play Selected World",
+          "select": String
+          // "selectWorld.create": "Create New World",
+          "create": String
+          // "selectWorld.recreate": "Re-Create",
+          "recreate": String
+          // "selectWorld.createDemo": "Play New Demo World",
+          "createDemo": String
+          // "selectWorld.delete": "Delete",
+          "delete": String
+          // "selectWorld.edit": "Edit",
+          // "selectWorld.edit.title": "Edit World",
+          // "selectWorld.edit.resetIcon": "Reset Icon",
+          // "selectWorld.edit.openFolder": "Open World Folder",
+          // "selectWorld.edit.save": "Save",
+          // "selectWorld.edit.backup": "Make Backup",
+          // "selectWorld.edit.backupFolder": "Open Backups Folder",
+          // "selectWorld.edit.backupFailed": "Backup failed",
+          // "selectWorld.edit.backupCreated": "Backed up: %s",
+          // "selectWorld.edit.backupSize": "size: %s MB",
+          // "selectWorld.edit.optimize": "Optimize World",
+          // "selectWorld.edit.export_worldgen_settings": "Export World Generation Settings",
+          // "selectWorld.edit.export_worldgen_settings.success": "Exported",
+          // "selectWorld.edit.export_worldgen_settings.failure": "Export failed",
+          "edit": { }
+          // "selectWorld.deleteQuestion": "Are you sure you want to delete this world?",
+          // "selectWorld.deleteWarning": "'%s' will be lost forever! (A long time!)",
+          // "selectWorld.deleteButton": "Delete",
+          // "selectWorld.conversion": "Must be converted!",
+          // "selectWorld.conversion.tooltip": "This world must be opened in an older version (like 1.6.4) to be safely converted",
+          // "selectWorld.locked": "Locked by another running instance of Minecraft",
+          // "selectWorld.incompatible_series": "Created by an incompatible version",
+          // "selectWorld.newWorld": "New World",
+          // "selectWorld.enterName": "World Name",
+          // "selectWorld.resultFolder": "Will be saved in:",
+          // "selectWorld.enterSeed": "Seed for the world generator",
+          // "selectWorld.seedInfo": "Leave blank for a random seed",
+          // "selectWorld.cheats": "Cheats",
+          // "selectWorld.customizeType": "Customize",
+          // "selectWorld.version": "Version:",
+          // "selectWorld.versionUnknown": "unknown",
+          // "selectWorld.versionQuestion": "Do you really want to load this world?",
+          // "selectWorld.versionWarning": "This world was last played in version %s and loading it in this version could cause corruption!",
+          // "selectWorld.versionJoinButton": "Load Anyway",
+          // "selectWorld.backupQuestion.snapshot": "Do you really want to load this world?",
+          // "selectWorld.backupWarning.snapshot": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!",
+          // "selectWorld.backupQuestion.downgrade": "Downgrading a world is not supported",
+          // "selectWorld.backupWarning.downgrade": "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work. If you still want to continue, please make a backup!",
+          // "selectWorld.backupQuestion.customized": "Customized worlds are no longer supported",
+          // "selectWorld.backupWarning.customized": "Unfortunately, we do not support customized worlds in this version of Minecraft. We can still load this world and keep everything the way it was, but any newly generated terrain will no longer be customized. We're sorry for the inconvenience!",
+          // "selectWorld.backupQuestion.experimental": "Worlds using Experimental Settings are not supported",
+          // "selectWorld.backupWarning.experimental": "This world uses experimental settings that could stop working at any time. We cannot guarantee it will load or work. Here be dragons!",
+          // "selectWorld.backupEraseCache": "Erase cached data",
+          // "selectWorld.backupJoinConfirmButton": "Create Backup and Load",
+          // "selectWorld.backupJoinSkipButton": "I know what I'm doing!",
+          // "selectWorld.tooltip.fromNewerVersion1": "World was saved in a newer version,",
+          // "selectWorld.tooltip.fromNewerVersion2": "loading this world could cause problems!",
+          // "selectWorld.tooltip.snapshot1": "Don't forget to back up this world",
+          // "selectWorld.tooltip.snapshot2": "before you load it in this snapshot.",
+          // "selectWorld.unable_to_load": "Unable to load worlds",
+          // "selectWorld.futureworld.error.title": "An error occurred!",
+          // "selectWorld.futureworld.error.text": "Something went wrong while trying to load a world from a future version. This was a risky operation to begin with; sorry it didn't work.",
+          // "selectWorld.recreate.error.title": "An error occurred!",
+          // "selectWorld.recreate.error.text": "Something went wrong while trying to recreate a world.",
+          // "selectWorld.recreate.customized.title": "Customized worlds are no longer supported",
+          // "selectWorld.recreate.customized.text": "Customized worlds are no longer supported in this version of Minecraft. We can try to recreate it with the same seed and properties, but any terrain customizations will be lost. We're sorry for the inconvenience!",
+          // "selectWorld.load_folder_access": "Unable to read or access folder where game worlds are saved!",
+          // "selectWorld.access_failure": "Failed to access world",
+          // "selectWorld.delete_failure": "Failed to delete world",
+          // "selectWorld.data_read": "Reading world data...",
+          // "selectWorld.gameMode": "Game Mode",
+          // "selectWorld.gameMode.survival": "Survival",
+          // "selectWorld.gameMode.survival.line1": "Search for resources, craft, gain",
+          // "selectWorld.gameMode.survival.line2": "levels, health and hunger",
+          // "selectWorld.gameMode.creative": "Creative",
+          // "selectWorld.gameMode.creative.line1": "Unlimited resources, free flying and",
+          // "selectWorld.gameMode.creative.line2": "destroy blocks instantly",
+          // "selectWorld.gameMode.spectator": "Spectator",
+          // "selectWorld.gameMode.spectator.line1": "You can look but don't touch",
+          // "selectWorld.gameMode.spectator.line2": "",
+          // "selectWorld.gameMode.hardcore": "Hardcore",
+          // "selectWorld.gameMode.hardcore.line1": "Same as Survival Mode, locked at hardest",
+          // "selectWorld.gameMode.hardcore.line2": "difficulty, and one life only",
+          // "selectWorld.gameMode.adventure": "Adventure",
+          // "selectWorld.gameMode.adventure.line1": "Same as Survival Mode, but blocks can't",
+          // "selectWorld.gameMode.adventure.line2": "be added or removed",
+          // "selectWorld.moreWorldOptions": "More World Options...",
+          // "selectWorld.gameRules": "Game Rules",
+          // "selectWorld.mapFeatures": "Generate Structures",
+          // "selectWorld.mapFeatures.info": "Villages, dungeons etc.",
+          // "selectWorld.mapType": "World Type",
+          // "selectWorld.mapType.normal": "Normal",
+          // "selectWorld.allowCommands": "Allow Cheats",
+          // "selectWorld.allowCommands.info": "Commands like /gamemode, /experience",
+          // "selectWorld.dataPacks": "Data Packs",
+          // "selectWorld.bonusItems": "Bonus Chest",
+          // "selectWorld.import_worldgen_settings": "Import Settings",
+          // "selectWorld.import_worldgen_settings.select_file": "Select settings file (.json)",
+          // "selectWorld.import_worldgen_settings.failure": "Error importing settings",
+          // "selectWorld.import_worldgen_settings.experimental.title": "Warning! These settings are using experimental features",
+          // "selectWorld.import_worldgen_settings.experimental.question": "These settings are experimental and could one day stop working. Do you wish to proceed?",
+          // "selectWorld.import_worldgen_settings.deprecated.title": "Warning! These settings are using deprecated features",
+          // "selectWorld.import_worldgen_settings.deprecated.question": "Some features used are deprecated and will stop working in the future. Do you wish to proceed?",
+
+        }
 
         // "createWorld.customize.presets": "Presets",
         // "createWorld.customize.presets.title": "Select a Preset",

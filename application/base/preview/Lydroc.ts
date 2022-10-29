@@ -78,6 +78,7 @@
    let EventHandlersAttrs = Native.struct.constructor = { };
    let GlobalAttrs = Native.struct.constructor = { };
    let AriaAttrs = Native.struct.constructor = { };
+   let Elements = Native.struct.constructor = { };
 
  /** 
  * \_ global attributes:

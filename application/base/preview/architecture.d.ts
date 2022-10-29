@@ -16,6 +16,7 @@ declare interface Native {
   }
   /***/
 
+  // ??? ainda a adicionar.
 declare interface Ecmascript { }
 
 // parents of Ecmascript:

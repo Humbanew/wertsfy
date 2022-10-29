@@ -515,116 +515,301 @@ declare type Karzok = {
 
       "lang": {
 
-        // "language.name": "English",
-        // "language.region": "United States",
-        // "language.code": "en_us",
-        "language": { }
+        "language": {
 
-        // "narrator.button.accessibility": "Accessibility",
-        // "narrator.button.language": "Language",
-        // "narrator.button.difficulty_lock": "Difficulty lock",
-        // "narrator.button.difficulty_lock.unlocked": "Unlocked",
-        // "narrator.button.difficulty_lock.locked": "Locked",
-        // "narrator.screen.title": "Title Screen",
-        // "narrator.controls.reset": "Reset %s button",
-        // "narrator.controls.bound": "%s is bound to %s",
-        // "narrator.controls.unbound": "%s is not bound",
-        // "narrator.select": "Selected: %s",
-        // "narrator.select.world": "Selected %s, last played: %s, %s, %s, version: %s",
-        // "narrator.loading": "Loading: %s",
-        // "narrator.loading.done": "Done",
-        // "narrator.joining": "Joining",
-        // "narrator.position.screen": "Screen element %s out of %s",
-        // "narrator.screen.usage": "Use mouse cursor or Tab button to select element",
-        // "narrator.position.list": "Selected list row %s out of %s",
-        // "narrator.position.object_list": "Selected row element %s out of %s",
-        // "narrator.toast.disabled": "Narrator Disabled",
-        // "narrator.toast.enabled": "Narrator Enabled",
-        "narrator": { }
+          "name": String
+          "region": String
+          "code": String
 
-        // "narration.suggestion.tooltip": "Selected suggestion %d out of %d: %s (%s)",
-        // "narration.suggestion": "Selected suggestion %d out of %d: %s",
-        // "narration.button": "Button: %s", 
-        // "narration.button.usage.focused": "Press Enter to activate",
-        // "narration.button.usage.hovered": "Left click to activate",
-        // "narration.cycle_button.usage.focused": "Press Enter to switch to %s",
-        // "narration.cycle_button.usage.hovered": "Left click to switch to %s",
-        // "narration.checkbox": "Checkbox: %s",
-        // "narration.checkbox.usage.focused": "Press Enter to toggle",
-        // "narration.checkbox.usage.hovered": "Left click to toggle",
-        // "narration.recipe": "Reciple for %s",
-        // "narration.recipe.usage": "Left click to select",
-        // "narration.recipe.usage.more": "Right click to show more recipes",
-        // "narration.selection.usage": "Press up and down buttons to move to another entry",
-        // "narration.component_list.usage": "Press Tab to navigate to next element",
-        // "narration.slider.usage.focused": "Press left or right keyboard buttons to change value",
-        // "narration.slider.usage.hovered": "Drag slider to change value",
-        // "narration.edit_box": "Edit box: %s",
-        "narration": { }
+        }
 
-        // "chat_screen.title": "Chat screen",
-        // "chat_screen.usage": "Input message and press Enter to send",
-        // "chat_screen.message": "Message to send: %s",
-        "chat_screen": { }
+        "narrator": {
 
-        // "gui.done": "Done",
-        // "gui.cancel": "Cancel",
-        // "gui.back": "Back",
-        // "gui.toTitle": "Back to Title Screen",
-        // "gui.toMenu": "Back to Server List",
-        // "gui.up": "Up",
-        // "gui.down": "Down",
-        // "gui.yes": "Yes",
-        // "gui.no": "No",
-        // "gui.none": "None",
-        // "gui.all": "All",
-        // "gui.ok": "Ok",
-        // "gui.proceed": "Proceed",
-        // "gui.recipebook.moreRecipes": "Right Click for More",
-        // "gui.recipebook.search_hint": "Search...",
-        // "gui.recipebook.toggleRecipes.all": "Showing All",
-        // "gui.recipebook.toggleRecipes.craftable": "Showing Craftable",
-        // "gui.recipebook.toggleRecipes.smeltable": "Showing Smeltable",
-        // "gui.recipebook.toggleRecipes.blastable": "Showing Blastable",
-        // "gui.recipebook.toggleRecipes.smokable": "Showing Smokable",
-        // "gui.socialInteractions.title": "Social Interactions",
-        // "gui.socialInteractions.tab_all": "All",
-        // "gui.socialInteractions.tab_hidden": "Hidden",
-        // "gui.socialInteractions.tab_blocked": "Blocked",
-        // "gui.socialInteractions.blocking_hint": "Manage with Microsoft account",
-        // "gui.socialInteractions.status_hidden": "Hidden",
-        // "gui.socialInteractions.status_blocked": "Blocked",
-        // "gui.socialInteractions.status_offline": "Offline",
-        // "gui.socialInteractions.status_hidden_offline": "Hidden - Offline",
-        // "gui.socialInteractions.status_blocked_offline": "Blocked - Offline",
-        // "gui.socialInteractions.server_label.single": "%s - %s player",
-        // "gui.socialInteractions.server_label.multiple": "%s - %s players",
-        // "gui.socialInteractions.search_hint": "Search...",
-        // "gui.socialInteractions.search_empty": "Couldn't find any players with that name",
-        // "gui.socialInteractions.empty_hidden": "No players hidden in chat",
-        // "gui.socialInteractions.empty_blocked": "No blocked players in chat",
-        // "gui.socialInteractions.hide": "Hide in Chat",
-        // "gui.socialInteractions.show": "Show in Chat",
-        // "gui.socialInteractions.hidden_in_chat": "Chat messages from %s will be hidden",
-        // "gui.socialInteractions.shown_in_chat": "Chat messages from %s will be shown",
-        // "gui.socialInteractions.tooltip.hide": "Hide messages from %s in chat",
-        // "gui.socialInteractions.tooltip.show": "Show messages from %s in chat",
-        // "gui.narrate.button": "%s button",
-        // "gui.narrate.slider": "%s slider",
-        // "gui.narrate.editBox": "%s edit box: %s",
-        // "gui.advancements": "Advancements",
-        // "gui.stats": "Statistics",
-        // "gui.entity_tooltip.type": "Type: %s",
-        "gui": { }
+          "button": {
 
-        // "translation.test.none": "Hello, world!",
-        // "translation.test.complex": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
-        // "translation.test.escape": "%%s %%%s %%%%s %%%%%s",
-        // "translation.test.invalid": "hi %",
-        // "translation.test.invalid2": "hi %  s",
-        // "translation.test.args": "%s %s",
-        // "translation.test.world": "world",
-        "translation": { }
+            "accessibility": String
+            "language": String
+            "difficulty_lock": {
+
+              Default: String
+              "unlocked": String
+              "locked": String
+
+            }
+
+          }
+
+          "screen": {
+
+            "usage": String
+            "title": String
+
+          }
+
+          "controls": {
+
+            "reset": String
+            "bound": String
+            "unbound": String
+
+          }
+
+          "select": {
+
+            Default: String
+            "world": String
+
+          }
+
+          "loading": {
+
+            Default: String
+            "done": String
+
+          }
+
+          "joining": String
+
+          "position": {
+
+            "screen": String
+            "list": String
+            "object_list": String
+
+          }
+
+          "toast": {
+
+            "disabled": String
+            "enabled": String
+
+          }
+
+        }
+
+        "narration": {
+
+          "suggestion": {
+
+            Default: String
+            "tooltip": String
+
+          }
+
+          "button": {
+
+            Default: String
+            "usage": {
+
+              "focused": String
+              "hovered": String
+
+            }
+
+          }
+
+          "cycle_button": {
+
+            "usage": {
+
+              "focused": String
+              "hovered": String
+
+            }
+
+          }
+
+          "checkbox": {
+
+            Default: String
+            "usage": {
+
+              "focused": String
+              "hovered": String
+
+            }
+
+          }
+
+          "recipe": {
+
+            Default: String
+            "usage": {
+
+              Default: String
+              "more": String
+
+            }
+
+          }
+
+          "selection": {
+
+            "usage": String
+
+          }
+
+          "component_list": {
+
+            "usage": String
+
+          }
+
+          "slider": {
+
+            "usage": {
+
+              "focused": String
+              "hovered": String
+
+            }
+
+          }
+
+          "edit_box": String
+
+        }
+
+        "chat_screen": {
+
+          "title": String
+          "usage": String
+          "message": String
+
+        }
+
+        "gui": {
+
+          "done": String
+          "cancel": String
+          "back": String
+          "toTitle": String
+          "toMenu": String
+          "up": String
+          "down": String
+          "yes": String
+          "no": String
+          "none": String
+          "all": String
+          "ok": String
+          "proceed": String
+          "recipebook": {
+
+            "moreRecipes": String
+            "search_hint": String
+            "toggleRecipes": {
+
+              "all": String
+              "craftable": String
+              "smeltable": String
+              "blastable": String
+              "smokable": String
+
+            }
+
+          }
+    
+          "socialInteractions": {
+
+            // "gui.socialInteractions.title": "Social Interactions",
+            "title": String
+            // "gui.socialInteractions.tab_all": "All",
+            "tab_all": String
+            // "gui.socialInteractions.tab_hidden": "Hidden",
+            "tab_hidden": String
+            // "gui.socialInteractions.tab_blocked": "Blocked",
+            "tab_blocked": String
+            // "gui.socialInteractions.blocking_hint": "Manage with Microsoft account",
+            "blocking_hint": String
+            // "gui.socialInteractions.status_hidden": "Hidden",
+            "status_hidden": String
+            // "gui.socialInteractions.status_blocked": "Blocked",
+            "status_blocked": String
+            // "gui.socialInteractions.status_offline": "Offline",
+            "status_offline": String
+            // "gui.socialInteractions.status_hidden_offline": "Hidden - Offline",
+            "status_hidden_offline": String
+            // "gui.socialInteractions.status_blocked_offline": "Blocked - Offline",
+            "status_blocked_offline": String
+            // "gui.socialInteractions.server_label.single": "%s - %s player",
+            // "gui.socialInteractions.server_label.multiple": "%s - %s players",
+            "server_label": {
+
+              "single": String
+              "multiple": String
+
+            }
+            // "gui.socialInteractions.search_hint": "Search...",
+            "search_hint": String
+            // "gui.socialInteractions.search_empty": "Couldn't find any players with that name",
+            "search_empty": String
+            // "gui.socialInteractions.empty_hidden": "No players hidden in chat",
+            "empty_hidden": String
+            // "gui.socialInteractions.empty_blocked": "No blocked players in chat",
+            "empty_blocked": String
+            // "gui.socialInteractions.hide": "Hide in Chat",
+            "hide": String
+            // "gui.socialInteractions.show": "Show in Chat",
+            "show": String
+            // "gui.socialInteractions.hidden_in_chat": "Chat messages from %s will be hidden",
+            "hidden_in_chat": String
+            // "gui.socialInteractions.shown_in_chat": "Chat messages from %s will be shown",
+            "shown_in_chat": String
+            // "gui.socialInteractions.tooltip.hide": "Hide messages from %s in chat",
+            // "gui.socialInteractions.tooltip.show": "Show messages from %s in chat",
+            "tooltip": {
+
+              "hide": String
+              "show": String
+
+            }
+            
+          }
+          // "gui.narrate.button": "%s button",
+          // "gui.narrate.slider": "%s slider",
+          // "gui.narrate.editBox": "%s edit box: %s",
+          "narrate": {
+
+            "button": String
+            "slider": String
+            "editBox": String
+
+          }
+          // "gui.advancements": "Advancements",
+          "advancements": String
+          // "gui.stats": "Statistics",
+          "stats": String
+          // "gui.entity_tooltip.type": "Type: %s",
+          "entity_tooltip": {
+
+            "type": String
+
+          }
+
+        }
+
+        "translation": { 
+          
+          "test": {
+
+            // "translation.test.none": "Hello, world!",
+            "none": String
+            // "translation.test.complex": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
+            "complex": String
+            // "translation.test.escape": "%%s %%%s %%%%s %%%%%s",
+            "escape": String
+            // "translation.test.invalid": "hi %",
+            "invalid": String
+            // "translation.test.invalid2": "hi %  s",
+            "invalid2": String
+            // "translation.test.args": "%s %s",
+            "args": String
+            // "translation.test.world": "world",
+            "world": String
+
+          }
+
+        }
     
         // "menu.game": "Game Menu",
         // "menu.singleplayer": "Singleplayer",

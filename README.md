@@ -14,6 +14,6 @@
 
 ## Infográfico & Resumo do Projeto
 
-![Wertsfy-Infograph-v2](https://user-images.githubusercontent.com/59739253/197366418-31fe7b23-bb49-43a6-936d-ce463dfd4659.png)
+![Wertsfy-Infograph-v3](https://user-images.githubusercontent.com/59739253/198925859-e8b032c9-3e14-4b9b-b3fd-7d974f8992c9.png)
 
 </div>

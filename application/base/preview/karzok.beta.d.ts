@@ -727,6 +727,7 @@ declare type Karzok = {
               "multiple": String
 
             }
+
             "search_hint": String
             "search_empty": String
             "empty_hidden": String
@@ -743,6 +744,7 @@ declare type Karzok = {
             }
             
           }
+
           "narrate": {
 
             "button": String
@@ -750,6 +752,7 @@ declare type Karzok = {
             "editBox": String
 
           }
+
           "advancements": String
           "stats": String
           "entity_tooltip": {
@@ -815,6 +818,7 @@ declare type Karzok = {
             "description": String
 
           }
+
           "title": String
           "stage": {
 
@@ -824,6 +828,7 @@ declare type Karzok = {
             "failed": String
 
           }
+
           "info": {
           
             "converted": String
@@ -833,23 +838,14 @@ declare type Karzok = {
           }
 
         }
+
         "selectWorld": {
   
-          // "selectWorld.title": "Select World",
           "title": String
-          // "selectWorld.search": "search for worlds",
           "search": String
-          // "selectWorld.world": "World",
           "world": String
-          // "selectWorld.select": "Play Selected World",
           "select": String
-          // "selectWorld.create": "Create New World",
           "create": String
-          // "selectWorld.recreate": "Re-Create",
-          // "selectWorld.recreate.error.title": "An error occurred!",
-          // "selectWorld.recreate.error.text": "Something went wrong while trying to recreate a world.",
-          // "selectWorld.recreate.customized.title": "Customized worlds are no longer supported",
-          // "selectWorld.recreate.customized.text": "Customized worlds are no longer supported in this version of Minecraft. We can try to recreate it with the same seed and properties, but any terrain customizations will be lost. We're sorry for the inconvenience!",
           "recreate": {
 
             Default: String
@@ -859,6 +855,7 @@ declare type Karzok = {
               "text": String
 
             }
+
             "customized": {
 
               "title": String
@@ -867,24 +864,9 @@ declare type Karzok = {
             }
 
           }
-          // "selectWorld.createDemo": "Play New Demo World",
+
           "createDemo": String
-          // "selectWorld.delete": "Delete",
           "delete": String
-          // "selectWorld.edit": "Edit",
-          // "selectWorld.edit.title": "Edit World",
-          // "selectWorld.edit.resetIcon": "Reset Icon",
-          // "selectWorld.edit.openFolder": "Open World Folder",
-          // "selectWorld.edit.save": "Save",
-          // "selectWorld.edit.backup": "Make Backup",
-          // "selectWorld.edit.backupFolder": "Open Backups Folder",
-          // "selectWorld.edit.backupFailed": "Backup failed",
-          // "selectWorld.edit.backupCreated": "Backed up: %s",
-          // "selectWorld.edit.backupSize": "size: %s MB",
-          // "selectWorld.edit.optimize": "Optimize World",
-          // "selectWorld.edit.export_worldgen_settings": "Export World Generation Settings",
-          // "selectWorld.edit.export_worldgen_settings.success": "Exported",
-          // "selectWorld.edit.export_worldgen_settings.failure": "Export failed",
           "edit": {
 
             Default: String
@@ -907,56 +889,31 @@ declare type Karzok = {
             }
 
           }
-          // "selectWorld.deleteQuestion": "Are you sure you want to delete this world?",
+
           "deleteQuestion": String
-          // "selectWorld.deleteWarning": "'%s' will be lost forever! (A long time!)",
           "deleteWarning": String
-          // "selectWorld.deleteButton": "Delete",
           "deleteButton": String
-          // "selectWorld.conversion": "Must be converted!",
-          // "selectWorld.conversion.tooltip": "This world must be opened in an older version (like 1.6.4) to be safely converted",
           "conversion": {
 
             Default: String
             "tooltip": String
 
           }
-          // "selectWorld.locked": "Locked by another running instance of Minecraft",
+
           "locked": String
-          // "selectWorld.incompatible_series": "Created by an incompatible version",
           "incompatible_series": String
-          // "selectWorld.newWorld": "New World",
           "newWorld": String
-          // "selectWorld.enterName": "World Name",
           "enterName": String
-          // "selectWorld.resultFolder": "Will be saved in:",
           "resultFolder": String
-          // "selectWorld.enterSeed": "Seed for the world generator",
           "enterSeed": String
-          // "selectWorld.seedInfo": "Leave blank for a random seed",
           "seedInfo": String
-          // "selectWorld.cheats": "Cheats",
           "cheats": String
-          // "selectWorld.customizeType": "Customize",
           "customizeType": String
-          // "selectWorld.version": "Version:",
           "version": String
-          // "selectWorld.versionUnknown": "unknown",
           "versionUnknown": String
-          // "selectWorld.versionQuestion": "Do you really want to load this world?",
           "versionQuestion": String
-          // "selectWorld.versionWarning": "This world was last played in version %s and loading it in this version could cause corruption!",
           "versionWarning": String
-          // "selectWorld.versionJoinButton": "Load Anyway",
           "versionJoinButton": String
-          // "selectWorld.backupQuestion.snapshot": "Do you really want to load this world?",
-          // "selectWorld.backupWarning.snapshot": "This world was last played in version %s; you are on version %s. Please make a backup in case you experience world corruptions!",
-          // "selectWorld.backupQuestion.downgrade": "Downgrading a world is not supported",
-          // "selectWorld.backupWarning.downgrade": "This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work. If you still want to continue, please make a backup!",
-          // "selectWorld.backupQuestion.customized": "Customized worlds are no longer supported",
-          // "selectWorld.backupWarning.customized": "Unfortunately, we do not support customized worlds in this version of Minecraft. We can still load this world and keep everything the way it was, but any newly generated terrain will no longer be customized. We're sorry for the inconvenience!",
-          // "selectWorld.backupQuestion.experimental": "Worlds using Experimental Settings are not supported",
-          // "selectWorld.backupWarning.experimental": "This world uses experimental settings that could stop working at any time. We cannot guarantee it will load or work. Here be dragons!",
           "backupQuestion": {
 
             "snapshot": String
@@ -965,6 +922,7 @@ declare type Karzok = {
             "experimental": String
 
           }
+
           "backupWarning": {
 
             "snapshot": String
@@ -973,16 +931,10 @@ declare type Karzok = {
             "experimental": String
 
           }
-          // "selectWorld.backupEraseCache": "Erase cached data",
+
           "backupEraseCache": String
-          // "selectWorld.backupJoinConfirmButton": "Create Backup and Load",
           "backupJoinConfirmButton": String
-          // "selectWorld.backupJoinSkipButton": "I know what I'm doing!",
           "backupJoinSkipButton": String
-          // "selectWorld.tooltip.fromNewerVersion1": "World was saved in a newer version,",
-          // "selectWorld.tooltip.fromNewerVersion2": "loading this world could cause problems!",
-          // "selectWorld.tooltip.snapshot1": "Don't forget to back up this world",
-          // "selectWorld.tooltip.snapshot2": "before you load it in this snapshot.",
           "tooltip": {
 
             "fromNewerVersion1": String
@@ -991,10 +943,8 @@ declare type Karzok = {
             "snapshot2": String
 
           }
-          // "selectWorld.unable_to_load": "Unable to load worlds",
+
           "unable_to_load": String
-          // "selectWorld.futureworld.error.title": "An error occurred!",
-          // "selectWorld.futureworld.error.text": "Something went wrong while trying to load a world from a future version. This was a risky operation to begin with; sorry it didn't work.",
           "futureworld": {
 
             "error": {
@@ -1005,138 +955,198 @@ declare type Karzok = {
             }
 
           }
-          // "selectWorld.load_folder_access": "Unable to read or access folder where game worlds are saved!",
+
           "load_folder_access": String
-          // "selectWorld.access_failure": "Failed to access world",
           "access_failure": String
-          // "selectWorld.delete_failure": "Failed to delete world",
           "delete_failure": String
-          // "selectWorld.data_read": "Reading world data...",
           "data_read": String
-          // "selectWorld.gameMode": "Game Mode",
-          // "selectWorld.gameMode.survival": "Survival",
-          // "selectWorld.gameMode.survival.line1": "Search for resources, craft, gain",
-          // "selectWorld.gameMode.survival.line2": "levels, health and hunger",
-          // "selectWorld.gameMode.creative": "Creative",
-          // "selectWorld.gameMode.creative.line1": "Unlimited resources, free flying and",
-          // "selectWorld.gameMode.creative.line2": "destroy blocks instantly",
-          // "selectWorld.gameMode.spectator": "Spectator",
-          // "selectWorld.gameMode.spectator.line1": "You can look but don't touch",
-          // "selectWorld.gameMode.spectator.line2": "",
-          // "selectWorld.gameMode.hardcore": "Hardcore",
-          // "selectWorld.gameMode.hardcore.line1": "Same as Survival Mode, locked at hardest",
-          // "selectWorld.gameMode.hardcore.line2": "difficulty, and one life only",
-          // "selectWorld.gameMode.adventure": "Adventure",
-          // "selectWorld.gameMode.adventure.line1": "Same as Survival Mode, but blocks can't",
-          // "selectWorld.gameMode.adventure.line2": "be added or removed",
-          
-          // "selectWorld.moreWorldOptions": "More World Options...",
-          // "selectWorld.gameRules": "Game Rules",
-          // "selectWorld.mapFeatures": "Generate Structures",
-          // "selectWorld.mapFeatures.info": "Villages, dungeons etc.",
-          // "selectWorld.mapType": "World Type",
-          // "selectWorld.mapType.normal": "Normal",
-          // "selectWorld.allowCommands": "Allow Cheats",
-          // "selectWorld.allowCommands.info": "Commands like /gamemode, /experience",
-          // "selectWorld.dataPacks": "Data Packs",
-          // "selectWorld.bonusItems": "Bonus Chest",
-          // "selectWorld.import_worldgen_settings": "Import Settings",
-          // "selectWorld.import_worldgen_settings.select_file": "Select settings file (.json)",
-          // "selectWorld.import_worldgen_settings.failure": "Error importing settings",
-          // "selectWorld.import_worldgen_settings.experimental.title": "Warning! These settings are using experimental features",
-          // "selectWorld.import_worldgen_settings.experimental.question": "These settings are experimental and could one day stop working. Do you wish to proceed?",
-          // "selectWorld.import_worldgen_settings.deprecated.title": "Warning! These settings are using deprecated features",
-          // "selectWorld.import_worldgen_settings.deprecated.question": "Some features used are deprecated and will stop working in the future. Do you wish to proceed?",
+          "selectWorld": {
+
+            "gamemode": {
+
+              Default: String
+              "survival": {
+
+                Default: String
+                "line1": String
+                "line2": String
+
+              }
+
+              "creative": {
+
+                Default: String
+                "line1": String
+                "line2": String
+
+              }
+
+              "spectator": {
+                
+                Default: String
+                "line1": String
+                "line2": String
+
+              }
+
+              "hardcore": {
+                
+                Default: String
+                "line1": String
+                "line2": String
+
+              }
+
+              "adventure": {
+                
+                Default: String
+                "line1": String
+                "line2": String
+
+              }
+
+            }
+
+          }
+          "moreWorldOptions": String
+          "gameRules": String
+          "mapFeatures": {
+
+            Default: String
+            "info": String
+
+          }
+
+          "mapType": {
+
+            Default: String
+            "normal": String
+
+          }
+
+          "allowCommands": {
+
+            Default: String
+            "info": String
+
+          }
+
+          "dataPacks": String
+          "bonusItems": String
+          "import_worldgen_settings": {
+
+            Default: String
+            "select_file": String
+            "failure": String
+            "experimental": {
+
+              "title": String
+              "question": String
+
+            }
+
+            "deprecated": {
+
+              "title": String
+              "question": String
+
+            }
+
+          }
 
         }
 
-        // "createWorld.customize.presets": "Presets",
-        // "createWorld.customize.presets.title": "Select a Preset",
-        // "createWorld.customize.presets.select": "Use Preset",
-        // "createWorld.customize.presets.share": "Want to share your preset with someone? Use the box below!",
-        // "createWorld.customize.presets.list": "Alternatively, here's some we made earlier!",
-        // "createWorld.customize.flat.title": "Superflat Customization",
-        // "createWorld.customize.flat.tile": "Layer Material",
-        // "createWorld.customize.flat.height": "Height",
-        // "createWorld.customize.flat.removeLayer": "Remove Layer",
-        // "createWorld.customize.flat.layer.top": "Top - %s",
-        // "createWorld.customize.flat.layer": "%s",
-        // "createWorld.customize.flat.layer.bottom": "Bottom - %s",
-        // "createWorld.customize.buffet.title": "Buffet world customization",
-        // "createWorld.customize.buffet.biome": "Please select a biome",
-        // "createWorld.customize.preset.classic_flat": "Classic Flat",
-        // "createWorld.customize.preset.tunnelers_dream": "Tunnelers' Dream",
-        // "createWorld.customize.preset.water_world": "Water World",
-        // "createWorld.customize.preset.overworld": "Overworld",
-        // "createWorld.customize.preset.snowy_kingdom": "Snowy Kingdom",
-        // "createWorld.customize.preset.bottomless_pit": "Bottomless Pit",
-        // "createWorld.customize.preset.desert": "Desert",
-        // "createWorld.customize.preset.redstone_ready": "Redstone Ready",
-        // "createWorld.customize.preset.the_void": "The Void",
-        // "createWorld.customize.custom.page0": "Basic Settings",
-        // "createWorld.customize.custom.page1": "Ore Settings",
-        // "createWorld.customize.custom.page2": "Advanced Settings (Expert Users Only!)",
-        // "createWorld.customize.custom.page3": "Extra Advanced Settings (Expert Users Only!)",
-        // "createWorld.customize.custom.randomize": "Randomize",
-        // "createWorld.customize.custom.prev": "Previous Page",
-        // "createWorld.customize.custom.next": "Next Page",
-        // "createWorld.customize.custom.defaults": "Defaults",
-        // "createWorld.customize.custom.confirm1": "This will overwrite your current",
-        // "createWorld.customize.custom.confirm2": "settings and cannot be undone.",
-        // "createWorld.customize.custom.confirmTitle": "Warning!",
-        // "createWorld.customize.custom.mainNoiseScaleX": "Main Noise Scale X",
-        // "createWorld.customize.custom.mainNoiseScaleY": "Main Noise Scale Y",
-        // "createWorld.customize.custom.mainNoiseScaleZ": "Main Noise Scale Z",
-        // "createWorld.customize.custom.depthNoiseScaleX": "Depth Noise Scale X",
-        // "createWorld.customize.custom.depthNoiseScaleZ": "Depth Noise Scale Z",
-        // "createWorld.customize.custom.depthNoiseScaleExponent": "Depth Noise Exponent",
-        // "createWorld.customize.custom.baseSize": "Depth Base Size",
-        // "createWorld.customize.custom.coordinateScale": "Coordinate Scale",
-        // "createWorld.customize.custom.heightScale": "Height Scale",
-        // "createWorld.customize.custom.stretchY": "Height Stretch",
-        // "createWorld.customize.custom.upperLimitScale": "Upper Limit Scale",
-        // "createWorld.customize.custom.lowerLimitScale": "Lower Limit Scale",
-        // "createWorld.customize.custom.biomeDepthWeight": "Biome Depth Weight",
-        // "createWorld.customize.custom.biomeDepthOffset": "Biome Depth Offset",
-        // "createWorld.customize.custom.biomeScaleWeight": "Biome Scale Weight",
-        // "createWorld.customize.custom.biomeScaleOffset": "Biome Scale Offset",
-        // "createWorld.customize.custom.seaLevel": "Sea Level",
-        // "createWorld.customize.custom.useCaves": "Caves",
-        // "createWorld.customize.custom.useStrongholds": "Strongholds",
-        // "createWorld.customize.custom.useVillages": "Villages",
-        // "createWorld.customize.custom.useMineShafts": "Mineshafts",
-        // "createWorld.customize.custom.useTemples": "Temples",
-        // "createWorld.customize.custom.useOceanRuins": "Ocean Ruins",
-        // "createWorld.customize.custom.useMonuments": "Ocean Monuments",
-        // "createWorld.customize.custom.useMansions": "Woodland Mansions",
-        // "createWorld.customize.custom.useRavines": "Ravines",
-        // "createWorld.customize.custom.useDungeons": "Dungeons",
-        // "createWorld.customize.custom.dungeonChance": "Dungeon Count",
-        // "createWorld.customize.custom.useWaterLakes": "Water Lakes",
-        // "createWorld.customize.custom.waterLakeChance": "Water Lake Rarity",
-        // "createWorld.customize.custom.useLavaLakes": "Lava Lakes",
-        // "createWorld.customize.custom.lavaLakeChance": "Lava Lake Rarity",
-        // "createWorld.customize.custom.useLavaOceans": "Lava Oceans",
-        // "createWorld.customize.custom.fixedBiome": "Biome",
-        // "createWorld.customize.custom.biomeSize": "Biome Size",
-        // "createWorld.customize.custom.riverSize": "River Size",
-        // "createWorld.customize.custom.size": "Spawn Size",
-        // "createWorld.customize.custom.count": "Spawn Tries",
-        // "createWorld.customize.custom.minHeight": "Min. Height",
-        // "createWorld.customize.custom.maxHeight": "Max. Height",
-        // "createWorld.customize.custom.center": "Center Height",
-        // "createWorld.customize.custom.spread": "Spread Height",
-        // "createWorld.customize.custom.presets.title": "Customize World Presets",
-        // "createWorld.customize.custom.presets": "Presets",
-        // "createWorld.customize.custom.preset.waterWorld": "Water World",
-        // "createWorld.customize.custom.preset.isleLand": "Isle Land",
-        // "createWorld.customize.custom.preset.caveDelight": "Caver's Delight",
-        // "createWorld.customize.custom.preset.mountains": "Mountain Madness",
-        // "createWorld.customize.custom.preset.drought": "Drought",
-        // "createWorld.customize.custom.preset.caveChaos": "Caves of Chaos",
-        // "createWorld.customize.custom.preset.goodLuck": "Good Luck",
-        // "createWorld.preparing": "Preparing for world creation...",
-        "createWorld": { }
+        "createWorld": {
+          
+          // "createWorld.customize.presets": "Presets",
+          // "createWorld.customize.presets.title": "Select a Preset",
+          // "createWorld.customize.presets.select": "Use Preset",
+          // "createWorld.customize.presets.share": "Want to share your preset with someone? Use the box below!",
+          // "createWorld.customize.presets.list": "Alternatively, here's some we made earlier!",
+          // "createWorld.customize.flat.title": "Superflat Customization",
+          // "createWorld.customize.flat.tile": "Layer Material",
+          // "createWorld.customize.flat.height": "Height",
+          // "createWorld.customize.flat.removeLayer": "Remove Layer",
+          // "createWorld.customize.flat.layer.top": "Top - %s",
+          // "createWorld.customize.flat.layer": "%s",
+          // "createWorld.customize.flat.layer.bottom": "Bottom - %s",
+          // "createWorld.customize.buffet.title": "Buffet world customization",
+          // "createWorld.customize.buffet.biome": "Please select a biome",
+          // "createWorld.customize.preset.classic_flat": "Classic Flat",
+          // "createWorld.customize.preset.tunnelers_dream": "Tunnelers' Dream",
+          // "createWorld.customize.preset.water_world": "Water World",
+          // "createWorld.customize.preset.overworld": "Overworld",
+          // "createWorld.customize.preset.snowy_kingdom": "Snowy Kingdom",
+          // "createWorld.customize.preset.bottomless_pit": "Bottomless Pit",
+          // "createWorld.customize.preset.desert": "Desert",
+          // "createWorld.customize.preset.redstone_ready": "Redstone Ready",
+          // "createWorld.customize.preset.the_void": "The Void",
+          // "createWorld.customize.custom.page0": "Basic Settings",
+          // "createWorld.customize.custom.page1": "Ore Settings",
+          // "createWorld.customize.custom.page2": "Advanced Settings (Expert Users Only!)",
+          // "createWorld.customize.custom.page3": "Extra Advanced Settings (Expert Users Only!)",
+          // "createWorld.customize.custom.randomize": "Randomize",
+          // "createWorld.customize.custom.prev": "Previous Page",
+          // "createWorld.customize.custom.next": "Next Page",
+          // "createWorld.customize.custom.defaults": "Defaults",
+          // "createWorld.customize.custom.confirm1": "This will overwrite your current",
+          // "createWorld.customize.custom.confirm2": "settings and cannot be undone.",
+          // "createWorld.customize.custom.confirmTitle": "Warning!",
+          // "createWorld.customize.custom.mainNoiseScaleX": "Main Noise Scale X",
+          // "createWorld.customize.custom.mainNoiseScaleY": "Main Noise Scale Y",
+          // "createWorld.customize.custom.mainNoiseScaleZ": "Main Noise Scale Z",
+          // "createWorld.customize.custom.depthNoiseScaleX": "Depth Noise Scale X",
+          // "createWorld.customize.custom.depthNoiseScaleZ": "Depth Noise Scale Z",
+          // "createWorld.customize.custom.depthNoiseScaleExponent": "Depth Noise Exponent",
+          // "createWorld.customize.custom.baseSize": "Depth Base Size",
+          // "createWorld.customize.custom.coordinateScale": "Coordinate Scale",
+          // "createWorld.customize.custom.heightScale": "Height Scale",
+          // "createWorld.customize.custom.stretchY": "Height Stretch",
+          // "createWorld.customize.custom.upperLimitScale": "Upper Limit Scale",
+          // "createWorld.customize.custom.lowerLimitScale": "Lower Limit Scale",
+          // "createWorld.customize.custom.biomeDepthWeight": "Biome Depth Weight",
+          // "createWorld.customize.custom.biomeDepthOffset": "Biome Depth Offset",
+          // "createWorld.customize.custom.biomeScaleWeight": "Biome Scale Weight",
+          // "createWorld.customize.custom.biomeScaleOffset": "Biome Scale Offset",
+          // "createWorld.customize.custom.seaLevel": "Sea Level",
+          // "createWorld.customize.custom.useCaves": "Caves",
+          // "createWorld.customize.custom.useStrongholds": "Strongholds",
+          // "createWorld.customize.custom.useVillages": "Villages",
+          // "createWorld.customize.custom.useMineShafts": "Mineshafts",
+          // "createWorld.customize.custom.useTemples": "Temples",
+          // "createWorld.customize.custom.useOceanRuins": "Ocean Ruins",
+          // "createWorld.customize.custom.useMonuments": "Ocean Monuments",
+          // "createWorld.customize.custom.useMansions": "Woodland Mansions",
+          // "createWorld.customize.custom.useRavines": "Ravines",
+          // "createWorld.customize.custom.useDungeons": "Dungeons",
+          // "createWorld.customize.custom.dungeonChance": "Dungeon Count",
+          // "createWorld.customize.custom.useWaterLakes": "Water Lakes",
+          // "createWorld.customize.custom.waterLakeChance": "Water Lake Rarity",
+          // "createWorld.customize.custom.useLavaLakes": "Lava Lakes",
+          // "createWorld.customize.custom.lavaLakeChance": "Lava Lake Rarity",
+          // "createWorld.customize.custom.useLavaOceans": "Lava Oceans",
+          // "createWorld.customize.custom.fixedBiome": "Biome",
+          // "createWorld.customize.custom.biomeSize": "Biome Size",
+          // "createWorld.customize.custom.riverSize": "River Size",
+          // "createWorld.customize.custom.size": "Spawn Size",
+          // "createWorld.customize.custom.count": "Spawn Tries",
+          // "createWorld.customize.custom.minHeight": "Min. Height",
+          // "createWorld.customize.custom.maxHeight": "Max. Height",
+          // "createWorld.customize.custom.center": "Center Height",
+          // "createWorld.customize.custom.spread": "Spread Height",
+          // "createWorld.customize.custom.presets.title": "Customize World Presets",
+          // "createWorld.customize.custom.presets": "Presets",
+          // "createWorld.customize.custom.preset.waterWorld": "Water World",
+          // "createWorld.customize.custom.preset.isleLand": "Isle Land",
+          // "createWorld.customize.custom.preset.caveDelight": "Caver's Delight",
+          // "createWorld.customize.custom.preset.mountains": "Mountain Madness",
+          // "createWorld.customize.custom.preset.drought": "Drought",
+          // "createWorld.customize.custom.preset.caveChaos": "Caves of Chaos",
+          // "createWorld.customize.custom.preset.goodLuck": "Good Luck",
+          // "createWorld.preparing": "Preparing for world creation...",
+
+
+        }
         
         // "chat.editBox": "chat",
         // "chat.cannotSend": "Cannot send chat message",

@@ -1,4 +1,4 @@
-declare interface Native { 
+declare interface Architecture { 
   struct: Struct;
   matriz: Matriz;
 }
@@ -6,7 +6,7 @@ declare interface Native {
 // parents of Native:
   /***/  
   declare interface Struct { 
-    constructor: Object
+    build: Object
   }
   /***/
 
@@ -23,10 +23,10 @@ declare interface Ecmascript { }
   /***/
 
 // modules declarations
-declare module "arch-native" { 
-  export var Native: Native;
+declare module "arch-base" { 
+  export var architecture: Architecture;
 }
 
 declare module "arch-ecmascript" {
-  export var Ecmascript: Ecmascript;
+  export var ecmascript: Ecmascript;
 }

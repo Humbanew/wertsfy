@@ -19,9 +19,16 @@ class WBoard {
 
     wmath: wertsfy_math,
     wterminal: wertsfy_terminal,
-    wspectrals: wertsfy_spectrals
+    wspectrals: wertsfy_spectrals,
+
+    // experimental architecture of project - labo
+    wmathl: class WMathl {
+      get number() { return 5; }
+    }
 
   }
+
+  public mathExperimentalLabo = new this.WLibrarys.wmathl();
 
   // Abstração de toda a Aplicação para o mundo externo
   public wertsfy = {
@@ -699,3 +706,6 @@ class WBoard {
   }
 
 } export var wtsy = new WBoard().wertsfy; 
+
+// labo variable
+export var wtsyml = new WBoard().mathExperimentalLabo;

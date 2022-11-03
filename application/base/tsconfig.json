@@ -2,9 +2,11 @@
 
   "compilerOptions": {
 
-    "moduleResolution": "node",
-    "noImplicitUseStrict": true,
+    "target": "ES2022",
+    "module": "commonjs",
+    "alwaysStrict": false,
     "strict": false,
+    "noImplicitUseStrict": true,
 
   },
 

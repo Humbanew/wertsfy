@@ -1,4 +1,4 @@
-declare interface Modals { 
+declare interface WArch { 
   struct: Struct;
   matriz: Matriz;
 }
@@ -17,16 +17,16 @@ declare interface Modals {
   /***/
 
   // ??? ainda a adicionar.
-declare interface Ecmascript { }
+declare interface EcmaScript { }
 
 // parents of Ecmascript:
   /***/
 
 // modules declarations
 declare module "archbase" { 
-  export var modals: Modals;
+  export var wArch: WArch;
 }
 
 declare module "archecmascript" {
-  export var ecmascript: Ecmascript;
+  export var ecmascript: EcmaScript;
 }

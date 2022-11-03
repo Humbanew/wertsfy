@@ -608,6 +608,12 @@ class WBoard {
     
     },
 
+    // bloco de implementação da Biblioteca "Lydroc"
+    // bloco de implementação da Biblioteca "Karzok"
+    // bloco de implementação da Biblioteca "Character"
+    // bloco de implementação da Biblioteca "Calculator"
+    // bloco de implementação da Biblioteca "Sollpass"
+
   }
 
   public wertsfy_math = new this.WLibrarys.wmath();

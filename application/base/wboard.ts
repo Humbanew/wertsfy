@@ -14,6 +14,8 @@ class WBoard {
   protected WCommandLineInterface = null
   // bloco de implementação de Testes
   protected WNikko = null
+  // bloco de implementação de Serviços
+  protected WServices = null
   // bloco de implementação das Bibliotecas
   protected WLibrarys = {
 
@@ -684,10 +686,14 @@ class WBoard {
        * Returns the text with color formatation.
        * @augments ``modelo``|**``WCollections``**
        * Model template selection.
+       * @augments ``template``|**``WTrmSClr``**
+       * Model template selection.
+       * @augments ``esquema``|**``WTrmSClrF``**
+       * Model template selection.
        * @augments ``texto``|**``string``**
-       * Text to format. 
+       * Text to color format. 
        */
-      addformcor: (m: WCollections, texto: string) => this.WLibrarys.wterminal.adicionaFormTexto(m, texto)
+      addformcor: (m: WCollections, texto: string) => this.WLibrarys.wterminal.adicionaClrTexto(m, "3b4bit", "F",texto)
 
     },
 

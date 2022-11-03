@@ -66,11 +66,11 @@ class WTerminal {
     return "\033[" + `${formato}${texto}` + "\033[0m";
   };
 
-  public adicionaClrTexto(modelo: WCollections, tC: WTrmSClr, eC: WTrmSClrF, texto: string): string {
+  public adicionaClrTexto(modelo: WCollections, template: WTrmSClr, esquema: WTrmSClrF, texto: string): string {
     let formato: any|string, objeto: any, regexp: RegExp;
-    switch(tC) {
+    switch(template) {
       case "3b4bit":
-        switch(eC) {
+        switch(esquema) {
           case "C":
             objeto = modelo.Terminal.Tipo.Coloracao.Template.Formato.f_3b4bit.CorLetra 
              ,regexp = /[0-9]m/gi;
@@ -81,7 +81,7 @@ class WTerminal {
             formato = regexp.exec(objeto)?.toString();
         }
       case "8bit":
-        switch(eC) {
+        switch(esquema) {
           case "C":
             objeto = modelo.Terminal.Tipo.Coloracao.Template.Formato.f_8bit.CorLetra 
              ,regexp = /[0-9];5;[0-9]m/gi;
@@ -92,7 +92,7 @@ class WTerminal {
             formato = regexp.exec(objeto)?.toString();
         }
       case "24bit":
-        switch(eC) {
+        switch(esquema) {
           case "C":
             objeto = modelo.Terminal.Tipo.Coloracao.Template.Formato.f_24bit.CorLetra
              ,regexp = /[0-9];2;[0-9];[0-9];[0-9]m/gi;

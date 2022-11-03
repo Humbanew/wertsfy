@@ -1,1 +1,6 @@
-export declare type WCConsts = { };
+export declare type WCConsts = {
+
+  OctalIn: "\033["
+  OctalOut: "\033[0m"
+
+};

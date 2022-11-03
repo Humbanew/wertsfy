@@ -1,0 +1,11 @@
+{
+
+  "compilerOptions": {
+
+    "moduleResolution": "node",
+    "noImplicitUseStrict": true,
+    "strict": false,
+
+  },
+
+}

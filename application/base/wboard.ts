@@ -1,4 +1,5 @@
-'use strict'
+/// <reference path="preview/architecture.d.ts" />
+/// <reference path="wcollections.d.ts" />
 
 import { WCollections, WTrmSClr, WTrmSClrF } from "./wcollections";
 
@@ -6,16 +7,11 @@ import { WCollections, WTrmSClr, WTrmSClrF } from "./wcollections";
 class WBoard {
 
   // bloco de implementação do Command Line Interface
-  protected wtsy_cli = class WCLI { }
-
+  protected WCommandLineInterface = null
   // bloco de implementação de Testes
-  protected wtsy_nkk = class WNikko { }
-
-  // bloco de implementação de Transcompilação
-  protected wtsy_tscp = class WTscp { }
-
+  protected WNikko = null
   // bloco de implementação das Bibliotecas
-  protected wtsy_lib = class WLib {
+  protected WLibrarys = class WLib {
     
     // método privado para logarítmo
     _log(expo: number, x: number): number {
@@ -40,7 +36,7 @@ class WBoard {
 
 
     // bloco de implementação da Biblioteca "Math"
-    public Math = class WMath {
+    math = class WMath {
 
       get pi()
       { 
@@ -494,7 +490,7 @@ class WBoard {
     }
 
     // bloco de implementação da Biblioteca "Terminal"
-    public Terminal = class WTerminal {
+    terminal = class WTerminal {
 
       get inputSymbol()
       {
@@ -565,7 +561,7 @@ class WBoard {
       public adicionaFormTexto(modelo: WCollections, texto: string): string {
         const objeto = modelo.Terminal.Tipo.Formatacao.Template, regexp = /[0-9]m/gi;
         let formato = regexp.exec(objeto)?.toString();
-        return `\033[${formato}${texto}\033[0m`;
+        return "\033[" + `${formato}${texto}` + "\033[0m";
       };
 
       public adicionaClrTexto(modelo: WCollections, tC: WTrmSClr, eC: WTrmSClrF, texto: string): string {
@@ -605,13 +601,13 @@ class WBoard {
                 formato = regexp.exec(objeto)?.toString();
             }
         }
-        return `\033[${formato}${texto}\033[0m`;
+        return "\033[" + `${formato}${texto}` + "\033[0m";
       }
 
     }
 
     // bloco de implementação da Biblioteca "Spectrals"
-    public Spectrals = class WSpectrals {
+    spectrals = class WSpectrals {
 
       public selecionaUmaCor(cor: WCollections): WCollections { 
         return cor; 
@@ -622,13 +618,12 @@ class WBoard {
     // bloco de implementação da Biblioteca "Karzok"
     // bloco de implementação da Biblioteca "Lydroc"
     // bloco de implementação da Biblioteca "Character"
-    // bloco de implementação da Biblioteca "Malibu"
 
   }
 
-  protected rdcmath = new this.wtsy_lib.prototype.Math();
-  protected rdcterminal = new this.wtsy_lib.prototype.Terminal();
-  protected rdcspectrals = new this.wtsy_lib.prototype.Spectrals();
+  protected rdcmath = this.WLibrarys.prototype.math;
+  protected rdcterminal = this.WLibrarys.prototype.terminal;
+  protected rdcspectrals = this.WLibrarys.prototype.spectrals;
 
   // Abstração de toda a Aplicação para o mundo externo
   public wertsfy= 
@@ -641,85 +636,85 @@ class WBoard {
        * @description **``Constant``**
        * Returns the pi value. 
        */
-      Pi: this.rdcmath.pi,
+      Pi: this.rdcmath.prototype.pi,
 
       /** 
        * @description **``Constant``** 
        * Returns the euler value.
        */
-      Euler: this.rdcmath.euler,
+      Euler: this.rdcmath.prototype.euler,
       
       /** 
        * @description **``Constant``** 
        * Returns the plank value.
        */
-      Plank: this.rdcmath.plank,
+      Plank: this.rdcmath.prototype.plank,
 
       /** 
        * @description **``Constant``** 
        * Returns the avogrado value.
        */
-      Avogadro: this.rdcmath.avogadro,
+      Avogadro: this.rdcmath.prototype.avogadro,
 
       /** 
        * @description **``Constant``** 
        * Returns the newton value.
        */
-      Newton: this.rdcmath.newton,
+      Newton: this.rdcmath.prototype.newton,
 
       /** 
        * @description **``Constant``** 
        * Returns the tesla value.
        */
-      Tesla: this.rdcmath.tesla,
+      Tesla: this.rdcmath.prototype.tesla,
 
       /** 
        * @description **``Constant``** 
        * Returns the root square values.
        */
-      Sqrt: this.rdcmath.sqrtd,
+      Sqrt: this.rdcmath.prototype.sqrtd,
 
       /** 
        * @description **``Constant``** 
        * Returns the cubic square values.
        */
-      Cbrt: this.rdcmath.cbrtd,
+      Cbrt: this.rdcmath.prototype.cbrtd,
 
       /** 
        * @description **``Constant``** 
        * Returns the natural logarithm with base two value.
        */
-      Ln2: this.rdcmath.ln2,
+      Ln2: this.rdcmath.prototype.ln2,
 
       /** 
        * @description **``Constant``** 
        * Returns the natural logarithm with base ten value.
        */
-      Ln10: this.rdcmath.ln10,
+      Ln10: this.rdcmath.prototype.ln10,
 
       /** 
        * @description **``Constant``** 
        * Returns the logarithm of euler with base two value.
        */
-      Log2e: this.rdcmath.log2e,
+      Log2e: this.rdcmath.prototype.log2e,
 
       /** 
        * @description **``Constant``** 
        * Returns the logarithm of euler with base ten value.
        */
-      Log10e: this.rdcmath.log10e,
+      Log10e: this.rdcmath.prototype.log10e,
 
       /** 
        * @description **``Constant``** 
        * Returns the maxvalue.
        */
-      Maxvalue: this.rdcmath.maxvalue,
+      Maxvalue: this.rdcmath.prototype.maxvalue,
 
       /** 
        * @description **``Constant``** 
        * Returns the minvalue.
        */
-      Minvalue: this.rdcmath.minvalue,
+      Minvalue: this.rdcmath.prototype.minvalue,
 
       /** 
        * @description **``Method``** 
@@ -727,7 +722,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      abs: (x: number) => this.rdcmath.abs(x),
+      abs: (x: number) => this.rdcmath.prototype.abs(x),
 
       /** 
        * @description **``Method``** 
@@ -735,7 +730,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */      
-      sqrt: (x: number) => this.rdcmath.sqrt(x),
+      sqrt: (x: number) => this.rdcmath.prototype.sqrt(x),
 
       /** 
        * @description **``Method``** 
@@ -743,7 +738,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      cbrt: (x: number) => this.rdcmath.cbrt(x),
+      cbrt: (x: number) => this.rdcmath.prototype.cbrt(x),
 
       /** 
        * @description **``Method``** 
@@ -751,7 +746,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      quart: (x: number) => this.rdcmath.quart(x),
+      quart: (x: number) => this.rdcmath.prototype.quart(x),
 
       /** 
        * @description **``Method``** 
@@ -759,7 +754,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      quint: (x: number) => this.rdcmath.quint(x),
+      quint: (x: number) => this.rdcmath.prototype.quint(x),
 
       /** 
        * @description **``Method``** 
@@ -767,7 +762,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      sext: (x: number) => this.rdcmath.sext(x),
+      sext: (x: number) => this.rdcmath.prototype.sext(x),
 
       /** 
        * @description **``Method``** 
@@ -775,7 +770,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      sept: (x: number) => this.rdcmath.sept(x),
+      sept: (x: number) => this.rdcmath.prototype.sept(x),
 
       /** 
        * @description **``Method``** 
@@ -783,7 +778,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      oct: (x: number) => this.rdcmath.oct(x),
+      oct: (x: number) => this.rdcmath.prototype.oct(x),
 
       /** 
        * @description **``Method``** 
@@ -791,7 +786,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      non: (x: number) => this.rdcmath.non(x),
+      non: (x: number) => this.rdcmath.prototype.non(x),
 
       /** 
        * @description **``Method``** 
@@ -799,7 +794,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value. 
        */
-      dec: (x: number) => this.rdcmath.dec(x),
+      dec: (x: number) => this.rdcmath.prototype.dec(x),
 
       /** 
        * @description **``Method``** 
@@ -809,7 +804,7 @@ class WBoard {
        * @augments ``y``|**``number``**
        * Number power value.
        */
-      pow: (x: number, y: number) => this.rdcmath.pow(x, y),
+      pow: (x: number, y: number) => this.rdcmath.prototype.pow(x, y),
 
       /** 
        * @description **``Method``** 
@@ -821,7 +816,7 @@ class WBoard {
        * @augments ``z``|**``number[]``** (Optional)
        * Power's sequency values. 
        */
-      powOfPow: (x: number, y: number, z?: number[]) => this.rdcmath.powOfPow(x, y, z),
+      powOfPow: (x: number, y: number, z?: number[]) => this.rdcmath.prototype.powOfPow(x, y, z),
 
       /** 
        * @description **``Method``**
@@ -829,7 +824,7 @@ class WBoard {
        * @augments ``x``|**``number[]``**
        * Number sequence.
        */
-      max: (x: number[]) => this.rdcmath.max(x),
+      max: (x: number[]) => this.rdcmath.prototype.max(x),
 
       /** 
        * @description **``Method``**
@@ -837,7 +832,7 @@ class WBoard {
        * @augments ``x``|**``number[]``**
        * Number sequence.
        */
-      min: (x: number[]) => this.rdcmath.min(x),
+      min: (x: number[]) => this.rdcmath.prototype.min(x),
 
       /** 
        * @description **``Method``**
@@ -845,7 +840,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Floating value.
        */
-      round: (x: number) => this.rdcmath.round(x),
+      round: (x: number) => this.rdcmath.prototype.round(x),
 
       /** 
        * @description **``Method``**
@@ -853,7 +848,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Floating value.
        */
-      fround: (x: number) => this.rdcmath.fround(x),
+      fround: (x: number) => this.rdcmath.prototype.fround(x),
 
       /** 
        * @description **``Method``**
@@ -861,7 +856,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sign: (x: number) => this.rdcmath.sign(x),
+      sign: (x: number) => this.rdcmath.prototype.sign(x),
 
       /** 
        * @description **``Method``**
@@ -869,7 +864,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      trunc: (x: number) => this.rdcmath.trunc(x),
+      trunc: (x: number) => this.rdcmath.prototype.trunc(x),
 
       /** 
        * @description **``Method``**
@@ -877,7 +872,7 @@ class WBoard {
        * @augments ``x``|**``number``** ``y``|**``number``**
        * Number value.
        */
-      imul: (x: number, y: number) => this.rdcmath.imul(x, y),
+      imul: (x: number, y: number) => this.rdcmath.prototype.imul(x, y),
 
       /** 
        * @description **``Method``**
@@ -885,7 +880,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      ceil: (x: number) => this.rdcmath.ceil(x),
+      ceil: (x: number) => this.rdcmath.prototype.ceil(x),
 
       /** 
        * @description **``Method``**
@@ -893,7 +888,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      floor: (x: number) => this.rdcmath.floor(x),
+      floor: (x: number) => this.rdcmath.prototype.floor(x),
 
       /**
        * @description **``Method``**
@@ -901,7 +896,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sin: (x: number) => this.rdcmath.sin(x),
+      sin: (x: number) => this.rdcmath.prototype.sin(x),
 
       /** 
        * @description **``Method``**
@@ -909,7 +904,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cos: (x: number) => this.rdcmath.cos(x),
+      cos: (x: number) => this.rdcmath.prototype.cos(x),
 
       /**
        * @description **``Method``**
@@ -917,7 +912,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      tan: (x: number) => this.rdcmath.tan(x),
+      tan: (x: number) => this.rdcmath.prototype.tan(x),
 
       /** 
        * @description **``Method``**
@@ -925,7 +920,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sec: (x: number) => this.rdcmath.sec(x),
+      sec: (x: number) => this.rdcmath.prototype.sec(x),
 
       /**
        * @description **``Method``**
@@ -933,7 +928,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosec: (x: number) => this.rdcmath.cosec(x),
+      cosec: (x: number) => this.rdcmath.prototype.cosec(x),
 
       /** 
        * @description **``Method``**
@@ -941,7 +936,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cotan: (x: number) => this.rdcmath.cotan(x),
+      cotan: (x: number) => this.rdcmath.prototype.cotan(x),
 
       /**
        * @description **``Method``**
@@ -949,7 +944,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sinh: (x: number) => this.rdcmath.sinh(x),
+      sinh: (x: number) => this.rdcmath.prototype.sinh(x),
 
       /** 
        * @description **``Method``**
@@ -957,7 +952,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosh: (x: number) => this.rdcmath.cosh(x),
+      cosh: (x: number) => this.rdcmath.prototype.cosh(x),
 
       /** 
        * @description **``Method``**
@@ -965,7 +960,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      tanh: (x: number) => this.rdcmath.tanh(x),
+      tanh: (x: number) => this.rdcmath.prototype.tanh(x),
 
       /** 
        * @description **``Method``**
@@ -973,7 +968,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sech: (x: number) => this.rdcmath.sech(x),
+      sech: (x: number) => this.rdcmath.prototype.sech(x),
 
       /** 
        * @description **``Method``**
@@ -981,7 +976,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosech: (x: number) => this.rdcmath.cosech(x),
+      cosech: (x: number) => this.rdcmath.prototype.cosech(x),
 
       /** 
        * @description **``Method``**
@@ -989,7 +984,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cotanh: (x: number) => this.rdcmath.cotanh(x),
+      cotanh: (x: number) => this.rdcmath.prototype.cotanh(x),
 
       /** 
        * @description **``Method``**
@@ -997,7 +992,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      arcsin: (x: number) => this.rdcmath.arcsin(x),
+      arcsin: (x: number) => this.rdcmath.prototype.arcsin(x),
 
       /** 
        * @description **``Method``**
@@ -1005,7 +1000,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccos: (x: number) => this.rdcmath.arccos(x),
+       arccos: (x: number) => this.rdcmath.prototype.arccos(x),
 
       /** 
        * @description **``Method``**
@@ -1013,7 +1008,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arctan: (x: number) => this.rdcmath.arctan(x),
+       arctan: (x: number) => this.rdcmath.prototype.arctan(x),
 
       /** 
        * @description **``Method``**
@@ -1021,7 +1016,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsec: (x: number) => this.rdcmath.arcsec(x),
+       arcsec: (x: number) => this.rdcmath.prototype.arcsec(x),
 
       /** 
        * @description **``Method``**
@@ -1029,7 +1024,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosec: (x: number) => this.rdcmath.arccosec(x),
+       arccosec: (x: number) => this.rdcmath.prototype.arccosec(x),
 
       /** 
        * @description **``Method``**
@@ -1037,7 +1032,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccotan: (x: number) => this.rdcmath.arccotan(x),
+       arccotan: (x: number) => this.rdcmath.prototype.arccotan(x),
 
       /** 
        * @description **``Method``**
@@ -1045,7 +1040,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsinh: (x: number) => this.rdcmath.arcsinh(x),
+       arcsinh: (x: number) => this.rdcmath.prototype.arcsinh(x),
 
       /** 
        * @description **``Method``**
@@ -1053,7 +1048,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosh: (x: number) => this.rdcmath.arccosh(x),
+       arccosh: (x: number) => this.rdcmath.prototype.arccosh(x),
 
       /** 
        * @description **``Method``**
@@ -1061,7 +1056,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arctanh: (x: number) => this.rdcmath.arctanh(x),
+       arctanh: (x: number) => this.rdcmath.prototype.arctanh(x),
 
       /** 
        * @description **``Method``**
@@ -1069,7 +1064,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsech: (x: number) => this.rdcmath.arcsech(x),
+       arcsech: (x: number) => this.rdcmath.prototype.arcsech(x),
 
       /** 
        * @description **``Method``**
@@ -1077,7 +1072,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosech: (x: number) => this.rdcmath.arccosech(x),
+       arccosech: (x: number) => this.rdcmath.prototype.arccosech(x),
 
       /** 
        * @description **``Method``**
@@ -1085,7 +1080,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccotanh: (x: number) => this.rdcmath.arccotanh(x),
+       arccotanh: (x: number) => this.rdcmath.prototype.arccotanh(x),
       
       /** 
        * @description **``Method``**
@@ -1093,7 +1088,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       log: (x: number) => this.rdcmath.log(x),
+       log: (x: number) => this.rdcmath.prototype.log(x),
 
       /** 
        * @description **``Method``**
@@ -1102,7 +1097,7 @@ class WBoard {
        * Number value.
        */
 
-      logm1: (x: number) => this.rdcmath.logm1(x),
+      logm1: (x: number) => this.rdcmath.prototype.logm1(x),
       
       /** 
        * @description **``Method``**
@@ -1110,7 +1105,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       logp1: (x: number) => this.rdcmath.logp1(x),
+       logp1: (x: number) => this.rdcmath.prototype.logp1(x),
       
       /** 
        * @description **``Method``**
@@ -1120,7 +1115,7 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */
-       logx: (x: number, base: number) => this.rdcmath.logx(x, base),
+       logx: (x: number, base: number) => this.rdcmath.prototype.logx(x, base),
 
       /** 
        * @description **``Method``**
@@ -1130,7 +1125,7 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */
-      logxm1: (x: number, base: number) => this.rdcmath.logxm1(x, base),
+      logxm1: (x: number, base: number) => this.rdcmath.prototype.logxm1(x, base),
       
       /** 
        * @description **``Method``**
@@ -1140,7 +1135,7 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */      
-      logxp1: (x: number, base: number) => this.rdcmath.logxp1(x, base),
+      logxp1: (x: number, base: number) => this.rdcmath.prototype.logxp1(x, base),
       
       /** 
        * @description **``Method``**
@@ -1148,7 +1143,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      ln: (x: number) => this.rdcmath.ln(x),
+      ln: (x: number) => this.rdcmath.prototype.ln(x),
 
       /** 
        * @description **``Method``**
@@ -1156,7 +1151,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      lnm1: (x: number) => this.rdcmath.lnm1(x),
+      lnm1: (x: number) => this.rdcmath.prototype.lnm1(x),
 
       /** 
        * @description **``Method``**
@@ -1164,7 +1159,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      lnp1: (x: number) => this.rdcmath.lnp1(x),
+      lnp1: (x: number) => this.rdcmath.prototype.lnp1(x),
 
       /** 
        * @description **``Method``**
@@ -1172,7 +1167,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number multiplier or base value.
        */ 
-      random: (x: number) => this.rdcmath.random(x),
+      random: (x: number) => this.rdcmath.prototype.random(x),
 
       /** 
        * @description **``Method``**
@@ -1180,7 +1175,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      exp: (x: number, valorLg: number) => this.rdcmath.exp(x, valorLg),
+      exp: (x: number, valorLg: number) => this.rdcmath.prototype.exp(x, valorLg),
 
       /** 
        * @description **``Method``**
@@ -1188,7 +1183,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      expm1: (x: number, valorLg: number) => this.rdcmath.expm1(x, valorLg),
+      expm1: (x: number, valorLg: number) => this.rdcmath.prototype.expm1(x, valorLg),
 
       /** 
        * @description **``Method``**
@@ -1196,7 +1191,7 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      expp1: (x: number, valorLg: number) => this.rdcmath.expp1(x, valorLg)
+      expp1: (x: number, valorLg: number) => this.rdcmath.prototype.expp1(x, valorLg)
 
     },
 
@@ -1207,67 +1202,67 @@ class WBoard {
        * @description **``Constant``**
        * Returns the input symbol. 
        */
-      InputSymbol: this.rdcterminal.inputSymbol,
+      InputSymbol: this.rdcterminal.prototype.inputSymbol,
 
       /** 
        * @description **``Constant``**
        * Returns the output symbol. 
        */
-      OutputSymbol: this.rdcterminal.outputSymbol,
+      OutputSymbol: this.rdcterminal.prototype.outputSymbol,
       
       /** 
        * @description **``Constant``**
        * Returns the div symbol. 
        */
-      DivSymbol: this.rdcterminal.divSymbol,
+      DivSymbol: this.rdcterminal.prototype.divSymbol,
       
       /** 
        * @description **``Constant``**
        * Returns the loading symbol. 
        */
-      LoadingSymbol: this.rdcterminal.loadingSymbols,
+      LoadingSymbol: this.rdcterminal.prototype.loadingSymbols,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character new line **(\n)**. 
        */
-      EcpCharNewLine: this.rdcterminal.escapeCharacterNewLine,
+      EcpCharNewLine: this.rdcterminal.prototype.escapeCharacterNewLine,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character tab **(\t)**. 
        */
-      EcpCharTab: this.rdcterminal.escapeCharacterTab,
+      EcpCharTab: this.rdcterminal.prototype.escapeCharacterTab,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character backspace **(\b)**. 
        */
-      EcpCharBackspace: this.rdcterminal.escapeCharacterBackspace,
+      EcpCharBackspace: this.rdcterminal.prototype.escapeCharacterBackspace,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character restart line **(\r)**. 
        */
-      EcpCharRestartLine: this.rdcterminal.escapeCharacterRestartLine,
+      EcpCharRestartLine: this.rdcterminal.prototype.escapeCharacterRestartLine,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character vertical tab **(\v)**. 
        */      
-      EcpCharVerticalTab: this.rdcterminal.escapeCharacterVerticalTab,
+      EcpCharVerticalTab: this.rdcterminal.prototype.escapeCharacterVerticalTab,
 
       /** 
        * @description **``Constant``**
        * Returns the escape character form feed **(\f)**. 
        */
-      EcpCharFromFeed: this.rdcterminal.escapeCharacterFormFeed,
+      EcpCharFromFeed: this.rdcterminal.prototype.escapeCharacterFormFeed,
       
       /** 
        * @description **``Constant``**
        * Returns the escape character null **(\n)**. 
        */
-      EcpCharNull: this.rdcterminal.escapeCharacterNull,
+      EcpCharNull: this.rdcterminal.prototype.escapeCharacterNull,
 
       /** 
        * @description **``Method``** 
@@ -1277,7 +1272,7 @@ class WBoard {
        * @augments ``texto``|**``string``**
        * Text to format. 
        */
-      addformtexto: (m: WCollections, texto: string) => this.rdcterminal.adicionaFormTexto(m, texto),
+      addformtexto: (m: WCollections, texto: string) => this.rdcterminal.prototype.adicionaFormTexto(m, texto),
 
       /** 
        * @description **``Method``** 
@@ -1287,7 +1282,7 @@ class WBoard {
        * @augments ``texto``|**``string``**
        * Text to format. 
        */
-      addformcor: (m: WCollections, texto: string) => this.rdcterminal.adicionaFormTexto(m, texto)
+      addformcor: (m: WCollections, texto: string) => this.rdcterminal.prototype.adicionaFormTexto(m, texto)
 
     },
 
@@ -1300,15 +1295,10 @@ class WBoard {
        * @augments ``cor``|**``WCollections``**
        * Model color selection.
        */
-      selecionaCor: (cor: WCollections) => this.rdcspectrals.selecionaUmaCor(cor)
+      selecionaCor: (cor: WCollections) => this.rdcspectrals.prototype.selecionaUmaCor(cor)
     
     }
     
   }
 
-
-}
-
-const abstraction = new WBoard().wertsfy;
-
-let test: WCollections;
+} export var Wertsfy = new WBoard().wertsfy;

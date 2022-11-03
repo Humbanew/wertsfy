@@ -1,4 +1,4 @@
-declare interface Architecture { 
+declare interface Modals { 
   struct: Struct;
   matriz: Matriz;
 }
@@ -23,10 +23,10 @@ declare interface Ecmascript { }
   /***/
 
 // modules declarations
-declare module "arch-base" { 
-  export var architecture: Architecture;
+declare module "archbase" { 
+  export var modals: Modals;
 }
 
-declare module "arch-ecmascript" {
+declare module "archecmascript" {
   export var ecmascript: Ecmascript;
 }

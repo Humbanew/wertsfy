@@ -1,12 +1,11 @@
+/// <reference path="architecture.d.ts" />
+
+import * as wbase from "archbase";
+
 class WLydroc { }
 
-function createElement(element: string, classname: string, id: string): HTMLElement {
-  let elementConstructor = document.createElement(element);
-  elementConstructor.id = id;
-  elementConstructor.className = classname;
-  return elementConstructor;
-}
-
+function newElement(element: string, classname: string, id: string) { }
 function addAttribute(element: HTMLElement) { }
-
 function addEvent(element: HTMLElement) { }
+
+console.log(newElement("html", "format", "ft"));

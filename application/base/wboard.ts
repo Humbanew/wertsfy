@@ -899,7 +899,10 @@ class WBoard {
        * @augments ``x``|**``number``** ``y``|**``number``**
        * Number value.
        */
-      imul: (x: number, y: number) => this.wertsfy_math.imul(x, y),
+      imul: (
+        x: number, 
+        y: number
+      ) => this.wertsfy_math.imul(x, y),
 
       /** 
        * @description **``Method``**
@@ -907,7 +910,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      ceil: (x: number) => this.wertsfy_math.ceil(x),
+      ceil: (
+        x: number
+      ) => this.wertsfy_math.ceil(x),
 
       /** 
        * @description **``Method``**
@@ -915,7 +920,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      floor: (x: number) => this.wertsfy_math.floor(x),
+      floor: (
+        x: number
+      ) => this.wertsfy_math.floor(x),
 
       /**
        * @description **``Method``**
@@ -923,7 +930,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sin: (x: number) => this.wertsfy_math.sin(x),
+      sin: (
+        x: number
+      ) => this.wertsfy_math.sin(x),
 
       /** 
        * @description **``Method``**
@@ -931,7 +940,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cos: (x: number) => this.wertsfy_math.cos(x),
+      cos: (
+        x: number
+      ) => this.wertsfy_math.cos(x),
 
       /**
        * @description **``Method``**
@@ -939,7 +950,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      tan: (x: number) => this.wertsfy_math.tan(x),
+      tan: (
+        x: number
+      ) => this.wertsfy_math.tan(x),
 
       /** 
        * @description **``Method``**
@@ -947,7 +960,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sec: (x: number) => this.wertsfy_math.sec(x),
+      sec: (
+        x: number
+      ) => this.wertsfy_math.sec(x),
 
       /**
        * @description **``Method``**
@@ -955,7 +970,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosec: (x: number) => this.wertsfy_math.cosec(x),
+      cosec: (
+        x: number
+      ) => this.wertsfy_math.cosec(x),
 
       /** 
        * @description **``Method``**
@@ -963,7 +980,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cotan: (x: number) => this.wertsfy_math.cotan(x),
+      cotan: (
+        x: number
+      ) => this.wertsfy_math.cotan(x),
 
       /**
        * @description **``Method``**
@@ -971,7 +990,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sinh: (x: number) => this.wertsfy_math.sinh(x),
+      sinh: (
+        x: number
+      ) => this.wertsfy_math.sinh(x),
 
       /** 
        * @description **``Method``**
@@ -979,7 +1000,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosh: (x: number) => this.wertsfy_math.cosh(x),
+      cosh: (
+        x: number
+      ) => this.wertsfy_math.cosh(x),
 
       /** 
        * @description **``Method``**
@@ -987,7 +1010,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      tanh: (x: number) => this.wertsfy_math.tanh(x),
+      tanh: (
+        x: number
+      ) => this.wertsfy_math.tanh(x),
 
       /** 
        * @description **``Method``**
@@ -995,7 +1020,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      sech: (x: number) => this.wertsfy_math.sech(x),
+      sech: (
+        x: number
+      ) => this.wertsfy_math.sech(x),
 
       /** 
        * @description **``Method``**
@@ -1003,7 +1030,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cosech: (x: number) => this.wertsfy_math.cosech(x),
+      cosech: (
+        x: number
+      ) => this.wertsfy_math.cosech(x),
 
       /** 
        * @description **``Method``**
@@ -1011,7 +1040,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      cotanh: (x: number) => this.wertsfy_math.cotanh(x),
+      cotanh: (
+        x: number
+      ) => this.wertsfy_math.cotanh(x),
 
       /** 
        * @description **``Method``**
@@ -1019,7 +1050,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-      arcsin: (x: number) => this.wertsfy_math.arcsin(x),
+      arcsin: (
+        x: number
+      ) => this.wertsfy_math.arcsin(x),
 
       /** 
        * @description **``Method``**
@@ -1027,7 +1060,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccos: (x: number) => this.wertsfy_math.arccos(x),
+      arccos: (
+        x: number
+      ) => this.wertsfy_math.arccos(x),
 
       /** 
        * @description **``Method``**
@@ -1035,7 +1070,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arctan: (x: number) => this.wertsfy_math.arctan(x),
+      arctan: (
+        x: number
+      ) => this.wertsfy_math.arctan(x),
 
       /** 
        * @description **``Method``**
@@ -1043,7 +1080,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsec: (x: number) => this.wertsfy_math.arcsec(x),
+      arcsec: (
+        x: number
+      ) => this.wertsfy_math.arcsec(x),
 
       /** 
        * @description **``Method``**
@@ -1051,7 +1090,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosec: (x: number) => this.wertsfy_math.arccosec(x),
+      arccosec: (
+        x: number
+      ) => this.wertsfy_math.arccosec(x),
 
       /** 
        * @description **``Method``**
@@ -1059,7 +1100,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccotan: (x: number) => this.wertsfy_math.arccotan(x),
+      arccotan: (
+        x: number
+      ) => this.wertsfy_math.arccotan(x),
 
       /** 
        * @description **``Method``**
@@ -1067,7 +1110,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsinh: (x: number) => this.wertsfy_math.arcsinh(x),
+      arcsinh: (
+        x: number
+      ) => this.wertsfy_math.arcsinh(x),
 
       /** 
        * @description **``Method``**
@@ -1075,7 +1120,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosh: (x: number) => this.wertsfy_math.arccosh(x),
+      arccosh: (
+        x: number
+      ) => this.wertsfy_math.arccosh(x),
 
       /** 
        * @description **``Method``**
@@ -1083,7 +1130,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arctanh: (x: number) => this.wertsfy_math.arctanh(x),
+      arctanh: (
+        x: number
+      ) => this.wertsfy_math.arctanh(x),
 
       /** 
        * @description **``Method``**
@@ -1091,7 +1140,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arcsech: (x: number) => this.wertsfy_math.arcsech(x),
+      arcsech: (
+        x: number
+      ) => this.wertsfy_math.arcsech(x),
 
       /** 
        * @description **``Method``**
@@ -1099,7 +1150,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccosech: (x: number) => this.wertsfy_math.arccosech(x),
+      arccosech: (
+        x: number
+      ) => this.wertsfy_math.arccosech(x),
 
       /** 
        * @description **``Method``**
@@ -1107,7 +1160,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       arccotanh: (x: number) => this.wertsfy_math.arccotanh(x),
+      arccotanh: (
+        x: number
+      ) => this.wertsfy_math.arccotanh(x),
       
       /** 
        * @description **``Method``**
@@ -1115,7 +1170,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       log: (x: number) => this.wertsfy_math.log(x),
+      log: (
+        x: number
+      ) => this.wertsfy_math.log(x),
 
       /** 
        * @description **``Method``**
@@ -1123,8 +1180,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-
-      logm1: (x: number) => this.wertsfy_math.logm1(x),
+      logm1: (
+        x: number
+      ) => this.wertsfy_math.logm1(x),
       
       /** 
        * @description **``Method``**
@@ -1132,7 +1190,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */
-       logp1: (x: number) => this.wertsfy_math.logp1(x),
+      logp1: (
+        x: number
+      ) => this.wertsfy_math.logp1(x),
       
       /** 
        * @description **``Method``**
@@ -1142,7 +1202,10 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */
-       logx: (x: number, base: number) => this.wertsfy_math.logx(x, base),
+      logx: (
+        x: number, 
+        base: number
+      ) => this.wertsfy_math.logx(x, base),
 
       /** 
        * @description **``Method``**
@@ -1152,7 +1215,10 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */
-      logxm1: (x: number, base: number) => this.wertsfy_math.logxm1(x, base),
+      logxm1: (
+        x: number, 
+        base: number
+      ) => this.wertsfy_math.logxm1(x, base),
       
       /** 
        * @description **``Method``**
@@ -1162,7 +1228,10 @@ class WBoard {
        * @augments ``base``|**``number``**
        * Base logarithm number value.
        */      
-      logxp1: (x: number, base: number) => this.wertsfy_math.logxp1(x, base),
+      logxp1: (
+        x: number, 
+        base: number
+      ) => this.wertsfy_math.logxp1(x, base),
       
       /** 
        * @description **``Method``**
@@ -1170,7 +1239,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      ln: (x: number) => this.wertsfy_math.ln(x),
+      ln: (
+        x: number
+      ) => this.wertsfy_math.ln(x),
 
       /** 
        * @description **``Method``**
@@ -1178,7 +1249,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      lnm1: (x: number) => this.wertsfy_math.lnm1(x),
+      lnm1: (
+        x: number
+      ) => this.wertsfy_math.lnm1(x),
 
       /** 
        * @description **``Method``**
@@ -1186,7 +1259,9 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number value.
        */      
-      lnp1: (x: number) => this.wertsfy_math.lnp1(x),
+      lnp1: (
+        x: number
+      ) => this.wertsfy_math.lnp1(x),
 
       /** 
        * @description **``Method``**
@@ -1194,31 +1269,48 @@ class WBoard {
        * @augments ``x``|**``number``**
        * Number multiplier or base value.
        */ 
-      random: (x: number) => this.wertsfy_math.random(x),
+      random: (
+        x: number
+      ) => this.wertsfy_math.random(x),
 
       /** 
        * @description **``Method``**
        * Returns the exponencial of number.
        * @augments ``x``|**``number``**
        * Number value.
+       * @augments ``valorLg``|**``number``**
+       * Number transform log value.
        */      
-      exp: (x: number, valorLg: number) => this.wertsfy_math.exp(x, valorLg),
+      exp: (
+        x: number, 
+        valorLg: number
+      ) => this.wertsfy_math.exp(x, valorLg),
 
       /** 
        * @description **``Method``**
        * Returns the exponencial minus one of number.
        * @augments ``x``|**``number``**
        * Number value.
+       * @augments ``valorLg``|**``number``**
+       * Number transform log value.
        */      
-      expm1: (x: number, valorLg: number) => this.wertsfy_math.expm1(x, valorLg),
+      expm1: (
+        x: number, 
+        valorLg: number
+      ) => this.wertsfy_math.expm1(x, valorLg),
 
       /** 
        * @description **``Method``**
        * Returns the exponencial plus one of number.
        * @augments ``x``|**``number``**
        * Number value.
+       * @augments ``valorLg``|**``number``**
+       * Number transform log value.
        */
-      expp1: (x: number, valorLg: number) => this.wertsfy_math.expp1(x, valorLg)
+      expp1: (
+        x: number, 
+        valorLg: number
+      ) => this.wertsfy_math.expp1(x, valorLg)
 
 
     },
@@ -1295,26 +1387,56 @@ class WBoard {
       /** 
        * @description **``Method``** 
        * Returns the text with formatation.
-       * @augments ``modelo``|**``WCollections``**
+       * @augments ``model``|**``WCollections``**
        * Model template selection.
-       * @augments ``texto``|**``string``**
+       * @augments ``text``|**``string``**
        * Text to format. 
        */
-      addformtexto: (m: WCollections, texto: string) => this.wertsfy_terminal.adicionaFormTexto(m, texto),
+      addformtext: (
+        model: WCollections, 
+        text: string
+      ) => this.wertsfy_terminal.adicionaFormTexto(model, text),
 
       /** 
        * @description **``Method``** 
        * Returns the text with color formatation.
-       * @augments ``modelo``|**``WCollections``**
+       * @augments ``model``|**``WCollections``**
        * Model template selection.
-       * @augments ``template``|**``WTrmSClr``**
+       * @augments ``template``|**``WTSchClr``**
        * Model template selection.
-       * @augments ``esquema``|**``WTrmSClrF``**
+       * @augments ``schema``|**``WTSchClrFrgd``**
        * Model template selection.
-       * @augments ``texto``|**``string``**
+       * @augments ``text``|**``string``**
        * Text to color format. 
        */
-      addformcor: (m: WCollections, texto: string) => this.wertsfy_terminal.adicionaClrTexto(m, "3b4bit", "F",texto)
+      addformclr: (
+        model: WCollections,
+        template: WTSchClr,
+        schema: WTSchClrFrgd, 
+        text: string
+      ) => this.wertsfy_terminal.adicionaClrTexto(model, template, schema, text),
+
+      /**
+       * @description **``Method``**
+       * Returns the text with color and common formatation.
+       * @augments ``modelFrm``|**``WCollections``**
+       * Model template selection (common).
+       * @augments ``modelClr``|**``WCollections``**
+       * Model template selection.
+       * @augments ``templateClr``|**``WTSchClr``**
+       * Model template selection.
+       * @augments ``schemaClr``|**``WTSchClrFrgd``**
+       * Model template selection.
+       * @augments ``text``|**``string``**
+       * Text to color format. 
+       */
+      addformtextclr: (
+        modelFrm: WCollections,
+        modelClr: WCollections,
+        templateClr: WTSchClr,
+        schemaClr: WTSchClrFrgd,
+        text: string
+      ) => this.wertsfy_terminal.adicionaFormClrTexto(modelFrm, modelClr, templateClr, schemaClr, text)
 
     },
 
@@ -1326,7 +1448,9 @@ class WBoard {
        * @augments ``cor``|**``WCollections``**
        * Model color selection.
        */
-      selecionaCor: (cor: WCollections) => this.wertsfy_spectrals.selecionaUmaCor(cor)
+      selecionaCor: (
+        cor: WCollections
+      ) => this.wertsfy_spectrals.selecionaUmaCor(cor)
     
     }
 

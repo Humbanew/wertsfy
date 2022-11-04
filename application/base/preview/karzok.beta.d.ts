@@ -1,3 +1,5 @@
+export declare var tKarzok: Karzok;
+
 declare type Karzok = { 
 
   "minecraft": {
@@ -1060,130 +1062,395 @@ declare type Karzok = {
           
           "customize": {
 
-            // "createWorld.customize.presets": "Presets",
-            // "createWorld.customize.presets.title": "Select a Preset",
-            // "createWorld.customize.presets.select": "Use Preset",
-            // "createWorld.customize.presets.share": "Want to share your preset with someone? Use the box below!",
-            // "createWorld.customize.presets.list": "Alternatively, here's some we made earlier!",
+            "presets": {
+
+              Default: String
+              "title": String
+              "select": String
+              "share": String
+              "list": String
+
+            }
+
+            "flat": {
+
+              "title": String
+              "tile": String
+              "height": String
+              "removeLayer": String
+              "layer": {
+
+                Default: String
+                "top": String
+                "bottom": String
+
+              }
+
+            }
+
+            "buffet": {
+
+              "title": String
+              "biome": String
+
+            }
+
+            "preset": {
+
+              "classic_flat": String
+              "tunnelers_dream": String
+              "water_world": String
+              "overworld": String
+              "snowy_kingdom": String
+              "bottomless_pit": String
+              "desert": String
+              "redstone_ready": String
+              "the_void": String
+
+            }
+
+            "custom": {
+              
+              "page0": String
+              "page1": String
+              "page2": String
+              "page3": String
+              "randomize": String
+              "prev": String
+              "next": String
+              "defaults": String
+              "confirm1": String
+              "confirm2": String
+              "confirmTitle": String
+              "mainNoiseScaleX": String
+              "mainNoiseScaleY": String
+              "mainNoiseScaleZ": String
+              "depthNoiseScaleX": String
+              "depthNoiseScaleZ": String
+              "depthNoiseScaleExponent": String
+              "baseSize": String
+              "coordinateScale": String
+              "heightScale": String
+              "stretchY": String
+              "upperLimitScale": String
+              "lowerLimitScale": String
+              "biomeDepthWeight": String
+              "biomeDepthOffset": String
+              "biomeScaleWeight": String
+              "biomeScaleOffset": String
+              "seaLevel": String
+              "useCaves": String
+              "useStrongholds": String
+              "useVillages": String
+              "useMineShafts": String
+              "useTemples": String
+              "useOceanRuins": String
+              "useMonuments": String
+              "useMansions": String
+              "useRavines": String
+              "useDungeons": String
+              "dungeonChance": String
+              "useWaterLakes": String
+              "waterLakeChance": String
+              "useLavaLakes": String
+              "lavaLakeChance": String
+              "useLavaOceans": String
+              "fixedBiome": String
+              "biomeSize": String
+              "riverSize": String
+              "size": String
+              "count": String
+              "minHeight": String
+              "maxHeight": String
+              "center": String
+              "spread": String
+              "presets": {
+
+                Default: String
+                "title": String
+
+              }
+              
+              "preset": {
+
+                "waterWorld": String
+                "isleLand": String
+                "caveDelight": String
+                "mountains": String
+                "drought": String
+                "caveChaos": String
+                "goodLuck": String
+
+              }
+
+            }
             
-            // "createWorld.customize.flat.title": "Superflat Customization",
-            // "createWorld.customize.flat.tile": "Layer Material",
-            // "createWorld.customize.flat.height": "Height",
-            // "createWorld.customize.flat.removeLayer": "Remove Layer",
-            // "createWorld.customize.flat.layer.top": "Top - %s",
-            // "createWorld.customize.flat.layer": "%s",
-            // "createWorld.customize.flat.layer.bottom": "Bottom - %s",
-            // "createWorld.customize.buffet.title": "Buffet world customization",
-            // "createWorld.customize.buffet.biome": "Please select a biome",
-            // "createWorld.customize.preset.classic_flat": "Classic Flat",
-            // "createWorld.customize.preset.tunnelers_dream": "Tunnelers' Dream",
-            // "createWorld.customize.preset.water_world": "Water World",
-            // "createWorld.customize.preset.overworld": "Overworld",
-            // "createWorld.customize.preset.snowy_kingdom": "Snowy Kingdom",
-            // "createWorld.customize.preset.bottomless_pit": "Bottomless Pit",
-            // "createWorld.customize.preset.desert": "Desert",
-            // "createWorld.customize.preset.redstone_ready": "Redstone Ready",
-            // "createWorld.customize.preset.the_void": "The Void",
-            // "createWorld.customize.custom.page0": "Basic Settings",
-            // "createWorld.customize.custom.page1": "Ore Settings",
-            // "createWorld.customize.custom.page2": "Advanced Settings (Expert Users Only!)",
-            // "createWorld.customize.custom.page3": "Extra Advanced Settings (Expert Users Only!)",
-            // "createWorld.customize.custom.randomize": "Randomize",
-            // "createWorld.customize.custom.prev": "Previous Page",
-            // "createWorld.customize.custom.next": "Next Page",
-            // "createWorld.customize.custom.defaults": "Defaults",
-            // "createWorld.customize.custom.confirm1": "This will overwrite your current",
-            // "createWorld.customize.custom.confirm2": "settings and cannot be undone.",
-            // "createWorld.customize.custom.confirmTitle": "Warning!",
-            // "createWorld.customize.custom.mainNoiseScaleX": "Main Noise Scale X",
-            // "createWorld.customize.custom.mainNoiseScaleY": "Main Noise Scale Y",
-            // "createWorld.customize.custom.mainNoiseScaleZ": "Main Noise Scale Z",
-            // "createWorld.customize.custom.depthNoiseScaleX": "Depth Noise Scale X",
-            // "createWorld.customize.custom.depthNoiseScaleZ": "Depth Noise Scale Z",
-            // "createWorld.customize.custom.depthNoiseScaleExponent": "Depth Noise Exponent",
-            // "createWorld.customize.custom.baseSize": "Depth Base Size",
-            // "createWorld.customize.custom.coordinateScale": "Coordinate Scale",
-            // "createWorld.customize.custom.heightScale": "Height Scale",
-            // "createWorld.customize.custom.stretchY": "Height Stretch",
-            // "createWorld.customize.custom.upperLimitScale": "Upper Limit Scale",
-            // "createWorld.customize.custom.lowerLimitScale": "Lower Limit Scale",
-            // "createWorld.customize.custom.biomeDepthWeight": "Biome Depth Weight",
-            // "createWorld.customize.custom.biomeDepthOffset": "Biome Depth Offset",
-            // "createWorld.customize.custom.biomeScaleWeight": "Biome Scale Weight",
-            // "createWorld.customize.custom.biomeScaleOffset": "Biome Scale Offset",
-            // "createWorld.customize.custom.seaLevel": "Sea Level",
-            // "createWorld.customize.custom.useCaves": "Caves",
-            // "createWorld.customize.custom.useStrongholds": "Strongholds",
-            // "createWorld.customize.custom.useVillages": "Villages",
-            // "createWorld.customize.custom.useMineShafts": "Mineshafts",
-            // "createWorld.customize.custom.useTemples": "Temples",
-            // "createWorld.customize.custom.useOceanRuins": "Ocean Ruins",
-            // "createWorld.customize.custom.useMonuments": "Ocean Monuments",
-            // "createWorld.customize.custom.useMansions": "Woodland Mansions",
-            // "createWorld.customize.custom.useRavines": "Ravines",
-            // "createWorld.customize.custom.useDungeons": "Dungeons",
-            // "createWorld.customize.custom.dungeonChance": "Dungeon Count",
-            // "createWorld.customize.custom.useWaterLakes": "Water Lakes",
-            // "createWorld.customize.custom.waterLakeChance": "Water Lake Rarity",
-            // "createWorld.customize.custom.useLavaLakes": "Lava Lakes",
-            // "createWorld.customize.custom.lavaLakeChance": "Lava Lake Rarity",
-            // "createWorld.customize.custom.useLavaOceans": "Lava Oceans",
-            // "createWorld.customize.custom.fixedBiome": "Biome",
-            // "createWorld.customize.custom.biomeSize": "Biome Size",
-            // "createWorld.customize.custom.riverSize": "River Size",
-            // "createWorld.customize.custom.size": "Spawn Size",
-            // "createWorld.customize.custom.count": "Spawn Tries",
-            // "createWorld.customize.custom.minHeight": "Min. Height",
-            // "createWorld.customize.custom.maxHeight": "Max. Height",
-            // "createWorld.customize.custom.center": "Center Height",
-            // "createWorld.customize.custom.spread": "Spread Height",
-            // "createWorld.customize.custom.presets.title": "Customize World Presets",
-            // "createWorld.customize.custom.presets": "Presets",
-            // "createWorld.customize.custom.preset.waterWorld": "Water World",
-            // "createWorld.customize.custom.preset.isleLand": "Isle Land",
-            // "createWorld.customize.custom.preset.caveDelight": "Caver's Delight",
-            // "createWorld.customize.custom.preset.mountains": "Mountain Madness",
-            // "createWorld.customize.custom.preset.drought": "Drought",
-            // "createWorld.customize.custom.preset.caveChaos": "Caves of Chaos",
-            // "createWorld.customize.custom.preset.goodLuck": "Good Luck",
-            // "createWorld.preparing": "Preparing for world creation...",
+            "preparing": String
 
           }
 
         }
         
-        // "chat.editBox": "chat",
-        // "chat.cannotSend": "Cannot send chat message",
-        // "chat.disabled.options": "Chat disabled in client options",
-        // "chat.disabled.launcher": "Chat disabled by launcher option. Cannot send message",
-        // "chat.disabled.profile": "Chat not allowed by account settings. Cannot send message",
-        // "chat.type.text": "<%s> %s",
-        // "chat.type.text.narrate": "%s says %s",
-        // "chat.type.emote": "* %s %s",
-        // "chat.type.announcement": "[%s] %s",
-        // "chat.type.admin": "[%s: %s]",
-        // "chat.type.advancement.task": "%s has made the advancement %s",
-        // "chat.type.advancement.challenge": "%s has completed the challenge %s",
-        // "chat.type.advancement.goal": "%s has reached the goal %s",
-        // "chat.type.team.text": "%s <%s> %s",
-        // "chat.type.team.sent": "-> %s <%s> %s",
-        // "chat.type.team.hover": "Message Team",
-        // "chat.link.confirm": "Are you sure you want to open the following website?",
-        // "chat.link.warning": "Never open links from people that you don't trust!",
-        // "chat.copy": "Copy to Clipboard",
-        // "chat.copy.click": "Click to Copy to Clipboard",
-        // "chat.link.confirmTrusted": "Do you want to open this link or copy it to your clipboard?",
-        // "chat.link.open": "Open in Browser",
-        // "chat.coordinates": "%s, %s, %s",
-        // "chat.coordinates.tooltip": "Click to teleport",
-        // "chat.queue": "[+%s pending lines]",
-        // "chat.square_brackets": "[%s]",
-        "chat": { }
+        "chat": {
 
-        // "datapackFailure.title": "Errors in currently selected datapacks prevented the world from loading.\nYou can either try to load it with only the vanilla data pack (\"safe mode\"), or go back to the title screen and fix it manually.",
-        // "datapackFailure.safeMode": "Safe Mode",
-        "datapackFaiture": { }
+          "editBox": String
+          "cannotSend": String
+          "disabled": {
 
+            "options": String
+            "launcher": String
+            "profile": String
+
+          }
+
+          "type": {
+
+            "text": {
+
+              Default: String
+              "narrate": String
+
+            }
+
+            "emote": String
+            "announcement": String
+            "admin": String
+            "advancement": {
+
+              "task": String
+              "challenge": String
+              "goal": String
+
+            }
+
+            "team": {
+
+              "text": String
+              "sent": String
+              "hover": String
+
+            }
+
+          }
+
+          "link": {
+
+            "confirm": String
+            "warning": String
+            "confirmTrusted": String
+            "open": String
+
+          }
+
+          "copy": {
+
+            Default: String
+            "click": String
+
+          }
+
+          "coordinates": {
+
+            Default: String
+            "tooltip": String
+
+          }
+
+          "queue": String
+          "square_brackets": String
+
+        }
+
+        "datapackFaiture": {
+
+          "title": String
+          "safeMode": String
+
+        }
+
+        "key": {
+  
+          "sprint": String
+          "forward": String
+          "left": String
+          "back": String
+          "right": String
+          "jump": String
+          "inventory": String
+          "drop": String
+          "swapOffhand": String
+          "chat": String
+          "sneak": String
+          "playerlist": String
+          "attack": String
+          "use": String
+          "pickItem": String
+          "command": String
+          "socialInteractions": String
+          "screenshot": String
+          "togglePespective": String
+          "smoothCamera": String
+          "fullscreen": String
+          "spectatorOutlines": String
+          "hotbar": {
+
+            "1": String
+            "2": String
+            "3": String
+            "4": String
+            "5": String
+            "6": String
+            "7": String
+            "8": String
+            "9": String
+
+          }
+         
+          "saveToolActivator": String
+          "loadToolbarActivator": String
+          "advancements": String
+          "categories": {
+
+            "movement": String
+            "misc": String
+            "multiplayer": String
+            "gameplay": String
+            "ui": String
+            "inventory": String
+            "creative": String
+
+          }
+
+          "mouse": {
+
+            Default: String
+            "left": String
+            "right": String
+            "middle": String 
+
+          }
+
+          "keyboard": {
+            
+            "unknown": String
+            "apostrophe": String
+            "backslash": String
+            "backspace": String
+            "comma": String
+            "delete": String
+            "end": String
+            "enter": String
+            "equal": String
+            "escape": String
+            "f1": String
+            "f2": String
+            "f3": String
+            "f4": String
+            "f5": String
+            "f6": String
+            "f7": String
+            "f8": String
+            "f9": String
+            "f10": String
+            "f11": String
+            "f12": String
+            "f13": String
+            "f14": String
+            "f15": String
+            "f16": String
+            "f17": String
+            "f18": String
+            "f19": String
+            "f20": String
+            "f21": String
+            "f22": String
+            "f23": String
+            "f24": String
+            "f25": String
+            "grave.accent": String
+            "home": String
+            "insert": String
+            "keypad": {
+
+              "0": String
+              "1": String
+              "2": String
+              "3": String
+              "4": String
+              "5": String
+              "6": String
+              "7": String
+              "8": String
+              "9": String
+              "add": String
+              "decimal": String
+              "enter": String
+              "equal": String
+              "multiply": String
+              "divide": String
+              "subtract": String
+
+            }
+
+            "left": { 
+
+              Default: String
+              "bracket": String
+              "control": String
+              "alt": String
+              "shift": String
+              "win": String
+
+            }
+
+            "right": {
+
+              Default: String
+              "bracket": String
+              "control": String
+              "alt": String
+              "shift": String
+              "win": String
+
+            }
+
+            "minus": String
+            "num.lock": String
+            "caps.lock": String
+            "scroll.lock": String
+            "page": {
+
+              "down": String
+              "up": String
+
+            }
+
+            "pause": String
+            "period": String
+            "semicolon": String
+            "slash": String
+            "space": String
+            "tab": String
+            "up": String
+            "down": String
+            "menu": String
+            "print": {
+
+              "screen": String
+
+            }
+
+            "world": {
+
+              "1": String
+              "2": String
+
+            }
+          
+          }
+
+        }
+        
         "editGamerule": { }
 
         "gameMode": { }
@@ -1219,138 +1486,6 @@ declare type Karzok = {
         "title": { }
 
         "controls": { }
-
-        // "key.sprint": "Sprint",
-        // "key.forward": "Walk Forwards",
-        // "key.left": "Strafe Left",
-        // "key.back": "Walk Backwards",
-        // "key.right": "Strafe Right",
-        // "key.jump": "Jump",
-        // "key.inventory": "Open/Close Inventory",
-        // "key.drop": "Drop Selected Item",
-        // "key.swapOffhand": "Swap Item With Offhand",
-        // "key.chat": "Open Chat",
-        // "key.sneak": "Sneak",
-        // "key.playerlist": "List Players",
-        // "key.attack": "Attack/Destroy",
-        // "key.use": "Use Item/Place Block",
-        // "key.pickItem": "Pick Block",
-        // "key.command": "Open Command",
-        // "key.socialInteractions": "Social Interactions Screen",
-        // "key.screenshot": "Take Screenshot",
-        // "key.togglePerspective": "Toggle Perspective",
-        // "key.smoothCamera": "Toggle Cinematic Camera",
-        // "key.fullscreen": "Toggle Fullscreen",
-        // "key.spectatorOutlines": "Highlight Players (Spectators)",
-        // "key.hotbar.1": "Hotbar Slot 1",
-        // "key.hotbar.2": "Hotbar Slot 2",
-        // "key.hotbar.3": "Hotbar Slot 3",
-        // "key.hotbar.4": "Hotbar Slot 4",
-        // "key.hotbar.5": "Hotbar Slot 5",
-        // "key.hotbar.6": "Hotbar Slot 6",
-        // "key.hotbar.7": "Hotbar Slot 7",
-        // "key.hotbar.8": "Hotbar Slot 8",
-        // "key.hotbar.9": "Hotbar Slot 9",
-        // "key.saveToolbarActivator": "Save Hotbar Activator",
-        // "key.loadToolbarActivator": "Load Hotbar Activator",
-        // "key.advancements": "Advancements",
-        // "key.categories.movement": "Movement",
-        // "key.categories.misc": "Miscellaneous",
-        // "key.categories.multiplayer": "Multiplayer",
-        // "key.categories.gameplay": "Gameplay",
-        // "key.categories.ui": "Game Interface",
-        // "key.categories.inventory": "Inventory",
-        // "key.categories.creative": "Creative Mode",
-        // "key.mouse.left": "Left Button",
-        // "key.mouse.right": "Right Button",
-        // "key.mouse.middle": "Middle Button",
-        // "key.mouse": "Button %1$s",
-        // "key.keyboard.unknown": "Not bound",
-        // "key.keyboard.apostrophe": "'",
-        // "key.keyboard.backslash": "\\",
-        // "key.keyboard.backspace": "Backspace",
-        // "key.keyboard.comma": ",",
-        // "key.keyboard.delete": "Delete",
-        // "key.keyboard.end": "End",
-        // "key.keyboard.enter": "Enter",
-        // "key.keyboard.equal": "=",
-        // "key.keyboard.escape": "Escape",
-        // "key.keyboard.f1": "F1",
-        // "key.keyboard.f2": "F2",
-        // "key.keyboard.f3": "F3",
-        // "key.keyboard.f4": "F4",
-        // "key.keyboard.f5": "F5",
-        // "key.keyboard.f6": "F6",
-        // "key.keyboard.f7": "F7",
-        // "key.keyboard.f8": "F8",
-        // "key.keyboard.f9": "F9",
-        // "key.keyboard.f10": "F10",
-        // "key.keyboard.f11": "F11",
-        // "key.keyboard.f12": "F12",
-        // "key.keyboard.f13": "F13",
-        // "key.keyboard.f14": "F14",
-        // "key.keyboard.f15": "F15",
-        // "key.keyboard.f16": "F16",
-        // "key.keyboard.f17": "F17",
-        // "key.keyboard.f18": "F18",
-        // "key.keyboard.f19": "F19",
-        // "key.keyboard.f20": "F20",
-        // "key.keyboard.f21": "F21",
-        // "key.keyboard.f22": "F22",
-        // "key.keyboard.f23": "F23",
-        // "key.keyboard.f24": "F24",
-        // "key.keyboard.f25": "F25",
-        // "key.keyboard.grave.accent": "`",
-        // "key.keyboard.home": "Home",
-        // "key.keyboard.insert": "Insert",
-        // "key.keyboard.keypad.0": "Keypad 0",
-        // "key.keyboard.keypad.1": "Keypad 1",
-        // "key.keyboard.keypad.2": "Keypad 2",
-        // "key.keyboard.keypad.3": "Keypad 3",
-        // "key.keyboard.keypad.4": "Keypad 4",
-        // "key.keyboard.keypad.5": "Keypad 5",
-        // "key.keyboard.keypad.6": "Keypad 6",
-        // "key.keyboard.keypad.7": "Keypad 7",
-        // "key.keyboard.keypad.8": "Keypad 8",
-        // "key.keyboard.keypad.9": "Keypad 9",
-        // "key.keyboard.keypad.add": "Keypad +",
-        // "key.keyboard.keypad.decimal": "Keypad Decimal",
-        // "key.keyboard.keypad.enter": "Keypad Enter",
-        // "key.keyboard.keypad.equal": "Keypad =",
-        // "key.keyboard.keypad.multiply": "Keypad *",
-        // "key.keyboard.keypad.divide": "Keypad /",
-        // "key.keyboard.keypad.subtract": "Keypad -",
-        // "key.keyboard.left.bracket": "[",
-        // "key.keyboard.right.bracket": "]",
-        // "key.keyboard.minus": "-",
-        // "key.keyboard.num.lock": "Num Lock",
-        // "key.keyboard.caps.lock": "Caps Lock",
-        // "key.keyboard.scroll.lock": "Scroll Lock",
-        // "key.keyboard.page.down": "Page Down",
-        // "key.keyboard.page.up": "Page Up",
-        // "key.keyboard.pause": "Pause",
-        // "key.keyboard.period": ".",
-        // "key.keyboard.left.control": "Left Control",
-        // "key.keyboard.right.control": "Right Control",
-        // "key.keyboard.left.alt": "Left Alt",
-        // "key.keyboard.right.alt": "Right Alt",
-        // "key.keyboard.left.shift": "Left Shift",
-        // "key.keyboard.right.shift": "Right Shift",
-        // "key.keyboard.left.win": "Left Win",
-        // "key.keyboard.right.win": "Right Win",
-        // "key.keyboard.semicolon": ";",
-        // "key.keyboard.slash": "/",
-        // "key.keyboard.space": "Space",
-        // "key.keyboard.tab": "Tab",
-        // "key.keyboard.up": "Up Arrow",
-        // "key.keyboard.down": "Down Arrow",
-        // "key.keyboard.left": "Left Arrow",
-        // "key.keyboard.right": "Right Arrow",
-        // "key.keyboard.menu": "Menu",
-        // "key.keyboard.print.screen": "Print Screen",
-        // "key.keyboard.world.1": "World 1",
-        // "key.keyboard.world.2": "World 2",
-        "key": { }
 
         "pack": { }
 

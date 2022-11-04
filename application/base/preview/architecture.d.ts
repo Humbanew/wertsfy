@@ -6,7 +6,15 @@ declare interface WArch {
 // parents of Native:
   /***/  
   declare interface Struct { 
-    build: Object
+    build: {
+
+      default: Object
+      htmlAttributes: { 
+        action: any, 
+        on_off: boolean 
+      }
+
+    }
   }
   /***/
 
@@ -16,17 +24,7 @@ declare interface WArch {
   }
   /***/
 
-  // ??? ainda a adicionar.
-declare interface EcmaScript { }
-
-// parents of Ecmascript:
-  /***/
-
 // modules declarations
 declare module "archbase" { 
   export var wArch: WArch;
-}
-
-declare module "archecmascript" {
-  export var ecmascript: EcmaScript;
 }

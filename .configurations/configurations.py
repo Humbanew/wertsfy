@@ -1,3 +1,3 @@
-import datetime
+import os, datetime
 print("Devcontainer Configurations v1 - [" + f"${datetime.date}]");
-exec("sh presets.sh");
+os.system("sh presets.sh");

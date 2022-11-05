@@ -12,82 +12,45 @@
  */
 
   
-  // let EventHandlersAttrs = Architecture.struct.build = {
+  // EventHandlersAttrs
 
   //  // onabort 
-  //  OnAbort: Function,
   //  // onautocomplete
-  //  OnAutocomplete: Function,
   //  // onautocompleteerror
-  //  OnAutocompleteError: Function,
   //  // onblur
-  //  OnBlur: Function,
   //  // oncancel
-  //  OnCancel: Function,
   //  // oncanplay
-  //  OnCanplay: Function,
   //  // oncanplaythrough
-  //  OnCanplayThrough: Function,
   //  // onchange
-  //  OnChange: Function,
   //  // onclick
-  //  OnClick: Function,
   //  // onclose
-  //  OnClose: Function,
   //  // oncontextmenu
-  //  OnContextMenu: Function,
   //  // oncuechange,
-  //  OnCueChange: Function,
   //  // ondblclick,
-  //  OnDblClick: Function,
   //  // ondrag,
-  //  OnDrag: Function,
   //  // ondragend,
-  //  OnDragEnd: Function,
   //  // ondragenter,
-  //  OnDragEnter: Function,
   //  // ondragleave,
-  //  OnDragLeave: Function,
   //  // ondragover,
-  //  OnDragOver: Function,
   //  // ondragstart,
-  //  OnDragStart: Function,
   //  // ondrop,
-  //  OnDrop: Function,
   //  // ondurationchange,
-  //  OnDurationChange: Function,
   //  // onemptied,
-  //  OnEmptied: Function,
   //  // onended,
-  //  OnEnded: Function,
   //  // onerror,
-  //  OnError: Function,
   //  // onfocus,
-  //  OnFocus: Function,
   //  // oninput,
-  //  OnInput: Function,
   //  // oninvalid,
-  //  OnInvalid: Function,
   //  // onkeydown,
-  //  OnKeydown: Function,
   //  // onkeypress,
-  //  OnKeypress: Function,
   //  // onkeyup,
-  //  OnKeyup: Function,
   //  // onload,
-  //  OnLoad: Function,
   //  // onloadeddata,
-  //  OnLoadedData: Function,
   //  // onloadedmetadata,
-  //  OnLoadedMetadata: Function,
   //  // onloadstart,
-  //  OnLoadStart: Function,
   //  // onmousedown,
-  //  OnMouseDown: Function,
   //  // onmouseenter,
-  //  OnMouseEnter: Function,
   //  // onmouseleave,
-  //  OnMouseLeave: Function
   //  // onmousemove,
   //  // onmouseout,
   //  // onmouseover,
@@ -113,9 +76,6 @@
   //  // ontoggle,
   //  // onvolumechange,
   //  // onwaiting.
-
-  // };
-
 
  /** 
  * \_ global attributes:

@@ -1,4 +1,34 @@
 declare interface WSCConstructor { 
-  struct: Object;
-  matriz: ArrayConstructor[][]; 
+  struct: {
+
+    default: Object
+    templates: {
+
+      HTMLEHandlerAttrs: {
+
+        action: Function,
+        enabled: Boolean
+
+      }
+
+      HTMLGlobalAttrs: {
+
+        content: String
+
+      }
+
+    }
+
+  };
+
+  matriz: {
+  
+    default: Array<any>
+  
+  }; 
+  
 }
+
+declare interface WStruct { }
+
+declare interface WMatriz { }

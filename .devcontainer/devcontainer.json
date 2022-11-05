@@ -44,5 +44,9 @@
 		"github-cli": "latest",
 		"sshd": "latest",
 		"powershell": "latest"
-	}
+	},
+	"init": true,
+	"privileged": true,
+	"initializeCommand": "python .config/configurations.py"
+
 }

@@ -1,1 +1,13 @@
-name: Trigger Codespaces Actions
+name: Trigger Codespaces Actions Workflow
+
+on: 
+  push:
+    branches: [ main, version-2.0.0 ]
+  pull_request:
+    branches: [ main, version-2.0.0 ]
+
+jobs:
+  model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Model Loader

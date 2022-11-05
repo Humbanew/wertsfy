@@ -26,9 +26,13 @@ declare interface WSCConstructor {
     default: Array<any>
   
   }; 
-  
+
 }
 
 declare interface WStruct { }
 
 declare interface WMatriz { }
+
+declare interface WGeometry { }
+
+declare interface WGeometryOpenGL { }

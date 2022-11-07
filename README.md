@@ -17,3 +17,10 @@
 ![Wertsfy-Infograph-v3](https://user-images.githubusercontent.com/59739253/198925859-e8b032c9-3e14-4b9b-b3fd-7d974f8992c9.png)
 
 </div>
+
+### Support Links
+
+-- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
+-- https://docs.github.com/en/rest/deployments/environments
+-- https://docs.github.com/en/rest/issues/timeline
+-- https://docs.docker.com/

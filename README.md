@@ -5,9 +5,9 @@
 ![HTML](https://img.shields.io/badge/html-black.svg?style=for-the-badge&logo=html5&logoColor=redbrick)
 ![CSS](https://img.shields.io/badge/css-black.svg?style=for-the-badge&logo=css3&logoColor=darkblue)
 ![PHP](https://img.shields.io/badge/php-black.svg?style=for-the-badge&logo=php&logoColor=blue)
-![C](https://img.shields.io/badge/c_/_c++-black.svg?style=for-the-badge&logo=c&logoColor=lightblue)
+![C](https://img.shields.io/badge/c_/_c++_lang-black.svg?style=for-the-badge&logo=c&logoColor=lightblue)
+![D](https://img.shields.io/badge/d_lang-optional_use-0c0c0c.svg?style=for-the-badge&logo=d&logoColor=darkred&labelColor=black)
 ![Python](https://img.shields.io/badge/python-white.svg?style=for-the-badge&logo=python&logoColor=darkskyblue)
-<!-- ![D](https://img.shields.io/badge/d-black.svg?style=for-the-badge&logo=d&logoColor=darkred) -->
 
 
 <div align="center"> 
@@ -20,7 +20,7 @@
 
 ### Support Links
 
--- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
--- https://docs.github.com/en/rest/deployments/environments
--- https://docs.github.com/en/rest/issues/timeline
--- https://docs.docker.com/
+-- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry <br>
+-- https://docs.github.com/en/rest/deployments/environments <br>
+-- https://docs.github.com/en/rest/issues/timeline <br>
+-- https://docs.docker.com/ <br>

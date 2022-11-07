@@ -21,9 +21,11 @@
   },
   "dependencies": {
     "commander": "^9.4.0",
+    "eslint": "^8.26.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^10.1.0",
     "path": "^0.12.7",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.9.1"
   }
 }

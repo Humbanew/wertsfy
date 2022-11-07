@@ -12,5 +12,5 @@ export declare type WCollections=
   ExpressoesRegulares: WCRegExp;
 }
 
-export declare type WTrmSClr = "3b4bit"|"8bit"|"24bit";
-export declare type WTrmSClrF = "C"|"F";
+export declare type WTSchClr = "3b4bit"|"8bit"|"24bit";
+export declare type WTSchClrFrgd = "C"|"F";

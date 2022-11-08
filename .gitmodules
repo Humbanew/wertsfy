@@ -1,3 +1,6 @@
-[submodule "wertsfy-cloud-services"]
-	path = wertsfy-cloud-services
-	url = git@github.com:Humba01/wertsfy-cloud-services.git
+[submodule "wertsfy-cloud-module"]
+	path = wertsfy-cloud-module
+	url = git@github.com:Humba01/wertsfy-cloud-module.git
+[submodule "wertsfy-docs-module"]
+	path = wertsfy-docs-module
+	url = git@github.com:Humba01/wertsfy-docs-module.git

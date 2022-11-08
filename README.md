@@ -9,6 +9,12 @@
 ![D](https://img.shields.io/badge/d_lang-optional_use-0c0c0c.svg?style=for-the-badge&logo=d&logoColor=darkred&labelColor=black)
 ![Python](https://img.shields.io/badge/python-white.svg?style=for-the-badge&logo=python&logoColor=darkskyblue)
 
+<div align="center">
+
+## Github Actions
+[![Lint Codespaces Actions Workflow](https://github.com/Humba01/wertsfy/actions/workflows/main.yml/badge.svg)](https://github.com/Humba01/wertsfy/actions/workflows/main.yml)
+
+<div>
 
 <div align="center"> 
 
@@ -18,9 +24,4 @@
 
 </div>
 
-### Support Links
 
--- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry <br>
--- https://docs.github.com/en/rest/deployments/environments <br>
--- https://docs.github.com/en/rest/issues/timeline <br>
--- https://docs.docker.com/ <br>

@@ -13,7 +13,7 @@ declare interface WSCConstructor {
 
       HTMLGlobalAttrs: {
 
-        content: String
+        content: String|Object
 
       }
 

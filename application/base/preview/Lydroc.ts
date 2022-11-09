@@ -269,18 +269,6 @@ class WLydroc {
 
   }
 
-  // Métodos para fazer ajustes ainda.
-  newElement(element: string, classname: string, id: string) {
-    let constructor = document.createElement(element); 
-    constructor.id = id;
-    constructor.className = classname;
-    return constructor;
-  }
-  
-  addMoreClasses(element: HTMLElement, classes: Array<String>) { }
-  addAttribute(element: HTMLElement) { }
-  addEvent(element: HTMLElement) { }
-
   public lydroc = { }
 
 }

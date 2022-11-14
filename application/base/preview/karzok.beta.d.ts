@@ -1453,7 +1453,12 @@ declare type Karzok = {
         
         // "editGamerule.title": "Edit Game Rules",
         // "editGamerule.default": "Default: %s",
-        "editGamerule": { }
+        "editGamerule": {
+
+          "title": String,
+          "default": String
+
+        }
 
         // "gameMode.survival": "Survival Mode",
         // "gameMode.creative": "Creative Mode",
@@ -1461,7 +1466,16 @@ declare type Karzok = {
         // "gameMode.spectator": "Spectator Mode",
         // "gameMode.hardcore": "Hardcore Mode!",
         // "gameMode.changed": "Your game mode has been updated to %s",
-        "gameMode": { }
+        "gameMode": {
+
+          "survival": String
+          "creative": String
+          "adventure": String
+          "spectator": String
+          "hardcore": String
+          "changed": String
+
+        }
 
         // "spectatorMenu.previous_page": "Previous Page",
         // "spectatorMenu.next_page": "Next Page",

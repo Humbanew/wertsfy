@@ -1,4 +1,6 @@
-export declare var tKarzok: Karzok;
+declare module "@beta/karzok" {
+  export var preview_karzok: Karzok;
+}
 
 declare type Karzok = { 
 
@@ -1468,7 +1470,7 @@ declare type Karzok = {
           "changed": String
 
         }
-        
+
         "spectatorMenu": {
 
           "previous_page": String

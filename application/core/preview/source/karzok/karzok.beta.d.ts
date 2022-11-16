@@ -1,7 +1,3 @@
-declare module "@beta/karzok" {
-  export var preview_karzok: Karzok;
-}
-
 declare type Karzok = { 
 
   "minecraft": {

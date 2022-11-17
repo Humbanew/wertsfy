@@ -1,4 +1,5 @@
-export declare var tKarzok: Karzok;
+// criado para uso em testes
+declare interface ArchKarzok { model: { arch: Karzok } }
 
 declare type Karzok = { 
 
@@ -1451,8 +1452,6 @@ declare type Karzok = {
 
         }
         
-        // "editGamerule.title": "Edit Game Rules",
-        // "editGamerule.default": "Default: %s",
         "editGamerule": {
 
           "title": String,
@@ -1460,12 +1459,6 @@ declare type Karzok = {
 
         }
 
-        // "gameMode.survival": "Survival Mode",
-        // "gameMode.creative": "Creative Mode",
-        // "gameMode.adventure": "Adventure Mode",
-        // "gameMode.spectator": "Spectator Mode",
-        // "gameMode.hardcore": "Hardcore Mode!",
-        // "gameMode.changed": "Your game mode has been updated to %s",
         "gameMode": {
 
           "survival": String
@@ -1477,15 +1470,31 @@ declare type Karzok = {
 
         }
 
-        // "spectatorMenu.previous_page": "Previous Page",
-        // "spectatorMenu.next_page": "Next Page",
-        // "spectatorMenu.close": "Close Menu",
-        // "spectatorMenu.teleport": "Teleport to Player",
-        // "spectatorMenu.teleport.prompt": "Select a player to teleport to",
-        // "spectatorMenu.team_teleport": "Teleport to Team Member",
-        // "spectatorMenu.team_teleport.prompt": "Select a team to teleport to",
-        // "spectatorMenu.root.prompt": "Press a key to select a command, and again to use it.",
-        "spectatorMenu": { }
+        "spectatorMenu": {
+
+          "previous_page": String
+          "next_page": String
+          "close": String
+          "teleport": {
+
+            Default: String
+            "prompt": String
+          }
+
+          "team_teleport": {
+
+            Default: String
+            "prompt": String
+
+          }
+
+          "root": {
+
+            "prompt": String
+
+          }
+
+        }
 
         // "generator.default": "Default",
         // "generator.flat": "Superflat",

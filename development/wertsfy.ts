@@ -1,1 +1,1 @@
-class Wertsfy { } export var wertsfy = new Wertsfy(); 
+class Wertsfy { } export var wertsfy: Wertsfy; 

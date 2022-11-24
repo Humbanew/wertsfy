@@ -1,5 +1,1 @@
-class WKarzok {
-
-  public defTypes = class TypesKarzok { }
-
-}
+class WKarzok { public prototypes = undefined; }

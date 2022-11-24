@@ -1,6 +1,6 @@
 {
   "name": "wertsfy-preview",
-  "version": "2.0.0-snapshot",
+  "version": "legacy-2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

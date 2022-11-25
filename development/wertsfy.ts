@@ -20,9 +20,9 @@ interface Wertsfy {
 
   },
 
-  Constructor: {
+  Builder: {
 
-    karzok: WERTSFY_CONSTRUCTORS_KARZOK
+    karzok: WERTSFY_BUILDER_KARZOK
 
   },
 
@@ -48,8 +48,8 @@ class WERTSFY_INTERFACE_TERMINAL { };
 /** *Wertsfy Interface Lydroc Class* */
 class WERTSFY_INTERFACE_LYDROC { };
 
-/** *Wertsfy Constructors Karzok Class* */
-class WERTSFY_CONSTRUCTORS_KARZOK { };
+/** *Wertsfy Builder Karzok Class* */
+class WERTSFY_BUILDER_KARZOK { };
 
 /** *Wertsfy Hooks Language Class* */
 class WERTSFY_HOOKS_LANGUAGE { }

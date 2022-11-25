@@ -6,27 +6,27 @@
 // Interface de Programação de Aplicativos
 interface Wertsfy {
 
-  Mathematic: {
+  mathematic: {
 
     corebase: WERTSFY_MATH_COREBASE,
     calculator: WERTSFY_MATH_CALCULATOR,
 
   },
 
-  Interface: {
+  interface: {
 
     terminal: WERTSFY_INTERFACE_TERMINAL,
     lydroc: WERTSFY_INTERFACE_LYDROC
 
   },
 
-  Builder: {
+  builder: {
 
     karzok: WERTSFY_BUILDER_KARZOK
 
   },
 
-  Hooks: {
+  hooks: {
 
     language: WERTSFY_HOOKS_LANGUAGE
 
@@ -37,7 +37,11 @@ interface Wertsfy {
 // Componentes da Interface
 
 /** *Wertsfy Mathematics Corebase Class* */
-class WERTSFY_MATH_COREBASE { };
+class WERTSFY_MATH_COREBASE {
+
+  public Pi = 3.141592653589793;
+
+};
 
 /** *Wertsfy Mathematics Calculator Class* */
 class WERTSFY_MATH_CALCULATOR { };

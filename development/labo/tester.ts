@@ -1,2 +1,2 @@
 import { wertsfy } from "../wertsfy";
-wertsfy.Mathematic.corebase;
+wertsfy.mathematic.corebase.Pi;

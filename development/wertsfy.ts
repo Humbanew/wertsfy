@@ -6,9 +6,25 @@
 // Interface de Programação de Aplicativos
 interface Wertsfy {
 
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Interface``** 
+   * Collection of Mathematic
+   */
   mathematic: {
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Library``** 
+     * Core Component of Mathematic
+     */
     corebase: WERTSFY_MATH_COREBASE,
+
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Library``** 
+     * Calculator Component of Mathematic
+     */
     calculator: WERTSFY_MATH_CALCULATOR,
 
   },
@@ -22,7 +38,8 @@ interface Wertsfy {
 
   builder: {
 
-    karzok: WERTSFY_BUILDER_KARZOK
+    karzok: WERTSFY_BUILDER_KARZOK,
+    sollpass: WERTSFY_BUILDER_SOLLPASS
 
   },
 
@@ -32,7 +49,14 @@ interface Wertsfy {
 
   }
 
-} export var wertsfy: Wertsfy;
+}; 
+
+/**
+ * ``▰ Wertsfy ▰ ``
+ * @description **``Base``** 
+ * The Wertsfy API
+ */
+export var wertsfy: Wertsfy;
 
 // Componentes da Interface
 
@@ -60,63 +84,247 @@ class WERTSFY_MATH_COREBASE {
     return exp;
   }
 
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the pi value.
+   */
   public Pi = 3.141592653589793;
+
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the euler value.
+   */
   public Euler = 2.7182818284590452353602874713527;
+
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the plank value.
+   */
   public Plank = 6.62606896e-34;
+
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the avogadro value.
+   */
   public Avogadro = 6.022140857e23;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the newton value.
+   */
   public Newton = 0.6931471805599453;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the tesla value.
+   */
   public Tesla = 1.6021766208e-19;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant Collection``** 
+   * Returns the square root object.
+   */
   public SquareRoot = {
 
+    
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 1.
+     */
     Of01: 1.0,
     
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 2.
+     */
     Of02: 1.414213562373095,
-
+    
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 3.
+     */
     Of03: 1.732050807568877,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 4.
+     */
     Of04: 2.0,
-
+    
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 5.
+     */
     Of05: 2.23606797749979,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 6.
+     */
     Of06: 2.449489742783178,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 7.
+     */
     Of07: 2.64575131106459,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 8.
+     */
     Of08: 2.82842712474619,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 9.
+     */
     Of09: 3.0,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the square root of 10.
+     */
     Of10: 3.16227766016838
 
   };
+
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant Collection``** 
+   * Returns the cubic root object.
+   */ 
   public CubicRoot = {
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 1.
+     */
     Of01: 1.0,
     
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 2.
+     */
     Of02: 1.25992104989487,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 3.
+     */
     Of03: 1.5874010519682,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 4.
+     */
     Of04: 1.99999999999999,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 5.
+     */
     Of05: 2.23606797749979,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 6.
+     */
     Of06: 2.58198889747161,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 7.
+     */
     Of07: 2.91293118277239,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 8.
+     */
     Of08: 3.26249509498958,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 9.
+     */
     Of09: 3.62449963442055,
 
+    /**
+     * ``▰ Wertsfy ▰ ``
+     * @description **``Constant``** 
+     * Returns the cubic root of 10.
+     */
     Of10: 3.99999999999999
 
   }
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the logarithm of 2.
+   */
   public Logarithm2 = 0.6931471805599453;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the logarithm of 10.
+   */
   public Logarithm10 = 2.302585092994046;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the euler logarithm of 2.
+   */
   public Logarithm2e = 1.4426950408889634;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the euler logarithm of 10.
+   */
   public Logarithm10e = 0.4342944819032518;
+
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the max value.
+   */
   public MaxValue = 999999999999999;
+  
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant``** 
+   * Returns the min value.
+   */
   public MinValue = -999999999999999;
 
   public abs(x: number): number 
@@ -454,6 +662,9 @@ class WERTSFY_INTERFACE_LYDROC { };
 
 /** *Wertsfy Builder Karzok Class* */
 class WERTSFY_BUILDER_KARZOK { };
+
+/** *Wertsfy Builder Sollpass Class* */
+class WERTSFY_BUILDER_SOLLPASS { };
 
 /** *Wertsfy Hooks Language Class* */
 class WERTSFY_HOOKS_LANGUAGE { }

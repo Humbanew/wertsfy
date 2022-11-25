@@ -32,7 +32,8 @@ interface Wertsfy {
   interface: {
 
     terminal: WERTSFY_INTERFACE_TERMINAL,
-    lydroc: WERTSFY_INTERFACE_LYDROC
+    lydroc: WERTSFY_INTERFACE_LYDROC,
+    spectrals: WERTSFY_INTERFACE_SPECTRALS
 
   },
 
@@ -1121,6 +1122,9 @@ class WERTSFY_INTERFACE_TERMINAL { };
 
 /** *Wertsfy Interface Lydroc Class* */
 class WERTSFY_INTERFACE_LYDROC { };
+
+/** *Wertsfy Interface Lydroc Class* */
+class WERTSFY_INTERFACE_SPECTRALS { };
 
 /** *Wertsfy Builder Karzok Class* */
 class WERTSFY_BUILDER_KARZOK { };

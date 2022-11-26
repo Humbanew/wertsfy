@@ -12,7 +12,8 @@
 <div align="center">
 
 ## Github Actions
-[![Lint Codespaces Actions Workflow](https://github.com/Humba01/wertsfy/actions/workflows/main.yml/badge.svg)](https://github.com/Humba01/wertsfy/actions/workflows/main.yml)
+[![Lint Codespaces Actions Workflow](https://github.com/Humba01/wertsfy/actions/workflows/main.yml/badge.svg?branch=v0.0.1)](https://github.com/Humba01/wertsfy/actions/workflows/main.yml)
+[![CodeQL Workflow](https://github.com/Humba01/wertsfy/actions/workflows/codeql.yml/badge.svg?branch=v0.0.1)](https://github.com/Humba01/wertsfy/actions/workflows/codeql.yml)
 
 <div>
 

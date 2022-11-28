@@ -1,10 +1,4 @@
-declare module "wertsfy-structure" {
-
-  const CYF: ColorYellowFormatter;
-
-  const CPF: ColorPurpleFormatter;
-
-}
+declare module "@wtfy/typedefs" { }
 
 // "#ffff00", "#ffdd00", "#ffbb00", "#ff9900"
 declare type ColorYellowFormatter = '/[f]{2}[fdb9]{2}[0]{2}[0-9a-f]{2}/g';

@@ -1,5 +1,7 @@
 declare module "@wtfy/typedefs" { }
 
+// // [Spectrals Lib] Color Types
+
 // "#ffff00", "#ffdd00", "#ffbb00", "#ff9900"
 declare type ColorYellowFormatter = '/[f]{2}[fdb9]{2}[0]{2}[0-9a-f]{2}/g';
 

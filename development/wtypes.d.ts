@@ -18,7 +18,7 @@ declare type ColorBlackFormatter = '/[0-8]{6}[0-9a-f]{2}/g';
 declare type TerminalColorSchemas = "3b4bit"|"8bit"|"24bit";
 
 // "C"|"F";
-declare type TerminalColorFormatSchemas = "Color"|"Format";
+declare type TerminalColorModelSchemas = "Color"|"Format";
 
 // // Constantes à serem realocadas...
 

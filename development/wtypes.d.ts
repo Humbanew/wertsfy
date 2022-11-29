@@ -427,55 +427,6 @@ declare type TerminalColorFormatSchemas = "Color"|"Format";
 
   };
 
-  declare type CorCustomizada = {
-
-    RGBY: { 
-      c1: String; 
-      c2: DefinePresets<Presets <TAmarelo>>; 
-    }
-
-    RGBW: { 
-      c1: String;
-      c2: DefinePresets<Presets <TBranco>>;
-    }
-
-    RGBBK: {
-      c1: String;
-      c2: DefinePresets<Presets <TPreto>>;
-    }
-
-    RGBYW: { 
-      c1: String; 
-      c2: DefinePresets<Presets <TAmarelo>>; 
-      c3: DefinePresets<Presets <TBranco>>;
-    }
-
-    RGBYBK: {
-      c1: String;
-      c2: DefinePresets<Presets <TAmarelo>>;
-      c3: DefinePresets<Presets <TPreto>>;
-    }
-
-    RGBYWBK: {
-      c1: String;
-      c2: DefinePresets<Presets <TAmarelo>>;
-      c3: DefinePresets<Presets <TBranco>>;
-      c4: DefinePresets<Presets <TPreto>>;
-    }
-
-  };
-
-  export declare type WCSpectrals = {
-
-    colorizacao: { 
-
-      frontendweb: Cor<CorWeb>;
-      terminal: Cor<CorTerminal>;
-      customizada: Cor<CorCustomizada>;
-
-    }
-    
-  };
  */
 
 /**

@@ -1,4 +1,4 @@
-declare module "@wtfy/typedefs" { }
+declare module "wertsfy-typedefs" { }
 
 
 // "#ffff00", "#ffdd00", "#ffbb00", "#ff9900"

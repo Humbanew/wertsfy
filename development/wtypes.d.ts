@@ -20,6 +20,8 @@ declare type TerminalColorSchemas = "3b4bit"|"8bit"|"24bit";
 // "C"|"F";
 declare type TerminalColorFormatSchemas = "Color"|"Format";
 
+// // Constantes à serem realocadas...
+
 /**
  * declare type CorTerminal = {
 

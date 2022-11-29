@@ -21,11 +21,7 @@ declare type TerminalColorSchemas = "3b4bit"|"8bit"|"24bit";
 declare type TerminalColorFormatSchemas = "Color"|"Format";
 
 /**
- * declare type TSCollection = TAmarelo | TBranco | TPreto;
-  declare type Presets<Format extends TSCollection> = Format;
-  declare type DefinePresets<Selecao extends Presets<TSCollection>> = Selecao;
-
-  declare type CorTerminal = {
+ * declare type CorTerminal = {
 
     hexadecimal: {
       

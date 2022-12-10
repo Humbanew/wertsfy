@@ -29,8 +29,6 @@ interface Wertsfy {
 
   },
 
-  utility: { }
-
 }; 
 
 /**
@@ -1098,8 +1096,3 @@ class WERTSFY_MATH_COREBASE {
 /** *Wertsfy Mathematics Calculator Class* */
 class WERTSFY_MATH_CALCULATOR { };
 
-class WERTSFY_UTILITY_CONSTS { };
-
-class WERTSFY_UTILITY_KEX { };
-
-class WERTSFY_UTILITY_INTEGRATION { };

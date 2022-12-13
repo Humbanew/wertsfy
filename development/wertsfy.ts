@@ -1150,6 +1150,10 @@ class WERTSFY_MATH_CALCULATOR {
   protected calculo_de_girard = 0;
   protected calculo_de_tales_de_mileto = 0;
   protected calculo_de_pitagoras = 0;
+  protected calculo_de_pitagoras_alt1 = 0;
+  protected calculo_de_pitagoras_alt2 = 0;
+  protected calculo_de_pitagoras_alt3 = 0;
+
 
   protected conversor() { }
 
@@ -1161,4 +1165,6 @@ class WERTSFY_FACTORY_SOLLPASS { }
 class WERTSFY_FACTORY_KRIPTONIGHT { }
 class WERTSFY_FACTORY_NIKKO { }
 class WERTSFY_EXTENDER_CLI { }
-
+class WERTSFY_COLORFY_COMPLEX { }
+class WERTSFY_MULTIPLATAFORM_HULIGHT { }
+class WERTSFY_WEBSERVICES { }

@@ -1,5 +1,0 @@
-@ Support Links
--- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
--- https://docs.github.com/en/rest/deployments/environments
--- https://docs.github.com/en/rest/issues/timeline
--- https://docs.docker.com/

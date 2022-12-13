@@ -11,5 +11,7 @@ namespace ColorsPallet {
 }
 
 void Initialize(Local<Object> exports) {
-  
+  NODE_SET_METHOD(exports, "pallet", Method);
 }
+
+NODE_MODULE(NODE_GYP_MODULE_NAME, Initialize)

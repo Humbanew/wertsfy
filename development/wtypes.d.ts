@@ -1,24 +1,30 @@
+declare type ColorForm=
+{
+
+  yellow: "/[f]{2}[4-9a-f]{2}[0]{2}[0-9a-f]{2}/g",
+  purple: "/[4-9a-f]{2}[0]{2}[4-9a-f]{2}[0-9a-f]{2}/g",
+  white: "/[9a-f]{6}[0-9a-f]{2}/g",
+  black: "/[0-8]{6}[0-9a-f]{2}/g"
+
+}
+
+declare type TermColor=
+{
+
+  schema: "3b4bit"|"8bit"|"24bit",
+  model_schema: "color"|"format"
+
+}
+
+declare type MathDefOp= 
+{
+  
+  common: "plus"|"minus"|"divisor"|"multiplication"|"power", 
+  advanced: "square-root"|"cubic-root"|"colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1"
+
+}
+
 declare module "wertsfy-typedefs" { }
-
-
-// "#ffff00", "#ffdd00", "#ffbb00", "#ff9900"
-declare type ColorYellowFormatter = '/[f]{2}[4-9a-f]{2}[0]{2}[0-9a-f]{2}/g';
-
-// "#660066", "#770077", "#880088", "#990099"
-declare type ColorPurpleFormatter = '/[4-9a-f]{2}[0]{2}[4-9a-f]{2}[0-9a-f]{2}/g';
-
-// "#ffffff", "#dddddd", "#bbbbbb", "#999999"
-declare type ColorWhiteFormatter = '/[9a-f]{6}[0-9a-f]{2}/g';
-
-// "#000000", "#111111", "#222222", "#333333"
-declare type ColorBlackFormatter = '/[0-8]{6}[0-9a-f]{2}/g';
-
-
-// "3b4bit"|"8bit"|"24bit";
-declare type TerminalColorSchemas = "3b4bit"|"8bit"|"24bit";
-
-// "C"|"F";
-declare type TerminalColorModelSchemas = "Color"|"Format";
 
 /**
  * declare type WCTerminalFormatacao= 

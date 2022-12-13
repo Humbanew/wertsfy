@@ -1094,5 +1094,71 @@ class WERTSFY_MATH_COREBASE {
 };
 
 /** *Wertsfy Mathematics Calculator Class* */
-class WERTSFY_MATH_CALCULATOR { };
+class WERTSFY_MATH_CALCULATOR {
+  
+  public common(operation: MathDefOp, ...numbers: number[]): number {
+    
+    let resultado: number = 0;
+    
+    for(let i = 0; i < numbers.length; i++) {
+      
+      switch(operation.common) {
+        case operation.common = "plus":
+          resultado = resultado + numbers[i];
+        case operation.common = "minus":
+          resultado = resultado - numbers[i];
+        case operation.common = "multiplication":
+          resultado = resultado * numbers[i];
+        case operation.common = "divisor":
+          resultado = resultado / numbers[i];
+        case operation.common = "power":
+          resultado = resultado ** numbers[i];
+      }
+    
+    }
+
+    return resultado;
+
+  }
+
+  public advanced(operation: MathDefOp, ...numbers: number[]) {
+
+    let resultado: number = 0;
+
+    switch(operation.advanced) {
+      case operation.advanced = "square-root":
+        resultado = wertsfy.mathematic.corebase.sqrt(numbers[0]);
+      case operation.advanced = "cubic-root":
+        resultado = wertsfy.mathematic.corebase.cbrt(numbers[0]);
+      case operation.advanced = "antilog":
+        resultado = 1 ** wertsfy.mathematic.corebase.logx(numbers[0], numbers[1]);
+      case operation.advanced = "antilogm1":
+        resultado = 1 ** wertsfy.mathematic.corebase.logxm1(numbers[0], numbers[1]);
+      case operation.advanced = "antilogp1":
+        resultado = 1 ** wertsfy.mathematic.corebase.logxp1(numbers[0], numbers[1]);
+      case operation.advanced = "colog":
+        resultado = -1 * wertsfy.mathematic.corebase.logx(numbers[0], numbers[1]);
+      case operation.advanced = "cologm1":
+        resultado = -1 * wertsfy.mathematic.corebase.logxm1(numbers[0], numbers[1]);
+      case operation.advanced = "cologp1":
+        resultado = -1 * wertsfy.mathematic.corebase.logxp1(numbers[0], numbers[1]);
+    }
+
+  }
+
+  protected formula() { }
+  protected calculo_de_girard = 0;
+  protected calculo_de_tales_de_mileto = 0;
+  protected calculo_de_pitagoras = 0;
+
+  protected conversor() { }
+
+};
+
+class WERTSFY_INFORMATION_GAMES { }
+class WERTSFY_FACTORY_KEX { }
+class WERTSFY_FACTORY_SOLLPASS { }
+class WERTSFY_FACTORY_KRIPTONIGHT { }
+class WERTSFY_FACTORY_NIKKO { }
+class WERTSFY_EXTENDER_CLI { }
 

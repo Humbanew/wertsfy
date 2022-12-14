@@ -18,11 +18,4 @@
 <div>
 
 <div align="center"> 
-
-## Infográfico & Resumo do Projeto
-
-![Wertsfy-Infograph-v4](https://user-images.githubusercontent.com/59739253/202082533-c1d9bb01-407f-4e25-ad71-0f39b83e72bb.png)
-
 </div>
-
-

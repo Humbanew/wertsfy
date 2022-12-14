@@ -3,6 +3,8 @@
  * Humbanew Project Huon Subdivision
  */
 
+let w = require("node");
+
 // Interface de Programação de Aplicativos
 interface Wertsfy {
 
@@ -1150,9 +1152,7 @@ class WERTSFY_MATH_CALCULATOR {
   protected calculo_de_girard = 0;
   protected calculo_de_tales_de_mileto = 0;
   protected calculo_de_pitagoras = 0;
-  protected calculo_de_pitagoras_alt1 = 0;
-  protected calculo_de_pitagoras_alt2 = 0;
-  protected calculo_de_pitagoras_alt3 = 0;
+
 
 
   protected conversor() { }

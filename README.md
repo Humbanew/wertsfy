@@ -18,4 +18,7 @@
 <div>
 
 <div align="center"> 
+  
+  ![Wertsfy Logo](https://user-images.githubusercontent.com/59739253/207722663-49333baa-7efc-42e2-bf43-a78dc3d24fb6.png)
+
 </div>

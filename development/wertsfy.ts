@@ -3,8 +3,6 @@
  * Humbanew Project Huon Subdivision
  */
 
-let w = require("node");
-
 // Interface de Programação de Aplicativos
 interface Wertsfy {
 
@@ -1149,11 +1147,20 @@ class WERTSFY_MATH_CALCULATOR {
   }
 
   protected formula() { }
-  protected calculo_de_girard = 0;
-  protected calculo_de_tales_de_mileto = 0;
-  protected calculo_de_pitagoras = 0;
-
-
+  protected calculo_de_girard = undefined;
+  protected calculo_de_tales_de_mileto = undefined;
+  protected calculo_de_pitagoras = undefined;
+  protected calculo_de_fatorial = undefined;
+  protected calculo_de_combinacao = undefined;
+  protected calculo_de_arranjo = undefined;
+  protected calculo_de_probabilidade = undefined;
+  protected calculo_do_conjugado_de_um_numero_complexo = undefined;
+  protected calculo_do_teorema_de_stirling = undefined;
+  protected calculo_da_relacao_de_euler = undefined;
+  protected calculo_das_potencias_de_i = undefined;
+  protected calculo_da_porcentagem = undefined;
+  protected calculo_da_porcentagem_100 = undefined;
+  protected calculo_da_porcentagem_1000 = undefined;
 
   protected conversor() { }
 

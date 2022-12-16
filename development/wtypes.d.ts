@@ -24,7 +24,14 @@ declare type MathDefOp=
 
 }
 
-declare module "wertsfy-typedefs" { }
+declare module "wertsfy-typedefs" 
+{ 
+
+  export var ColorFormatters: ColorForm;
+  export var TerminalColors: TermColor; 
+  export var MathematicDefines: MathDefOp; 
+
+}
 
 /**
  * declare type WCTerminalFormatacao= 

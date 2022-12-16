@@ -3,6 +3,8 @@
  * Humbanew Project Huon Subdivision
  */
 
+import { MathematicDefines } from "wertsfy-typedefs";
+
 // Interface de Programação de Aplicativos
 interface Wertsfy {
 
@@ -1096,22 +1098,26 @@ class WERTSFY_MATH_COREBASE {
 /** *Wertsfy Mathematics Calculator Class* */
 class WERTSFY_MATH_CALCULATOR {
   
-  public common(operation: MathDefOp, ...numbers: number[]): number {
+  public common(operation: string, ...numbers: number[]): number {
     
     let resultado: number = 0;
+
+    if(operation != MathematicDefines.common) {
+      return null;
+    }
     
     for(let i = 0; i < numbers.length; i++) {
       
-      switch(operation.common) {
-        case operation.common = "plus":
+      switch(operation) {
+        case operation = "plus":
           resultado = resultado + numbers[i];
-        case operation.common = "minus":
+        case operation = "minus":
           resultado = resultado - numbers[i];
-        case operation.common = "multiplication":
+        case operation = "multiplication":
           resultado = resultado * numbers[i];
-        case operation.common = "divisor":
+        case operation = "divisor":
           resultado = resultado / numbers[i];
-        case operation.common = "power":
+        case operation = "power":
           resultado = resultado ** numbers[i];
       }
     
@@ -1121,28 +1127,34 @@ class WERTSFY_MATH_CALCULATOR {
 
   }
 
-  public advanced(operation: MathDefOp, ...numbers: number[]) {
+  public advanced(operation: string, ...numbers: number[]) {
 
     let resultado: number = 0;
 
-    switch(operation.advanced) {
-      case operation.advanced = "square-root":
+    if(operation != MathematicDefines.advanced) {
+      return null;
+    }
+
+    switch(operation) {
+      case operation = "square-root":
         resultado = wertsfy.mathematic.corebase.sqrt(numbers[0]);
-      case operation.advanced = "cubic-root":
+      case operation = "cubic-root":
         resultado = wertsfy.mathematic.corebase.cbrt(numbers[0]);
-      case operation.advanced = "antilog":
+      case operation = "antilog":
         resultado = 1 ** wertsfy.mathematic.corebase.logx(numbers[0], numbers[1]);
-      case operation.advanced = "antilogm1":
+      case operation = "antilogm1":
         resultado = 1 ** wertsfy.mathematic.corebase.logxm1(numbers[0], numbers[1]);
-      case operation.advanced = "antilogp1":
+      case operation = "antilogp1":
         resultado = 1 ** wertsfy.mathematic.corebase.logxp1(numbers[0], numbers[1]);
-      case operation.advanced = "colog":
+      case operation = "colog":
         resultado = -1 * wertsfy.mathematic.corebase.logx(numbers[0], numbers[1]);
-      case operation.advanced = "cologm1":
+      case operation = "cologm1":
         resultado = -1 * wertsfy.mathematic.corebase.logxm1(numbers[0], numbers[1]);
-      case operation.advanced = "cologp1":
+      case operation = "cologp1":
         resultado = -1 * wertsfy.mathematic.corebase.logxp1(numbers[0], numbers[1]);
     }
+
+    return resultado;
 
   }
 

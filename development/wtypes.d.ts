@@ -27,8 +27,8 @@ declare type MathDefOp=
 declare module "wertsfy-typedefs" 
 { 
 
-  export var ColorFormatters: ColorForm;
-  export var TerminalColors: TermColor; 
+  export var ColormaticFormDefines: ColorForm;
+  export var TerminalColorsDefines: TermColor; 
   export var MathematicDefines: MathDefOp; 
 
 }

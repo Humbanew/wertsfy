@@ -1289,45 +1289,40 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-
-
-
-
-  // Arrumar aqui!
-    formula_soma_polinomios(polinomio1: string, polinomio2: string) {
-      let resultado = '', verificaSinal = /^(\-)/gi;
+    formulaSomaPolinomios: (polinomio1: string, polinomio2: string): string => {
+      let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
       if (verificaSinal != null) { polinomio1.replace("-", ''); }
       if (verificaSinal != null) { polinomio2.replace("-", ''); }
       resultado = polinomio1 + '+' + polinomio2;
       return resultado;
     },
 
-    formula_subtracao_polinomios(polinomio1: string, polinomio2: string) {
-      let resultado = '', verificaSinal = /^(\-)/gi;
+    formulaSubtracaoPolinomios: (polinomio1: string, polinomio2: string): string => {
+      let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
       if (verificaSinal != null) { polinomio1.replace("-", ''); }
       if (verificaSinal != null) { polinomio2.replace("-", ''); }
       resultado = polinomio1 + '-' + polinomio2;
       return resultado;
     },
 
-    formula_multiplicacao_polinomios(polinomio1: string, polinomio2: string) {
-      let resultado = '', verificaSinal = /^(\-)/gi;
+    formulaMultiplicacaoPolinomios: (polinomio1: string, polinomio2: string): string => {
+      let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
       if (verificaSinal != null) { polinomio1.replace("-", ''); }
       if (verificaSinal != null) { polinomio2.replace("-", ''); }
       resultado = polinomio1 + '*' + polinomio2;
       return resultado;
     },
 
-    formula_divisao_polinomios(polinomio1: string, polinomio2: string) {
-      let resultado = '', verificaSinal = /^(\-)/gi;
+    formulaDivisaoPolinomios: (polinomio1: string, polinomio2: string): string => {
+      let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
       if (verificaSinal != null) { polinomio1.replace("-", ''); }
       if (verificaSinal != null) { polinomio2.replace("-", ''); }
       resultado = polinomio1 + '/' + polinomio2;
       return resultado;
     },
 
-    formula_soma_matrizes(matriz: [][], matriz2: [][]): number[][] {
-      let resultado;
+    formulaSomaMatrizes: (matriz: [][], matriz2: [][]): number[][] => {
+      let resultado: any;
       for (let i = 0; i < matriz.length; i++) {
         resultado[i] = [];
         for (let j = 0; j < matriz[i].length; j++) {
@@ -1337,8 +1332,8 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_subtracao_matrizes(matriz: [][], matriz2: [][]) {
-      let resultado;
+    formulaSubtracaoMatrizes: (matriz: [][], matriz2: [][]): number[][] => {
+      let resultado: any;
       for (let i = 0; i < matriz.length; i++) {
         resultado[i] = [];
         for (let j = 0; j < matriz[i].length; j++) {
@@ -1348,8 +1343,8 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_multiplicacao_matrizes(matriz: [][], matriz2: [][]) {
-      let resultado;
+    formulaMultiplicacaoMatrizes: (matriz: [][], matriz2: [][]): number[][]|string => {
+      let resultado: any;
       for (let i = 0; i < matriz.length; i++) {
         resultado[i] = [];
         for (let j = 0; j < matriz[i].length; j++) {
@@ -1360,8 +1355,8 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_divisao_matrizes(matriz: [][], matriz2: [][]) {
-      let resultado;
+    formulaDivisaoMatrizes: (matriz: [][], matriz2: [][]): number[][] => {
+      let resultado: any;
       for (let i = 0; i < matriz.length; i++) {
         resultado[i] = [];
         for (let j = 0; j < matriz[i].length; j++) {
@@ -1371,141 +1366,141 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_calculo_da_velocidade(espaco: number, tempo: number) {
+    formulaCalculoDaVelocidade: (espaco: number, tempo: number): number => {
       return espaco / tempo;
     },
 
-    formula_calculo_do_espaco(velocidade: number, tempo: number) {
+    formulaCalculoDoEspaco: (velocidade: number, tempo: number): number => {
       return velocidade * tempo;
     },
 
-    formula_calculo_do_tempo(velocidade: number, espaco: number) {
+    formulaCalculoDoTempo: (velocidade: number, espaco: number): number => {
       return espaco / velocidade;
     },
 
-    formula_calculo_da_aceleracao(velocidade: number, tempo: number) {
+    formulaCalculoDaAceleracao: (velocidade: number, tempo: number): number => {
       return velocidade / tempo;
     },
 
-    formula_calculo_da_equacao_horaria_do_tempo(tempo: number, tempoInicial: number, velocidade: number, aceleracao: number) {
+    formulaCalculoDaEquacaoHorariaDoTempo: (tempo: number, tempoInicial: number, velocidade: number, aceleracao: number): number => {
       return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2));
     },
 
-    formula_calculo_da_equacao_horaria_do_espaco(espaco: number, espacoInicial: number, aceleracao: number) {
+    formulacalculoDaEquacaoHorariaDoEspaco: (espaco: number, espacoInicial: number, aceleracao: number): number => {
       return espacoInicial + aceleracao * espaco;
     },
 
-    formula_calculo_da_equacao_horaria_da_velocidade(velocidade: number, tempo: number, aceleracao: number) {
+    formulaCalculoDaEquacaoHorariaDaVelocidade: (velocidade: number, tempo: number, aceleracao: number): number => {
       return velocidade + aceleracao * tempo;
     },
 
-    formula_calculo_da_equacao_horaria_da_aceleracao(aceleracao: number, tempo: number, velocidade: number) {
+    formulaCalculoDaEquacaoHorariaDaAceleracao: (aceleracao: number, tempo: number, velocidade: number): number => {
       return aceleracao + (velocidade * tempo);
     },
 
-    formula_calculo_da_equacao_horaria_da_forca(forca: number, tempo: number, aceleracao: number) {
+    formulaCalculoDaEquacaoHorariaDaForca: (forca: number, tempo: number, aceleracao: number): number => {
       return forca + (aceleracao * tempo);
     },
 
-    formula_calculo_da_equacao_horaria_do_tempo_espaco(tempo: number, espaco: number, tempoInicial: number, espacoInicial: number, velocidade: number, aceleracao: number) {
+    formulaCalculoDaEquacaoHorariaDoTempoEspaco: (tempo: number, espaco: number, tempoInicial: number, espacoInicial: number, velocidade: number, aceleracao: number): number => {
       return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2)) + espacoInicial + aceleracao * espaco;
     },
 
-    formula_calculo_da_energia_cinetica(massa: number, velocidade: number) {
+    formulaCalculoDaEnergiaCinetica: (massa: number, velocidade: number): number => {
       return (massa * velocidade ** 2) / 2;
     },
 
-    formula_calculo_da_energia_potencial_elastica(constanteElastica: number, distancia: number) {
+    formulaCalculoDaEnergiaPotencialElastica: (constanteElastica: number, distancia: number): number => {
       return (constanteElastica * distancia ** 2) / 2;
     },
 
-    formula_calculo_da_energia_potencial_gravitacional(massa: number, gravidade: number, altura: number) {
+    formulaCalculoDaEnergiaPotencialGravitacional: (massa: number, gravidade: number, altura: number): number => {
       return massa * gravidade * altura;
     },
 
-    formula_calculo_do_potencial_mecanico(velocidade: number, constanteElastica: number, distancia: number, massa: number, gravidade: number, altura: number, energPotElas: boolean, energPotGrav: boolean) {
+    formulaCalculoDoPotencialMecanico: (velocidade: number, constanteElastica: number, distancia: number, massa: number, gravidade: number, altura: number, energPotElas: boolean, energPotGrav: boolean): number => {
       let resultado = 0;
-      if (energPotElas == true) { resultado = this.formula_calculo_da_energia_cinetica(massa, velocidade) + this.formula_calculo_da_energia_potencial_elastica(constanteElastica, distancia); }
-      if (energPotGrav == true) { resultado = this.formula_calculo_da_energia_cinetica(massa, velocidade) + this.formula_calculo_da_energia_potencial_gravitacional(massa, gravidade, altura); }
+      if (energPotElas == true) { resultado = this.expressions.formulaCalculoDaEnergiaCinetica(massa, velocidade) + this.expressions.formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia); }
+      if (energPotGrav == true) { resultado = this.expressions.formulaCalculoDaEnergiaCinetica(massa, velocidade) + this.expressions.formulaCalculoDaEnergiaPotencialGravitacional(massa, gravidade, altura); }
       return resultado;
     },
 
-    formula_calculo_do_potencial_elastico(constanteElastica: number, distancia: number) {
-      let resultado = this.formula_calculo_da_energia_potencial_elastica(constanteElastica, distancia);
+    formulaCalculoDoPotencialElastico: (constanteElastica: number, distancia: number): number => {
+      let resultado = this.expressions.formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia);
       return resultado;
     },
 
-    formula_calculo_do_plano_inclinado_sem_atrito(massa: number, gravidade: number) {
+    formulaCalculoDoPlanoInclinadoSemAtrito: (massa: number, gravidade: number): number => {
       let resultado = massa * gravidade;
       return resultado;
     },
 
-    formula_calculo_do_plano_inclinado_com_atrito(forcaDeAtrito: number, massa: number, gravidade: number, angulo: number) {
+    formulaCalculoDoPlanoInclinadoComAtrito: (forcaDeAtrito: number, massa: number, gravidade: number, angulo: number): number => {
       let resultado = forcaDeAtrito * massa * gravidade * angulo;
       return resultado;
     },
 
-    formula_calculo_da_aceleracao_no_plano_inclinado_eixo_x(massa: number, gravidade: number, angulo: number) {
+    formulaCalculoDaAceleracaoNoPlanoInclinadoEixoX: (massa: number, gravidade: number, angulo: number): number => {
       let resultado = massa * gravidade * wertsfy.mathematic.corebase.sin(angulo);
       return resultado;
     },
 
-    formula_calculo_da_aceleracao_no_plano_inclinado_eixo_y(massa: number, gravidade: number, angulo: number) {
+    formulaCalculoDaAceleracaoNoPlanoInclinadoEixoY: (massa: number, gravidade: number, angulo: number): number => {
       let resultado = massa * gravidade * wertsfy.mathematic.corebase.cos(angulo);
       return resultado;
     },
 
-    formula_calculo_do_lancamento_horizontal(gravidade: number, tempo: number) {
+    formulaCalculoDoLancamentoHorizontal: (gravidade: number, tempo: number): number => {
       let resultado = (gravidade * tempo ** 2) / 2;
       return resultado;
     },
 
-    formula_calculo_da_equacao_de_torricelli(velocidadeInicial: number, aceleracao: number, espacoInicial: number, espacoFinal: number) {
+    formulaCalculoDaEquacaoDeTorricelli: (velocidadeInicial: number, aceleracao: number, espacoInicial: number, espacoFinal: number): number => {
       let resultado = wertsfy.mathematic.corebase.sqrt((velocidadeInicial ** 2) + 2 * aceleracao * (espacoFinal - espacoInicial));
       return resultado;
     },
 
-    formula_calculo_da_altura_maxima_de_um_lancamento_vertical(velocidadeInicial: number, gravidade: number, angulo: number) {
+    formulaCalculoDaAlturaMaximaDeUmLancamentoVertical: (velocidadeInicial: number, gravidade: number, angulo: number): number => {
       let resultado = (velocidadeInicial ** 2) * ((wertsfy.mathematic.corebase.sin(angulo) ** 2) / 2) * gravidade;
       return resultado;
     },
 
-    formula_calculo_do_alcance_de_um_lancamento_vertical(velocidade: number, tempo: number, angulo: number) {
+    formulaCalculoDoAlcanceDeUmLancamentoVertical: (velocidade: number, tempo: number, angulo: number): number => {
       let resultado = velocidade * wertsfy.mathematic.corebase.cos(angulo) * tempo;
       return resultado;
     },
 
-    formula_calculo_do_alcance_maximo_de_um_lancamento_vertical(velocidade: number, angulo: number, gravidade: number) {
+    formulaCalculoDoAlcanceMaximoDeUmLancamentoVertical: (velocidade: number, angulo: number, gravidade: number): number => {
       let resultado = (velocidade ** 2 * (wertsfy.mathematic.corebase.sin(angulo) ** 2)) / gravidade;
       return resultado;
     },
 
-    formula_calculo_do_calor_sensivel(massa: number, calorEspecifico: number, temperaturaInicial: number, temperaturaFinal: number) {
+    formulaCalculoDoCalorSensivel: (massa: number, calorEspecifico: number, temperaturaInicial: number, temperaturaFinal: number): number => {
       let resultado = massa * calorEspecifico * (temperaturaFinal - temperaturaInicial);
       return resultado;
     },
 
-    formula_calculo_do_calor_latente(quantidadeDeCalor: number, massa: number) {
+    formulaCalculoDoCalorLatente: (quantidadeDeCalor: number, massa: number): number => {
       let resultado = quantidadeDeCalor / massa;
       return resultado;
     },
 
-    formula_calculo_das_leis_de_newton(massa: number, aceleracao: number) {
+    formulaCalculoDasLeisDeNewton: (massa: number, aceleracao: number): number => {
       let resultado = massa * aceleracao;
       return resultado;
     },
 
-    formula_calculo_do_trabalho(massa: number, gravidade: number, altura: number) {
+    formulaCalculoDoTrabalho: (massa: number, gravidade: number, altura: number): number => {
       let resultado = massa * gravidade * altura;
       return resultado;
     },
 
-    formula_calculo_do_consumo_de_energia(tempo: number, correnteEletrica: number, ddp: number) {
+    formulaCalculoDoConsumoDeEnergia: (tempo: number, correnteEletrica: number, ddp: number): number => {
       let resultado = correnteEletrica * ddp * tempo;
       return resultado;
     },
 
-    formula_calculo_do_teorema_de_pascal(forca1: number, forca2: number, area1: number, area2: number, forca1Inexistente: boolean, forca2Inexistente: boolean, area1Inexistente: boolean, area2Inexistente: boolean) {
+    formulaCalculoDoTeoremaDePascal: (forca1: number, forca2: number, area1: number, area2: number, forca1Inexistente: boolean, forca2Inexistente: boolean, area1Inexistente: boolean, area2Inexistente: boolean): number => {
       let resultado = 0;
       if (forca1Inexistente == true) { resultado = (area1 * forca2) / area2; }
       if (forca2Inexistente == true) { resultado = (area2 * forca1) / area1; }
@@ -1514,92 +1509,92 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_calculo_do_teorema_de_stevin(densidade: number, gravidade: number, alturaInicial: number, alturaFinal: number) {
+    formulaCalculoDoTeoremaDeStevin: (densidade: number, gravidade: number, alturaInicial: number, alturaFinal: number): number => {
       let resultado = densidade * gravidade * (alturaFinal - alturaInicial);
       return resultado;
     },
 
-    formula_calculo_do_teorema_de_boltzmann(temperatura: number, constante: number) {
+    formulaCalculoDoTeoremaDeBoltzmann: (temperatura: number, constante: number): number => {
       let resultado = constante * (temperatura ** 4);
       return resultado;
     },
 
-    formula_calculo_do_teorema_de_coulomb(correnteEletrica: number, distancia: number) {
+    formulaCalculoDoTeoremaDeCoulomb: (correnteEletrica: number, distancia: number): number => {
       let resultado = correnteEletrica * distancia;
       return resultado;
     },
 
-    formula_calculo_do_teorema_de_planck(energia: number, constante: number) {
+    formulaCalculoDoTeoremaDePlanck: (energia: number, constante: number): number => {
       let resultado = constante * (energia ** 2);
       return resultado;
     },
 
-    formula_calculo_da_forca_gravitacional(gravidade: number, massaPlaneta: number, distancia: number) {
+    formulaCalculoDaForcaGravitacional: (gravidade: number, massaPlaneta: number, distancia: number): number => {
       let resultado = gravidade * (massaPlaneta / distancia ** 2);
       return resultado;
     },
 
-    formula_calculo_do_aceleracao_centripeta_movimento_circular_uniforme(velocidade: number, raio: number) {
+    formulaCalculoDoAceleracaoCentripetaMovimentoCircularUniforme: (velocidade: number, raio: number): number => {
       let resultado = (velocidade ** 2) / raio;
       return resultado;
     },
 
-    formula_calculo_do_velocidade_angular_movimento_circular_uniforme(anguloInicial: number, anguloFinal: number, tempoInicial: number, tempoFinal: number) {
+    formulaCalculoDoVelocidadeAngularMovimentoCircularUniforme: (anguloInicial: number, anguloFinal: number, tempoInicial: number, tempoFinal: number): number => {
       let resultado = (anguloFinal - anguloInicial) / (tempoFinal - tempoInicial);
       return resultado;
     },
 
-    formula_calculo_do_velocidade_linear_movimento_circular_uniforme(frequencia: number, raio: number) {
+    formulaCalculoDoVelocidadeLinearMovimentoCircularUniforme: (frequencia: number, raio: number): number => {
       let resultado = (2 * wertsfy.mathematic.corebase.Pi * frequencia) * raio;
       return resultado;
     },
 
-    formula_calculo_da_equacao_horaria_do_tempo_movimento_circular_uniformente_variado(velocidadeAngularInicial: number, aceleracaoAngular: number, tempo: number) {
+    formulaCalculoDaEquacaoHorariaDoTempoMovimentoCircularUniformenteVariado: (velocidadeAngularInicial: number, aceleracaoAngular: number, tempo: number): number => {
       let resultado = velocidadeAngularInicial + aceleracaoAngular * tempo;
       return resultado;
     },
 
-    formula_calculo_da_equacao_horaria_do_espaco_movimento_circular_uniformente_Variado(posicaoAngularInicial: number, velocidadeAngularInicial: number, aceleracaoAngular: number, tempo: number) {
+    formulaCalculoDaEquacaoHorariaDoEspacoMovimentoCircularUniformenteVariado: (posicaoAngularInicial: number, velocidadeAngularInicial: number, aceleracaoAngular: number, tempo: number): number => {
       let resultado = posicaoAngularInicial + (velocidadeAngularInicial * tempo) + (aceleracaoAngular * tempo ** 2) / 2;
       return resultado;
     },
 
-    formula_calculo_de_toricelli_movimento_circular_uniformente_variado(velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngularInicial: number, deslocamentoAngularFinal: number) {
+    formulaCalculoDeToricelliMovimentoCircularUniformenteVariado: (velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngularInicial: number, deslocamentoAngularFinal: number): number => {
       let resultado = wertsfy.mathematic.corebase.sqrt(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngularFinal - deslocamentoAngularInicial));
       return resultado;
     },
 
-    formula_calculo_da_aceleracao_angular_movimento_circular_uniformente_variado(velocidadeAngularInicial: number, velocidadeAngularFinal: number, tempoInicial: number, tempoFinal: number) {
+    formulaCalculoDaAceleracaoAngularMovimentoCircularUniformenteVariado: (velocidadeAngularInicial: number, velocidadeAngularFinal: number, tempoInicial: number, tempoFinal: number): number => {
       let resultado = (velocidadeAngularFinal - velocidadeAngularInicial) / (tempoFinal - tempoInicial);
       return resultado;
     },
 
-    formula_calculo_da_equacao_horaria_de_posicao_do_movimento_harmonico_simples(velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number) {
+    formulaCalculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
       let resultado = velocidadeAngular * amplitude * wertsfy.mathematic.corebase.cos(tempo + faseInicial);
       return resultado;
     },
 
-    formula_calculo_da_equacao_horaria_de_velocidade_do_movimento_harmonico_simples(velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number) {
+    formulaCalculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
       let resultado = -1 * velocidadeAngular * amplitude * wertsfy.mathematic.corebase.sin(tempo + faseInicial);
       return resultado;
     },
 
-    formula_calculo_da_equacao_horaria_de_aceleracao_do_movimento_harmonico_simples(velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number) {
+    formulaCalculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
       let resultado = -1 * velocidadeAngular ** 2 * amplitude * wertsfy.mathematic.corebase.cos(tempo + faseInicial);
       return resultado;
     },
 
-    formula_calculo_do_periodo(frequencia: number) {
+    formulaCalculoDoPeriodo: (frequencia: number): number => {
       let resultado = 1 / frequencia;
       return resultado;
     },
 
-    formula_calculo_da_frequencia(periodo: number) {
+    formulaCalculoDaFrequencia: (periodo: number): number => {
       let resultado = 1 / periodo;
       return resultado;
     },
 
-    formula_calculo_da_temperatura(valor: number, deCelsiusParaKelvin: boolean, deCelsiusParaFahrenheit: boolean, deKelvinParaCelsius: boolean, deKelvinParaFahrenheit: boolean, deFahrenheitParaKelvin: boolean, deFahrenheitParaCelsius: boolean) {
+    formulaCalculoDaTemperatura: (valor: number, deCelsiusParaKelvin: boolean, deCelsiusParaFahrenheit: boolean, deKelvinParaCelsius: boolean, deKelvinParaFahrenheit: boolean, deFahrenheitParaKelvin: boolean, deFahrenheitParaCelsius: boolean): number => {
       let resultado = 0;
       if (deCelsiusParaFahrenheit == true) { resultado = (1.8 * valor) + 32; }
       if (deCelsiusParaKelvin == true) { resultado = valor - 273; }
@@ -1610,87 +1605,87 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_calculo_da_dilatacao_linear(comprimentoInicial: number, coeficienteDeDilatacaoLinear: number, temperaturaInicial: number, temperaturaFinal: number) {
+    formulaCalculoDaDilatacaoLinear: (comprimentoInicial: number, coeficienteDeDilatacaoLinear: number, temperaturaInicial: number, temperaturaFinal: number): number => {
       let resultado = comprimentoInicial * coeficienteDeDilatacaoLinear * (temperaturaFinal - temperaturaInicial);
       return resultado;
     },
 
-    formula_calculo_da_dilatacao_superficial(areaInicial: number, coeficienteDeDilatacaoSuperficial: number, temperaturaInicial: number, temperaturaFinal: number) {
+    formulaCalculoDaDilatacaoSuperficial: (areaInicial: number, coeficienteDeDilatacaoSuperficial: number, temperaturaInicial: number, temperaturaFinal: number): number => {
       let resultado = areaInicial * coeficienteDeDilatacaoSuperficial * (temperaturaFinal - temperaturaInicial);
       return resultado;
     },
 
-    formula_calculo_da_dilatacao_volumetrica(volumeInicial: number, coeficienteDeDilatacaoVolumetrica: number, temperaturaInicial: number, temperaturaFinal: number) {
+    formulaCalculoDaDilatacaoVolumetrica: (volumeInicial: number, coeficienteDeDilatacaoVolumetrica: number, temperaturaInicial: number, temperaturaFinal: number): number => {
       let resultado = volumeInicial * coeficienteDeDilatacaoVolumetrica * (temperaturaFinal - temperaturaInicial);
       return resultado;
     },
 
-    formula_calculo_do_principio_fundamental_da_hidroestatica_hidrodinamica(densidade: number, gravidade: number, alturaInicial: number, alturaFinal: number) {
+    formulaCalculoDoPrincipioFundamentalDaHidroestaticaHidrodinamica: (densidade: number, gravidade: number, alturaInicial: number, alturaFinal: number): number => {
       let resultado = densidade * gravidade * (alturaFinal - alturaInicial);
       return resultado;
     },
 
-    formula_calculo_do_empuxo_da_hidroestatica_hidrodinamica(densidade: number, gravidade: number, volume: number) {
+    formulaCalculoDoEmpuxoDaHidroestaticaHidrodinamica: (densidade: number, gravidade: number, volume: number): number => {
       let resultado = densidade * gravidade * volume;
       return resultado;
     },
 
-    formula_calculoDoPesoAparenteDaHidroestaticaHidrodinamica(peso: number, densidade: number, gravidade: number, volume: number) {
-      let resultado = peso - this.formula_calculo_do_empuxo_da_hidroestatica_hidrodinamica(densidade, gravidade, volume);
+    formulaCalculoDoPesoAparenteDaHidroestaticaHidrodinamica: (peso: number, densidade: number, gravidade: number, volume: number): number => {
+      let resultado = peso - this.expressions.formulaCalculoDoEmpuxoDaHidroestaticaHidrodinamica(densidade, gravidade, volume);
       return resultado;
     },
 
-    formula_calculo_da_equacao_de_lagrange(x: number, y: number, xi: number, yi: number, xii: number, yii: number, xiii: number, yiii: number) {
+    formulaCalculoDaEquacaoDeLagrange: (x: number, y: number, xi: number, yi: number, xii: number, yii: number, xiii: number, yiii: number): number => {
       let resultado = (x - xi) * (y - yi) / (x - xi) * (y - yii) / (x - xii) * (y - yiii) / (x - xiii);
       return resultado;
     },
 
-    formula_calculo_do_atrito(coeficienteDeAtrito: number, massa: number) {
+    formulaCalculoDoAtrito: (coeficienteDeAtrito: number, massa: number): number => {
       let resultado = coeficienteDeAtrito * massa;
       return resultado;
     },
 
-    formula_calculo_da_lei_de_coulomb(carga1: number, carga2: number, distancia: number) {
+    formulaCalculoDaLeiDeCoulomb: (carga1: number, carga2: number, distancia: number): number => {
       let resultado = (9 * 10 ** 9) * (carga1 * carga2 / distancia ** 2);
       return resultado;
     },
 
-    formula_calculo_da_lei_de_ohm(resistencia: number, corrente: number) {
+    formulaCalculoDaLeiDeOhm: (resistencia: number, corrente: number): number => {
       let resultado = resistencia * corrente;
       return resultado;
     },
 
-    formula_calculo_do_efeito_joule(corrente: number, resistencia: number, tempo: number) {
+    formulaCalculoDoEfeitoJoule: (corrente: number, resistencia: number, tempo: number): number => {
       let resultado = (corrente ** 2) * resistencia * tempo;
       return resultado;
     },
 
-    formula_calculo_da_lei_de_lenz(intensidadeDoCampoMagnetico: number, areaDaSuperficie: number, cosAngulo: number) {
+    formulaCalculoDaLeiDeLenz: (intensidadeDoCampoMagnetico: number, areaDaSuperficie: number, cosAngulo: number): number => {
       let resultado = intensidadeDoCampoMagnetico * areaDaSuperficie * wertsfy.mathematic.corebase.cos(cosAngulo);
       return resultado;
     },
 
-    formula_calculo_da_forca_eletromotriz(potenciaTotalGerador: number, intensidadeDaCorrente: number) {
+    formulaCalculoDaForcaEletromotriz: (potenciaTotalGerador: number, intensidadeDaCorrente: number): number => {
       let resultado = potenciaTotalGerador / intensidadeDaCorrente;
       return resultado;
     },
 
-    formula_calculo_da_contra_forca_eletromotriz(potenciaTotalGerador: number, intensidadeDaCorrente: number) {
-      let resultado = -1 * this.formula_calculo_da_forca_eletromotriz(potenciaTotalGerador, intensidadeDaCorrente);
+    formulaCalculoDaContraForcaEletromotriz: (potenciaTotalGerador: number, intensidadeDaCorrente: number): number => {
+      let resultado = -1 * this.expressions.formulaCalculoDaForcaEletromotriz(potenciaTotalGerador, intensidadeDaCorrente);
       return resultado;
     },
 
-    formula_calculo_do_efeito_fotoeletrico(frequenciaDaLuz: number) {
+    formulaCalculoDoEfeitoFotoeletrico: (frequenciaDaLuz: number): number => {
       let resultado = (6.662 * 10 ** -34) * frequenciaDaLuz;
       return resultado;
     },
 
-    formula_calculo_da_densidade(massa: number, volume: number) {
+    formulaCalculoDaDensidade: (massa: number, volume: number): number => {
       let resultado = massa / volume;
       return resultado;
     },
 
-    formula_calculo_da_titulacao(massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number, naoTemMassaBase: boolean, naoTemMassaAcido: boolean, naoTemVolumeBase: boolean, naoTemVolumeAcido: boolean) {
+    formulaCalculoDaTitulacao: (massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number, naoTemMassaBase: boolean, naoTemMassaAcido: boolean, naoTemVolumeBase: boolean, naoTemVolumeAcido: boolean): number => {
       let resultado = 0;
       if (naoTemMassaAcido == true) { resultado = massaBase * volumeBase / volumeAcido; }
       if (naoTemMassaBase == true) { resultado = massaAcido * volumeAcido / volumeBase; }
@@ -1699,17 +1694,17 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_calculo_da_concentracao(massaSoluto: number, volume: number) {
+    formulaCalculoDaConcentracao: (massaSoluto: number, volume: number): number => {
       let resultado = massaSoluto / volume;
       return resultado;
     },
 
-    formula_calculo_do_rendimento(valorParte: number, valorTotal: number) {
-      let resultado = this.formula_calculo_da_porcentagem_x(valorParte, valorTotal);
+    formulaCalculoDoRendimento: (valorParte: number, valorTotal: number): number => {
+      let resultado = this.expressions.formulaCalculoDaPorcentagemX(valorParte, valorTotal);
       return resultado;
     },
 
-    formula_calculo_da_lei_geral_dos_gases(pressao1: string, pressao2: string, volume1: string, volume2: string, temperatura1: string, temperatura2: string) {
+    formulaCalculoDaLeiGeralDosGases:(pressao1: string, pressao2: string, volume1: string, volume2: string, temperatura1: string, temperatura2: string): number => {
       let verificacao = /([a-zA-Z])/gi;
       let resultado = 0;
       if (pressao1.match(verificacao) != null) { 
@@ -1723,7 +1718,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_regra_de_tres_simples(valor1: number, valor2: number, valor3: number, localDaVariavel: string = ("A" || "B" || "C")) {
+    formulaRegraDeTresSimples: (valor1: number, valor2: number, valor3: number, localDaVariavel: string = ("A" || "B" || "C")): number => {
       if (localDaVariavel == "a") { localDaVariavel = "A"; }
       if (localDaVariavel == "b") { localDaVariavel = "B"; }
       if (localDaVariavel == "c") { localDaVariavel = "C"; }
@@ -1736,7 +1731,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_regra_de_tres_composta(valor1: number, valor2: number, valor3: number, valor4: number, valor5: number, valor6: number, valor7: number, localDaVariavel: string = ("A" || "B" || "C" || "D" || "E" || "F" || "G")) {
+    formulaRegraDeTresComposta: (valor1: number, valor2: number, valor3: number, valor4: number, valor5: number, valor6: number, valor7: number, localDaVariavel: string = ("A" || "B" || "C" || "D" || "E" || "F" || "G")): number => {
       if (localDaVariavel == "a") { localDaVariavel = "A"; }
       if (localDaVariavel == "b") { localDaVariavel = "B"; }
       if (localDaVariavel == "c") { localDaVariavel = "C"; }
@@ -1757,7 +1752,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_sistema_de_equacoes(expressao1: string, expressao2: string) {
+    formulaSistemaDeEquacoes: (expressao1: string, expressao2: string): string|void => {
       let resultado = "", verificacao = /((\-)?([0-9]+)(\.[0-9]+)?[x])(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])((\=)(\-)?([0-9]+)(\.[0-9]+)?)/gi;
       if (expressao1.match(verificacao) == null || expressao2.match(verificacao) == null) { return console.error("A expressão inserida não é válida"); }
       let pegaParteA = /((\-)?([0-9]+)(\.[0-9]+)?[x])/gi,
@@ -1776,7 +1771,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_sistema_de_inequacoes(expressao1: string, expressao2: string) {
+    formulaSistemaDeInequacoes: (expressao1: string, expressao2: string): string|void => {
       let resultado = "", verificacao = /((\-)?([0-9]+)(\.[0-9]+)?[x])(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])((\<\=)?(\>\=)?(\<)?(\>)?(\-)?([0-9]+)(\.[0-9]+)?)/gi;
       if (expressao1.match(verificacao) == null || expressao2.match(verificacao) == null) { return console.error("A expressão inserida não é válida"); }
       let pegaParteA = /((\-)?([0-9]+)(\.[0-9]+)?[x])/gi,
@@ -1807,7 +1802,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_sistemas_lineares(expressoes: string[]) {
+    formulaSistemasLineares: (expressoes: string[]): Array<any>|void => {
       let resultado = [], expressaoPartida = [], verificacao = /(((\+)?(\-)?(\=)?)?(\-)?([0-9]+)(\.[0-9]+)?([a-z])?)/gi,
         verificacao2 = /(((\+)?(\-)?)?(\-)?([0-9]+)(\.[0-9]+)?([a-z])?)/gi;
       let somatorio = [], aux = 0, calculo = 0;
@@ -1835,7 +1830,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_soma_numeros_complexos(valores: string[]) {
+    formulaSomaNumerosComplexos: (valores: string[]): string|void => {
       let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
       let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
       let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -1862,7 +1857,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_subtracao_numeros_complexos(valorTotal: string, valores: string[]) {
+    formulaSubtracaoNumerosComplexos: (valorTotal: string, valores: string[]): string|void => {
       let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
       let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
       let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -1906,7 +1901,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_multiplicacao_numeros_complexos(valorTotal: string, valores: string[]) {
+    formulaMultiplicacaoNumerosComplexos: (valorTotal: string, valores: string[]): string|void => {
       let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
       let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
       let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -1943,7 +1938,7 @@ class WERTSFY_MATH_CALCULATOR {
       // return `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`;
     },
 
-    formula_divisao_numeros_complexos(valorTotal: string, valores: string[]) {
+    formulaDivisaoNumerosComplexos: (valorTotal: string, valores: string[]): string|void => {
       let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
       let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
       let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -1980,7 +1975,7 @@ class WERTSFY_MATH_CALCULATOR {
       // return `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`;
     },
 
-    formula_potencia_numeros_complexos(valorTotal: string, valores: string[], potencia: number) {
+    formulaPotenciaNumerosComplexos: (valorTotal: string, valores: string[], potencia: number): string|void => {
       let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
       let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
       let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -2017,17 +2012,17 @@ class WERTSFY_MATH_CALCULATOR {
       // return `${resultadoParcImaginario}${resultadoParcImaginarioPuro}i`;
     },
 
-    formula_juros_simples(valor: number, taxa: number, tempo: number) {
+    formulaJurosSimples: (valor: number, taxa: number, tempo: number): number => {
       let resultado = valor * (1 + taxa * tempo);
       return resultado;
     },
 
-    formula_juros_compostos(valor: number, taxa: number, tempo: number, vezes: number) {
+    formulaJurosCompostos: (valor: number, taxa: number, tempo: number, vezes: number): number => {
       let resultado = (valor * (1 + taxa * tempo)) ** vezes; 
       return resultado;
     },
 
-    formula_vetor_da_distancia_entre_dois_pontos_r2(x1: number, x2:number, y1: number, y2: number) {
+    formulaVetorDaDistanciaEntreDoisPontosR2: (x1: number, x2:number, y1: number, y2: number): Array<number> => {
       let xResultante = 0, yResultante = 0, resultado = [];
       xResultante = x2 - x1;
       yResultante = y2 - y1;
@@ -2035,7 +2030,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_vetor_da_distancia_entre_dois_pontos_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulVetorDaDistanciaEntreDoisPontosR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
       let xResultante = 0, yResultante = 0, zResultante = 0, resultado = [];
       xResultante = x2 - x1;
       yResultante = y2 - y1;
@@ -2044,33 +2039,35 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_modulo_de_um_vetor_r2(x: number, y: number) {
+    formulaModuloDeUmVetorR2: (x: number, y: number): number => {
       let resultado = 0;
       resultado = wertsfy.mathematic.corebase.sqrt(x ** 2 + y ** 2);
       return resultado;
     },
 
-    formula_modulo_de_um_vetor_r3(x: number, y: number, z: number) {
+    formulaModuloDeUmVetorR3: (x: number, y: number, z: number): number => {
       let resultado = 0;
       resultado = wertsfy.mathematic.corebase.sqrt(x ** 2 + y ** 2 + z ** 2);
       return resultado;
     },
 
-    formula_versor_de_um_vetor_r2(x: number, y:number) {
+    formulaVersorDeUmVetorR2: (x: number, y:number): Array<number> => {
       let resultado = [];
-      let modulo = this.formula_modulo_de_um_vetor_r2(x, y);
+      let modulo = this.expressions.formulaModuloDeUmVetorR2(x, y);
       resultado = [ x / modulo, y / modulo ];
       return resultado;
     },
 
-    formula_versor_de_um_vetor_r3(x: number, y: number, z: number) {
+    formulaVersorDeUmvetorR3: (x: number, y: number, z: number): Array<number> => {
       let resultado = [];
-      let modulo = this.formula_modulo_de_um_vetor_r3(x, y, z);
+      let modulo = this.expressions.formulaModuloDeUmVetorR3(x, y, z);
       resultado = [ x / modulo, y / modulo, z / modulo ];
       return resultado;
     },
 
-    formula_projecao_de_um_vetor_sobre_outro_vetor_r2(x1: number, x2: number, y1: number, y2: number) {
+
+
+    formulaProjecaoDeUmVetorSobreOutroVetorR2: (x1: number, x2: number, y1: number, y2: number): Array<number> => {
       let resultado: number[];
       let expressoesVU = [x2 * x1, y2 * y1] 
       let expressoesUU = [x1 * x1, y1 * y1]
@@ -2080,7 +2077,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_projecao_de_um_vetor_sobre_outro_vetor_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulaProjecaoDeUmVetorSobreOutroVetorR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
       let resultado: number[];
       let expressoesVU = [x2 * x1, y2 * y1, z2 * z1] 
       let expressoesUU = [x1 * x1, y1 * y1, z1 * z1]
@@ -2090,91 +2087,91 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_soma_de_vetores_r2(x1: number, x2: number, y1: number, y2: number) {
+    formulaSomaDeVetoresR2: (x1: number, x2: number, y1: number, y2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 + x2, y1 + y2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_soma_de_vetores_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulaSomaDeVetoresR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 + x2, y1 + y2, z1 + z2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_subtracao_de_vetores_r2(x1: number, x2: number, y1: number, y2: number) {
+    formulaSubtracaoDeVetoresR2: (x1: number, x2: number, y1: number, y2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 - x2, y1 - y2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_subtracao_de_vetores_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulaSubtracaoDeVetoresR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 - x2, y1 - y2, z1 - z2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_produto_escalar_de_vetores_r2(x1: number, x2: number, y1: number, y2: number) {
+    formulaProdutoEscalarDeVetoresR2: (x1: number, x2: number, y1: number, y2: number): number => {
       let resultado: number;
       let contExpressaoP1 = [x1 * x2, y1 * y2];
       resultado = contExpressaoP1[0] + contExpressaoP1[1];
       return resultado;
     },
 
-    formula_produto_escalar_de_vetores_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulaProdutoEscalarDeVetoresR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): number => {
       let resultado: number;
       let contExpressaoP1 = [x1 * x2, y1 * y2, z1 * z2];
       resultado = contExpressaoP1[0] + contExpressaoP1[1] + contExpressaoP1[2];
       return resultado;
     },
 
-    formula_divisao_de_vetores_r2(x1: number, x2: number, y1: number, y2: number) {
+    formulaDivisaoDeVetoresR2: (x1: number, x2: number, y1: number, y2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 / x2, y1 / y2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_divisao_de_vetores_r3(x1: number, x2: number, y1: number, y2: number, z1: number, z2: number) {
+    formulaDivisaoDeVetoresR3: (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x1 / x2, y1 / y2, z1 / z2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_ponto_medio_de_um_vetor_r2(x: number, y: number) {
+    formulaPontoMedioDeUmVetorR2: (x: number, y: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x / 2, y / 2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_ponto_medio_de_um_vetor_r3(x: number, y: number, z: number) {
+    formulaPontoMedioDeUmVetorR3: (x: number, y: number, z: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [x / 2, y / 2, z / 2];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_cossenos_diretores_de_um_vetor_r2(x: number, y: number) {
+    formulaCossenosDiretoresDeUmVetorR2: (x: number, y: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [wertsfy.mathematic.corebase.cos(x), wertsfy.mathematic.corebase.cos(y)];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_cossenos_diretores_de_um_vetor_r3(x: number, y: number, z: number) {
+    formulaCossenosDiretoresDeUmVetorR3: (x: number, y: number, z: number): Array<number> => {
       let resultado: number[];
       let contExpressaoP1 = [wertsfy.mathematic.corebase.cos(x), wertsfy.mathematic.corebase.cos(y), wertsfy.mathematic.corebase.cos(z)];
       resultado = contExpressaoP1;
       return resultado;
     },
 
-    formula_sinalizacao_quadrantes(x: number, y: number) {
+    formulaSinalizacaoQuadrantes: (x: number, y: number): string => {
       let resultado: string;
       if(x > 0 && y > 0) { resultado = "1 Quadrante."; }
       if(x < 0 && y > 0) { resultado = "2 Quadrante."; }
@@ -2183,7 +2180,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_sinalizacao_octantes(x: number, y: number, z: number) {
+    formulaSinalizacaoOctantes: (x: number, y: number, z: number): string => {
       let resultado: string;
       if(x > 0 && y > 0 && z > 0) { resultado = "1 Octante."; }
       if(x < 0 && y > 0 && z > 0) { resultado = "2 Octante."; }
@@ -2196,7 +2193,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultado;
     },
 
-    formula_quadrado_de_punnet(genotipo1: string, genotipo2: string) {
+    formulaQuadradoDePunnet: (genotipo1: string, genotipo2: string): Array<string> => {
       
       if(genotipo1.length > 2 || genotipo2.length > 2) { return; }
 
@@ -2215,7 +2212,7 @@ class WERTSFY_MATH_CALCULATOR {
 
     },
 
-    formula_quadrado_de_punnet_expandido(genotipo1: string, genotipo2: string) {
+    formulaQuadradoDePunnetExpandido: (genotipo1: string, genotipo2: string): Array<string> => {
 
       if(genotipo2.length > 4 || genotipo2.length > 4) { return; }
 
@@ -2246,51 +2243,51 @@ class WERTSFY_MATH_CALCULATOR {
 
     },
 
-    formula_calculo_da_escala_geografica(tamanhoReal: number, tamanhoFicticio: number) {
+    formulaCalculoDaEscalaGeografica: (tamanhoReal: number, tamanhoFicticio: number): number => {
       let resultado = tamanhoReal / tamanhoFicticio;
       return resultado;
     },
 
-    formula_calculo_de_IDH(saude: number, educacao: number, renda: number, populacao: number, ppc: number) {
+    formulaCalculoDeIDH: (saude: number, educacao: number, renda: number, populacao: number, ppc: number): number => {
       let resultado = (saude + educacao + renda) / (populacao + ppc);
       return resultado;
     },
 
-    formula_calculo_de_GINI(pnb: number, populacao: number) {
+    formulaCalculoDeGINI: (pnb: number, populacao: number): number => {
       let resultado = pnb / populacao;
       return resultado;
     },
 
-    formula_calculo_de_IMC(peso: number, altura: number) {
+    formulaCalculoDeIMC: (peso: number, altura: number): number => {
       let resultado = peso / altura ** 2;
       return resultado;
     },
 
-    formula_calculo_de_densidade_populacional(espaco: number, populacao: number) {
+    formulaCalculoDeDensidadePopulacional: (espaco: number, populacao: number): number => {
       let resultado = espaco / populacao;
       return resultado;
     },
 
-    formula_calculo_dos_numeros_pares(numero: number) {
+    formulaCalculoDosNumerosPares: (numero: number): number => {
       let resultado = numero / 2;
       if(resultado % 2 === 0) { console.info("eh par.") }
       else { console.info("eh impar.") }
       return resultado;
     },
 
-    formula_calculo_dos_numeros_impares(numero: number) {
+    formulaCalculoDosNumerosImpares: (numero: number): number => {
       let resultado = numero / 3;
       if(resultado % 3 === 0) { console.info("eh impar.") }
       else { console.info("eh par.") }
       return resultado;
     },
 
-    formula_numero_de_conjuntos(elementos: number) {
+    formulaNumeroDeConjuntos: (elementos: number): number => {
       let resultado = 2 ** elementos;
       return resultado;
     },
 
-    formula_cria_jogo_da_mega_sena(aposta: number[]) {
+    formulaCriaJogoDaMegaSena: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 6; i++) {
         numeros.push(wertsfy.mathematic.corebase.floor(wertsfy.mathematic.corebase.random(i) * 60) + 1);
@@ -2304,7 +2301,7 @@ class WERTSFY_MATH_CALCULATOR {
       return numeros;
     },
 
-    formula_cria_jogo_da_quina(aposta: number[]) {
+    formulaCriaJogoDaQuina: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 5; i++) {
         numeros.push(wertsfy.mathematic.corebase.floor(wertsfy.mathematic.corebase.random(i) * 80) + 1);
@@ -2318,7 +2315,7 @@ class WERTSFY_MATH_CALCULATOR {
       return numeros;
     },
 
-    formula_cria_jogo_da_quadra(aposta: number[]) {
+    formulaCriaJogoDaQuadra: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 4; i++) {
         numeros.push(wertsfy.mathematic.corebase.floor(wertsfy.mathematic.corebase.random(i) * 80) + 1);
@@ -2332,7 +2329,7 @@ class WERTSFY_MATH_CALCULATOR {
       return numeros;
     },
 
-    formula_cria_jogo_da_lotofacil(aposta: number[]) {
+    formulaCriaJogoDaLotofacil: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 6; i++) {
         numeros.push(wertsfy.mathematic.corebase.floor(wertsfy.mathematic.corebase.random(i) * 80) + 1);
@@ -2346,7 +2343,7 @@ class WERTSFY_MATH_CALCULATOR {
       return numeros;
     },
 
-    formula_cria_jogo_da_Lotomania(aposta: number[]) {
+    formulaCriaJogoDaLotomania: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 15; i++) {
         numeros.push(wertsfy.mathematic.corebase.floor(wertsfy.mathematic.corebase.random(i) * 80) + 1);
@@ -2360,7 +2357,7 @@ class WERTSFY_MATH_CALCULATOR {
       return numeros;
     },
 
-    formula_calculo_do_diagrama_de_venn_de_2_grupos(numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number) {
+    formulaCalculoDoDiagramaDeVennDe2Grupos: (numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number): object => {
       let resultados = { 
         intecessao: numerosGrupoDoisNucleos, 
         nucleoUm: numerosGrupoUmNucleo[0] - numerosGrupoDoisNucleos, 
@@ -2369,7 +2366,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultados;
     },
 
-    formula_calculo_do_diagrama_de_venn_de_3_grupos(numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number[], numerosGrupoTresNucleos: number) {
+    formulaCalculoDoDiagramaDeVennDe3Grupos: (numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number[], numerosGrupoTresNucleos: number): object => {
       let resultados = { 
         intecessao: numerosGrupoTresNucleos, 
         nucleoUm: numerosGrupoUmNucleo[0] - numerosGrupoTresNucleos, 
@@ -2379,7 +2376,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultados;
     },
 
-    formula_calculo_do_diagrama_de_venn_de_4_grupos(numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number[], numerosGrupoTresNucleos: number[], numerosGrupoQuatroNucleos: number) {
+    formulaCalculoDoDiagramaDeVennDe4Grupos: (numerosGrupoUmNucleo: number[], numerosGrupoDoisNucleos: number[], numerosGrupoTresNucleos: number[], numerosGrupoQuatroNucleos: number): object => {
       let resultados = { 
         intecessao: numerosGrupoQuatroNucleos, 
         nucleoUm: numerosGrupoUmNucleo[0] - numerosGrupoQuatroNucleos, 
@@ -2390,7 +2387,7 @@ class WERTSFY_MATH_CALCULATOR {
       return resultados;
     },
 
-    formula_calculo_dos_numeros_primos(numeroPesquisados: number) {
+    formulaCalculoDosNumerosPrimos: (numeroPesquisados: number): Array<number> => {
       let numerosPrimos = [];
       for(let i = 0; i < numeroPesquisados; i++) {
         if(i % 2 !== 0) {
@@ -2400,140 +2397,137 @@ class WERTSFY_MATH_CALCULATOR {
       return numerosPrimos;
     },
 
-    formula_area_triangulo_qualquer(lado) { 
+    formulaAreaTrianguloQualquer: (lado: number): number => { 
       return lado * lado * wertsfy.mathematic.corebase.sqrt(3) / 4; 
     },
 
-    formula_apotema_de_um_triangulo_qualquer(lado) {
+    formulaApotemaDeUmTrianguloQualquer: (lado: number): number => {
       return lado * lado * wertsfy.mathematic.corebase.sqrt(3) / 2;
     },
 
-    formula_area_quadrado_qualquer(lado: number) { 
+    formulaAreaQuadradoQualquer: (lado: number): number => { 
       return lado * lado; 
     },
 
-    formula_area_retangulo_qualquer(comp: number, larg: number) { 
+    formulaAreaRetanguloQualquer: (comp: number, larg: number): number => { 
       return comp * larg; 
     },
 
-    formula_area_circulo_qualquer(raio: number) { 
+    formulaAreaCirculoQualquer: (raio: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio ** 2); 
     },
 
-    formula_area_elipse_qualquer(raio: number, altura: number) { 
+    formulaAreaElipseQualquer: (raio: number, altura: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio ** 2) * altura; 
     },
 
-    formula_area_piramide_qualquer(base: number, altura: number) { 
+    formulaAreaPiramideQualquer: (base: number, altura: number): number => { 
       return (base * altura) / 3; 
     },
 
-    formula_area_trapezio_qualquer(baseMaior: number, baseMenor: number, altura: number) { 
+    formulaAreaTrapezioQualquer: (baseMaior: number, baseMenor: number, altura: number): number => { 
       return (baseMaior + baseMenor) * altura / 2; 
     },
 
-    formula_area_lozango_qualquer(diagonalMaior: number, diagonalMenor: number, altura: number) { 
+    formulaAreaLozangoQualquer: (diagonalMaior: number, diagonalMenor: number, altura: number): number => { 
       return (diagonalMaior + diagonalMenor) / 2; 
     },
 
-    formula_area_de_uma_superficie_qualquer(comp: number, larg: number) {
+    formulaAreaDeUmaSuperficieQualquer: (comp: number, larg: number): number => {
       return comp * larg;
     },
 
-    formula_volume_de_uma_superficie_qualquer(area: number, comp: number, larg: number) {
+    formulaVolumeDeUmaSuperficieQualquer: (area: number, comp: number, larg: number): number => {
       return area * comp * larg;
     },
 
-    formula_area_esfera_qualquer(raio: number) { 
+    formulaAreaEsferaQualquer: (raio: number): number => { 
       return 4 * wertsfy.mathematic.corebase.Pi * (raio ** 2) / 2; 
     },
 
-    formula_area_cilindro_qualquer(raio: number, altura: number) { 
+    formulaAreaCilindroQualquer: (raio: number, altura: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio ** 2) * altura; 
     },
 
-    formula_area_cone_qualquer(raio: number, altura: number) { 
+    formulaAreaConeQualquer: (raio: number, altura: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio ** 2) * (altura / 3); 
     },
 
-    formula_area_de_um_poligono_qualquer(comp: number, larg: number, nLados: number) {
+    formulaAreaDeUmPoligonoQualquer: (comp: number, larg: number, nLados: number): number => {
       return comp == larg ? nLados * ((comp * comp * wertsfy.mathematic.corebase.sqrt(3)) / 4) : nLados * (comp * larg / 2);
     },
 
-    formula_volume_de_um_poligono_formato_lozango_qualquer(diagonalMaior: number, diagonalMenor: number, altura: number) {
+    formulaVolumeDeUmPoligonoFormatoLozangoQualquer: (diagonalMaior: number, diagonalMenor: number, altura: number): number => {
       return (diagonalMaior + diagonalMenor) / 2 * altura;
     },
 
-    formula_volume_de_um_poligono_formato_trapezio_qualquer(baseMaior: number, baseMenor: number, altura: number) {
+    formulaVolumeDeUmPoligonoFormatoTrapezioQualquer: (baseMaior: number, baseMenor: number, altura: number): number => {
       return (baseMaior + baseMenor) / 2 * altura;
     },
 
-    formula_area_de_um_paralelogramo_qualquer(lado: number, altura: number) { 
+    formulaAreaDeUmParalelogramoQualquer: (lado: number, altura: number): number => { 
       return lado * altura; 
     },
 
-    formula_area_lateral_de_um_prisma_qualquer(comp: number, larg: number, nLados: number) {
+    formulaAreaLateralDeUmPrismaQualquer: (comp: number, larg: number, nLados: number): number => {
       return nLados * (comp * larg);
     },
 
-    formula_volume_de_um_prisma_qualquer(area: number, comp: number, larg: number) {
+    formulaVolumeDeUmPrismaQualquer: (area: number, comp: number, larg: number): number => {
       return area * comp * larg;
     },
 
-    formula_volume_de_um_cubo_qualquer(aresta: number) { 
+    formulaVolumeDeUmCuboQualquer: (aresta: number): number => { 
       return aresta * aresta * aresta; 
     },
 
-    formula_volume_de_um_paralelepipedo_qualquer(comprimento: number, largura: number, altura: number) { 
+    formulaVolumeDeUmParalelepipedoQualquer: (comprimento: number, largura: number, altura: number): number => { 
       return comprimento * largura * altura; 
     },
 
-    formula_volume_de_uma_piramide_qualquer(base: number, altura: number) { 
+    formulaVolumeDeUmaPiramideQualquer: (base: number, altura: number): number => { 
       return (base * altura) / 3; 
     },
 
-    formula_volume_de_um_tetraedro_qualquer(aresta: number) { 
+    formulaVolumeDeUmTetraedroQualquer: (aresta: number): number => { 
       return (aresta * aresta * aresta) / 4; 
     },
 
-    formula_volume_de_um_hexaedro_qualquer(aresta: number) { 
+    formulaVolumeDeUmHexaedroQualquer: (aresta: number): number => { 
       return (aresta * aresta * aresta) / 6; 
     },
 
-    formula_volume_de_um_octaedro_qualquer(aresta: number) { 
+    formulaVolumeDeUmOctaedroQualquer: (aresta: number): number => { 
       return (aresta * aresta * aresta) / 8; 
     },
 
-    formula_volume_de_um_dodecaedro_qualquer(aresta: number) { 
+    formulaVolumeDeUmDodecaedroQualquer: (aresta: number): number => { 
       return (aresta * aresta * aresta) / 12; 
     },
 
-    formula_volume_de_um_icosaedro_qualquer(aresta: number) { 
+    formulaVolumDeUmIcosaedroQualquer: (aresta: number): number => { 
       return (aresta * aresta * aresta) / 20; 
     },
 
-    formula_volume_de_um_cone_qualquer(raio: number, altura: number) { 
+    formulaVolumeDeUmConeQualquer: (raio: number, altura: number): number => { 
       return (wertsfy.mathematic.corebase.Pi * (raio ** 2) * altura) / 3; 
     },
 
-    formula_volum_de_um_cilindro_qualquer(raio: number, altura: number) { 
+    formulaVolumeDeUmCilindroQualquer: (raio: number, altura: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio ** 2) * altura; 
     },
 
-    formula_volume_de_um_esfera_qualquer(raio: number) { 
+    formulaVolumeDeUmEsferaQualquer: (raio: number): number => { 
       return (4 * wertsfy.mathematic.corebase.Pi * (raio ** 3)) / 3; 
     },
 
-    formula_volume_de_um_romb_qualquer(aresta: number) { 
+    formulaVolumeDeUmRombQualquer: (aresta: number): number => { 
       return (aresta * aresta) / 2; 
     },
 
-    formula_area_circunferencia_qualquer(raio: number) { 
+    formulaAreaCircunferenciaQualquer: (raio: number): number => { 
       return wertsfy.mathematic.corebase.Pi * (raio * 2); 
     }
-
-
-
 
   }
 
@@ -2554,646 +2548,3 @@ class WERTSFY_WEBSERVICES { }
 class WERTSFY_SHORTCUTS_DISCORD { }
 class WERTSFY_SHORTCUTS_GRAPH { }
 
-
-// Mathematic Calculator Old SRC
-
-// // Algoritmos de Conversores
-// // // Algoritmo 1
-interface ChaveConversora { 
-  painel: [[][]] 
-};
-
-interface TamanhosSistemaInternacional { 
-  seletor: "deca"|"hecto"|"kilo"|"mega"|"giga"|"tera"|"peta"|"exa"|"zeta"|"yotta"|"deci"|"centi"|"mili"|"micro"|"nano"|"pico"|"femto"|"atto"|"zepto"|"yocto"|"graus"|"radianos" 
-};
-
-interface NotacoesGrandezas { 
-  seletor: "metros"|"litros"|"metros-quadrados"|"metros-cubicos" 
-};
-
-class Transformadores {
-
-  protected terminal: ChaveConversora;
-
-  private convBinarioDecimal(valor: string): number {
-    let valorDecimal = 0;
-    let res: number[] = [];
-    let divisor: string[]|number[] = valor.split("" , valor.length);
-    for(let y = 0; y < divisor.length; y++) {
-      res[y] = parseInt(divisor[y]);
-    }
-    for(let i = 0, u = divisor.length - 1; i < divisor.length; i++, u--) {
-      if(u < 0) { break; }
-      valorDecimal = parseInt(divisor[i]) * 2 ** u + valorDecimal;
-    }
-    return valorDecimal;
-  }
-
-  private convBinarioHexadecimal(valor: string): string {  
-    let divisor = [];
-    let verifCom5 = valor.length / 5;
-    let verifCom6 = valor.length / 6;
-    let verifCom7 = valor.length / 7;
-    if (Number.isInteger(verifCom7) == true) { valor = "0" + valor; }
-    if (Number.isInteger(verifCom6) == true) { valor = "00" + valor; }
-    if (Number.isInteger(verifCom5) == true) { valor = "000" + valor; }
-    let separador = valor.length / 4;
-    let repetidor = 1;
-    let e = 1, f = 2;
-    while (repetidor < separador + 1) {
-      let posicaoInicial = 0;
-      let incremento = 4;
-      if (repetidor == 1) {
-        divisor.push(valor.slice(posicaoInicial, incremento));
-        repetidor++;
-      }
-      if (repetidor > 1) {
-        divisor.push(valor.slice(incremento * e, incremento * f));
-        e++; f++;
-        repetidor++;
-      }
-    }
-    let numeroHexadecimal = "";
-    for (let u = 0; u < divisor.length; u++) {
-      if (divisor[u] == "0000") { numeroHexadecimal = numeroHexadecimal + "0"; }
-      if (divisor[u] == "0001") { numeroHexadecimal = numeroHexadecimal + "1"; }
-      if (divisor[u] == "0010") { numeroHexadecimal = numeroHexadecimal + "2"; }
-      if (divisor[u] == "0011") { numeroHexadecimal = numeroHexadecimal + "3"; }
-      if (divisor[u] == "0100") { numeroHexadecimal = numeroHexadecimal + "4"; }
-      if (divisor[u] == "0101") { numeroHexadecimal = numeroHexadecimal + "5"; }
-      if (divisor[u] == "0110") { numeroHexadecimal = numeroHexadecimal + "6"; }
-      if (divisor[u] == "0111") { numeroHexadecimal = numeroHexadecimal + "7"; }
-      if (divisor[u] == "1000") { numeroHexadecimal = numeroHexadecimal + "8"; }
-      if (divisor[u] == "1001") { numeroHexadecimal = numeroHexadecimal + "9"; }
-      if (divisor[u] == "1010") { numeroHexadecimal = numeroHexadecimal + "A"; }
-      if (divisor[u] == "1011") { numeroHexadecimal = numeroHexadecimal + "B"; }
-      if (divisor[u] == "1100") { numeroHexadecimal = numeroHexadecimal + "C"; }
-      if (divisor[u] == "1101") { numeroHexadecimal = numeroHexadecimal + "D"; }
-      if (divisor[u] == "1110") { numeroHexadecimal = numeroHexadecimal + "E"; }
-      if (divisor[u] == "1111") { numeroHexadecimal = numeroHexadecimal + "F"; }
-    }
-    return numeroHexadecimal;
-  }
-
-  private convBinarioOctal(valor: string): string {
-    let divisor = [];
-    let verifCom4 = valor.length / 4;
-    let verifCom5 = valor.length / 5;
-    if(Number.isInteger(verifCom5) == true) { valor = "0" + valor; }
-    if(Number.isInteger(verifCom4) == true) { valor = "00" + valor; }
-    let separador = valor.length / 3;
-    let repetidor = 1;
-    let e = 1, f = 2;
-    while(repetidor < separador+1) {
-      let posicaoInicial = 0;
-      let incremento = 3;
-      if(repetidor == 1) {
-        divisor.push(valor.slice(posicaoInicial, incremento));
-        repetidor++;
-      }
-      if(repetidor > 1) {
-        divisor.push(valor.slice(incremento*e, incremento*f));
-        e++; f++;
-        repetidor++;
-      }
-    }
-    let numeroOctal = "";
-    for(let u = 0; u < divisor.length; u++) {
-      if(divisor[u] == "000") { numeroOctal = numeroOctal + "0"; }
-      if(divisor[u] == "001") { numeroOctal = numeroOctal + "1"; }
-      if(divisor[u] == "010") { numeroOctal = numeroOctal + "2"; }
-      if(divisor[u] == "011") { numeroOctal = numeroOctal + "3"; }
-      if(divisor[u] == "100") { numeroOctal = numeroOctal + "4"; }
-      if(divisor[u] == "101") { numeroOctal = numeroOctal + "5"; }
-      if(divisor[u] == "110") { numeroOctal = numeroOctal + "6"; }
-      if(divisor[u] == "111") { numeroOctal = numeroOctal + "7"; }
-    }
-    return numeroOctal;
-  }
-
-  private convDecimalBinario(valor: number): string {
-    let numeroBinario = "";
-    if(valor == 0) { numeroBinario = "0" + numeroBinario; }
-    if(valor == 3) { numeroBinario = "1" + numeroBinario; }
-    while(valor > 2) {
-      valor = valor / 2;
-      if (Number.isInteger(valor) == true) { numeroBinario = "0" + numeroBinario; }
-      if (Number.isInteger(valor) == false) { numeroBinario = "1" + numeroBinario; }
-      if (valor == 3) { numeroBinario = "1" + numeroBinario; }
-      if (valor == 2) { numeroBinario = "10" + numeroBinario; }
-    }
-    return numeroBinario;
-  }
-
-  private convDecimalHexadecimal(valor: number): string {
-    let numeroHexadecimal = "";
-    let achaResto: any, resto: any;
-    while (valor > 1) {
-      valor = valor / 16;
-      achaResto = valor * 16;
-      resto = (valor * 16) - achaResto;
-      if (Number.isInteger(valor) == true) { numeroHexadecimal = "0" + numeroHexadecimal; }
-      if (Number.isInteger(valor) == false) {
-        resto = parseInt(resto);
-        if(resto < 9) { numeroHexadecimal = resto + numeroHexadecimal; }
-        if(resto > 9) {
-          if(resto == 10) { numeroHexadecimal = "A" + numeroHexadecimal; }
-          if(resto == 11) { numeroHexadecimal = "B" + numeroHexadecimal; }
-          if(resto == 12) { numeroHexadecimal = "C" + numeroHexadecimal; }
-          if(resto == 13) { numeroHexadecimal = "D" + numeroHexadecimal; }
-          if(resto == 14) { numeroHexadecimal = "E" + numeroHexadecimal; }
-          if(resto == 15) { numeroHexadecimal = "F" + numeroHexadecimal; }
-        }
-      }
-    }
-    return numeroHexadecimal;
-  }
-
-  private convDecimalOctal(valor: number): string {
-    let numeroOctal = "";
-    let achaResto: any, resto: any;
-    while(valor > 1) {
-      valor = valor / 8;
-      achaResto = valor * 8;
-      resto = (valor * 8) - achaResto;
-      if (Number.isInteger(valor) == true) { numeroOctal = "0" + numeroOctal; }
-      if (Number.isInteger(valor) == false) { numeroOctal = parseInt(resto) + numeroOctal; }
-    }
-    return numeroOctal;
-  }
-
-  private convOctalBinario(valor: string): string {
-    let divisor: any = valor.split("", valor.length);
-    for (let y = 0; y < divisor.length; y++) {
-      divisor[y] = parseInt(divisor[y]);
-      if(divisor[y] == 0) { divisor[y] = "000"; valor = "000" + valor; }
-      if(divisor[y] == 1) { divisor[y] = "001"; valor = "001" + valor; }
-      if(divisor[y] == 2) { divisor[y] = "010"; valor = "010" + valor; }
-      if(divisor[y] == 3) { divisor[y] = "011"; valor = "011" + valor; }
-      if(divisor[y] == 4) { divisor[y] = "100"; valor = "100" + valor; }
-      if(divisor[y] == 5) { divisor[y] = "101"; valor = "101" + valor; }
-      if(divisor[y] == 6) { divisor[y] = "110"; valor = "110" + valor; }
-      if(divisor[y] == 7) { divisor[y] = "111"; valor = "111" + valor; }
-    }
-    return valor;
-  }
-
-  private convOctalDecimal(valor: string): number {
-    let valorDecimal = 0;
-    let divisor: any = valor.split("", valor.length);
-    for (let y = 0; y < divisor.length; y++) { divisor[y] = parseInt(divisor[y]); }
-    for (let i = 0, u = divisor.length - 1; i < divisor.length; i++, u--) {
-      if (u < 0) { break; }
-      valorDecimal = parseInt(divisor[i]) * 8 ** u + valorDecimal;
-    }
-    return valorDecimal;
-  }
-
-  private convOctalHexadecimal(valor: string): string {
-    let valorHexadecimal: any = 0;
-    let divisor: any = valor.split("", valor.length);
-    for (let y = 0; y < divisor.length; y++) { divisor[y] = parseInt(divisor[y]); }
-    for (let i = 0, u = divisor.length - 1; i < divisor.length; i++, u--) {
-      if (u < 0) { break; }
-      valorHexadecimal = parseInt(divisor[i]) * 8 ** u + valorHexadecimal;
-    }
-    return valorHexadecimal;
-  }
-
-  private convHexadecimalDecimal(valor: string): number {
-    let valorDecimal = 0;
-    let divisor = valor.split("", valor.length);
-    for (let y = 0; y < divisor.length; y++) {
-      if (divisor[y] == "A") { divisor[y] = "10"; }
-      if (divisor[y] == "B") { divisor[y] = "11"; }
-      if (divisor[y] == "C") { divisor[y] = "12"; }
-      if (divisor[y] == "D") { divisor[y] = "13"; }
-      if (divisor[y] == "E") { divisor[y] = "14"; }
-      if (divisor[y] == "F") { divisor[y] = "15"; }
-    }
-    return valorDecimal;
-  }
-
-  private convHexadecimalBinario(valor: string) { };
-
-  private convHexadecimalOctal(valor: string) { };
-
-  public static controlPanel() { };
-
-} export let ModuloTransformadores = new Transformadores();
-
-// // // Algortimo 2
-
-function conversorUnidadesAnguloPlano() { }
-
-function conversorUnidadesAnguloSolido() { }
-
-function conversorUnidadesComprimento() { }
-
-function conversorUnidadesArea() { }
-
-function conversorUnidadesVolume() { }
-
-function conversorUnidades4Dimensao() { }
-
-function conversorUnidades5Dimensao() { }
-
-function conversorUnidades6Dimensao() { }
-
-function conversorUnidadesMassa() { }
-
-function conversorUnidadesForca() { }
-
-function conversorUnidadesTemperatura() { }
-
-function conversorUnidadesVelocidade() { }
-
-function conversorUnidadesTempo() { }
-
-function conversorUnidadesQuantidade() { }
-
-function conversorUnidadesPressao() { }
-
-function conversorUnidadesSom() { }
-
-function conversorUnidadesLuz() { }
-
-function conversorUnidadesEnergia() { }
-
-function conversorUnidadesComputacional() { }
-
-//& Constantes de Conversão
-
-  //Q Unidades do Sistema Internacional - Multiplos 
-  const DECA = 10 ** 1;
-
-  const HECTO = 10 ** 2;
-  
-  const KILO = 10 ** 3;
-  
-  const MEGA = 10 ** 6;
-  
-  const GIGA = 10 ** 9;
-  
-  const TERA = 10 ** 12;
-  
-  const PETA = 10 ** 15;
-  
-  const EXA = 10 ** 18;
-  
-  const ZETA = 10 ** 21;
-  
-  const YOTTA = 10 ** 24;
-  
-    //Q Unidades do Sistema Internacional - Submultiplos
-  
-  const DECI = 10 ** -1;
-  
-  const CENTI = 10 ** -2;
-  
-  const MILI = 10 ** -3;
-  
-  const MICRO = 10 ** -6;
-  
-  const NANO = 10 ** -9;
-  
-  const PICO = 10 ** -12;
-  
-  const FEMTO = 10 ** -15;
-  
-  const ATTO = 10 ** -18;
-  
-  const ZEPTO = 10 ** -21;
-  
-  const YOCTO = 10 ** -24;
-  
-    //Q Unidades Diversas Angulo
-  const GRAU = 180 / Math.PI;
-  
-    //Q Unidades Diversas Distancia & Comprimento
-  const MILHA = 1609.344;
-  
-  const MILHA_NAUTICA = 1852;
-  
-  const POLEGADA = 0.3048;
-  
-  const PE = 0.3048;
-  
-  const JARDAS = 0.9144;
-  
-  const PALMO = 0.3048 / 12;
-  
-  const BRACA = 0.3048 / 4;
-  
-  const VARA = 0.3048 / 2;
-  
-  const CORRENTE = 0.3048 / 60;
-  
-  const FURLONG = 201.168;
-  
-  const ROD = 0.3048 / 3;
-  
-  const ANOS_LUZ = 9.4607304725808e+15;
-  
-  const PARSEC = 3.08567758e+16;
-  
-  const UNIDADADE_ASTRONOMICA = 1.49597870691e+11;
-  
-  const ANGSTROM = 1e-10;
-  
-    //Q Unidades Diversas Área
-  const ACRE = 4046.86;
-  
-  const ARE = 100;
-  
-  const HECTARE = 10000;
-  
-  const ALQUEIRE = 4046.86 * 2;
-  
-  const DUNAM = 4046.86 * 3;
-  
-  const ROOD = 4046.86 * 4;
-  
-  const HOMESTEAD = 4046.86 * 5;
-  
-    //Q Unidades Diversas Volume
-  const LITRO = 0.001;
-  
-  const DECILITRO = 0.01;
-  
-  const CENTILITRO = 0.1;
-  
-  const MILILITRO = 1;
-  
-  const MICROLITRO = 10 ** 3;
-  
-  const NANOLITRO = 10 ** 6;
-  
-  const PICOLITRO = 10 ** 9;
-  
-  const FEMTOLITRO = 10 ** 12;
-  
-  const ATOLITRO = 10 ** 15;
-  
-  const ZEPTOLITRO = 10 ** 18;
-  
-  const YOTTOLITRO = 10 ** 21;
-  
-  const DECALITRO = 10 ** -1;
-  
-  const HECTOLITRO = 10 ** -2;
-  
-  const KILOLITRO = 10 ** -3;
-  
-  const MEGALITRO = 10 ** -6;
-  
-  const GIGALITRO = 10 ** -9;
-  
-  const TERALITRO = 10 ** -12;
-  
-  const PETALITRO = 10 ** -15;
-  
-  const EXALITRO = 10 ** -18;
-  
-  const ZETALITRO = 10 ** -21;
-  
-  const YOTALITRO = 10 ** -24;
-  
-  const JARDALITRO = 0.9144;
-  
-  const PINTADO = 0.473176473;
-  
-  const TONEL = 0.000001;
-  
-  const PIPA = 0.000001;
-  
-  const ALMUDE = 1;
-  
-  const ALMUDE_ARABE = 1;
-  
-  const ALMUDE_CONDADO_PORTUCALENSE = 1;
-  
-  const ALMUDE_CONDADO_DOM_AFONSO_HENRIQUES = 1;
-  
-  const ALMUDE_DOM_PEDRO_I = 1;
-  
-  const ALMUDE_DOM_PEDRO_II = 1;
-  
-  const ALMUDE_DOM_MANUEL_I = 1;
-  
-  const ALMUDE_CONSELHO_SANTO_TIRSO_RIO_AVE = 1;
-  
-  const ALMUDE_CONSELHO_SANTO_TIRSOpVALE_DO_LECA = 1;
-  
-  const ALMUDE_COIMBRA_VINHO = 1;
-  
-  const ALMUDE_COIMBRA_AZEITE = 1;
-  
-  const GALAO = 0.00378541;
-  
-  const GALAO_LIQUIDO = 0.00378541;
-  
-  const GALAO_LIQUIDO_BARRIS_ESTADUNIDENSES = 0.00378541;
-  
-  const GALAO_LIQUIDO_QUARTOS_ESTADUNIDENSES = 0.00378541;
-  
-  const GALAO_LIQUIDO_QUARTILHOS_ESTADUNIDENSES = 0.00378541;
-  
-  const GALAO_LIQUIDO_GILLS_ESTADUNIDENSES = 0.00378541;
-  
-  const GALAO_LIQUIDO_ONCAS_ESTADUNIDENSES = 0.00378541;
-  
-  const GALAO_SECO = 0.00378541;
-  
-  const GALAO_SECO_QUARTILHOS = 0.00378541;
-  
-  const GALAO_SECO_QUARTOS = 0.00378541;
-  
-  const GALAO_SECO_PECKS = 0.00378541;
-  
-  const GALAO_SECO_BUSHELS = 0.00378541;
-  
-  const GALAO_IMPERIAL = 0.00378541;
-  
-  const GALAO_IMPERIAL_BARRIS_BRITANICOS = 0.00378541;
-  
-  const GALAO_IMPERIAL_QUARTOS_BRITANICOS = 0.00378541;
-  
-  const GALAO_IMPERIAL_QUARTILHOS_BRITANICOS = 0.00378541;
-  
-  const GALAO_IMPERIAL_GILLS_BRITANICOS = 0.00378541;
-  
-  const GALAO_IMPERIAL_ONCAS_BRITANICOS = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO_BARRIS_IMPERIAIS = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO_GALOES_IMPERIAIS = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO_PINTOS_IMPERIAIS = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO_GILLS_IMPERIAIS = 0.00378541;
-  
-  const QUARTO_IMPERIAL_BRITANICO_ONCAS_LIQUIDAS_IMPERIAIS = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE_BARRIS_ESTADUNIDENSES = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE_GALOES_ESTADUNIDENSES = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE_PINTOS_ESTADUNIDENSES = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE_GILLS_ESTADUNIDENSES = 0.00378541;
-  
-  const QUARTO_ESTADUNIDENSE_ONCAS_LIQUIDAS_ESTADUNIDENSES = 0.00378541;
-  
-  const PINTO_BRITANICO = 0.00378541;
-  
-  const PINTO_ESTADOS_UNIDOS = 0.00378541;
-  
-  const PINTO_AUSTRALIA = 0.00378541;
-  
-  const PINTO_CANADENSE = 0.00378541;
-  
-  const PINTO_FRANCES = 0.00378541;
-  
-  const PINTO_BELGICA = 0.00378541;
-  
-  const PINTO_BRITANICO_BARRIS_IMPERIAIS = 0.00378541;
-  
-  const PINTO_BRITANICO_GALOES_IMPERIAIS = 0.00378541;
-  
-  const PINTO_BRITANICO_GILLS_IMPERIAIS = 0.00378541;
-  
-  const PINTO_BRITANICO_ONCAS_LIQUIDAS_IMPERIAIS = 0.00378541;
-  
-  const PINTO_BRITANICO_BARRIS_ESTADUNIDENSES = 0.00378541;
-  
-  const PINTO_BRITANICO_GALOES_ESTADUNIDENSES = 0.00378541;
-  
-  const PINTO_BRITANICO_GILLS_ESTADUNIDENSES = 0.00378541;
-  
-  const PINTO_BRITANICO_ONCAS_LIQUIDAS_ESTADUNIDENSES = 0.00378541;
-  
-  const QUINTAL_PORTUGUES = 1;
-  
-  const QUINTAL_DE_PESO_GRANDE = 1;
-  
-  const QUINTAL_DE_PESO_PEQUENO = 1;
-  
-  const QUINTAL_METRICO = 1;
-  
-  const QUINTAL_METRICO_GRAMAS = 1;
-  
-  const QUINTAL_METRICO_DECAGRAMAS = 1;
-  
-  const QUINTAL_METRICO_HECTOGRAMAS = 1;
-  
-  const QUINTAL_METRICO_KILOGRAMAS = 1;
-  
-  const QUINTAL_METRICO_MINIAGRAMAS = 1;
-  
-  const QUINTAL_METRICO_TONELADAS_METRICAS = 1;
-  
-  const QUINTAL_METRICO_TONELADAS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_GRAOS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_DACMAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_ONCAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_LIBRAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_ARROBAS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_QUARTOS_CURTOS = 1;
-  
-  const QUINTAL_NORTE_AMERICANO_TONELADAS_CURTAS = 1;
-  
-  const QUINTAL_BRITANICO = 1;
-  
-  const QUINTAL_BRITANICO_GRAOS = 1;
-  
-  const QUINTAL_BRITANICO_DACMAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_BRITANICO_ONCAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_BRITANICO_LIBRAS_AVOIRDUPOIS = 1;
-  
-  const QUINTAL_BRITANICO_STONES = 1;
-  
-  const QUINTAL_BRITANICO_QUARTOS_CURTOS = 1;
-  
-  const QUINTAL_BRITANICO_TONELADAS_CURTAS = 1;
-  
-  const SESTEIRO = 1;
-  
-  const SESTEIRO_MOIO = 1;
-  
-  const SESTEIRO_SEC_XI = 1;
-  
-  const SESTEIRO_SEC_XIV = 1;
-  
-  const SESTEIRO_CONGIUS = 1;
-  
-  const SESTEIRO_MODIUS = 1;
-  
-  const SESTEIRO_SEXTANS = 1;
-  
-  const SESTEIRO_TRIENS = 1;
-  
-  const SESTEIRO_HEMINA = 1;
-  
-  const SESTEIRO_CHOENIX = 1;
-  
-  const ARRATEL = 1;
-  
-  const ONCA = 1;
-  
-    //Q Unidades Diversas Massa
-  const TONELADA = 1000;
-  
-    //Q Unidades Diversos Quantidades
-  const DUZIA = 12;
-  
-  const GROSA = 6;
-  
-    //Q Unidades Diversos Pressão
-  const ATM = 101325;
-  
-  const TORR = 133.322;
-  
-    //Q Unidades Diversos Som
-  const BEL = 1;
-  
-  const DECIBEL = 0.1;
-  
-    //Q Unidades Diversos Luz
-  const CANDELA = 1;
-  
-  const LUMEN_QUADRADO = 1;
-  
-  const LUMEN_SEGUNDO = 1;
-  
-  const LUX_QUADRADO = 1;
-  
-  const LUX_SEGUNDO = 1;
-  
-  const LUMEN_WATT = 1;
-  
-  const LUX_WATT = 1;
-  
-  const LUMEN_CUBICO = 1;
-  
-  const LUX_CUBICO = 1;
-  
-    //Q Unidades Diversos Energia
-  const CALORIA = 4.184;
-  
-  const KILOCALORIA = 4184;
-  

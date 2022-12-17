@@ -1,38 +1,34 @@
-declare type ColorForm=
-{
-
-  yellow: "/[f]{2}[4-9a-f]{2}[0]{2}[0-9a-f]{2}/g",
-  purple: "/[4-9a-f]{2}[0]{2}[4-9a-f]{2}[0-9a-f]{2}/g",
-  white: "/[9a-f]{6}[0-9a-f]{2}/g",
-  black: "/[0-8]{6}[0-9a-f]{2}/g"
-
-}
-
-declare type TermColor=
-{
-
-  schema: "3b4bit"|"8bit"|"24bit",
-  model_schema: "color"|"format"
-
-}
-
-declare type MathDefOp= 
-{
+export declare namespace TypeDefines {
   
-  common: "plus"|"minus"|"divisor"|"multiplication"|"power", 
-  advanced: "square-root"|"cubic-root"|"colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1",
-  expressions: { }
+  type ColorFormatation=
+  {
+  
+    yellow: "/[f]{2}[4-9a-f]{2}[0]{2}[0-9a-f]{2}/g",
+    purple: "/[4-9a-f]{2}[0]{2}[4-9a-f]{2}[0-9a-f]{2}/g",
+    white: "/[9a-f]{6}[0-9a-f]{2}/g",
+    black: "/[0-8]{6}[0-9a-f]{2}/g"
+  
+  }
+  
+  type TerminalColors=
+  {
+  
+    schema: "3b4bit"|"8bit"|"24bit",
+    model_schema: "color"|"format"
+  
+  }
+  
+  type MathematicOperation= 
+  {
+    
+    common: "plus"|"minus"|"divisor"|"multiplication"|"power", 
+    advanced: "square-root"|"cubic-root"|"colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1",
+    expressions: { }
+  
+  }
 
 }
 
-declare module "wertsfy-typedefs" 
-{ 
-
-  export var ColormaticFormDefines: ColorForm;
-  export var TerminalColorsDefines: TermColor; 
-  export var MathematicDefines: MathDefOp; 
-
-}
 
 /**
  * declare type WCTerminalFormatacao= 

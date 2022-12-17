@@ -1,8 +1,11 @@
 {
   
   "compilerOptions": {
-    "module": "ES2022",
-    "isolatedModules": false
+    "module": "CommonJS",
+    "target": "ES2022",
+    "strict": false,
+    "rootDir": ".",
+    "declaration": false
   }
 
 }

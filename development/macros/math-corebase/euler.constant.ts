@@ -1,0 +1,1 @@
+export const Macro_math_corebase_euler_constant = 2.7182818284590452353602874713527;

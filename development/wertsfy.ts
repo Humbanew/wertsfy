@@ -3,7 +3,7 @@
  * Humbanew Project Huon Subdivision
  */
 
-import { MathematicDefines } from "wertsfy-typedefs";
+import { MathematicDefines } from "./wdefines";
 
 // Interface de Programação de Aplicativos
 interface Wertsfy {

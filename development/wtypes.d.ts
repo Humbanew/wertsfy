@@ -68,8 +68,8 @@ export declare namespace TypeDefines {
 
     color_catalogy: {
 
-      letter: { },
-      background: { }
+      letter: { "3b4bit": {}, "8bit": {}, "24bit": {} },
+      background: { "3b4bit": {}, "8bit": {}, "24bit": {} }
 
     },
 

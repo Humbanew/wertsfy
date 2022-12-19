@@ -1048,7 +1048,16 @@ class WERTSFY_MATH_CALCULATOR {
   public common(operation: MathematicDefines["common"], ...numbers: number[]): number {
     
     let resultado: number;
-    if(operation == "plus" || "minus") { resultado = 0; } else { resultado = 1; }
+    
+    if(operation == "plus" || "minus") { 
+      
+      resultado = 0; 
+    
+    } else { 
+      
+      resultado = 1; 
+    
+    }
 
     for(let i = 0; i < numbers.length; i++) {
       

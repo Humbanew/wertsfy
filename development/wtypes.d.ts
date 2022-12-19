@@ -10,12 +10,69 @@ export declare namespace TypeDefines {
   
   }
   
-  type TerminalColors=
+  type TerminalColorCatalogy=
   {
   
     schema: "3b4bit"|"8bit"|"24bit",
     model_schema: "color"|"format"
   
+  }
+
+  type TerminalStylesheets= 
+  {
+
+    formatation: 
+    { 
+      
+      Bold: "01m",
+      Faint: "02m",
+      Italic: "03m",
+      Underline: "04m",
+      SlowBlink: "05m",
+      RapidBlink: "06m",
+      Reverse: "07m",
+      Conceal: "08m",
+      CrossedOut: "09m",
+      DefaultFont: "10m",
+      AltFont01: "11m",
+      AltFont02: "12m",
+      AltFont03: "13m",
+      AltFont04: "14m",
+      AltFont05: "15m",
+      AltFont06: "16m",
+      AltFont07: "17m",
+      AltFont08: "18m",
+      AltFont09: "19m",
+      Fraktur: "20m",
+      DoublyUnderline: "21m",
+      NormalIntensity: "22m",
+      NotItalic: "23m",
+      NotUnderline: "24m",
+      BlinkOff: "25m",
+      Spacing: "26m",
+      ReverseOff: "27m",
+      ConcealOff: "28m",
+      NotCrossed: "29m",
+      PropositalSpacing: "50m",
+      Framed: "51m",
+      Encircled: "52m",
+      Overlined: "53m",
+      NotEncircled: "54m",
+      NotOverlined: "55m",
+      Underlined: "58m",
+      Superscript: "73m",
+      Subscript: "74m",
+      NonSuperscriptSubscript: "75m" 
+
+    }
+
+    color_catalogy: {
+
+      letter: { },
+      background: { }
+
+    },
+
   }
   
   type MathematicOperation= 
@@ -31,59 +88,8 @@ export declare namespace TypeDefines {
 
 
 /**
- * declare type WCTerminalFormatacao= 
-  {
-    Template: 
-      "01m#negrito"|
-      "02m#faint"|
-      "03m#italico"|
-      "04m#sublinhado"|
-      "05m#slowblink"|
-      "06m#rapidblink"|
-      "07m#reverse"|
-      "08m#conceal"|
-      "09m#crossedout"|
-      "10m#defaultfont"|
-      "11m#altfont1"|
-      "12m#altfont2"|
-      "13m#altfont3"| 
-      "14m#altfont4"| 
-      "15m#altfont5"| 
-      "16m#altfont6"| 
-      "17m#altfont7"| 
-      "18m#altfont8"| 
-      "19m#altfont9"|
-      "20m#fraktur"|
-      "21m#doublyunderline"|
-      "22m#normalintensity"|
-      "23m#notitalic"|
-      "24m#notunderline"|
-      "25m#blinkoff"|
-      "26m#spacing"|
-      "27m#reverseoff"|
-      "28m#concealoff"|
-      "29m#notcrossed"|
-      "50m#propositalspacing"|
-      "51m#framed"|
-      "52m#encircled"|
-      "53m#overlined"|
-      "54m#notencircled"|
-      "55m#notoverlined"|
-      "58m#sublinhado"|
-      "59m#sublinhadopadrao"|
-      "60m#ideogramsublinduplohado"|
-      "61m#ideogramsublinhadoduplo"|
-      "62mideogramsublinhadoduploe"|
-      "63m#ideog1amoverlineduplo"|
-      "64m#ideogramstress"|
-      "65m#noideogramattr"|
-      "73m#superscript"|
-      "74m#subscript"|
-      "75m#nonsuperscriptsubscript" 
-  }
-
-  declare type TColoracao = number;
-
+ *
+ *
   declare type WCTerminalColoracao=
   {
     Template:
@@ -158,4 +164,3 @@ export declare namespace TypeDefines {
 
   }
  */
-

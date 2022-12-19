@@ -22,7 +22,7 @@ export declare namespace TypeDefines {
   {
     
     common: "plus"|"minus"|"divisor"|"multiplication"|"power", 
-    advanced: "square-root"|"cubic-root"|"colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1",
+    advanced: "colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1",
     expressions: { }
   
   }

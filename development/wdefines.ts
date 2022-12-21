@@ -1,3 +1,3 @@
-import { TypeDefines } from "./wtypes";
+import { WTPrototypes } from "./wtypes.core";
 
-export type MathematicDefines = TypeDefines.MathematicOperation;
+export type MathematicDefines = WTPrototypes.MATHEMATIC_TYPES.mathematic_operation;

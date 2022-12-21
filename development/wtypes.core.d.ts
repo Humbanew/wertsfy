@@ -11,7 +11,7 @@ export declare namespace WTPrototypes {
   namespace MATHEMATIC_TYPES {
     
     type mathematic_operation = TypeMathematicDefines.MathematicOperation;
-
+  
   }
 
 }

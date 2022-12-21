@@ -74,7 +74,13 @@ declare namespace TypeSpecTermDefines {
 
     },
 
-    color_catalogy: { }
+    color_catalogy: {
+
+      terminal: ColorModels.Terminal;
+
+      web: ColorModels.Web;
+
+    }
 
   };
 
@@ -332,8 +338,149 @@ declare namespace TypeSpecTermDefines {
       pallet_248: "#EEEEEE";
   
     };
-  
-    type Web = {}; 
+
+    type Web= 
+    {
+
+      AliceBlue: "aliceblue"; 
+      AntiqueWhite: "antiquewhite";
+      Aqua: "aqua";
+      AquaMarine: "aquamarine";
+      Azure: "azure";
+      Beige: "beige";
+      Bisque: "bisque";
+      Black: "black";
+      Blanchedalmond: "blanchedalmond";
+      Blue: "blue";
+      BlueViolet: "blueviolet";
+      Brown: "brown";
+      Burlywood: "burlywood";
+      CadetBlue: "cadetblue";
+      Chartreuse: "chartreuse";
+      Chocolate: "chocolate";
+      Coral: "coral";
+      CornFlowerBlue: "cornflowerblue";
+      Cornsilk: "cornsilk";
+      Crimson: "crimson";
+      Cyan: "cyan";
+      DarkBlue: "darkblue";
+      DarkCyan: "darkcyan";
+      DarkGoldenRod: "darkgoldenrod";
+      DarkGray: "darkgray";
+      DarkGreen: "darkgreen";
+      DarkKhaki: "darkkhaki";
+      DarkMagenta: "darkmagenta";
+      DarkOliveGreen: "darkolivegreen";
+      DarkOrange: "darkorange";
+      DarkOrchild: "darkorchid";
+      DarkRed: "darkred";
+      DarkSalmon: "darksalmon";
+      DarkSeaGreen: "darkseagreen";
+      DarkSlateBlue: "darkslateblue";
+      DarkSlateGray: "darkslategray";
+      DarkTurquiose: "darkturquoise";
+      DarkViolet: "darkviolet";
+      DeepPink: "deeppink";
+      DeepSkyBlue: "deepskyblue";
+      DimGray: "dimgray";
+      DodgerBlue: "dodgerblue";
+      Firebrick: "firebrick";
+      Floralwhite: "floralwhite";
+      FlorestGreen: "florestgreen";
+      Fucsia: "fucsia";
+      Gainsboro: "gainsboro";
+      Ghostwhite: "ghostwhite";
+      Gold: "gold";
+      GoldenRod: "goldenrod";
+      Gray: "gray";
+      Green: "green";
+      GreenYellow: "greenyellow";
+      Honeydew: "honeydew";
+      Hotpink: "hotpink";
+      IndianRed: "indianred";
+      Ivory: "ivory";
+      Khaki: "khaki"; 
+      Lavender: "lavender";
+      LavenderBlush: "lavenderblush";
+      LawnGreen: "lawngreen";
+      Lemonchiffon: "lemonchiffon";
+      LightBlue: "lightblue";
+      LightCoral: "lightcoral";
+      LightCyan: "lightcyan";
+      LightGoldenRodYellow: "lightgoldenrodyellow";
+      LightGray: "lightgray";
+      LightGreen: "lightgreen";
+      LightPink: "lightpink";
+      LightSalmon: "lightsalmon";
+      LightSeaGreen: "lightseagreen";
+      LightSkyBlue:  "lightskyblue";
+      LightSlateGray: "lightslategray";
+      LightSteelBlue: "lightsteelblue";
+      LightYellow: "lightyellow";
+      Lime: "lime"; 
+      LimeGreen: "limegreen"; 
+      Linen: "linen";
+      Magenta: "magenta";
+      Maroon: "maroon"; 
+      MediumAquamarine: "mediumaquamarine";
+      MediumBlue: "mediumblue";
+      MediumOrchid: "mediumorchid";
+      MediumSeaGreen: "mediumseagreen";
+      MediumSlateBlue: "mediumslateblue";
+      MediumSpringGreen: "mediumspringgreen";
+      MediumTurquiose: "mediumturquoise";
+      MediumVioletRed: "mediumvioletred";
+      MidmightBlue: "midnightblue";
+      MintCream: "mintcream";
+      Mistyrose: "mistyrose";
+      Moccasin: "moccasin";
+      NavajoWhite: "navajowhite";
+      Navy: "navy";
+      OldLace: "oldlace";
+      Olive: "olive";
+      OliveDrab: "olivedrab";
+      Orange: "orange";
+      OrangeRed: "orangered";
+      Orchid: "orchid";
+      PaleGoldenRod: "palegoldenrod";
+      PaleGreen: "palegreen";
+      PaleTurquoise: "paleturquoise";
+      PaleVioletRed: "palevioletred";
+      PapayaWhip: "papayawhip";
+      Peachpuff: "peachpuff";
+      Peru: "peru";
+      Pink: "pink";
+      Plum: "plum";
+      PowderBlue: "powderblue";
+      Purple: "purple";
+      Red: "red";
+      RosyBrown: "rosybrown";
+      RoyalBlue: "royalblue";
+      SaddleBrown: "saddlebrown";
+      Salmon: "salmon";
+      Sandybrown: "sandybrown";
+      SeaGreen: "seagreen";
+      Seashell: "seashell";
+      Silver: "silver";
+      SkyBlue: "skyblue";
+      SlateBlue: "slateblue";
+      SlateGray: "slategray";
+      Snow: "snow";
+      SpringGreen: "springgreen";
+      SteelBlue: "steelblue";
+      Tan: "tan";
+      Teal: "teal";
+      Thistle: "thistle";
+      Tomato: "tomato";
+      Turquiose: "turquiose";
+      Violet: "violet";
+      Wheat: "wheat";
+      White: "white";
+      Whitesmoke: "whitesmoke";
+      Yellow: "yellow";
+      YellowGreen: "yellowgreen";
+
+    }; 
     
     namespace Formatation {
   
@@ -410,162 +557,3 @@ declare namespace TypeSpecTermDefines {
 
 }
 
-declare namespace TypeMathematicDefines {
-    
-  type MathematicOperation= 
-  {
-    
-    common: "plus"|"minus"|"divisor"|"multiplication"|"power", 
-    advanced: "colog"|"cologm1"|"cologp1"|"antilog"|"antilogm1"|"antilogp1",
-    expressions: { }
-  
-  };
-
-}
-
-/**
- * 
-  coreshtml: {
-
-    AliceBlue: "aliceblue"; 
-    AntiqueWhite: "antiquewhite";
-    Aqua: "aqua";
-    AquaMarine: "aquamarine";
-    Azure: "azure";
-    Beige: "beige";
-    Bisque: "bisque";
-    Black: "black";
-    Blanchedalmond: "blanchedalmond";
-    Blue: "blue";
-    BlueViolet: "blueviolet";
-    Brown: "brown";
-    Burlywood: "burlywood";
-    CadetBlue: "cadetblue";
-    Chartreuse: "chartreuse";
-    Chocolate: "chocolate";
-    Coral: "coral";
-    CornFlowerBlue: "cornflowerblue";
-    Cornsilk: "cornsilk";
-    Crimson: "crimson";
-    Cyan: "cyan";
-    DarkBlue: "darkblue";
-    DarkCyan: "darkcyan";
-    DarkGoldenRod: "darkgoldenrod";
-    DarkGray: "darkgray";
-    DarkGreen: "darkgreen";
-    DarkKhaki: "darkkhaki";
-    DarkMagenta: "darkmagenta";
-    DarkOliveGreen: "darkolivegreen";
-    DarkOrange: "darkorange";
-    DarkOrchild: "darkorchid";
-    DarkRed: "darkred";
-    DarkSalmon: "darksalmon";
-    DarkSeaGreen: "darkseagreen";
-    DarkSlateBlue: "darkslateblue";
-    DarkSlateGray: "darkslategray";
-    DarkTurquiose: "darkturquoise";
-    DarkViolet: "darkviolet";
-    DeepPink: "deeppink";
-    DeepSkyBlue: "deepskyblue";
-    DimGray: "dimgray";
-    DodgerBlue: "dodgerblue";
-    Firebrick: "firebrick";
-    Floralwhite: "floralwhite";
-    FlorestGreen: "florestgreen";
-    Fucsia: "fucsia";
-    Gainsboro: "gainsboro";
-    Ghostwhite: "ghostwhite";
-    Gold: "gold";
-    GoldenRod: "goldenrod";
-    Gray: "gray";
-    Green: "green";
-    GreenYellow: "greenyellow";
-    Honeydew: "honeydew";
-    Hotpink: "hotpink";
-    IndianRed: "indianred";
-    Ivory: "ivory";
-    Khaki: "khaki"; 
-    Lavender: "lavender";
-    LavenderBlush: "lavenderblush";
-    LawnGreen: "lawngreen";
-    Lemonchiffon: "lemonchiffon";
-    LightBlue: "lightblue";
-    LightCoral: "lightcoral";
-    LightCyan: "lightcyan";
-    LightGoldenRodYellow: "lightgoldenrodyellow";
-    LightGray: "lightgray";
-    LightGreen: "lightgreen";
-    LightPink: "lightpink";
-    LightSalmon: "lightsalmon";
-    LightSeaGreen: "lightseagreen";
-    LightSkyBlue:  "lightskyblue";
-    LightSlateGray: "lightslategray";
-    LightSteelBlue: "lightsteelblue";
-    LightYellow: "lightyellow";
-    Lime: "lime"; 
-    LimeGreen: "limegreen"; 
-    Linen: "linen";
-    Magenta: "magenta";
-    Maroon: "maroon"; 
-    MediumAquamarine: "mediumaquamarine";
-    MediumBlue: "mediumblue";
-    MediumOrchid: "mediumorchid";
-    MediumSeaGreen: "mediumseagreen";
-    MediumSlateBlue: "mediumslateblue";
-    MediumSpringGreen: "mediumspringgreen";
-    MediumTurquiose: "mediumturquoise";
-    MediumVioletRed: "mediumvioletred";
-    MidmightBlue: "midnightblue";
-    MintCream: "mintcream";
-    Mistyrose: "mistyrose";
-    Moccasin: "moccasin";
-    NavajoWhite: "navajowhite";
-    Navy: "navy";
-    OldLace: "oldlace";
-    Olive: "olive";
-    OliveDrab: "olivedrab";
-    Orange: "orange";
-    OrangeRed: "orangered";
-    Orchid: "orchid";
-    PaleGoldenRod: "palegoldenrod";
-    PaleGreen: "palegreen";
-    PaleTurquoise: "paleturquoise";
-    PaleVioletRed: "palevioletred";
-    PapayaWhip: "papayawhip";
-    Peachpuff: "peachpuff";
-    Peru: "peru";
-    Pink: "pink";
-    Plum: "plum";
-    PowderBlue: "powderblue";
-    Purple: "purple";
-    Red: "red";
-    RosyBrown: "rosybrown";
-    RoyalBlue: "royalblue";
-    SaddleBrown: "saddlebrown";
-    Salmon: "salmon";
-    Sandybrown: "sandybrown";
-    SeaGreen: "seagreen";
-    Seashell: "seashell";
-    Silver: "silver";
-    SkyBlue: "skyblue";
-    SlateBlue: "slateblue";
-    SlateGray: "slategray";
-    Snow: "snow";
-    SpringGreen: "springgreen";
-    SteelBlue: "steelblue";
-    Tan: "tan";
-    Teal: "teal";
-    Thistle: "thistle";
-    Tomato: "tomato";
-    Turquiose: "turquiose";
-    Violet: "violet";
-    Wheat: "wheat";
-    White: "white";
-    Whitesmoke: "whitesmoke";
-    Yellow: "yellow";
-    YellowGreen: "yellowgreen";
-    
-  }
-
-};
-  */

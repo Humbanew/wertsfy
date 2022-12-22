@@ -14,4 +14,6 @@ export declare namespace WTPrototypes {
   
   }
 
+  namespace KARZOK_LYDROC_TYPES { }
+
 }

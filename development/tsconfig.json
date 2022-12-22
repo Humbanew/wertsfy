@@ -2,7 +2,7 @@
   
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ES2022",
+    "target": "ESNext",
     "strict": false,
     "rootDir": ".",
     "declaration": false

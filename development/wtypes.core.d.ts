@@ -2,7 +2,7 @@ export declare namespace WTPrototypes {
 
   namespace SPECTRALS_TERMINAL_TYPES {
 
-    type color_formatation = TypeSpecTermDefines.ColorFormatation;
+    type spectrals_formatation = TypeSpecTermDefines.SpectralsFormatation;
 
     type terminal_stylesheets = TypeSpecTermDefines.TerminalStylesheets;
 

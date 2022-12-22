@@ -311,7 +311,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the five power root of number.
    */
-  public quint(x: number): number 
+  public quirt(x: number): number 
   {
     return x ** (1 / 5);
   }
@@ -323,7 +323,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the six power root of number.
    */
-  public sext(x: number): number 
+  public sexrt(x: number): number 
   {
     return x ** (1 / 6);
   }
@@ -335,7 +335,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the seven power root of number.
    */
-  public sept(x: number): number 
+  public seprt(x: number): number 
   {
     return x ** (1 / 7);
   }
@@ -347,7 +347,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the eight power root of number.
    */
-  public oct(x: number): number 
+  public octrt(x: number): number 
   {
     return x ** (1 / 8);
   }
@@ -359,7 +359,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the nine power root of number.
    */
-  public non(x: number): number 
+  public nonrt(x: number): number 
   {
     return x ** (1 / 9);
   }
@@ -371,7 +371,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the ten power root of number.
    */
-  public dec(x: number): number 
+  public decrt(x: number): number 
   {
     return x ** (1 / 10);
   }
@@ -1103,6 +1103,19 @@ class WERTSFY_MATH_CALCULATOR {
      * arcseno, arccosseno, arctangente, arcsecante, arccossecante, arccotangente [inversa, hiperbolica]
      * exponencial, logaritmo [natural], cologaritmo [natural], antilogaritmo [natural]
      */
+
+    if(operation == "sqrt") { }
+    if(operation == "cbrt") { }
+    if(operation == "quart") { }
+    if(operation == "quirt") { }
+    if(operation == "sexrt") { }
+    if(operation == "seprt") { }
+    if(operation == "octrt") { }
+    if(operation == "nonrt") { }
+    if(operation == "decrt") { }
+    if(operation == "log") { }
+    if(operation == "logm1") { }
+    if(operation == "logp1") { } 
 
     if(operation == "antilog") { resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logx(n1, n2); }
     if(operation == "antilogm1") { resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logxm1(n1-1, n2); }

@@ -12,16 +12,13 @@
 <div align="center">
 
 ## Github Actions
-[![Lint Codespaces Actions Workflow](https://github.com/Humba01/wertsfy/actions/workflows/main.yml/badge.svg)](https://github.com/Humba01/wertsfy/actions/workflows/main.yml)
+[![Lint Codespaces Actions Workflow](https://github.com/Humba01/wertsfy/actions/workflows/main.yml/badge.svg?branch=v0.0.1)](https://github.com/Humba01/wertsfy/actions/workflows/main.yml)
+[![CodeQL Workflow](https://github.com/Humba01/wertsfy/actions/workflows/codeql.yml/badge.svg?branch=v0.0.1)](https://github.com/Humba01/wertsfy/actions/workflows/codeql.yml)
 
 <div>
 
 <div align="center"> 
-
-## Infográfico & Resumo do Projeto
-
-![Wertsfy-Infograph-v4](https://user-images.githubusercontent.com/59739253/202082533-c1d9bb01-407f-4e25-ad71-0f39b83e72bb.png)
+  
+  ![Wertsfy Logo](https://user-images.githubusercontent.com/59739253/207722663-49333baa-7efc-42e2-bf43-a78dc3d24fb6.png)
 
 </div>
-
-

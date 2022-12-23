@@ -3,7 +3,7 @@
  * Humbanew Project Huon Subdivision
  */
 
-import { Macro_math_corebase_logarithm_protected_method } from "./macros/math-corebase/logarithm.protected.method";
+import { Macros } from "./macros/macros.core";
 import { MathematicDefines } from "./wdefines";
 
 // Componentes da Interface
@@ -11,49 +11,49 @@ import { MathematicDefines } from "./wdefines";
 /** *Wertsfy Mathematics Corebase Class* */
 class WERTSFY_MATH_COREBASE {
 
-  protected _log = Macro_math_corebase_logarithm_protected_method;
+  protected _log = Macros.math_corebase.logarithm_protected_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the pi value.
    */
-  public Pi = 3.141592653589793;
+  public Pi = Macros.math_corebase.pi_constant;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the euler value.
    */
-  public Euler = 2.7182818284590452353602874713527;
+  public Euler = Macros.math_corebase.euler_constant;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the plank value.
    */
-  public Plank = 6.62606896e-34;
+  public Plank = Macros.math_corebase.plank_constant;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the avogadro value.
    */
-  public Avogadro = 6.022140857e23;
+  public Avogadro = Macros.math_corebase.avogadro_constant;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the newton value.
    */
-  public Newton = 0.6931471805599453;
+  public Newton = Macros.math_corebase.newton_constant;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the tesla value.
    */
-  public Tesla = 1.6021766208e-19;
+  public Tesla = Macros.math_corebase.tesla_constant;
   
   /**
    * ``▰ Wertsfy ▰ ``
@@ -1044,6 +1044,18 @@ class WERTSFY_MATH_COREBASE {
 
 /** *Wertsfy Mathematics Calculator Class* */
 class WERTSFY_MATH_CALCULATOR {
+
+  public Pi = mathematic_corebase.Pi;
+
+  public Euler = mathematic_corebase.Euler;
+
+  public Log2 = mathematic_corebase.Logarithm2;
+
+  public Log2e = mathematic_corebase.Logarithm2e;
+
+  public Log10 = mathematic_corebase.Logarithm10;
+
+  public Log10e = mathematic_corebase.Logarithm10e;
   
   public common(operation: MathematicDefines["common"], ...numbers: number[]): number {
     

@@ -1049,42 +1049,26 @@ class WERTSFY_MATH_CALCULATOR {
     
     let resultado: number;
     
-    if(operation == "plus" || "minus") { 
-      
-      resultado = 0; 
-    
-    } else { 
-      
-      resultado = 1; 
-    
-    }
+    operation == "plus" || "minus" ? resultado = 0 : resultado = 1; 
 
     for(let i = 0; i < numbers.length; i++) {
-      
-      if(operation == "plus") { 
-        
-        resultado = resultado + numbers[i]; 
-      
+
+      if(i == 0 && (operation == "divisor" || "multip" || "power") ) { 
+        resultado = numbers[0];
+        continue;
       }
-      if(operation == "minus") { 
-        
-        resultado = resultado - numbers[i]; 
-      
-      }
-      if(operation == "multiplication") { 
-        
-        resultado = resultado * numbers[i]; 
-      
-      }
-      if(operation == "divisor") { 
-        
-        resultado = resultado / numbers[i]; 
-      
-      }
-      if(operation == "power") { 
-        
-        resultado = resultado ** numbers[i]; 
-      
+
+      switch(operation) {
+        case "plus": 
+          resultado = resultado + numbers[i]; break;
+        case "minus":
+          resultado = resultado - numbers[i]; break;
+        case "multip": 
+          resultado = resultado * numbers[i]; break;
+        case "divisor":
+          resultado = resultado / numbers[i]; break;
+        case "power": 
+          resultado = resultado ** numbers[i]; break; 
       }
 
     }
@@ -1093,37 +1077,35 @@ class WERTSFY_MATH_CALCULATOR {
 
   }
 
-  public advanced(operation: MathematicDefines["advanced"], n1: number, n2: number): number {
+  public advanced(operation: MathematicDefines["advanced"], ...numbers: number[]): number {
 
     let resultado: number = 0;
 
-    /**
-     * raiz quadrada, raiz cubica, outras raizes
-     * seno, cosseno, tangente, secante, cossecante, cotangente [inversa, hiperbolica]
-     * arcseno, arccosseno, arctangente, arcsecante, arccossecante, arccotangente [inversa, hiperbolica]
-     * exponencial, logaritmo [natural], cologaritmo [natural], antilogaritmo [natural]
-     */
+    switch(operation) {
+      case "sqrt":
+        resultado = mathematic_corebase.sqrt(numbers[0]); break;
+      case "cbrt":
+        resultado = mathematic_corebase.cbrt(numbers[0]); break;
+      case "quart":
+        resultado = mathematic_corebase.quart(numbers[0]); break;
+      case "quirt":
+        resultado = mathematic_corebase.quirt(numbers[0]); break;
+      case "sexrt":
+        resultado = mathematic_corebase.sexrt(numbers[0]); break;
+      case "seprt":
+        resultado = mathematic_corebase.seprt(numbers[0]); break;
+      case "octrt":
+        resultado = mathematic_corebase.octrt(numbers[0]); break;
+      case "nonrt":
+        resultado = mathematic_corebase.nonrt(numbers[0]); break;
+      case "decrt":
+        resultado = mathematic_corebase.decrt(numbers[0]); break;
 
-    if(operation == "sqrt") { }
-    if(operation == "cbrt") { }
-    if(operation == "quart") { }
-    if(operation == "quirt") { }
-    if(operation == "sexrt") { }
-    if(operation == "seprt") { }
-    if(operation == "octrt") { }
-    if(operation == "nonrt") { }
-    if(operation == "decrt") { }
-    if(operation == "log") { }
-    if(operation == "logm1") { }
-    if(operation == "logp1") { } 
+    }
 
-    if(operation == "antilog") { resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logx(n1, n2); }
-    if(operation == "antilogm1") { resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logxm1(n1-1, n2); }
-    if(operation == "antilogp1") { resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logxp1(n1+1, n2); }
-    if(operation == "colog") { resultado = -1 * WERTSFY_MATH_COREBASE.prototype.logx(n1, n2); }
-    if(operation == "cologm1") { resultado = -1 * WERTSFY_MATH_COREBASE.prototype.logx(n1-1, n2); }
-    if(operation == "cologp1") { resultado = -1 * WERTSFY_MATH_COREBASE.prototype.logx(n1+1, n2); }
 
+    // antilog => resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logx(n1, n2);
+    // colog => resultado = -1 * WERTSFY_MATH_COREBASE.prototype.logx(n1, n2);
     return resultado;
 
   }

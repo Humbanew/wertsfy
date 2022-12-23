@@ -1,6 +1,3 @@
-// criado para uso em testes
-declare interface ArchKarzok { model: { arch: Karzok } }
-
 declare type Karzok = { 
 
   "minecraft": {

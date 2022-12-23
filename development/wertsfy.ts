@@ -1077,35 +1077,161 @@ class WERTSFY_MATH_CALCULATOR {
 
   }
 
-  public advanced(operation: MathematicDefines["advanced"], ...numbers: number[]): number {
+  public advanced(operation: MathematicDefines["advanced"], ...numbers: number[]): number[] {
 
-    let resultado: number = 0;
+    let resultado: number[] = [];
 
-    switch(operation) {
-      case "sqrt":
-        resultado = mathematic_corebase.sqrt(numbers[0]); break;
-      case "cbrt":
-        resultado = mathematic_corebase.cbrt(numbers[0]); break;
-      case "quart":
-        resultado = mathematic_corebase.quart(numbers[0]); break;
-      case "quirt":
-        resultado = mathematic_corebase.quirt(numbers[0]); break;
-      case "sexrt":
-        resultado = mathematic_corebase.sexrt(numbers[0]); break;
-      case "seprt":
-        resultado = mathematic_corebase.seprt(numbers[0]); break;
-      case "octrt":
-        resultado = mathematic_corebase.octrt(numbers[0]); break;
-      case "nonrt":
-        resultado = mathematic_corebase.nonrt(numbers[0]); break;
-      case "decrt":
-        resultado = mathematic_corebase.decrt(numbers[0]); break;
-
+    for(let i = 0; i < numbers.length; i++) {
+      
+      switch(operation) {
+        case "sqrt":
+          resultado.push(mathematic_corebase.sqrt(numbers[i])); break;
+        case "cbrt":
+          resultado.push(mathematic_corebase.cbrt(numbers[i])); break;
+        case "quart":
+          resultado.push(mathematic_corebase.quart(numbers[i])); break;
+        case "quirt":
+          resultado.push(mathematic_corebase.quirt(numbers[i])); break;
+        case "sexrt":
+          resultado.push(mathematic_corebase.sexrt(numbers[i])); break;
+        case "seprt":
+          resultado.push(mathematic_corebase.seprt(numbers[i])); break;
+        case "octrt":
+          resultado.push(mathematic_corebase.octrt(numbers[i])); break;
+        case "nonrt":
+          resultado.push(mathematic_corebase.nonrt(numbers[i])); break;
+        case "decrt":
+          resultado.push(mathematic_corebase.decrt(numbers[i])); break;
+        case "sin":
+          resultado.push(mathematic_corebase.sin(numbers[i])); break;
+        case "cos":
+          resultado.push(mathematic_corebase.cos(numbers[i])); break;
+        case "tan":
+          resultado.push(mathematic_corebase.tan(numbers[i])); break;
+        case "sec":
+          resultado.push(mathematic_corebase.sec(numbers[i])); break;
+        case "cosec":
+          resultado.push(mathematic_corebase.cosec(numbers[i])); break;
+        case "cotan":
+          resultado.push(mathematic_corebase.cotan(numbers[i])); break;
+        case "sinh":
+          resultado.push(mathematic_corebase.sinh(numbers[i])); break;
+        case "cosh":
+          resultado.push(mathematic_corebase.cosh(numbers[i])); break;
+        case "tanh":
+          resultado.push(mathematic_corebase.tanh(numbers[i])); break;
+        case "sech":
+          resultado.push(mathematic_corebase.sech(numbers[i])); break;
+        case "cosech":
+          resultado.push(mathematic_corebase.cosech(numbers[i])); break;
+        case "cotanh":
+          resultado.push(mathematic_corebase.cotanh(numbers[i])); break;
+        case "arcsin":
+          resultado.push(mathematic_corebase.arcsin(numbers[i])); break;
+        case "arccos":
+          resultado.push(mathematic_corebase.arccos(numbers[i])); break;
+        case "arctan":
+          resultado.push(mathematic_corebase.arctan(numbers[i])); break;
+        case "arcsec":
+          resultado.push(mathematic_corebase.arcsec(numbers[i])); break;
+        case "arccosec":
+          resultado.push(mathematic_corebase.arccosec(numbers[i])); break;
+        case "arccotan":
+          resultado.push(mathematic_corebase.arccotan(numbers[i])); break;
+        case "arcsinh":
+          resultado.push(mathematic_corebase.arcsinh(numbers[i])); break;
+        case "arccosh":
+          resultado.push(mathematic_corebase.arccosh(numbers[i])); break;
+        case "arctanh":
+          resultado.push(mathematic_corebase.arctanh(numbers[i])); break;
+        case "arcsech":
+          resultado.push(mathematic_corebase.arcsech(numbers[i])); break;
+        case "arccosech":
+          resultado.push(mathematic_corebase.arccosech(numbers[i])); break;
+        case "arccotanh":
+          resultado.push(mathematic_corebase.arccotanh(numbers[i])); break;
+        case "ln":
+          resultado.push(mathematic_corebase.ln(numbers[i])); break;
+        case "lnm1":
+          resultado.push(mathematic_corebase.lnm1(numbers[i])); break;
+        case "lnp1":
+          resultado.push(mathematic_corebase.lnp1(numbers[i])); break;
+        case "coln":
+          resultado.push(-1 * mathematic_corebase.ln(numbers[i])); break;
+        case "colnm1":
+          resultado.push(-1 * mathematic_corebase.lnm1(numbers[i])); break;
+        case "colnp1":
+          resultado.push(-1 * mathematic_corebase.lnp1(numbers[i])); break;
+        case "antiln":
+          resultado.push(1 ** mathematic_corebase.ln(numbers[i])); break;
+        case "antilnm1":
+          resultado.push(1 ** mathematic_corebase.lnm1(numbers[i])); break;
+        case "antilnp1":
+          resultado.push(1 ** mathematic_corebase.lnp1(numbers[i])); break;
+        case "log2":
+          resultado.push(mathematic_corebase.log2(numbers[i])); break;
+        case "log2m1":
+          resultado.push(mathematic_corebase.log2m1(numbers[i])); break;
+        case "log2p1":
+          resultado.push(mathematic_corebase.log2p1(numbers[i])); break;
+        case "colog2":
+          resultado.push(-1 * mathematic_corebase.log2(numbers[i])); break;
+        case "colog2m1":
+          resultado.push(-1 * mathematic_corebase.log2m1(numbers[i])); break;
+        case "colog2p1":
+          resultado.push(-1 * mathematic_corebase.log2p1(numbers[i])); break;
+        case "antilog2":
+          resultado.push(1 ** mathematic_corebase.log2(numbers[i])); break;
+        case "antilog2m1":
+          resultado.push(1 ** mathematic_corebase.log2m1(numbers[i])); break;
+        case "antilog2p1":
+          resultado.push(1 ** mathematic_corebase.log2p1(numbers[i])); break;
+        case "log10":
+          resultado.push(mathematic_corebase.log(numbers[i])); break;
+        case "log10m1":
+          resultado.push(mathematic_corebase.logm1(numbers[i])); break;
+        case "log10p1":
+          resultado.push(mathematic_corebase.logp1(numbers[i])); break;
+        case "colog10":
+          resultado.push(-1 * mathematic_corebase.log(numbers[i])); break;
+        case "colog10m1":
+          resultado.push(-1 * mathematic_corebase.logm1(numbers[i])); break;
+        case "colog10p1":
+          resultado.push(-1 * mathematic_corebase.logp1(numbers[i])); break;
+        case "antilog10":
+          resultado.push(1 ** mathematic_corebase.log(numbers[i])); break;
+        case "antilog10m1":
+          resultado.push(1 ** mathematic_corebase.logm1(numbers[i])); break;
+        case "antilog10p1":
+          resultado.push(1 ** mathematic_corebase.logp1(numbers[i])); break;
+        case "logx":
+          resultado.push(mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
+        case "logxm1":
+          resultado.push(mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
+        case "logxp1":
+          resultado.push(mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;          
+        case "cologx":
+          resultado.push(-1 * mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
+        case "cologxm1":
+          resultado.push(-1 * mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
+        case "cologxp1":
+          resultado.push(-1 * mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;          
+        case "antilogx":
+          resultado.push(1 ** mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
+        case "antilogxm1":
+          resultado.push(1 ** mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
+        case "antilogxp1":
+          resultado.push(1 ** mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;
+        case "exp":
+          resultado.push(mathematic_corebase.exp(numbers[i], numbers[i+1])); i++; break;          
+        case "expm1":
+          resultado.push(mathematic_corebase.expp1(numbers[i], numbers[i+1])); i++; break;          
+        case "expp1":
+          resultado.push(mathematic_corebase.expm1(numbers[i], numbers[i+1])); i++; break;          
+      }
+    
     }
 
-
-    // antilog => resultado = 1 ** WERTSFY_MATH_COREBASE.prototype.logx(n1, n2);
-    // colog => resultado = -1 * WERTSFY_MATH_COREBASE.prototype.logx(n1, n2);
     return resultado;
 
   }
@@ -1140,15 +1266,15 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaTeoremaDePitagoras: (a: number, b: number): number => {
-      return WERTSFY_MATH_COREBASE.prototype.sqrt(((a ** 2) + (b ** 2)));
+      return mathematic_corebase.sqrt(((a ** 2) + (b ** 2)));
     },
 
     formulaRelacaoPitagoricaTriangulo1: (m: number, n: number): number => {
-      return WERTSFY_MATH_COREBASE.prototype.sqrt(m * n);
+      return mathematic_corebase.sqrt(m * n);
     },
            
     formulaRelacaoPitagoricaTriangulo2: (a: number, n: number): number => {
-      return WERTSFY_MATH_COREBASE.prototype.sqrt(a * n);
+      return mathematic_corebase.sqrt(a * n);
     },
     
     formulaRelacaoPitagoricaTriangulo3: (h: number, b: number, c: number): number => {
@@ -1190,7 +1316,7 @@ class WERTSFY_MATH_CALCULATOR {
 
     formulaCalculoDoTeoremaDeStirling: (valor: number): number => {
       let resultado: number = 0;
-      resultado = (WERTSFY_MATH_COREBASE.prototype.log(valor) * valor) / valor;
+      resultado = (mathematic_corebase.log(valor) * valor) / valor;
       return resultado;
     },
 
@@ -1393,12 +1519,12 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDaAceleracaoNoPlanoInclinadoEixoX: (massa: number, gravidade: number, angulo: number): number => {
-      let resultado = massa * gravidade * WERTSFY_MATH_COREBASE.prototype.sin(angulo);
+      let resultado = massa * gravidade * mathematic_corebase.sin(angulo);
       return resultado;
     },
 
     formulaCalculoDaAceleracaoNoPlanoInclinadoEixoY: (massa: number, gravidade: number, angulo: number): number => {
-      let resultado = massa * gravidade * WERTSFY_MATH_COREBASE.prototype.cos(angulo);
+      let resultado = massa * gravidade * mathematic_corebase.cos(angulo);
       return resultado;
     },
 
@@ -1408,22 +1534,22 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDaEquacaoDeTorricelli: (velocidadeInicial: number, aceleracao: number, espacoInicial: number, espacoFinal: number): number => {
-      let resultado = WERTSFY_MATH_COREBASE.prototype.sqrt((velocidadeInicial ** 2) + 2 * aceleracao * (espacoFinal - espacoInicial));
+      let resultado = mathematic_corebase.sqrt((velocidadeInicial ** 2) + 2 * aceleracao * (espacoFinal - espacoInicial));
       return resultado;
     },
 
     formulaCalculoDaAlturaMaximaDeUmLancamentoVertical: (velocidadeInicial: number, gravidade: number, angulo: number): number => {
-      let resultado = (velocidadeInicial ** 2) * ((WERTSFY_MATH_COREBASE.prototype.sin(angulo) ** 2) / 2) * gravidade;
+      let resultado = (velocidadeInicial ** 2) * ((mathematic_corebase.sin(angulo) ** 2) / 2) * gravidade;
       return resultado;
     },
 
     formulaCalculoDoAlcanceDeUmLancamentoVertical: (velocidade: number, tempo: number, angulo: number): number => {
-      let resultado = velocidade * WERTSFY_MATH_COREBASE.prototype.cos(angulo) * tempo;
+      let resultado = velocidade * mathematic_corebase.cos(angulo) * tempo;
       return resultado;
     },
 
     formulaCalculoDoAlcanceMaximoDeUmLancamentoVertical: (velocidade: number, angulo: number, gravidade: number): number => {
-      let resultado = (velocidade ** 2 * (WERTSFY_MATH_COREBASE.prototype.sin(angulo) ** 2)) / gravidade;
+      let resultado = (velocidade ** 2 * (mathematic_corebase.sin(angulo) ** 2)) / gravidade;
       return resultado;
     },
 
@@ -1497,7 +1623,7 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDoVelocidadeLinearMovimentoCircularUniforme: (frequencia: number, raio: number): number => {
-      let resultado = (2 * WERTSFY_MATH_COREBASE.prototype.Pi * frequencia) * raio;
+      let resultado = (2 * mathematic_corebase.Pi * frequencia) * raio;
       return resultado;
     },
 
@@ -1512,7 +1638,7 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDeToricelliMovimentoCircularUniformenteVariado: (velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngularInicial: number, deslocamentoAngularFinal: number): number => {
-      let resultado = WERTSFY_MATH_COREBASE.prototype.sqrt(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngularFinal - deslocamentoAngularInicial));
+      let resultado = mathematic_corebase.sqrt(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngularFinal - deslocamentoAngularInicial));
       return resultado;
     },
 
@@ -1522,17 +1648,17 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
-      let resultado = velocidadeAngular * amplitude * WERTSFY_MATH_COREBASE.prototype.cos(tempo + faseInicial);
+      let resultado = velocidadeAngular * amplitude * mathematic_corebase.cos(tempo + faseInicial);
       return resultado;
     },
 
     formulaCalculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
-      let resultado = -1 * velocidadeAngular * amplitude * WERTSFY_MATH_COREBASE.prototype.sin(tempo + faseInicial);
+      let resultado = -1 * velocidadeAngular * amplitude * mathematic_corebase.sin(tempo + faseInicial);
       return resultado;
     },
 
     formulaCalculoDaEquacaoHorariaDeAceleracaoDoMovimentoHarmonicoSimples: (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
-      let resultado = -1 * velocidadeAngular ** 2 * amplitude * WERTSFY_MATH_COREBASE.prototype.cos(tempo + faseInicial);
+      let resultado = -1 * velocidadeAngular ** 2 * amplitude * mathematic_corebase.cos(tempo + faseInicial);
       return resultado;
     },
 
@@ -1613,7 +1739,7 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaCalculoDaLeiDeLenz: (intensidadeDoCampoMagnetico: number, areaDaSuperficie: number, cosAngulo: number): number => {
-      let resultado = intensidadeDoCampoMagnetico * areaDaSuperficie * WERTSFY_MATH_COREBASE.prototype.cos(cosAngulo);
+      let resultado = intensidadeDoCampoMagnetico * areaDaSuperficie * mathematic_corebase.cos(cosAngulo);
       return resultado;
     },
 
@@ -1993,13 +2119,13 @@ class WERTSFY_MATH_CALCULATOR {
 
     formulaModuloDeUmVetorR2: (x: number, y: number): number => {
       let resultado = 0;
-      resultado = WERTSFY_MATH_COREBASE.prototype.sqrt(x ** 2 + y ** 2);
+      resultado = mathematic_corebase.sqrt(x ** 2 + y ** 2);
       return resultado;
     },
 
     formulaModuloDeUmVetorR3: (x: number, y: number, z: number): number => {
       let resultado = 0;
-      resultado = WERTSFY_MATH_COREBASE.prototype.sqrt(x ** 2 + y ** 2 + z ** 2);
+      resultado = mathematic_corebase.sqrt(x ** 2 + y ** 2 + z ** 2);
       return resultado;
     },
 
@@ -2111,14 +2237,14 @@ class WERTSFY_MATH_CALCULATOR {
 
     formulaCossenosDiretoresDeUmVetorR2: (x: number, y: number): Array<number> => {
       let resultado: number[];
-      let contExpressaoP1 = [WERTSFY_MATH_COREBASE.prototype.cos(x), WERTSFY_MATH_COREBASE.prototype.cos(y)];
+      let contExpressaoP1 = [mathematic_corebase.cos(x), mathematic_corebase.cos(y)];
       resultado = contExpressaoP1;
       return resultado;
     },
 
     formulaCossenosDiretoresDeUmVetorR3: (x: number, y: number, z: number): Array<number> => {
       let resultado: number[];
-      let contExpressaoP1 = [WERTSFY_MATH_COREBASE.prototype.cos(x), WERTSFY_MATH_COREBASE.prototype.cos(y), WERTSFY_MATH_COREBASE.prototype.cos(z)];
+      let contExpressaoP1 = [mathematic_corebase.cos(x), mathematic_corebase.cos(y), mathematic_corebase.cos(z)];
       resultado = contExpressaoP1;
       return resultado;
     },
@@ -2242,7 +2368,7 @@ class WERTSFY_MATH_CALCULATOR {
     formulaCriaJogoDaMegaSena: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 6; i++) {
-        numeros.push(WERTSFY_MATH_COREBASE.prototype.floor(WERTSFY_MATH_COREBASE.prototype.random(i) * 60) + 1);
+        numeros.push(mathematic_corebase.floor(mathematic_corebase.random(i) * 60) + 1);
       }
       if(aposta[0] === numeros[0] && aposta[1] === numeros[1] && aposta[2] === numeros[2] && aposta[3] === numeros[3] && aposta[4] === numeros[4] && aposta[5] === numeros[5]) {
         console.info("Você ganhou!");
@@ -2256,7 +2382,7 @@ class WERTSFY_MATH_CALCULATOR {
     formulaCriaJogoDaQuina: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 5; i++) {
-        numeros.push(WERTSFY_MATH_COREBASE.prototype.floor(WERTSFY_MATH_COREBASE.prototype.random(i) * 80) + 1);
+        numeros.push(mathematic_corebase.floor(mathematic_corebase.random(i) * 80) + 1);
       }
       if(aposta[0] === numeros[0] && aposta[1] === numeros[1] && aposta[2] === numeros[2] && aposta[3] === numeros[3] && aposta[4] === numeros[4]) {
         console.info("Você ganhou!");
@@ -2270,7 +2396,7 @@ class WERTSFY_MATH_CALCULATOR {
     formulaCriaJogoDaQuadra: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 4; i++) {
-        numeros.push(WERTSFY_MATH_COREBASE.prototype.floor(WERTSFY_MATH_COREBASE.prototype.random(i) * 80) + 1);
+        numeros.push(mathematic_corebase.floor(mathematic_corebase.random(i) * 80) + 1);
       }
       if(aposta[0] === numeros[0] && aposta[1] === numeros[1] && aposta[2] === numeros[2] && aposta[3] === numeros[3]) {
         console.info("Você ganhou!");
@@ -2284,7 +2410,7 @@ class WERTSFY_MATH_CALCULATOR {
     formulaCriaJogoDaLotofacil: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 6; i++) {
-        numeros.push(WERTSFY_MATH_COREBASE.prototype.floor(WERTSFY_MATH_COREBASE.prototype.random(i) * 80) + 1);
+        numeros.push(mathematic_corebase.floor(mathematic_corebase.random(i) * 80) + 1);
       }
       if(aposta[0] === numeros[0] && aposta[1] === numeros[1] && aposta[2] === numeros[2] && aposta[3] === numeros[3] && aposta[4] === numeros[4] && aposta[5] === numeros[5]) {
         console.info("Você ganhou!");
@@ -2298,7 +2424,7 @@ class WERTSFY_MATH_CALCULATOR {
     formulaCriaJogoDaLotomania: (aposta: number[]): Array<number> => {
       let numeros = [];
       for(let i = 0; i < 15; i++) {
-        numeros.push(WERTSFY_MATH_COREBASE.prototype.floor(WERTSFY_MATH_COREBASE.prototype.random(i) * 80) + 1);
+        numeros.push(mathematic_corebase.floor(mathematic_corebase.random(i) * 80) + 1);
       }
       if(aposta[0] === numeros[0] && aposta[1] === numeros[1] && aposta[2] === numeros[2] && aposta[3] === numeros[3] && aposta[4] === numeros[4] && aposta[5] === numeros[5] && aposta[6] === numeros[6] && aposta[7] === numeros[7] && aposta[8] === numeros[8] && aposta[9] === numeros[9] && aposta[10] === numeros[10] && aposta[11] === numeros[11] && aposta[12] === numeros[12] && aposta[13] === numeros[13] && aposta[14] === numeros[14]) {
         console.info("Você ganhou!");
@@ -2350,11 +2476,11 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaAreaTrianguloQualquer: (lado: number): number => { 
-      return lado * lado * WERTSFY_MATH_COREBASE.prototype.sqrt(3) / 4; 
+      return lado * lado * mathematic_corebase.sqrt(3) / 4; 
     },
 
     formulaApotemaDeUmTrianguloQualquer: (lado: number): number => {
-      return lado * lado * WERTSFY_MATH_COREBASE.prototype.sqrt(3) / 2;
+      return lado * lado * mathematic_corebase.sqrt(3) / 2;
     },
 
     formulaAreaQuadradoQualquer: (lado: number): number => { 
@@ -2366,11 +2492,11 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaAreaCirculoQualquer: (raio: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2); 
+      return mathematic_corebase.Pi * (raio ** 2); 
     },
 
     formulaAreaElipseQualquer: (raio: number, altura: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) * altura; 
+      return mathematic_corebase.Pi * (raio ** 2) * altura; 
     },
 
     formulaAreaPiramideQualquer: (base: number, altura: number): number => { 
@@ -2394,19 +2520,19 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaAreaEsferaQualquer: (raio: number): number => { 
-      return 4 * WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) / 2; 
+      return 4 * mathematic_corebase.Pi * (raio ** 2) / 2; 
     },
 
     formulaAreaCilindroQualquer: (raio: number, altura: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) * altura; 
+      return mathematic_corebase.Pi * (raio ** 2) * altura; 
     },
 
     formulaAreaConeQualquer: (raio: number, altura: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) * (altura / 3); 
+      return mathematic_corebase.Pi * (raio ** 2) * (altura / 3); 
     },
 
     formulaAreaDeUmPoligonoQualquer: (comp: number, larg: number, nLados: number): number => {
-      return comp == larg ? nLados * ((comp * comp * WERTSFY_MATH_COREBASE.prototype.sqrt(3)) / 4) : nLados * (comp * larg / 2);
+      return comp == larg ? nLados * ((comp * comp * mathematic_corebase.sqrt(3)) / 4) : nLados * (comp * larg / 2);
     },
 
     formulaVolumeDeUmPoligonoFormatoLozangoQualquer: (diagonalMaior: number, diagonalMenor: number, altura: number): number => {
@@ -2462,15 +2588,15 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaVolumeDeUmConeQualquer: (raio: number, altura: number): number => { 
-      return (WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) * altura) / 3; 
+      return (mathematic_corebase.Pi * (raio ** 2) * altura) / 3; 
     },
 
     formulaVolumeDeUmCilindroQualquer: (raio: number, altura: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 2) * altura; 
+      return mathematic_corebase.Pi * (raio ** 2) * altura; 
     },
 
     formulaVolumeDeUmEsferaQualquer: (raio: number): number => { 
-      return (4 * WERTSFY_MATH_COREBASE.prototype.Pi * (raio ** 3)) / 3; 
+      return (4 * mathematic_corebase.Pi * (raio ** 3)) / 3; 
     },
 
     formulaVolumeDeUmRombQualquer: (aresta: number): number => { 
@@ -2478,7 +2604,7 @@ class WERTSFY_MATH_CALCULATOR {
     },
 
     formulaAreaCircunferenciaQualquer: (raio: number): number => { 
-      return WERTSFY_MATH_COREBASE.prototype.Pi * (raio * 2); 
+      return mathematic_corebase.Pi * (raio * 2); 
     },
         
     formulaCalculoPrimeiroGrau(exp) { 

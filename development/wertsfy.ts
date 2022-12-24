@@ -60,201 +60,56 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Constant Collection``** 
    * Returns the square root object.
    */
-  public SquareRoot = {
-
-    
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 1.
-     */
-    Of01: 1.0,
-    
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 2.
-     */
-    Of02: 1.414213562373095,
-    
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 3.
-     */
-    Of03: 1.732050807568877,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 4.
-     */
-    Of04: 2.0,
-    
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 5.
-     */
-    Of05: 2.23606797749979,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 6.
-     */
-    Of06: 2.449489742783178,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 7.
-     */
-    Of07: 2.64575131106459,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 8.
-     */
-    Of08: 2.82842712474619,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 9.
-     */
-    Of09: 3.0,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the square root of 10.
-     */
-    Of10: 3.16227766016838
-
-  };
+  public SquareRoot = Macros.math_corebase.square_root_constant_collection;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant Collection``** 
    * Returns the cubic root object.
    */ 
-  public CubicRoot = {
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 1.
-     */
-    Of01: 1.0,
-    
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 2.
-     */
-    Of02: 1.25992104989487,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 3.
-     */
-    Of03: 1.5874010519682,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 4.
-     */
-    Of04: 1.99999999999999,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 5.
-     */
-    Of05: 2.23606797749979,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 6.
-     */
-    Of06: 2.58198889747161,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 7.
-     */
-    Of07: 2.91293118277239,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 8.
-     */
-    Of08: 3.26249509498958,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 9.
-     */
-    Of09: 3.62449963442055,
-
-    /**
-     * ``▰ Wertsfy ▰ ``
-     * @description **``Constant``** 
-     * Returns the cubic root of 10.
-     */
-    Of10: 3.99999999999999
-
-  }
+  public CubicRoot = Macros.math_corebase.cubic_root_constant_collection;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the logarithm of 2.
    */
-  public Logarithm2 = 0.6931471805599453;
+  public Logarithm2 = Macros.math_corebase.logarithm2;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the logarithm of 10.
    */
-  public Logarithm10 = 2.302585092994046;
+  public Logarithm10 = Macros.math_corebase.logarithm10;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the euler logarithm of 2.
    */
-  public Logarithm2e = 1.4426950408889634;
+  public Logarithm2e = Macros.math_corebase.logarithm2e;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the euler logarithm of 10.
    */
-  public Logarithm10e = 0.4342944819032518;
+  public Logarithm10e = Macros.math_corebase.logarithm10e;
 
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the max value.
    */
-  public MaxValue = 999999999999999;
+  public MaxValue = Macros.math_corebase.maxvalue;
   
   /**
    * ``▰ Wertsfy ▰ ``
    * @description **``Constant``** 
    * Returns the min value.
    */
-  public MinValue = -999999999999999;
+  public MinValue = Macros.math_corebase.minvalue;
 
   /**
    * ``▰ Wertsfy ▰ ``

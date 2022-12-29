@@ -18,4 +18,6 @@ export declare namespace WTPrototypes {
 
   namespace LOGICAL_TYPES { }
 
+  namespace VANILLA_LANG_TYPES { }
+
 }

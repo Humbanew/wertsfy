@@ -4,13 +4,13 @@
  */
 
 import { Macros } from "./macros/macros.core";
-import { MathematicDefines } from "./wdefines";
 
 // Componentes da Interface
 
 /** *Wertsfy Mathematics Corebase Class* */
 class WERTSFY_MATH_COREBASE {
 
+  /** @deprecated Non used directelly */
   protected _log = Macros.math_corebase.logarithm_protected_method;
 
   /**
@@ -118,10 +118,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the absolute value of number.
    */
-  public abs(x: number): number 
-  {
-    return x < 0 ? -1 * x : x;
-  }
+  public abs = Macros.math_corebase.abs_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -130,10 +127,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the square root of number.
    */
-  public sqrt(x: number): number 
-  {
-    return x ** (1 / 2);
-  }
+  public sqrt = Macros.math_corebase.sqrt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -142,10 +136,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the cubic root of number.
    */
-  public cbrt(x: number): number 
-  {
-    return x ** (1 / 3);
-  }
+  public cbrt = Macros.math_corebase.cbrt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -154,10 +145,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the four power root of number.
    */
-  public quart(x: number): number 
-  {
-    return x ** (1 / 4);
-  }
+  public quart = Macros.math_corebase.quart_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -166,10 +154,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the five power root of number.
    */
-  public quirt(x: number): number 
-  {
-    return x ** (1 / 5);
-  }
+  public quirt = Macros.math_corebase.quirt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -178,10 +163,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the six power root of number.
    */
-  public sexrt(x: number): number 
-  {
-    return x ** (1 / 6);
-  }
+  public sexrt = Macros.math_corebase.sexrt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -190,10 +172,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the seven power root of number.
    */
-  public seprt(x: number): number 
-  {
-    return x ** (1 / 7);
-  }
+  public seprt = Macros.math_corebase.seprt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -202,10 +181,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the eight power root of number.
    */
-  public octrt(x: number): number 
-  {
-    return x ** (1 / 8);
-  }
+  public octrt = Macros.math_corebase.octrt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -214,10 +190,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the nine power root of number.
    */
-  public nonrt(x: number): number 
-  {
-    return x ** (1 / 9);
-  }
+  public nonrt = Macros.math_corebase.nonrt_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -226,10 +199,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the ten power root of number.
    */
-  public decrt(x: number): number 
-  {
-    return x ** (1 / 10);
-  }
+  public decrt = Macros.math_corebase.abs_method;
   
   /**
    * ``▰ Wertsfy ▰ ``
@@ -240,10 +210,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the potency of number.
    */
-  public pow(x: number, y: number): number 
-  {
-    return x ** y;
-  }
+  public pow = Macros.math_corebase.pow_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -256,15 +223,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the potency of potency by number.
    */
-  public powOfPow(x: number, y: number, z?: number[]): number 
-  {
-    let rest: any;
-    if(z != null) {
-      let l = 0; for (let i = 0; i < z.length; i++) { l += z[i]; }
-      return rest = x ** (y ** l);
-    }
-    return rest;
-  }
+  public powOfPow = Macros.math_corebase.powofpow_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -273,14 +232,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the maximum value by sequence of number.
    */
-  public max(x: number[]): number 
-  {
-    let max = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] > max) { max = x[i]; }
-    }
-    return max;
-  }
+  public max = Macros.math_corebase.max_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -289,14 +241,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the minimum value by sequence of number.
    */
-  public min(x: number[]): number 
-  {
-    let min = x[0];
-    for (let i = 1; i < x.length; i++) {
-      if (x[i] < min) { min = x[i]; }
-    }
-    return min;
-  }
+  public min = Macros.math_corebase.min_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -305,13 +250,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the rouded down value of number.
    */
-  public round(x: number): number 
-  {
-    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    let resultado: any;
-    resultado = verificador.exec(x.toString());
-    return parseInt(resultado[0]);
-  }
+  public round = Macros.math_corebase.round_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -320,16 +259,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the rouded up value of number.
    */
-  public fround(x: number): number 
-  {
-    const verificador: RegExp = /([0-9]+)(\.[0-9]+)/gi;
-    let resultado: any;
-    resultado = verificador.exec(x.toString());
-    if (parseFloat(resultado[1]) >= 0.5) {
-      return parseInt(resultado[0] + 1);
-    }
-    return parseInt(resultado[0]);
-  }
+  public fround = Macros.math_corebase.fround_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -338,13 +268,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the signal of number.
    */
-  public sign(x: number): number 
-  {
-    let v: any;
-    if (x > 0) { return v = 1; }
-    if (x < 0) { return v = -1; }
-    return v;
-  }
+  public sign = Macros.math_corebase.sign_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -353,10 +277,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the integer value of number.
    */
-  public trunc(x: number): number 
-  {
-    return parseInt(x.toString());
-  }
+  public trunc = Macros.math_corebase.trunc_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -367,10 +288,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the multiplication of two numbers.
    */
-  public imul(x: number, y: number): number 
-  {
-    return x * y;
-  }
+  public imul = Macros.math_corebase.imul_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -379,12 +297,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the number also is minus comparated same plus 0.5.
    */
-  public ceil(x: number): number 
-  {
-    let v: any;
-    if (x < x + 0.5) { v = parseInt(x.toString()); }
-    return v;
-  }
+  public ceil = Macros.math_corebase.ceil_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -393,12 +306,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the number also is more comparated same plus 0.5.
    */
-  public floor(x: number): number 
-  {
-    let v: any;
-    if (x > x + 0.5) { v = parseInt(x.toString()); }
-    return v;
-  }
+  public floor = Macros.math_corebase.floor_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -407,10 +315,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the sine of number.
    */
-  public sin(x: number): number 
-  {
-    return (((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public sin = Macros.math_corebase.sin_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -419,10 +324,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the cosine of number.
    */
-  public cos(x: number): number 
-  {
-    return (-1 * (((2 * this.Pi * 1) / 4) / 90)) * x;
-  }
+  public cos = Macros.math_corebase.cos_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -431,10 +333,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the tangent of number.
    */
-  public tan(x: number): number 
-  {    
-    return this.sin(x) / this.cos(x);
-  }
+  public tan = Macros.math_corebase.tan_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -443,10 +342,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the secant of number.
    */
-  public sec(x: number): number 
-  {
-    return 1 / this.cos(x);
-  }
+  public sec = Macros.math_corebase.sec_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -455,10 +351,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the cosecant of number.
    */
-  public cosec(x: number): number 
-  {
-    return 1 / this.sin(x);
-  }
+  public cosec = Macros.math_corebase.cosec_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -467,10 +360,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the cotangent of number.
    */
-  public cotan(x: number): number 
-  {
-    return 1 / (this.cos(x) / this.sin(x));
-  }
+  public cotan = Macros.math_corebase.cotan_method;
   
   /**
    * ``▰ Wertsfy ▰ ``
@@ -479,10 +369,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic sine of number.
    */
-  public sinh(x: number): number 
-  {
-    return 1 / (((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public sinh = Macros.math_corebase.sinh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -491,10 +378,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic cosine of number.
    */
-  public cosh(x: number): number 
-  {
-    return 1 / (-1 * ((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public cosh = Macros.math_corebase.cosh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -503,10 +387,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic tangent of number.
    */
-  public tanh(x: number): number 
-  {
-    return 1 / (this.sin(x) / this.cos(x));
-  }
+  public tanh = Macros.math_corebase.tanh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -515,10 +396,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic secant of number.
    */
-  public sech(x: number): number 
-  {
-    return 1 / this.cosh(x);
-  }
+  public sech = Macros.math_corebase.sech_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -527,10 +405,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic cosecant of number.
    */
-  public cosech(x: number): number 
-  {
-    return 1 / this.sinh(x);
-  }
+  public cosech = Macros.math_corebase.cosech_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -539,10 +414,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic cotangent of number.
    */
-  public cotanh(x: number): number 
-  {
-    return 1 / (this.cosh(x) / this.sinh(x));
-  }
+  public cotanh = Macros.math_corebase.cotanh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -551,10 +423,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc sine of number.
    */
-  public arcsin(x: number): number 
-  {
-    return (((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public arcsin = Macros.math_corebase.arcsin_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -563,10 +432,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc cosine of number.
    */
-  public arccos(x: number): number 
-  {
-    return -1 * (((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public arccos = Macros.math_corebase.arccos_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -575,10 +441,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc tangent of number.
    */
-  public arctan(x: number): number 
-  {
-    return (this.arcsin(x) / this.arccos(x));
-  }
+  public arctan = Macros.math_corebase.arctan_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -587,10 +450,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc secant of number.
    */
-  public arcsec(x: number): number 
-  {
-    return 1 / this.arccos(x);
-  }
+  public arcsec = Macros.math_corebase.arcsec_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -599,10 +459,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc cosecant of number.
    */
-  public arccosec(x: number): number 
-  {
-    return 1 / this.arcsin(x);
-  }
+  public arccosec = Macros.math_corebase.arccosec_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -611,10 +468,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc cotangent of number.
    */
-  public arccotan(x: number): number 
-  {
-    return 1 / this.arctan(x);
-  }
+  public arccotan = Macros.math_corebase.arccotan_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -623,10 +477,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic arc sine of number.
    */
-  public arcsinh(x: number): number 
-  {
-    return 1 / (((2 * this.Pi * 1) / 4) / 90) * x;
-  }
+  public arcsinh = Macros.math_corebase.arcsinh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -635,10 +486,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic arc cosine of number.
    */
-  public arccosh(x: number): number 
-  {
-    return 1 / (-1 * (((2 * this.Pi * 1) / 4) / 90) * x);
-  }
+  public arccosh = Macros.math_corebase.arccosh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -647,10 +495,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic arc tangent of number.
    */
-  public arctanh(x: number): number 
-  {
-    return 1 / (this.arcsinh(x) / this.arccosh(x));
-  }
+  public arctanh = Macros.math_corebase.arctanh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -659,10 +504,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic arc secant of number.
    */
-  public arcsech(x: number): number 
-  {
-    return 1 / this.arccosh(x);
-  }
+  public arcsech = Macros.math_corebase.arcsech_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -671,10 +513,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the hiperbolic arc cosecant of number.
    */
-  public arccosech(x: number): number 
-  {
-    return 1 / this.arcsinh(x);
-  }
+  public arccosech = Macros.math_corebase.arccosech_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -683,10 +522,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the arc cotangent of number.
    */
-  public arccotanh(x: number): number 
-  {
-    return 1 / this.arctanh(x);
-  }
+  public arccotanh = Macros.math_corebase.arccotanh_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -695,10 +531,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 10 logarithm of number.
    */
-  public log(x: number): number 
-  {
-    return this._log(10, x);
-  }
+  public log = Macros.math_corebase.log_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -707,10 +540,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 10 logarithm minus 1 of number.
    */
-  public logm1(x: number): number 
-  {
-    return this._log(10-1, x);
-  }
+  public logm1 = Macros.math_corebase.logm1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -719,10 +549,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 10 logarithm plus 1 of number.
    */
-  public logp1(x: number): number 
-  {
-    return this._log(10+1, x);
-  }
+  public logp1 = Macros.math_corebase.logp1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -731,10 +558,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 2 logarithm of number.
    */
-  public log2(x: number): number 
-  {
-    return this._log(2, x);
-  }
+  public log2 = Macros.math_corebase.log2_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -743,10 +567,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 2 logarithm minus 1 of number.
    */
-  public log2m1(x: number): number 
-  {
-    return this._log(2-1, x);
-  }
+  public log2m1 = Macros.math_corebase.log2m1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -755,10 +576,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the base 2 logarithm plus 1 of number.
    */
-  public log2p1(x: number): number 
-  {
-    return this._log(2+1, x);
-  }
+  public log2p1 = Macros.math_corebase.log2p1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -769,10 +587,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the any base logarithm of number.
    */
-  public logx(x: number, base: number): number 
-  {
-    return this._log(base, x);
-  }
+  public logx = Macros.math_corebase.logx_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -783,10 +598,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the any base logarithm minus 1 of number.
    */
-  public logxm1(x: number, base: number): number 
-  {
-    return this._log(base - 1, x);
-  }
+  public logxm1 = Macros.math_corebase.logxm1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -797,10 +609,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the any base logarithm plus 1 of number.
    */
-  public logxp1(x: number, base: number): number 
-  {
-    return this._log(base + 1, x);
-  }
+  public logxp1 = Macros.math_corebase.logxp1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -809,10 +618,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the natural logarithm of number.
    */
-  public ln(x: number): number 
-  {
-    return this._log(this.Euler, x);
-  }
+  public ln = Macros.math_corebase.ln_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -821,10 +627,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the natural logarithm minus 1 of number.
    */
-  public lnm1(x: number): number 
-  {
-    return this._log(this.Euler - 1, x);
-  }
+  public lnm1 = Macros.math_corebase.lnm1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -833,10 +636,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the natural logarithm plus 1 of number.
    */
-  public lnp1(x: number): number 
-  {
-    return this._log(this.Euler + 1, x);
-  }
+  public lnp1 = Macros.math_corebase.lnp1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -845,10 +645,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the random number value.
    */
-  public random(x: number): number 
-  {
-    return (Int8Array.of(400).length / Int8Array.of(200).length) * x;
-  }
+  public random = Macros.math_corebase.random_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -859,11 +656,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the exponencial of number.
    */
-  public exp(base: number, valorLg: number): number 
-  {
-    if(base == 0) { return 0; }
-    return base ** this.logx(valorLg, base);
-  }
+  public exp = Macros.math_corebase.exp_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -874,11 +667,7 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the exponencial minus 1 of number.
    */
-  public expm1(base: number, valorLg: number): number 
-  {
-    if(base == 0) { return 0; }
-    return base ** this.logxm1(valorLg-1, base);
-  }
+  public expm1 = Macros.math_corebase.expm1_method;
 
   /**
    * ``▰ Wertsfy ▰ ``
@@ -889,219 +678,41 @@ class WERTSFY_MATH_COREBASE {
    * @description **``Method``** 
    * Returns the exponencial plus 1 of number.
    */
-  public expp1(base: number, valorLg: number): number 
-  {
-    if(base == 0) { return 0; }
-    return base ** this.logxp1(valorLg+1, base);
-  }
+  public expp1 = Macros.math_corebase.expp1_method;
 
-} let mathematic_corebase = new WERTSFY_MATH_COREBASE();
+} export let mathematic_corebase = new WERTSFY_MATH_COREBASE();
 
 /** *Wertsfy Mathematics Calculator Class* */
 class WERTSFY_MATH_CALCULATOR {
 
-  public Pi = mathematic_corebase.Pi;
-
-  public Euler = mathematic_corebase.Euler;
-
-  public Log2 = mathematic_corebase.Logarithm2;
-
-  public Log2e = mathematic_corebase.Logarithm2e;
-
-  public Log10 = mathematic_corebase.Logarithm10;
-
-  public Log10e = mathematic_corebase.Logarithm10e;
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @description **``Constant Collection``** 
+   * Returns the Shotcuts object.
+   */
+  public shortcuts = Macros.math_calculator.shortcuts_constant;
   
-  public common(operation: MathematicDefines["common"], ...numbers: number[]): number {
-    
-    let resultado: number;
-    
-    operation == "plus" || "minus" ? resultado = 0 : resultado = 1; 
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @augments ``operation``|``string``
+   * Operation to do use.
+   * @augments ``numbers``|``number[]``
+   * The numbers to create an operation.
+   * @description **``Method``** 
+   * Returns the result of selected operation.
+   */
+  public common = Macros.math_calculator.common_method;
 
-    for(let i = 0; i < numbers.length; i++) {
-
-      if(i == 0 && (operation == "divisor" || "multip" || "power") ) { 
-        resultado = numbers[0];
-        continue;
-      }
-
-      switch(operation) {
-        case "plus": 
-          resultado = resultado + numbers[i]; break;
-        case "minus":
-          resultado = resultado - numbers[i]; break;
-        case "multip": 
-          resultado = resultado * numbers[i]; break;
-        case "divisor":
-          resultado = resultado / numbers[i]; break;
-        case "power": 
-          resultado = resultado ** numbers[i]; break; 
-      }
-
-    }
-
-    return resultado;
-
-  }
-
-  public advanced(operation: MathematicDefines["advanced"], ...numbers: number[]): number[] {
-
-    let resultado: number[] = [];
-
-    for(let i = 0; i < numbers.length; i++) {
-      
-      switch(operation) {
-        case "sqrt":
-          resultado.push(mathematic_corebase.sqrt(numbers[i])); break;
-        case "cbrt":
-          resultado.push(mathematic_corebase.cbrt(numbers[i])); break;
-        case "quart":
-          resultado.push(mathematic_corebase.quart(numbers[i])); break;
-        case "quirt":
-          resultado.push(mathematic_corebase.quirt(numbers[i])); break;
-        case "sexrt":
-          resultado.push(mathematic_corebase.sexrt(numbers[i])); break;
-        case "seprt":
-          resultado.push(mathematic_corebase.seprt(numbers[i])); break;
-        case "octrt":
-          resultado.push(mathematic_corebase.octrt(numbers[i])); break;
-        case "nonrt":
-          resultado.push(mathematic_corebase.nonrt(numbers[i])); break;
-        case "decrt":
-          resultado.push(mathematic_corebase.decrt(numbers[i])); break;
-        case "sin":
-          resultado.push(mathematic_corebase.sin(numbers[i])); break;
-        case "cos":
-          resultado.push(mathematic_corebase.cos(numbers[i])); break;
-        case "tan":
-          resultado.push(mathematic_corebase.tan(numbers[i])); break;
-        case "sec":
-          resultado.push(mathematic_corebase.sec(numbers[i])); break;
-        case "cosec":
-          resultado.push(mathematic_corebase.cosec(numbers[i])); break;
-        case "cotan":
-          resultado.push(mathematic_corebase.cotan(numbers[i])); break;
-        case "sinh":
-          resultado.push(mathematic_corebase.sinh(numbers[i])); break;
-        case "cosh":
-          resultado.push(mathematic_corebase.cosh(numbers[i])); break;
-        case "tanh":
-          resultado.push(mathematic_corebase.tanh(numbers[i])); break;
-        case "sech":
-          resultado.push(mathematic_corebase.sech(numbers[i])); break;
-        case "cosech":
-          resultado.push(mathematic_corebase.cosech(numbers[i])); break;
-        case "cotanh":
-          resultado.push(mathematic_corebase.cotanh(numbers[i])); break;
-        case "arcsin":
-          resultado.push(mathematic_corebase.arcsin(numbers[i])); break;
-        case "arccos":
-          resultado.push(mathematic_corebase.arccos(numbers[i])); break;
-        case "arctan":
-          resultado.push(mathematic_corebase.arctan(numbers[i])); break;
-        case "arcsec":
-          resultado.push(mathematic_corebase.arcsec(numbers[i])); break;
-        case "arccosec":
-          resultado.push(mathematic_corebase.arccosec(numbers[i])); break;
-        case "arccotan":
-          resultado.push(mathematic_corebase.arccotan(numbers[i])); break;
-        case "arcsinh":
-          resultado.push(mathematic_corebase.arcsinh(numbers[i])); break;
-        case "arccosh":
-          resultado.push(mathematic_corebase.arccosh(numbers[i])); break;
-        case "arctanh":
-          resultado.push(mathematic_corebase.arctanh(numbers[i])); break;
-        case "arcsech":
-          resultado.push(mathematic_corebase.arcsech(numbers[i])); break;
-        case "arccosech":
-          resultado.push(mathematic_corebase.arccosech(numbers[i])); break;
-        case "arccotanh":
-          resultado.push(mathematic_corebase.arccotanh(numbers[i])); break;
-        case "ln":
-          resultado.push(mathematic_corebase.ln(numbers[i])); break;
-        case "lnm1":
-          resultado.push(mathematic_corebase.lnm1(numbers[i])); break;
-        case "lnp1":
-          resultado.push(mathematic_corebase.lnp1(numbers[i])); break;
-        case "coln":
-          resultado.push(-1 * mathematic_corebase.ln(numbers[i])); break;
-        case "colnm1":
-          resultado.push(-1 * mathematic_corebase.lnm1(numbers[i])); break;
-        case "colnp1":
-          resultado.push(-1 * mathematic_corebase.lnp1(numbers[i])); break;
-        case "antiln":
-          resultado.push(1 ** mathematic_corebase.ln(numbers[i])); break;
-        case "antilnm1":
-          resultado.push(1 ** mathematic_corebase.lnm1(numbers[i])); break;
-        case "antilnp1":
-          resultado.push(1 ** mathematic_corebase.lnp1(numbers[i])); break;
-        case "log2":
-          resultado.push(mathematic_corebase.log2(numbers[i])); break;
-        case "log2m1":
-          resultado.push(mathematic_corebase.log2m1(numbers[i])); break;
-        case "log2p1":
-          resultado.push(mathematic_corebase.log2p1(numbers[i])); break;
-        case "colog2":
-          resultado.push(-1 * mathematic_corebase.log2(numbers[i])); break;
-        case "colog2m1":
-          resultado.push(-1 * mathematic_corebase.log2m1(numbers[i])); break;
-        case "colog2p1":
-          resultado.push(-1 * mathematic_corebase.log2p1(numbers[i])); break;
-        case "antilog2":
-          resultado.push(1 ** mathematic_corebase.log2(numbers[i])); break;
-        case "antilog2m1":
-          resultado.push(1 ** mathematic_corebase.log2m1(numbers[i])); break;
-        case "antilog2p1":
-          resultado.push(1 ** mathematic_corebase.log2p1(numbers[i])); break;
-        case "log10":
-          resultado.push(mathematic_corebase.log(numbers[i])); break;
-        case "log10m1":
-          resultado.push(mathematic_corebase.logm1(numbers[i])); break;
-        case "log10p1":
-          resultado.push(mathematic_corebase.logp1(numbers[i])); break;
-        case "colog10":
-          resultado.push(-1 * mathematic_corebase.log(numbers[i])); break;
-        case "colog10m1":
-          resultado.push(-1 * mathematic_corebase.logm1(numbers[i])); break;
-        case "colog10p1":
-          resultado.push(-1 * mathematic_corebase.logp1(numbers[i])); break;
-        case "antilog10":
-          resultado.push(1 ** mathematic_corebase.log(numbers[i])); break;
-        case "antilog10m1":
-          resultado.push(1 ** mathematic_corebase.logm1(numbers[i])); break;
-        case "antilog10p1":
-          resultado.push(1 ** mathematic_corebase.logp1(numbers[i])); break;
-        case "logx":
-          resultado.push(mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
-        case "logxm1":
-          resultado.push(mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
-        case "logxp1":
-          resultado.push(mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;          
-        case "cologx":
-          resultado.push(-1 * mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
-        case "cologxm1":
-          resultado.push(-1 * mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
-        case "cologxp1":
-          resultado.push(-1 * mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;          
-        case "antilogx":
-          resultado.push(1 ** mathematic_corebase.logx(numbers[i], numbers[i+1])); i++; break;
-        case "antilogxm1":
-          resultado.push(1 ** mathematic_corebase.logxm1(numbers[i], numbers[i+1])); i++; break;
-        case "antilogxp1":
-          resultado.push(1 ** mathematic_corebase.logxp1(numbers[i], numbers[i+1])); i++; break;
-        case "exp":
-          resultado.push(mathematic_corebase.exp(numbers[i], numbers[i+1])); i++; break;          
-        case "expm1":
-          resultado.push(mathematic_corebase.expp1(numbers[i], numbers[i+1])); i++; break;          
-        case "expp1":
-          resultado.push(mathematic_corebase.expm1(numbers[i], numbers[i+1])); i++; break;          
-      }
-    
-    }
-
-    return resultado;
-
-  }
+  /**
+   * ``▰ Wertsfy ▰ ``
+   * @augments ``operation``|``string``
+   * Operation to do use.
+   * @augments ``numbers``|``number[]``
+   * The numbers to create an operation.
+   * @description **``Method``** 
+   * Returns the result of selected operation.
+   */
+  public advanced = Macros.math_calculator.advanced_method;
 
   protected expressions = { 
 
@@ -2561,7 +2172,7 @@ class WERTSFY_MATH_CALCULATOR {
   protected conversor() { }
 
 
-} let mathematic_calculator = new WERTSFY_MATH_CALCULATOR();
+} export let mathematic_calculator = new WERTSFY_MATH_CALCULATOR();
 
 class WERTSFY_INFORMATION_GAMES { }
 class WERTSFY_FACTORY_KEX { }
@@ -2571,6 +2182,7 @@ class WERTSFY_FACTORY_NIKKO { }
 class WERTSFY_EXTENDER_CLI { }
 class WERTSFY_COLORFY_COMPLEX { }
 class WERTSFY_MULTIPLATAFORM_HULIGHT { }
+class WERTSFY_FLUXTARGET { }
 class WERTSFY_WEBSERVICES { }
 class WERTSFY_SHORTCUTS_DISCORD { }
 class WERTSFY_SHORTCUTS_GRAPH { }

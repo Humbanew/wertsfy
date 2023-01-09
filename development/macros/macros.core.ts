@@ -1,6 +1,6 @@
 import { Macro_math_calculator_advanced_method } from "./math-calculator/advanced.method";
 import { Macro_math_calculator_common_method } from "./math-calculator/common.method";
-import { Macro_math_calculator_shortcuts_constant } from "./math-calculator/shortcuts.constant";
+import { Macro_math_calculator_shortcuts_constant } from "./math-calculator/exp.shortcuts.constant";
 import { Macro_math_corebase_abs_method } from "./math-corebase/abs.method";
 import { Macro_math_corebase_arccos_method } from "./math-corebase/arccos.method";
 import { Macro_math_corebase_arccosec_method } from "./math-corebase/arccosec.method";
@@ -164,10 +164,13 @@ export namespace Macros {
   export const math_calculator = {
 
     shortcuts_constant: Macro_math_calculator_shortcuts_constant,
-
     common_method: Macro_math_calculator_common_method,
-
     advanced_method: Macro_math_calculator_advanced_method,
+    expressions: {
+
+      shortcuts_constant_collection: Macro_math_calculator_shortcuts_constant, 
+
+    }
 
   }
 

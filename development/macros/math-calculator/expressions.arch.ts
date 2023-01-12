@@ -45,3 +45,5 @@ export const Macro_math_calculator_shortcuts_constant = {
   Log10e: mathematic_corebase.Logarithm10e,
 
 };
+
+

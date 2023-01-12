@@ -1,252 +1,252 @@
 import { MathematicDefines } from "../../wdefines";
 import { mathematic_corebase } from "../../wertsfy";
 
-  const formulaDoTeoremaDeGirard = (expressao: string): number[]|string[]|void => {
-    let resultado: any, valores: any;
-    let verificacao = /(([0-9]+(\.[0-9]+)?)([a-zA-Z])?([0-9])?)((\+)?(\-)?)/gi;
-    let pegaTermosComIcognita = /([0-9]+(\.[0-9]+)?)([a-zA-Z])/gi;
-    let pegaTermosSemIcognita = /([0-9]+(\.[0-9]+)?)(\=)/gi;
-    let valoresConvertidos: any;
-    if (verificacao == null) { return console.error("Expressão Adicionada é Inválida ou está incorreta!"); }
-    valores.push(expressao.match(pegaTermosComIcognita));
-    if(expressao.match(pegaTermosSemIcognita) != null) { valores.push(expressao.match(pegaTermosSemIcognita)); }
-    for (let i = 0; i < valores[0].length; i++) {
-      valores[0][i] = parseFloat(valores[0][i]);
-      valoresConvertidos.push(valores[0][i]);
-    }
-    valores[1] = parseFloat(valores[1]);
-    valoresConvertidos.push(valores[1]);
-    for (let i = 1; i <= valoresConvertidos.length - 1; i++) {
-      let verificadorSinal = i % 2;
-      if (verificadorSinal == 0) { resultado.push(valoresConvertidos[i] / valoresConvertidos[0]); }
-      if (verificadorSinal == 1) { resultado.push(-1 * (valoresConvertidos[i] / valoresConvertidos[0])); }
-    }
-    return resultado;
+const formulaDoTeoremaDeGirard = (expressao: string): number[]|string[]|void => {
+  let resultado: any, valores: any;
+  let verificacao = /(([0-9]+(\.[0-9]+)?)([a-zA-Z])?([0-9])?)((\+)?(\-)?)/gi;
+  let pegaTermosComIcognita = /([0-9]+(\.[0-9]+)?)([a-zA-Z])/gi;
+  let pegaTermosSemIcognita = /([0-9]+(\.[0-9]+)?)(\=)/gi;
+  let valoresConvertidos: any;
+  if (verificacao == null) { return console.error("Expressão Adicionada é Inválida ou está incorreta!"); }
+  valores.push(expressao.match(pegaTermosComIcognita));
+  if(expressao.match(pegaTermosSemIcognita) != null) { valores.push(expressao.match(pegaTermosSemIcognita)); }
+  for (let i = 0; i < valores[0].length; i++) {
+    valores[0][i] = parseFloat(valores[0][i]);
+    valoresConvertidos.push(valores[0][i]);
   }
-
-  const formulaDoTeoremaDoTalesDeMileto = (n1: number, n2: number, n3: number): number => {
-    return ( n2 * n3 ) / n1;
+  valores[1] = parseFloat(valores[1]);
+  valoresConvertidos.push(valores[1]);
+  for (let i = 1; i <= valoresConvertidos.length - 1; i++) {
+    let verificadorSinal = i % 2;
+    if (verificadorSinal == 0) { resultado.push(valoresConvertidos[i] / valoresConvertidos[0]); }
+    if (verificadorSinal == 1) { resultado.push(-1 * (valoresConvertidos[i] / valoresConvertidos[0])); }
   }
+  return resultado;
+}
 
-  const formulaDoTeoremaDePitagoras = (tipo: MathematicDefines["expressions"]["trianglePitagoras"]): number => {
+const formulaDoTeoremaDoTalesDeMileto = (n1: number, n2: number, n3: number): number => {
+  return ( n2 * n3 ) / n1;
+}
 
-    let resultado = 0;
+const formulaDoTeoremaDePitagoras = (tipo: MathematicDefines["expressions"]["trianglePitagoras"]): number => {
 
-    switch(tipo[0]) {
-      case "classic(a and b)":
-        resultado = mathematic_corebase.sqrt(((tipo[1].a ** 2) + (tipo[1].b ** 2))); break;
-      case "t1(m and n)":
-        resultado = mathematic_corebase.sqrt(tipo[1].m * tipo[1].n); break;
-      case "t2(a and n)":
-        resultado = mathematic_corebase.sqrt(tipo[1].a * tipo[1].n); break;
-      case "t3(b, c and h)":  
-        resultado = (tipo[1].b * tipo[1].c) / tipo[1].h; break;
-    }
-    return resultado;
+  let resultado = 0;
 
+  switch(tipo[0]) {
+    case "classic(a and b)":
+      resultado = mathematic_corebase.sqrt(((tipo[1].a ** 2) + (tipo[1].b ** 2))); break;
+    case "t1(m and n)":
+      resultado = mathematic_corebase.sqrt(tipo[1].m * tipo[1].n); break;
+    case "t2(a and n)":
+      resultado = mathematic_corebase.sqrt(tipo[1].a * tipo[1].n); break;
+    case "t3(b, c and h)":  
+      resultado = (tipo[1].b * tipo[1].c) / tipo[1].h; break;
   }
+  return resultado;
 
-  const formulaDoCalculoDoFatorial = (x: number): number => {
-    let resultado: number = 1;
-    for (let i = x; i > 0; i--) { resultado = i * resultado; };
-    return resultado;
+}
+
+const formulaDoCalculoDoFatorial = (x: number): number => {
+  let resultado: number = 1;
+  for (let i = x; i > 0; i--) { resultado = i * resultado; };
+  return resultado;
+}
+
+const formulaDoCalculoDaCombinacao = (total: number, divisor: number): number => {
+  let resultado: number = 0, totalConvertido: number = 1, divisorConvertido: number = 1;
+  for (let i = total; i > 0; i--) { totalConvertido = totalConvertido * i; }
+  for (let j = divisor; j > 0; j--) { divisorConvertido = divisorConvertido * j; }
+  resultado = totalConvertido / (divisorConvertido * (totalConvertido - divisorConvertido));
+  return resultado;
+}
+
+const formulaDoCalculoDoArranjo = (total: number, divisor: number): number => {
+  let resultado: number = 0, totalConvertido: number = 1, divisorConvertido: number = 1;
+  for (let i = total; i > 0; i--) { totalConvertido = totalConvertido * i; }
+  for (let j = divisor; j > 0; j--) { divisorConvertido = divisorConvertido * j; }
+  resultado = totalConvertido / (totalConvertido - divisorConvertido);
+  return resultado;
+}
+
+const formulaDoCalculoDaProbabilidade = (valor: number, valorTotal: number): number => {
+  return valor / valorTotal;
+}
+
+const formulaDoCalculoDeUmConjugadoDeNumeroComplexo = (expressao: string): string => {
+  let resultado = '', verificaSinal = /^(\-)/gi;
+  if (verificaSinal != null) { expressao.replace("-", ''); }
+  resultado = expressao;
+  return resultado;
+}
+
+const formulaDoTeoremaDeStirling = (valor: number): number => {
+  let resultado: number = 0;
+  resultado = (mathematic_corebase.log(valor) * valor) / valor;
+  return resultado;
+}
+
+const formulaDoCalculoDaRelacaoDeEuler = (vertices: number, arestas: number, faces: number): number => {
+  return (vertices - (arestas + faces)) - 2;
+}
+
+const formulaDoCalculoDasPotenciasDeI = (valor: number): string => {
+  let resultado = '', divisor = valor % 4;
+
+  switch(divisor) {
+    case 0:
+      resultado = 'i'; break;
+    case 1:
+      resultado = '-1'; break;
+    case 2:
+      resultado = '-1'; break;
+    case 3:
+      resultado = '1'; break;
   }
+  return resultado;
+}
 
-  const formulaDoCalculoDaCombinacao = (total: number, divisor: number): number => {
-    let resultado: number = 0, totalConvertido: number = 1, divisorConvertido: number = 1;
-    for (let i = total; i > 0; i--) { totalConvertido = totalConvertido * i; }
-    for (let j = divisor; j > 0; j--) { divisorConvertido = divisorConvertido * j; }
-    resultado = totalConvertido / (divisorConvertido * (totalConvertido - divisorConvertido));
-    return resultado;
+const formulasDoCalculoDePorcentagem = (tipo: MathematicDefines["expressions"]["porcentage"]) => {
+
+  let resultado = 0;
+
+  switch(tipo[0]) {
+    case "10E2":
+      resultado = tipo[1].value / 10 ** 2; break;
+    case "10E3":
+      resultado = tipo[1].value / 10 ** 3; break;
+    case "10E4":
+      resultado = tipo[1].value / 10 ** 4; break;
+    case "10E5":
+      resultado = tipo[1].value / 10 ** 5; break;
+    case "AnyNumber":  
+      resultado = tipo[1].value / tipo[1].valueTotal; break;
   }
+  return resultado;
+}
 
-  const formulaDoCalculoDoArranjo = (total: number, divisor: number): number => {
-    let resultado: number = 0, totalConvertido: number = 1, divisorConvertido: number = 1;
-    for (let i = total; i > 0; i--) { totalConvertido = totalConvertido * i; }
-    for (let j = divisor; j > 0; j--) { divisorConvertido = divisorConvertido * j; }
-    resultado = totalConvertido / (totalConvertido - divisorConvertido);
-    return resultado;
+const formulasDoCalculoDeDeterminante = (tipo: MathematicDefines["expressions"]["determinant"]): number => {
+
+  let resultado: number = 0;
+
+  switch(tipo[0]) {
+    case "d2x2":
+      let vetorPrimario = tipo[1].a00 * tipo[1].a11;
+      let vetorSecundario = tipo[1].a01 * tipo[1].a10;
+      resultado = vetorPrimario - vetorSecundario; break;
+    case "d3x3":
+      let vetorPrincipal1 = tipo[1].a00 * tipo[1].a11 * tipo[1].a22; 
+      let vetorPrincipal2 = tipo[1].a01 * tipo[1].a12 * tipo[1].a20; 
+      let vetorPrincipal3 = tipo[1].a02 * tipo[1].a10 * tipo[1].a21;
+      let vetorSecundario1 = tipo[1].a02 * tipo[1].a11 * tipo[1].a20; 
+      let vetorSecundario2 = tipo[1].a00 * tipo[1].a12 * tipo[1].a21; 
+      let vetorSecundario3 = tipo[1].a01 * tipo[1].a10 * tipo[1].a22;
+      resultado = (vetorPrincipal1 + vetorPrincipal2 + vetorPrincipal3) - (vetorSecundario1 + vetorSecundario2 + vetorSecundario3);
+      break;
   }
+  return resultado;
+}
 
-  const formulaDoCalculoDaProbabilidade = (valor: number, valorTotal: number): number => {
-    return valor / valorTotal;
+const formulasDoCalculoDePolinomios = (tipo: MathematicDefines["expressions"]["classicOperations"], polinomios: {sent1: string, sent2: string }): string => {
+  let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
+  if (verificaSinal != null) { polinomios.sent1.replace("-", ''); }
+  if (verificaSinal != null) { polinomios.sent2.replace("-", ''); }
+  switch(tipo) {
+    case "plus":
+      resultado = polinomios.sent1 + '+' + polinomios.sent2; break;
+    case "minus":
+      resultado = polinomios.sent1 + '-' + polinomios.sent2; break;
+    case "multip":
+      resultado = polinomios.sent1 + '*' + polinomios.sent2; break;
+    case "divisor":
+      resultado = polinomios.sent1 + '/' + polinomios.sent2; break;
   }
+  return resultado;
+}
 
-  const formulaDoCalculoDeUmConjugadoDeNumeroComplexo = (expressao: string): string => {
-    let resultado = '', verificaSinal = /^(\-)/gi;
-    if (verificaSinal != null) { expressao.replace("-", ''); }
-    resultado = expressao;
-    return resultado;
-  }
-
-  const formulaDoTeoremaDeStirling = (valor: number): number => {
-    let resultado: number = 0;
-    resultado = (mathematic_corebase.log(valor) * valor) / valor;
-    return resultado;
-  }
-
-  const formulaDoCalculoDaRelacaoDeEuler = (vertices: number, arestas: number, faces: number): number => {
-    return (vertices - (arestas + faces)) - 2;
-  }
-
-  const formulaDoCalculoDasPotenciasDeI = (valor: number): string => {
-    let resultado = '', divisor = valor % 4;
-
-    switch(divisor) {
-      case 0:
-        resultado = 'i'; break;
-      case 1:
-        resultado = '-1'; break;
-      case 2:
-        resultado = '-1'; break;
-      case 3:
-        resultado = '1'; break;
-    }
-    return resultado;
-  }
-
-  const formulasDoCalculoDePorcentagem = (tipo: MathematicDefines["expressions"]["porcentage"]) => {
-
-    let resultado = 0;
-
-    switch(tipo[0]) {
-      case "10E2":
-        resultado = tipo[1].value / 10 ** 2; break;
-      case "10E3":
-        resultado = tipo[1].value / 10 ** 3; break;
-      case "10E4":
-        resultado = tipo[1].value / 10 ** 4; break;
-      case "10E5":
-        resultado = tipo[1].value / 10 ** 5; break;
-      case "AnyNumber":  
-        resultado = tipo[1].value / tipo[1].valueTotal; break;
-    }
-    return resultado;
-  }
-
-  const formulasDoCalculoDeDeterminante = (tipo: MathematicDefines["expressions"]["determinant"]): number => {
-
-    let resultado: number = 0;
-
-    switch(tipo[0]) {
-      case "d2x2":
-        let vetorPrimario = tipo[1].a00 * tipo[1].a11;
-        let vetorSecundario = tipo[1].a01 * tipo[1].a10;
-        resultado = vetorPrimario - vetorSecundario; break;
-      case "d3x3":
-        let vetorPrincipal1 = tipo[1].a00 * tipo[1].a11 * tipo[1].a22; 
-        let vetorPrincipal2 = tipo[1].a01 * tipo[1].a12 * tipo[1].a20; 
-        let vetorPrincipal3 = tipo[1].a02 * tipo[1].a10 * tipo[1].a21;
-        let vetorSecundario1 = tipo[1].a02 * tipo[1].a11 * tipo[1].a20; 
-        let vetorSecundario2 = tipo[1].a00 * tipo[1].a12 * tipo[1].a21; 
-        let vetorSecundario3 = tipo[1].a01 * tipo[1].a10 * tipo[1].a22;
-        resultado = (vetorPrincipal1 + vetorPrincipal2 + vetorPrincipal3) - (vetorSecundario1 + vetorSecundario2 + vetorSecundario3);
-        break;
-    }
-    return resultado;
-  }
-
-  const formulasDoCalculoDePolinomios = (tipo: MathematicDefines["expressions"]["classicOperations"], polinomios: {sent1: string, sent2: string }): string => {
-    let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
-    if (verificaSinal != null) { polinomios.sent1.replace("-", ''); }
-    if (verificaSinal != null) { polinomios.sent2.replace("-", ''); }
-    switch(tipo) {
-      case "plus":
-        resultado = polinomios.sent1 + '+' + polinomios.sent2; break;
-      case "minus":
-        resultado = polinomios.sent1 + '-' + polinomios.sent2; break;
-      case "multip":
-        resultado = polinomios.sent1 + '*' + polinomios.sent2; break;
-      case "divisor":
-        resultado = polinomios.sent1 + '/' + polinomios.sent2; break;
-    }
-    return resultado;
-  }
-
-  const formulasDeCalculoDeMatrizes = (tipo: MathematicDefines["expressions"]["classicOperations"], matriz: { m1: number[][], m2: number[][] }): number[][] => {
-    let resultado: number[][];
-    for (let i = 0; i < matriz.m1.length; i++) {
-      resultado[i] = [];
-      for (let j = 0; j < matriz.m1[i].length; j++) {
-        switch(tipo) {
-          case "plus":
-            resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
-          case "minus":
-            resultado[i][j] = matriz.m1[i][j] - matriz.m2[i][j]; break;
-          case "multip":
-            if(matriz.m1[0][j] != matriz.m2[i][j]){ new Error("Calc Error"); }
-            resultado[i][j] = matriz.m1[i][j] * matriz.m2[i][j]; break;
-          case "divisor":
-            resultado[i][j] = matriz.m1[i][j] / matriz.m2[i][j]; break;
-        }
+const formulasDeCalculoDeMatrizes = (tipo: MathematicDefines["expressions"]["classicOperations"], matriz: { m1: number[][], m2: number[][] }): number[][] => {
+  let resultado: number[][];
+  for (let i = 0; i < matriz.m1.length; i++) {
+    resultado[i] = [];
+    for (let j = 0; j < matriz.m1[i].length; j++) {
+      switch(tipo) {
+        case "plus":
+          resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
+        case "minus":
+          resultado[i][j] = matriz.m1[i][j] - matriz.m2[i][j]; break;
+        case "multip":
+          if(matriz.m1[0][j] != matriz.m2[i][j]){ new Error("Calc Error"); }
+          resultado[i][j] = matriz.m1[i][j] * matriz.m2[i][j]; break;
+        case "divisor":
+          resultado[i][j] = matriz.m1[i][j] / matriz.m2[i][j]; break;
       }
     }
-    return resultado;
   }
+  return resultado;
+}
 
-  const formulaDoCalculoDaVelocidade = (espaco: {inicial: number, final: number}, tempo: {inicial: number, final: number}): number => {
-    return (espaco.final - espaco.inicial) / (tempo.final - tempo.inicial);
-  }
+const formulaDoCalculoDaVelocidade = (espaco: {inicial: number, final: number}, tempo: {inicial: number, final: number}): number => {
+  return (espaco.final - espaco.inicial) / (tempo.final - tempo.inicial);
+}
 
-  const formulaDoCalculoDoEspaco = (velocidade: number, tempo: {inicial: number, final: number}): number => {
-    return velocidade * (tempo.final - tempo.inicial);
-  }
+const formulaDoCalculoDoEspaco = (velocidade: number, tempo: {inicial: number, final: number}): number => {
+  return velocidade * (tempo.final - tempo.inicial);
+}
 
-  const formulaDoCalculoDoTempo = (velocidade: number, espaco: {inicial: number, final: number}): number => {
-    return (espaco.final - espaco.inicial) / velocidade;
-  }
+const formulaDoCalculoDoTempo = (velocidade: number, espaco: {inicial: number, final: number}): number => {
+  return (espaco.final - espaco.inicial) / velocidade;
+}
 
-  const formulaDoCalculoDaAceleracao = (velocidade: number, tempo: {inicial: number, final: number}): number => {
-    return velocidade / (tempo.final - tempo.inicial);
-  }
+const formulaDoCalculoDaAceleracao = (velocidade: number, tempo: {inicial: number, final: number}): number => {
+  return velocidade / (tempo.final - tempo.inicial);
+}
 
-  const formulaCalculoDaEquacaoHorariaDoTempo = (tempo: number, tempoInicial: number, velocidade: number, aceleracao: number): number => {
-    return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2));
-  }
+const formulaCalculoDaEquacaoHorariaDoTempo = (tempo: number, tempoInicial: number, velocidade: number, aceleracao: number): number => {
+  return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2));
+}
 
-  const formulacalculoDaEquacaoHorariaDoEspaco = (espaco: number, espacoInicial: number, aceleracao: number): number => {
-    return espacoInicial + aceleracao * espaco;
-  }
+const formulacalculoDaEquacaoHorariaDoEspaco = (espaco: number, espacoInicial: number, aceleracao: number): number => {
+  return espacoInicial + aceleracao * espaco;
+}
 
-  const formulaCalculoDaEquacaoHorariaDaVelocidade = (velocidade: number, tempo: number, aceleracao: number): number => {
-    return velocidade + aceleracao * tempo;
-  }
+const formulaCalculoDaEquacaoHorariaDaVelocidade = (velocidade: number, tempo: number, aceleracao: number): number => {
+  return velocidade + aceleracao * tempo;
+}
 
-  const formulaCalculoDaEquacaoHorariaDaAceleracao = (aceleracao: number, tempo: number, velocidade: number): number => {
-    return aceleracao + (velocidade * tempo);
-  }
+const formulaCalculoDaEquacaoHorariaDaAceleracao = (aceleracao: number, tempo: number, velocidade: number): number => {
+  return aceleracao + (velocidade * tempo);
+}
 
-  const formulaCalculoDaEquacaoHorariaDaForca = (forca: number, tempo: number, aceleracao: number): number => {
-    return forca + (aceleracao * tempo);
-  }
+const formulaCalculoDaEquacaoHorariaDaForca = (forca: number, tempo: number, aceleracao: number): number => {
+  return forca + (aceleracao * tempo);
+}
 
-  const formulaCalculoDaEquacaoHorariaDoTempoEspaco = (tempo: number, espaco: number, tempoInicial: number, espacoInicial: number, velocidade: number, aceleracao: number): number => {
-    return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2)) + espacoInicial + aceleracao * espaco;
-  }
+const formulaCalculoDaEquacaoHorariaDoTempoEspaco = (tempo: number, espaco: number, tempoInicial: number, espacoInicial: number, velocidade: number, aceleracao: number): number => {
+  return tempoInicial + (velocidade * tempo) + (aceleracao * (tempo ** 2)) + espacoInicial + aceleracao * espaco;
+}
 
-  const formulaCalculoDaEnergiaCinetica = (massa: number, velocidade: number): number => {
-    return (massa * velocidade ** 2) / 2;
-  }
+const formulaCalculoDaEnergiaCinetica = (massa: number, velocidade: number): number => {
+  return (massa * velocidade ** 2) / 2;
+}
 
-  const formulaCalculoDaEnergiaPotencialElastica = (constanteElastica: number, distancia: number): number => {
-    return (constanteElastica * distancia ** 2) / 2;
-  }
+const formulaCalculoDaEnergiaPotencialElastica = (constanteElastica: number, distancia: number): number => {
+  return (constanteElastica * distancia ** 2) / 2;
+}
 
-  const formulaCalculoDaEnergiaPotencialGravitacional = (massa: number, gravidade: number, altura: number): number => {
-    return massa * gravidade * altura;
-  }
+const formulaCalculoDaEnergiaPotencialGravitacional = (massa: number, gravidade: number, altura: number): number => {
+  return massa * gravidade * altura;
+}
 
-  const formulaCalculoDoPotencialMecanico = (velocidade: number, constanteElastica: number, distancia: number, massa: number, gravidade: number, altura: number, energPotElas: boolean, energPotGrav: boolean): number => {
-    let resultado = 0;
-    if (energPotElas == true) { resultado = formulaCalculoDaEnergiaCinetica(massa, velocidade) + formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia); }
-    if (energPotGrav == true) { resultado = formulaCalculoDaEnergiaCinetica(massa, velocidade) + formulaCalculoDaEnergiaPotencialGravitacional(massa, gravidade, altura); }
-    return resultado;
-  }
+const formulaCalculoDoPotencialMecanico = (velocidade: number, constanteElastica: number, distancia: number, massa: number, gravidade: number, altura: number, energPotElas: boolean, energPotGrav: boolean): number => {
+  let resultado = 0;
+  if (energPotElas == true) { resultado = formulaCalculoDaEnergiaCinetica(massa, velocidade) + formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia); }
+  if (energPotGrav == true) { resultado = formulaCalculoDaEnergiaCinetica(massa, velocidade) + formulaCalculoDaEnergiaPotencialGravitacional(massa, gravidade, altura); }
+  return resultado;
+}
 
-  const formulaCalculoDoPotencialElastico = (constanteElastica: number, distancia: number): number => {
-    let resultado = formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia);
-    return resultado;
-  }
+const formulaCalculoDoPotencialElastico = (constanteElastica: number, distancia: number): number => {
+  let resultado = formulaCalculoDaEnergiaPotencialElastica(constanteElastica, distancia);
+  return resultado;
+}
 
 const formulaCalculoDoPlanoInclinadoSemAtrito = (massa: number, gravidade: number): number => {
   let resultado = massa * gravidade;

@@ -719,7 +719,7 @@ class WERTSFY_MATH_CALCULATOR {
    * @description **``Method Collection``** 
    * Returns the expressions methods object.
    */
-  protected expressions = { };
+  protected expressions = Macros.math_calculator.expressions_arch;
 
   protected conversor() { }
 

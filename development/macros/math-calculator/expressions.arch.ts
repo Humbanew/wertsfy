@@ -44,7 +44,7 @@ import { Macro_math_calculator_exp_teo_stirling_method } from "./expressions/teo
 import { Macro_math_calculator_exp_teo_tales_mileto_method } from "./expressions/teo-tales-mileto";
 
 interface ExpressionsArch {
-
+  // 44 de 169 funcoes
   teoGirard: 
     typeof Macro_math_calculator_exp_teo_girard_method;
   

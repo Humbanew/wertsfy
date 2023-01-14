@@ -1,3 +1,0 @@
-https://github.com/marketplace/actions/eslint-report
-https://github.com/marketplace/actions/setup-node-js-environment
-https://github.com/marketplace/actions/setup-python

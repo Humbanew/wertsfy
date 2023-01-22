@@ -377,7 +377,7 @@ const formulaCalculoDaEquacaoHorariaDoEspacoMovimentoCircularUniformenteVariado 
   return resultado;
 }
 
-const formulaCalculoDeToricelliMovimentoCircularUniformenteVariado = (velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngularInicial: number, deslocamentoAngularFinal: number): number => {
+const formulaCalculoDeTorricelliMovimentoCircularUniformenteVariado = (velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngularInicial: number, deslocamentoAngularFinal: number): number => {
   let resultado = mathematic_corebase.sqrt(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngularFinal - deslocamentoAngularInicial));
   return resultado;
 }

@@ -14,105 +14,105 @@ class WERTSFY_MATH_COREBASE {
   protected _log = Macros.math_corebase.logarithm_protected_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the pi value.
    */
   public Pi = Macros.math_corebase.pi_constant;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the euler value.
    */
   public Euler = Macros.math_corebase.euler_constant;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the plank value.
    */
   public Plank = Macros.math_corebase.plank_constant;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the avogadro value.
    */
   public Avogadro = Macros.math_corebase.avogadro_constant;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the newton value.
    */
   public Newton = Macros.math_corebase.newton_constant;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the tesla value.
    */
   public Tesla = Macros.math_corebase.tesla_constant;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant Collection``** 
    * Returns the square root object.
    */
   public SquareRoot = Macros.math_corebase.square_root_constant_collection;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant Collection``** 
    * Returns the cubic root object.
    */ 
   public CubicRoot = Macros.math_corebase.cubic_root_constant_collection;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the logarithm of 2.
    */
   public Logarithm2 = Macros.math_corebase.logarithm2;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the logarithm of 10.
    */
   public Logarithm10 = Macros.math_corebase.logarithm10;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the euler logarithm of 2.
    */
   public Logarithm2e = Macros.math_corebase.logarithm2e;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the euler logarithm of 10.
    */
   public Logarithm10e = Macros.math_corebase.logarithm10e;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the max value.
    */
   public MaxValue = Macros.math_corebase.maxvalue;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the min value.
    */
   public MinValue = Macros.math_corebase.minvalue;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -121,7 +121,7 @@ class WERTSFY_MATH_COREBASE {
   public abs = Macros.math_corebase.abs_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -130,7 +130,7 @@ class WERTSFY_MATH_COREBASE {
   public sqrt = Macros.math_corebase.sqrt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -139,7 +139,7 @@ class WERTSFY_MATH_COREBASE {
   public cbrt = Macros.math_corebase.cbrt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -148,7 +148,7 @@ class WERTSFY_MATH_COREBASE {
   public quart = Macros.math_corebase.quart_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -157,7 +157,7 @@ class WERTSFY_MATH_COREBASE {
   public quirt = Macros.math_corebase.quirt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -166,7 +166,7 @@ class WERTSFY_MATH_COREBASE {
   public sexrt = Macros.math_corebase.sexrt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -175,7 +175,7 @@ class WERTSFY_MATH_COREBASE {
   public seprt = Macros.math_corebase.seprt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -184,7 +184,7 @@ class WERTSFY_MATH_COREBASE {
   public octrt = Macros.math_corebase.octrt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -193,7 +193,7 @@ class WERTSFY_MATH_COREBASE {
   public nonrt = Macros.math_corebase.nonrt_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -202,7 +202,7 @@ class WERTSFY_MATH_COREBASE {
   public decrt = Macros.math_corebase.abs_method;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number base value.
    * @augments ``y``|**``number``**
@@ -213,7 +213,7 @@ class WERTSFY_MATH_COREBASE {
   public pow = Macros.math_corebase.pow_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number base value.
    * @augments ``y``|**``number``**
@@ -226,7 +226,7 @@ class WERTSFY_MATH_COREBASE {
   public powOfPow = Macros.math_corebase.powofpow_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number[]``**
    * Number sequence value.
    * @description **``Method``** 
@@ -235,7 +235,7 @@ class WERTSFY_MATH_COREBASE {
   public max = Macros.math_corebase.max_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number[]``**
    * Number sequence value.
    * @description **``Method``** 
@@ -244,7 +244,7 @@ class WERTSFY_MATH_COREBASE {
   public min = Macros.math_corebase.min_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -253,7 +253,7 @@ class WERTSFY_MATH_COREBASE {
   public round = Macros.math_corebase.round_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -262,7 +262,7 @@ class WERTSFY_MATH_COREBASE {
   public fround = Macros.math_corebase.fround_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -271,7 +271,7 @@ class WERTSFY_MATH_COREBASE {
   public sign = Macros.math_corebase.sign_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -280,7 +280,7 @@ class WERTSFY_MATH_COREBASE {
   public trunc = Macros.math_corebase.trunc_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @augments ``y``|**``number``**
@@ -291,7 +291,7 @@ class WERTSFY_MATH_COREBASE {
   public imul = Macros.math_corebase.imul_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -300,7 +300,7 @@ class WERTSFY_MATH_COREBASE {
   public ceil = Macros.math_corebase.ceil_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -309,7 +309,7 @@ class WERTSFY_MATH_COREBASE {
   public floor = Macros.math_corebase.floor_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -318,7 +318,7 @@ class WERTSFY_MATH_COREBASE {
   public sin = Macros.math_corebase.sin_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -327,7 +327,7 @@ class WERTSFY_MATH_COREBASE {
   public cos = Macros.math_corebase.cos_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -336,7 +336,7 @@ class WERTSFY_MATH_COREBASE {
   public tan = Macros.math_corebase.tan_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -345,7 +345,7 @@ class WERTSFY_MATH_COREBASE {
   public sec = Macros.math_corebase.sec_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -354,7 +354,7 @@ class WERTSFY_MATH_COREBASE {
   public cosec = Macros.math_corebase.cosec_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -363,7 +363,7 @@ class WERTSFY_MATH_COREBASE {
   public cotan = Macros.math_corebase.cotan_method;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -372,7 +372,7 @@ class WERTSFY_MATH_COREBASE {
   public sinh = Macros.math_corebase.sinh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -381,7 +381,7 @@ class WERTSFY_MATH_COREBASE {
   public cosh = Macros.math_corebase.cosh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -390,7 +390,7 @@ class WERTSFY_MATH_COREBASE {
   public tanh = Macros.math_corebase.tanh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -399,7 +399,7 @@ class WERTSFY_MATH_COREBASE {
   public sech = Macros.math_corebase.sech_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -408,7 +408,7 @@ class WERTSFY_MATH_COREBASE {
   public cosech = Macros.math_corebase.cosech_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -417,7 +417,7 @@ class WERTSFY_MATH_COREBASE {
   public cotanh = Macros.math_corebase.cotanh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -426,7 +426,7 @@ class WERTSFY_MATH_COREBASE {
   public arcsin = Macros.math_corebase.arcsin_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -435,7 +435,7 @@ class WERTSFY_MATH_COREBASE {
   public arccos = Macros.math_corebase.arccos_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -444,7 +444,7 @@ class WERTSFY_MATH_COREBASE {
   public arctan = Macros.math_corebase.arctan_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -453,7 +453,7 @@ class WERTSFY_MATH_COREBASE {
   public arcsec = Macros.math_corebase.arcsec_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -462,7 +462,7 @@ class WERTSFY_MATH_COREBASE {
   public arccosec = Macros.math_corebase.arccosec_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -471,7 +471,7 @@ class WERTSFY_MATH_COREBASE {
   public arccotan = Macros.math_corebase.arccotan_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -480,7 +480,7 @@ class WERTSFY_MATH_COREBASE {
   public arcsinh = Macros.math_corebase.arcsinh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -489,7 +489,7 @@ class WERTSFY_MATH_COREBASE {
   public arccosh = Macros.math_corebase.arccosh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -498,7 +498,7 @@ class WERTSFY_MATH_COREBASE {
   public arctanh = Macros.math_corebase.arctanh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -507,7 +507,7 @@ class WERTSFY_MATH_COREBASE {
   public arcsech = Macros.math_corebase.arcsech_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -516,7 +516,7 @@ class WERTSFY_MATH_COREBASE {
   public arccosech = Macros.math_corebase.arccosech_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -525,7 +525,7 @@ class WERTSFY_MATH_COREBASE {
   public arccotanh = Macros.math_corebase.arccotanh_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -534,7 +534,7 @@ class WERTSFY_MATH_COREBASE {
   public log = Macros.math_corebase.log_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -543,7 +543,7 @@ class WERTSFY_MATH_COREBASE {
   public logm1 = Macros.math_corebase.logm1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -552,7 +552,7 @@ class WERTSFY_MATH_COREBASE {
   public logp1 = Macros.math_corebase.logp1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -561,7 +561,7 @@ class WERTSFY_MATH_COREBASE {
   public log2 = Macros.math_corebase.log2_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -570,7 +570,7 @@ class WERTSFY_MATH_COREBASE {
   public log2m1 = Macros.math_corebase.log2m1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -579,7 +579,7 @@ class WERTSFY_MATH_COREBASE {
   public log2p1 = Macros.math_corebase.log2p1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @augments ``base``|**``number``**
@@ -590,7 +590,7 @@ class WERTSFY_MATH_COREBASE {
   public logx = Macros.math_corebase.logx_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @augments ``base``|**``number``**
@@ -601,7 +601,7 @@ class WERTSFY_MATH_COREBASE {
   public logxm1 = Macros.math_corebase.logxm1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @augments ``base``|**``number``**
@@ -612,7 +612,7 @@ class WERTSFY_MATH_COREBASE {
   public logxp1 = Macros.math_corebase.logxp1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -621,7 +621,7 @@ class WERTSFY_MATH_COREBASE {
   public ln = Macros.math_corebase.ln_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -630,7 +630,7 @@ class WERTSFY_MATH_COREBASE {
   public lnm1 = Macros.math_corebase.lnm1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -639,7 +639,7 @@ class WERTSFY_MATH_COREBASE {
   public lnp1 = Macros.math_corebase.lnp1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``x``|**``number``**
    * Number value.
    * @description **``Method``** 
@@ -648,7 +648,7 @@ class WERTSFY_MATH_COREBASE {
   public random = Macros.math_corebase.random_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``base``|**``number``**
    * Number base exponencial value.
    * @augments ``valorLg``|**``number``**
@@ -659,7 +659,7 @@ class WERTSFY_MATH_COREBASE {
   public exp = Macros.math_corebase.exp_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``base``|**``number``**
    * Number base exponencial value.
    * @augments ``valorLg``|**``number``**
@@ -670,7 +670,7 @@ class WERTSFY_MATH_COREBASE {
   public expm1 = Macros.math_corebase.expm1_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``base``|**``number``**
    * Number base exponencial value.
    * @augments ``valorLg``|**``number``**
@@ -686,14 +686,14 @@ class WERTSFY_MATH_COREBASE {
 class WERTSFY_MATH_CALCULATOR {
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant Collection``** 
    * Returns the Shotcuts object.
    */
   public shortcuts = Macros.math_calculator.shortcuts_constant;
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``operation``|``string``
    * Operation to do use.
    * @augments ``numbers``|``number[]``
@@ -704,7 +704,7 @@ class WERTSFY_MATH_CALCULATOR {
   public common = Macros.math_calculator.common_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @augments ``operation``|``string``
    * Operation to do use.
    * @augments ``numbers``|``number[]``
@@ -715,7 +715,7 @@ class WERTSFY_MATH_CALCULATOR {
   public advanced = Macros.math_calculator.advanced_method;
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Method Collection``** 
    * Returns the expressions methods object.
    */
@@ -737,28 +737,28 @@ class WERTSFY_EXTENDER_CLI { }
 // Declaração de acesso aos recursos
 
 /**
- * ``▰ Wertsfy ▰ ``
+ * ``◪ Wertsfy ◪ ``
  * @description **``Base``** 
  * The Wertsfy API
  */
 export var Wertsfy = { 
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Interface``** 
    * Collection of Mathematic
    */
   mathematic: { 
     
     /**
-     * ``▰ Wertsfy ▰ ``
+     * ``◪ Wertsfy ◪ ``
      * @description **``Library``** 
      * Core Component of Mathematic
      */
     corebase: mathematic_corebase,
 
     /**
-     * ``▰ Wertsfy ▰ ``
+     * ``◪ Wertsfy ◪ ``
      * @description **``Library``** 
      * Calculator Component of Mathematic
      */

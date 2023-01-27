@@ -1,70 +1,70 @@
 export const Macro_math_corebase_cubic_root_constant_collection = {
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 1.
    */
   Of01: 1.0,
   
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 2.
    */
   Of02: 1.25992104989487,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 3.
    */
   Of03: 1.5874010519682,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 4.
    */
   Of04: 1.99999999999999,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 5.
    */
   Of05: 2.23606797749979,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 6.
    */
   Of06: 2.58198889747161,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 7.
    */
   Of07: 2.91293118277239,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 8.
    */
   Of08: 3.26249509498958,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 9.
    */
   Of09: 3.62449963442055,
 
   /**
-   * ``▰ Wertsfy ▰ ``
+   * ``◪ Wertsfy ◪ ``
    * @description **``Constant``** 
    * Returns the cubic root of 10.
    */

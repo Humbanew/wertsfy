@@ -12,7 +12,9 @@ declare namespace TypeMathematicDefines {
       porcentage: ["10E2", {value: number}]|["10E3", {value: number}]|["10E4", {value: number}]|["10E5", {value: number}]|["AnyNumber", {value: number, valueTotal: number}],
       cartesianFunction: "grade1"|"grade2"|"grade3"|"grade4"|"grade5"|"grade6"|"grade7"|"grade8",
       determinant: ["d2x2", {a00: number, a01: number, a10: number, a11: number}]|["d3x3", {a00: number, a01: number, a02: number, a10: number, a11: number, a12: number, a20: number, a21: number, a22: number}],
-      pascalVariables: "forca1Null"|"forca2Null"|"area1Null"|"area2Null" 
+      pascalVariables: "forca1Null"|"forca2Null"|"area1Null"|"area2Null",
+      temperatureVariables: "celsiusFahrenheit"|"celsiusKelvin"|"fahrenheitCelsius"|"fahrenheitKelvin"|"kelvinCelsius"|"kelvinFahrenheit",
+      titrationVariables: "massaBaseNull"|"massaAcidoNull"|"volumeBaseNull"|"volumeAcidoNull", 
     }
   
   };

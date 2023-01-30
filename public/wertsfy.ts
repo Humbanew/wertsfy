@@ -2,7 +2,10 @@
 
 export let wertsfy = {
 
-  librarys: { mathematical: null },
+  librarys: 
+  { 
+    mathematical: null 
+  },
 
   logical: null
 

@@ -1,14 +1,10 @@
-/// <reference path=".declarations/warch.d.ts" />
+import { LibraryMath } from "./.components/wcomponents";
 
-export let wertsfy = {
+export let wertsfy= 
+{ 
+  
+  libmath: LibraryMath,
 
-  librarys: 
-  { 
-    mathematical: null 
-  },
+};
 
-  logical: null
-
-}
-
-console.log(wertsfy);
+console.log(wertsfy.libmath.Pi);

@@ -363,7 +363,7 @@ import { mathematic_corebase } from "../../../wertsfy";
   }
 
   const formulaCalculoDoVelocidadeLinearMovimentoCircularUniforme = (frequencia: number, raio: number): number => {
-    let resultado = (2 * mathematic_corebase.Pi * frequencia) * raio;
+    let resultado = (2 * Component_math_corebase_pi_constant * frequencia) * raio;
     return resultado;
   }
 
@@ -1062,11 +1062,11 @@ const formulaAreaRetanguloQualquer = (comp: number, larg: number): number => {
 }
 
 const formulaAreaCirculoQualquer = (raio: number): number => { 
-  return mathematic_corebase.Pi * (raio ** 2); 
+  return Component_math_corebase_pi_constant * (raio ** 2); 
 }
 
 const formulaAreaElipseQualquer = (raio: number, altura: number): number => { 
-  return mathematic_corebase.Pi * (raio ** 2) * altura; 
+  return Component_math_corebase_pi_constant * (raio ** 2) * altura; 
 }
 
 const formulaAreaPiramideQualquer = (base: number, altura: number): number => { 
@@ -1090,15 +1090,15 @@ const formulaVolumeDeUmaSuperficieQualquer = (area: number, comp: number, larg: 
 }
 
 const formulaAreaEsferaQualquer = (raio: number): number => { 
-  return 4 * mathematic_corebase.Pi * (raio ** 2) / 2; 
+  return 4 * Component_math_corebase_pi_constant * (raio ** 2) / 2; 
 }
 
 const formulaAreaCilindroQualquer = (raio: number, altura: number): number => { 
-  return mathematic_corebase.Pi * (raio ** 2) * altura; 
+  return Component_math_corebase_pi_constant * (raio ** 2) * altura; 
 }
 
 const formulaAreaConeQualquer = (raio: number, altura: number): number => { 
-  return mathematic_corebase.Pi * (raio ** 2) * (altura / 3); 
+  return Component_math_corebase_pi_constant * (raio ** 2) * (altura / 3); 
 }
 
 const formulaAreaDeUmPoligonoQualquer = (comp: number, larg: number, nLados: number): number => {
@@ -1158,15 +1158,15 @@ const formulaVolumDeUmIcosaedroQualquer = (aresta: number): number => {
 }
 
 const formulaVolumeDeUmConeQualquer = (raio: number, altura: number): number => { 
-  return (mathematic_corebase.Pi * (raio ** 2) * altura) / 3; 
+  return (Component_math_corebase_pi_constant * (raio ** 2) * altura) / 3; 
 }
 
 const formulaVolumeDeUmCilindroQualquer = (raio: number, altura: number): number => { 
-  return mathematic_corebase.Pi * (raio ** 2) * altura; 
+  return Component_math_corebase_pi_constant * (raio ** 2) * altura; 
 }
 
 const formulaVolumeDeUmEsferaQualquer = (raio: number): number => { 
-  return (4 * mathematic_corebase.Pi * (raio ** 3)) / 3; 
+  return (4 * Component_math_corebase_pi_constant * (raio ** 3)) / 3; 
 }
 
 const formulaVolumeDeUmRombQualquer = (aresta: number): number => { 
@@ -1174,7 +1174,7 @@ const formulaVolumeDeUmRombQualquer = (aresta: number): number => {
 }
 
 const formulaAreaCircunferenciaQualquer = (raio: number): number => { 
-  return mathematic_corebase.Pi * (raio * 2); 
+  return Component_math_corebase_pi_constant * (raio * 2); 
 }
         
 const formulaCalculoPrimeiroGrau = (exp) => { 

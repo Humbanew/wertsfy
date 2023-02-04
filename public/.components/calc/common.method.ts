@@ -1,4 +1,4 @@
-import { MathematicDefines } from "../../../wdefines";
+import { MathematicDefines } from "../../wdefines";
 
 export const Component_math_calculator_common_method = (operation: MathematicDefines["common"], ...numbers: number[]): number => {
     

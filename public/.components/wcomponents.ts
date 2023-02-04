@@ -8,9 +8,10 @@ import { Component_math_corebase_logarithm10_constant } from "./math/constant.lo
 import { Component_math_corebase_logarithm10e_constant } from "./math/constant.logarithm10e";
 import { Component_math_corebase_maxvalue_constant } from "./math/constant.maxvalue";
 import { Component_math_corebase_minvalue_constant } from "./math/constant.minvalue";
+import { Component_math_corebase_newton_constant } from "./math/constant.newton";
 import { Component_math_corebase_pi_constant } from "./math/constant.pi";
 import { Component_math_corebase_plank_constant } from "./math/constant.plank";
- 
+import { Component_math_corebase_tesla_constant } from "./math/constant.testa";
 import { Component_math_corebase_square_root_constant_collection } from "./math/constant_collection.square-root";
 import { Component_math_corebase_cubic_root_constant_collection } from "./math/constant_collection.cubic-root";
 
@@ -48,6 +49,10 @@ export namespace LibraryMath {
     src: Component_math_corebase_minvalue_constant
   }; export const Minvalue = lm_minvalue.src;
 
+  let lm_newton: WComponentNumber = {
+    src: Component_math_corebase_newton_constant
+  }; export const Newton = lm_newton.src;
+
   let lm_pi: WComponentNumber = { 
     src: Component_math_corebase_pi_constant 
   }; export const Pi = lm_pi.src;
@@ -56,6 +61,9 @@ export namespace LibraryMath {
     src: Component_math_corebase_plank_constant
   }; export const Plank = lm_plank.src;
 
+  let lm_testa: WComponentNumber = {
+    src: Component_math_corebase_tesla_constant
+  }; export const Tesla = lm_testa.src;
 
   let lm_square_root: WComponentObject = {
     src: Component_math_corebase_square_root_constant_collection

@@ -1,6 +1,6 @@
-import { MathematicDefines } from "../../wdefines";
+/// <reference path="../wtypes.mathematics.d.ts" />
 
-export const Component_math_calculator_common_method = (operation: MathematicDefines["common"], ...numbers: number[]): number => {
+export const Component_math_calculator_common_method = (operation: TypeMathematicDefines.MathematicOperation["common"], ...numbers: number[]): number => {
     
   let resultado: number;
   

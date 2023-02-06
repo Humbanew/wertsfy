@@ -3,14 +3,14 @@ import { LibraryMath } from "./.components/wcomponents";
 /**
  * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
  * 
- * ``Base [Root]``
+ * **``Base [Root]``**
  */
 export let wertsfy=
 {
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
-   * ``Biblioteca [Library]``**|**``Mathematic``
+   * **``Biblioteca [Library]``**|**``Mathematic``**
    */
   libmath: LibraryMath
 

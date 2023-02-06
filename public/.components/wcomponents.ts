@@ -15,6 +15,29 @@ import { Component_math_corebase_tesla_constant } from "./math/constant.testa";
 import { Component_math_corebase_square_root_constant_collection } from "./math/constant_collection.square-root";
 import { Component_math_corebase_cubic_root_constant_collection } from "./math/constant_collection.cubic-root";
 
+import { Component_math_corebase_abs_method } from "./math/method.abs";
+import { Component_math_corebase_arcsin_method } from "./math/method.arcsin";
+import { Component_math_corebase_arcsinh_method } from "./math/method.arcsinh";
+import { Component_math_corebase_arccos_method } from "./math/method.arccos";
+import { Component_math_corebase_arccosh_method } from "./math/method.arccosh";
+import { Component_math_corebase_arctan_method } from "./math/method.arctan";
+import { Component_math_corebase_arctanh_method } from "./math/method.arctanh";
+import { Component_math_corebase_arcsec_method } from "./math/method.arcsec";
+import { Component_math_corebase_arcsech_method } from "./math/method.arcsech";
+import { Component_math_corebase_arccosec_method } from "./math/method.arccosec";
+import { Component_math_corebase_arccosech_method } from "./math/method.arccosech";
+import { Component_math_corebase_arccotan_method } from "./math/method.arccotan";
+import { Component_math_corebase_arccotanh_method } from "./math/method.arccotanh";
+import { Component_math_corebase_sqrt_method } from "./math/method.sqrt";
+import { Component_math_corebase_cbrt_method } from "./math/method.cbrt";
+import { Component_math_corebase_quart_method } from "./math/method.quart";
+import { Component_math_corebase_quirt_method } from "./math/method.quirt";
+import { Component_math_corebase_sexrt_method } from "./math/method.sexrt";
+import { Component_math_corebase_seprt_method } from "./math/method.seprt";
+import { Component_math_corebase_octrt_method } from "./math/method.octrt";
+import { Component_math_corebase_nonrt_method } from "./math/method.nonrt";
+import { Component_math_corebase_decrt_method } from "./math/method.decrt";
+
 export namespace LibraryMath {
   
   let lm_avogrado: WComponentNumber = {
@@ -72,6 +95,95 @@ export namespace LibraryMath {
   let lm_cubic_root: WComponentObject = {
     src: Component_math_corebase_cubic_root_constant_collection
   }; export const CubicRoot = lm_cubic_root.src;
+
+
+  let lm_abs: WComponentFunction = {
+    src: Component_math_corebase_abs_method
+  }; export const abs = lm_abs.src;
+
+  let lm_arcsin: WComponentFunction = {
+    src: Component_math_corebase_arcsin_method
+  }; export const arcsin = lm_arcsin.src;
+
+  let lm_arcsinh: WComponentFunction = {
+    src: Component_math_corebase_arcsinh_method
+  }; export const arcsinh = lm_arcsinh.src;
+
+  let lm_arccos: WComponentFunction = {
+    src: Component_math_corebase_arccos_method
+  }; export const arccos = lm_arccos.src;
+
+  let lm_arccosh: WComponentFunction = {
+    src: Component_math_corebase_arccosh_method
+  }; export const arccosh = lm_arccosh.src;
+
+  let lm_arctan: WComponentFunction = {
+    src: Component_math_corebase_arctan_method
+  }; export const arctan = lm_arctan.src;
+
+  let lm_arctanh: WComponentFunction = {
+    src: Component_math_corebase_arctanh_method
+  }; export const arctanh = lm_arctanh.src;
+
+  let lm_arcsec: WComponentFunction = {
+    src: Component_math_corebase_arcsec_method
+  }; export const arcsec = lm_arcsec.src;
+
+  let lm_arcsech: WComponentFunction = {
+    src: Component_math_corebase_arcsech_method
+  }; export const arcsech = lm_arcsech.src;
+
+  let lm_arccosec: WComponentFunction = {
+    src: Component_math_corebase_arccosec_method
+  }; export const arccossec = lm_arccosec.src;
+
+  let lm_arccosech: WComponentFunction = {
+    src: Component_math_corebase_arccosech_method
+  }; export const arccosech = lm_arccosech.src;
+  
+  let lm_arccotan: WComponentFunction = {
+    src: Component_math_corebase_arccotan_method
+  }; export const arccotan = lm_arccotan.src;
+
+  let lm_arccotanh: WComponentFunction = {
+    src: Component_math_corebase_arccotanh_method
+  }; export const arccotanh = lm_arccotanh.src;
+
+  let lm_sqrt: WComponentFunction = {
+    src: Component_math_corebase_sqrt_method
+  }; export const sqrt = lm_sqrt.src;
+
+  let lm_cbrt: WComponentFunction = {
+    src: Component_math_corebase_cbrt_method
+  }; export const cbrt = lm_cbrt.src;
+
+  let lm_quart: WComponentFunction = {
+    src: Component_math_corebase_quart_method
+  }; export const quart = lm_quart.src;
+
+  let lm_quirt: WComponentFunction = {
+    src: Component_math_corebase_quirt_method
+  }; export const quirt = lm_quirt.src;
+
+  let lm_sexrt: WComponentFunction = {
+    src: Component_math_corebase_sexrt_method
+  }; export const sexrt = lm_sexrt.src;
+
+  let lm_seprt: WComponentFunction = {
+    src: Component_math_corebase_seprt_method
+  }; export const seprt = lm_seprt.src;
+
+  let lm_octrt: WComponentFunction = {
+    src: Component_math_corebase_octrt_method
+  }; export const octrt = lm_octrt.src;
+
+  let lm_nonrt: WComponentFunction = {
+    src: Component_math_corebase_nonrt_method
+  }; export const nonrt = lm_nonrt.src;
+
+  let lm_decrt: WComponentFunction = {
+    src: Component_math_corebase_decrt_method
+  }; export const decrt = lm_decrt.src;
 
 }
 

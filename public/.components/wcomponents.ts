@@ -1,5 +1,6 @@
 /// <reference path="../.declarations/warch.d.ts" />
 
+import { Component_math_corebase_logarithm_protected_method } from "./math/protected.method.logarithm";
 import { Component_math_corebase_avogadro_constant } from "./math/constant.avogadro";
 import { Component_math_corebase_euler_constant } from "./math/constant.euler";
 import { Component_math_corebase_logarithm2_constant } from "./math/constant.logarithm2";
@@ -14,7 +15,6 @@ import { Component_math_corebase_plank_constant } from "./math/constant.plank";
 import { Component_math_corebase_tesla_constant } from "./math/constant.testa";
 import { Component_math_corebase_square_root_constant_collection } from "./math/constant_collection.square-root";
 import { Component_math_corebase_cubic_root_constant_collection } from "./math/constant_collection.cubic-root";
-
 import { Component_math_corebase_abs_method } from "./math/method.abs";
 import { Component_math_corebase_arcsin_method } from "./math/method.arcsin";
 import { Component_math_corebase_arcsinh_method } from "./math/method.arcsinh";
@@ -38,7 +38,18 @@ import { Component_math_corebase_octrt_method } from "./math/method.octrt";
 import { Component_math_corebase_nonrt_method } from "./math/method.nonrt";
 import { Component_math_corebase_decrt_method } from "./math/method.decrt";
 
+import { Component_math_corebase_sin_method } from "./math/method.sin";
+import { Component_math_corebase_sinh_method } from "./math/method.sinh";
+import { Component_math_corebase_cos_method } from "./math/method.cos";
+import { Component_math_corebase_cosh_method } from "./math/method.cosh";
+import { Component_math_corebase_tan_method } from "./math/method.tan";
+import { Component_math_corebase_tanh_method } from "./math/method.tanh";
+
 export namespace LibraryMath {
+
+  let lm_log_pm: WComponentFunction = { 
+    src: Component_math_corebase_logarithm_protected_method 
+  };
   
   let lm_avogrado: WComponentNumber = {
     src: Component_math_corebase_avogadro_constant
@@ -185,7 +196,44 @@ export namespace LibraryMath {
     src: Component_math_corebase_decrt_method
   }; export const decrt = lm_decrt.src;
 
+
+  let lm_sin: WComponentFunction = {
+    src: Component_math_corebase_sin_method
+  }; export const sin = lm_sin.src;
+
+  let lm_sinh: WComponentFunction = {
+    src: Component_math_corebase_sinh_method
+  }; export const sinh = lm_sinh.src;
+
+  let lm_cos: WComponentFunction = {
+    src: Component_math_corebase_cos_method
+  }; export const cos = lm_cos.src;
+
+  let lm_cosh: WComponentFunction = {
+    src: Component_math_corebase_cosh_method
+  }; export const cosh = lm_cosh.src;
+
+  let lm_tan: WComponentFunction = {
+    src: Component_math_corebase_tan_method
+  }; export const tan = lm_tan.src;
+
+  let lm_tanh: WComponentFunction = {
+    src: Component_math_corebase_tanh_method
+  }; export const tanh = lm_tanh.src;
+
 }
+
+/** @emits Not Implemented */
+namespace LibraryCalculator { }
+
+// Modelo de informação em comentário. 
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor da raiz quadrada de 1/2. [_Returns the square root of 1/2._]
+   */
 
 // interface Math {
 //   /** The mathematical constant e. This is Euler's number, the base of natural logarithms. */

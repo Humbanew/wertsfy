@@ -1,3 +1,5 @@
+// Possível Conglomerado de Interfaces
+
 declare namespace LydrocElements { }
 
 // <!DOCTYPE> 	Defines the document type

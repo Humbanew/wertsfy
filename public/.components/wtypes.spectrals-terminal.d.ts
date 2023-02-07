@@ -1,3 +1,5 @@
+// Possível Conglomerado de Interfaces
+
 declare namespace TypeSpecTermDefines {
   
   type SpectralsFormatation=

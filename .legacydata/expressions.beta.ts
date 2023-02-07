@@ -899,7 +899,7 @@ import { mathematic_corebase } from "../../../wertsfy";
   }
 
   const formulaSinalizacaoOctantes = (x: number, y: number, z: number): string => {
-    let resultado: string;
+    let resultado: string = "";
     if(x > 0 && y > 0 && z > 0) { resultado = "1 Octante."; }
     if(x < 0 && y > 0 && z > 0) { resultado = "2 Octante."; }
     if(x < 0 && y < 0 && z > 0) { resultado = "3 Octante."; }

@@ -71,3 +71,9 @@ export declare namespace WMathOperation {
   }
 
 }
+
+declare namespace WKarzokOperation { }
+
+declare namespace WSpectralsTerminalOperation { }
+
+declare namespace WLydrocOperation { }

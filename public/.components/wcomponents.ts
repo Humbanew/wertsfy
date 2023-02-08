@@ -37,13 +37,18 @@ import { Component_math_corebase_seprt_method } from "./math/method.seprt";
 import { Component_math_corebase_octrt_method } from "./math/method.octrt";
 import { Component_math_corebase_nonrt_method } from "./math/method.nonrt";
 import { Component_math_corebase_decrt_method } from "./math/method.decrt";
-
 import { Component_math_corebase_sin_method } from "./math/method.sin";
 import { Component_math_corebase_sinh_method } from "./math/method.sinh";
 import { Component_math_corebase_cos_method } from "./math/method.cos";
 import { Component_math_corebase_cosh_method } from "./math/method.cosh";
 import { Component_math_corebase_tan_method } from "./math/method.tan";
 import { Component_math_corebase_tanh_method } from "./math/method.tanh";
+import { Component_math_corebase_sec_method } from "./math/method.sec";
+import { Component_math_corebase_sech_method } from "./math/method.sech";
+import { Component_math_corebase_cosec_method } from "./math/method.cosec";
+import { Component_math_corebase_cosech_method } from "./math/method.cosech";
+import { Component_math_corebase_cotan_method } from "./math/method.cotan";
+import { Component_math_corebase_cotanh_method } from "./math/method.cotanh";
 
 export namespace LibraryMath {
 
@@ -220,6 +225,30 @@ export namespace LibraryMath {
   let lm_tanh: WComponentFunction = {
     src: Component_math_corebase_tanh_method
   }; export const tanh = lm_tanh.src;
+
+  let lm_sec: WComponentFunction = {
+    src: Component_math_corebase_sec_method
+  }; export const sec = lm_sec.src;
+
+  let lm_sech: WComponentFunction = {
+    src: Component_math_corebase_sech_method
+  }; export const sech = lm_sech.src;
+
+  let lm_cosec: WComponentFunction = {
+    src: Component_math_corebase_cosec_method
+  }; export const cosec = lm_cosec.src;
+
+  let lm_cosech: WComponentFunction = {
+    src: Component_math_corebase_cosech_method
+  }; export const cosech = lm_cosech.src;
+
+  let lm_cotan: WComponentFunction = {
+    src: Component_math_corebase_cotan_method
+  }; export const cotan = lm_cotan.src;
+
+  let lm_cotanh: WComponentFunction = {
+    src: Component_math_corebase_cotanh_method
+  }; export const cotanh = lm_cotanh.src;
 
 }
 

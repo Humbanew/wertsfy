@@ -306,7 +306,7 @@ export namespace LibraryMath {
 
 }
 
-/** @emits Not Implemented **[99%]** */
+/** @emits Not Implemented **[98%]** */
 namespace LibraryCalculator {
 
   let lc_shortcuts: WComponentObject = {

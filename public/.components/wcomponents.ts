@@ -53,12 +53,12 @@ export namespace LibraryMath {
   }; export const Tesla = lm_testa.src;
 
   let lm_square_root: WComponentObject = {
-    src: WComponents.Mathematic.square_root_constant_collection
-  }; export const SquareRoot = lm_square_root.src;
+    src: { collections: { sqrt_cbrt: WComponents.Mathematic.square_root_constant_collection } }
+  }; export const SquareRoot = lm_square_root.src.collections.sqrt_cbrt;
 
   let lm_cubic_root: WComponentObject = {
-    src: WComponents.Mathematic.cubic_root_constant_collection
-  }; export const CubicRoot = lm_cubic_root.src;
+    src: { collections: { sqrt_cbrt: WComponents.Mathematic.cubic_root_constant_collection } }
+  }; export const CubicRoot = lm_cubic_root.src.collections.sqrt_cbrt;
 
   let lm_abs: WComponentFunction = {
     src: WComponents.Mathematic.abs_method
@@ -308,6 +308,10 @@ export namespace LibraryMath {
 
 /** @emits Not Implemented **[99%]** */
 namespace LibraryCalculator {
+
+  let lc_shortcuts: WComponentObject = {
+    src: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } }
+  }; export const Shortcuts = lc_shortcuts.src.collections.shortcuts;
 
   let lc_common: WComponentFunction = {
     src: WComponents.Calculator.common_method

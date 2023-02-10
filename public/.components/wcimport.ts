@@ -74,6 +74,7 @@ import { Component_math_corebase_imul_method } from "./math/method.imul";
 import { Component_math_corebase_sign_method } from "./math/method.sign";
 import { Component_math_corebase_trunc_method } from "./math/method.trunc";
 
+import { Component_math_calculator_shortcuts_constant } from "./calc/shortcuts.constant";
 import { Component_math_calculator_common_method } from "./calc/common.method";
 
 export namespace WComponents {
@@ -160,7 +161,8 @@ export namespace WComponents {
 
   export namespace Calculator {
 
-    export let common_method = Component_math_calculator_common_method
+    export let shortcuts_constant = Component_math_calculator_shortcuts_constant  
+              ,common_method = Component_math_calculator_common_method
 
   }
 

@@ -50,11 +50,39 @@ import { Component_math_corebase_cosech_method } from "./math/method.cosech";
 import { Component_math_corebase_cotan_method } from "./math/method.cotan";
 import { Component_math_corebase_cotanh_method } from "./math/method.cotanh";
 
+import { Component_math_corebase_pow_method } from "./math/method.pow";
+import { Component_math_corebase_powofpow_method } from "./math/method.powofpow";
+import { Component_math_corebase_min_method } from "./math/method.min";
+import { Component_math_corebase_max_method } from "./math/method.max";
+import { Component_math_corebase_random_method } from "./math/method.random";
+import { Component_math_corebase_log_method } from "./math/method.log";
+import { Component_math_corebase_logm1_method } from "./math/method.logm1";
+import { Component_math_corebase_logp1_method } from "./math/method.logp1";
+import { Component_math_corebase_log2_method } from "./math/method.log2";
+import { Component_math_corebase_log2m1_method } from "./math/method.log2m1";
+import { Component_math_corebase_log2p1_method } from "./math/method.log2p1";
+import { Component_math_corebase_logx_method } from "./math/method.logx";
+import { Component_math_corebase_logxm1_method } from "./math/method.logxm1";
+import { Component_math_corebase_logxp1_method } from "./math/method.logxp1";
+import { Component_math_corebase_ln_method } from "./math/method.ln";
+import { Component_math_corebase_lnm1_method } from "./math/method.lnm1";
+import { Component_math_corebase_lnp1_method } from "./math/method.lnp1";
+import { Component_math_corebase_exp_method } from "./math/method.exp";
+import { Component_math_corebase_expm1_method } from "./math/method.expm1";
+import { Component_math_corebase_expp1_method } from "./math/method.expp1";
+import { Component_math_corebase_round_method } from "./math/method.round";
+import { Component_math_corebase_fround_method } from "./math/method.fround";
+import { Component_math_corebase_floor_method } from "./math/method.floor";
+import { Component_math_corebase_ceil_method } from "./math/method.ceil";
+import { Component_math_corebase_imul_method } from "./math/method.imul";
+import { Component_math_corebase_sign_method } from "./math/method.sign";
+import { Component_math_corebase_trunc_method } from "./math/method.trunc";
+
 export namespace LibraryMath {
 
   let lm_log_pm: WComponentFunction = { 
     src: Component_math_corebase_logarithm_protected_method 
-  };
+  }; class LMProtectedMethods { protected logModel = lm_log_pm.src; };
   
   let lm_avogrado: WComponentNumber = {
     src: Component_math_corebase_avogadro_constant
@@ -111,7 +139,6 @@ export namespace LibraryMath {
   let lm_cubic_root: WComponentObject = {
     src: Component_math_corebase_cubic_root_constant_collection
   }; export const CubicRoot = lm_cubic_root.src;
-
 
   let lm_abs: WComponentFunction = {
     src: Component_math_corebase_abs_method
@@ -201,7 +228,6 @@ export namespace LibraryMath {
     src: Component_math_corebase_decrt_method
   }; export const decrt = lm_decrt.src;
 
-
   let lm_sin: WComponentFunction = {
     src: Component_math_corebase_sin_method
   }; export const sin = lm_sin.src;
@@ -249,6 +275,115 @@ export namespace LibraryMath {
   let lm_cotanh: WComponentFunction = {
     src: Component_math_corebase_cotanh_method
   }; export const cotanh = lm_cotanh.src;
+
+
+  let lm_pow: WComponentFunction = {
+    src: Component_math_corebase_pow_method
+  }; export const pow = lm_pow.src;
+
+  let lm_powofpow: WComponentFunction = {
+    src: Component_math_corebase_powofpow_method
+  }; export const powofpow = lm_powofpow.src;
+
+  let lm_min: WComponentFunction = {
+    src: Component_math_corebase_min_method
+  }; export const min = lm_min.src;
+
+  let lm_max: WComponentFunction = {
+    src: Component_math_corebase_max_method
+  }; export const max = lm_max.src;
+
+  let lm_random: WComponentFunction = {
+    src: Component_math_corebase_random_method
+  }; export const random = lm_random.src;
+
+  let lm_log: WComponentFunction = {
+    src: Component_math_corebase_log_method
+  }; export const log = lm_log.src;
+
+  let lm_logm1: WComponentFunction = {
+    src: Component_math_corebase_logm1_method
+  }; export const logm1 = lm_logm1.src
+
+  let lm_logp1: WComponentFunction = {
+    src: Component_math_corebase_logp1_method
+  }; export const logp1 = lm_logp1.src
+
+  let lm_log2: WComponentFunction = {
+    src: Component_math_corebase_log2_method
+  }; export const log2 = lm_log2.src;
+
+  let lm_log2m1: WComponentFunction = {
+    src: Component_math_corebase_log2m1_method
+  }; export const log2m1 = lm_log2m1.src
+
+  let lm_log2p1: WComponentFunction = {
+    src: Component_math_corebase_log2p1_method
+  }; export const log2p1 = lm_log2p1.src
+
+  let lm_logx: WComponentFunction = {
+    src: Component_math_corebase_logx_method
+  }; export const logx = lm_logx.src;
+
+  let lm_logxm1: WComponentFunction = {
+    src: Component_math_corebase_logxm1_method
+  }; export const logxm1 = lm_logxm1.src
+
+  let lm_logxp1: WComponentFunction = {
+    src: Component_math_corebase_logxp1_method
+  }; export const logxp1 = lm_logxp1.src
+
+  let lm_ln: WComponentFunction = {
+    src: Component_math_corebase_ln_method
+  }; export const ln = lm_ln.src;
+
+  let lm_lnm1: WComponentFunction = {
+    src: Component_math_corebase_lnm1_method
+  }; export const lnm1 = lm_lnm1.src
+
+  let lm_lnp1: WComponentFunction = {
+    src: Component_math_corebase_lnp1_method
+  }; export const lnp1 = lm_lnp1.src
+
+  let lm_exp: WComponentFunction = {
+    src: Component_math_corebase_exp_method
+  }; export const exp = lm_exp.src;
+
+  let lm_expm1: WComponentFunction = {
+    src: Component_math_corebase_expm1_method
+  }; export const expm1 = lm_expm1.src
+
+  let lm_expp1: WComponentFunction = {
+    src: Component_math_corebase_expp1_method
+  }; export const expp1 = lm_expp1.src
+
+  let lm_round: WComponentFunction = {
+    src: Component_math_corebase_round_method
+  }; export const round = lm_round.src
+
+  let lm_fround: WComponentFunction = {
+    src: Component_math_corebase_fround_method
+  }; export const fround = lm_fround.src
+
+  let lm_floor: WComponentFunction = {
+    src: Component_math_corebase_floor_method
+  }; export const floor = lm_floor.src
+
+  let lm_ceil: WComponentFunction = {
+    src: Component_math_corebase_ceil_method
+  }; export const ceil = lm_ceil.src
+
+  let lm_imul: WComponentFunction = {
+    src: Component_math_corebase_imul_method
+  }; export const imul = lm_imul.src
+
+  let lm_sign: WComponentFunction = {
+    src: Component_math_corebase_sign_method
+  }; export const sign = lm_sign.src
+
+  let lm_trunc: WComponentFunction = {
+    src: Component_math_corebase_trunc_method
+  }; export const trunc = lm_trunc.src
 
 }
 

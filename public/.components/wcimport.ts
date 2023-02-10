@@ -76,7 +76,7 @@ import { Component_math_corebase_trunc_method } from "./math/method.trunc";
 
 import { Component_math_calculator_shortcuts_constant } from "./calc/shortcuts.constant";
 import { Component_math_calculator_common_method } from "./calc/common.method";
-
+import { Component_math_calculator_advanced_method } from "./calc/advanced.method";
 export namespace WComponents {
 
   export namespace Mathematic {
@@ -163,6 +163,7 @@ export namespace WComponents {
 
     export let shortcuts_constant = Component_math_calculator_shortcuts_constant  
               ,common_method = Component_math_calculator_common_method
+              ,advanced_method = Component_math_calculator_advanced_method
 
   }
 

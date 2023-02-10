@@ -317,6 +317,10 @@ namespace LibraryCalculator {
     src: WComponents.Calculator.common_method
   }; export const common = lc_common.src;
 
+  let lc_advanced: WComponentFunction = {
+    src: WComponents.Calculator.advanced_method
+  }; export const advanced = lc_advanced.src;
+
 }
 
 // Modelo de informação em comentário. 

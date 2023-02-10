@@ -72,8 +72,11 @@ export declare namespace WMathOperation {
 
 }
 
+/** @emits Not Implemented */
 declare namespace WKarzokOperation { }
 
+/** @emits Not Implemented */
 declare namespace WSpectralsTerminalOperation { }
 
+/** @emits Not Implemented */
 declare namespace WLydrocOperation { }

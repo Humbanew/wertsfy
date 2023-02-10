@@ -1,19 +1,21 @@
-/// <reference path="../wtypes.mathematics.d.ts" />
+/// <reference path="../../.declarations/warch.type.d.ts" />
 
-export const Component_math_calculator_common_method = (operation: TypeMathematicDefines.MathematicOperation["common"], ...numbers: number[]): number => {
+import { WMathOperation } from "../../.declarations/warch.type";
+
+export const Component_math_calculator_common_method = (operation: WMathOperation.common, ...numbers: number[]): number => {
     
   let resultado: number;
   
-  operation == "plus" || "minus" ? resultado = 0 : resultado = 1; 
+  operation.formats == "plus" || "minus" ? resultado = 0 : resultado = 1; 
 
   for(let i = 0; i < numbers.length; i++) {
 
-    if(i == 0 && (operation == "divisor" || "multip" || "power") ) { 
+    if(i == 0 && (operation.formats == "divisor" || "multip" || "power") ) { 
       resultado = numbers[0];
       continue;
     }
 
-    switch(operation) {
+    switch(operation.formats) {
       case "plus": 
         resultado = resultado + numbers[i]; break;
       case "minus":

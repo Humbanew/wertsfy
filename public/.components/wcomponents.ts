@@ -49,7 +49,6 @@ import { Component_math_corebase_cosec_method } from "./math/method.cosec";
 import { Component_math_corebase_cosech_method } from "./math/method.cosech";
 import { Component_math_corebase_cotan_method } from "./math/method.cotan";
 import { Component_math_corebase_cotanh_method } from "./math/method.cotanh";
-
 import { Component_math_corebase_pow_method } from "./math/method.pow";
 import { Component_math_corebase_powofpow_method } from "./math/method.powofpow";
 import { Component_math_corebase_min_method } from "./math/method.min";
@@ -275,7 +274,6 @@ export namespace LibraryMath {
   let lm_cotanh: WComponentFunction = {
     src: Component_math_corebase_cotanh_method
   }; export const cotanh = lm_cotanh.src;
-
 
   let lm_pow: WComponentFunction = {
     src: Component_math_corebase_pow_method

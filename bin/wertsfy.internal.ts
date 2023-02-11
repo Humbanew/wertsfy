@@ -1,7 +1,7 @@
-import { Wertsfy } from "../development/wertsfy";
+import { wertsfy } from "../public/wertsfy";
 
 namespace WertsfyActualArch {
-  export let core = Wertsfy;
+  export let core = wertsfy;
 }
 
 class WERTSFY_CLOUD_STRUCTURE { }

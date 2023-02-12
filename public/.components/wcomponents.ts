@@ -60,6 +60,7 @@ export namespace LibraryMath {
     src: { object: { collections: { sqrt_cbrt: WComponents.Mathematic.cubic_root_constant_collection } } }
   }; export const CubicRoot = lm_cubic_root.src.object.collections.sqrt_cbrt;
 
+  // Arrumar aqui.
   let lm_abs: WComponentFunction = {
     src: WComponents.Mathematic.abs_method
   }; export const abs = lm_abs.src;

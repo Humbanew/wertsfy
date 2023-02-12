@@ -4,61 +4,61 @@ import { WComponents } from "./wcimport";
 
 export namespace LibraryMath {
   
-  let lm_avogrado: WComponentNumber = {
-    src: WComponents.Mathematic.avogadro_constant
-  }; export const Avogrado = lm_avogrado.src;
+  let lm_avogrado: WComponent = {
+    src: { number: WComponents.Mathematic.avogadro_constant }
+  }; export const Avogrado = lm_avogrado.src.number;
   
-  let lm_euler: WComponentNumber = { 
-    src: WComponents.Mathematic.euler_constant
-  }; export const Euler = lm_euler.src;
+  let lm_euler: WComponent = { 
+    src: { number: WComponents.Mathematic.euler_constant }
+  }; export const Euler = lm_euler.src.number;
 
-  let lm_logarithm2: WComponentNumber = {
-    src: WComponents.Mathematic.logarithm2_constant
-  }; export const Logarithm2 = lm_logarithm2.src;
+  let lm_logarithm2: WComponent = {
+    src: { number: WComponents.Mathematic.logarithm2_constant }
+  }; export const Logarithm2 = lm_logarithm2.src.number;
 
-  let lm_logarithm2e: WComponentNumber = {
-    src: WComponents.Mathematic.logarithm2e_constant
-  }; export const Logarithm2e = lm_logarithm2e.src;
+  let lm_logarithm2e: WComponent = {
+    src: { number: WComponents.Mathematic.logarithm2e_constant }
+  }; export const Logarithm2e = lm_logarithm2e.src.number;
 
-  let lm_logarithm10: WComponentNumber = {
-    src: WComponents.Mathematic.logarithm10_constant
-  }; export const Logarithm10 = lm_logarithm10.src;
+  let lm_logarithm10: WComponent = {
+    src: { number: WComponents.Mathematic.logarithm10_constant }
+  }; export const Logarithm10 = lm_logarithm10.src.number;
 
-  let lm_logarithm10e: WComponentNumber = {
-    src: WComponents.Mathematic.logarithm10e_constant
-  }; export const Logarithm10e = lm_logarithm10e.src;
+  let lm_logarithm10e: WComponent = {
+    src: { number: WComponents.Mathematic.logarithm10e_constant }
+  }; export const Logarithm10e = lm_logarithm10e.src.number;
 
-  let lm_maxvalue: WComponentNumber = {
-    src: WComponents.Mathematic.maxvalue_constant
-  }; export const Maxvalue = lm_maxvalue.src;
+  let lm_maxvalue: WComponent = {
+    src: { number: WComponents.Mathematic.maxvalue_constant }
+  }; export const Maxvalue = lm_maxvalue.src.number;
 
-  let lm_minvalue: WComponentNumber = {
-    src: WComponents.Mathematic.minvalue_constant
-  }; export const Minvalue = lm_minvalue.src;
+  let lm_minvalue: WComponent = {
+    src: { number: WComponents.Mathematic.minvalue_constant }
+  }; export const Minvalue = lm_minvalue.src.number;
 
-  let lm_newton: WComponentNumber = {
-    src: WComponents.Mathematic.newton_constant
-  }; export const Newton = lm_newton.src;
+  let lm_newton: WComponent = {
+    src: { number: WComponents.Mathematic.newton_constant }
+  }; export const Newton = lm_newton.src.number;
 
-  let lm_pi: WComponentNumber = { 
-    src: WComponents.Mathematic.pi_constant 
-  }; export const Pi = lm_pi.src;
+  let lm_pi: WComponent = { 
+    src: { number: WComponents.Mathematic.pi_constant } 
+  }; export const Pi = lm_pi.src.number;
   
-  let lm_plank: WComponentNumber = {
-    src: WComponents.Mathematic.plank_constant
-  }; export const Plank = lm_plank.src;
+  let lm_plank: WComponent = {
+    src: { number: WComponents.Mathematic.plank_constant }
+  }; export const Plank = lm_plank.src.number;
 
-  let lm_testa: WComponentNumber = {
-    src: WComponents.Mathematic.tesla_constant
-  }; export const Tesla = lm_testa.src;
+  let lm_testa: WComponent = {
+    src: { number: WComponents.Mathematic.tesla_constant }
+  }; export const Tesla = lm_testa.src.number;
 
-  let lm_square_root: WComponentObject = {
-    src: { collections: { sqrt_cbrt: WComponents.Mathematic.square_root_constant_collection } }
-  }; export const SquareRoot = lm_square_root.src.collections.sqrt_cbrt;
+  let lm_square_root: WComponent = {
+    src: { object: {collections: { sqrt_cbrt: WComponents.Mathematic.square_root_constant_collection } } }
+  }; export const SquareRoot = lm_square_root.src.object.collections.sqrt_cbrt;
 
-  let lm_cubic_root: WComponentObject = {
-    src: { collections: { sqrt_cbrt: WComponents.Mathematic.cubic_root_constant_collection } }
-  }; export const CubicRoot = lm_cubic_root.src.collections.sqrt_cbrt;
+  let lm_cubic_root: WComponent = {
+    src: { object: { collections: { sqrt_cbrt: WComponents.Mathematic.cubic_root_constant_collection } } }
+  }; export const CubicRoot = lm_cubic_root.src.object.collections.sqrt_cbrt;
 
   let lm_abs: WComponentFunction = {
     src: WComponents.Mathematic.abs_method
@@ -309,9 +309,9 @@ export namespace LibraryMath {
 /** @emits Not Implemented **[98%]** */
 namespace LibraryCalculator {
 
-  let lc_shortcuts: WComponentObject = {
-    src: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } }
-  }; export const Shortcuts = lc_shortcuts.src.collections.shortcuts;
+  // let lc_shortcuts: WComponentObject = {
+  //   src: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } }
+  // }; export const Shortcuts = lc_shortcuts.src.collections.shortcuts;
 
   let lc_common: WComponentFunction = {
     src: WComponents.Calculator.common_method

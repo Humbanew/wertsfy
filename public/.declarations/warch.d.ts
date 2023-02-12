@@ -1,18 +1,9 @@
-declare interface WComponentNumber {
-  src: number;
-}
-
-declare interface WComponentString {
-  src: string;
-}
-
-// vulnerabilidade encontrada: qualquer tipo de função pode ser usada pelo componente.
 declare interface WComponentFunction { 
   src: Function;
 }
 
-declare interface WComponentObject {
-  src: { collections: { sqrt_cbrt?: WConstSqrtCbrtCollectionObject, shortcuts?: WConstShortcutsCollectionObject } };
+declare interface WComponent {
+  src: { number?: number, string?: string, function?: Function, object?: { collections: { sqrt_cbrt?: WConstSqrtCbrtCollectionObject, shortcuts?: WConstShortcutsCollectionObject } }, regex?: undefined };
 }
 
 declare type WConstSqrtCbrtCollectionObject = { 

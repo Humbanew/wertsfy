@@ -310,9 +310,9 @@ export namespace LibraryMath {
 /** @emits Not Implemented **[98%]** */
 namespace LibraryCalculator {
 
-  // let lc_shortcuts: WComponentObject = {
-  //   src: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } }
-  // }; export const Shortcuts = lc_shortcuts.src.collections.shortcuts;
+  let lc_shortcuts: WComponent = {
+    src: { object: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } } }
+  }; export const Shortcuts = lc_shortcuts.src.object.collections.shortcuts;
 
   let lc_common: WComponentFunction = {
     src: WComponents.Calculator.common_method

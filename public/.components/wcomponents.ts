@@ -314,13 +314,13 @@ namespace LibraryCalculator {
     src: { object: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } } }
   }; export const Shortcuts = lc_shortcuts.src.object.collections.shortcuts;
 
-  let lc_common: WComponentFunction = {
-    src: WComponents.Calculator.common_method
-  }; export const common = lc_common.src;
+  let lc_common: WComponent = {
+    src: { function: WComponents.Calculator.common_method }
+  }; export const common = lc_common.src.function;
 
-  let lc_advanced: WComponentFunction = {
-    src: WComponents.Calculator.advanced_method
-  }; export const advanced = lc_advanced.src;
+  let lc_advanced: WComponent = {
+    src: { function: WComponents.Calculator.advanced_method }
+  }; export const advanced = lc_advanced.src.function;
 
 }
 

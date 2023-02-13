@@ -160,150 +160,149 @@ export namespace LibraryMath {
     src: { function: WComponents.Mathematic.cos_method }
   }; export const cos = lm_cos.src.function;
 
-  // Arrumar aqui.
   let lm_cosh: WComponent = {
-    src: WComponents.Mathematic.cosh_method
-  }; export const cosh = lm_cosh.src;
+    src: { function: WComponents.Mathematic.cosh_method }
+  }; export const cosh = lm_cosh.src.function;
 
   let lm_tan: WComponent = {
-    src: WComponents.Mathematic.tan_method
-  }; export const tan = lm_tan.src;
+    src: { function: WComponents.Mathematic.tan_method }
+  }; export const tan = lm_tan.src.function;
 
   let lm_tanh: WComponent = {
-    src: WComponents.Mathematic.tanh_method
-  }; export const tanh = lm_tanh.src;
+    src: { function: WComponents.Mathematic.tanh_method }
+  }; export const tanh = lm_tanh.src.function;
 
   let lm_sec: WComponent = {
-    src: WComponents.Mathematic.sec_method
-  }; export const sec = lm_sec.src;
+    src: { function: WComponents.Mathematic.sec_method }
+  }; export const sec = lm_sec.src.function;
 
   let lm_sech: WComponent = {
-    src: WComponents.Mathematic.sech_method
-  }; export const sech = lm_sech.src;
+    src: { function: WComponents.Mathematic.sech_method }
+  }; export const sech = lm_sech.src.function;
 
   let lm_cosec: WComponent = {
-    src: WComponents.Mathematic.cosec_method
-  }; export const cosec = lm_cosec.src;
+    src: { function: WComponents.Mathematic.cosec_method }
+  }; export const cosec = lm_cosec.src.function;
 
   let lm_cosech: WComponent = {
-    src: WComponents.Mathematic.cosech_method
-  }; export const cosech = lm_cosech.src;
+    src: { function: WComponents.Mathematic.cosech_method }
+  }; export const cosech = lm_cosech.src.function;
 
   let lm_cotan: WComponent = {
-    src: WComponents.Mathematic.cotan_method
-  }; export const cotan = lm_cotan.src;
+    src: { function: WComponents.Mathematic.cotan_method }
+  }; export const cotan = lm_cotan.src.function;
 
   let lm_cotanh: WComponent = {
-    src: WComponents.Mathematic.cotanh_method
-  }; export const cotanh = lm_cotanh.src;
+    src: { function: WComponents.Mathematic.cotanh_method }
+  }; export const cotanh = lm_cotanh.src.function;
 
   let lm_pow: WComponent = {
-    src: WComponents.Mathematic.pow_method
-  }; export const pow = lm_pow.src;
+    src: { function: WComponents.Mathematic.pow_method }
+  }; export const pow = lm_pow.src.function;
 
   let lm_powofpow: WComponent = {
-    src: WComponents.Mathematic.powofpow_method
-  }; export const powofpow = lm_powofpow.src;
+    src: { function: WComponents.Mathematic.powofpow_method }
+  }; export const powofpow = lm_powofpow.src.function;
 
   let lm_min: WComponent = {
-    src: WComponents.Mathematic.min_method
-  }; export const min = lm_min.src;
+    src: { function: WComponents.Mathematic.min_method }
+  }; export const min = lm_min.src.function;
 
   let lm_max: WComponent = {
-    src: WComponents.Mathematic.max_method
-  }; export const max = lm_max.src;
+    src: { function: WComponents.Mathematic.max_method }
+  }; export const max = lm_max.src.function;
 
   let lm_random: WComponent = {
-    src: WComponents.Mathematic.random_method
-  }; export const random = lm_random.src;
+    src: { function: WComponents.Mathematic.random_method }
+  }; export const random = lm_random.src.function;
 
   let lm_log: WComponent = {
-    src: WComponents.Mathematic.log_method
-  }; export const log = lm_log.src;
+    src: { function: WComponents.Mathematic.log_method }
+  }; export const log = lm_log.src.function;
 
   let lm_logm1: WComponent = {
-    src: WComponents.Mathematic.logm1_method
-  }; export const logm1 = lm_logm1.src;
+    src: { function: WComponents.Mathematic.logm1_method }
+  }; export const logm1 = lm_logm1.src.function;
 
   let lm_logp1: WComponent = {
-    src: WComponents.Mathematic.logp1_method
-  }; export const logp1 = lm_logp1.src;
+    src: { function: WComponents.Mathematic.logp1_method }
+  }; export const logp1 = lm_logp1.src.function;
 
   let lm_log2: WComponent = {
-    src: WComponents.Mathematic.log2_method
-  }; export const log2 = lm_log2.src;
+    src: { function: WComponents.Mathematic.log2_method }
+  }; export const log2 = lm_log2.src.function;
 
   let lm_log2m1: WComponent = {
-    src: WComponents.Mathematic.log2m1_method
-  }; export const log2m1 = lm_log2m1.src;
+    src: { function: WComponents.Mathematic.log2m1_method }
+  }; export const log2m1 = lm_log2m1.src.function;
 
   let lm_log2p1: WComponent = {
-    src: WComponents.Mathematic.log2p1_method
-  }; export const log2p1 = lm_log2p1.src;
+    src: { function: WComponents.Mathematic.log2p1_method }
+  }; export const log2p1 = lm_log2p1.src.function;
 
   let lm_logx: WComponent = {
-    src: WComponents.Mathematic.logx_method
-  }; export const logx = lm_logx.src;
+    src: { function: WComponents.Mathematic.logx_method }
+  }; export const logx = lm_logx.src.function;
 
   let lm_logxm1: WComponent = {
-    src: WComponents.Mathematic.logxm1_method
-  }; export const logxm1 = lm_logxm1.src;
+    src: { function: WComponents.Mathematic.logxm1_method }
+  }; export const logxm1 = lm_logxm1.src.function;
 
   let lm_logxp1: WComponent = {
-    src: WComponents.Mathematic.logxp1_method
-  }; export const logxp1 = lm_logxp1.src;
+    src: { function: WComponents.Mathematic.logxp1_method }
+  }; export const logxp1 = lm_logxp1.src.function;
 
   let lm_ln: WComponent = {
-    src: WComponents.Mathematic.ln_method
-  }; export const ln = lm_ln.src;
+    src: { function: WComponents.Mathematic.ln_method }
+  }; export const ln = lm_ln.src.function;
 
   let lm_lnm1: WComponent = {
-    src: WComponents.Mathematic.lnm1_method
-  }; export const lnm1 = lm_lnm1.src;
+    src: { function: WComponents.Mathematic.lnm1_method }
+  }; export const lnm1 = lm_lnm1.src.function;
 
   let lm_lnp1: WComponent = {
-    src: WComponents.Mathematic.lnp1_method
-  }; export const lnp1 = lm_lnp1.src;
+    src: { function: WComponents.Mathematic.lnp1_method }
+  }; export const lnp1 = lm_lnp1.src.function;
 
   let lm_exp: WComponent = {
-    src: WComponents.Mathematic.exp_method
-  }; export const exp = lm_exp.src;
+    src: { function: WComponents.Mathematic.exp_method }
+  }; export const exp = lm_exp.src.function;
 
   let lm_expm1: WComponent = {
-    src: WComponents.Mathematic.expm1_method
-  }; export const expm1 = lm_expm1.src;
+    src: { function: WComponents.Mathematic.expm1_method }
+  }; export const expm1 = lm_expm1.src.function;
 
   let lm_expp1: WComponent = {
-    src: WComponents.Mathematic.expp1_method
-  }; export const expp1 = lm_expp1.src;
+    src: { function: WComponents.Mathematic.expp1_method }
+  }; export const expp1 = lm_expp1.src.function;
 
   let lm_round: WComponent = {
-    src: WComponents.Mathematic.round_method
-  }; export const round = lm_round.src;
+    src: { function: WComponents.Mathematic.round_method }
+  }; export const round = lm_round.src.function;
 
   let lm_fround: WComponent = {
-    src: WComponents.Mathematic.fround_method
-  }; export const fround = lm_fround.src;
+    src: { function: WComponents.Mathematic.fround_method }
+  }; export const fround = lm_fround.src.function;
 
   let lm_floor: WComponent = {
-    src: WComponents.Mathematic.floor_method
-  }; export const floor = lm_floor.src;
+    src: { function: WComponents.Mathematic.floor_method }
+  }; export const floor = lm_floor.src.function;
 
   let lm_ceil: WComponent = {
-    src: WComponents.Mathematic.ceil_method
-  }; export const ceil = lm_ceil.src;
+    src: { function: WComponents.Mathematic.ceil_method }
+  }; export const ceil = lm_ceil.src.function;
 
   let lm_imul: WComponent = {
-    src: WComponents.Mathematic.imul_method
-  }; export const imul = lm_imul.src;
+    src: { function: WComponents.Mathematic.imul_method }
+  }; export const imul = lm_imul.src.function;
 
   let lm_sign: WComponent = {
-    src: WComponents.Mathematic.sign_method
-  }; export const sign = lm_sign.src;
+    src: { function: WComponents.Mathematic.sign_method }
+  }; export const sign = lm_sign.src.function;
 
   let lm_trunc: WComponent = {
-    src: WComponents.Mathematic.trunc_method
-  }; export const trunc = lm_trunc.src;
+    src: { function: WComponents.Mathematic.trunc_method }
+  }; export const trunc = lm_trunc.src.function;
 
 }
 

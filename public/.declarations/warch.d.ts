@@ -1,9 +1,5 @@
-declare interface WComponentFunction { 
-  src: Function;
-}
-
 declare interface WComponent {
-  src: { number?: number, string?: string, function?: Function, object?: { collections: { sqrt_cbrt?: WConstSqrtCbrtCollectionObject, shortcuts?: WConstShortcutsCollectionObject } }, regex?: undefined };
+  src: { number?: number, string?: string, function?: Function, object?: { collections: { sqrt_cbrt?: WConstSqrtCbrtCollectionObject, shortcuts?: WConstShortcutsCollectionObject } }, regex?: undefined, html?: undefined };
 }
 
 declare type WConstSqrtCbrtCollectionObject = { 

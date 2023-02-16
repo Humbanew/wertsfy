@@ -3,7 +3,7 @@
 ---
 
 <div align=center>
-
-![Wertsfy Internal Capsulated-Expanced Edition Logo](https://user-images.githubusercontent.com/59739253/212448239-e3904f48-e963-4d0a-bfcd-b76bcbd9709b.png)
+  
+![Wertsfy Internal Capsulated-Expanced Edition Logo](https://user-images.githubusercontent.com/59739253/219502111-84967917-bd6b-48de-893d-8a6f114b92a7.png)
 
 </div>

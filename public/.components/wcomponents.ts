@@ -307,7 +307,7 @@ export namespace LibraryMath {
 }
 
 /** @emits Not Implemented **[98%]** */
-namespace LibraryCalculator {
+export namespace LibraryCalculator {
 
   let lc_shortcuts: WComponent = {
     src: { object: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } } }
@@ -320,6 +320,8 @@ namespace LibraryCalculator {
   let lc_advanced: WComponent = {
     src: { function: WComponents.Calculator.advanced_method }
   }; export const advanced = lc_advanced.src.function;
+
+  export namespace Expressions {  }; 
 
 }
 

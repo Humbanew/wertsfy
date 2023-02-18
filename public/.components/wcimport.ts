@@ -98,6 +98,10 @@ import { Component_math_calculator_exp_eq_horaria_velocidade_movimento_harmonico
 import { Component_math_calculator_exp_eq_horaria_velocidade_method } from "./calc/expression.eq-horaria-velocidade";
 import { Component_math_calculator_exp_eq_lagrange_method } from "./calc/expression.eq-lagrange";
 import { Component_math_calculator_exp_eq_torricelli_method } from "./calc/expression.eq-torricelli";
+import { Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method } from "./calc/expression.calc-acel-centrip-mcu";
+import { Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_x_method } from "./calc/expression.calc-aceleracao-plano-inclinado-eixo-x";
+import { Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_y_method } from "./calc/expression.calc-aceleracao-plano-inclinado-eixo-y";
+import { Component_math_calculator_exp_calc_aceleracao_method } from "./calc/expression.calc-aceleracao";
 
 export namespace WComponents {
 
@@ -186,6 +190,12 @@ export namespace WComponents {
     shortcuts_constant: Component_math_calculator_shortcuts_constant
     , common_method: Component_math_calculator_common_method
     , advanced_method: Component_math_calculator_advanced_method
+
+    , exp_calc_aceleracao_centripeta_mcu_method: Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method
+    , exp_calc_aceleracao_plano_inclinado_eixo_x_method: Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_x_method
+    , exp_calc_aceleracao_plano_inclinado_eixo_y_method: Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_y_method
+    , exp_calc_aceleracao_method: Component_math_calculator_exp_calc_aceleracao_method
+    
 
     , exp_eq_horaria_aceleracao_mhs_method: Component_math_calculator_exp_eq_horaria_aceleracao_movimento_harmonico_simples_method
     , exp_eq_horaria_aceleracao_method: Component_math_calculator_exp_eq_horaria_aceleracao_method

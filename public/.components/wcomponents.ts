@@ -313,105 +313,105 @@ export namespace LibraryCalculator {
     src: { object: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } } }
   }; export const Shortcuts = lc_shortcuts.src.object.collections.shortcuts;
 
-  let lc_common: WComponent = {
-    src: { function: WComponents.Calculator.common_method }
-  }; export const common = lc_common.src.function;
+  // let lc_common: WComponent = {
+  //   src: { function: WComponents.Calculator.common_method }
+  // }; export const common = lc_common.src.function;
 
-  let lc_advanced: WComponent = {
-    src: { function: WComponents.Calculator.advanced_method }
-  }; export const advanced = lc_advanced.src.function;
+  // let lc_advanced: WComponent = {
+  //   src: { function: WComponents.Calculator.advanced_method }
+  // }; export const advanced = lc_advanced.src.function;
 
-  export namespace Expressions {
+  // export namespace Expressions {
 
-    let lc_exp_eq_horaria_aceleracao_mhs: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_aceleracao_mhs_method }
-    }; export const expEqHorariaAceleracaoMHS = lc_exp_eq_horaria_aceleracao_mhs.src.function;
+  //   let lc_exp_eq_horaria_aceleracao_mhs: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_aceleracao_mhs_method }
+  //   }; export const expEqHorariaAceleracaoMHS = lc_exp_eq_horaria_aceleracao_mhs.src.function;
 
-    let lc_exp_eq_horaria_aceleracao: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_aceleracao_method }
-    }; export const expEqHorariaAceleracao = lc_exp_eq_horaria_aceleracao.src.function; 
+  //   let lc_exp_eq_horaria_aceleracao: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_aceleracao_method }
+  //   }; export const expEqHorariaAceleracao = lc_exp_eq_horaria_aceleracao.src.function; 
 
-    let lc_exp_eq_horaria_espaco_mcuv: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_espaco_mcuv_method }
-    }; export const expEqHorariaEspacoMCUV = lc_exp_eq_horaria_espaco_mcuv.src.function;
+  //   let lc_exp_eq_horaria_espaco_mcuv: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_espaco_mcuv_method }
+  //   }; export const expEqHorariaEspacoMCUV = lc_exp_eq_horaria_espaco_mcuv.src.function;
 
-    let lc_exp_eq_horaria_espaco: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_espaco_method }
-    }; export const expEqHorariaEspaco = lc_exp_eq_horaria_espaco.src.function;
+  //   let lc_exp_eq_horaria_espaco: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_espaco_method }
+  //   }; export const expEqHorariaEspaco = lc_exp_eq_horaria_espaco.src.function;
 
-    let lc_exp_eq_horaria_forca: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_forca_method }
-    }; export const expEqHorariaForca = lc_exp_eq_horaria_forca.src.function; 
+  //   let lc_exp_eq_horaria_forca: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_forca_method }
+  //   }; export const expEqHorariaForca = lc_exp_eq_horaria_forca.src.function; 
 
-    let lc_exp_eq_horaria_posicao_mhs: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_posicao_mhs_method }
-    }; export const expEqHorariaPosMHS = lc_exp_eq_horaria_posicao_mhs.src.function; 
+  //   let lc_exp_eq_horaria_posicao_mhs: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_posicao_mhs_method }
+  //   }; export const expEqHorariaPosMHS = lc_exp_eq_horaria_posicao_mhs.src.function; 
 
-    let lc_exp_eq_horaria_tempo_mcuv: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_tempo_mcuv_method }
-    }; export const expEqHorariaTempoMCUV = lc_exp_eq_horaria_tempo_mcuv.src.function;
+  //   let lc_exp_eq_horaria_tempo_mcuv: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_tempo_mcuv_method }
+  //   }; export const expEqHorariaTempoMCUV = lc_exp_eq_horaria_tempo_mcuv.src.function;
 
-    let lc_exp_eq_horaria_tempo: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_tempo_method }
-    }; export const expEqHorariaTempo = lc_exp_eq_horaria_tempo.src.function;
+  //   let lc_exp_eq_horaria_tempo: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_tempo_method }
+  //   }; export const expEqHorariaTempo = lc_exp_eq_horaria_tempo.src.function;
 
-    let lc_exp_eq_horaria_espaco_tempo: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_tempoespaco_method }
-    }; export const expEqHorariaEspacoTempo = lc_exp_eq_horaria_espaco_tempo.src.function;
+  //   let lc_exp_eq_horaria_espaco_tempo: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_tempoespaco_method }
+  //   }; export const expEqHorariaEspacoTempo = lc_exp_eq_horaria_espaco_tempo.src.function;
 
-    let lc_exp_eq_horaria_velocidade_mhs: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_velocidade_mhs_method }
-    }; export const expEqHorariaVelocidadeMHS = lc_exp_eq_horaria_velocidade_mhs.src.function;
+  //   let lc_exp_eq_horaria_velocidade_mhs: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_velocidade_mhs_method }
+  //   }; export const expEqHorariaVelocidadeMHS = lc_exp_eq_horaria_velocidade_mhs.src.function;
 
-    let lc_exp_eq_horaria_velocidade: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_horaria_velocidade_method }
-    }; export const expEqHorariaVelocidade = lc_exp_eq_horaria_velocidade.src.function;
+  //   let lc_exp_eq_horaria_velocidade: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_horaria_velocidade_method }
+  //   }; export const expEqHorariaVelocidade = lc_exp_eq_horaria_velocidade.src.function;
 
-    let lc_exp_eq_lagrange: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_lagrange_method }
-    }; export const expEqLagrange = lc_exp_eq_lagrange.src.function;
+  //   let lc_exp_eq_lagrange: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_lagrange_method }
+  //   }; export const expEqLagrange = lc_exp_eq_lagrange.src.function;
 
-    let lc_exp_eq_torricelli: WComponent = {
-      src: { function: WComponents.Calculator.exp_eq_torricelli_method }
-    }; export const expEqTorricelli = lc_exp_eq_torricelli.src.function;
+  //   let lc_exp_eq_torricelli: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_eq_torricelli_method }
+  //   }; export const expEqTorricelli = lc_exp_eq_torricelli.src.function;
 
-    let lc_exp_teo_boltzmann: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_boltzmann_method }
-    }; export const expTeoBoltzmann = lc_exp_teo_boltzmann.src.function;
+  //   let lc_exp_teo_boltzmann: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_boltzmann_method }
+  //   }; export const expTeoBoltzmann = lc_exp_teo_boltzmann.src.function;
 
-    let lc_exp_teo_coulomb: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_coulomb_method }
-    }; export const expTeoCoulomb = lc_exp_teo_coulomb.src.function;
+  //   let lc_exp_teo_coulomb: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_coulomb_method }
+  //   }; export const expTeoCoulomb = lc_exp_teo_coulomb.src.function;
 
-    let lc_exp_teo_girard: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_girard_method }
-    }; export const expTeoGirard = lc_exp_teo_girard.src.function;
+  //   let lc_exp_teo_girard: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_girard_method }
+  //   }; export const expTeoGirard = lc_exp_teo_girard.src.function;
 
-    let lc_exp_teo_pascal: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_pascal_method }
-    }; export const expTeoPascal = lc_exp_teo_pascal.src.function;
+  //   let lc_exp_teo_pascal: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_pascal_method }
+  //   }; export const expTeoPascal = lc_exp_teo_pascal.src.function;
 
-    let lc_exp_teo_pitagoras: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_pitagoras_method }
-    }; export const expTeoPitagoras = lc_exp_teo_pitagoras.src.function;
+  //   let lc_exp_teo_pitagoras: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_pitagoras_method }
+  //   }; export const expTeoPitagoras = lc_exp_teo_pitagoras.src.function;
 
-    let lc_exp_teo_plank: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_plank_method }
-    }; export const expTeoPlank = lc_exp_teo_plank.src.function;
+  //   let lc_exp_teo_plank: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_plank_method }
+  //   }; export const expTeoPlank = lc_exp_teo_plank.src.function;
 
-    let lc_exp_teo_stevin: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_stevin_method }
-    }; export const expTeoStevin = lc_exp_teo_stevin.src.function;
+  //   let lc_exp_teo_stevin: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_stevin_method }
+  //   }; export const expTeoStevin = lc_exp_teo_stevin.src.function;
 
-    let lc_exp_teo_stirling: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_stirling_method }
-    }; export const expTeoStirling = lc_exp_teo_stirling.src.function;
+  //   let lc_exp_teo_stirling: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_stirling_method }
+  //   }; export const expTeoStirling = lc_exp_teo_stirling.src.function;
 
-    let lc_exp_teo_tales_de_mileto: WComponent = {
-      src: { function: WComponents.Calculator.exp_teo_tales_de_mileto_method }
-    }; export const expTeoTalesDeMileto = lc_exp_teo_tales_de_mileto.src.function;
+  //   let lc_exp_teo_tales_de_mileto: WComponent = {
+  //     src: { function: WComponents.Calculator.exp_teo_tales_de_mileto_method }
+  //   }; export const expTeoTalesDeMileto = lc_exp_teo_tales_de_mileto.src.function;
 
-  }; 
+  // }; 
 
 }
 

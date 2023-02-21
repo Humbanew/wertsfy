@@ -280,16 +280,22 @@ export namespace WComponents {
     , common_method: Component_math_calculator_common_method
     , advanced_method: Component_math_calculator_advanced_method
 
-    , teo_girard_method: Component_math_calculator_exp_teo_girard_method
+    , exp_teo_girard_method: Component_math_calculator_exp_teo_girard_method
+    , exp_teo_tales_de_mileto_method: Component_math_calculator_exp_teo_tales_mileto_method
+    , exp_teo_pitagoras_method: Component_math_calculator_exp_teo_pitagoras_method
+    , exp_teo_stirling_method: Component_math_calculator_exp_teo_stirling_method
+    , exp_teo_pascal_method: Component_math_calculator_exp_teo_pascal_method
+    , exp_teo_stevin_method: Component_math_calculator_exp_teo_stevin_method
+    , exp_teo_boltzmann_method: Component_math_calculator_exp_teo_boltzmann_method
+    , exp_teo_coulomb_method: Component_math_calculator_exp_teo_coulomb_method
+    , exp_teo_plank_method: Component_math_calculator_exp_teo_plank_method
     
-    , teo_TalesMileto: Component_math_calculator_exp_teo_tales_mileto_method
-    , teo_Pitagoras: Component_math_calculator_exp_teo_pitagoras_method
+    // continuar arrumando... 
     , calc_Fatorial: Component_math_calculator_exp_calc_fatorial_method
     , calc_Combinacao: Component_math_calculator_exp_calc_combinacao_method
     , calc_Arranjo: Component_math_calculator_exp_calc_arranjo_method
     , calc_Probabilidade: Component_math_calculator_exp_calc_probabilidade_method
     , calc_ConjugadoNumComplexo: Component_math_calculator_exp_calc_conjugado_numero_complexo_method
-    , teo_Stirling: Component_math_calculator_exp_teo_stirling_method
     , calc_RelacaoEuler: Component_math_calculator_exp_calc_relacao_euler_method
     , calc_PotenciasDeI: Component_math_calculator_exp_calc_potencias_de_i_method
     , calc_Porcentagem: Component_math_calculator_exp_calc_porcentagem_method
@@ -325,11 +331,6 @@ export namespace WComponents {
     , calc_LeisDeNewton: Component_math_calculator_exp_calc_leis_de_newton_method
     , calc_Trabalho: Component_math_calculator_exp_calc_trabalho_method
     , calc_ConsumoDeEnergia: Component_math_calculator_exp_calc_consumo_de_energia_method
-    , teo_Pascal: Component_math_calculator_exp_teo_pascal_method
-    , teo_Stevin: Component_math_calculator_exp_teo_stevin_method
-    , teo_Boltzmann: Component_math_calculator_exp_teo_boltzmann_method
-    , teo_Coulomb: Component_math_calculator_exp_teo_coulomb_method
-    , teo_Plank: Component_math_calculator_exp_teo_plank_method
     , calc_ForcaGravitacional: Component_math_calculator_exp_calc_forca_gravitacional_method
     , calc_AceleracaoCentripetaMovimentoCircularUniforme: Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method
     , calc_VelocidadeAngularMovimentoCircularUniforme: Component_math_calculator_exp_calc_velocidade_angular_movimento_circular_uniforme_method

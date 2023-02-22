@@ -3,12 +3,12 @@
 import { WComponents } from "./wcimport";
 
 export namespace LibraryMath {
-  
+
   let lm_avogrado: WComponent = {
     src: { number: WComponents.Mathematic.avogadro_constant }
   }; export const Avogrado = lm_avogrado.src.number;
-  
-  let lm_euler: WComponent = { 
+
+  let lm_euler: WComponent = {
     src: { number: WComponents.Mathematic.euler_constant }
   }; export const Euler = lm_euler.src.number;
 
@@ -40,10 +40,10 @@ export namespace LibraryMath {
     src: { number: WComponents.Mathematic.newton_constant }
   }; export const Newton = lm_newton.src.number;
 
-  let lm_pi: WComponent = { 
-    src: { number: WComponents.Mathematic.pi_constant } 
+  let lm_pi: WComponent = {
+    src: { number: WComponents.Mathematic.pi_constant }
   }; export const Pi = lm_pi.src.number;
-  
+
   let lm_plank: WComponent = {
     src: { number: WComponents.Mathematic.plank_constant }
   }; export const Plank = lm_plank.src.number;
@@ -53,7 +53,7 @@ export namespace LibraryMath {
   }; export const Tesla = lm_testa.src.number;
 
   let lm_square_root: WComponent = {
-    src: { object: {collections: { sqrt_cbrt: WComponents.Mathematic.square_root_constant_collection } } }
+    src: { object: { collections: { sqrt_cbrt: WComponents.Mathematic.square_root_constant_collection } } }
   }; export const SquareRoot = lm_square_root.src.object.collections.sqrt_cbrt;
 
   let lm_cubic_root: WComponent = {
@@ -103,7 +103,7 @@ export namespace LibraryMath {
   let lm_arccosech: WComponent = {
     src: { function: WComponents.Mathematic.arccosech_method }
   }; export const arccosech = lm_arccosech.src.function;
-  
+
   let lm_arccotan: WComponent = {
     src: { function: WComponents.Mathematic.arccotan_method }
   }; export const arccotan = lm_arccotan.src.function;
@@ -359,15 +359,67 @@ export namespace LibraryCalculator {
       src: { function: WComponents.Calculator.exp_teo_tales_de_mileto_method }
     }; export const expTeoTalesDeMileto = lc_exp_teo_tales_de_mileto.src.function;
 
-  }; 
+    let lc_exp_eqc_horaria_tempo: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_tempo_method }
+    }; export const expEqcHorariaTempo = lc_exp_eqc_horaria_tempo.src.function;
+
+    let lc_exp_eqc_horaria_espaco: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_espaco_method }
+    }; export const expEqcHorariaEspaco = lc_exp_eqc_horaria_espaco.src.function;
+
+    let lc_exp_eqc_horaria_velocidade: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_velocidade_method }
+    }; export const expEqcHorariaVelocidade = lc_exp_eqc_horaria_velocidade.src.function;
+
+    let lc_exp_eqc_horaria_aceleracao: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_aceleracao_method }
+    }; export const expEqcHorariaAceleracao = lc_exp_eqc_horaria_aceleracao.src.function;
+
+    let lc_exp_eqc_horaria_forca: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_forca_method }
+    }; export const expEqcHorariaForca = lc_exp_eqc_horaria_forca.src.function;
+
+    let lc_exp_eqc_horaria_espaco_tempo: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_espaco_tempo_method }
+    }; export const expEqcHorariaEspacoTempo = lc_exp_eqc_horaria_espaco_tempo.src.function;
+
+    let lc_exp_eqc_horaria_tempo_movimento_circular_uniformente_variado: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_tempo_movimento_circular_uniformente_variado_method }
+    }; export const expEqcHorariaTempoMCUV = lc_exp_eqc_horaria_tempo_movimento_circular_uniformente_variado.src.function;
+
+    let lc_exp_eqc_horaria_espaco_movimento_circular_uniformente_variado: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_espaco_movimento_circular_uniformente_variado_method }
+    }; export const expEqcHorariaEspacoMCUV = lc_exp_eqc_horaria_espaco_movimento_circular_uniformente_variado.src.function;
+    
+    let lc_exp_eqc_horaria_posicao_movimento_harmonico_simples: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_posicao_movimento_harmonico_simples_method }
+    }; export const expEqcHorariaPosicaoMHS = lc_exp_eqc_horaria_posicao_movimento_harmonico_simples.src.function;
+    
+    let lc_exp_eqc_horaria_velocidade_movimento_harmonico_simples: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_velocidade_movimento_harmonico_simples_method }
+    }; export const expEqcHorariaVelocidadeMHS = lc_exp_eqc_horaria_velocidade_movimento_harmonico_simples.src.function;
+    
+    let lc_exp_eqc_horaria_aceleracao_movimento_harmonico_simples: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_horaria_aceleracao_movimento_harmonico_simples_method }
+    }; export const expEqcHorariaAceleracaoMHS = lc_exp_eqc_horaria_aceleracao_movimento_harmonico_simples.src.function;
+    
+    let lc_exp_eqc_torricelli: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_torricelli_method }
+    }; export const expEqcHorariaTorricelli = lc_exp_eqc_torricelli.src.function;
+    
+    let lc_exp_eqc_lagrange: WComponent = {
+      src: { function: WComponents.Calculator.exp_eqc_lagrange_method }
+    }; export const expEqcHorariaLagrange = lc_exp_eqc_lagrange.src.function;
+
+  };
 
 }
 
 // Modelo de informação em comentário. 
-  /**
-   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
-   * 
-   * **``Constante [Constant]``**
-   *  
-   * Retorna o valor da raiz quadrada de 1/2. [_Returns the square root of 1/2._]
-   */
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Constante [Constant]``**
+ *  
+ * Retorna o valor da raiz quadrada de 1/2. [_Returns the square root of 1/2._]
+ */

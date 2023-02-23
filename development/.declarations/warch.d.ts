@@ -10,5 +10,3 @@ declare type WConstShortcutsCollectionObject = {
   Pi: number, Euler: number, Log2: number, Log2e: number, Log10: number, Log10e: number
 }
 
-/** @emits Not Implemented */
-declare interface WImportConstructor { }

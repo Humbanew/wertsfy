@@ -374,7 +374,23 @@ declare namespace WSpectralsTerminalOperation { }
 declare namespace WLydrocOperation { }
 
 
-// export var WTCMathCommon: WMathOperation.common;
-// export var WTCMathAdvanced: WMathOperation.advanced;
-// export var WTCMathTrianguloPitagoras: WMathOperation.expressions.TrianguloPitagoras;
-// export var WTCMathOperacoesClassicas: WMathOperation.expressions.OperacoesClassicas;
+export declare namespace WTypes {
+
+  export namespace Logical {
+
+    export var TiposComums: WMathOperation.common, 
+      TiposAvancados: WMathOperation.advanced,
+      PitagorasTriangulos: WMathOperation.expressions.TrianguloPitagoras,
+      OperacoesClassicas: WMathOperation.expressions.OperacoesClassicas,
+      NumerosComplexos: WMathOperation.expressions.NumerosComplexos,
+      TiposPorcentagem: WMathOperation.expressions.Porcentagem,
+      FuncoesCartesianas: WMathOperation.expressions.FuncoesCartesianas,
+      VariaveisPascal: WMathOperation.expressions.VariaveisDePascal,
+      VariaveisTemperatura: WMathOperation.expressions.VariaveisDeTemperatura,
+      VariaveisTitulacao: WMathOperation.expressions.VariaveisDeTitulacao,
+      OperacoesVetores: WMathOperation.expressions.OperacoesVetores,
+      TiposDeterminante: WMathOperation.expressions.Determinante
+
+  }
+
+}

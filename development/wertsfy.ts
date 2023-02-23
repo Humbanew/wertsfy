@@ -23,7 +23,7 @@ export let wertsfy=
    * 
    * **``Biblioteca [Library]``**|**``Calculator``**
    * 
-   * A biblioteca de calculadora. _[The Calculator Library.]_
+   * A biblioteca da Calculadora. _[The Calculator Library.]_
    */
   libcalc: LibraryCalculator
 

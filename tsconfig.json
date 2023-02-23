@@ -1,15 +1,15 @@
 {
-  
+
   "compilerOptions": {
+
     "module": "CommonJS",
     "moduleDetection": "auto",
     "moduleResolution": "nodenext",
-    "baseUrl": ".",
     "target": "ESNext",
     "strict": false,
     "isolatedModules": false,
-    "rootDir": "./",
-    "outDir": "./.dev_result"
-  },
+    "rootDir": "./"
+
+  }
 
 }

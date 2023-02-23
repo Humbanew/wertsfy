@@ -114,15 +114,11 @@ import { Component_math_calculator_exp_calc_concentracao_method } from "./calc/e
 import { Component_math_calculator_exp_calc_conjugado_numero_complexo_method } from "./calc/expression.calc-conjugado-num-complex";
 import { Component_math_calculator_exp_calc_consumo_de_energia_method } from "./calc/expression.calc-consumo-de-energia";
 import { Component_math_calculator_exp_calc_contra_forca_eletromotriz_method } from "./calc/expression.calc-contra-forca-eletromotriz";
-import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method } from "./calc/expression.calc-cossenos-diretores-vetor-r2";
-import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method } from "./calc/expression.calc-cossenos-diretores-vetor-r3";
 import { Component_math_calculator_exp_calc_densidade_method } from "./calc/expression.calc-densidade";
 import { Component_math_calculator_exp_calc_determinante_method } from "./calc/expression.calc-determinante";
 import { Component_math_calculator_exp_calc_dilatacao_linear_method } from "./calc/expression.calc-dilatacao-linear";
 import { Component_math_calculator_exp_calc_dilatacao_superficial_method } from "./calc/expression.calc-dilatacao-superficial";
 import { Component_math_calculator_exp_calc_dilatacao_volumetrica_method } from "./calc/expression.calc-dilatacao-volumetrica";
-import { Component_math_calculator_exp_calc_divisao_vetores_r2_method } from "./calc/expression.calc-divisao-vetores-r2";
-import { Component_math_calculator_exp_calc_divisao_vetores_r3_method } from "./calc/expression.calc-divisao-vetores-r3";
 import { Component_math_calculator_exp_calc_efeito_fotoeletrico_method } from "./calc/expression.calc-efeito-fotoeletrico";
 import { Component_math_calculator_exp_calc_efeito_joule_method } from "./calc/expression.calc-efeito-joule";
 import { Component_math_calculator_exp_calc_empuxo_hidroestatica_hidrodinamica_method } from "./calc/expression.calc-empuxo-hidroestatica-hidrodinamica";
@@ -143,26 +139,18 @@ import { Component_math_calculator_exp_calc_lei_de_ohm_method } from "./calc/exp
 import { Component_math_calculator_lei_geral_dos_gases_method } from "./calc/expression.calc-lei-geral-dos-gases";
 import { Component_math_calculator_exp_calc_leis_de_newton_method } from "./calc/expression.calc-leis-de-newton";
 import { Component_math_calculator_exp_calc_matrizes_method } from "./calc/expression.calc-matrizes";
-import { Component_math_calculator_exp_calc_modulo_vetor_r2_method } from "./calc/expression.calc-modulo-vetor-r2";
-import { Component_math_calculator_exp_calc_modulo_vetor_r3_method } from "./calc/expression.calc-modulo-vetor-r3";
 import { Component_math_calculator_exp_calc_numeros_complexos_method } from "./calc/expression.calc-numeros-complexos";
 import { Component_math_calculator_exp_calc_periodo_method } from "./calc/expression.calc-periodo";
 import { Component_math_calculator_exp_calc_aparente_hidroestatica_hidrodinamica_method } from "./calc/expression.calc-peso-aparente-hidroestatica-hidrodinamica";
 import { Component_math_calculator_exp_calc_plano_inclinado_com_atrito_method } from "./calc/expression.calc-plano-inclinado-com-atrito";
 import { Component_math_calculator_exp_calc_plano_inclinado_sem_atrito_method } from "./calc/expression.calc-plano-inclinado-sem-atrito";
 import { Component_math_calculator_exp_calc_polinomios_method } from "./calc/expression.calc-polinomios";
-import { Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method } from "./calc/expression.calc-ponto-medio-vetor-r2";
-import { Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method } from "./calc/expression.calc-ponto-medio-vetor-r3";
 import { Component_math_calculator_exp_calc_porcentagem_method } from "./calc/expression.calc-porcentagem";
 import { Component_math_calculator_exp_calc_potencial_elastico_method } from "./calc/expression.calc-potencial-elastico";
 import { Component_math_calculator_exp_calc_potencial_mecanico_method } from "./calc/expression.calc-potencial-mecanico";
 import { Component_math_calculator_exp_calc_potencias_de_i_method } from "./calc/expression.calc-potencias-de-i";
 import { Component_math_calculator_exp_calc_principio_fundamental_hidroestatica_hidrodinamica_method } from "./calc/expression.calc-principio-fund-hidroestatica-hidrodinamica";
 import { Component_math_calculator_exp_calc_probabilidade_method } from "./calc/expression.calc-probabilidade";
-import { Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method } from "./calc/expression.calc-produto-escalar-vetores-r2";
-import { Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method } from "./calc/expression.calc-produto-escalar-vetores-r3";
-import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method } from "./calc/expression.calc-projecao-vetor-sobre-outro-vetor-r2";
-import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method } from "./calc/expression.calc-projecao-vetor-sobre-outro-vetor-r3";
 import { Component_math_calculator_exp_calc_quadrado_de_punnet_method } from "./calc/expression.calc-quadrado-de-punnet";
 import { Component_math_calculator_exp_calc_quadrado_de_punnet_extendido_method } from "./calc/expression.calc-quadrado-de-punnet-extendido";
 import { Component_math_calculator_exp_calc_regra_de_tres_composta_method } from "./calc/expression.calc-regra-de-tres-composta";
@@ -174,10 +162,6 @@ import { Component_math_calculator_exp_calc_sinalizacao_quadrantes_method } from
 import { Component_math_calculator_exp_calc_sistema_de_equacoes_method } from "./calc/expression.calc-sistema-de-equacoes";
 import { Component_math_calculator_exp_calc_sistema_de_inequacoes_method } from "./calc/expression.calc-sistema-de-inequacoes";
 import { Component_math_calculator_exp_calc_sistemas_lineares_method } from "./calc/expression.calc-sistemas-lineares";
-import { Component_math_calculator_exp_calc_soma_vetores_r2_method } from "./calc/expression.calc-soma-vetores-r2";
-import { Component_math_calculator_exp_calc_soma_vetores_r3_method } from "./calc/expression.calc-soma-vetores-r3";
-import { Component_math_calculator_exp_calc_subtracao_vetores_r2_method } from "./calc/expression.calc-subtracao-vetores-r2";
-import { Component_math_calculator_exp_calc_subtracao_vetores_r3_method } from "./calc/expression.calc-subtracao-vetores-r3";
 import { Component_math_calculator_exp_calc_temperatura_method } from "./calc/expression.calc-temperatura";
 import { Component_math_calculator_exp_calc_tempo_method } from "./calc/expression.calc-tempo";
 import { Component_math_calculator_exp_calc_titulacao_method } from "./calc/expression.calc-titulacao";
@@ -187,10 +171,7 @@ import { Component_math_calculator_exp_calc_velocidade_angular_movimento_circula
 import { Component_math_calculator_exp_calc_aceleracao_angular_movimento_circular_uniformente_variado_method } from "./calc/expression.calc-vel-ang-mcuv";
 import { Component_math_calculator_exp_calc_velocidade_linear_movimento_circular_uniforme_method } from "./calc/expression.calc-vel-linear-mcu";
 import { Component_math_calculator_exp_calc_velocidade_method } from "./calc/expression.calc-velocidade";
-import { Component_math_calculator_exp_calc_versor_vetor_r2_method } from "./calc/expression.calc-versor-vetor-r2";
-import { Component_math_calculator_exp_calc_versor_vetor_r3_method } from "./calc/expression.calc-versor-vetor-r3";
-import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method } from "./calc/expression.calc-vetor-distancia-entre-dois-pontos-r2";
-import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method } from "./calc/expression.calc-vetor-distancia-entre-dois-pontos-r3";
+import { Component_math_calculator_exp_calc_vetores_ga_method } from "./calc/expression.calc-vetores-ga";
 
 export namespace WComponents {
 
@@ -279,7 +260,6 @@ export namespace WComponents {
     shortcuts_constant: Component_math_calculator_shortcuts_constant
     , common_method: Component_math_calculator_common_method
     , advanced_method: Component_math_calculator_advanced_method
-
     , exp_teo_girard_method: Component_math_calculator_exp_teo_girard_method
     , exp_teo_tales_de_mileto_method: Component_math_calculator_exp_teo_tales_mileto_method
     , exp_teo_pitagoras_method: Component_math_calculator_exp_teo_pitagoras_method
@@ -340,7 +320,7 @@ export namespace WComponents {
     , exp_clc_velocidade_angular_movimento_circular_uniforme_method: Component_math_calculator_exp_calc_velocidade_angular_movimento_circular_uniforme_method
     , exp_clc_velocidade_linear_movimento_circular_uniforme_method: Component_math_calculator_exp_calc_velocidade_linear_movimento_circular_uniforme_method
     , exp_clc_torricelli_movimento_circular_uniformente_variado_method: Component_math_calculator_exp_calc_torricelli_movimento_circular_uniformente_variado_method
-    , exp_clc_velocidade_angular_movimento_circular_uniformente_variado_method: Component_math_calculator_exp_calc_aceleracao_angular_movimento_circular_uniformente_variado_method
+    , exp_clc_aceleracao_angular_movimento_circular_uniformente_variado_method: Component_math_calculator_exp_calc_aceleracao_angular_movimento_circular_uniformente_variado_method
     , exp_clc_frequencia_method: Component_math_calculator_exp_calc_frequencia_method
     , exp_clc_periodo_method: Component_math_calculator_exp_calc_periodo_method
     , exp_clc_temperatura_method: Component_math_calculator_exp_calc_temperatura_method
@@ -371,26 +351,7 @@ export namespace WComponents {
     , exp_clc_numeros_complexos_method: Component_math_calculator_exp_calc_numeros_complexos_method
     , exp_clc_juros_simples_method: Component_math_calculator_juros_simples_method
     , exp_clc_juros_compostos_method: Component_math_calculator_juros_compostos_method
-    , exp_clc_distancia_vetor_entre_dois_pontos_r2_method: Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method
-    , exp_clc_distancia_vetor_entre_dois_pontos_r3_method: Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method
-    , exp_clc_modulo_vetor_r2_method: Component_math_calculator_exp_calc_modulo_vetor_r2_method
-    , exp_clc_modulo_vetor_r3_method: Component_math_calculator_exp_calc_modulo_vetor_r3_method
-    , exp_clc_versor_vetor_r2_method: Component_math_calculator_exp_calc_versor_vetor_r2_method
-    , exp_clc_versor_vetor_r3_method: Component_math_calculator_exp_calc_versor_vetor_r3_method
-    , exp_clc_projecao_vetor_sobre_outro_vetor_r2_method: Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method
-    , exp_clc_projecao_vetor_sobre_outro_vetor_r3_method: Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method
-    , exp_clc_soma_vetores_r2_method: Component_math_calculator_exp_calc_soma_vetores_r2_method
-    , exp_clc_soma_vetores_r3_method: Component_math_calculator_exp_calc_soma_vetores_r3_method
-    , exp_clc_subtracao_vetores_r2_method: Component_math_calculator_exp_calc_subtracao_vetores_r2_method
-    , exp_clc_subtracao_vetores_r3_method: Component_math_calculator_exp_calc_subtracao_vetores_r3_method
-    , exp_clc_produto_escalar_vetores_r2_method: Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method
-    , exp_clc_produto_escalar_vetores_r3_method: Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method
-    , exp_clc_divisao_vetores_r2_method: Component_math_calculator_exp_calc_divisao_vetores_r2_method
-    , exp_clc_divisao_vetores_r3_method: Component_math_calculator_exp_calc_divisao_vetores_r3_method
-    , exp_clc_ponto_medio_vetor_r2_method: Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method
-    , exp_clc_ponto_medio_vetor_r3_method: Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method
-    , exp_clc_cossenos_diretores_vetor_r2_method: Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method
-    , exp_clc_cossenos_diretores_vetor_r3_method: Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method
+    , exp_clc_vetores_ga_method: Component_math_calculator_exp_calc_vetores_ga_method
     , exp_clc_sinalizacao_quadrantes_method: Component_math_calculator_exp_calc_sinalizacao_quadrantes_method
     , exp_clc_sinalizacao_octantes_method: Component_math_calculator_exp_calc_sinalizacao_octantes_method
     , exp_clc_quadrado_de_punnet_method: Component_math_calculator_exp_calc_quadrado_de_punnet_method

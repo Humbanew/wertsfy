@@ -2,7 +2,7 @@
 
 import { WComponents } from "./wcimport";
 
-export namespace LibraryMath {
+export namespace LibraryMathematic {
 
   let lm_avogrado: WComponent = {
     src: { number: WComponents.Mathematic.avogadro_constant }
@@ -306,7 +306,7 @@ export namespace LibraryMath {
 
 }
 
-/** @emits Not Implemented **[98%]** */
+/** @emits Not Implemented **[10%]** */
 export namespace LibraryCalculator {
 
   let lc_shortcuts: WComponent = {
@@ -410,6 +410,303 @@ export namespace LibraryCalculator {
     let lc_exp_eqc_lagrange: WComponent = {
       src: { function: WComponents.Calculator.exp_eqc_lagrange_method }
     }; export const expEqcHorariaLagrange = lc_exp_eqc_lagrange.src.function;
+
+
+    let lc_exp_clc_fatorial: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_fatorial_method }
+    }; export const expClcFatorial = lc_exp_clc_fatorial.src.function;
+    
+    let lc_exp_clc_combinacao: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_combinacao_method }
+    }; export const expClcCombinacao = lc_exp_clc_combinacao.src.function;
+    
+    let lc_exp_clc_arranjo: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_arranjo_method }
+    }; export const expClcArranjo = lc_exp_clc_arranjo.src.function;
+    
+    let lc_exp_clc_probabilidade: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_probabilidade_method }
+    }; export const expClcProbabilidade = lc_exp_clc_probabilidade.src.function;
+    
+    let lc_exp_clc_conjugado_numero_complexo: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_conjugado_numero_complexo_method }
+    }; export const expClcConjugadoNumeroComplexo = lc_exp_clc_conjugado_numero_complexo.src.function;
+
+    let lc_exp_clc_relacao_euler: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_relacao_euler_method }
+    }; export const expClcRelacaoEuler = lc_exp_clc_relacao_euler.src.function;
+
+    let lc_exp_clc_potencias_de_i: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_potencias_de_i_method }
+    }; export const expClcPotenciasDeI = lc_exp_clc_potencias_de_i.src.function;
+
+    let lc_exp_clc_porcentagem: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_porcentagem_method }
+    }; export const expClcPorcentagem = lc_exp_clc_porcentagem.src.function;
+
+    let lc_exp_clc_determinante: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_determinante_method }
+    }; export const expClcDeterminante = lc_exp_clc_determinante.src.function;
+
+    let lc_exp_clc_polinomios: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_polinomios_method }
+    }; export const expClcPolinomios = lc_exp_clc_polinomios.src.function;
+
+    let lc_exp_clc_matrizes: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_matrizes_method }
+    }; export const expClcMatrizes = lc_exp_clc_matrizes.src.function;
+
+    let lc_exp_clc_velocidade: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_velocidade_method }
+    }; export const expClcVelocidade = lc_exp_clc_velocidade.src.function;
+
+    let lc_exp_clc_espaco: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_espaco_method }
+    }; export const expClcEspaco = lc_exp_clc_espaco.src.function;
+
+    let lc_exp_clc_tempo: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_tempo_method }
+    }; export const expClcTempo = lc_exp_clc_tempo.src.function;
+
+    let lc_exp_clc_aceleracao: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_aceleracao_method }
+    }; export const expClcAceleracao = lc_exp_clc_aceleracao.src.function;
+
+    let lc_exp_clc_energia_cinetica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_energia_cinetica_method }
+    }; export const expClcEnergiaCinetica = lc_exp_clc_energia_cinetica.src.function;
+
+    let lc_exp_clc_energia_potencial_elastica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_energia_potencial_elastica_method }
+    }; export const expClcEnergiaPotencialElastica = lc_exp_clc_energia_potencial_elastica.src.function;
+
+    let lc_exp_clc_energia_potencial_gravitacional: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_energia_potencial_gravitacional_method }
+    }; export const expClcEnergiaPotencialGravitacional = lc_exp_clc_energia_potencial_gravitacional.src.function;
+
+    let lc_exp_clc_potencial_mecanico: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_potencial_mecanico_method }
+    }; export const expClcPotencialMecanico = lc_exp_clc_potencial_mecanico.src.function;
+
+    let lc_exp_clc_potencial_elastico: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_potencial_elastico_method }
+    }; export const expClcPotencialElastico = lc_exp_clc_potencial_elastico.src.function;
+
+    let lc_exp_clc_plano_inclinado_sem_atrito: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_plano_inclinado_sem_atrito_method }
+    }; export const expClcPlanoInclinadoSemAtrito = lc_exp_clc_plano_inclinado_sem_atrito.src.function;
+
+    let lc_exp_clc_plano_inclinado_com_atrito: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_plano_inclinado_com_atrito_method }
+    }; export const expClcPlanoInclinadoComAtrito = lc_exp_clc_plano_inclinado_com_atrito.src.function;
+
+    let lc_exp_clc_aceleracao_plano_inclinado_eixo_x: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_aceleracao_plano_inclinado_eixo_x_method }
+    }; export const expClcAceleracaoPlanoInclinadoEixoX = lc_exp_clc_aceleracao_plano_inclinado_eixo_x.src.function;
+
+    let lc_exp_clc_aceleracao_plano_inclinado_eixo_y: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_aceleracao_plano_inclinado_eixo_y_method }
+    }; export const expClcAceleracaoPlanoInclinadoEixoY = lc_exp_clc_aceleracao_plano_inclinado_eixo_y.src.function;
+
+    let lc_exp_clc_lancamento_horizontal: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_lancamento_horizontal_method }
+    }; export const expClcLancamentoHorizontal = lc_exp_clc_lancamento_horizontal.src.function;
+
+    let lc_exp_clc_altura_max_lancamento_vertical: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_altura_max_lancamento_vertical_method }
+    }; export const expClcAlturaMaxLancamentoVertical = lc_exp_clc_altura_max_lancamento_vertical.src.function;
+
+    let lc_exp_clc_alcance_lancamento_vertical: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_alcance_lancamento_vertical_method }
+    }; export const expClcAlcanceLancamentoVertical = lc_exp_clc_alcance_lancamento_vertical.src.function;
+
+    let lc_exp_clc_alcance_max_lancamento_vertical: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_alcance_max_lancamento_vertical_method }
+    }; export const expClcAlcanceMaxLancamentoVertical = lc_exp_clc_alcance_max_lancamento_vertical.src.function;
+
+    let lc_exp_clc_calor_sensivel: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_calor_sensivel_method }
+    }; export const expClcCalorSensivel = lc_exp_clc_calor_sensivel.src.function;
+
+    let lc_exp_clc_calor_latente: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_calor_latente_method }
+    }; export const expClcCalorLatente = lc_exp_clc_calor_latente.src.function;
+
+    let lc_exp_clc_leis_de_newton: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_leis_de_newton_method }
+    }; export const expClcLeisDeNewton = lc_exp_clc_leis_de_newton.src.function;
+
+    let lc_exp_clc_trabalho: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_trabalho_method }
+    }; export const expClcTrabalho = lc_exp_clc_trabalho.src.function;
+
+    let lc_exp_clc_consumo_de_energia: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_consumo_de_energia_method }
+    }; export const expClcConsumoDeEnergia = lc_exp_clc_consumo_de_energia.src.function;
+
+    let lc_exp_clc_forca_gravitacional: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_forca_gravitacional_method }
+    }; export const expClcForcaGravitacional = lc_exp_clc_forca_gravitacional.src.function;
+
+    let lc_exp_clc_aceleracao_centripeta_movimento_circular_uniforme: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_aceleracao_centripeta_movimento_circular_uniforme_method }
+    }; export const expClcAceleracaoCentripetaMCU = lc_exp_clc_aceleracao_centripeta_movimento_circular_uniforme.src.function;
+
+    let lc_exp_clc_velocidade_angular_movimento_circular_uniforme: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_velocidade_angular_movimento_circular_uniforme_method }
+    }; export const expClcVelocidadeAngularMCU = lc_exp_clc_velocidade_angular_movimento_circular_uniforme.src.function;
+
+    let lc_exp_clc_velocidade_linear_movimento_circular_uniforme: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_velocidade_linear_movimento_circular_uniforme_method }
+    }; export const expClcVelocidadeLinearMCU = lc_exp_clc_velocidade_linear_movimento_circular_uniforme.src.function;
+
+    let lc_exp_clc_torricelli_movimento_circular_uniformente_variado: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_torricelli_movimento_circular_uniformente_variado_method }
+    }; export const expClcTorricelliMCUV = lc_exp_clc_torricelli_movimento_circular_uniformente_variado.src.function;
+
+    let lc_exp_clc_aceleracao_angular_movimento_circular_uniformente_variado: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_aceleracao_angular_movimento_circular_uniformente_variado_method }
+    }; export const expClcAceleracaoAngularMCUV = lc_exp_clc_aceleracao_angular_movimento_circular_uniformente_variado.src.function;
+
+    let lc_exp_clc_frequencia: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_frequencia_method }
+    }; export const expClcFrequencia = lc_exp_clc_frequencia.src.function;
+
+    let lc_exp_clc_periodo: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_periodo_method }
+    }; export const expClcPeriodo = lc_exp_clc_periodo.src.function;
+
+    let lc_exp_clc_temperatura: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_temperatura_method }
+    }; export const expClcTemperatura = lc_exp_clc_temperatura.src.function;
+
+    let lc_exp_clc_dilatacao_linear: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_dilatacao_linear_method }
+    }; export const expClcDilatacaoLinear = lc_exp_clc_dilatacao_linear.src.function;
+
+    let lc_exp_clc_dilatacao_superficial: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_dilatacao_superficial_method }
+    }; export const expClcDilatacaoSuperficial = lc_exp_clc_dilatacao_superficial.src.function;
+
+    let lc_exp_clc_dilatacao_volumetrica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_dilatacao_volumetrica_method }
+    }; export const expClcDilatacaoVolumetrica = lc_exp_clc_dilatacao_volumetrica.src.function;
+
+    let lc_exp_clc_principio_fundamental_hidroestatica_hidrodinamica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_principio_fundamental_hidroestatica_hidrodinamica_method }
+    }; export const expClcPrincipioFundamentalHidroestaticaHidrodinamica = lc_exp_clc_principio_fundamental_hidroestatica_hidrodinamica.src.function;
+
+    let lc_exp_clc_empuxo_hidroestatica_hidrodinamica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_empuxo_hidroestatica_hidrodinamica_method }
+    }; export const expClcEmpuxoHidroestaticaHidrodinamica = lc_exp_clc_empuxo_hidroestatica_hidrodinamica.src.function;
+
+    let lc_exp_clc_peso_aparente_hidroestatica_hidrodinamica: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_peso_aparente_hidroestatica_hidrodinamica_method }
+    }; export const expClcPesoAparenteHidroestaticaHidrodinamica = lc_exp_clc_peso_aparente_hidroestatica_hidrodinamica.src.function;
+
+    let lc_exp_clc_atrito: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_atrito_method }
+    }; export const expClcAtrito = lc_exp_clc_atrito.src.function;
+
+    let lc_exp_clc_lei_de_coulomb: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_lei_de_coulomb_method }
+    }; export const expClcLeiDeCoulomb = lc_exp_clc_lei_de_coulomb.src.function;
+
+    let lc_exp_clc_lei_de_ohm: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_lei_de_ohm_method }
+    }; export const expClcLeiDeOhm = lc_exp_clc_lei_de_ohm.src.function;
+
+    let lc_exp_clc_efeito_joule: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_efeito_joule_method }
+    }; export const expClcEfeitoJoule = lc_exp_clc_efeito_joule.src.function;
+
+    let lc_exp_clc_lei_de_lenz: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_lei_de_lenz_method }
+    }; export const expClcLeiDeLenz = lc_exp_clc_lei_de_lenz.src.function;
+
+    let lc_exp_clc_forca_eletromotriz: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_forca_eletromotriz_method }
+    }; export const expClcForcaEletromotriz = lc_exp_clc_forca_eletromotriz.src.function;
+
+    let lc_exp_clc_contra_forca_eletromotriz: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_contra_forca_eletromotriz_method }
+    }; export const expClcContraForcaEletromotriz = lc_exp_clc_contra_forca_eletromotriz.src.function;
+
+    let lc_exp_clc_efeito_fotoeletrico: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_efeito_fotoeletrico_method }
+    }; export const expClcContraEfeitoFotoeletrico = lc_exp_clc_efeito_fotoeletrico.src.function;
+
+    let lc_exp_clc_densidade: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_densidade_method }
+    }; export const expClcDensidade = lc_exp_clc_densidade.src.function;
+
+    let lc_exp_clc_titulacao: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_titulacao_method }
+    }; export const expClcTitulacao = lc_exp_clc_titulacao.src.function;
+
+    let lc_exp_clc_concentracao: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_concentracao_method }
+    }; export const expClcConcentracao = lc_exp_clc_concentracao.src.function;
+
+    let lc_exp_clc_rendimento: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_rendimento_method }
+    }; export const expClcRendimento = lc_exp_clc_rendimento.src.function;
+
+    let lc_exp_clc_lei_dos_gases: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_lei_dos_gases_method }
+    }; export const expClcLeiDosGases = lc_exp_clc_lei_dos_gases.src.function;
+
+    let lc_exp_clc_regra_de_tres_simples: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_regra_de_tres_simples_method }
+    }; export const expClcRegraDeTresSimples = lc_exp_clc_regra_de_tres_simples.src.function;
+
+    let lc_exp_clc_regra_de_tres_composta: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_regra_de_tres_composta_method }
+    }; export const expClcRegraDeTresComposta = lc_exp_clc_regra_de_tres_composta.src.function;
+
+    let lc_exp_clc_sistema_de_equacoes: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_sistema_de_equacoes_method }
+    }; export const expClcSistemaDeEquacoes = lc_exp_clc_sistema_de_equacoes.src.function;
+
+    let lc_exp_clc_sistema_de_inequacoes: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_sistema_de_inequacoes_method }
+    }; export const expClcSistemaDeInequacoes = lc_exp_clc_sistema_de_inequacoes.src.function;
+
+    let lc_exp_clc_sistemas_lineares: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_sistemas_lineares_method }
+    }; export const expClcSistemasLineares = lc_exp_clc_sistemas_lineares.src.function;
+
+    let lc_exp_clc_numeros_complexos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_numeros_complexos_method }
+    }; export const expClcNumerosComplexos = lc_exp_clc_numeros_complexos.src.function;
+
+    let lc_exp_clc_juros_simples: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_juros_simples_method }
+    }; export const expClcJurosSimples = lc_exp_clc_juros_simples.src.function;
+
+    let lc_exp_clc_juros_compostos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_juros_compostos_method }
+    }; export const expClcJurosCompostos = lc_exp_clc_juros_compostos.src.function;
+
+    let lc_exp_clc_vetores_ga: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_vetores_ga_method }
+    }; export const expClcVetoresGA = lc_exp_clc_vetores_ga.src.function;
+
+    let lc_exp_clc_sinalizacao_quadrantes: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_sinalizacao_quadrantes_method }
+    }; export const expClcSinalizacaoQuadrantes = lc_exp_clc_sinalizacao_quadrantes.src.function;
+
+    let lc_exp_clc_sinalizacao_octantes: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_sinalizacao_octantes_method }
+    }; export const expClcSinalizacaoOctantes = lc_exp_clc_sinalizacao_octantes.src.function;
+
+    let lc_exp_clc_quadrado_de_punnet: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_quadrado_de_punnet_method }
+    }; export const expClcQuadradoDePunnet = lc_exp_clc_quadrado_de_punnet.src.function;
+
+    let lc_exp_clc_quadrado_de_punnet_extendido: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_quadrado_de_punnet_extendido_method }
+    }; export const expClcQuadradoDePunnetExtendido = lc_exp_clc_quadrado_de_punnet_extendido.src.function;
 
   };
 

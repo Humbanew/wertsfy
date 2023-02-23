@@ -1,7 +1,7 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
 
-const formulaDoTeoremaDePitagoras = (tipo: WMathOperation.expressions.TrianglePitagoras): number => {
+const formulaDoTeoremaDePitagoras = (tipo: WMathOperation.expressions.TrianguloPitagoras): number => {
   let resultado = 0;
   switch(tipo[0]) {
     case "classic(a and b)":

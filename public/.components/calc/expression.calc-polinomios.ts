@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulasDoCalculoDePolinomios = (tipo: WMathOperation.expressions.ClassicOperations, polinomios: {sent1: string, sent2: string }): string => {
+const formulasDoCalculoDePolinomios = (tipo: WMathOperation.expressions.OperacoesClassicas, polinomios: {sent1: string, sent2: string }): string => {
   let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
   if (verificaSinal != null) { polinomios.sent1.replace("-", ''); }
   if (verificaSinal != null) { polinomios.sent2.replace("-", ''); }

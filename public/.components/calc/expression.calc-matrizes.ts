@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulasDeCalculoDeMatrizes = (tipo: WMathOperation.expressions.ClassicOperations, matriz: { m1: number[][], m2: number[][] }): number[][] => {
+const formulasDeCalculoDeMatrizes = (tipo: WMathOperation.expressions.OperacoesClassicas, matriz: { m1: number[][], m2: number[][] }): number[][] => {
   let resultado: number[][];
   for (let i = 0; i < matriz.m1.length; i++) {
     resultado[i] = [];

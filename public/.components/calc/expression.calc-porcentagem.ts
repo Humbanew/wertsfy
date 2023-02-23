@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulasDoCalculoDePorcentagem = (tipo: WMathOperation.expressions.Porcentage) => {
+const formulasDoCalculoDePorcentagem = (tipo: WMathOperation.expressions.Porcentagem) => {
 
   let resultado = 0;
 

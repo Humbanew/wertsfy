@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulasDoCalculoDeDeterminante = (tipo: WMathOperation.expressions.Determinant): number => {
+const formulasDoCalculoDeDeterminante = (tipo: WMathOperation.expressions.Determinante): number => {
   let resultado: number = 0;
   switch(tipo[0]) {
     case "d2x2":

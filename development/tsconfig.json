@@ -3,12 +3,13 @@
   "compilerOptions": {
     "module": "CommonJS",
     "moduleDetection": "auto",
-    "moduleResolution": "classic",
+    "moduleResolution": "nodenext",
+    "baseUrl": ".",
     "target": "ESNext",
     "strict": false,
     "isolatedModules": false,
     "rootDir": "./",
     "outDir": "./.dev_result"
-  }
+  },
 
 }

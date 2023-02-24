@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulaCalculoDoTeoremaDePascal = (tipo: WMathOperation.expressions.PascalVariables, forca1: number, forca2: number, area1: number, area2: number): number => {
+const formulaCalculoDoTeoremaDePascal = (tipo: WMathOperation.expressions.VariaveisDePascal, forca1: number, forca2: number, area1: number, area2: number): number => {
   let resultado: number = 0;
 
   switch(tipo.formats) {

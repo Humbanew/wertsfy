@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulaCalculoDaTemperatura = (tipo: WMathOperation.expressions.TemperatureVariables, valor: number): number => {
+const formulaCalculoDaTemperatura = (tipo: WMathOperation.expressions.VariaveisDeTemperatura, valor: number): number => {
   let resultado: number = 0;
 
   switch(tipo.formats) {

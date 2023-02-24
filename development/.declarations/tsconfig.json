@@ -1,0 +1,15 @@
+{
+
+  "compilerOptions": {
+
+    "module": "CommonJS",
+    "moduleDetection": "auto",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "strict": false,
+    "isolatedModules": false,
+    "rootDirs": ["./", "../"]
+
+  }
+
+}

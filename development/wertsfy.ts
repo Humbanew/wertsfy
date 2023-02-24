@@ -1,4 +1,4 @@
-import { LibraryMath } from "./.components/wcomponents";
+import { LibraryCalculator, LibraryMathematic } from "./.components/wcomponents";
 
 /**
  * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -16,7 +16,16 @@ export let wertsfy=
    * 
    * A releitura da biblioteca de matemática. _[The rereading of the Mathematics Library.]_
    */
-  libmath: LibraryMath
+  libmath: LibraryMathematic,
+
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Biblioteca [Library]``**|**``Calculator``**
+   * 
+   * A biblioteca da Calculadora. _[The Calculator Library.]_
+   */
+  libcalc: LibraryCalculator
 
 };
 

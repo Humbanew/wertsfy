@@ -8,6 +8,6 @@ ___
 
 <div align="center"> 
   
-  ![Wertsfy Logo Release Beta Edition](https://user-images.githubusercontent.com/59739253/220734970-87133621-2385-4f94-9977-82c166ae7864.png)
+  ![Wertsfy Logo Release Classic Edition](https://user-images.githubusercontent.com/59739253/221073677-ed90f7b1-fd27-4366-9276-bd005b74c0cd.png)
 
 </div>

@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulaCalculoDaTitulacao = (tipo: WMathOperation.expressions.TitrationVariables, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
+const formulaCalculoDaTitulacao = (tipo: WMathOperation.expressions.VariaveisDeTitulacao, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
   let resultado = 0;
 
   switch(tipo.formats) {

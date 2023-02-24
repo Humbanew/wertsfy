@@ -159,203 +159,252 @@ export declare namespace WMathOperation {
     interface OperacoesVetores {
 
       formats: [
-        "distanciaVetorEntreDoisPontosR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
-      ] 
-      |
-      [
-        "distanciaVetorEntreDoisPontosR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
+        "distanciaVetorEntreDoisPontos", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "moduloR2",
-        {
-          x: number,
-          y: number
-        }
+        "modulo", 
+        [
+          [
+            "r2", 
+            { 
+              x: number, 
+              y: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x: number, 
+              y: number, 
+              z: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "moduloR3",
-        {
-          x: number,
-          y: number,
-          z: number
-        }
+        "versor", 
+        [
+          [
+            "r2", 
+            { 
+              x: number, 
+              y: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x: number, 
+              y: number, 
+              z: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "versorR2",
-        {
-          x: number,
-          y: number
-        }
+        "projecaoVetorSobreOutroVetor", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "versorR3",
-        {
-          x: number,
-          y: number,
-          z: number
-        }
+        "soma", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "projecaoVetorSobreOutroVetorR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
+        "subtracao", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "projecaoVetorSobreOutroVetorR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
+        "produtoEscalar", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "somaR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
+        "divisao", 
+        [
+          [
+            "r2", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x1: number, 
+              x2: number, 
+              y1: number, 
+              y2: number, 
+              z1: number, 
+              z2: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "somaR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
+        "pontoMedio", 
+        [
+          [
+            "r2", 
+            { 
+              x: number, 
+              y: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x: number, 
+              y: number, 
+              z: number 
+            }
+          ]
+        ]
       ]
       |
       [
-        "subtracaoR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
-      ]
-      |
-      [
-        "subtracaoR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
-      ]
-      |
-      [
-        "produtoEscalarR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
-      ]
-      |
-      [
-        "produtoEscalarR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
-      ]
-      |
-      [
-        "divisaoR2",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number
-        }
-      ]
-      |
-      [
-        "divisaoR3",
-        {
-          x1: number,
-          x2: number,
-          y1: number,
-          y2: number,
-          z1: number,
-          z2: number
-        }
-      ]
-      |
-      [
-        "pontoMedioR2",
-        {
-          x: number,
-          y: number
-        }
-      ]
-      |
-      [
-        "pontoMedioR3",
-        {
-          x: number,
-          y: number,
-          z: number
-        }
-      ]
-      |
-      [
-        "cossenosDiretoresR2",
-        {
-          x: number,
-          y: number
-        }
-      ]
-      |
-      [
-        "cossenosDiretoresR3",
-        {
-          x: number,
-          y: number,
-          z: number
-        }
+        "cossenosDiretores", 
+        [
+          [
+            "r2", 
+            { 
+              x: number, 
+              y: number 
+            }
+          ]
+          |
+          [
+            "r3", 
+            { 
+              x: number, 
+              y: number 
+            }
+          ]
+        ]
       ]
 
     }

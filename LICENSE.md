@@ -2,14 +2,6 @@
 
 _____________________________________________
 
-<div style="align=center;">
-
-  <span style="font-size:3rem;"> Termos Gerais [General Terms] </span>
-  
-<div>
-
-<div style="text-align: justify;">
-
 ## |PT-BR|
 
 1. É descrito como um dos pilares essenciais dos projetos aqui desenvolvidos, o **modelo de código aberto**. Em que diversos desenvolvedores podem dar contribuições das mais diversas proporções.

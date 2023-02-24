@@ -473,8 +473,272 @@ export declare namespace WMathOperation {
     /** @emits Not Implemented */
     interface OperacoesGeometricos {
 
-      formats: ["areaTrianguloQualquer", { }]|["apotemaTrianguloQualquer", { }]|["areaQuadradoQualquer", { }]|["areaRetanguloQualquer", { }]|["areaCirculoQualquer", { }]|["areaElipseQualquer", { }]|["areaPiramideQualquer", { }]|["areaConeQualquer", { }]|["areaCilindroQualquer", { }]|["areaTrapezioQualquer", { }]|["areaLozangoQualquer", { }]|["areaEsferaQualquer", { }]|["areaSuperficieQualquer", { }]|["volumeSuperficieQualquer", { }]|["areaPoligonoQualquer", { }]|["volumePoligonoFormatoLozango", { }]|["volumePoligonoFormatoTrapezio", { }]|["areaParalelogramoQualquer", { }]|["areaLateralPrismaQualquer", { }]|["volumePrismaQualquer", { }]|["volumeParalelogramoQualquer", { }]|["volumePiramideQualquer", { }]|["volumeTetraedroQualquer", { }]|["volumeHexaedroQualquer", { }]|["volumeOctaedroQualquer", { }]|["volumeDodecaedro", { }]|["volumeIcosaedroQualquer", { }]|["volumeConeQualquer", { }]|["volumeCilindroQualquer", { }]|["volumeEsferaQualquer", { }]|["volumeRombQualquer", { }]|["areaCircunferenciaQualquer", { }]|["areaLateralCilindroQualquer", { }]
-
+      formats: [
+        "areaTrianguloQualquer", 
+        { 
+          lado: number 
+        }
+      ]
+      |
+      [
+        "apotemaTrianguloQualquer", 
+        { 
+          lado: number 
+        }
+      ]
+      |
+      [
+        "areaQuadradoQualquer", 
+        { 
+          lado: number 
+        }
+      ]
+      |
+      [
+        "areaRetanguloQualquer", 
+        { 
+          comprimento: number, 
+          largura: number 
+        }
+      ]
+      |
+      [
+        "areaCirculoQualquer", 
+        { 
+          raio: number 
+        }
+      ]
+      |
+      [
+        "areaElipseQualquer", 
+        { 
+          raio: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaPiramideQualquer", 
+        { 
+          base: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaConeQualquer", 
+        { 
+          raio: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaCilindroQualquer", 
+        { 
+          raio: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaTrapezioQualquer", 
+        { 
+          baseMaior: number, 
+          baseMenor: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaLozangoQualquer", 
+        { 
+          diagonalMaior: number, 
+          diagonalMenor: number 
+        }
+      ]
+      |
+      [
+        "areaEsferaQualquer", 
+        { 
+          raio: number 
+        }
+      ]
+      |
+      [
+        "areaSuperficieQualquer", 
+        { 
+          comprimento: number, 
+          largura: number 
+        }
+      ]
+      |
+      [
+        "volumeSuperficieQualquer", 
+        { 
+          area: number, 
+          comprimento: number, 
+          largura: number 
+        }
+      ]
+      |
+      [
+        "areaPoligonoQualquer", 
+        { 
+          comprimento: number, 
+          largura: number, 
+          nLados: number 
+        }
+      ]
+      |
+      [
+        "volumePoligonoFormatoLozangoQualquer", 
+        { 
+          diagonalMaior: number, 
+          diagonalMenor: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "volumePoligonoFormatoTrapezioQualquer", 
+        { 
+          baseMaior: number, 
+          baseMenor: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaParalelogramoQualquer", 
+        { 
+          lado: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "areaLateralPrismaQualquer", 
+        { 
+          comprimento: number, 
+          largura: number, 
+          nLados: number 
+        }
+      ]
+      |
+      [
+        "volumePrismaQualquer", 
+        { 
+          area: number, 
+          comprimento: number, 
+          largura: number 
+        }
+      ]
+      |
+      [
+        "volumeCuboQualquer", 
+        {
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeParalelogramoQualquer", 
+        { 
+          comprimento: number, 
+          largura: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "volumePiramideQualquer", 
+        { 
+          base: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "volumeTetraedroQualquer", 
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeHexaedroQualquer",
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeOctaedroQualquer", 
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeDodecaedroQualquer", 
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeIcosaedroQualquer", 
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "volumeConeQualquer", 
+        {
+          raio: number, 
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumeCilindroQualquer", 
+        { 
+          raio: number, 
+          altura: number 
+        }
+      ]
+      |
+      [
+        "volumeEsferaQualquer", 
+        { 
+          raio: number 
+        }
+      ]
+      |
+      [
+        "volumeRombQualquer", 
+        { 
+          aresta: number 
+        }
+      ]
+      |
+      [
+        "areaCircunferenciaQualquer", 
+        {
+          raio: number 
+        }
+      ]
+      |
+      [
+        "areaLateralCilindroQualquer", 
+        { 
+          raio: number, 
+          altura: number 
+        }
+      ]
+      
     }
 
     interface OperacoesCartesianos {

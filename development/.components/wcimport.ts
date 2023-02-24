@@ -172,6 +172,11 @@ import { Component_math_calculator_exp_calc_aceleracao_angular_movimento_circula
 import { Component_math_calculator_exp_calc_velocidade_linear_movimento_circular_uniforme_method } from "./calc/expression.calc-vel-linear-mcu";
 import { Component_math_calculator_exp_calc_velocidade_method } from "./calc/expression.calc-velocidade";
 import { Component_math_calculator_exp_calc_vetores_ga_method } from "./calc/expression.calc-vetores-ga";
+import { Component_math_calculator_exp_calc_diversos_method } from "./calc/expression.calc-diversos";
+import { Component_math_calculator_exp_calc_numericos_method } from "./calc/expression.calc-numericos";
+import { Component_math_calculator_exp_calc_diagrama_venn_method } from "./calc/expression.calc-diagrama-venn";
+import { Component_math_calculator_exp_calc_cartesianos_method } from "./calc/expression.calc-cartesianos";
+import { Component_math_calculator_exp_calc_geometricos_method } from "./calc/expression.calc-geometricos";
 
 export namespace WComponents {
 
@@ -356,6 +361,11 @@ export namespace WComponents {
     , exp_clc_sinalizacao_octantes_method: Component_math_calculator_exp_calc_sinalizacao_octantes_method
     , exp_clc_quadrado_de_punnet_method: Component_math_calculator_exp_calc_quadrado_de_punnet_method
     , exp_clc_quadrado_de_punnet_extendido_method: Component_math_calculator_exp_calc_quadrado_de_punnet_extendido_method
+    , exp_clc_diversos_method: Component_math_calculator_exp_calc_diversos_method
+    , exp_clc_numericos_method: Component_math_calculator_exp_calc_numericos_method
+    , exp_clc_diagrama_venn_method: Component_math_calculator_exp_calc_diagrama_venn_method
+    , exp_clc_cartesianos_method: Component_math_calculator_exp_calc_cartesianos_method
+    , exp_clc_geometricos_method: Component_math_calculator_exp_calc_geometricos_method
 
   }
 

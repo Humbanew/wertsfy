@@ -708,15 +708,26 @@ export namespace LibraryCalculator {
       src: { function: WComponents.Calculator.exp_clc_quadrado_de_punnet_extendido_method }
     }; export const expClcQuadradoDePunnetExtendido = lc_exp_clc_quadrado_de_punnet_extendido.src.function;
 
+    let lc_exp_clc_diversos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_diversos_method }
+    }; export const expClcDiversos = lc_exp_clc_diversos.src.function;
+    
+    let lc_exp_clc_numericos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_numericos_method }
+    }; export const expClcNumericos = lc_exp_clc_numericos.src.function;
+    
+    let lc_exp_clc_diagrama_venn: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_diagrama_venn_method }
+    }; export const expClcDiagramaVenn = lc_exp_clc_diagrama_venn.src.function;
+    
+    let lc_exp_clc_cartesianos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_cartesianos_method }
+    }; export const expClcCartesianos = lc_exp_clc_cartesianos.src.function;
+    
+    let lc_exp_clc_geometricos: WComponent = {
+      src: { function: WComponents.Calculator.exp_clc_geometricos_method }
+    }; export const expClcGeometricos = lc_exp_clc_geometricos.src.function;
+
   };
 
 }
-
-// Modelo de informação em comentário. 
-/**
- * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
- * 
- * **``Constante [Constant]``**
- *  
- * Retorna o valor da raiz quadrada de 1/2. [_Returns the square root of 1/2._]
- */

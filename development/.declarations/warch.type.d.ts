@@ -159,251 +159,231 @@ export declare namespace WMathOperation {
     interface OperacoesVetores {
 
       formats: [
-        "distanciaVetorEntreDoisPontos", 
+        "distanciaVetorEntreDoisPontos",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "modulo", 
+        "modulo",
         [
-          [
-            "r2", 
-            { 
-              x: number, 
-              y: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x: number, 
-              y: number, 
-              z: number 
-            }
-          ]
+          "r2",
+          {
+            x: number,
+            y: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x: number,
+            y: number,
+            z: number
+          }
         ]
       ]
       |
       [
-        "versor", 
+        "versor",
         [
-          [
-            "r2", 
-            { 
-              x: number, 
-              y: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x: number, 
-              y: number, 
-              z: number 
-            }
-          ]
+          "r2",
+          {
+            x: number,
+            y: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x: number,
+            y: number,
+            z: number
+          }
         ]
       ]
       |
       [
-        "projecaoVetorSobreOutroVetor", 
+        "projecaoVetorSobreOutroVetor",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "soma", 
+        "soma",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "subtracao", 
+        "subtracao",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "produtoEscalar", 
+        "produtoEscalar",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "divisao", 
+        "divisao",
         [
-          [
-            "r2", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x1: number, 
-              x2: number, 
-              y1: number, 
-              y2: number, 
-              z1: number, 
-              z2: number 
-            }
-          ]
+          "r2",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x1: number,
+            x2: number,
+            y1: number,
+            y2: number,
+            z1: number,
+            z2: number
+          }
         ]
       ]
       |
       [
-        "pontoMedio", 
+        "pontoMedio",
         [
-          [
-            "r2", 
-            { 
-              x: number, 
-              y: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x: number, 
-              y: number, 
-              z: number 
-            }
-          ]
+          "r2",
+          {
+            x: number,
+            y: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x: number,
+            y: number,
+            z: number
+          }
         ]
       ]
       |
       [
-        "cossenosDiretores", 
+        "cossenosDiretores",
         [
-          [
-            "r2", 
-            { 
-              x: number, 
-              y: number 
-            }
-          ]
-          |
-          [
-            "r3", 
-            { 
-              x: number, 
-              y: number 
-            }
-          ]
+          "r2",
+          {
+            x: number,
+            y: number
+          }
+        ]
+        |
+        [
+          "r3",
+          {
+            x: number,
+            y: number
+          }
         ]
       ]
 
@@ -412,44 +392,44 @@ export declare namespace WMathOperation {
     interface OperacoesDiversos {
 
       formats: [
-        "escalaGeografica", 
+        "escalaGeografica",
         {
-          tamanhoReal: number, 
+          tamanhoReal: number,
           tamanhoFicticio: number
         }
       ]
       |
       [
-        "idh", 
+        "idh",
         {
-          saude: number, 
-          educacao: number, 
-          renda: number, 
-          populacao: number, 
+          saude: number,
+          educacao: number,
+          renda: number,
+          populacao: number,
           rpc: number
         }
       ]
       |
       [
-        "gini", 
+        "gini",
         {
-          pnb: number, 
+          pnb: number,
           populacao: number
         }
       ]
       |
       [
-        "imc", 
+        "imc",
         {
-          peso: number, 
+          peso: number,
           altura: number
         }
       ]
       |
       [
-        "densidadePopulacional", 
+        "densidadePopulacional",
         {
-          espaco: number, 
+          espaco: number,
           populacao: number
         }
       ]
@@ -459,30 +439,30 @@ export declare namespace WMathOperation {
     interface OperacoesNumericos {
 
       formats: [
-        "numerosPares", 
-        { 
-          numero: number 
-        }
-      ]
-      |
-      [
-        "numerosImpares", 
-        { 
-          numero: number 
-        }
-      ]
-      |
-      [
-        "numerosPrimos", 
-        { 
-          numerosPesquisados: number 
-        }
-      ]
-      |
-      [
-        "conjuntos", 
+        "numerosPares",
         {
-          elementos: number 
+          numero: number
+        }
+      ]
+      |
+      [
+        "numerosImpares",
+        {
+          numero: number
+        }
+      ]
+      |
+      [
+        "numerosPrimos",
+        {
+          numerosPesquisados: number
+        }
+      ]
+      |
+      [
+        "conjuntos",
+        {
+          elementos: number
         }
       ]
 
@@ -491,29 +471,29 @@ export declare namespace WMathOperation {
     interface OperacoesDiagramaVenn {
 
       formats: [
-        "venn2Grupos", 
-        { 
-          numerosGrupoUmNucleo: number[], 
-          numerosGrupoDoisNucleos: number 
-        }
-      ]
-      |
-      [
-        "venn3Grupos", 
-        { 
-          numerosGrupoUmNucleo: number[], 
-          numerosGrupoDoisNucleos: number[], 
-          numerosGrupoTresNucleos: number 
-        }
-      ]
-      |
-      [
-        "venn4Grupos", 
+        "venn2Grupos",
         {
-          numerosGrupoUmNucleo: number[], 
-          numerosGrupoDoisNucleos: number[], 
-          numerosGrupoTresNucleos: number[], 
-          numerosGrupoQuatroNucleos: number 
+          numerosGrupoUmNucleo: number[],
+          numerosGrupoDoisNucleos: number
+        }
+      ]
+      |
+      [
+        "venn3Grupos",
+        {
+          numerosGrupoUmNucleo: number[],
+          numerosGrupoDoisNucleos: number[],
+          numerosGrupoTresNucleos: number
+        }
+      ]
+      |
+      [
+        "venn4Grupos",
+        {
+          numerosGrupoUmNucleo: number[],
+          numerosGrupoDoisNucleos: number[],
+          numerosGrupoTresNucleos: number[],
+          numerosGrupoQuatroNucleos: number
         }
       ]
 
@@ -523,305 +503,305 @@ export declare namespace WMathOperation {
     interface OperacoesGeometricos {
 
       formats: [
-        "areaTrianguloQualquer", 
-        { 
-          lado: number 
-        }
-      ]
-      |
-      [
-        "apotemaTrianguloQualquer", 
-        { 
-          lado: number 
-        }
-      ]
-      |
-      [
-        "areaQuadradoQualquer", 
-        { 
-          lado: number 
-        }
-      ]
-      |
-      [
-        "areaRetanguloQualquer", 
-        { 
-          comprimento: number, 
-          largura: number 
-        }
-      ]
-      |
-      [
-        "areaCirculoQualquer", 
-        { 
-          raio: number 
-        }
-      ]
-      |
-      [
-        "areaElipseQualquer", 
-        { 
-          raio: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaPiramideQualquer", 
-        { 
-          base: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaConeQualquer", 
-        { 
-          raio: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaCilindroQualquer", 
-        { 
-          raio: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaTrapezioQualquer", 
-        { 
-          baseMaior: number, 
-          baseMenor: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaLozangoQualquer", 
-        { 
-          diagonalMaior: number, 
-          diagonalMenor: number 
-        }
-      ]
-      |
-      [
-        "areaEsferaQualquer", 
-        { 
-          raio: number 
-        }
-      ]
-      |
-      [
-        "areaSuperficieQualquer", 
-        { 
-          comprimento: number, 
-          largura: number 
-        }
-      ]
-      |
-      [
-        "volumeSuperficieQualquer", 
-        { 
-          area: number, 
-          comprimento: number, 
-          largura: number 
-        }
-      ]
-      |
-      [
-        "areaPoligonoQualquer", 
-        { 
-          comprimento: number, 
-          largura: number, 
-          nLados: number 
-        }
-      ]
-      |
-      [
-        "volumePoligonoFormatoLozangoQualquer", 
-        { 
-          diagonalMaior: number, 
-          diagonalMenor: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "volumePoligonoFormatoTrapezioQualquer", 
-        { 
-          baseMaior: number, 
-          baseMenor: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaParalelogramoQualquer", 
-        { 
-          lado: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "areaLateralPrismaQualquer", 
-        { 
-          comprimento: number, 
-          largura: number, 
-          nLados: number 
-        }
-      ]
-      |
-      [
-        "volumePrismaQualquer", 
-        { 
-          area: number, 
-          comprimento: number, 
-          largura: number 
-        }
-      ]
-      |
-      [
-        "volumeCuboQualquer", 
+        "areaTrianguloQualquer",
         {
-          aresta: number 
+          lado: number
         }
       ]
       |
       [
-        "volumeParalelogramoQualquer", 
-        { 
-          comprimento: number, 
-          largura: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "volumePiramideQualquer", 
-        { 
-          base: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "volumeTetraedroQualquer", 
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "volumeHexaedroQualquer",
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "volumeOctaedroQualquer", 
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "volumeDodecaedroQualquer", 
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "volumeIcosaedroQualquer", 
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "volumeConeQualquer", 
+        "apotemaTrianguloQualquer",
         {
-          raio: number, 
+          lado: number
+        }
+      ]
+      |
+      [
+        "areaQuadradoQualquer",
+        {
+          lado: number
+        }
+      ]
+      |
+      [
+        "areaRetanguloQualquer",
+        {
+          comprimento: number,
+          largura: number
+        }
+      ]
+      |
+      [
+        "areaCirculoQualquer",
+        {
+          raio: number
+        }
+      ]
+      |
+      [
+        "areaElipseQualquer",
+        {
+          raio: number,
           altura: number
         }
       ]
       |
       [
-        "volumeCilindroQualquer", 
-        { 
-          raio: number, 
-          altura: number 
-        }
-      ]
-      |
-      [
-        "volumeEsferaQualquer", 
-        { 
-          raio: number 
-        }
-      ]
-      |
-      [
-        "volumeRombQualquer", 
-        { 
-          aresta: number 
-        }
-      ]
-      |
-      [
-        "areaCircunferenciaQualquer", 
+        "areaPiramideQualquer",
         {
-          raio: number 
+          base: number,
+          altura: number
         }
       ]
       |
       [
-        "areaLateralCilindroQualquer", 
-        { 
-          raio: number, 
-          altura: number 
+        "areaConeQualquer",
+        {
+          raio: number,
+          altura: number
         }
       ]
-      
+      |
+      [
+        "areaCilindroQualquer",
+        {
+          raio: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "areaTrapezioQualquer",
+        {
+          baseMaior: number,
+          baseMenor: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "areaLozangoQualquer",
+        {
+          diagonalMaior: number,
+          diagonalMenor: number
+        }
+      ]
+      |
+      [
+        "areaEsferaQualquer",
+        {
+          raio: number
+        }
+      ]
+      |
+      [
+        "areaSuperficieQualquer",
+        {
+          comprimento: number,
+          largura: number
+        }
+      ]
+      |
+      [
+        "volumeSuperficieQualquer",
+        {
+          area: number,
+          comprimento: number,
+          largura: number
+        }
+      ]
+      |
+      [
+        "areaPoligonoQualquer",
+        {
+          comprimento: number,
+          largura: number,
+          nLados: number
+        }
+      ]
+      |
+      [
+        "volumePoligonoFormatoLozangoQualquer",
+        {
+          diagonalMaior: number,
+          diagonalMenor: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumePoligonoFormatoTrapezioQualquer",
+        {
+          baseMaior: number,
+          baseMenor: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "areaParalelogramoQualquer",
+        {
+          lado: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "areaLateralPrismaQualquer",
+        {
+          comprimento: number,
+          largura: number,
+          nLados: number
+        }
+      ]
+      |
+      [
+        "volumePrismaQualquer",
+        {
+          area: number,
+          comprimento: number,
+          largura: number
+        }
+      ]
+      |
+      [
+        "volumeCuboQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeParalelogramoQualquer",
+        {
+          comprimento: number,
+          largura: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumePiramideQualquer",
+        {
+          base: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumeTetraedroQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeHexaedroQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeOctaedroQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeDodecaedroQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeIcosaedroQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "volumeConeQualquer",
+        {
+          raio: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumeCilindroQualquer",
+        {
+          raio: number,
+          altura: number
+        }
+      ]
+      |
+      [
+        "volumeEsferaQualquer",
+        {
+          raio: number
+        }
+      ]
+      |
+      [
+        "volumeRombQualquer",
+        {
+          aresta: number
+        }
+      ]
+      |
+      [
+        "areaCircunferenciaQualquer",
+        {
+          raio: number
+        }
+      ]
+      |
+      [
+        "areaLateralCilindroQualquer",
+        {
+          raio: number,
+          altura: number
+        }
+      ]
+
     }
 
     interface OperacoesCartesianos {
 
       formats: [
-        "primeiroGrau", 
+        "primeiroGrau",
         {
           exp: any
         }
       ]
       |
       [
-        "segundoGrau", 
+        "segundoGrau",
         {
-          a: number, 
-          b: number, 
+          a: number,
+          b: number,
           c: number
         }
       ]
       |
       [
-        "terceiroGrau", 
+        "terceiroGrau",
         {
-          a: number, 
-          b: number, 
+          a: number,
+          b: number,
           c: number
         }
       ]
       |
       [
-        "quartoGrau", 
+        "quartoGrau",
         {
-          a: number, 
-          b: number, 
+          a: number,
+          b: number,
           c: number
         }
       ]
@@ -830,10 +810,10 @@ export declare namespace WMathOperation {
 
     /** @deprecated No use this. @description Behind Module */
     class WMCalcConv { readonly conversores = 0; }
-    
+
   }
-  
-} 
+
+}
 
 /** @emits Not Implemented */
 declare namespace WKarzokOperation { }
@@ -849,7 +829,7 @@ export declare namespace WTypes {
 
   export namespace Logical {
 
-    export var TiposComums: WMathOperation.common, 
+    export var TiposComums: WMathOperation.common,
       TiposAvancados: WMathOperation.advanced,
       PitagorasTriangulos: WMathOperation.expressions.TrianguloPitagoras,
       OperacoesClassicas: WMathOperation.expressions.OperacoesClassicas,

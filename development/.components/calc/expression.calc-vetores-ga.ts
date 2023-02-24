@@ -24,29 +24,79 @@ const calculoDosVetoresGA = (tipo: WMathOperation.expressions.OperacoesVetores):
 
   let resultado: number|number[] = 0, attrs = undefined;
 
-  //     resultado = Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); 
-  //     resultado = Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_modulo_vetor_r2_method(attrs.x, attrs.y); break;
-  //     resultado = Component_math_calculator_exp_calc_modulo_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
-  //     resultado = Component_math_calculator_exp_calc_versor_vetor_r2_method(attrs.x, attrs.y); break;
-  //     resultado = Component_math_calculator_exp_calc_versor_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
-  //     resultado = Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
-  //     resultado = Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_soma_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
-  //     resultado = Component_math_calculator_exp_calc_soma_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_subtracao_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
-  //     resultado = Component_math_calculator_exp_calc_subtracao_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
-  //     resultado = Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_divisao_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
-  //     resultado = Component_math_calculator_exp_calc_divisao_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
-  //     resultado = Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method(attrs.x, attrs.y); break;
-  //     resultado = Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
-  //     resultado = Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method(attrs.x, attrs.y); break;
-  //     resultado = Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
-
+  switch(tipo.formats[0]) {
+    case "distanciaVetorEntreDoisPontos":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;   
+        case "r3":
+          resultado = Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break; 
+      }
+    case "modulo":
+      switch(tipo.formats[1][0]) { 
+        case "r2":                
+          resultado = Component_math_calculator_exp_calc_modulo_vetor_r2_method(attrs.x, attrs.y); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_modulo_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
+      }
+    case "versor":
+      switch(tipo.formats[1][0]) { 
+        case "r2":                 
+          resultado = Component_math_calculator_exp_calc_versor_vetor_r2_method(attrs.x, attrs.y); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_versor_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
+      }
+    case "projecaoVetorSobreOutroVetor":
+      switch(tipo.formats[1][0]) { 
+        case "r2":       
+          resultado = Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
+      }
+    case "soma":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_soma_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_soma_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break; 
+      }
+    case "subtracao":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_subtracao_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_subtracao_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break; 
+      }
+    case "produtoEscalar":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break; 
+      }
+    case "divisao":
+      switch(tipo.formats[1][0]) { 
+        case "r2":          
+          resultado = Component_math_calculator_exp_calc_divisao_vetores_r2_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2); break;
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_divisao_vetores_r3_method(attrs.x1, attrs.x2, attrs.y1, attrs.y2, attrs.z1, attrs.z2); break;
+      }
+    case "pontoMedio":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method(attrs.x, attrs.y); break;          
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
+      }
+    case "cossenosDiretores":
+      switch(tipo.formats[1][0]) { 
+        case "r2":
+          resultado = Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method(attrs.x, attrs.y); break;          
+        case "r3": 
+          resultado = Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method(attrs.x, attrs.y, attrs.z); break;
+      }
+  }
 
   return resultado;
 
 }; export { calculoDosVetoresGA as Component_math_calculator_exp_calc_vetores_ga_method }
-

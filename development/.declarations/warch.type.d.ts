@@ -360,8 +360,166 @@ export declare namespace WMathOperation {
 
     }
 
-  }
+    interface OperacoesDiversos {
 
+      formats: [
+        "escalaGeografica", 
+        {
+          tamanhoReal: number, 
+          tamanhoFicticio: number
+        }
+      ]
+      |
+      [
+        "idh", 
+        {
+          saude: number, 
+          educacao: number, 
+          renda: number, 
+          populacao: number, 
+          rpc: number
+        }
+      ]
+      |
+      [
+        "gini", 
+        {
+          pnb: number, 
+          populacao: number
+        }
+      ]
+      |
+      [
+        "imc", 
+        {
+          peso: number, 
+          altura: number
+        }
+      ]
+      |
+      [
+        "densidadePopulacional", 
+        {
+          espaco: number, 
+          populacao: number
+        }
+      ]
+
+    }
+
+    interface OperacoesNumericos {
+
+      formats: [
+        "numerosPares", 
+        { 
+          numero: number 
+        }
+      ]
+      |
+      [
+        "numerosImpares", 
+        { 
+          numero: number 
+        }
+      ]
+      |
+      [
+        "numerosPrimos", 
+        { 
+          numerosPesquisados: number 
+        }
+      ]
+      |
+      [
+        "conjuntos", 
+        {
+          elementos: number 
+        }
+      ]
+
+    }
+
+    interface OperacoesDiagramaVenn {
+
+      formats: [
+        "venn2Grupos", 
+        { 
+          numerosGrupoUmNucleo: number[], 
+          numerosGrupoDoisNucleos: number 
+        }
+      ]
+      |
+      [
+        "venn3Grupos", 
+        { 
+          numerosGrupoUmNucleo: number[], 
+          numerosGrupoDoisNucleos: number[], 
+          numerosGrupoTresNucleos: number 
+        }
+      ]
+      |
+      [
+        "venn4Grupos", 
+        {
+          numerosGrupoUmNucleo: number[], 
+          numerosGrupoDoisNucleos: number[], 
+          numerosGrupoTresNucleos: number[], 
+          numerosGrupoQuatroNucleos: number 
+        }
+      ]
+
+    }
+
+    /** @emits Not Implemented */
+    interface OperacoesGeometricos {
+
+      formats: ["areaTrianguloQualquer", { }]|["apotemaTrianguloQualquer", { }]|["areaQuadradoQualquer", { }]|["areaRetanguloQualquer", { }]|["areaCirculoQualquer", { }]|["areaElipseQualquer", { }]|["areaPiramideQualquer", { }]|["areaConeQualquer", { }]|["areaCilindroQualquer", { }]|["areaTrapezioQualquer", { }]|["areaLozangoQualquer", { }]|["areaEsferaQualquer", { }]|["areaSuperficieQualquer", { }]|["volumeSuperficieQualquer", { }]|["areaPoligonoQualquer", { }]|["volumePoligonoFormatoLozango", { }]|["volumePoligonoFormatoTrapezio", { }]|["areaParalelogramoQualquer", { }]|["areaLateralPrismaQualquer", { }]|["volumePrismaQualquer", { }]|["volumeParalelogramoQualquer", { }]|["volumePiramideQualquer", { }]|["volumeTetraedroQualquer", { }]|["volumeHexaedroQualquer", { }]|["volumeOctaedroQualquer", { }]|["volumeDodecaedro", { }]|["volumeIcosaedroQualquer", { }]|["volumeConeQualquer", { }]|["volumeCilindroQualquer", { }]|["volumeEsferaQualquer", { }]|["volumeRombQualquer", { }]|["areaCircunferenciaQualquer", { }]|["areaLateralCilindroQualquer", { }]
+
+    }
+
+    interface OperacoesCartesianos {
+
+      formats: [
+        "primeiroGrau", 
+        {
+          exp: any
+        }
+      ]
+      |
+      [
+        "segundoGrau", 
+        {
+          a: number, 
+          b: number, 
+          c: number
+        }
+      ]
+      |
+      [
+        "terceiroGrau", 
+        {
+          a: number, 
+          b: number, 
+          c: number
+        }
+      ]
+      |
+      [
+        "quartoGrau", 
+        {
+          a: number, 
+          b: number, 
+          c: number
+        }
+      ]
+
+    }
+
+    /** @deprecated No use this. @description Behind Module */
+    class WMCalcConv { readonly conversores = 0; }
+    
+  }
+  
 } 
 
 /** @emits Not Implemented */
@@ -389,7 +547,12 @@ export declare namespace WTypes {
       VariaveisTemperatura: WMathOperation.expressions.VariaveisDeTemperatura,
       VariaveisTitulacao: WMathOperation.expressions.VariaveisDeTitulacao,
       OperacoesVetores: WMathOperation.expressions.OperacoesVetores,
-      TiposDeterminante: WMathOperation.expressions.Determinante
+      TiposDeterminante: WMathOperation.expressions.Determinante,
+      TiposDiversos: WMathOperation.expressions.OperacoesDiversos,
+      TiposNumericos: WMathOperation.expressions.OperacoesNumericos,
+      TiposDiagramaVenn: WMathOperation.expressions.OperacoesDiagramaVenn,
+      TiposGeometricos: WMathOperation.expressions.OperacoesGeometricos,
+      TiposCartesianos: WMathOperation.expressions.OperacoesCartesianos
 
   }
 

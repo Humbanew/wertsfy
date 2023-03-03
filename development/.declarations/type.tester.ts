@@ -11,3 +11,4 @@ wertsfyTipos.seletor.logicos.expressoes.determinantes;
 wertsfyTipos.seletor.logicos.expressoes.variaveisDePascal;
 wertsfyTipos.seletor.logicos.expressoes.variaveisDeTemperatura;
 wertsfyTipos.seletor.logicos.expressoes.variaveisDeTitulacao;
+wertsfyTipos.seletor.logicos.expressoes.operacoesVetores;

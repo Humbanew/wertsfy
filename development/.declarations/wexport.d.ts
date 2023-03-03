@@ -1,4 +1,4 @@
-import { WertsfyPrototipos } from "./warch.typ.next"
+import { WertsfyPrototipos } from "./warch.typen"
 
 export declare var wertsfyTipos: {
 

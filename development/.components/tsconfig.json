@@ -7,6 +7,7 @@
     "moduleResolution": "nodenext",
     "target": "ESNext",
     "strict": false,
+    "alwaysStrict": false,
     "isolatedModules": false,
     "rootDirs": ["./", "../", "./math/", "./calc/"]
 

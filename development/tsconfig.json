@@ -7,6 +7,7 @@
     "baseUrl": ".",
     "target": "ESNext",
     "strict": false,
+    "alwaysStrict": false,
     "isolatedModules": false,
     "rootDir": "./",
     "outDir": "./.dev_result"

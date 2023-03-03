@@ -9,6 +9,10 @@ ___
 
 <div align="center"> 
   
-  ![Wertsfy Logo Release Classic Edition](https://user-images.githubusercontent.com/59739253/221073677-ed90f7b1-fd27-4366-9276-bd005b74c0cd.png)
+  
+  ![Wertsfy Logo Release Classic Edition](https://user-images.githubusercontent.com/59739253/222633049-8f6f87a6-f2b6-475f-9155-0744ffb7f519.png)
+  
+  ![Wertsfy Logo Release Proultimate Edition](https://user-images.githubusercontent.com/59739253/222633052-d04b09fb-1cab-4456-a732-a69ab37a0f9e.png)
+
 
 </div>

@@ -1,3 +1,8 @@
+/** 
+ * @alias Arquivo de Código Legado
+ * @deprecated
+ */
+
 export declare namespace WMathOperation {
 
   export interface common {
@@ -499,7 +504,6 @@ export declare namespace WMathOperation {
 
     }
 
-    /** @emits Not Implemented */
     interface OperacoesGeometricos {
 
       formats: [

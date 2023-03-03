@@ -6597,7 +6597,3 @@ declare type Karzok = {
   }
 
 }
-
-declare interface WKMinecraft { }
-
-declare interface WKCubbic { }

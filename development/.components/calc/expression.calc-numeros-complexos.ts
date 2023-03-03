@@ -1,6 +1,6 @@
 import { WMathOperation } from "../../.declarations/warch.type";
 
-const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosComplexos, expressions: string[], potency?: number): string|void => {
+const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: string[], potency?: number): string|void => {
   let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
   let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
   let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;

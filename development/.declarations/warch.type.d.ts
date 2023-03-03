@@ -1,133 +1,110 @@
-/** 
- * @alias Arquivo de Código Legado
- * @deprecated
- */
+export declare namespace WertsfyPrototipos {
 
-export declare namespace WMathOperation {
+  export namespace Logicos {
 
-  export interface common {
+    export interface TComuns {
 
-    formats: "plus" | "minus" | "divisor" | "multip" | "power"
-
-  }
-
-  export interface advanced {
-
-    formats: "sqrt" | "cbrt" | "quart" | "quirt" | "sexrt" | "seprt" | "octrt" | "nonrt" | "decrt" | "sin" | "cos" | "tan" | "sec" | "cosec" | "cotan" | "sinh" | "cosh" | "tanh" | "sech" | "cosech" | "cotanh" | "arcsin" | "arccos" | "arctan" | "arcsec" | "arccosec" | "arccotan" | "arcsinh" | "arccosh" | "arctanh" | "arcsech" | "arccosech" | "arccotanh" | "exp" | "expm1" | "expp1" | "logx" | "logxm1" | "logxp1" | "log2" | "log2m1" | "log2p1" | "log10" | "log10m1" | "log10p1" | "ln" | "lnm1" | "lnp1" | "cologx" | "cologxm1" | "cologxp1" | "colog2" | "colog2m1" | "colog2p1" | "colog10" | "colog10m1" | "colog10p1" | "coln" | "colnm1" | "colnp1" | "antilogx" | "antilogxm1" | "antilogxp1" | "antilog2" | "antilog2m1" | "antilog2p1" | "antilog10" | "antilog10m1" | "antilog10p1" | "antiln" | "antilnm1" | "antilnp1"
-
-  }
-
-  export namespace expressions {
-
-    interface TrianguloPitagoras {
-
-      formats: [
-        "classic(a and b)",
-        {
-          a: number,
-          b: number
-        }
-      ]
-      |
-      [
-        "t1(m and n)",
-        {
-          m: number,
-          n: number
-        }
-      ]
-      |
-      [
-        "t2(a and n)",
-        {
-          a: number,
-          n: number
-        }
-      ]
-      |
-      [
-        "t3(b, c and h)",
-        {
-          b: number,
-          c: number,
-          h: number
-        }
-      ]
+      formatos(
+        modelo: "#plus"
+          | "#minus"
+          | "#divisor"
+          | "#multip"
+          | "#power"
+      ): string;
 
     }
 
-    interface OperacoesClassicas {
+    export interface TAvancados {
 
-      formats: "plus" | "minus" | "divisor" | "multip"
+      formatos(
+        modelo: "#sqrt"
+          | "#cbrt"
+          | "#quart"
+          | "#quirt"
+          | "#sexrt"
+          | "#seprt"
+          | "#octrt"
+          | "#nonrt"
+          | "#decrt"
+          | "#sin"
+          | "#cos"
+          | "#tan"
+          | "#sec"
+          | "#cosec"
+          | "#cotan"
+          | "#sinh"
+          | "#cosh"
+          | "#tanh"
+          | "#sech"
+          | "#cosech"
+          | "#cotanh"
+          | "#arcsin"
+          | "#arccos"
+          | "#arctan"
+          | "#arcsec"
+          | "#arccosec"
+          | "#arccotan"
+          | "#arcsinh"
+          | "#arccosh"
+          | "#arctanh"
+          | "#arcsech"
+          | "#arccosech"
+          | "#arccotanh"
+          | "#exp"
+          | "#expm1"
+          | "#expp1"
+          | "#logx"
+          | "#logxm1"
+          | "#logxp1"
+          | "#log2"
+          | "#log2m1"
+          | "#log2p1"
+          | "#log10"
+          | "#log10m1"
+          | "#log10p1"
+          | "#ln"
+          | "#lnm1"
+          | "#lnp1"
+          | "#cologx"
+          | "#cologxm1"
+          | "#cologxp1"
+          | "#colog2"
+          | "#colog2m1"
+          | "#colog2p1"
+          | "#colog10"
+          | "#colog10m1"
+          | "#colog10p1"
+          | "#coln"
+          | "#colnm1"
+          | "#colnp1"
+          | "#antilogx"
+          | "#antilogxm1"
+          | "#antilogxp1"
+          | "#antilog2"
+          | "#antilog2m1"
+          | "#antilog2p1"
+          | "#antilog10"
+          | "#antilog10m1"
+          | "#antilog10p1"
+          | "#antiln"
+          | "#antilnm1"
+          | "#antilnp1"
+      ): string;
 
     }
 
-    interface NumerosComplexos {
+    export interface TExpressoes {
 
-      formats: "plus" | "minus" | 'divisor' | "multip" | "power"
-
-    }
-
-    interface Porcentagem {
-
-      formats: [
-        "10E2",
-        {
-          value: number
-        }
-      ]
-      |
-      [
-        "10E3",
-        {
-          value: number
-        }
-      ]
-      |
-      [
-        "10E4",
-        {
-          value: number
-        }
-      ]
-      |
-      [
-        "10E5",
-        {
-          value: number
-        }
-      ]
-      |
-      [
-        "AnyNumber",
-        {
-          value: number,
-          valueTotal: number
-        }
-      ]
-
-    }
-
-    interface FuncoesCartesianas {
-
-      formats: "grade1" | "grade2" | "grade3" | "grade4" | "grade5" | "grade6" | "grade7" | "grade8"
-
-    }
-
-    interface Determinante {
-
-      formats: [
-        "d2x2",
+      determinantes(modelo: [
+        "#d2x2",
         {
           a00: number,
           a01: number,
           a10: number,
           a11: number
         }
-      ]
-      |
-      [
-        "d3x3",
+      ] | [
+        "#d3x3",
         {
           a00: number,
           a01: number,
@@ -139,44 +116,38 @@ export declare namespace WMathOperation {
           a21: number,
           a22: number
         }
-      ]
+      ]): string;
 
-    }
+      funcoesCartesianas(
+        modelo: "#grade1"
+          | "#grade2"
+          | "#grade3"
+          | "#grade4"
+          | "#grade5"
+          | "#grade6"
+          | "#grade7"
+          | "#grade8"
+      ): string;
 
-    interface VariaveisDePascal {
+      operacoesComuns(
+        modelo: "#plus"
+          | "#minus"
+          | "#divisor"
+          | "#multip"
+      ): string;
 
-      formats: "forca1Null" | "forca2Null" | "area1Null" | "area2Null"
-
-    }
-
-    interface VariaveisDeTemperatura {
-
-      formats: "celsiusFahrenheit" | "celsiusKelvin" | "fahrenheitCelsius" | "fahrenheitKelvin" | "kelvinCelsius" | "kelvinFahrenheit"
-
-    }
-
-    interface VariaveisDeTitulacao {
-
-      formats: "massaBaseNull" | "massaAcidoNull" | "volumeBaseNull" | "volumeAcidoNull"
-
-    }
-
-    interface OperacoesVetores {
-
-      formats: [
-        "distanciaVetorEntreDoisPontos",
+      operacoesVetores(modelo: [
+        "#distanciaVetorEntreDoisPontos",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -186,62 +157,50 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "modulo",
+      ] | [
+        "#modulo",
         [
-          "r2",
+          "#r2",
           {
             x: number,
             y: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x: number,
             y: number,
             z: number
           }
         ]
-      ]
-      |
-      [
-        "versor",
+      ] | [
+        "#versor",
         [
-          "r2",
+          "#r2",
           {
             x: number,
             y: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x: number,
             y: number,
             z: number
           }
         ]
-      ]
-      |
-      [
-        "projecaoVetorSobreOutroVetor",
+      ] | [
+        "#projecaoVetorSobreOutroVetor",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -251,22 +210,18 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "soma",
+      ] | [
+        "#soma",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -276,22 +231,18 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "subtracao",
+      ] | [
+        "#subtracao",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -301,22 +252,18 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "produtoEscalar",
+      ] | [
+        "#produtoEscalar",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -326,22 +273,18 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "divisao",
+      ] | [
+        "#divisao",
         [
-          "r2",
+          "#r2",
           {
             x1: number,
             x2: number,
             y1: number,
             y2: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x1: number,
             x2: number,
@@ -351,464 +294,431 @@ export declare namespace WMathOperation {
             z2: number
           }
         ]
-      ]
-      |
-      [
-        "pontoMedio",
+      ] | [
+        "#pontoMedio",
         [
-          "r2",
+          "#r2",
           {
             x: number,
             y: number
           }
-        ]
-        |
-        [
-          "r3",
+        ] | [
+          "#r3",
           {
             x: number,
             y: number,
             z: number
           }
         ]
-      ]
-      |
-      [
-        "cossenosDiretores",
+      ] | [
+        "#cossenosDiretores",
         [
-          "r2",
+          "#r2",
+          {
+            x: number,
+            y: number
+          }
+        ] | [
+          "#r3",
           {
             x: number,
             y: number
           }
         ]
-        |
-        [
-          "r3",
+      ]): string;
+
+      operacoesDiversos(
+        modelo: [
+          "#escalaGeografica",
           {
-            x: number,
-            y: number
+            tamanhoReal: number,
+            tamanhoFicticio: number
           }
-        ]
-      ]
+        ] | [
+          "#idh",
+          {
+            saude: number,
+            educacao: number,
+            renda: number,
+            populacao: number,
+            rpc: number
+          }
+        ] | [
+          "#gini",
+          {
+            pnb: number,
+            populacao: number
+          }
+        ] | [
+          "#imc",
+          {
+            peso: number,
+            altura: number
+          }
+        ] | [
+          "#densidadePopulacional",
+          {
+            espaco: number,
+            populacao: number
+          }
+        ]): string;
 
-    }
+      operacoesNumericos(
+        modelo: [
+          "#numerosPares",
+          {
+            numero: number
+          }
+        ] | [
+          "#numerosImpares",
+          {
+            numero: number
+          }
+        ] | [
+          "#numerosPrimos",
+          {
+            numerosPesquisados: number
+          }
+        ] | [
+          "#conjuntos",
+          {
+            elementos: number
+          }
+        ]): string;
 
-    interface OperacoesDiversos {
+      operacoesDiagramaVenn(
+        modelo: [
+          "#venn2Grupos",
+          {
+            numerosGrupoUmNucleo: number[],
+            numerosGrupoDoisNucleos: number
+          }
+        ] | [
+          "#venn3Grupos",
+          {
+            numerosGrupoUmNucleo: number[],
+            numerosGrupoDoisNucleos: number[],
+            numerosGrupoTresNucleos: number
+          }
+        ] | [
+          "#venn4Grupos",
+          {
+            numerosGrupoUmNucleo: number[],
+            numerosGrupoDoisNucleos: number[],
+            numerosGrupoTresNucleos: number[],
+            numerosGrupoQuatroNucleos: number
+          }
+        ]): string;
 
-      formats: [
-        "escalaGeografica",
-        {
-          tamanhoReal: number,
-          tamanhoFicticio: number
-        }
-      ]
-      |
-      [
-        "idh",
-        {
-          saude: number,
-          educacao: number,
-          renda: number,
-          populacao: number,
-          rpc: number
-        }
-      ]
-      |
-      [
-        "gini",
-        {
-          pnb: number,
-          populacao: number
-        }
-      ]
-      |
-      [
-        "imc",
-        {
-          peso: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "densidadePopulacional",
-        {
-          espaco: number,
-          populacao: number
-        }
-      ]
+      operacoesGeometricos(
+        modelo: [
+          "#areaTrianguloQualquer",
+          {
+            lado: number
+          }
+        ] | [
+          "#apotemaTrianguloQualquer",
+          {
+            lado: number
+          }
+        ] | [
+          "#areaQuadradoQualquer",
+          {
+            lado: number
+          }
+        ] | [
+          "#areaRetanguloQualquer",
+          {
+            comprimento: number,
+            largura: number
+          }
+        ] | [
+          "#areaCirculoQualquer",
+          {
+            raio: number
+          }
+        ] | [
+          "#areaElipseQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ] | [
+          "#areaPiramideQualquer",
+          {
+            base: number,
+            altura: number
+          }
+        ] | [
+          "#areaConeQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ] | [
+          "#areaCilindroQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ] | [
+          "#areaTrapezioQualquer",
+          {
+            baseMaior: number,
+            baseMenor: number,
+            altura: number
+          }
+        ] | [
+          "#areaLozangoQualquer",
+          {
+            diagonalMaior: number,
+            diagonalMenor: number
+          }
+        ] | [
+          "#areaEsferaQualquer",
+          {
+            raio: number
+          }
+        ] | [
+          "#areaSuperficieQualquer",
+          {
+            comprimento: number,
+            largura: number
+          }
+        ] | [
+          "#volumeSuperficieQualquer",
+          {
+            area: number,
+            comprimento: number,
+            largura: number
+          }
+        ] | [
+          "#areaPoligonoQualquer",
+          {
+            comprimento: number,
+            largura: number,
+            nLados: number
+          }
+        ] | [
+          "#volumePoligonoFormatoLozangoQualquer",
+          {
+            diagonalMaior: number,
+            diagonalMenor: number,
+            altura: number
+          }
+        ] | [
+          "#volumePoligonoFormatoTrapezioQualquer",
+          {
+            baseMaior: number,
+            baseMenor: number,
+            altura: number
+          }
+        ] | [
+          "#areaParalelogramoQualquer",
+          {
+            lado: number,
+            altura: number
+          }
+        ] | [
+          "#areaLateralPrismaQualquer",
+          {
+            comprimento: number,
+            largura: number,
+            nLados: number
+          }
+        ] | [
+          "#volumePrismaQualquer",
+          {
+            area: number,
+            comprimento: number,
+            largura: number
+          }
+        ] | [
+          "#volumeCuboQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeParalelogramoQualquer",
+          {
+            comprimento: number,
+            largura: number,
+            altura: number
+          }
+        ] | [
+          "#volumePiramideQualquer",
+          {
+            base: number,
+            altura: number
+          }
+        ] | [
+          "#volumeTetraedroQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeHexaedroQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeOctaedroQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeDodecaedroQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeIcosaedroQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#volumeConeQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ] | [
+          "#volumeCilindroQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ] | [
+          "#volumeEsferaQualquer",
+          {
+            raio: number
+          }
+        ] | [
+          "#volumeRombQualquer",
+          {
+            aresta: number
+          }
+        ] | [
+          "#areaCircunferenciaQualquer",
+          {
+            raio: number
+          }
+        ] | [
+          "#areaLateralCilindroQualquer",
+          {
+            raio: number,
+            altura: number
+          }
+        ]): string
 
-    }
+      operacoesCartesianos(
+        modelo: [
+          "#primeiroGrau",
+          {
+            exp: any
+          }
+        ] | [
+          "#segundoGrau",
+          {
+            a: number,
+            b: number,
+            c: number
+          }
+        ] | [
+          "#terceiroGrau",
+          {
+            a: number,
+            b: number,
+            c: number
+          }
+        ] | [
+          "#quartoGrau",
+          {
+            a: number,
+            b: number,
+            c: number
+          }
+        ]): string;
 
-    interface OperacoesNumericos {
+      porcentagem(
+        modelo: [
+          "#10E2",
+          {
+            value: number
+          }
+        ] | [
+          "#10E3",
+          {
+            value: number
+          }
+        ] | [
+          "#10E4",
+          {
+            value: number
+          }
+        ] | [
+          "#10E5",
+          {
+            value: number
+          }
+        ] | [
+          "#AnyNumber",
+          {
+            value: number,
+            valueTotal: number
+          }
+        ]): string;
 
-      formats: [
-        "numerosPares",
-        {
-          numero: number
-        }
-      ]
-      |
-      [
-        "numerosImpares",
-        {
-          numero: number
-        }
-      ]
-      |
-      [
-        "numerosPrimos",
-        {
-          numerosPesquisados: number
-        }
-      ]
-      |
-      [
-        "conjuntos",
-        {
-          elementos: number
-        }
-      ]
+      triangulosPitagoricos(
+        modelo: [
+          "#classic(a and b)",
+          {
+            a: number,
+            b: number
+          }
+        ] | [
+          "#t1(m and n)",
+          {
+            m: number,
+            n: number
+          }
+        ] | [
+          "#t2(a and n)",
+          {
+            a: number,
+            n: number
+          }
+        ] | [
+          "#t3(b, c and h)",
+          {
+            b: number,
+            c: number,
+            h: number
+          }
+        ]): string;
 
-    }
+      variaveisDePascal(
+        modelo: "#forca1Null"
+          | "#forca2Null"
+          | "#area1Null"
+          | "#area2Null"
+      ): string;
 
-    interface OperacoesDiagramaVenn {
+      variaveisDeTemperatura(
+        modelo: "#celsiusFahrenheit"
+          | "#celsiusKelvin"
+          | "#fahrenheitCelsius"
+          | "#fahrenheitKelvin"
+          | "#kelvinCelsius"
+          | "#kelvinFahrenheit"
+      ): string;
 
-      formats: [
-        "venn2Grupos",
-        {
-          numerosGrupoUmNucleo: number[],
-          numerosGrupoDoisNucleos: number
-        }
-      ]
-      |
-      [
-        "venn3Grupos",
-        {
-          numerosGrupoUmNucleo: number[],
-          numerosGrupoDoisNucleos: number[],
-          numerosGrupoTresNucleos: number
-        }
-      ]
-      |
-      [
-        "venn4Grupos",
-        {
-          numerosGrupoUmNucleo: number[],
-          numerosGrupoDoisNucleos: number[],
-          numerosGrupoTresNucleos: number[],
-          numerosGrupoQuatroNucleos: number
-        }
-      ]
-
-    }
-
-    interface OperacoesGeometricos {
-
-      formats: [
-        "areaTrianguloQualquer",
-        {
-          lado: number
-        }
-      ]
-      |
-      [
-        "apotemaTrianguloQualquer",
-        {
-          lado: number
-        }
-      ]
-      |
-      [
-        "areaQuadradoQualquer",
-        {
-          lado: number
-        }
-      ]
-      |
-      [
-        "areaRetanguloQualquer",
-        {
-          comprimento: number,
-          largura: number
-        }
-      ]
-      |
-      [
-        "areaCirculoQualquer",
-        {
-          raio: number
-        }
-      ]
-      |
-      [
-        "areaElipseQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaPiramideQualquer",
-        {
-          base: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaConeQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaCilindroQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaTrapezioQualquer",
-        {
-          baseMaior: number,
-          baseMenor: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaLozangoQualquer",
-        {
-          diagonalMaior: number,
-          diagonalMenor: number
-        }
-      ]
-      |
-      [
-        "areaEsferaQualquer",
-        {
-          raio: number
-        }
-      ]
-      |
-      [
-        "areaSuperficieQualquer",
-        {
-          comprimento: number,
-          largura: number
-        }
-      ]
-      |
-      [
-        "volumeSuperficieQualquer",
-        {
-          area: number,
-          comprimento: number,
-          largura: number
-        }
-      ]
-      |
-      [
-        "areaPoligonoQualquer",
-        {
-          comprimento: number,
-          largura: number,
-          nLados: number
-        }
-      ]
-      |
-      [
-        "volumePoligonoFormatoLozangoQualquer",
-        {
-          diagonalMaior: number,
-          diagonalMenor: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "volumePoligonoFormatoTrapezioQualquer",
-        {
-          baseMaior: number,
-          baseMenor: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaParalelogramoQualquer",
-        {
-          lado: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "areaLateralPrismaQualquer",
-        {
-          comprimento: number,
-          largura: number,
-          nLados: number
-        }
-      ]
-      |
-      [
-        "volumePrismaQualquer",
-        {
-          area: number,
-          comprimento: number,
-          largura: number
-        }
-      ]
-      |
-      [
-        "volumeCuboQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeParalelogramoQualquer",
-        {
-          comprimento: number,
-          largura: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "volumePiramideQualquer",
-        {
-          base: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "volumeTetraedroQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeHexaedroQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeOctaedroQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeDodecaedroQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeIcosaedroQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "volumeConeQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "volumeCilindroQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-      |
-      [
-        "volumeEsferaQualquer",
-        {
-          raio: number
-        }
-      ]
-      |
-      [
-        "volumeRombQualquer",
-        {
-          aresta: number
-        }
-      ]
-      |
-      [
-        "areaCircunferenciaQualquer",
-        {
-          raio: number
-        }
-      ]
-      |
-      [
-        "areaLateralCilindroQualquer",
-        {
-          raio: number,
-          altura: number
-        }
-      ]
-
-    }
-
-    interface OperacoesCartesianos {
-
-      formats: [
-        "primeiroGrau",
-        {
-          exp: any
-        }
-      ]
-      |
-      [
-        "segundoGrau",
-        {
-          a: number,
-          b: number,
-          c: number
-        }
-      ]
-      |
-      [
-        "terceiroGrau",
-        {
-          a: number,
-          b: number,
-          c: number
-        }
-      ]
-      |
-      [
-        "quartoGrau",
-        {
-          a: number,
-          b: number,
-          c: number
-        }
-      ]
+      variaveisDeTitulacao(
+        modelo: "#massaBaseNull"
+          | "#massaAcidoNull"
+          | "#volumeBaseNull"
+          | "#volumeAcidoNull"
+      ): string;
 
     }
 
@@ -817,30 +727,6 @@ export declare namespace WMathOperation {
 
   }
 
-}
-
-export declare namespace WTypes {
-
-  export namespace Logical {
-
-    export var TiposComums: WMathOperation.common,
-      TiposAvancados: WMathOperation.advanced,
-      PitagorasTriangulos: WMathOperation.expressions.TrianguloPitagoras,
-      OperacoesClassicas: WMathOperation.expressions.OperacoesClassicas,
-      NumerosComplexos: WMathOperation.expressions.NumerosComplexos,
-      TiposPorcentagem: WMathOperation.expressions.Porcentagem,
-      FuncoesCartesianas: WMathOperation.expressions.FuncoesCartesianas,
-      VariaveisPascal: WMathOperation.expressions.VariaveisDePascal,
-      VariaveisTemperatura: WMathOperation.expressions.VariaveisDeTemperatura,
-      VariaveisTitulacao: WMathOperation.expressions.VariaveisDeTitulacao,
-      OperacoesVetores: WMathOperation.expressions.OperacoesVetores,
-      TiposDeterminante: WMathOperation.expressions.Determinante,
-      TiposDiversos: WMathOperation.expressions.OperacoesDiversos,
-      TiposNumericos: WMathOperation.expressions.OperacoesNumericos,
-      TiposDiagramaVenn: WMathOperation.expressions.OperacoesDiagramaVenn,
-      TiposGeometricos: WMathOperation.expressions.OperacoesGeometricos,
-      TiposCartesianos: WMathOperation.expressions.OperacoesCartesianos
-
-  }
+  export namespace Karzok { }
 
 }

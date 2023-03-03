@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: string[], potency?: number): string|void => {
   let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;

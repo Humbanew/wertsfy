@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulaCalculoDoTeoremaDePascal = (tipo: WMathOperation.expressions.VariaveisDePascal, forca1: number, forca2: number, area1: number, area2: number): number => {
   let resultado: number = 0;

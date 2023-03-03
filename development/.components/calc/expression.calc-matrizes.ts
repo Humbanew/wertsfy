@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulasDeCalculoDeMatrizes = (tipo: WMathOperation.expressions.OperacoesClassicas, matriz: { m1: number[][], m2: number[][] }): number[][] => {
   let resultado: number[][];

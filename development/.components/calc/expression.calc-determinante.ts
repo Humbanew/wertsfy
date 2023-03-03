@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulasDoCalculoDeDeterminante = (tipo: WMathOperation.expressions.Determinante): number => {
   let resultado: number = 0;

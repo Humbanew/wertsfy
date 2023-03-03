@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
 
 const formulaDoTeoremaDePitagoras = (tipo: WMathOperation.expressions.TrianguloPitagoras): number => {

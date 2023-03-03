@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const calculoNumericos = (tipo: WMathOperation.expressions.OperacoesNumericos): number|number[] => {
 

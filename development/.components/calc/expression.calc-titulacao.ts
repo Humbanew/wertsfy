@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulaCalculoDaTitulacao = (tipo: WMathOperation.expressions.VariaveisDeTitulacao, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
   let resultado = 0;

@@ -1,6 +1,6 @@
-/// <reference path="../../.declarations/warch.type.d.ts" />
+/// <reference path="../../../.legacydata/warch.type.d.ts" />
 
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 import { WComponents } from "../wcimport";
 
 export const Component_math_calculator_advanced_method = (operation: WMathOperation.advanced, ...numbers: number[]): number[] => {

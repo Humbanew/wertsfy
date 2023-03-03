@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulaCalculoDaTemperatura = (tipo: WMathOperation.expressions.VariaveisDeTemperatura, valor: number): number => {
   let resultado: number = 0;

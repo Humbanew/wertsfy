@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 
 const formulasDoCalculoDePolinomios = (tipo: WMathOperation.expressions.OperacoesClassicas, polinomios: {sent1: string, sent2: string }): string => {
   let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;

@@ -1,4 +1,4 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WMathOperation } from "../../../.legacydata/warch.type";
 import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method } from "./expression.calc-cossenos-diretores-vetor-r2";
 import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method } from "./expression.calc-cossenos-diretores-vetor-r3";
 import { Component_math_calculator_exp_calc_divisao_vetores_r2_method } from "./expression.calc-divisao-vetores-r2";

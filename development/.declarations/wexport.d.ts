@@ -1,6 +1,6 @@
-import { WertsfyPrototipos } from "./warch.typen"
+import { WertsfyPrototipos } from "./warch.type"
 
-export declare var wertsfyTipos: {
+export declare var wtipos: {
 
   seletor: { 
     

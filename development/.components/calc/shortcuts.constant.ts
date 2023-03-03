@@ -1,6 +1,11 @@
-import { WComponents } from "../wcimport";
+import { Component_math_corebase_euler_constant } from "../math/constant.euler";
+import { Component_math_corebase_logarithm10_constant } from "../math/constant.logarithm10";
+import { Component_math_corebase_logarithm10e_constant } from "../math/constant.logarithm10e";
+import { Component_math_corebase_logarithm2_constant } from "../math/constant.logarithm2";
+import { Component_math_corebase_logarithm2e_constant } from "../math/constant.logarithm2e";
+import { Component_math_corebase_pi_constant } from "../math/constant.pi";
 
-export const Component_math_calculator_shortcuts_constant = {
+export namespace Component_math_calculator_shortcuts_constant {
 
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -9,7 +14,7 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor de pi. [_Returns the pi value._]
    */
-  Pi: WComponents.Mathematic.pi_constant,
+  export let Pi = Component_math_corebase_pi_constant
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -18,7 +23,7 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor de euler. [_Returns the euler value._]
    */
-  Euler: WComponents.Mathematic.euler_constant,
+  export let Euler = Component_math_corebase_euler_constant
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -27,7 +32,7 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor do logaritmo de base 2. [_Returns the value of base logarithm 2._]
    */
-  Log2: WComponents.Mathematic.logarithm2_constant,
+  export let Log2 = Component_math_corebase_logarithm2_constant
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -36,7 +41,7 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor do logaritmo de euler de base 2. [_Returns the value of the base Euler Logarithm 2.._]
    */
-  Log2e: WComponents.Mathematic.logarithm2e_constant,
+  export let Log2e = Component_math_corebase_logarithm2e_constant
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -45,7 +50,7 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor do logaritmo de base 10. [_Returns the value of the base logarithm 10._]
    */
-  Log10: WComponents.Mathematic.logarithm10_constant,
+  export let Log10 = Component_math_corebase_logarithm10_constant
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -54,6 +59,6 @@ export const Component_math_calculator_shortcuts_constant = {
    *  
    * Retorna o valor do logaritmo de euler de base 10. [_Returns the value of the base Euler Logarithm 10._]
    */
-  Log10e: WComponents.Mathematic.logarithm10e_constant,
+  export let Log10e = Component_math_corebase_logarithm10e_constant
 
-};
+}

@@ -1,7 +1,17 @@
 /// <reference path="warch.type.nxt.d.ts" />
 
-module WertsfyTypes {
+import { WertsfyPrototipos } from "./warch.type.nxt";
 
-  let logical = { }
+export module WertsfyTypes {
+
+  export namespace logical {
+
+    export var comum: WertsfyPrototipos.Logicos.TComuns;
+
+    export var avancado: WertsfyPrototipos.Logicos.TAvancados;
+
+    export var expressoes: WertsfyPrototipos.Logicos.TExpressoes;
+
+  } 
 
 }

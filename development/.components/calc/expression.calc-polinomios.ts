@@ -1,17 +1,17 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDoCalculoDePolinomios = (tipo: WMathOperation.expressions.OperacoesClassicas, polinomios: {sent1: string, sent2: string }): string => {
+const formulasDoCalculoDePolinomios = (tipo: WertsfyPrototipos.Logicos.TExpressoes, polinomios: {sent1: string, sent2: string }): string => {
   let resultado: string = '', verificaSinal: RegExp = /^(\-)/gi;
   if (verificaSinal != null) { polinomios.sent1.replace("-", ''); }
   if (verificaSinal != null) { polinomios.sent2.replace("-", ''); }
-  switch(tipo.formats) {
-    case "plus":
+  switch(tipo.operacoesComuns) {
+    case "#plus":
       resultado = polinomios.sent1 + '+' + polinomios.sent2; break;
-    case "minus":
+    case "#minus":
       resultado = polinomios.sent1 + '-' + polinomios.sent2; break;
-    case "multip":
+    case "#multip":
       resultado = polinomios.sent1 + '*' + polinomios.sent2; break;
-    case "divisor":
+    case "#divisor":
       resultado = polinomios.sent1 + '/' + polinomios.sent2; break;
   }
   return resultado;

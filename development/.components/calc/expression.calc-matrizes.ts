@@ -1,19 +1,20 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDeCalculoDeMatrizes = (tipo: WMathOperation.expressions.OperacoesClassicas, matriz: { m1: number[][], m2: number[][] }): number[][] => {
+const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.TExpressoes, matriz: { m1: number[][], m2: number[][] }): number[][] => {
   let resultado: number[][];
   for (let i = 0; i < matriz.m1.length; i++) {
     resultado[i] = [];
     for (let j = 0; j < matriz.m1[i].length; j++) {
-      switch(tipo.formats) {
-        case "plus":
+      switch(tipo.operacoesComuns) {
+        case "#plus":
           resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
-        case "minus":
+        case "#minus":
           resultado[i][j] = matriz.m1[i][j] - matriz.m2[i][j]; break;
-        case "multip":
+        case "#multip":
           if(matriz.m1[0][j] != matriz.m2[i][j]){ new Error("Calc Error"); }
           resultado[i][j] = matriz.m1[i][j] * matriz.m2[i][j]; break;
-        case "divisor":
+        case "#divisor":
           resultado[i][j] = matriz.m1[i][j] / matriz.m2[i][j]; break;
       }
     }

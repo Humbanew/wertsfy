@@ -1,6 +1,6 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: string[], potency?: number): string|void => {
+const formulasDosNumerosComplexos = (tipo: WertsfyPrototipos.Logicos.TComuns, expressions: string[], potency?: number): string|void => {
   let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
   let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
   let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -19,8 +19,8 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: s
     partesImaginarias.push(expressions[i].match(separadorT1).toString());
     partesImaginariasPuras.push(expressions[i].match(separadorT2).toString());
   }
-  switch(tipo.formats) {
-    case "plus":
+  switch(tipo.formatos) {
+    case "#plus":
       resultadoPartImaginarias = 0;
       resultadoPartImaginariasPuras = 0;
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -30,7 +30,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: s
         resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
       }
       break;
-    case "minus":      
+    case "#minus":      
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -41,7 +41,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: s
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) - parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) - parseFloat(resultadoPartImaginariasPuras);
-    case "multip":
+    case "#multip":
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -52,7 +52,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: s
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) * parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) * parseFloat(resultadoPartImaginariasPuras);
-    case "divisor":
+    case "#divisor":
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -63,7 +63,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.common, expressions: s
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) / parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) / parseFloat(resultadoPartImaginariasPuras);
-    case "power":
+    case "#power":
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {

@@ -1,20 +1,20 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDoCalculoDePorcentagem = (tipo: WMathOperation.expressions.Porcentagem) => {
+const formulasDoCalculoDePorcentagem = (tipo: WertsfyPrototipos.Logicos.TExpressoes) => {
 
-  let resultado = 0;
+  let resultado = 0, variavel = tipo.porcentagem;
 
-  switch(tipo.formats[0]) {
-    case "10E2":
-      resultado = tipo[1].value / 10 ** 2; break;
-    case "10E3":
-      resultado = tipo[1].value / 10 ** 3; break;
-    case "10E4":
-      resultado = tipo[1].value / 10 ** 4; break;
-    case "10E5":
-      resultado = tipo[1].value / 10 ** 5; break;
-    case "AnyNumber":  
-      resultado = tipo[1].value / tipo[1].valueTotal; break;
+  switch(variavel[0]) {
+    case "#10E2":
+      resultado = variavel[1].value / 10 ** 2; break;
+    case "#10E3":
+      resultado = variavel[1].value / 10 ** 3; break;
+    case "#10E4":
+      resultado = variavel[1].value / 10 ** 4; break;
+    case "#10E5":
+      resultado = variavel[1].value / 10 ** 5; break;
+    case "#AnyNumber":  
+      resultado = variavel[1].value / variavel[1].valueTotal; break;
   }
   return resultado;
 }

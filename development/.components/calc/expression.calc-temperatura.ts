@@ -1,20 +1,20 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulaCalculoDaTemperatura = (tipo: WMathOperation.expressions.VariaveisDeTemperatura, valor: number): number => {
+const formulaCalculoDaTemperatura = (tipo: WertsfyPrototipos.Logicos.TExpressoes, valor: number): number => {
   let resultado: number = 0;
 
-  switch(tipo.formats) {
-    case "celsiusFahrenheit":
+  switch(tipo.variaveisDeTemperatura) {
+    case "#celsiusFahrenheit":
       resultado = (1.8 * valor) + 32; break;
-    case "celsiusKelvin":
+    case "#celsiusKelvin":
       resultado = valor - 273; break;
-    case "fahrenheitCelsius":
+    case "#fahrenheitCelsius":
       resultado = (valor - 32) / 1.8; break;
-    case "fahrenheitKelvin":
+    case "#fahrenheitKelvin":
       resultado = ((valor - 32) * 5) / 9 + 273; break;
-    case "kelvinCelsius":
+    case "#kelvinCelsius":
       resultado = valor + 273; break;
-    case "kelvinFahrenheit":
+    case "#kelvinFahrenheit":
       resultado = (valor - 273) * 1.8 + 32; break;
   }
 

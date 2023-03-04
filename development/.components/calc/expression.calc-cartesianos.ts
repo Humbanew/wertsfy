@@ -1,12 +1,12 @@
-import { WMathOperation } from "../../../.legacydata/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const calculoCartesianos = (tipo: WMathOperation.expressions.OperacoesCartesianos) => {
+const calculoCartesianos = (tipo: WertsfyPrototipos.Logicos.TExpressoes) => {
 
   let resultado: number|number[] = 0||[], attrs = undefined;
 
-  switch(tipo.formats[0]) {
-    case "primeiroGrau":
-      attrs = tipo.formats[1];
+  switch(tipo.operacoesCartesianos[0]) {
+    case "#primeiroGrau":
+      attrs = tipo.operacoesCartesianos[1];
       let verif = /([0-9]+(\.[0-9]+)?x((\-)?(\+)?)[0-9]+(\.[0-9]+)?=[0-9]+(\.[0-9]+)?)/gi
       ,p1 = /([0-9]+(\.[0-9]+)?x)/gi
       ,p2 = /(((\-)?(\+)?)[0-9]+(\.[0-9]+)?)/gi
@@ -17,20 +17,20 @@ const calculoCartesianos = (tipo: WMathOperation.expressions.OperacoesCartesiano
       } else { 
         resultado = (parseFloat(attrs.exp.match(p2)) - parseFloat(attrs.exp.match(p3))) / parseFloat(attrs.exp.match(p1)); 
       } break;
-    case "segundoGrau":
-      attrs = tipo.formats[1]; 
+    case "#segundoGrau":
+      attrs = tipo.operacoesCartesianos[1]; 
       let delta = (attrs.b ** 2) - (4 * attrs.a * attrs.c) 
       ,x1 = (-1 * attrs.b + Math.sqrt(delta)) / (2 * attrs.a) 
       ,x2 = (-1 * attrs.b - Math.sqrt(delta)) / (2 * attrs.a); 
       resultado = [x1, x2]; break; 
-    case "terceiroGrau":
-      attrs = tipo.formats[1]; 
+    case "#terceiroGrau":
+      attrs = tipo.operacoesCartesianos[1]; 
       delta = (attrs.b ** 2) - (4 * attrs.a * attrs.c) 
       ,x1 = (-1 * attrs.b + Math.sqrt(delta)) / (2 * attrs.a) 
       ,x2 = (-1 * attrs.b - Math.sqrt(delta)) / (2 * attrs.a); 
       resultado = [x1, x2, 0]; break; 
-    case "quartoGrau":
-      attrs = tipo.formats[1]; 
+    case "#quartoGrau":
+      attrs = tipo.operacoesCartesianos[1]; 
       delta = (attrs.b ** 2) - (4 * attrs.a * attrs.c) 
       ,x1 = (-1 * attrs.b + Math.sqrt(delta)) / (2 * attrs.a) 
       ,x2 = (-1 * attrs.b - Math.sqrt(delta)) / (2 * attrs.a); 

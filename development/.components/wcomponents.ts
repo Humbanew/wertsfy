@@ -1,5 +1,6 @@
 /// <reference path="../.declarations/warch.d.ts" />
 
+import { WComponent } from "../.declarations/warch";
 import { WComponents } from "./wcimport";
 
 export namespace LibraryMathematic {

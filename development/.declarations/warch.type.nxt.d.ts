@@ -708,6 +708,7 @@ export declare namespace WertsfyPrototipos {
 
     }
 
+
     /** @deprecated No use this. @description Behind Module */
     class WMCalcConv { readonly conversores = 0; }
 

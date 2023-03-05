@@ -1,4 +1,3 @@
-import { WMathOperation } from "../../.declarations/warch.type";
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
 const formulaCalculoDoTeoremaDePascal = (tipo: WertsfyPrototipos.Logicos.TExpressoes, forca1: number, forca2: number, area1: number, area2: number): number => {

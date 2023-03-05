@@ -1,4 +1,3 @@
-import { WMathOperation } from "../../.declarations/warch.type";
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
 const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.TExpressoes, matriz: { m1: number[][], m2: number[][] }): number[][] => {

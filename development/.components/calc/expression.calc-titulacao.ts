@@ -1,4 +1,3 @@
-import { WMathOperation } from "../../.declarations/warch.type";
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
 const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.TExpressoes, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {

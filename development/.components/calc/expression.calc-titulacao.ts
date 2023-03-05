@@ -1,9 +1,9 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.TExpressoes, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
+const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTitulacao"], massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
   let resultado = 0;
 
-  switch(tipo.variaveisDeTitulacao) {
+  switch(tipo) {
     case "#massaAcidoNull":
       resultado = massaBase * volumeBase / volumeAcido; break;
     case "#massaBaseNull":

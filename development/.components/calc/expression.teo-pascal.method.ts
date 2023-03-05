@@ -1,9 +1,9 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulaCalculoDoTeoremaDePascal = (tipo: WertsfyPrototipos.Logicos.TExpressoes, forca1: number, forca2: number, area1: number, area2: number): number => {
+const formulaCalculoDoTeoremaDePascal = (tipo: WertsfyPrototipos.Logicos.TExpressoes["variaveisDePascal"], forca1: number, forca2: number, area1: number, area2: number): number => {
   let resultado: number = 0;
 
-  switch(tipo.variaveisDePascal) {
+  switch(tipo) {
     case "#area1Null":
       resultado = (forca1 * area2) / forca2; break;
     case "#area2Null":

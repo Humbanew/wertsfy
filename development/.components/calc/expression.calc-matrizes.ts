@@ -1,11 +1,11 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.TExpressoes, matriz: { m1: number[][], m2: number[][] }): number[][] => {
+const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.TExpressoes["operacoesComuns"], matriz: { m1: number[][], m2: number[][] }): number[][] => {
   let resultado: number[][];
   for (let i = 0; i < matriz.m1.length; i++) {
     resultado[i] = [];
     for (let j = 0; j < matriz.m1[i].length; j++) {
-      switch(tipo.operacoesComuns) {
+      switch(tipo) {
         case "#plus":
           resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
         case "#minus":

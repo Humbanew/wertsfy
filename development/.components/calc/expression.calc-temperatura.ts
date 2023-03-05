@@ -1,9 +1,9 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulaCalculoDaTemperatura = (tipo: WertsfyPrototipos.Logicos.TExpressoes, valor: number): number => {
+const formulaCalculoDaTemperatura = (tipo: WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTemperatura"], valor: number): number => {
   let resultado: number = 0;
 
-  switch(tipo.variaveisDeTemperatura) {
+  switch(tipo) {
     case "#celsiusFahrenheit":
       resultado = (1.8 * valor) + 32; break;
     case "#celsiusKelvin":

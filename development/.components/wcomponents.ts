@@ -315,7 +315,7 @@ export namespace LibraryCalculator {
 
   let lc_common: WComponent = {
     src: { function: WComponents.Calculator.common_method }
-  }; export const common = lc_common.src.function;
+  }; export const common = lc_common.src.function; 
 
   let lc_advanced: WComponent = {
     src: { function: WComponents.Calculator.advanced_method }

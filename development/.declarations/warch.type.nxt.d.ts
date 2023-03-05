@@ -4,7 +4,7 @@ export declare namespace WertsfyPrototipos {
 
     export interface TComuns {
 
-      formatos:
+      modelo:
       "#plus"
       | "#minus"
       | "#divisor"
@@ -15,7 +15,7 @@ export declare namespace WertsfyPrototipos {
 
     export interface TAvancados {
 
-      formatos:
+      modelo:
       "#sqrt"
       | "#cbrt"
       | "#quart"

@@ -17,4 +17,4 @@ import { Component_math_corebase_exp_method } from "./.components/math/method.ex
 declare type ExpFunction = typeof Component_math_corebase_exp_method;
 
   /** @experimental Interface de Testes */
-export declare interface WComponentExperimental { src: { function?: null } }
+export declare interface WComponentExperimental { src: { function?: undefined } }

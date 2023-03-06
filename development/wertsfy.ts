@@ -1,4 +1,3 @@
-import { Component_math_calculator_common_method } from ".components/calc/common.method";
 import { LibraryCalculator, LibraryMathematic } from "./.components/wcomponents";
 
 /**

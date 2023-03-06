@@ -9,3 +9,4 @@ WertsfyTypes.logicos.expressoes;
 
 // Testando recursos futuros.
 let experimental: WComponentExperimental;
+experimental.src.function;

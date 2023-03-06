@@ -8,13 +8,13 @@ export declare type WConstShortcutsCollectionObject = {
 
 // possivel recurso de melhoria da arquitetura.
 import { Component_math_corebase_abs_method } from "./.components/math/method.abs";
-export declare type AbsFunction = typeof Component_math_corebase_abs_method;
+declare type AbsFunction = typeof Component_math_corebase_abs_method;
 
 import { Component_math_corebase_arccos_method } from "./.components/math/method.arccos";
-export declare type ArccosFunction = typeof Component_math_corebase_arccos_method;
+declare type ArccosFunction = typeof Component_math_corebase_arccos_method;
 
 import { Component_math_corebase_exp_method } from "./.components/math/method.exp";
-export declare type ExpFunction = typeof Component_math_corebase_exp_method;
+declare type ExpFunction = typeof Component_math_corebase_exp_method;
 
   /** @experimental Interface de Testes */
-export declare interface WComponentExperimental { src: { function?: AbsFunction|ArccosFunction|ExpFunction } }
+export declare interface WComponentExperimental { src: { function?: null } }

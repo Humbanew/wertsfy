@@ -3,16 +3,16 @@ import { WConstSqrtCbrtCollectionObject, WConstShortcutsCollectionObject } from 
 export declare interface WComponent {
   
   src: { 
-    number?: number, 
-    string?: string, 
-    function?: Function, 
+    number?: number
+    string?: string
+    function?: Function
     object?: { 
       collections: { 
-        sqrt_cbrt?: WConstSqrtCbrtCollectionObject, 
+        sqrt_cbrt?: WConstSqrtCbrtCollectionObject
         shortcuts?: WConstShortcutsCollectionObject 
       }
-    }, 
-    regex?: undefined, 
+    }
+    regex?: undefined
     html?: undefined 
   };
 

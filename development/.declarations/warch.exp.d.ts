@@ -12,7 +12,18 @@ export declare interface WComponentExperimental {
     function?: { 
       
       default: Function
-      mathematic: { abs: FunctionsMathematic["abs_method"] }
+      mathematic: { 
+        
+        abs: FunctionsMathematic["abs_method"]
+        arccos: FunctionsMathematic["arccos_method"]
+        arccosec: FunctionsMathematic["arccosec_method"] 
+        arccosech: FunctionsMathematic["arccosech_method"]
+        arccosh: FunctionsMathematic["arccosh_method"]
+        arccotan: FunctionsMathematic["arccotan_method"]
+        arccotanh: FunctionsMathematic["arccotanh_method"]
+      
+      }
+      
       calculator: { }
 
     } 

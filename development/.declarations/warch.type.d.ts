@@ -22,22 +22,3 @@ export declare type WConstShortcutsCollectionObject = {
   Log10: number; 
   Log10e: number;
 }
-
-// possivel recurso de melhoria da arquitetura.
-import { WComponents } from "./.components/wcimport";
-declare type FuncsM = typeof WComponents.Mathematic;
-declare type FuncsC = typeof WComponents.Calculator;
-
-
-  /** @experimental Interface de Testes */
-export declare interface WComponentExperimental { 
-  
-  src: { 
-    
-    function?: { 
-      default: Function 
-    } 
-  
-  } 
-
-}

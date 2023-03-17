@@ -1,4 +1,3 @@
-import { WComponents } from "../.components/wcimport";
 import { WertsfyTypes } from "./wexport";
 
 // Testando imports de variaveis de tipagens.

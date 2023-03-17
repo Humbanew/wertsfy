@@ -1,3 +1,5 @@
+import { WComponents } from "./.components/wcimport";
+
 export declare type WConstSqrtCbrtCollectionObject = { 
   Of01_02: number; 
   Of01_04: number; 
@@ -21,4 +23,27 @@ export declare type WConstShortcutsCollectionObject = {
   Log2e: number; 
   Log10: number; 
   Log10e: number;
+}
+
+// Nova forma de mapeamento de tipos de funções
+export declare type IFormatter<W> = { 
+  Model: W;
+}
+
+export declare type WFunctionsPrototypesObject = {
+
+  Models: {
+
+    Libs: {
+
+      Math: {
+
+        abs: IFormatter<typeof WComponents>["Model"]["Mathematic"]["abs_method"];
+
+      }
+
+    }
+
+  }
+
 }

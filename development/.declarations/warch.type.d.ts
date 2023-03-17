@@ -30,6 +30,8 @@ export declare type IFormatter<W> = {
   Model: W;
 }
 
+type wertsfy_components = typeof WComponents;
+
 export declare type WFunctionsPrototypesObject = {
 
   Models: {
@@ -38,9 +40,12 @@ export declare type WFunctionsPrototypesObject = {
 
       Math: {
 
-        abs: IFormatter<typeof WComponents>["Model"]["Mathematic"]["abs_method"];
+        abs: IFormatter<wertsfy_components>["Model"]["Mathematic"]["abs_method"]
+        arccos: IFormatter<wertsfy_components>["Model"]["Mathematic"]["arccos_method"]
 
       }
+
+      Calc: { }
 
     }
 

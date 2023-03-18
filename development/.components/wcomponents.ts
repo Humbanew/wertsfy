@@ -307,7 +307,6 @@ export namespace LibraryMathematic {
 
 }
 
-/** @emits Not Implemented **[10%]** */
 export namespace LibraryCalculator {
 
   let lc_shortcuts: WComponent = {

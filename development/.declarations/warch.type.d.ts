@@ -1,4 +1,4 @@
-import { WComponents } from "./.components/wcimport";
+import { WertsfyPrototipos } from "./warch.type.nxt";
 
 export declare type WConstSqrtCbrtCollectionObject = { 
   Of01_02: number; 
@@ -25,30 +25,35 @@ export declare type WConstShortcutsCollectionObject = {
   Log10e: number;
 }
 
-// Nova forma de mapeamento de tipos de funções
-export declare type IFormatter<W> = { 
-  Model: W;
-}
+export declare type WITFilter = number 
+  | number[] 
+  | string 
+  | string[]
+  | boolean 
+  | WertsfyPrototipos.Logicos.TComuns
+  | WertsfyPrototipos.Logicos.TAvancados
+  | WertsfyPrototipos.Logicos.TExpressoes["determinantes"]
+  | WertsfyPrototipos.Logicos.TExpressoes["funcoesCartesianas"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesCartesianos"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesComuns"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesDiagramaVenn"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesDiversos"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesGeometricos"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesNumericos"]
+  | WertsfyPrototipos.Logicos.TExpressoes["operacoesVetores"]
+  | WertsfyPrototipos.Logicos.TExpressoes["porcentagem"]
+  | WertsfyPrototipos.Logicos.TExpressoes["triangulosPitagoricos"]
+  | WertsfyPrototipos.Logicos.TExpressoes["variaveisDePascal"]
+  | WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTemperatura"]
+  | WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTitulacao"]
+  | { inicial: number, final: number }
+  | { sent1: string, sent2: string }
+  | { m1: number[][], m2: number[][] }
 
-type wertsfy_components = typeof WComponents;
-
-export declare type WFunctionsPrototypesObject = {
-
-  Models: {
-
-    Libs: {
-
-      Math: {
-
-        abs: IFormatter<wertsfy_components>["Model"]["Mathematic"]["abs_method"]
-        arccos: IFormatter<wertsfy_components>["Model"]["Mathematic"]["arccos_method"]
-
-      }
-
-      Calc: { }
-
-    }
-
-  }
-
-}
+export declare type WITFilterOutput = number 
+  | number[]
+  | string
+  | string[]
+  | void
+  | object
+  | boolean

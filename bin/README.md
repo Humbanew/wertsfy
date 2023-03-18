@@ -4,7 +4,7 @@
 
 <div align=center>
 
- ![Wertsfy Internal Capsulated-Expanced Edition Logo](https://user-images.githubusercontent.com/59739253/222633719-e60bdd69-9433-4ea4-8aa4-bb6b45e45ac8.png)
+ ![Wertsfy Logo Gen 6 ICEE](https://user-images.githubusercontent.com/59739253/226102329-86c371ce-c0cc-4292-b0dc-fdba38dd3a4e.png)
 
 </div>
 

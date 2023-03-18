@@ -9,10 +9,10 @@ ___
 
 <div align="center"> 
   
-  
-  ![Wertsfy Logo Release Classic Edition](https://user-images.githubusercontent.com/59739253/222633049-8f6f87a6-f2b6-475f-9155-0744ffb7f519.png)
-  
-  ![Wertsfy Logo Release Proultimate Edition](https://user-images.githubusercontent.com/59739253/222633052-d04b09fb-1cab-4456-a732-a69ab37a0f9e.png)
+![Wertsfy Logo Gen 6 CE](https://user-images.githubusercontent.com/59739253/226102298-90549bc6-a19e-4c5f-af14-abae2461a272.png)
 
+![Wertsfy Logo Gen 6 PUE](https://user-images.githubusercontent.com/59739253/226102296-92768bd8-ff89-464c-8bd6-5fb1d670d92e.png)
 
 </div>
+
+

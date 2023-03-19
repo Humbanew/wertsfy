@@ -9,7 +9,7 @@ export const Component_math_calculator_advanced_method = (operation: WertsfyProt
 
   for(let i = 0; i < numbers.length; i++) {
     
-    switch(operation.formatos) {
+    switch(operation["modelo"]) {
       case "#sqrt":
         resultado.push(WComponents.Mathematic.sqrt_method(numbers[i])); break;
       case "#cbrt":

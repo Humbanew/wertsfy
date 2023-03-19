@@ -31,7 +31,5 @@ export let wertsfy=
 
 // Testador
 console.log(
-  wertsfy.libmath.Pi, 
-  wertsfy.libmath.SquareRoot.Of02,
-  wertsfy.libcalc.common({modelo: "#plus"}, 4, 4, 4, 10),
+  wertsfy.libmath.Avogadro
 );

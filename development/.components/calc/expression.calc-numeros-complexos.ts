@@ -19,7 +19,7 @@ const formulasDosNumerosComplexos = (tipo: WertsfyPrototipos.Logicos.TComuns, ex
     partesImaginarias.push(expressions[i].match(separadorT1).toString());
     partesImaginariasPuras.push(expressions[i].match(separadorT2).toString());
   }
-  switch(tipo.formatos) {
+  switch(tipo["modelo"]) {
     case "#plus":
       resultadoPartImaginarias = 0;
       resultadoPartImaginariasPuras = 0;
@@ -64,16 +64,16 @@ const formulasDosNumerosComplexos = (tipo: WertsfyPrototipos.Logicos.TComuns, ex
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) / parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) / parseFloat(resultadoPartImaginariasPuras);
     case "#power":
-      resultadoPartImaginarias = "";
-      resultadoPartImaginariasPuras = "";
+      resultadoPartImaginarias = 0;
+      resultadoPartImaginariasPuras = 0;
       for (let i = 0; i < partesImaginarias.length; i++) {
         resultadoPartImaginarias = resultadoPartImaginarias + parseFloat(partesImaginarias[i]);
       }
       for (let i = 0; i < partesImaginariasPuras.length; i++) {
         resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
       }
-      resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) + parseFloat(resultadoPartImaginarias) ** potency;
-      resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) + parseFloat(resultadoPartImaginariasPuras) ** potency;
+      resultadoParcImaginario = parseFloat(valorTotalPartImaginarias + resultadoPartImaginarias ** potency);
+      resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras + resultadoPartImaginariasPuras ** potency);
   }
   if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
   if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }

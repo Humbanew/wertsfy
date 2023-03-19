@@ -6,16 +6,16 @@ export const Component_math_calculator_common_method = (operation: WertsfyProtot
     
   let resultado: number;
   
-  operation.formatos == "#plus" || "#minus" ? resultado = 0 : resultado = 1; 
+  operation["modelo"] == "#plus" || "#minus" ? resultado = 0 : resultado = 1; 
 
   for(let i = 0; i < numbers.length; i++) {
 
-    if(i == 0 && (operation.formatos == "#divisor" || "#multip" || "#power") ) { 
+    if(i == 0 && (operation["modelo"] == "#divisor" || "#multip" || "#power") ) { 
       resultado = numbers[0];
       continue;
     }
 
-    switch(operation.formatos) {
+    switch(operation["modelo"]) {
       case "#plus": 
         resultado = resultado + numbers[i]; break;
       case "#minus":

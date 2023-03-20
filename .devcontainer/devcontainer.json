@@ -18,11 +18,6 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"ms-ceintl.vscode-language-pack-pt-br",
-				"dbaeumer.vscode-eslint",
-				"johnpapa.winteriscoming",
-				"prazdevs.zarp-icons",
-				"ms-python.python"
 			],
 			"devPort": 0
 		}

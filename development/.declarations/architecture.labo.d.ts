@@ -14,7 +14,6 @@ declare interface WKarzok {
 
 declare interface WKCubbic { }
 
-
 // Lydroc
 // Terminal-Spectrals
 

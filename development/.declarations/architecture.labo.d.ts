@@ -6,7 +6,7 @@ declare interface WKarzok {
 
   constructor: {
 
-    cubbic: undefined
+    cubbic: WKCubbic
 
   }
 

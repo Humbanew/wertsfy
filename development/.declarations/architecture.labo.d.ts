@@ -6,17 +6,13 @@ declare interface WKarzok {
 
   constructor: {
 
-    cubbic: undefined
-
-    minecraft: undefined
-
-    terraria: undefined
-
-    beamngdrive: undefined
+    cubbic: WKCubbic
 
   }
 
 }
+
+declare interface WKCubbic { }
 
 // Lydroc
 // Terminal-Spectrals

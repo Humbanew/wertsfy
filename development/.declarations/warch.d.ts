@@ -18,6 +18,8 @@ export declare interface WComponent {
         "#07": (x: string) => void | number[] | string[]
         "#08": (x: WertsfyPrototipos.Logicos.TExpressoes["variaveisDePascal"], y: number, z: number, w: number, k: number) => number
         "#09": (x: WertsfyPrototipos.Logicos.TExpressoes["triangulosPitagoricos"]) => number
+        "#10": (x: number, y: number, z: number, w: number) => number
+        "#11": (x: number, y: number, z: number) => number
       }
     }
     object?: { 

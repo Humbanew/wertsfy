@@ -152,7 +152,7 @@ export namespace LibraryMathematic {
   export const pow: WComponent["src"]["function"]["constructors"]["#03"]=
     WComponents.Mathematic.pow_method;
   
-  export const powofpow: WComponent["src"]["function"]["constructors"]["#04"]=
+  export const powOfPow: WComponent["src"]["function"]["constructors"]["#04"]=
     WComponents.Mathematic.powofpow_method;
   
   export const min: WComponent["src"]["function"]["constructors"]["#02"]=
@@ -234,43 +234,34 @@ export namespace LibraryMathematic {
 
 export namespace LibraryCalculator {
 
-  const lc_shortcuts: WComponent = {
-    src: { object: { collections: { shortcuts: WComponents.Calculator.shortcuts_constant } } }
-  }; export const Shortcuts = lc_shortcuts.src.object.collections.shortcuts;
+  export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
+    WComponents.Calculator.shortcuts_constant;
 
-  // const lc_common: WComponent = {
-  //   src: { function: WComponents.Calculator.common_method }
-  // }; export const common = lc_common.src.function; 
+  export const common: WComponent["src"]["function"]["constructors"]["#05"]=
+    WComponents.Calculator.common_method; 
 
-  // const lc_advanced: WComponent = {
-  //   src: { function: WComponents.Calculator.advanced_method }
-  // }; export const advanced = lc_advanced.src.function;
+  export const advanced: WComponent["src"]["function"]["constructors"]["#06"]=
+    WComponents.Calculator.advanced_method;
 
-  // export namespace Expressions {
+  export namespace Expressions {
 
-  //   const lc_exp_teo_boltzmann: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_boltzmann_method }
-  //   }; export const expTeoBoltzmann = lc_exp_teo_boltzmann.src.function;
+    export const expTeoBoltzmann: WComponent["src"]["function"]["constructors"]["#03"]=
+      WComponents.Calculator.exp_teo_boltzmann_method;
 
-  //   const lc_exp_teo_coulomb: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_coulomb_method }
-  //   }; export const expTeoCoulomb = lc_exp_teo_coulomb.src.function;
+    export const expTeoCoulomb: WComponent["src"]["function"]["constructors"]["#03"]=
+      WComponents.Calculator.exp_teo_coulomb_method;
 
-  //   const lc_exp_teo_girard: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_girard_method }
-  //   }; export const expTeoGirard = lc_exp_teo_girard.src.function;
+    export const expTeoGirard: WComponent["src"]["function"]["constructors"]["#07"]=
+      WComponents.Calculator.exp_teo_girard_method;
 
-  //   const lc_exp_teo_pascal: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_pascal_method }
-  //   }; export const expTeoPascal = lc_exp_teo_pascal.src.function;
+    export const expTeoPascal: WComponent["src"]["function"]["constructors"]["#08"]=
+      WComponents.Calculator.exp_teo_pascal_method;
 
-  //   const lc_exp_teo_pitagoras: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_pitagoras_method }
-  //   }; export const expTeoPitagoras = lc_exp_teo_pitagoras.src.function;
+    export const expTeoPitagoras: WComponent["src"]["function"]["constructors"]["#09"]=
+      WComponents.Calculator.exp_teo_pitagoras_method;
 
-  //   const lc_exp_teo_plank: WComponent = {
-  //     src: { function: WComponents.Calculator.exp_teo_plank_method }
-  //   }; export const expTeoPlank = lc_exp_teo_plank.src.function;
+    export const expTeoPlank: WComponent["src"]["function"]["constructors"]["#03"]=
+      WComponents.Calculator.exp_teo_plank_method;
 
   //   const lc_exp_teo_stevin: WComponent = {
   //     src: { function: WComponents.Calculator.exp_teo_stevin_method }
@@ -335,7 +326,6 @@ export namespace LibraryCalculator {
   //   const lc_exp_eqc_lagrange: WComponent = {
   //     src: { function: WComponents.Calculator.exp_eqc_lagrange_method }
   //   }; export const expEqcHorariaLagrange = lc_exp_eqc_lagrange.src.function;
-
 
   //   const lc_exp_clc_fatorial: WComponent = {
   //     src: { function: WComponents.Calculator.exp_clc_fatorial_method }
@@ -653,6 +643,6 @@ export namespace LibraryCalculator {
   //     src: { function: WComponents.Calculator.exp_clc_geometricos_method }
   //   }; export const expClcGeometricos = lc_exp_clc_geometricos.src.function;
 
-  // };
+  }
 
 }

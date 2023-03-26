@@ -1,7 +1,8 @@
 // possíveis recursos de aprimoramento de arquitetura
   // aqui podem ser testados diversos algoritmos
 
-// Karzok
+  // Typers Mapping
+    // Karzok
 declare interface WKarzok {
 
   constructor: {
@@ -14,6 +15,10 @@ declare interface WKarzok {
 
 declare interface WKCubbic { }
 
-// Lydroc
-// Terminal-Spectrals
+    // Lydroc
+    // Terminal-Spectrals
 
+  // WComponent Upgrade
+declare interface Function { }
+declare interface String { }
+declare interface Data { }

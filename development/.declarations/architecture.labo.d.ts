@@ -13,68 +13,51 @@ declare interface WKarzok {
 
 }
 
-declare interface WKCubbic { }
+declare interface WKCubbic {
 
-declare const cubbic_blueprint: { 
+  tamanho: {
 
-  "tamanho": {
+    estruturas: {
 
-    "tam02x02": {
+      "02x02": [[][]]
+
+      "03x03": [[][][]]
+
+      "04x04": [[][][][]]
+
+      "05x05": [[][][][][]]
       
-      "estrutura": [[][]]
-      "aviso": String 
-    
+      "06x06": [[][][][][][]]
+      
+      "07x07": [[][][][][][][]]
+      
+      "08x08": [[][][][][][][][]]
+      
+      "09x09": [[][][][][][][][][]]
+      
+      "10x10": [[][][][][][][][][][]]
+
     }
-    "tam03x03": {
-      
-      "estrutura": [[][][]] 
-      "aviso": String 
-    
-    }
-    "tam04x04": {
-      
-      "estrutura": [[][][][]] 
-      "aviso": String 
-    
-    }
-    "tam05x05": {
-      
-      "estrutura": [[][][][][]] 
-      "aviso": String 
-    
-    }
-    "tam06x06": {
-      
-      "estrutura": [[][][][][][]] 
-      "aviso": String 
-    
-    }
-    "tam07x07": {
-      
-      "estrutura": [[][][][][][][]] 
-      "aviso": String 
-    
-    }
-    "tam08x08": {
-      
-      "estrutura": [[][][][][][][][]] 
-      "aviso": String 
-    
-    }
-    "tam09x09": {
-      
-      "estrutura": [[][][][][][][][][]] 
-      "aviso": String 
-    
-    }
-    "tam10x10": {
-      
-      "estrutura": [[][][][][][][][][][]] 
-      "aviso": String 
-    
+
+    aviso: String
+
+  }
+
+  pontuacao: {
+
+    modo: {
+
+      classico: null;
+
     }
 
   }
+
+}
+
+declare interface WStruct { }
+
+declare const cubbic_blueprint: { 
 
   "pontuacao": {
 

@@ -55,7 +55,13 @@ declare interface WKCubbic {
 
 }
 
-declare interface WStruct { }
+declare interface WStruct {
+
+  pontuacao(): { }
+
+  ranking(): { }
+
+}
 
 declare const cubbic_blueprint: { 
 

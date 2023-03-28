@@ -238,7 +238,9 @@ declare const cubbic_blueprint: {
 }
 
     // Lydroc
+declare interface WKLydroc { }
     // Terminal-Spectrals
+declare interface WKTerminalSpectrals { }
 
   // WComponent Upgrade
 declare interface Function { }

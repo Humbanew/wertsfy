@@ -47,7 +47,7 @@ declare interface WKCubbic {
 
     modo: {
 
-      classico: null;
+      classico: []
 
     }
 

@@ -57,9 +57,9 @@ declare interface WKCubbic {
 
 declare interface WStruct {
 
-  pontuacao(): { }
+  pontuacao(x: number, y: string): { "": { valor: typeof x, cor: typeof y } }
 
-  ranking(): { }
+  ranking(x: number, y: string): { "": { meta: typeof x, name: typeof y } }
 
 }
 

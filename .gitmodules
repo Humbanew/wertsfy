@@ -1,0 +1,3 @@
+[submodule ".archs"]
+	path = .archs
+	url = git@github.com:Humbanew/wertsfy-narchs.git

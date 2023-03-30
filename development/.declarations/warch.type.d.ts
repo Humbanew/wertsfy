@@ -1,4 +1,4 @@
-import { WertsfyPrototipos } from "./warch.type.nxt";
+import { WertsfyPrototipos } from "./warch.prototype";
 
 export declare type WConstSqrtCbrtCollectionObject = { 
   Of01_02: number; 

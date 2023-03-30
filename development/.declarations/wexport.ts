@@ -1,6 +1,6 @@
 /// <reference path="warch.type.nxt.d.ts" />
 
-import { WertsfyPrototipos } from "./warch.type.nxt";
+import { WertsfyPrototipos } from "./warch.prototype";
 
 export namespace WertsfyTypes {
 

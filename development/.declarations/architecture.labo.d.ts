@@ -6424,7 +6424,7 @@ declare const blueprint_minecraft: {
 
 }
 
-// legacy code
+// Legacy Code TerminalSpectrals
 declare namespace TypeSpecTermDefines {
   
   type SpectralsFormatation=

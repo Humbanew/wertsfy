@@ -43,16 +43,6 @@ declare interface WKCubbic {
 
   }
 
-  pontuacao: {
-
-    modo: {
-
-      classico: []
-
-    }
-
-  }
-
 }
 
 declare interface WStruct {

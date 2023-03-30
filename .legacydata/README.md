@@ -1,1 +1,0 @@
-# Wertsfy Legacy Data Files

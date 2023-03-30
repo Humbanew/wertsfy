@@ -1,16 +1,16 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulaCalculoDaTitulacao = (tipo: WMathOperation.expressions.VariaveisDeTitulacao, massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
+const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTitulacao"], massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
   let resultado = 0;
 
-  switch(tipo.formats) {
-    case "massaAcidoNull":
+  switch(tipo) {
+    case "#massaAcidoNull":
       resultado = massaBase * volumeBase / volumeAcido; break;
-    case "massaBaseNull":
+    case "#massaBaseNull":
       resultado = massaAcido * volumeAcido / volumeBase; break;
-    case "volumeAcidoNull":
+    case "#volumeAcidoNull":
       resultado = massaBase * volumeBase / massaAcido; break;
-    case "volumeBaseNull":
+    case "#volumeBaseNull":
       resultado = massaAcido * volumeAcido / massaBase; break;
   }
   

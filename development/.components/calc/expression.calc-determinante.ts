@@ -1,13 +1,13 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDoCalculoDeDeterminante = (tipo: WMathOperation.expressions.Determinante): number => {
+const formulasDoCalculoDeDeterminante = (tipo: WertsfyPrototipos.Logicos.TExpressoes["determinantes"]): number => {
   let resultado: number = 0;
   switch(tipo[0]) {
-    case "d2x2":
+    case "#d2x2":
       let vetorPrimario = tipo[1].a00 * tipo[1].a11;
       let vetorSecundario = tipo[1].a01 * tipo[1].a10;
       resultado = vetorPrimario - vetorSecundario; break;
-    case "d3x3":
+    case "#d3x3":
       let vetorPrincipal1 = tipo[1].a00 * tipo[1].a11 * tipo[1].a22; 
       let vetorPrincipal2 = tipo[1].a01 * tipo[1].a12 * tipo[1].a20; 
       let vetorPrincipal3 = tipo[1].a02 * tipo[1].a10 * tipo[1].a21;

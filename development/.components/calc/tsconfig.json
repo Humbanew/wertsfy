@@ -7,8 +7,9 @@
     "moduleResolution": "nodenext",
     "target": "ESNext",
     "strict": false,
+    "alwaysStrict": false,
     "isolatedModules": false,
-    "rootDir": "./"
+    "rootDirs": ["./", "../"]
 
   }
 

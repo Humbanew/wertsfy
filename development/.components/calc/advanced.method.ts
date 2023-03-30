@@ -1,158 +1,158 @@
-/// <reference path="../../.declarations/warch.type.d.ts" />
+/// <reference path="../../.declarations/warch.type.nxt.d.ts" />
 
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 import { WComponents } from "../wcimport";
 
-export const Component_math_calculator_advanced_method = (operation: WMathOperation.advanced, ...numbers: number[]): number[] => {
+export const Component_math_calculator_advanced_method = (operation: WertsfyPrototipos.Logicos.TAvancados, ...numbers: number[]): number[] => {
 
   let resultado: number[] = [];
 
   for(let i = 0; i < numbers.length; i++) {
     
-    switch(operation.formats) {
-      case "sqrt":
+    switch(operation["modelo"]) {
+      case "#sqrt":
         resultado.push(WComponents.Mathematic.sqrt_method(numbers[i])); break;
-      case "cbrt":
+      case "#cbrt":
         resultado.push(WComponents.Mathematic.cbrt_method(numbers[i])); break;
-      case "quart":
+      case "#quart":
         resultado.push(WComponents.Mathematic.quart_method(numbers[i])); break;
-      case "quirt":
+      case "#quirt":
         resultado.push(WComponents.Mathematic.quirt_method(numbers[i])); break;
-      case "sexrt":
+      case "#sexrt":
         resultado.push(WComponents.Mathematic.sexrt_method(numbers[i])); break;
-      case "seprt":
+      case "#seprt":
         resultado.push(WComponents.Mathematic.seprt_method(numbers[i])); break;
-      case "octrt":
+      case "#octrt":
         resultado.push(WComponents.Mathematic.octrt_method(numbers[i])); break;
-      case "nonrt":
+      case "#nonrt":
         resultado.push(WComponents.Mathematic.nonrt_method(numbers[i])); break;
-      case "decrt":
+      case "#decrt":
         resultado.push(WComponents.Mathematic.decrt_method(numbers[i])); break;
-      case "sin":
+      case "#sin":
         resultado.push(WComponents.Mathematic.sin_method(numbers[i])); break;
-      case "cos":
+      case "#cos":
         resultado.push(WComponents.Mathematic.cos_method(numbers[i])); break;
-      case "tan":
+      case "#tan":
         resultado.push(WComponents.Mathematic.tan_method(numbers[i])); break;
-      case "sec":
+      case "#sec":
         resultado.push(WComponents.Mathematic.sec_method(numbers[i])); break;
-      case "cosec":
+      case "#cosec":
         resultado.push(WComponents.Mathematic.cosec_method(numbers[i])); break;
-      case "cotan":
+      case "#cotan":
         resultado.push(WComponents.Mathematic.cotan_method(numbers[i])); break;
-      case "sinh":
+      case "#sinh":
         resultado.push(WComponents.Mathematic.sinh_method(numbers[i])); break;
-      case "cosh":
+      case "#cosh":
         resultado.push(WComponents.Mathematic.cosh_method(numbers[i])); break;
-      case "tanh":
+      case "#tanh":
         resultado.push(WComponents.Mathematic.tanh_method(numbers[i])); break;
-      case "sech":
+      case "#sech":
         resultado.push(WComponents.Mathematic.sech_method(numbers[i])); break;
-      case "cosech":
+      case "#cosech":
         resultado.push(WComponents.Mathematic.cosech_method(numbers[i])); break;
-      case "cotanh":
+      case "#cotanh":
         resultado.push(WComponents.Mathematic.cotanh_method(numbers[i])); break;
-      case "arcsin":
+      case "#arcsin":
         resultado.push(WComponents.Mathematic.arcsin_method(numbers[i])); break;
-      case "arccos":
+      case "#arccos":
         resultado.push(WComponents.Mathematic.arccos_method(numbers[i])); break;
-      case "arctan":
+      case "#arctan":
         resultado.push(WComponents.Mathematic.arctan_method(numbers[i])); break;
-      case "arcsec":
+      case "#arcsec":
         resultado.push(WComponents.Mathematic.arcsec_method(numbers[i])); break;
-      case "arccosec":
+      case "#arccosec":
         resultado.push(WComponents.Mathematic.arccosec_method(numbers[i])); break;
-      case "arccotan":
+      case "#arccotan":
         resultado.push(WComponents.Mathematic.arccotan_method(numbers[i])); break;
-      case "arcsinh":
+      case "#arcsinh":
         resultado.push(WComponents.Mathematic.arcsinh_method(numbers[i])); break;
-      case "arccosh":
+      case "#arccosh":
         resultado.push(WComponents.Mathematic.arccosh_method(numbers[i])); break;
-      case "arctanh":
+      case "#arctanh":
         resultado.push(WComponents.Mathematic.arctanh_method(numbers[i])); break;
-      case "arcsech":
+      case "#arcsech":
         resultado.push(WComponents.Mathematic.arcsech_method(numbers[i])); break;
-      case "arccosech":
+      case "#arccosech":
         resultado.push(WComponents.Mathematic.arccosech_method(numbers[i])); break;
-      case "arccotanh":
+      case "#arccotanh":
         resultado.push(WComponents.Mathematic.arccotanh_method(numbers[i])); break;
-      case "ln":
+      case "#ln":
         resultado.push(WComponents.Mathematic.ln_method(numbers[i])); break;
-      case "lnm1":
+      case "#lnm1":
         resultado.push(WComponents.Mathematic.lnm1_method(numbers[i])); break;
-      case "lnp1":
+      case "#lnp1":
         resultado.push(WComponents.Mathematic.lnp1_method(numbers[i])); break;
-      case "coln":
+      case "#coln":
         resultado.push(-1 * WComponents.Mathematic.ln_method(numbers[i])); break;
-      case "colnm1":
+      case "#colnm1":
         resultado.push(-1 * WComponents.Mathematic.lnm1_method(numbers[i])); break;
-      case "colnp1":
+      case "#colnp1":
         resultado.push(-1 * WComponents.Mathematic.lnp1_method(numbers[i])); break;
-      case "antiln":
+      case "#antiln":
         resultado.push(1 ** WComponents.Mathematic.ln_method(numbers[i])); break;
-      case "antilnm1":
+      case "#antilnm1":
         resultado.push(1 ** WComponents.Mathematic.lnm1_method(numbers[i])); break;
-      case "antilnp1":
+      case "#antilnp1":
         resultado.push(1 ** WComponents.Mathematic.lnp1_method(numbers[i])); break;
-      case "log2":
+      case "#log2":
         resultado.push(WComponents.Mathematic.log2_method(numbers[i])); break;
-      case "log2m1":
+      case "#log2m1":
         resultado.push(WComponents.Mathematic.log2m1_method(numbers[i])); break;
-      case "log2p1":
+      case "#log2p1":
         resultado.push(WComponents.Mathematic.log2p1_method(numbers[i])); break;
-      case "colog2":
+      case "#colog2":
         resultado.push(-1 * WComponents.Mathematic.log2_method(numbers[i])); break;
-      case "colog2m1":
+      case "#colog2m1":
         resultado.push(-1 * WComponents.Mathematic.log2m1_method(numbers[i])); break;
-      case "colog2p1":
+      case "#colog2p1":
         resultado.push(-1 * WComponents.Mathematic.log2p1_method(numbers[i])); break;
-      case "antilog2":
+      case "#antilog2":
         resultado.push(1 ** WComponents.Mathematic.log2_method(numbers[i])); break;
-      case "antilog2m1":
+      case "#antilog2m1":
         resultado.push(1 ** WComponents.Mathematic.log2m1_method(numbers[i])); break;
-      case "antilog2p1":
+      case "#antilog2p1":
         resultado.push(1 ** WComponents.Mathematic.log2p1_method(numbers[i])); break;
-      case "log10":
+      case "#log10":
         resultado.push(WComponents.Mathematic.log_method(numbers[i])); break;
-      case "log10m1":
+      case "#log10m1":
         resultado.push(WComponents.Mathematic.logm1_method(numbers[i])); break;
-      case "log10p1":
+      case "#log10p1":
         resultado.push(WComponents.Mathematic.logp1_method(numbers[i])); break;
-      case "colog10":
+      case "#colog10":
         resultado.push(-1 * WComponents.Mathematic.log_method(numbers[i])); break;
-      case "colog10m1":
+      case "#colog10m1":
         resultado.push(-1 * WComponents.Mathematic.logm1_method(numbers[i])); break;
-      case "colog10p1":
+      case "#colog10p1":
         resultado.push(-1 * WComponents.Mathematic.logp1_method(numbers[i])); break;
-      case "antilog10":
+      case "#antilog10":
         resultado.push(1 ** WComponents.Mathematic.log_method(numbers[i])); break;
-      case "antilog10m1":
+      case "#antilog10m1":
         resultado.push(1 ** WComponents.Mathematic.logm1_method(numbers[i])); break;
-      case "antilog10p1":
+      case "#antilog10p1":
         resultado.push(1 ** WComponents.Mathematic.logp1_method(numbers[i])); break;
-      case "logx":
+      case "#logx":
         resultado.push(WComponents.Mathematic.logx_method(numbers[i], numbers[i+1])); i++; break;
-      case "logxm1":
+      case "#logxm1":
         resultado.push(WComponents.Mathematic.logxm1_method(numbers[i], numbers[i+1])); i++; break;
-      case "logxp1":
+      case "#logxp1":
         resultado.push(WComponents.Mathematic.logxp1_method(numbers[i], numbers[i+1])); i++; break;          
-      case "cologx":
+      case "#cologx":
         resultado.push(-1 * WComponents.Mathematic.logx_method(numbers[i], numbers[i+1])); i++; break;
-      case "cologxm1":
+      case "#cologxm1":
         resultado.push(-1 * WComponents.Mathematic.logxm1_method(numbers[i], numbers[i+1])); i++; break;
-      case "cologxp1":
+      case "#cologxp1":
         resultado.push(-1 * WComponents.Mathematic.logxp1_method(numbers[i], numbers[i+1])); i++; break;          
-      case "antilogx":
+      case "#antilogx":
         resultado.push(1 ** WComponents.Mathematic.logx_method(numbers[i], numbers[i+1])); i++; break;
-      case "antilogxm1":
+      case "#antilogxm1":
         resultado.push(1 ** WComponents.Mathematic.logxm1_method(numbers[i], numbers[i+1])); i++; break;
-      case "antilogxp1":
+      case "#antilogxp1":
         resultado.push(1 ** WComponents.Mathematic.logxp1_method(numbers[i], numbers[i+1])); i++; break;
-      case "exp":
+      case "#exp":
         resultado.push(WComponents.Mathematic.exp_method(numbers[i], numbers[i+1])); i++; break;          
-      case "expm1":
+      case "#expm1":
         resultado.push(WComponents.Mathematic.expp1_method(numbers[i], numbers[i+1])); i++; break;          
-      case "expp1":
+      case "#expp1":
         resultado.push(WComponents.Mathematic.expm1_method(numbers[i], numbers[i+1])); i++; break;          
     }
   

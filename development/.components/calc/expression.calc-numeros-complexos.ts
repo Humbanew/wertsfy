@@ -1,6 +1,6 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosComplexos, expressions: string[], potency?: number): string|void => {
+const formulasDosNumerosComplexos = (tipo: WertsfyPrototipos.Logicos.TComuns, expressions: string[], potency?: number): string|void => {
   let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
   let separadorT1 = /^(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)/gim;
   let separadorT2 = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;
@@ -19,8 +19,8 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosCom
     partesImaginarias.push(expressions[i].match(separadorT1).toString());
     partesImaginariasPuras.push(expressions[i].match(separadorT2).toString());
   }
-  switch(tipo.formats) {
-    case "plus":
+  switch(tipo["modelo"]) {
+    case "#plus":
       resultadoPartImaginarias = 0;
       resultadoPartImaginariasPuras = 0;
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -30,7 +30,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosCom
         resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
       }
       break;
-    case "minus":      
+    case "#minus":      
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -41,7 +41,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosCom
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) - parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) - parseFloat(resultadoPartImaginariasPuras);
-    case "multip":
+    case "#multip":
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -52,7 +52,7 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosCom
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) * parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) * parseFloat(resultadoPartImaginariasPuras);
-    case "divisor":
+    case "#divisor":
       resultadoPartImaginarias = "";
       resultadoPartImaginariasPuras = "";
       for (let i = 0; i < partesImaginarias.length; i++) {
@@ -63,17 +63,17 @@ const formulasDosNumerosComplexos = (tipo: WMathOperation.expressions.NumerosCom
       }
       resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) / parseFloat(resultadoPartImaginarias);
       resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) / parseFloat(resultadoPartImaginariasPuras);
-    case "power":
-      resultadoPartImaginarias = "";
-      resultadoPartImaginariasPuras = "";
+    case "#power":
+      resultadoPartImaginarias = 0;
+      resultadoPartImaginariasPuras = 0;
       for (let i = 0; i < partesImaginarias.length; i++) {
         resultadoPartImaginarias = resultadoPartImaginarias + parseFloat(partesImaginarias[i]);
       }
       for (let i = 0; i < partesImaginariasPuras.length; i++) {
         resultadoPartImaginariasPuras = resultadoPartImaginariasPuras + parseFloat(partesImaginariasPuras[i]);
       }
-      resultadoParcImaginario = parseFloat(valorTotalPartImaginarias) + parseFloat(resultadoPartImaginarias) ** potency;
-      resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras) + parseFloat(resultadoPartImaginariasPuras) ** potency;
+      resultadoParcImaginario = parseFloat(valorTotalPartImaginarias + resultadoPartImaginarias ** potency);
+      resultadoParcImaginarioPuro = parseFloat(valorTotalPartImaginariasPuras + resultadoPartImaginariasPuras ** potency);
   }
   if (resultadoPartImaginarias < 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }
   if (resultadoPartImaginarias > 0 && resultadoPartImaginariasPuras < 0) { resultado = `${resultadoPartImaginarias}${resultadoPartImaginariasPuras}i`; }

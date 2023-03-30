@@ -1,30 +1,30 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const calculoNumericos = (tipo: WMathOperation.expressions.OperacoesNumericos): number|number[] => {
+const calculoNumericos = (tipo: WertsfyPrototipos.Logicos.TExpressoes["operacoesNumericos"]): number|number[] => {
 
   let resultado: number|number[] = 0||[], attrs = undefined;
 
-  switch(tipo.formats[0]) {
-    case "numerosPares":
-      attrs = tipo.formats[1];
+  switch(tipo[0]) {
+    case "#numerosPares":
+      attrs = tipo[1];
       resultado = attrs.numero / 2;
       if(resultado % 2 === 0) { console.info(1) }
       else { console.info(0) }; break;
-    case "numerosImpares":
-      attrs = tipo.formats[1];
+    case "#numerosImpares":
+      attrs = tipo[1];
       resultado = attrs.numero / 3;
       if(resultado % 3 === 0) { console.info(1) }
       else { console.info(0) }; break;
-    case "numerosPrimos":
-      attrs = tipo.formats[1];
+    case "#numerosPrimos":
+      attrs = tipo[1];
       resultado = [];
       for(let i = 0; i < attrs.numerosPesquisados; i++) {
         if(i % 2 !== 0) {
           resultado.push(i);
         }
       }; break;
-    case "conjuntos":
-      attrs = tipo.formats[1];
+    case "#conjuntos":
+      attrs = tipo[1];
       resultado = 2 ** attrs.elementos; break;
   }
 

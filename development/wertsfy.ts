@@ -30,4 +30,6 @@ export let wertsfy=
 };
 
 // Testador
-console.log(wertsfy.libmath.Pi, wertsfy.libmath.SquareRoot.Of02);
+console.log(
+  wertsfy.libmath.Avogadro
+);

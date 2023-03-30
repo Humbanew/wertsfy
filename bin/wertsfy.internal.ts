@@ -1,4 +1,4 @@
-import { wertsfy } from "../public/wertsfy";
+import { wertsfy } from "../development/wertsfy";
 
 namespace WertsfyActualArch {
   export let core = wertsfy;

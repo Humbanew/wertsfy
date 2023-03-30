@@ -1506,7 +1506,20 @@ declare type Karzok = {
         // "generator.single_biome_surface": "Single Biome",
         // "generator.single_biome_caves": "Caves",
         // "generator.single_biome_floating_islands": "Floating Islands",
-        "generator": { }
+        "generator": {
+
+          "default": String
+          "flat": String
+          "large_biomes": String
+          "amplified": { Default: String, "info": String }
+          "customized": String
+          "custom": String
+          "debug_all_block_states": String
+          "single_biome_surface": String
+          "single_biome_caves": String
+          "single_biome_floating_islands": String
+
+        }
 
         // "selectServer.title": "Select Server",
         // "selectServer.select": "Join Server",

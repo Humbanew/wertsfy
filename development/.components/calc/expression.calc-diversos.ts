@@ -1,24 +1,24 @@
-import { WMathOperation } from "../../.declarations/warch.type";
+import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
 
-const calculoDiversos = (tipo: WMathOperation.expressions.OperacoesDiversos): number => {
+const calculoDiversos = (tipo: WertsfyPrototipos.Logicos.TExpressoes["operacoesDiversos"]): number => {
 
   let resultado = 0, attrs = undefined;
   
-  switch(tipo.formats[0]) {
-    case "escalaGeografica":
-      attrs = tipo.formats[1];
+  switch(tipo[0]) {
+    case "#escalaGeografica":
+      attrs = tipo[1];
       resultado = attrs.tamanhoReal / attrs.tamanhoFicticio; break;
-    case "idh":
-      attrs = tipo.formats[1];
+    case "#idh":
+      attrs = tipo[1];
       resultado = (attrs.saude + attrs.educacao + attrs.renda) / (attrs.populacao + attrs.ppc); break;
-    case "gini":
-      attrs = tipo.formats[1];
+    case "#gini":
+      attrs = tipo[1];
       resultado = attrs.pnb / attrs.populacao; break;
-    case "imc":
-      attrs = tipo.formats[1];
+    case "#imc":
+      attrs = tipo[1];
       resultado = attrs.peso / attrs.altura ** 2; break;
-    case "densidadePopulacional":
-      attrs = tipo.formats[1];
+    case "#densidadePopulacional":
+      attrs = tipo[1];
       resultado = attrs.espaco / attrs.populacao; break;
   }
 

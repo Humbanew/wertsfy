@@ -1,0 +1,1 @@
+# Wertsfy Blueprint

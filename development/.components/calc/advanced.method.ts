@@ -1,9 +1,9 @@
-/// <reference path="../../.declarations/warch.type.nxt.d.ts" />
+/// <reference path="../../.declarations/warch.prototype.d.ts" />
 
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 import { WComponents } from "../wcimport";
 
-export const Component_math_calculator_advanced_method = (operation: WertsfyPrototipos.Logicos.TAvancados, ...numbers: number[]): number[] => {
+export const Component_math_calculator_advanced_method = (operation: WertsfyPrototipos.Logicos.Core["TAvancados"], ...numbers: number[]): number[] => {
 
   let resultado: number[] = [];
 

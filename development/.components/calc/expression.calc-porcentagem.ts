@@ -1,6 +1,6 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const formulasDoCalculoDePorcentagem = (tipo: WertsfyPrototipos.Logicos.TExpressoes["porcentagem"]) => {
+const formulasDoCalculoDePorcentagem = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["porcentagem"]) => {
 
   let resultado = 0, variavel = tipo;
 

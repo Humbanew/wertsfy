@@ -1,6 +1,6 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.TExpressoes["operacoesComuns"], matriz: { m1: number[][], m2: number[][] }): number[][] => {
+const formulasDeCalculoDeMatrizes = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["operacoesComuns"], matriz: { m1: number[][], m2: number[][] }): number[][] => {
   let resultado: number[][];
   for (let i = 0; i < matriz.m1.length; i++) {
     resultado[i] = [];

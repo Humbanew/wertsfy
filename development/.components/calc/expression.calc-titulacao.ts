@@ -1,6 +1,6 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.TExpressoes["variaveisDeTitulacao"], massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
+const formulaCalculoDaTitulacao = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["variaveisDeTitulacao"], massaBase: number, massaAcido: number, volumeBase: number, volumeAcido: number): number => {
   let resultado = 0;
 
   switch(tipo) {

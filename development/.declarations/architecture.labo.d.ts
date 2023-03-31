@@ -6988,6 +6988,9 @@ declare namespace TypeSpecTermDefines {
 
 }
 
+/** @deprecated No use this. @description Behind Module */
+declare class WMCalcConv { readonly conversores = 0; }
+
     // Lydroc
 declare interface WKLydroc { }
     // Terminal-Spectrals

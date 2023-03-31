@@ -1,7 +1,7 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
 
-const formulaDoTeoremaDePitagoras = (tipo: WertsfyPrototipos.Logicos.TExpressoes["triangulosPitagoricos"]): number => {
+const formulaDoTeoremaDePitagoras = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["triangulosPitagoricos"]): number => {
   let resultado = 0;
   switch(tipo[0]) {
     case "#classic(a and b)":

@@ -1,4 +1,4 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.type.nxt";
+import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method } from "./expression.calc-cossenos-diretores-vetor-r2";
 import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method } from "./expression.calc-cossenos-diretores-vetor-r3";
 import { Component_math_calculator_exp_calc_divisao_vetores_r2_method } from "./expression.calc-divisao-vetores-r2";
@@ -20,7 +20,7 @@ import { Component_math_calculator_exp_calc_versor_vetor_r3_method } from "./exp
 import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method } from "./expression.calc-vetor-distancia-entre-dois-pontos-r2";
 import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method } from "./expression.calc-vetor-distancia-entre-dois-pontos-r3";
 
-const calculoDosVetoresGA = (tipo: WertsfyPrototipos.Logicos.TExpressoes["operacoesVetores"]): number|number[] => {
+const calculoDosVetoresGA = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["operacoesVetores"]): number|number[] => {
 
   let resultado: number|number[] = 0, attrs = undefined;
 

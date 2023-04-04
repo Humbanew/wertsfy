@@ -4,6 +4,5 @@ import { WertsfyTypes } from "./wexport";
 
 // Testando imports de variaveis de tipagens.
 WertsfyTypes.logicos.comum;
-WertsfyTypes.logicos.avancado;
+WertsfyTypes.logicos.avancados;
 WertsfyTypes.logicos.expressoes;
-

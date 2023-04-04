@@ -6,5 +6,3 @@ import { WertsfyTypes } from "./wexport";
 WertsfyTypes.Logicos.comum;
 WertsfyTypes.Logicos.avancados;
 WertsfyTypes.Logicos.expressoes;
-WertsfyTypes.Karzok.cubbic;
-WertsfyTypes.Karzok.spectrals;

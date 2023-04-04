@@ -1,4 +1,4 @@
-import { WPKarzok } from "./karzok/karzok.base";
+import { WPKarzok } from "../../.legacydata/karzok/karzok.base";
 import { WPLogicos } from "./logic/logic.base";
 
 export declare namespace WertsfyPrototipos {

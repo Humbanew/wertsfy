@@ -1,4 +1,4 @@
-import { WKSCF24BIT, WKSCF3B4BIT, WKSCF8BIT } from "../warch.type"
+import { WKSCF24BIT, WKSCF3B4BIT, WKSCF8BIT } from "../../development/.declarations/warch.type"
 
 export declare interface WKSpectrals {
 

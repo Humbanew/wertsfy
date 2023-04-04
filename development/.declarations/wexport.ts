@@ -11,12 +11,5 @@ export namespace WertsfyTypes {
     export var expressoes: WertsfyPrototipos.Logicos.Core["TExpressoes"];
 
   }
-  
-  export namespace Karzok {
-
-    export var cubbic: WertsfyPrototipos.Karzok.Core["TCubbic"];
-    export var spectrals: WertsfyPrototipos.Karzok.Core["TSpectrals"];
-
-  }
 
 }

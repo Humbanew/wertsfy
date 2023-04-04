@@ -1,5 +1,12 @@
 import { WertsfyPrototipos } from "./warch.prototype";
 
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Tipo [Type] | Sqrt & Cbrt Collection``**
+ * 
+ * Coleção de tipos de raiz quadrada e cúbica, possuindo o mesmo molde. [_Collection of square and cubic root types, having the same mold._] 
+ */  
 export declare type WConstSqrtCbrtCollectionObject = { 
   Of01_02: number; 
   Of01_04: number; 
@@ -16,6 +23,13 @@ export declare type WConstSqrtCbrtCollectionObject = {
   Of10: number;  
 }
 
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Tipo [Type] | Shortcuts Collection``**
+ * 
+ * Coleção de tipos de atalhos de constante. [_Collection of constant shortcuts._] 
+ */
 export declare type WConstShortcutsCollectionObject = {
   Pi: number; 
   Euler: number; 
@@ -25,6 +39,13 @@ export declare type WConstShortcutsCollectionObject = {
   Log10e: number;
 }
 
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Tipo [Type] | Filter``**
+ * 
+ * Tipo de filtragem de entrada em funções específicas. [_Type of input filtering in specific functions._] 
+ */
 export declare type WITFilter = number 
   | number[] 
   | string 
@@ -50,6 +71,13 @@ export declare type WITFilter = number
   | { sent1: string, sent2: string }
   | { m1: number[][], m2: number[][] }
 
+/**
+ * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+ * 
+ * **``Tipo [Type] | Output Filter``**
+ * 
+ * Tipo de filtragem de saída em funções específicas. [_Type of output filtering in specific functions._] 
+ */
 export declare type WITFilterOutput = number 
   | number[]
   | string

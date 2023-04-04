@@ -5,9 +5,7 @@ import { TExpressoes } from "./logic.texpressoes";
 export declare interface WPLogicos {
 
   TComuns: TComuns;
-
   TAvancados: TAvancados;
-
   TExpressoes: TExpressoes;
 
 }

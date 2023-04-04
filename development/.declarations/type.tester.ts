@@ -3,6 +3,8 @@
 import { WertsfyTypes } from "./wexport";
 
 // Testando imports de variaveis de tipagens.
-WertsfyTypes.logicos.comum;
-WertsfyTypes.logicos.avancados;
-WertsfyTypes.logicos.expressoes;
+WertsfyTypes.Logicos.comum;
+WertsfyTypes.Logicos.avancados;
+WertsfyTypes.Logicos.expressoes;
+WertsfyTypes.Karzok.cubbic;
+WertsfyTypes.Karzok.spectrals;

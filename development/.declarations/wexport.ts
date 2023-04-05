@@ -27,7 +27,7 @@ export namespace WertsfyTypes {
      * 
      * A categoria de tipagens covencionais. [_The category of cosky typing._] 
      */  
-    export var comum: WertsfyPrototipos.Logicos.Core["TComuns"];
+    export var comum: WertsfyPrototipos.Logicos["Core"]["TComuns"];
     
     /**
      * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -36,7 +36,7 @@ export namespace WertsfyTypes {
      * 
      * A categoria de tipagens avançadas. [_The category of advanced typing._] 
      */  
-    export var avancados: WertsfyPrototipos.Logicos.Core["TAvancados"];
+    export var avancados: WertsfyPrototipos.Logicos["Core"]["TAvancados"];
 
     /**
      * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -45,7 +45,7 @@ export namespace WertsfyTypes {
      * 
      * A categoria de tipagens de expressões. [_The category of expressions typing._] 
      */  
-    export var expressoes: WertsfyPrototipos.Logicos.Core["TExpressoes"];
+    export var expressoes: WertsfyPrototipos.Logicos["Core"]["TExpressoes"];
 
   }
 

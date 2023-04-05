@@ -1,5 +1,3 @@
-/// <reference path="architecture.labo.d.ts"/>
-
 import { WertsfyTypes } from "./wexport";
 
 // Testando imports de variaveis de tipagens.

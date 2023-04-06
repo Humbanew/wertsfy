@@ -5,45 +5,59 @@ import { WComponents } from "./wcimport";
 
 export namespace LibraryMathematic {
 
+  /** */
   export const Avogadro: WComponent["src"]["number"]=
     WComponents.Mathematic.avogadro_constant;  
 
+  /** */
   export const Euler: WComponent["src"]["number"]=
     WComponents.Mathematic.euler_constant; 
 
+  /** */
   export const Logarithm2: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm2_constant; 
 
+  /** */
   export const Logarithm2e: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm2e_constant; 
   
+  /** */
   export const Logarithm10: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm10_constant;
 
+  /** */
   export const Logarithm10e: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm10e_constant;
 
+  /** */
   export const Maxvalue: WComponent["src"]["number"]=
     WComponents.Mathematic.maxvalue_constant;
 
+  /** */
   export const Minvalue: WComponent["src"]["number"]=
     WComponents.Mathematic.minvalue_constant;
 
+  /** */
   export const Newton: WComponent["src"]["number"]=
     WComponents.Mathematic.newton_constant;
 
+  /** */
   export const Pi: WComponent["src"]["number"]=
     WComponents.Mathematic.pi_constant;
 
+  /** */
   export const Plank: WComponent["src"]["number"]=
     WComponents.Mathematic.plank_constant; 
 
+  /** */
   export const Tesla: WComponent["src"]["number"]=
     WComponents.Mathematic.tesla_constant;
 
+  /** */
   export const SquareRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WComponents.Mathematic.square_root_constant_collection;
 
+  /** */
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WComponents.Mathematic.cubic_root_constant_collection;
 
@@ -234,6 +248,7 @@ export namespace LibraryMathematic {
 
 export namespace LibraryCalculator {
 
+  /** */
   export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
     WComponents.Calculator.shortcuts_constant;
 

@@ -1,6 +1,8 @@
 /// <reference path="../.declarations/warch.d.ts" />
+/// <reference path="wcconnection.d.ts" />
 
 import { WComponent } from "../.declarations/warch";
+import { WertsfyComponents } from "./wcconnection";
 import { WComponents } from "./wcimport";
 
 export namespace LibraryMathematic {
@@ -13,7 +15,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de avogadro. [_Returns the value of avogadro._]
    */
   export const Avogadro: WComponent["src"]["number"]=
-    WComponents.Mathematic.avogadro_constant;  
+    WertsfyComponents.source.math["constant.avogadro"]; 
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -23,7 +25,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de euler. [_Returns the value of euler._]
    */
   export const Euler: WComponent["src"]["number"]=
-    WComponents.Mathematic.euler_constant; 
+    WertsfyComponents.source.math["constant.euler"]; 
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -33,7 +35,7 @@ export namespace LibraryMathematic {
    * Retorna o valor do logaritmo de 2. [_Returns the value of the logarithm of 2._]
    */
   export const Logarithm2: WComponent["src"]["number"]=
-    WComponents.Mathematic.logarithm2_constant; 
+    WertsfyComponents.source.math["constant.logarithm2"]; 
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -43,7 +45,7 @@ export namespace LibraryMathematic {
    * Retorna o valor do logaritmo de 2 na base euler. [_Returns the logarithm value of 2 at the Euler base._]
    */
   export const Logarithm2e: WComponent["src"]["number"]=
-    WComponents.Mathematic.logarithm2e_constant; 
+    WertsfyComponents.source.math["constant.logarithm2e"];
   
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -53,7 +55,7 @@ export namespace LibraryMathematic {
    * Retorna o valor do logaritmo de 10. [_Returns the value of the logarithm of 10._]
    */
   export const Logarithm10: WComponent["src"]["number"]=
-    WComponents.Mathematic.logarithm10_constant;
+    WertsfyComponents.source.math["constant.logarithm10"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -63,7 +65,7 @@ export namespace LibraryMathematic {
    * Retorna o valor do logaritmo de 10 na base euler. [_Returns the logarithm value of 10 at the Euler base._]
    */
   export const Logarithm10e: WComponent["src"]["number"]=
-    WComponents.Mathematic.logarithm10e_constant;
+    WertsfyComponents.source.math["constant.logarithm10e"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -73,7 +75,7 @@ export namespace LibraryMathematic {
    * Retorna o valor máximo. [_Returns the max value._]
    */
   export const Maxvalue: WComponent["src"]["number"]=
-    WComponents.Mathematic.maxvalue_constant;
+    WertsfyComponents.source.math["constant.maxvalue"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -83,7 +85,7 @@ export namespace LibraryMathematic {
    * Retorna o valor mínimo. [_Returns the min value._]
    */
   export const Minvalue: WComponent["src"]["number"]=
-    WComponents.Mathematic.minvalue_constant;
+    WertsfyComponents.source.math["constant.minvalue"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -93,7 +95,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de newton. [_Returns the value of newton._]
    */
   export const Newton: WComponent["src"]["number"]=
-    WComponents.Mathematic.newton_constant;
+    WertsfyComponents.source.math["constant.newton"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -103,7 +105,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de pi. [_Returns the value of pi._]
    */
   export const Pi: WComponent["src"]["number"]=
-    WComponents.Mathematic.pi_constant;
+    WertsfyComponents.source.math["constant.pi"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -113,7 +115,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de plank. [_Returns the value of plank._]
    */
   export const Plank: WComponent["src"]["number"]=
-    WComponents.Mathematic.plank_constant; 
+    WertsfyComponents.source.math["constant.plank"]; 
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -123,7 +125,7 @@ export namespace LibraryMathematic {
    * Retorna o valor de tesla. [_Returns the value of tesla._]
    */
   export const Tesla: WComponent["src"]["number"]=
-    WComponents.Mathematic.tesla_constant;
+    WertsfyComponents.source.math["constant.tesla"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -133,7 +135,7 @@ export namespace LibraryMathematic {
    * Retorna a lista de constantes de raízes quadradas. [_Returns the list of square roots constants._]
    */
   export const SquareRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
-    WComponents.Mathematic.square_root_constant_collection;
+    WertsfyComponents.source.math["constant.collection.sqrt"];
 
   /** 
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -143,190 +145,190 @@ export namespace LibraryMathematic {
    * Retorna a lista de constantes de raízes cúbicas. [_Returns the list of cubic roots constants._]
    */
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
-    WComponents.Mathematic.cubic_root_constant_collection;
+    WertsfyComponents.source.math["constant.collection.cbrt"];
 
   export const abs: WComponent["src"]["function"]=
-    WComponents.Mathematic.abs_method; 
+    WertsfyComponents.source.math["method.abs"]; 
 
   export const arcsin: WComponent["src"]["function"]=
-    WComponents.Mathematic.arcsin_method;
+    WertsfyComponents.source.math["method.arcsin"];
 
   export const arcsinh: WComponent["src"]["function"]=
-    WComponents.Mathematic.arcsinh_method;
+    WertsfyComponents.source.math["method.arcsinh"];
 
   export const arccos: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccos_method;
+    WertsfyComponents.source.math["method.arccos"];
 
   export const arccosh: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccosh_method;
+    WertsfyComponents.source.math["method.arccosh"];
 
   export const arctan: WComponent["src"]["function"]=
-    WComponents.Mathematic.arctan_method;
+    WertsfyComponents.source.math["method.arctan"];
 
   export const arctanh: WComponent["src"]["function"]=
-    WComponents.Mathematic.arctanh_method;
+    WertsfyComponents.source.math["method.arctanh"];
 
   export const arcsec: WComponent["src"]["function"]=
-    WComponents.Mathematic.arcsec_method;
+    WertsfyComponents.source.math["method.arcsec"];
 
   export const arcsech: WComponent["src"]["function"]=
-    WComponents.Mathematic.arcsech_method;
+    WertsfyComponents.source.math["method.arcsech"]
 
   export const arccosec: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccosec_method;
+    WertsfyComponents.source.math["method.arccosec"];
 
   export const arccosech: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccosech_method;
+    WertsfyComponents.source.math["method.arccosech"]
 
   export const arccotan: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccotan_method;
+    WertsfyComponents.source.math["method.arccotan"];
 
   export const arccotanh: WComponent["src"]["function"]=
-    WComponents.Mathematic.arccotanh_method;
+    WertsfyComponents.source.math["method.arccotanh"]
 
   export const sqrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.sqrt_method;
+    WertsfyComponents.source.math["method.sqrt"]
   
   export const cbrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.cbrt_method;
+    WertsfyComponents.source.math["method.cbrt"]
   
   export const quart: WComponent["src"]["function"]=
-    WComponents.Mathematic.quart_method;
+    WertsfyComponents.source.math["method.quart"];
   
   export const quirt: WComponent["src"]["function"]=
-    WComponents.Mathematic.quirt_method;
+    WertsfyComponents.source.math["method.quirt"];
   
   export const sexrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.sexrt_method;
+    WertsfyComponents.source.math["method.sexrt"]
   
   export const seprt: WComponent["src"]["function"]=
-    WComponents.Mathematic.seprt_method;
+    WertsfyComponents.source.math["method.seprt"];
   
   export const octrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.octrt_method;
+    WertsfyComponents.source.math["method.octrt"];
   
   export const nonrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.nonrt_method;
+    WertsfyComponents.source.math["method.nonrt"];
   
   export const decrt: WComponent["src"]["function"]=
-    WComponents.Mathematic.decrt_method;
+    WertsfyComponents.source.math["method.decrt"];
   
   export const sin: WComponent["src"]["function"]=
-    WComponents.Mathematic.sin_method;
+    WertsfyComponents.source.math["method.sin"];
   
   export const sinh: WComponent["src"]["function"]=
-    WComponents.Mathematic.sinh_method;
+    WertsfyComponents.source.math["method.sinh"]
   
   export const cos: WComponent["src"]["function"]=
-    WComponents.Mathematic.cos_method;
+    WertsfyComponents.source.math["method.cos"];
   
   export const cosh: WComponent["src"]["function"]=
-    WComponents.Mathematic.cosh_method;
+    WertsfyComponents.source.math["method.cosh"];
   
   export const tan: WComponent["src"]["function"]=
-    WComponents.Mathematic.tan_method;
+    WertsfyComponents.source.math["method.tan"];
   
   export const tanh: WComponent["src"]["function"]=
-    WComponents.Mathematic.tanh_method;
+    WertsfyComponents.source.math["method.tanh"];
   
   export const sec: WComponent["src"]["function"]=
-    WComponents.Mathematic.sec_method;
+    WertsfyComponents.source.math["method.sec"];
   
   export const sech: WComponent["src"]["function"]=
-    WComponents.Mathematic.sech_method;
+    WertsfyComponents.source.math["method.sech"];
   
   export const cosec: WComponent["src"]["function"]=
-    WComponents.Mathematic.cosec_method;
+    WertsfyComponents.source.math["method.cosec"];
   
   export const cosech: WComponent["src"]["function"]=
-    WComponents.Mathematic.cosech_method;
+    WertsfyComponents.source.math["method.cosech"];
   
   export const cotan: WComponent["src"]["function"]=
-    WComponents.Mathematic.cotan_method;
+    WertsfyComponents.source.math["method.cotan"];
   
   export const cotanh: WComponent["src"]["function"]=
-    WComponents.Mathematic.cotanh_method;
+    WertsfyComponents.source.math["method.cotanh"];
   
   export const pow: WComponent["src"]["function"]=
-    WComponents.Mathematic.pow_method;
+    WertsfyComponents.source.math["method.pow"];
   
-  export const powOfPow: WComponent["src"]["function"]=
-    WComponents.Mathematic.powofpow_method;
+  export const powofpow: WComponent["src"]["function"]=
+    WertsfyComponents.source.math["method.powofpow"]
   
   export const min: WComponent["src"]["function"]=
-    WComponents.Mathematic.min_method;
+    WertsfyComponents.source.math["method.min"];
   
   export const max: WComponent["src"]["function"]=
-    WComponents.Mathematic.max_method;
+    WertsfyComponents.source.math["method.max"];
   
   export const random: WComponent["src"]["function"]=
-    WComponents.Mathematic.random_method;
+    WertsfyComponents.source.math["method.random"];
   
   export const log: WComponent["src"]["function"]=
-    WComponents.Mathematic.log_method;
+    WertsfyComponents.source.math["method.log"];
   
   export const logm1: WComponent["src"]["function"]=
-    WComponents.Mathematic.logm1_method;
+    WertsfyComponents.source.math["method.logm1"];
   
   export const logp1: WComponent["src"]["function"]=
-    WComponents.Mathematic.logp1_method;
+    WertsfyComponents.source.math["method.logp1"];
   
   export const log2: WComponent["src"]["function"]=
-    WComponents.Mathematic.log2_method;
+    WertsfyComponents.source.math["method.log2"];
   
   export const log2m1: WComponent["src"]["function"]=
-    WComponents.Mathematic.log2m1_method;
+    WertsfyComponents.source.math["method.log2m1"];
   
   export const log2p1: WComponent["src"]["function"]=
-    WComponents.Mathematic.log2p1_method;
+    WertsfyComponents.source.math["method.log2p1"];
   
   export const logx: WComponent["src"]["function"]=
-    WComponents.Mathematic.logx_method;
+    WertsfyComponents.source.math["method.logx"];
   
   export const logxm1: WComponent["src"]["function"]=
-    WComponents.Mathematic.logxm1_method;
+    WertsfyComponents.source.math["method.logxm1"];
   
   export const logxp1: WComponent["src"]["function"]=
-    WComponents.Mathematic.logxp1_method;
+    WertsfyComponents.source.math["method.logxp1"];
   
   export const ln: WComponent["src"]["function"]=
-    WComponents.Mathematic.ln_method;
+    WertsfyComponents.source.math["method.ln"];
   
   export const lnm1: WComponent["src"]["function"]=
-    WComponents.Mathematic.lnm1_method;
+    WertsfyComponents.source.math["method.lnm1"];
   
   export const lnp1: WComponent["src"]["function"]=
-    WComponents.Mathematic.lnp1_method;
+    WertsfyComponents.source.math["method.lnp1"];
   
   export const exp: WComponent["src"]["function"]=
-    WComponents.Mathematic.exp_method;
+    WertsfyComponents.source.math["method.exp"];
   
   export const expm1: WComponent["src"]["function"]=
-    WComponents.Mathematic.expm1_method;
+    WertsfyComponents.source.math["method.expm1"];
   
   export const expp1: WComponent["src"]["function"]=
-    WComponents.Mathematic.expp1_method;
+    WertsfyComponents.source.math["method.expp1"];
   
   export const round: WComponent["src"]["function"]=
-    WComponents.Mathematic.round_method;
+    WertsfyComponents.source.math["method.round"];
   
   export const fround: WComponent["src"]["function"]=
-    WComponents.Mathematic.fround_method;
+    WertsfyComponents.source.math["method.fround"];
   
   export const floor: WComponent["src"]["function"]=
-    WComponents.Mathematic.floor_method;
+    WertsfyComponents.source.math["method.floor"];
   
   export const ceil: WComponent["src"]["function"]=
-    WComponents.Mathematic.ceil_method;
+    WertsfyComponents.source.math["method.ceil"];
   
   export const imul: WComponent["src"]["function"]=
-    WComponents.Mathematic.imul_method;
+    WertsfyComponents.source.math["method.imul"];
   
   export const sign: WComponent["src"]["function"]=
-    WComponents.Mathematic.sign_method;
+    WertsfyComponents.source.math["method.sign"];
   
   export const trunc: WComponent["src"]["function"]=
-    WComponents.Mathematic.trunc_method;
+    WertsfyComponents.source.math["method.trunc"];
 
 }
 

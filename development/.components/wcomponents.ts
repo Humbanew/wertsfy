@@ -5,59 +5,143 @@ import { WComponents } from "./wcimport";
 
 export namespace LibraryMathematic {
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de avogadro. [_Returns the value of avogadro._]
+   */
   export const Avogadro: WComponent["src"]["number"]=
     WComponents.Mathematic.avogadro_constant;  
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de euler. [_Returns the value of euler._]
+   */
   export const Euler: WComponent["src"]["number"]=
     WComponents.Mathematic.euler_constant; 
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor do logaritmo de 2. [_Returns the value of the logarithm of 2._]
+   */
   export const Logarithm2: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm2_constant; 
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor do logaritmo de 2 na base euler. [_Returns the logarithm value of 2 at the Euler base._]
+   */
   export const Logarithm2e: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm2e_constant; 
   
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor do logaritmo de 10. [_Returns the value of the logarithm of 10._]
+   */
   export const Logarithm10: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm10_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor do logaritmo de 10 na base euler. [_Returns the logarithm value of 10 at the Euler base._]
+   */
   export const Logarithm10e: WComponent["src"]["number"]=
     WComponents.Mathematic.logarithm10e_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor máximo. [_Returns the max value._]
+   */
   export const Maxvalue: WComponent["src"]["number"]=
     WComponents.Mathematic.maxvalue_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor mínimo. [_Returns the min value._]
+   */
   export const Minvalue: WComponent["src"]["number"]=
     WComponents.Mathematic.minvalue_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de newton. [_Returns the value of newton._]
+   */
   export const Newton: WComponent["src"]["number"]=
     WComponents.Mathematic.newton_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de pi. [_Returns the value of pi._]
+   */
   export const Pi: WComponent["src"]["number"]=
     WComponents.Mathematic.pi_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de plank. [_Returns the value of plank._]
+   */
   export const Plank: WComponent["src"]["number"]=
     WComponents.Mathematic.plank_constant; 
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Constante [Constant]``**
+   *  
+   * Retorna o valor de tesla. [_Returns the value of tesla._]
+   */
   export const Tesla: WComponent["src"]["number"]=
     WComponents.Mathematic.tesla_constant;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Coleção de Constante [Constant Collection]``**
+   *  
+   * Retorna a lista de constantes de raízes quadradas. [_Returns the list of square roots constants._]
+   */
   export const SquareRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WComponents.Mathematic.square_root_constant_collection;
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Coleção de Constante [Constant Collection]``**
+   *  
+   * Retorna a lista de constantes de raízes cúbicas. [_Returns the list of cubic roots constants._]
+   */
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WComponents.Mathematic.cubic_root_constant_collection;
 
@@ -248,7 +332,13 @@ export namespace LibraryMathematic {
 
 export namespace LibraryCalculator {
 
-  /** */
+  /** 
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Coleção de Constante [Constant Collection]``**
+   *  
+   * Retorna a lista de constantes de atalho da calculadora. [_Returns the list of calculator shortcut constants._]
+   */
   export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
     WComponents.Calculator.shortcuts_constant;
 

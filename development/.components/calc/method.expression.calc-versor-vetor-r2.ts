@@ -1,4 +1,4 @@
-import { Component_math_calculator_exp_calc_modulo_vetor_r2_method } from "./expression.calc-modulo-vetor-r2";
+import { Component_math_calculator_exp_calc_modulo_vetor_r2_method } from "./method.expression.calc-modulo-vetor-r2";
 
 const formulaCalcVersorDeUmVetorR2 = (x: number, y:number): Array<number> => {
   let resultado = [];

@@ -1,4 +1,4 @@
-import { Component_math_corebase_sin_method } from "../math/method.sin";
+import { Component_math_corebase_sin_method } from "./math/method.sin";
 
 const formulaCalculoDaAceleracaoNoPlanoInclinadoEixoX = (massa: number, gravidade: number, angulo: number): number => {
   let resultado = massa * gravidade * Component_math_corebase_sin_method(angulo);

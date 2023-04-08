@@ -1,5 +1,5 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
-import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
+import { WertsfyPrototipos } from "./.declarations/warch.prototype";
+import { Component_math_corebase_sqrt_method } from "./method.sqrt";
 
 const formulaDoTeoremaDePitagoras = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["triangulosPitagoricos"]): number => {
   let resultado = 0;

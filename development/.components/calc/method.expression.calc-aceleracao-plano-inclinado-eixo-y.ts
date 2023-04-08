@@ -1,4 +1,4 @@
-import { Component_math_corebase_cos_method } from "../math/method.cos";
+import { Component_math_corebase_cos_method } from "./math/method.cos";
 
 const formulaCalculoDaAceleracaoNoPlanoInclinadoEixoY = (massa: number, gravidade: number, angulo: number): number => {
   let resultado = massa * gravidade * Component_math_corebase_cos_method(angulo);

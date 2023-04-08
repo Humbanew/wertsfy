@@ -1,24 +1,24 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
-import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method } from "./expression.calc-cossenos-diretores-vetor-r2";
-import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method } from "./expression.calc-cossenos-diretores-vetor-r3";
-import { Component_math_calculator_exp_calc_divisao_vetores_r2_method } from "./expression.calc-divisao-vetores-r2";
-import { Component_math_calculator_exp_calc_divisao_vetores_r3_method } from "./expression.calc-divisao-vetores-r3";
-import { Component_math_calculator_exp_calc_modulo_vetor_r2_method } from "./expression.calc-modulo-vetor-r2";
-import { Component_math_calculator_exp_calc_modulo_vetor_r3_method } from "./expression.calc-modulo-vetor-r3";
-import { Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method } from "./expression.calc-ponto-medio-vetor-r2";
-import { Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method } from "./expression.calc-ponto-medio-vetor-r3";
-import { Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method } from "./expression.calc-produto-escalar-vetores-r2";
-import { Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method } from "./expression.calc-produto-escalar-vetores-r3";
-import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method } from "./expression.calc-projecao-vetor-sobre-outro-vetor-r2";
-import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method } from "./expression.calc-projecao-vetor-sobre-outro-vetor-r3";
-import { Component_math_calculator_exp_calc_soma_vetores_r2_method } from "./expression.calc-soma-vetores-r2";
-import { Component_math_calculator_exp_calc_soma_vetores_r3_method } from "./expression.calc-soma-vetores-r3";
-import { Component_math_calculator_exp_calc_subtracao_vetores_r2_method } from "./expression.calc-subtracao-vetores-r2";
-import { Component_math_calculator_exp_calc_subtracao_vetores_r3_method } from "./expression.calc-subtracao-vetores-r3";
-import { Component_math_calculator_exp_calc_versor_vetor_r2_method } from "./expression.calc-versor-vetor-r2";
-import { Component_math_calculator_exp_calc_versor_vetor_r3_method } from "./expression.calc-versor-vetor-r3";
-import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method } from "./expression.calc-vetor-distancia-entre-dois-pontos-r2";
-import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method } from "./expression.calc-vetor-distancia-entre-dois-pontos-r3";
+import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method } from "./method.expression.calc-cossenos-diretores-vetor-r2";
+import { Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method } from "./method.expression.calc-cossenos-diretores-vetor-r3";
+import { Component_math_calculator_exp_calc_divisao_vetores_r2_method } from "./method.expression.calc-divisao-vetores-r2";
+import { Component_math_calculator_exp_calc_divisao_vetores_r3_method } from "./method.expression.calc-divisao-vetores-r3";
+import { Component_math_calculator_exp_calc_modulo_vetor_r2_method } from "./method.expression.calc-modulo-vetor-r2";
+import { Component_math_calculator_exp_calc_modulo_vetor_r3_method } from "./method.expression.calc-modulo-vetor-r3";
+import { Component_math_calculator_exp_calc_ponto_medio_vetor_r2_method } from "./method.expression.calc-ponto-medio-vetor-r2";
+import { Component_math_calculator_exp_calc_ponto_medio_vetor_r3_method } from "./method.expression.calc-ponto-medio-vetor-r3";
+import { Component_math_calculator_exp_calc_produto_escalar_vetores_r2_method } from "./method.expression.calc-produto-escalar-vetores-r2";
+import { Component_math_calculator_exp_calc_produto_escalar_vetores_r3_method } from "./method.expression.calc-produto-escalar-vetores-r3";
+import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r2_method } from "./method.expression.calc-projecao-vetor-sobre-outro-vetor-r2";
+import { Component_math_calculator_exp_calc_vetor_sobre_outro_vetor_r3_method } from "./method.expression.calc-projecao-vetor-sobre-outro-vetor-r3";
+import { Component_math_calculator_exp_calc_soma_vetores_r2_method } from "./method.expression.calc-soma-vetores-r2";
+import { Component_math_calculator_exp_calc_soma_vetores_r3_method } from "./method.expression.calc-soma-vetores-r3";
+import { Component_math_calculator_exp_calc_subtracao_vetores_r2_method } from "./method.expression.calc-subtracao-vetores-r2";
+import { Component_math_calculator_exp_calc_subtracao_vetores_r3_method } from "./method.expression.calc-subtracao-vetores-r3";
+import { Component_math_calculator_exp_calc_versor_vetor_r2_method } from "./method.expression.calc-versor-vetor-r2";
+import { Component_math_calculator_exp_calc_versor_vetor_r3_method } from "./method.expression.calc-versor-vetor-r3";
+import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r2_method } from "./method.expression.calc-vetor-distancia-entre-dois-pontos-r2";
+import { Component_math_calculator_exp_calc_vetor_distancia_entre_dois_pontos_r3_method } from "./method.expression.calc-vetor-distancia-entre-dois-pontos-r3";
 
 const calculoDosVetoresGA = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesVetores"]): number|number[] => {
 

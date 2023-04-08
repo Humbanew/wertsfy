@@ -1,4 +1,4 @@
-import { Component_math_calculator_exp_calc_modulo_vetor_r3_method } from "./expression.calc-modulo-vetor-r3";
+import { Component_math_calculator_exp_calc_modulo_vetor_r3_method } from "./method.expression.calc-modulo-vetor-r3";
 
 const formulaCalcVersorDeUmVetorR3 = (x: number, y: number, z: number): Array<number> => {
   let resultado = [];

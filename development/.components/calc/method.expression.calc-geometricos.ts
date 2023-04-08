@@ -1,6 +1,6 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
-import { Component_math_corebase_pi_constant } from "../math/constant.pi";
-import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
+import { Component_math_corebase_pi_constant } from "./math/constant.pi";
+import { Component_math_corebase_sqrt_method } from "./math/method.sqrt";
 
 const calculoGeometricos = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesGeometricos"]): number => {
 

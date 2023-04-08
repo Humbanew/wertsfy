@@ -1,4 +1,4 @@
-import { Component_math_corebase_sin_method } from "../math/method.sin";
+import { Component_math_corebase_sin_method } from "./math/method.sin";
 
 const formulaCalculoDaAlturaMaximaDeUmLancamentoVertical = (velocidadeInicial: number, gravidade: number, angulo: number): number => {
   let resultado = (velocidadeInicial ** 2) * ((Component_math_corebase_sin_method(angulo) ** 2) / 2) * gravidade;

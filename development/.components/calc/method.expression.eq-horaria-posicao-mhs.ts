@@ -1,4 +1,4 @@
-import { Component_math_corebase_cos_method } from "../math/method.cos";
+import { Component_math_corebase_cos_method } from "./math/method.cos";
 
 const formulaCalculoDaEquacaoHorariaDePosicaoDoMovimentoHarmonicoSimples = (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
   let resultado = velocidadeAngular * amplitude * Component_math_corebase_cos_method(tempo + faseInicial);

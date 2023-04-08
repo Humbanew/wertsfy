@@ -1,4 +1,4 @@
-import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
+import { Component_math_corebase_sqrt_method } from "./math/method.sqrt";
 
 const formulaCalcModuloDeUmVetorR2 = (x: number, y: number): number => {
   let resultado = 0;

@@ -1,4 +1,4 @@
-import { Component_math_corebase_cos_method } from "../math/method.cos";
+import { Component_math_corebase_cos_method } from "./math/method.cos";
 
 const formulaCalcCossenosDiretoresDeUmVetorR3 = (x: number, y: number, z: number): Array<number> => {
   let resultado: number[];

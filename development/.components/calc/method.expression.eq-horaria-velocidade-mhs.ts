@@ -1,4 +1,4 @@
-import { Component_math_corebase_sin_method } from "../math/method.sin";
+import { Component_math_corebase_sin_method } from "./method.sin";
 
 const formulaCalculoDaEquacaoHorariaDeVelocidadeDoMovimentoHarmonicoSimples = (velocidadeAngular: number, amplitude: number, tempo: number, faseInicial: number): number => {
   let resultado = -1 * velocidadeAngular * amplitude * Component_math_corebase_sin_method(tempo + faseInicial);

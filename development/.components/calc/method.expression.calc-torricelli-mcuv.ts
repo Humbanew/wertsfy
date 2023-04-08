@@ -1,4 +1,4 @@
-import { Component_math_corebase_sqrt_method } from "../math/method.sqrt";
+import { Component_math_corebase_sqrt_method } from "./math/method.sqrt";
 
 const formulaCalculoDeTorricelliMovimentoCircularUniformenteVariado = (velocidadeAngularInicial: number, aceleracaoAngular: number, deslocamentoAngular: { inicial: number, final: number}): number => {
   let resultado = Component_math_corebase_sqrt_method(velocidadeAngularInicial + 2 * aceleracaoAngular * (deslocamentoAngular.final - deslocamentoAngular.inicial));

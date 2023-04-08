@@ -1,4 +1,4 @@
-import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
+import { WertsfyPrototipos } from "./.declarations/warch.prototype";
 
 const formulasDosNumerosComplexos = (tipo: WertsfyPrototipos.Logicos["Core"]["TComuns"], expressions: string[], potency?: number): string|void => {
   let verif = /(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)(((\+)?(\-)?)([0-9]+)(\.[0-9]+)?)([i])/gim;

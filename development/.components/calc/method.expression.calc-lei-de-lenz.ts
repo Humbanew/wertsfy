@@ -1,4 +1,4 @@
-import { Component_math_corebase_cos_method } from "../math/method.cos";
+import { Component_math_corebase_cos_method } from "./math/method.cos";
 
 const formulaCalculoDaLeiDeLenz = (intensidadeDoCampoMagnetico: number, areaDaSuperficie: number, cosAngulo: number): number => {
   let resultado = intensidadeDoCampoMagnetico * areaDaSuperficie * Component_math_corebase_cos_method(cosAngulo);

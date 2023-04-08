@@ -1,6 +1,6 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const calculoCartesianos = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["operacoesCartesianos"]) => {
+const calculoCartesianos = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesCartesianos"]) => {
 
   let resultado: number|number[] = 0||[], attrs = undefined;
 

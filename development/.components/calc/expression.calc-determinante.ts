@@ -1,6 +1,6 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const formulasDoCalculoDeDeterminante = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["determinantes"]): number => {
+const formulasDoCalculoDeDeterminante = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["determinantes"]): number => {
   let resultado: number = 0;
   switch(tipo[0]) {
     case "#d2x2":

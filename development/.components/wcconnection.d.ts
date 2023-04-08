@@ -298,6 +298,10 @@ import {
   Component_math_corebase_trunc_method 
 } from "../method.trunc"
 
+import { Component_math_calculator_shortcuts_constant } from "../constant.shortcuts"
+import { Component_math_calculator_common_method } from "../method.common"
+import { Component_math_calculator_advanced_method } from "../method.advanced"
+
 
 export namespace WertsfyComponents {
 
@@ -533,7 +537,13 @@ export namespace WertsfyComponents {
 
     }
 
-    calc: { }
+    calc: { 
+
+      "constant.shortcuts": typeof Component_math_calculator_shortcuts_constant
+      "method.common": typeof Component_math_calculator_common_method
+      "method.advanced": typeof Component_math_calculator_advanced_method
+
+    }
   
   }
 

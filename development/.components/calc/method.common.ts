@@ -2,7 +2,7 @@
 
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-export const Component_math_calculator_common_method = (operation: WertsfyPrototipos.Logicos.Core["TComuns"], ...numbers: number[]): number => {
+export const Component_math_calculator_common_method = (operation: WertsfyPrototipos.Logicos["Core"]["TComuns"], ...numbers: number[]): number => {
     
   let resultado: number;
   

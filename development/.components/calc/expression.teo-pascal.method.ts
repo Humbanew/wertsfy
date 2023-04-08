@@ -1,6 +1,6 @@
 import { WertsfyPrototipos } from "../../.declarations/warch.prototype";
 
-const formulaCalculoDoTeoremaDePascal = (tipo: WertsfyPrototipos.Logicos.Core["TExpressoes"]["variaveisDePascal"], forca1: number, forca2: number, area1: number, area2: number): number => {
+const formulaCalculoDoTeoremaDePascal = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["variaveisDePascal"], forca1: number, forca2: number, area1: number, area2: number): number => {
   let resultado: number = 0;
 
   switch(tipo) {

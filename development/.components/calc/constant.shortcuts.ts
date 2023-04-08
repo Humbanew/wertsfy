@@ -1,9 +1,10 @@
-import { Component_math_corebase_euler_constant } from "../math/constant.euler";
-import { Component_math_corebase_logarithm10_constant } from "../math/constant.logarithm10";
-import { Component_math_corebase_logarithm10e_constant } from "../math/constant.logarithm10e";
-import { Component_math_corebase_logarithm2_constant } from "../math/constant.logarithm2";
-import { Component_math_corebase_logarithm2e_constant } from "../math/constant.logarithm2e";
-import { Component_math_corebase_pi_constant } from "../math/constant.pi";
+import { Component_math_corebase_pi_constant } from "../math/constant.pi"
+import { Component_math_corebase_euler_constant } from "../math/constant.euler"
+import { Component_math_corebase_logarithm2_constant } from "../math/constant.logarithm2"
+import { Component_math_corebase_logarithm2e_constant } from "../math/constant.logarithm2e"
+import { Component_math_corebase_logarithm10_constant } from "../math/constant.logarithm10"
+import { Component_math_corebase_logarithm10e_constant } from "../math/constant.logarithm10e"
+
 
 export namespace Component_math_calculator_shortcuts_constant {
 

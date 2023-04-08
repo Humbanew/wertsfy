@@ -4,4 +4,4 @@ const formulaCalculoDoPesoAparenteDaHidroestaticaHidrodinamica = (peso: number, 
   let resultado = peso - Component_math_calculator_exp_calc_empuxo_hidroestatica_hidrodinamica_method(densidade, gravidade, volume);
   return resultado;
 }
-export { formulaCalculoDoPesoAparenteDaHidroestaticaHidrodinamica as Component_math_calculator_exp_calc_aparente_hidroestatica_hidrodinamica_method }
+export { formulaCalculoDoPesoAparenteDaHidroestaticaHidrodinamica as Component_math_calculator_exp_calc_peso_aparente_hidroestatica_hidrodinamica_method }

@@ -625,9 +625,6 @@ export namespace LibraryCalculator {
     export const expClcJurosCompostos: WComponent["src"]["function"]=
       WComponents.Calculator.exp_clc_juros_compostos_method;
 
-    export const expClcVetoresGa: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_vetores_ga_method;
-
     export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
       WComponents.Calculator.exp_clc_sinalizacao_quadrantes_method;
 
@@ -654,6 +651,9 @@ export namespace LibraryCalculator {
     
     export const expClcGeometricos: WComponent["src"]["function"]=
       WComponents.Calculator.exp_clc_geometricos_method;
+    
+    // export const expClcVetoresGa: WComponent["src"]["function"]=
+    //   WComponents.Calculator.exp_clc_vetores_ga_method;
 
   }
 

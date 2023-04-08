@@ -101,9 +101,10 @@ const calculoDosVetoresGA = (tipo: WertsfyPrototipos.Logicos["Core"]["TExpressoe
 
 }; export { calculoDosVetoresGA as Component_math_calculator_exp_calc_vetores_ga_method }
 
-// Method.expression.calc-cossenos-diretores-vetor-r2.ts
+// Imports
 import { Component_math_corebase_cos_method } from "./math/method.cos";
 
+// Method.expression.calc-cossenos-diretores-vetor-r2.ts
 const formulaCalcCossenosDiretoresDeUmVetorR2 = (x: number, y: number): Array<number> => {
   let resultado: number[];
   let contExpressaoP1 = [Component_math_corebase_cos_method(x), Component_math_corebase_cos_method(y)];
@@ -111,4 +112,13 @@ const formulaCalcCossenosDiretoresDeUmVetorR2 = (x: number, y: number): Array<nu
   return resultado;
 }
 export { formulaCalcCossenosDiretoresDeUmVetorR2 as Component_math_calculator_exp_calc_cossenos_diretores_vetor_r2_method }
+
+// Method.expression.calc-cossenos-diretores-vetor-r3.ts
+const formulaCalcCossenosDiretoresDeUmVetorR3 = (x: number, y: number, z: number): Array<number> => {
+  let resultado: number[];
+  let contExpressaoP1 = [Component_math_corebase_cos_method(x), Component_math_corebase_cos_method(y), Component_math_corebase_cos_method(z)];
+  resultado = contExpressaoP1;
+  return resultado;
+}
+export { formulaCalcCossenosDiretoresDeUmVetorR3 as Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method }
 

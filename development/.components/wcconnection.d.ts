@@ -1,3 +1,4 @@
+// Imports [Mathematic Library]
 import { 
   Component_math_corebase_avogadro_constant 
 } from "../constant.avogadro"
@@ -298,9 +299,23 @@ import {
   Component_math_corebase_trunc_method 
 } from "../method.trunc"
 
-import { Component_math_calculator_shortcuts_constant } from "../constant.shortcuts"
-import { Component_math_calculator_common_method } from "../method.common"
-import { Component_math_calculator_advanced_method } from "../method.advanced"
+// Imports [Calculator Library]
+import { 
+  Component_math_calculator_shortcuts_constant 
+} from "../constant.shortcuts"
+
+import { 
+  Component_math_calculator_common_method 
+} from "../method.common"
+
+import { 
+  Component_math_calculator_advanced_method 
+} from "../method.advanced"
+
+import { Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method } from "../method.expression.calc-acel-centrip-mcu"
+import { Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_x_method } from "../method.expression.calc-aceleracao-plano-inclinado-eixo-x"
+import { Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_y_method } from "../method.expression.calc-aceleracao-plano-inclinado-eixo-y"
+import { Component_math_calculator_exp_calc_aceleracao_method } from "../method.expression.calc-aceleracao"
 
 
 export namespace WertsfyComponents {
@@ -539,9 +554,21 @@ export namespace WertsfyComponents {
 
     calc: { 
 
-      "constant.shortcuts": typeof Component_math_calculator_shortcuts_constant
-      "method.common": typeof Component_math_calculator_common_method
-      "method.advanced": typeof Component_math_calculator_advanced_method
+      "constant.shortcuts": 
+        typeof Component_math_calculator_shortcuts_constant
+      
+      "method.common": 
+        typeof Component_math_calculator_common_method
+      
+      "method.advanced": 
+        typeof Component_math_calculator_advanced_method
+
+
+
+      "method.expression.calc_acel_centrip_mcu": typeof Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method
+      "method.expression.calc_acel_plan_incl_eixo_x": typeof Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_x_method
+      "method.expression.calc_acel_plan_incl_eixo_y": typeof Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_y_method
+      "method.expression.calc_aceleracao": typeof Component_math_calculator_exp_calc_aceleracao_method
 
     }
   

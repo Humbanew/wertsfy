@@ -651,9 +651,6 @@ export namespace LibraryCalculator {
     
     export const expClcGeometricos: WComponent["src"]["function"]=
       WComponents.Calculator.exp_clc_geometricos_method;
-    
-    // export const expClcVetoresGa: WComponent["src"]["function"]=
-    //   WComponents.Calculator.exp_clc_vetores_ga_method;
 
   }
 

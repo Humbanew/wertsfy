@@ -61,7 +61,6 @@ export declare type WITFilter = number
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesDiversos"]
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesGeometricos"]
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesNumericos"]
-  | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["operacoesVetores"]
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["porcentagem"]
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["triangulosPitagoricos"]
   | WertsfyPrototipos.Logicos["Core"]["TExpressoes"]["variaveisDePascal"]

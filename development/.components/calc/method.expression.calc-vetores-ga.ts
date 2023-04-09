@@ -122,3 +122,22 @@ const formulaCalcCossenosDiretoresDeUmVetorR3 = (x: number, y: number, z: number
 }
 export { formulaCalcCossenosDiretoresDeUmVetorR3 as Component_math_calculator_exp_calc_cossenos_diretores_vetor_r3_method }
 
+// Method.expression.calc-divisao-vetores-r2.ts
+const formulaCalcDivisaoDeVetoresR2 = (x1: number, x2: number, y1: number, y2: number): Array<number> => {
+  let resultado: number[];
+  let contExpressaoP1 = [x1 / x2, y1 / y2];
+  resultado = contExpressaoP1;
+  return resultado;
+}
+export { formulaCalcDivisaoDeVetoresR2 as Component_math_calculator_exp_calc_divisao_vetores_r2_method }
+
+// Method.expression.calc-divisao-vetores-r3.ts
+const formulaCalcDivisaoDeVetoresR3 = (x1: number, x2: number, y1: number, y2: number, z1: number, z2: number): Array<number> => {
+  let resultado: number[];
+  let contExpressaoP1 = [x1 / x2, y1 / y2, z1 / z2];
+  resultado = contExpressaoP1;
+  return resultado;
+}
+export { formulaCalcDivisaoDeVetoresR3 as Component_math_calculator_exp_calc_divisao_vetores_r3_method }
+
+

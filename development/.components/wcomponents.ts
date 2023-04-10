@@ -3,7 +3,6 @@
 
 import { WComponent } from "../.declarations/warch";
 import { WertsfyComponents } from "./wcconnection";
-import { WComponents } from "./wcimport";
 
 export namespace LibraryMathematic {
 
@@ -342,316 +341,312 @@ export namespace LibraryCalculator {
    * Retorna a lista de constantes de atalho da calculadora. [_Returns the list of calculator shortcut constants._]
    */
   export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
-    WComponents.Calculator.shortcuts_constant;
+    WertsfyComponents.source.calc["constant.shortcuts"];
 
   export const common: WComponent["src"]["function"]=
-    WComponents.Calculator.common_method; 
+    WertsfyComponents.source.calc["method.common"]; 
 
   export const advanced: WComponent["src"]["function"]=
-    WComponents.Calculator.advanced_method;
-
-  export namespace Expressions {
+    WertsfyComponents.source.calc["method.advanced"];
+
+  export const expTeoBoltzmann: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.boltzmann"];
 
-    export const expTeoBoltzmann: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_boltzmann_method;
+  export const expTeoCoulomb: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.coulomb"];
 
-    export const expTeoCoulomb: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_coulomb_method;
+  export const expTeoGirard: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.girard"];
 
-    export const expTeoGirard: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_girard_method;
+  export const expTeoPascal: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.pascal"];
 
-    export const expTeoPascal: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_pascal_method;
+  export const expTeoPitagoras: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.pitagoras"];
 
-    export const expTeoPitagoras: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_pitagoras_method;
+  export const expTeoPlank: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.plank"];
 
-    export const expTeoPlank: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_plank_method;
+  export const expTeoStevin: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.stevin"];
 
-    export const expTeoStevin: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_stevin_method;
+  export const expTeoStirling: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.stirling"];
 
-    export const expTeoStirling: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_stirling_method;
+  export const expTeoTalesDeMileto: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.teo.tales_mileto"];
 
-    export const expTeoTalesDeMileto: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_teo_tales_de_mileto_method;
+  export const expEqcHorariaTempo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_tempo"];
 
-    export const expEqcHorariaTempo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_tempo_method;
+  export const expEqcHorariaEspaco: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_espaco"];
 
-    export const expEqcHorariaEspaco: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_espaco_method;
+  export const expEqcHorariaVelocidade: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade"];
 
-    export const expEqcHorariaVelocidade: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_velocidade_method;
+  export const expEqcHorariaAceleracao: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_acel"];
 
-    export const expEqcHorariaAceleracao: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_aceleracao_method;
+  export const expEqcHorariaForca: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_forca"];
 
-    export const expEqcHorariaForca: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_forca_method;
+  export const expEqcHorariaEspacoTempo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_espaco"];
 
-    export const expEqcHorariaEspacoTempo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_espaco_tempo_method;
+  export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_movi_circ_unif_var"];
 
-    export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_tempo_movimento_circular_uniformente_variado_method;
+  export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_espaco_movi_circ_unif_var"];
+  
+  export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_posicao_movi_harm_simp"];
+  
+  export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade_movi_harm_simp"];
+  
+  export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.horaria_acel_movi_harm_simp"];
+  
+  export const expEqcTorricelli: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.torricelli"];
+  
+  export const expEqcLagrange: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.equac.lagrange"];
 
-    export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_espaco_movimento_circular_uniformente_variado_method;
-    
-    export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_posicao_movimento_harmonico_simples_method;
-    
-    export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_velocidade_movimento_harmonico_simples_method;
-    
-    export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_horaria_aceleracao_movimento_harmonico_simples_method;
-    
-    export const expEqcTorricelli: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_torricelli_method;
-    
-    export const expEqcLagrange: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_eqc_lagrange_method;
+  export const expClcFatorial: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.fatorial"];
+  
+  export const expClcCombinacao: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.combinacao"];
+  
+  export const expClcArranjo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.arranjo"];
+  
+  export const expClcProbabilidade: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.probabilidade"];
+  
+  export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.conjugado_num_complex"];
 
-    export const expClcFatorial: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_fatorial_method;
-    
-    export const expClcCombinacao: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_combinacao_method;
-    
-    export const expClcArranjo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_arranjo_method;
-    
-    export const expClcProbabilidade: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_probabilidade_method;
-    
-    export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_conjugado_numero_complexo_method;
+  export const expClcRelacaoEuler: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.relacao_euler"];
 
-    export const expClcRelacaoEuler: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_relacao_euler_method;
+  export const expClcPotenciasDeI: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.potencias_de_i"];
 
-    export const expClcPotenciasDeI: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_potencias_de_i_method;
+  export const expClcPorcentagem: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.porcentagem"];
 
-    export const expClcPorcentagem: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_porcentagem_method;
+  export const expClcDeterminante: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.determinante"];
 
-    export const expClcDeterminante: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_determinante_method;
+  export const expClcPolinomios: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.polinomios"];
 
-    export const expClcPolinomios: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_polinomios_method;
+  export const expClcMatrizes: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.matrizes"];
 
-    export const expClcMatrizes: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_matrizes_method;
+  export const expClcVelocidade: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.velocidade"];
 
-    export const expClcVelocidade: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_velocidade_method;
+  export const expClcEspaco: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.espaco"];
 
-    export const expClcEspaco: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_espaco_method;
+  export const expClcTempo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.tempo"];
 
-    export const expClcTempo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_tempo_method;
+  export const expClcAceleracao: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.aceleracao"];
 
-    export const expClcAceleracao: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_aceleracao_method;
+  export const expClcEnergiaCinetica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.energia_cinetica"];
 
-    export const expClcEnergiaCinetica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_energia_cinetica_method;
+  export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.energia_potencial_elas"];
 
-    export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_energia_potencial_elastica_method;
+  export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.energia_potencial_grav"];
 
-    export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_energia_potencial_gravitacional_method;
+  export const expClcPotencialMecanico: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.potencial_mecanico"];
 
-    export const expClcPotencialMecanico: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_potencial_mecanico_method;
+  export const expClcPotencialElastico: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.potencial_elastico"];
 
-    export const expClcPotencialElastico: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_potencial_elastico_method;
+  export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.plano_incl_sem_atrito"];
 
-    export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_plano_inclinado_sem_atrito_method;
+  export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.plano_incl_com_atrito"];
 
-    export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_plano_inclinado_com_atrito_method;
+  export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_x"];
 
-    export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_aceleracao_plano_inclinado_eixo_x_method;
+  export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_y"];
 
-    export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_aceleracao_plano_inclinado_eixo_y_method;
+  export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.lancamento_horizontal"];
 
-    export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_lancamento_horizontal_method;
+  export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.alt_max_lanc_vert"];
 
-    export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_altura_max_lancamento_vertical_method;
+  export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.alc_lanc_vert"];
 
-    export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_alcance_lancamento_vertical_method;
+  export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.alc_max_lanc_vert"];
 
-    export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_alcance_max_lancamento_vertical_method;
+  export const expClcCalorSensivel: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.calor_sensivel"];
 
-    export const expClcCalorSensivel: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_calor_sensivel_method;
+  export const expClcCalorLatente: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.calor_latente"];
 
-    export const expClcCalorLatente: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_calor_latente_method;
+  export const expClcLeisDeNewton: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.leis_de_newton"];
 
-    export const expClcLeisDeNewton: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_leis_de_newton_method;
+  export const expClcTrabalho: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.trabalho"];
 
-    export const expClcTrabalho: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_trabalho_method;
+  export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.consumo_de_energia"];
 
-    export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_consumo_de_energia_method;
+  export const expClcForcaGravitacional: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.forca_gravitacional"];
 
-    export const expClcForcaGravitacional: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_forca_gravitacional_method;
+  export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.acel_centrip_mcu"];
 
-    export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_aceleracao_centripeta_movimento_circular_uniforme_method;
+  export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.veloc_ang_movi_circ_unif"];
 
-    export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_velocidade_angular_movimento_circular_uniforme_method;
+  export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.veloc_linear_movi_circ_unif"];
 
-    export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_velocidade_linear_movimento_circular_uniforme_method;
+  export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.torricelli-movi-circ-unif-var"];
 
-    export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_torricelli_movimento_circular_uniformente_variado_method;
+  export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc_acel_ang_movi_circ_var"];
 
-    export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_aceleracao_angular_movimento_circular_uniformente_variado_method;
+  export const expClcfrequencia: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.frequencia"];
 
-    export const expClcfrequencia: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_frequencia_method;
+  export const expClcPeriodo: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.periodo"];
 
-    export const expClcPeriodo: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_periodo_method;
+  export const expClcTemperatura: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.temperatura"];
 
-    export const expClcTemperatura: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_temperatura_method;
+  export const expClcDilatacaoLinear: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.dilatacao_linear"];
 
-    export const expClcDilatacaoLinear: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_dilatacao_linear_method;
+  export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.dilatacao_superficial"];
 
-    export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_dilatacao_superficial_method;
+  export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.dilatacao_volumetrica"];
 
-    export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_dilatacao_volumetrica_method;
+  export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.principio_fund_hidroest_hidrodinam"];
 
-    export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_principio_fundamental_hidroestatica_hidrodinamica_method;
+  export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.empuxo_hidroes_hidrodinam"];
 
-    export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_empuxo_hidroestatica_hidrodinamica_method;
+  export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.peso_aparente_hidroest_hidrodinam"];
 
-    export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_peso_aparente_hidroestatica_hidrodinamica_method;
+  export const expClcAtrito: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.atrito"];
 
-    export const expClcAtrito: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_atrito_method;
+  export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.lei_de_coulomb"];
 
-    export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_lei_de_coulomb_method;
+  export const expClcLeideOhm: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.lei_de_ohm"];
 
-    export const expClcLeideOhm: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_lei_de_ohm_method;
+  export const expClcEfeitoJoule: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.efeito_joule"];
 
-    export const expClcEfeitoJoule: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_efeito_joule_method;
+  export const expClcLeiDeLenz: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
 
-    export const expClcLeiDeLenz: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_lei_de_lenz_method;
+  export const expClcForcaEletromotriz: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.forca_eletromotriz"];
 
-    export const expClcForcaEletromotriz: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_forca_eletromotriz_method;
+  export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
 
-    export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_contra_forca_eletromotriz_method;
+  export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.efeito_fotoeletrico"];
 
-    export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_efeito_fotoeletrico_method;
+  export const expClcDensidade: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.densidade"];
 
-    export const expClcDensidade: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_densidade_method;
+  export const expClcTitulacao: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.titulacao"];
 
-    export const expClcTitulacao: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_titulacao_method;
+  export const expClcConcentracao: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.concentracao"];
 
-    export const expClcConcentracao: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_concentracao_method;
+  export const expClcRendimento: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.rendimento"];
 
-    export const expClcRendimento: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_rendimento_method;
+  export const expClcLeiDosGases: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
 
-    export const expClcLeiDosGases: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_lei_dos_gases_method;
+  export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_simples"];
 
-    export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_regra_de_tres_simples_method;
+  export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
 
-    export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_regra_de_tres_composta_method;
+  export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.sistema_de_equacoes"];
 
-    export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_sistema_de_equacoes_method;
+  export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
 
-    export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_sistema_de_inequacoes_method;
+  export const expClcSistemasLineares: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.sistemas_lineares"];
 
-    export const expClcSistemasLineares: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_sistemas_lineares_method;
+  export const expClcNumerosComplexos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
 
-    export const expClcnumerosComplexos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_numeros_complexos_method;
+  export const expClcJurosSimples: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.juros_simples"];
 
-    export const expClcJurosSimples: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_juros_simples_method;
+  export const expClcJurosCompostos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
 
-    export const expClcJurosCompostos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_juros_compostos_method;
+  export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.sinalizacao_quadrantes"];
 
-    export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_sinalizacao_quadrantes_method;
+  export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
 
-    export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_sinalizacao_octantes_method;
+  export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet"];
 
-    export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_quadrado_de_punnet_method;
+  export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
 
-    export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_quadrado_de_punnet_extendido_method;
-
-    export const expClcDiversos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_diversos_method;
-    
-    export const expClcNumericos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_numericos_method;
-    
-    export const expClcDiagramaVenn: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_diagrama_venn_method;
-    
-    export const expClcCartesianos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_cartesianos_method;
-    
-    export const expClcGeometricos: WComponent["src"]["function"]=
-      WComponents.Calculator.exp_clc_geometricos_method;
-
-  }
+  export const expClcDiversos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.diversos"];
+  
+  export const expClcNumericos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.numericos"];
+  
+  export const expClcDiagramaVenn: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.diagrama_venn"];
+  
+  export const expClcCartesianos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.cartesianos"];
+  
+  export const expClcGeometricos: WComponent["src"]["function"]=
+    WertsfyComponents.source.calc["method.expression.calc.geometricos"];
 
 }

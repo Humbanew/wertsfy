@@ -1,0 +1,1 @@
+export function $input() { const elemento = document.createElement('input'); return elemento; }

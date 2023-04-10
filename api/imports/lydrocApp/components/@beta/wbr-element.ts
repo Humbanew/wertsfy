@@ -1,0 +1,1 @@
+export function $wbr() { const elemento = document.createElement('wbr'); return elemento; }

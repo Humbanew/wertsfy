@@ -1,0 +1,1 @@
+export function $link() { const elemento = document.createElement('link'); return elemento; }

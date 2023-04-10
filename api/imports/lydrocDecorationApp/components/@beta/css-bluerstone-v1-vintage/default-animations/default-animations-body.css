@@ -1,0 +1,17 @@
+@keyframes bodyAnimation {
+  0%{
+    background-color: #ffffff;
+    transition: ease-in;
+    transition-duration: 90ms;
+  }
+  50%{
+    background-color: #666666;
+    transition: ease-in-out;
+    transition-duration: 90ms;
+  }
+  100%{
+    background-color: #ffffff;
+    transition: ease-in;
+    transition-duration: 90ms;
+  }
+}

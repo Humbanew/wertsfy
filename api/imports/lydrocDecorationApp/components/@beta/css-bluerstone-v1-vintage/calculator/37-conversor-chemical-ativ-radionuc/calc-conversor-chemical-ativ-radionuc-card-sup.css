@@ -1,0 +1,40 @@
+.card_conver_chemical_ativ_radionuc__superior {
+  display: inline-block;
+  background-color: #000000f4;
+  width: 100%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.card_conver_chemical_ativ_radionuc__superior___spart {
+  display: inline-block;
+  background-color: #000000;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.card_conver_chemical_ativ_radionuc__superior:hover {
+  background-color: #44bbfdf4;
+  color: #000000;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_chemical_ativ_radionuc__superior:active {
+  background-color: #4477fdf4;
+  color: #000000;
+}
+
+.card_conver_chemical_ativ_radionuc__superior___spart:hover {
+  background-color: #44bbfd;
+  color: #000000;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_chemical_ativ_radionuc__superior___spart:active {
+  background-color: #4477fd;
+  color: #000000;
+}

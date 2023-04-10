@@ -1,0 +1,1 @@
+export function $dialog() { const elemento = document.createElement('dialog'); return elemento; }

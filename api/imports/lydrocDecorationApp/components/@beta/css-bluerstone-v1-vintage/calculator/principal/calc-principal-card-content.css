@@ -1,0 +1,25 @@
+.card_principal__lista{
+  display: inline-block;
+  color: #000000;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card_principal__item{
+  font-family: 'font_Ubuntu_Light';
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.card_principal__contador{
+  font-family: 'font_Ubuntu_Medium';
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 94.2%;
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 2%;
+}

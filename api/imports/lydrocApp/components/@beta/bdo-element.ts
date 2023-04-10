@@ -1,0 +1,1 @@
+export function $bdo() { const elemento = document.createElement('bdo'); return elemento; }

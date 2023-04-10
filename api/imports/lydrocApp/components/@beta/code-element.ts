@@ -1,0 +1,1 @@
+export function $code() { const elemento = document.createElement('code'); return elemento; }

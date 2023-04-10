@@ -1,0 +1,1 @@
+export function $video() { const elemento = document.createElement('video'); return elemento; }

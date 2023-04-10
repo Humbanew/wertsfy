@@ -1,0 +1,1 @@
+export function $keygen() { const elemento = document.createElement('keygen'); return elemento; }

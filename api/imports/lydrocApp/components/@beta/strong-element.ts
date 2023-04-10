@@ -1,0 +1,1 @@
+export function $strong() { const elemento = document.createElement('strong'); return elemento; }

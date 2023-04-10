@@ -1,0 +1,1 @@
+export function $noframes() { const elemento = document.createElement('noframes'); return elemento; }

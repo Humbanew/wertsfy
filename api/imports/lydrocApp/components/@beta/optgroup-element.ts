@@ -1,0 +1,1 @@
+export function $optgroup() { const elemento = document.createElement('optgroup'); return elemento; }

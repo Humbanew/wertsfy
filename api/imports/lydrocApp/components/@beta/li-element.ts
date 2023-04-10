@@ -1,0 +1,1 @@
+export function $li() { const elemento = document.createElement('li'); return elemento; }

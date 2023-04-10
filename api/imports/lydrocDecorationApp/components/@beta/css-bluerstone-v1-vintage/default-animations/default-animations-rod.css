@@ -1,0 +1,29 @@
+/** Rodapé **/
+
+@-webkit-keyframes rodape_animation {
+
+  0% {background-color: #33333391;}
+
+  25% {background-color: #0044eeff;}
+
+  50% {background-color: #ffff00ff;}
+
+  75% {background-color: #337700ff;}
+
+  100% {background-color: #33333391;}
+
+}
+
+@keyframes rodape_animation {
+
+  0% {background-color: #33333391;}
+
+  25% {background-color: #0044eeff;}
+
+  50% {background-color: #ffff00ff;}
+
+  75% {background-color: #337700ff;}
+
+  100% {background-color: #33333391;}
+
+}

@@ -1,0 +1,3 @@
+#k RCalc Classic => feita em JS e TS.
+#k RCalc Stormformer => feita em C e C++.
+#k RCalc Hyperdoom => feita em PHP.

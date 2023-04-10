@@ -1,0 +1,1 @@
+export function $body() { const elemento = document.createElement('body'); return elemento; }

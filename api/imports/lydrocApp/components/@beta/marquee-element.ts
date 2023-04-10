@@ -1,0 +1,1 @@
+export function $marquee() { const elemento = document.createElement('marquee'); return elemento; }

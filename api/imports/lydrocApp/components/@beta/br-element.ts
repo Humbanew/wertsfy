@@ -1,0 +1,1 @@
+export function $br() { const elemento = document.createElement('br'); return elemento; }

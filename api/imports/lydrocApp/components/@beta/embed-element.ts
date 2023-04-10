@@ -1,0 +1,1 @@
+export function $embed() { const elemento = document.createElement('embed'); return elemento; }

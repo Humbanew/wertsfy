@@ -1,0 +1,1 @@
+export function $rt() { const elemento = document.createElement('rt'); return elemento; }

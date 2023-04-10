@@ -1,0 +1,1 @@
+export function $colgroup() { const elemento = document.createElement('colgroup'); return elemento; }

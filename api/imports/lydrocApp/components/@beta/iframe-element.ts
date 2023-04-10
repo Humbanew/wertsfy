@@ -1,0 +1,1 @@
+export function $iframe() { const elemento = document.createElement('iframe'); return elemento; }

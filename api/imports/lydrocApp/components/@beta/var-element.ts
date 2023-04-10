@@ -1,0 +1,1 @@
+export function $var() { const elemento = document.createElement('var'); return elemento; }

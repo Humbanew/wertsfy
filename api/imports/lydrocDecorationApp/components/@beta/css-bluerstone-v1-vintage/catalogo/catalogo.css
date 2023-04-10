@@ -1,0 +1,282 @@
+/* Conteiner do catálogo */
+
+.catalogo_conteiner {
+  background-color: #000000;
+  margin-left: 4%;
+  margin-top: 1.8%;
+  width: 92%;
+
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* Título do catálogo */
+
+.catalogo_titulo {
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'font_Ubuntu_Light';
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  border-left-width: 6px;
+  border-top-width: 5px;
+  border-right-width: 4px;
+  border-bottom-width: 3px;
+
+  border-style: solid;
+
+  border-left-color: #3355ff;
+  border-top-color: #3366ff;
+  border-right-color: #3377ff;
+  border-bottom-color: #3344ff;
+
+  background-color: #222222;
+
+  margin-top: 1%;
+  margin-bottom: 2.2%;
+  margin-left: 44.84%;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* Opções do catálogo - card Azul */
+
+.catalogo_opcoes_terciario_azul {
+  display: inline-block;
+  background-color: #000055;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  padding-bottom: -2%;
+}
+
+.catalogo_opcoes_secundario_azul {
+  display: inline-block;
+  background-color: #000077;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_azul {
+  display: inline-block;
+  background-color: #000099;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_azul {
+  display: inline-block;
+  background-color: #0000bb;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}
+
+/* Opções do catálogo - card Verde */
+
+.catalogo_opcoes_terciario_verde {
+  display: inline-block;
+  background-color: #005500;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.catalogo_opcoes_secundario_verde {
+  display: inline-block;
+  background-color: #007700;
+  margin-left: 48.988%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_verde {
+  display: inline-block;
+  background-color: #009900;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_verde {
+  display: inline-block;
+  background-color: #00bb00;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}
+
+/* Opções do catálogo - card Amarelo */
+
+.catalogo_opcoes_terciario_amarelo {
+  display: inline-block;
+  background-color: #ff8822;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.catalogo_opcoes_secundario_amarelo {
+  display: inline-block;
+  background-color: #ff9922;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_amarelo {
+  display: inline-block;
+  background-color: #ffaa22;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_amarelo {
+  display: inline-block;
+  background-color: #ffbb22;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}
+
+/* Opções do catálogo - card Azul Reverso */
+
+.catalogo_opcoes_terciario_azul_rev {
+  display: inline-block;
+  background-color: #000055;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.catalogo_opcoes_secundario_azul_rev {
+  display: inline-block;
+  background-color: #000077;
+  margin-left: 48.988%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_azul_rev {
+  display: inline-block;
+  background-color: #000099;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_azul_rev {
+  display: inline-block;
+  background-color: #0000bb;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}
+
+/* Opções do catálogo - card Verde Reverso */
+
+.catalogo_opcoes_terciario_verde_rev {
+  display: inline-block;
+  background-color: #005500;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.catalogo_opcoes_secundario_verde_rev {
+  display: inline-block;
+  background-color: #007700;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_verde_rev {
+  display: inline-block;
+  background-color: #009900;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_verde_rev {
+  display: inline-block;
+  background-color: #00bb00;
+  margin-left: 0.8%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}
+
+/* Opções do catálogo - card Amarelo Reverso*/
+
+.catalogo_opcoes_terciario_amarelo_rev {
+  display: inline-block;
+  background-color: #ff8822;
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.catalogo_opcoes_secundario_amarelo_rev {
+  display: inline-block;
+  background-color: #ff9922;
+  margin-left: 48.988%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 50%;
+}
+
+.catalogo_opcoes_primario_amarelo_rev {
+  display: inline-block;
+  background-color: #ffaa22;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+
+}
+
+.catalogo_opcoes_amarelo_rev {
+  display: inline-block;
+  background-color: #ffbb22;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 98%;
+}

@@ -1,0 +1,21 @@
+.card_conver_math_an__inferior {
+  display: inline-block;
+  background-color: #ff2200;
+  width: 45.5%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.card_conver_math_an__inferior:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition-duration: 500ms;
+  transition-delay: 2ms;
+}
+
+.card_conver_math_an__inferior:active {
+  background-color: #222222;
+  color: #ffffff;
+}

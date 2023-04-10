@@ -1,0 +1,1 @@
+export function $thead() { const elemento = document.createElement('thead'); return elemento; }

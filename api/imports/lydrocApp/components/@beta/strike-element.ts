@@ -1,1 +1,0 @@
-export function $strike() { const elemento = document.createElement('strike'); return elemento; }

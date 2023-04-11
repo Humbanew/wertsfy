@@ -1,1 +1,0 @@
-export function $tfoot() { const elemento = document.createElement('tfoot'); return elemento; }

@@ -1,1 +1,0 @@
-export function $col() { const elemento = document.createElement('col'); return elemento; }

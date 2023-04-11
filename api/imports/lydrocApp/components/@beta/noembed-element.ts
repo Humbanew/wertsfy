@@ -1,1 +1,0 @@
-export function $noembed() { const elemento = document.createElement('noembed'); return elemento; }

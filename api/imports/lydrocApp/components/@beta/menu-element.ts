@@ -1,1 +1,0 @@
-export function $menu() { const elemento = document.createElement('menu'); return elemento; }

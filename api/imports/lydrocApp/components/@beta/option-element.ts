@@ -1,1 +1,0 @@
-export function $option() { const elemento = document.createElement('option'); return elemento; }

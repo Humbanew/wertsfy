@@ -1,1 +1,0 @@
-export function $center() { const elemento = document.createElement('center'); return elemento; }

@@ -1,1 +1,0 @@
-export function $shadow() { const elemento = document.createElement('shadow'); return elemento; }

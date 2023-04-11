@@ -1,1 +1,0 @@
-export function $hgroup() { const elemento = document.createElement('hgroup'); return elemento; }

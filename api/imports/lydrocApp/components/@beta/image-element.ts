@@ -1,1 +1,0 @@
-export function $image() { const elemento = document.createElement('img'); return elemento; }

@@ -1,1 +1,0 @@
-export function $acronym() { const elemento = document.createElement('acronym'); return elemento; }

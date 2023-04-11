@@ -1,1 +1,0 @@
-export function $pre() { const elemento = document.createElement('pre'); return elemento; }

@@ -1,1 +1,0 @@
-export function $paragraph() { const elemento = document.createElement('p'); return elemento; }

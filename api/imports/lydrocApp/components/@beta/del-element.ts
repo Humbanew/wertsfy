@@ -1,1 +1,0 @@
-export function $del() { const elemento = document.createElement('del'); return elemento; }

@@ -1,1 +1,0 @@
-export function $b() { const elemento = document.createElement('b'); return elemento; }

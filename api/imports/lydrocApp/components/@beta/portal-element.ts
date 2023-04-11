@@ -1,1 +1,0 @@
-export function $portal() { const elemento = document.createElement('portal'); return elemento; }

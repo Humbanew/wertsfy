@@ -1,1 +1,0 @@
-export function $progress() { const elemento = document.createElement('progress'); return elemento; }

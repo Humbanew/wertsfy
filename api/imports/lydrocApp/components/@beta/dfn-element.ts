@@ -1,1 +1,0 @@
-export function $dfn() { const elemento = document.createElement('dfn'); return elemento; }

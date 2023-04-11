@@ -1,1 +1,0 @@
-export function $datalist() { const elemento = document.createElement('datalist'); return elemento; }

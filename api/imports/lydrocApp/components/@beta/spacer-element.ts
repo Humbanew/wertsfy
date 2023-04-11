@@ -1,1 +1,0 @@
-export function $spacer() { const elemento = document.createElement('spacer'); return elemento; }

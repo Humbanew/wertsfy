@@ -1,1 +1,0 @@
-export function $span() { const elemento = document.createElement('span'); return elemento; }

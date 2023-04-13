@@ -7,3 +7,6 @@
 [submodule ".archs-cloud"]
 	path = .archs-cloud
 	url = git@github.com:Humbanew/wertsfy-narchs-cloud.git
+[submodule ".archs-ai"]
+	path = .archs-ai
+	url = git@github.com:Humbanew/wertsfy-narchs-ai.git

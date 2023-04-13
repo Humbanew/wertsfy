@@ -146,6 +146,7 @@ export namespace LibraryMathematic {
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.cbrt"];
 
+  /** */
   export const abs: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.abs"]; 
 

@@ -150,6 +150,7 @@ export namespace LibraryMathematic {
   export const abs: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.abs"]; 
 
+  /** */
   export const arcsin: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsin"];
 

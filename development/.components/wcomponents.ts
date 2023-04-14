@@ -738,8 +738,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o logarítmo de base 10 de um valor. [_Returns the base logarithm 10 of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const log: WComponent["src"]["function"]=

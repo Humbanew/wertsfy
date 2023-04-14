@@ -727,8 +727,7 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
+   * Retorna um valor numérico aleátorio. [_Returns an rawn numerical value._]
    * 
    */
   export const random: WComponent["src"]["function"]=

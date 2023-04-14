@@ -181,8 +181,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco seno hiperbólico de um número. [_Returns the hiperbolic sine arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arcsinh: WComponent["src"]["function"]=

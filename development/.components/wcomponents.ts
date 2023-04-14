@@ -556,8 +556,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do tangente hiperbólico de um número. [_Returns the hiperbolic tangent value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const tanh: WComponent["src"]["function"]=

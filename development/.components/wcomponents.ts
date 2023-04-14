@@ -1128,8 +1128,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Boltzmann. [_Returns the result of the operation of Boltzmann's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { temperature }
+   * 
+   * @argument y ***typeof: number*** ⁝ { constant }
    * 
    */
   export const expTeoBoltzmann: WComponent["src"]["function"]=

@@ -391,8 +391,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da raiz à quinta potência de um número. [_Returns the value of the root to the fifth power of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const quirt: WComponent["src"]["function"]=

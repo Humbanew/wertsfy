@@ -166,8 +166,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco seno de um número. [_Returns the sine arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arcsin: WComponent["src"]["function"]=

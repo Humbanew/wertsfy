@@ -1,4 +1,5 @@
 import { LibraryCalculator, LibraryMathematic } from "./.components/wcomponents";
+import { WertsfyTypes } from "./.declarations/wexport";
 
 /**
  * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -25,12 +26,20 @@ export let wertsfy=
    * 
    * A biblioteca da Calculadora. _[The Calculator Library.]_
    */
-  libcalc: LibraryCalculator
+  libcalc: LibraryCalculator,
+
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Biblioteca de Tipos [Types Library]``**
+   * 
+   */
+  libtypes: WertsfyTypes
 
 };
 
 // Testador
 console.log(
   wertsfy.libmath.Avogadro,
-  wertsfy.libmath.abs(-5)
+  wertsfy.libcalc.common(wertsfy.libtypes.Logicos.comum.modelo = "#plus", 5, 6)
 );

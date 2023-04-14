@@ -526,8 +526,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do cosseno hiperbólico de um número. [_Returns the hiperbolic cossine value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const cosh: WComponent["src"]["function"]=

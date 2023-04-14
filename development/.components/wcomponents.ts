@@ -768,8 +768,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o logarítmo de base 10 mais 1 de um valor. [_Returns the base logarithm 10 plus 1 of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const logp1: WComponent["src"]["function"]=

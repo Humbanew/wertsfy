@@ -1050,8 +1050,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do sinal de número. [_Returns the value of the number signal._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const sign: WComponent["src"]["function"]=
@@ -1062,8 +1065,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna a parte inteira de um valor decimal. [_Returns the entire part of a decimal value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const trunc: WComponent["src"]["function"]=

@@ -146,247 +146,796 @@ export namespace LibraryMathematic {
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.cbrt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const abs: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.abs"]; 
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arcsin: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsin"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arcsinh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsinh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccos: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccosh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arctan: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arctan"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arctanh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arctanh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arcsec: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsec"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arcsech: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsech"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccosec: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosec"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccosech: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosech"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccotan: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccotan"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const arccotanh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccotanh"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sqrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sqrt"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cbrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cbrt"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const quart: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.quart"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const quirt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.quirt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sexrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sexrt"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const seprt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.seprt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const octrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.octrt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const nonrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.nonrt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const decrt: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.decrt"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sin: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sin"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sinh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sinh"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cos: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cosh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const tan: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.tan"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const tanh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.tanh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sec: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sec"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sech: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sech"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cosec: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosec"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cosech: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosech"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cotan: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cotan"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const cotanh: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cotanh"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const pow: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.pow"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const powofpow: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.powofpow"]
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const min: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.min"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const max: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.max"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const random: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.random"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const log: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const logm1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logm1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const logp1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logp1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const log2: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const log2m1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2m1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const log2p1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2p1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const logx: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logx"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const logxm1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logxm1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const logxp1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logxp1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const ln: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.ln"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const lnm1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.lnm1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const lnp1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.lnp1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const exp: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.exp"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expm1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.expm1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expp1: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.expp1"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const round: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.round"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const fround: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.fround"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const floor: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.floor"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const ceil: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.ceil"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const imul: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.imul"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const sign: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sign"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const trunc: WComponent["src"]["function"]=
     WertsfyComponents.source.math["method.trunc"];
 
@@ -404,411 +953,1329 @@ export namespace LibraryCalculator {
   export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
     WertsfyComponents.source.calc["constant.shortcuts"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const common: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.common"]; 
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const advanced: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.advanced"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoBoltzmann: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.boltzmann"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoCoulomb: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.coulomb"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoGirard: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.girard"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoPascal: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.pascal"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoPitagoras: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.pitagoras"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoPlank: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.plank"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoStevin: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.stevin"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoStirling: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.stirling"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expTeoTalesDeMileto: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.tales_mileto"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaTempo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaEspaco: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_espaco"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaVelocidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaAceleracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_acel"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaForca: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_forca"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaEspacoTempo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_espaco"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_movi_circ_unif_var"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_espaco_movi_circ_unif_var"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_posicao_movi_harm_simp"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade_movi_harm_simp"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_acel_movi_harm_simp"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcTorricelli: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.torricelli"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expEqcLagrange: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.lagrange"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcFatorial: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.fatorial"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcCombinacao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.combinacao"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcArranjo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.arranjo"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcProbabilidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.probabilidade"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.conjugado_num_complex"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcRelacaoEuler: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.relacao_euler"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPotenciasDeI: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencias_de_i"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPorcentagem: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.porcentagem"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDeterminante: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.determinante"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPolinomios: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.polinomios"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcMatrizes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.matrizes"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcVelocidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.velocidade"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEspaco: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.espaco"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcTempo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.tempo"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAceleracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.aceleracao"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEnergiaCinetica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_cinetica"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_elas"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_grav"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPotencialMecanico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_mecanico"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPotencialElastico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_elastico"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_sem_atrito"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_com_atrito"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_x"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_y"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lancamento_horizontal"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alt_max_lanc_vert"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_lanc_vert"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_max_lanc_vert"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcCalorSensivel: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_sensivel"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcCalorLatente: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_latente"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLeisDeNewton: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.leis_de_newton"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcTrabalho: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.trabalho"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.consumo_de_energia"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcForcaGravitacional: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_gravitacional"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_centrip_mcu"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_ang_movi_circ_unif"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_linear_movi_circ_unif"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.torricelli-movi-circ-unif-var"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc_acel_ang_movi_circ_var"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcfrequencia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.frequencia"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPeriodo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.periodo"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcTemperatura: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.temperatura"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDilatacaoLinear: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_linear"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_superficial"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_volumetrica"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.principio_fund_hidroest_hidrodinam"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.empuxo_hidroes_hidrodinam"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.peso_aparente_hidroest_hidrodinam"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.atrito"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_coulomb"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLeideOhm: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_ohm"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEfeitoJoule: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_joule"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_eletromotriz"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_fotoeletrico"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDensidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.densidade"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcTitulacao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.titulacao"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcConcentracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.concentracao"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcRendimento: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.rendimento"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcLeiDosGases: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_simples"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_equacoes"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcSistemasLineares: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistemas_lineares"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcNumerosComplexos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcJurosSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_simples"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcJurosCompostos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_quadrantes"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDiversos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.diversos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcNumericos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numericos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcDiagramaVenn: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.diagrama_venn"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcCartesianos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.cartesianos"];
 
-  /** */
+  /**
+   * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
+   * 
+   * **``Método [Method]``**
+   * 
+   * @comentaryDescription
+   * 
+   * @example
+   * 
+   */
   export const expClcGeometricos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.geometricos"];
 

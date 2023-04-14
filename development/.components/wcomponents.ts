@@ -241,8 +241,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco tangente hiperbólico de um número. [_Returns the hiperbolic tangent arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arctanh: WComponent["src"]["function"]=

@@ -211,8 +211,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco cosseno hiperbólico de um número. [_Returns the hiperbolic cosine arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arccosh: WComponent["src"]["function"]=

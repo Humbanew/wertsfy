@@ -1177,8 +1177,19 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Pascal. [_Returns the result of the operation of Pascal's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.variaveisDePascal*** ⁝ { type of operation }
+   * 
+   * @argument y ***typeof: number*** ⁝ { force"1" }
+   * 
+   * @argument z ***typeof: number*** ⁝ { force"2" }
+   * 
+   * @argument w ***typeof: number*** ⁝ { area"1" }
+   * 
+   * @argument k ***typeof: number*** ⁝ { area"2" }
    * 
    */
   export const expTeoPascal: WComponent["src"]["function"]=

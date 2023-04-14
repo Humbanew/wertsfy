@@ -1,4 +1,4 @@
-import { Component_math_corebase_log_method } from "./method.log";
+import { Component_math_corebase_log_method } from "./math/method.log";
 
 const formulaDoTeoremaDeStirling = (valor: number): number => {
   let resultado: number = 0;

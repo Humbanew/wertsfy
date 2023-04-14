@@ -1020,8 +1020,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor arredondado pra baixo de um número. [_Returns the rounded value below a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const ceil: WComponent["src"]["function"]=

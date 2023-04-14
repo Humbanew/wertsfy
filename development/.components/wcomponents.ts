@@ -466,8 +466,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da raiz à décima potência de um número. [_Returns the value of the root to the tenth power of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const decrt: WComponent["src"]["function"]=

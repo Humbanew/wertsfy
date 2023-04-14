@@ -1111,8 +1111,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação selecionada. [_Returns the result of the selected operation._]
    * 
+   * ______________________________________
+   * 
+   * @argument operation ***typeof: TAvancados***
+   * 
+   * @argument numbers ***typeof: number[]***
    * 
    */
   export const advanced: WComponent["src"]["function"]=

@@ -661,8 +661,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna a potência de um número por um valor. [_Returns the power of a number by a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x, y ***[typeof: number]***
    * 
    */
   export const pow: WComponent["src"]["function"]=

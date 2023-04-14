@@ -155,7 +155,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const abs: WComponent["src"]["function"]=
@@ -170,7 +170,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arcsin: WComponent["src"]["function"]=
@@ -185,7 +185,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arcsinh: WComponent["src"]["function"]=
@@ -200,7 +200,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccos: WComponent["src"]["function"]=
@@ -215,7 +215,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccosh: WComponent["src"]["function"]=
@@ -230,7 +230,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arctan: WComponent["src"]["function"]=
@@ -245,7 +245,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arctanh: WComponent["src"]["function"]=
@@ -260,7 +260,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arcsec: WComponent["src"]["function"]=
@@ -275,7 +275,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arcsech: WComponent["src"]["function"]=
@@ -290,7 +290,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccosec: WComponent["src"]["function"]=
@@ -305,7 +305,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccosech: WComponent["src"]["function"]=
@@ -320,7 +320,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccotan: WComponent["src"]["function"]=
@@ -335,7 +335,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const arccotanh: WComponent["src"]["function"]=
@@ -350,7 +350,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sqrt: WComponent["src"]["function"]=
@@ -365,7 +365,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cbrt: WComponent["src"]["function"]=
@@ -380,7 +380,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const quart: WComponent["src"]["function"]=
@@ -395,7 +395,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const quirt: WComponent["src"]["function"]=
@@ -410,7 +410,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sexrt: WComponent["src"]["function"]=
@@ -425,7 +425,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const seprt: WComponent["src"]["function"]=
@@ -440,7 +440,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const octrt: WComponent["src"]["function"]=
@@ -455,7 +455,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const nonrt: WComponent["src"]["function"]=
@@ -470,7 +470,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const decrt: WComponent["src"]["function"]=
@@ -485,7 +485,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sin: WComponent["src"]["function"]=
@@ -500,7 +500,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sinh: WComponent["src"]["function"]=
@@ -515,7 +515,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cos: WComponent["src"]["function"]=
@@ -530,7 +530,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cosh: WComponent["src"]["function"]=
@@ -545,7 +545,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const tan: WComponent["src"]["function"]=
@@ -560,7 +560,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const tanh: WComponent["src"]["function"]=
@@ -575,7 +575,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sec: WComponent["src"]["function"]=
@@ -590,7 +590,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const sech: WComponent["src"]["function"]=
@@ -605,7 +605,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cosec: WComponent["src"]["function"]=
@@ -620,7 +620,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cosech: WComponent["src"]["function"]=
@@ -635,7 +635,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cotan: WComponent["src"]["function"]=
@@ -650,7 +650,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***[typeof: number]***
+   * @argument x ***typeof: number***
    * 
    */
   export const cotanh: WComponent["src"]["function"]=
@@ -661,11 +661,13 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna a potência de um número por um valor. [_Returns the power of a number by a value._]
+   * Retorna a potência de um número elevado por um valor. [_Returns the power of a high number by a value._]
    * 
    * ______________________________________
    * 
-   * @argument x, y ***[typeof: number]***
+   * @argument x ***typeof: number*** ⁝ {base}
+   * 
+   * @argument y ***typeof: number*** ⁝ {exponent} 
    * 
    */
   export const pow: WComponent["src"]["function"]=
@@ -676,8 +678,15 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna a potência de um número elevado por um valor, este elevado por uma sequência de outras potências. [_Returns the power of a high number by a value, this raised by a sequence of other powers._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ {base}
+   * 
+   * @argument y ***typeof: number*** ⁝ {exponent} 
+   * 
+   * @argument z ***typeof: number[]*** ⁝ {exponent of exponent} 
    * 
    */
   export const powofpow: WComponent["src"]["function"]=

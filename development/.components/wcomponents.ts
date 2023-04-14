@@ -361,8 +361,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da raiz cúbica de um número. [_Returns the cubic root value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const cbrt: WComponent["src"]["function"]=

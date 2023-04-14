@@ -879,8 +879,13 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o logarítmo natural de um valor. [_Returns the natural logarithm of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { base }
    * 
    */
   export const ln: WComponent["src"]["function"]=

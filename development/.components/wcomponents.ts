@@ -941,8 +941,13 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o exponencial menos 1 de um valor. [_Returns the exponential minus 1 of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { base }
+   * 
+   * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
   export const expm1: WComponent["src"]["function"]=

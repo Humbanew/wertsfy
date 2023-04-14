@@ -1162,8 +1162,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Girard. [_Returns the result of the operation of Girard's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
   export const expTeoGirard: WComponent["src"]["function"]=

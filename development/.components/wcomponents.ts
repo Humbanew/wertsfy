@@ -331,8 +331,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco cotangente hiperbólico de um número. [_Returns the hiperbolic cotangent arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arccotanh: WComponent["src"]["function"]=

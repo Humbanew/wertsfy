@@ -1145,8 +1145,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Coulomb. [_Returns the result of the operation of Coulomb's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { electric current }
+   * 
+   * @argument y ***typeof: number*** ⁝ { distance }
    * 
    */
   export const expTeoCoulomb: WComponent["src"]["function"]=

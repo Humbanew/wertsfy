@@ -697,7 +697,7 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o maior valor numérico de uma sequência. [_Returns the highest numerical value of a sequence._]
+   * Retorna o menor valor numérico de uma sequência. [_Returns the lowest numerical value of a sequence._]
    * 
    * ______________________________________
    * 
@@ -712,8 +712,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o maior valor numérico de uma sequência. [_Returns the highest numerical value of a sequence._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number[]***
    * 
    */
   export const max: WComponent["src"]["function"]=

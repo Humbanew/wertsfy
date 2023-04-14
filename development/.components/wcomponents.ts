@@ -896,8 +896,13 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o logarítmo natural menos 1 de um valor. [_Returns the natural logarithm minus 1 of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { base }
    * 
    */
   export const lnm1: WComponent["src"]["function"]=

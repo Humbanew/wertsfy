@@ -697,8 +697,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o maior valor numérico de uma sequência. [_Returns the highest numerical value of a sequence._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number[]***
    * 
    */
   export const min: WComponent["src"]["function"]=

@@ -783,8 +783,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o logarítmo de base 2 de um valor. [_Returns the base logarithm 2 of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const log2: WComponent["src"]["function"]=

@@ -646,8 +646,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da cotangente hiperbólica de um número. [_Returns the hiperbolic cotangent value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const cotanh: WComponent["src"]["function"]=

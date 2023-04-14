@@ -571,8 +571,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do secante de um número. [_Returns the secant value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const sec: WComponent["src"]["function"]=

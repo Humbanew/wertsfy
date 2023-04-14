@@ -975,8 +975,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor arredondado de um número. [_Returns the rounded value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const round: WComponent["src"]["function"]=

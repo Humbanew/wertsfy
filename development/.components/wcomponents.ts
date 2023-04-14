@@ -541,7 +541,7 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o valor do tangente de um número. [_Returns the tangent value of a number._]
+   * Retorna o valor da tangente de um número. [_Returns the tangent value of a number._]
    * 
    * ______________________________________
    * 
@@ -556,7 +556,7 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o valor do tangente hiperbólico de um número. [_Returns the hiperbolic tangent value of a number._]
+   * Retorna o valor da tangente hiperbólica de um número. [_Returns the hiperbolic tangent value of a number._]
    * 
    * ______________________________________
    * 
@@ -571,7 +571,7 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o valor do secante de um número. [_Returns the secant value of a number._]
+   * Retorna o valor da secante de um número. [_Returns the secant value of a number._]
    * 
    * ______________________________________
    * 
@@ -586,8 +586,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da secante hiperbólica de um número. [_Returns the hiperbolic secant value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const sech: WComponent["src"]["function"]=

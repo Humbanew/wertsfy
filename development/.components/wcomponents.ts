@@ -286,8 +286,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do arco cosecante de um número. [_Returns the cosecant arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const arccosec: WComponent["src"]["function"]=

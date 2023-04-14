@@ -1035,8 +1035,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da multiplicação de inteiros de 32-bits. [_Returns the value of 32-bit multiplication._]
    * 
+   * ______________________________________
+   * 
+   * @argument x, y ***typeof: number***
    * 
    */
   export const imul: WComponent["src"]["function"]=

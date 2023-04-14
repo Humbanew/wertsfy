@@ -1200,8 +1200,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Pitagoras. [_Returns the result of the operation of Pitagoras's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.triangulosPitagoricos*** ⁝ { operation constructor object }
    * 
    */
   export const expTeoPitagoras: WComponent["src"]["function"]=

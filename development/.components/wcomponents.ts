@@ -496,8 +496,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor do seno hiperbólico de um número. [_Returns the hiperbolic sine value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const sinh: WComponent["src"]["function"]=

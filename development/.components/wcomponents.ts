@@ -990,8 +990,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor arredondado de um número de ponto flutuante e/ou decimal. [_Returns the rounded value of a floating and/or decimal point number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const fround: WComponent["src"]["function"]=

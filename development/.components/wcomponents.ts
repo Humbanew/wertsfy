@@ -883,9 +883,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: number*** ⁝ { value }
-   * 
-   * @argument y ***typeof: number*** ⁝ { base }
+   * @argument x ***typeof: number***
    * 
    */
   export const ln: WComponent["src"]["function"]=
@@ -900,9 +898,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: number*** ⁝ { value }
-   * 
-   * @argument y ***typeof: number*** ⁝ { base }
+   * @argument x ***typeof: number***
    * 
    */
   export const lnm1: WComponent["src"]["function"]=
@@ -917,9 +913,7 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: number*** ⁝ { value }
-   * 
-   * @argument y ***typeof: number*** ⁝ { base }
+   * @argument x ***typeof: number***
    * 
    */
   export const lnp1: WComponent["src"]["function"]=
@@ -930,8 +924,13 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o exponencial de um valor. [_Returns the exponential of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { base }
+   * 
+   * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
   export const exp: WComponent["src"]["function"]=

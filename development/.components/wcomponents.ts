@@ -376,8 +376,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor da raiz à quarta potência de um número. [_Returns the value of the root to the fourth power of a number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const quart: WComponent["src"]["function"]=

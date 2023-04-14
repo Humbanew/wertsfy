@@ -151,10 +151,11 @@ export namespace LibraryMathematic {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o valor absoluto de um número. [_Returns the absolute value of a number._]
    * 
-   * @example
-   * ``null``
+   * ______________________________________
+   * 
+   * @argument x ***[typeof: number]***
    * 
    */
   export const abs: WComponent["src"]["function"]=
@@ -167,8 +168,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arcsin: WComponent["src"]["function"]=
@@ -181,8 +180,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arcsinh: WComponent["src"]["function"]=
@@ -195,8 +192,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccos: WComponent["src"]["function"]=
@@ -209,8 +204,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccosh: WComponent["src"]["function"]=
@@ -223,8 +216,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arctan: WComponent["src"]["function"]=
@@ -237,8 +228,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arctanh: WComponent["src"]["function"]=
@@ -251,8 +240,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arcsec: WComponent["src"]["function"]=
@@ -265,8 +252,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arcsech: WComponent["src"]["function"]=
@@ -279,8 +264,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccosec: WComponent["src"]["function"]=
@@ -293,8 +276,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccosech: WComponent["src"]["function"]=
@@ -307,8 +288,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccotan: WComponent["src"]["function"]=
@@ -321,8 +300,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const arccotanh: WComponent["src"]["function"]=
@@ -335,8 +312,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sqrt: WComponent["src"]["function"]=
@@ -349,8 +324,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cbrt: WComponent["src"]["function"]=
@@ -363,8 +336,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const quart: WComponent["src"]["function"]=
@@ -377,8 +348,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const quirt: WComponent["src"]["function"]=
@@ -391,8 +360,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sexrt: WComponent["src"]["function"]=
@@ -405,8 +372,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const seprt: WComponent["src"]["function"]=
@@ -419,8 +384,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const octrt: WComponent["src"]["function"]=
@@ -433,8 +396,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const nonrt: WComponent["src"]["function"]=
@@ -447,8 +408,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const decrt: WComponent["src"]["function"]=
@@ -461,8 +420,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sin: WComponent["src"]["function"]=
@@ -475,8 +432,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sinh: WComponent["src"]["function"]=
@@ -489,8 +444,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cos: WComponent["src"]["function"]=
@@ -503,8 +456,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cosh: WComponent["src"]["function"]=
@@ -517,8 +468,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const tan: WComponent["src"]["function"]=
@@ -531,8 +480,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const tanh: WComponent["src"]["function"]=
@@ -545,8 +492,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sec: WComponent["src"]["function"]=
@@ -559,8 +504,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sech: WComponent["src"]["function"]=
@@ -573,8 +516,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cosec: WComponent["src"]["function"]=
@@ -587,8 +528,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cosech: WComponent["src"]["function"]=
@@ -601,8 +540,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cotan: WComponent["src"]["function"]=
@@ -615,8 +552,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const cotanh: WComponent["src"]["function"]=
@@ -629,8 +564,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const pow: WComponent["src"]["function"]=
@@ -643,8 +576,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const powofpow: WComponent["src"]["function"]=
@@ -657,8 +588,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const min: WComponent["src"]["function"]=
@@ -671,8 +600,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const max: WComponent["src"]["function"]=
@@ -685,8 +612,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const random: WComponent["src"]["function"]=
@@ -699,8 +624,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const log: WComponent["src"]["function"]=
@@ -713,8 +636,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const logm1: WComponent["src"]["function"]=
@@ -727,8 +648,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const logp1: WComponent["src"]["function"]=
@@ -741,8 +660,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const log2: WComponent["src"]["function"]=
@@ -755,8 +672,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const log2m1: WComponent["src"]["function"]=
@@ -769,8 +684,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const log2p1: WComponent["src"]["function"]=
@@ -783,8 +696,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const logx: WComponent["src"]["function"]=
@@ -797,8 +708,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const logxm1: WComponent["src"]["function"]=
@@ -811,8 +720,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const logxp1: WComponent["src"]["function"]=
@@ -825,8 +732,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const ln: WComponent["src"]["function"]=
@@ -839,8 +744,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const lnm1: WComponent["src"]["function"]=
@@ -853,8 +756,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const lnp1: WComponent["src"]["function"]=
@@ -867,8 +768,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const exp: WComponent["src"]["function"]=
@@ -881,8 +780,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expm1: WComponent["src"]["function"]=
@@ -895,8 +792,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expp1: WComponent["src"]["function"]=
@@ -909,8 +804,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const round: WComponent["src"]["function"]=
@@ -923,8 +816,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const fround: WComponent["src"]["function"]=
@@ -937,8 +828,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const floor: WComponent["src"]["function"]=
@@ -951,8 +840,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const ceil: WComponent["src"]["function"]=
@@ -965,8 +852,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const imul: WComponent["src"]["function"]=
@@ -979,8 +864,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const sign: WComponent["src"]["function"]=
@@ -993,8 +876,6 @@ export namespace LibraryMathematic {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const trunc: WComponent["src"]["function"]=
@@ -1021,8 +902,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const common: WComponent["src"]["function"]=
@@ -1035,8 +914,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const advanced: WComponent["src"]["function"]=
@@ -1049,8 +926,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoBoltzmann: WComponent["src"]["function"]=
@@ -1063,8 +938,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoCoulomb: WComponent["src"]["function"]=
@@ -1077,8 +950,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoGirard: WComponent["src"]["function"]=
@@ -1091,8 +962,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoPascal: WComponent["src"]["function"]=
@@ -1105,8 +974,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoPitagoras: WComponent["src"]["function"]=
@@ -1119,8 +986,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoPlank: WComponent["src"]["function"]=
@@ -1133,8 +998,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoStevin: WComponent["src"]["function"]=
@@ -1147,8 +1010,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoStirling: WComponent["src"]["function"]=
@@ -1161,8 +1022,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expTeoTalesDeMileto: WComponent["src"]["function"]=
@@ -1175,8 +1034,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaTempo: WComponent["src"]["function"]=
@@ -1189,8 +1046,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaEspaco: WComponent["src"]["function"]=
@@ -1203,8 +1058,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaVelocidade: WComponent["src"]["function"]=
@@ -1217,8 +1070,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaAceleracao: WComponent["src"]["function"]=
@@ -1231,8 +1082,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaForca: WComponent["src"]["function"]=
@@ -1245,8 +1094,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaEspacoTempo: WComponent["src"]["function"]=
@@ -1259,8 +1106,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
@@ -1273,8 +1118,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
@@ -1287,8 +1130,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
@@ -1301,8 +1142,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: WComponent["src"]["function"]=
@@ -1315,8 +1154,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
@@ -1329,8 +1166,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcTorricelli: WComponent["src"]["function"]=
@@ -1343,8 +1178,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expEqcLagrange: WComponent["src"]["function"]=
@@ -1357,8 +1190,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcFatorial: WComponent["src"]["function"]=
@@ -1371,8 +1202,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcCombinacao: WComponent["src"]["function"]=
@@ -1385,8 +1214,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcArranjo: WComponent["src"]["function"]=
@@ -1399,8 +1226,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcProbabilidade: WComponent["src"]["function"]=
@@ -1413,8 +1238,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=
@@ -1427,8 +1250,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcRelacaoEuler: WComponent["src"]["function"]=
@@ -1441,8 +1262,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPotenciasDeI: WComponent["src"]["function"]=
@@ -1455,8 +1274,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPorcentagem: WComponent["src"]["function"]=
@@ -1469,8 +1286,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDeterminante: WComponent["src"]["function"]=
@@ -1483,8 +1298,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPolinomios: WComponent["src"]["function"]=
@@ -1497,8 +1310,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcMatrizes: WComponent["src"]["function"]=
@@ -1511,8 +1322,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcVelocidade: WComponent["src"]["function"]=
@@ -1525,8 +1334,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEspaco: WComponent["src"]["function"]=
@@ -1539,8 +1346,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcTempo: WComponent["src"]["function"]=
@@ -1553,8 +1358,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAceleracao: WComponent["src"]["function"]=
@@ -1567,8 +1370,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEnergiaCinetica: WComponent["src"]["function"]=
@@ -1581,8 +1382,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
@@ -1595,8 +1394,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
@@ -1609,8 +1406,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPotencialMecanico: WComponent["src"]["function"]=
@@ -1623,8 +1418,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPotencialElastico: WComponent["src"]["function"]=
@@ -1637,8 +1430,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
@@ -1651,8 +1442,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
@@ -1665,8 +1454,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
@@ -1679,8 +1466,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
@@ -1693,8 +1478,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
@@ -1707,8 +1490,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
@@ -1721,8 +1502,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
@@ -1735,8 +1514,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
@@ -1749,8 +1526,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcCalorSensivel: WComponent["src"]["function"]=
@@ -1763,8 +1538,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcCalorLatente: WComponent["src"]["function"]=
@@ -1777,8 +1550,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLeisDeNewton: WComponent["src"]["function"]=
@@ -1791,8 +1562,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcTrabalho: WComponent["src"]["function"]=
@@ -1805,8 +1574,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
@@ -1819,8 +1586,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcForcaGravitacional: WComponent["src"]["function"]=
@@ -1833,8 +1598,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
@@ -1847,8 +1610,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
@@ -1861,8 +1622,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
@@ -1875,8 +1634,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
@@ -1889,8 +1646,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
@@ -1903,8 +1658,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcfrequencia: WComponent["src"]["function"]=
@@ -1917,8 +1670,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPeriodo: WComponent["src"]["function"]=
@@ -1931,8 +1682,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcTemperatura: WComponent["src"]["function"]=
@@ -1945,8 +1694,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDilatacaoLinear: WComponent["src"]["function"]=
@@ -1959,8 +1706,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
@@ -1973,8 +1718,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
@@ -1987,8 +1730,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
@@ -2001,8 +1742,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
@@ -2015,8 +1754,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
@@ -2029,8 +1766,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcAtrito: WComponent["src"]["function"]=
@@ -2043,8 +1778,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
@@ -2057,8 +1790,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLeideOhm: WComponent["src"]["function"]=
@@ -2071,8 +1802,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEfeitoJoule: WComponent["src"]["function"]=
@@ -2085,8 +1814,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
@@ -2099,8 +1826,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=
@@ -2113,8 +1838,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
@@ -2127,8 +1850,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
@@ -2141,8 +1862,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDensidade: WComponent["src"]["function"]=
@@ -2155,8 +1874,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcTitulacao: WComponent["src"]["function"]=
@@ -2169,8 +1886,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcConcentracao: WComponent["src"]["function"]=
@@ -2183,8 +1898,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcRendimento: WComponent["src"]["function"]=
@@ -2197,8 +1910,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcLeiDosGases: WComponent["src"]["function"]=
@@ -2211,8 +1922,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
@@ -2225,8 +1934,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
@@ -2239,8 +1946,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
@@ -2253,8 +1958,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
@@ -2267,8 +1970,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcSistemasLineares: WComponent["src"]["function"]=
@@ -2281,8 +1982,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcNumerosComplexos: WComponent["src"]["function"]=
@@ -2295,8 +1994,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcJurosSimples: WComponent["src"]["function"]=
@@ -2309,8 +2006,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcJurosCompostos: WComponent["src"]["function"]=
@@ -2323,8 +2018,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
@@ -2337,8 +2030,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
@@ -2351,8 +2042,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
@@ -2365,8 +2054,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
@@ -2379,8 +2066,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDiversos: WComponent["src"]["function"]=
@@ -2393,8 +2078,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcNumericos: WComponent["src"]["function"]=
@@ -2407,8 +2090,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcDiagramaVenn: WComponent["src"]["function"]=
@@ -2421,8 +2102,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcCartesianos: WComponent["src"]["function"]=
@@ -2435,8 +2114,6 @@ export namespace LibraryCalculator {
    * 
    * @comentaryDescription
    * 
-   * @example
-   * ``null``
    * 
    */
   export const expClcGeometricos: WComponent["src"]["function"]=

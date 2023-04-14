@@ -31,5 +31,6 @@ export let wertsfy=
 
 // Testador
 console.log(
-  wertsfy.libmath.Avogadro
+  wertsfy.libmath.Avogadro,
+  wertsfy.libmath.abs(-5)
 );

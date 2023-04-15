@@ -1694,8 +1694,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do cálculo entre matrizes. [_Returns the result of the calculation between arrays._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesComuns*** ⁝ { operation constructor object }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number[][], number[][] }*** ⁝ { matrix sentence 1, matrix sentence 2 }
    * 
    */
   export const expClcMatrizes: WComponent["src"]["function"]=

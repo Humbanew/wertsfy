@@ -2472,10 +2472,18 @@ export namespace LibraryCalculator {
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da força eletromotriz. [_Returns the result of the electromotive force calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { total potential generator }
+   * 
+   * @argument y ***typeof: number*** ⁝ { current intensity }
    * 
    */
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=

@@ -2138,6 +2138,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da aceleração centripeta de um movimento circular uniforme. [_Returns the result of the centripetal acceleration calculation of a uniform circular motion._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { ray }
+   * 
    */
   export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_centrip_mcu"];

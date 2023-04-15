@@ -2538,10 +2538,24 @@ export namespace LibraryCalculator {
   export const expClcDensidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.densidade"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da titulação. [_Returns the result of the calculation of the title._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.variaveisDeTitulacao*** ⁝ { operation constructor object }
+   * 
+   * @argument y ***typeof: number*** ⁝ { base massa }
+   * 
+   * @argument z ***typeof: number*** ⁝ { acid massa }
+   * 
+   * @argument w ***typeof: number*** ⁝ { base volume }
+   * 
+   * @argument k ***typeof: number*** ⁝ { acid volume }
    * 
    */
   export const expClcTitulacao: WComponent["src"]["function"]=

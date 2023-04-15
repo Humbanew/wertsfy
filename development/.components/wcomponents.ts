@@ -2578,10 +2578,18 @@ export namespace LibraryCalculator {
   export const expClcConcentracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.concentracao"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo do rendimento. [_Returns the result of the performance calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { part value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { total value }
    * 
    */
   export const expClcRendimento: WComponent["src"]["function"]=

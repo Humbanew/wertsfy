@@ -2119,6 +2119,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da força gravitacional. [_Returns the result of the calculation of gravitational force._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { gravitational force }
+   * 
+   * @argument y ***typeof: number*** ⁝ { planet massa }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
+   * 
    */
   export const expClcForcaGravitacional: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_gravitacional"];
@@ -2174,7 +2184,7 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    */
-  export const expClcfrequencia: WComponent["src"]["function"]=
+  export const expClcFrequencia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.frequencia"];
 
   /**

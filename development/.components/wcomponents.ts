@@ -1990,6 +1990,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do alcance de um lançamento vertical. [_Returns the result of the scope calculation of a vertical release._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_lanc_vert"];

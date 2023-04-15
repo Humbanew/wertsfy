@@ -1813,6 +1813,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da energia potencial gravitacional. [_Returns the result of the calculation of gravitational potential energy._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { height }
+   * 
    */
   export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_grav"];

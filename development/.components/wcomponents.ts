@@ -1916,6 +1916,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da aceleração do plano inclinado no eixo x. [_Returns the result of calculating the tilted plane acceleration on the x axis._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_x"];

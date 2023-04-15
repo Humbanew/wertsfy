@@ -2778,10 +2778,18 @@ export namespace LibraryCalculator {
   export const expClcJurosCompostos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o quadrante correspondente às coordenadas de entrada. [_Returns the quadrant corresponding to the input coordinates._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { in absc }
+   * 
+   * @argument y ***typeof: number*** ⁝ { ordered }
    * 
    */
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=

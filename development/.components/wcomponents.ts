@@ -1300,8 +1300,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária do espaço. [_Returns the result of the operation of the space equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { start space, final space }
+   * 
+   * @argument y ***typeof: number*** ⁝ { acceleration }
    * 
    */
   export const expEqcHorariaEspaco: WComponent["src"]["function"]=

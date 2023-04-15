@@ -2595,10 +2595,26 @@ export namespace LibraryCalculator {
   export const expClcRendimento: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.rendimento"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da lei dos gases. [_Returns the result of the calculation of the Gases Law._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { presure a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { presure b }
+   * 
+   * @argument z ***typeof: string*** ⁝ { volume a }
+   * 
+   * @argument w ***typeof: string*** ⁝ { volume b }
+   * 
+   * @argument k ***typeof: string*** ⁝ { temperature a }
+   * 
+   * @argument t ***typeof: string*** ⁝ { temperature b }
    * 
    */
   export const expClcLeiDosGases: WComponent["src"]["function"]=

@@ -2009,6 +2009,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do alcance máximo de um lançamento vertical. [_Returns the result of the maximum scope calculation of a vertical release._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_max_lanc_vert"];

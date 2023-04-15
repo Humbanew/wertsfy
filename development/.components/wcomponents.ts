@@ -2704,10 +2704,16 @@ export namespace LibraryCalculator {
   export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo do sistemas lineares. [_Returns the result of the linear systems calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string[]*** ⁝ { expressions list }
    * 
    */
   export const expClcSistemasLineares: WComponent["src"]["function"]=

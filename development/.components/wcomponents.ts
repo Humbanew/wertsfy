@@ -1954,6 +1954,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do lançamento horizontal. [_Returns the result of the horizontal release calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
    */
   export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lancamento_horizontal"];

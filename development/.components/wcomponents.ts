@@ -1878,6 +1878,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do plano inclinado sem atrito. [_Returns the result of the calculation of frictionless inclined plan._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
    */
   export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_sem_atrito"];

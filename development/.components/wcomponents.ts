@@ -2521,10 +2521,18 @@ export namespace LibraryCalculator {
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_fotoeletrico"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da densidade. [_Returns the result of the density calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { volume }
    * 
    */
   export const expClcDensidade: WComponent["src"]["function"]=

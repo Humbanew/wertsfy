@@ -1711,8 +1711,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do cálculo da velocidade. [_Returns the result of the speed calculation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x: { x1: x2 } ***typeof: object: { number, number }*** ⁝ { initial space, final space }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
   export const expClcVelocidade: WComponent["src"]["function"]=

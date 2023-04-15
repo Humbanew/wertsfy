@@ -2272,6 +2272,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado da dilatação linear. [_Returns the result of linear dilation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial length }
+   * 
+   * @argument y ***typeof: number*** ⁝ { linear dilation coeficient }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
+   * 
    */
   export const expClcDilatacaoLinear: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_linear"];

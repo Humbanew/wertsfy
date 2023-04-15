@@ -2155,6 +2155,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da velocidade angular de um movimento circular uniforme. [_Returns the result of the angle speed calculation of a uniform circular motion._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial angle, final angle }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
    */
   export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_ang_movi_circ_unif"];

@@ -2225,6 +2225,12 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da frequência. [_Returns the result of the frequence._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { period }
+   * 
    */
   export const expClcFrequencia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.frequencia"];

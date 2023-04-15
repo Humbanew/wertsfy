@@ -2388,6 +2388,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo de atrito. [_Returns the result of the friction calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { friction coeficient }
+   * 
+   * @argument y ***typeof: number*** ⁝ { massa }
+   * 
    */
   export const expClcAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.atrito"];

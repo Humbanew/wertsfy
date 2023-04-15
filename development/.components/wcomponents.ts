@@ -2405,13 +2405,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o resultado do cálculo da lei de coulomb. [_Returns the result of the calculation of the Coulomb Law._]
+   * Retorna o resultado do cálculo da lei de Coulomb. [_Returns the result of the calculation of the Coulomb Law._]
    * 
    * ______________________________________
    * 
    * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { charge a, change b }
    * 
-   * @argument y: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
    * 
    */
   export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
@@ -2421,6 +2421,14 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da lei de Ohm. [_Returns the result of the calculation of the Ohm Law._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { resistence }
+   * 
+   * @argument y ***typeof: number*** ⁝ { current }
    * 
    */
   export const expClcLeideOhm: WComponent["src"]["function"]=

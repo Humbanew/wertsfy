@@ -2310,6 +2310,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado da dilatação volumétrica. [_Returns the result of volumetric dilation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial area }
+   * 
+   * @argument y ***typeof: number*** ⁝ { volumetric dilation coeficient }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
+   * 
    */
   export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_volumetrica"];

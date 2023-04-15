@@ -2738,10 +2738,20 @@ export namespace LibraryCalculator {
   export const expClcNumerosComplexos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo de juros simples. [_Returns the result of the simple interest calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { taxa }
+   * 
+   * @argument z ***typeof: number*** ⁝ { time } 
    * 
    */
   export const expClcJurosSimples: WComponent["src"]["function"]=

@@ -2629,11 +2629,11 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: string*** ⁝ { value a }
+   * @argument x ***typeof: number*** ⁝ { value a }
    * 
-   * @argument y ***typeof: string*** ⁝ { value b }
+   * @argument y ***typeof: number*** ⁝ { value b }
    * 
-   * @argument z ***typeof: string*** ⁝ { value c }
+   * @argument z ***typeof: number*** ⁝ { value c }
    * 
    * @argument w ***typeof: string*** ⁝ { variable position }
    * 
@@ -2650,19 +2650,19 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: string*** ⁝ { value a }
+   * @argument x ***typeof: number*** ⁝ { value a }
    * 
-   * @argument y ***typeof: string*** ⁝ { value b }
+   * @argument y ***typeof: number*** ⁝ { value b }
    * 
-   * @argument z ***typeof: string*** ⁝ { value c }
+   * @argument z ***typeof: number*** ⁝ { value c }
    * 
-   * @argument w ***typeof: string*** ⁝ { value d }
+   * @argument w ***typeof: number*** ⁝ { value d }
    * 
-   * @argument k ***typeof: string*** ⁝ { value e }
+   * @argument k ***typeof: number*** ⁝ { value e }
    * 
-   * @argument t ***typeof: string*** ⁝ { value f }
+   * @argument t ***typeof: number*** ⁝ { value f }
    * 
-   * @argument r ***typeof: string*** ⁝ { value g }
+   * @argument r ***typeof: number*** ⁝ { value g }
    * 
    * @argument s ***typeof: string*** ⁝ { variable position }
    * 
@@ -2670,10 +2670,18 @@ export namespace LibraryCalculator {
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo do sistema de equações. [_Returns the result of the equation system calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { expression a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { expression b }
    * 
    */
   export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=

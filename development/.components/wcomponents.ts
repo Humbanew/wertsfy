@@ -1517,8 +1517,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação de Lagrange. [_Returns the result of the operation of the Lagrange Equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x, y, xi, yi, xii, yii, xiii, yiii ***typeof: number***
    * 
    */
   export const expEqcLagrange: WComponent["src"]["function"]=

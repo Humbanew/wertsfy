@@ -2172,6 +2172,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da velocidade linear de um movimento circular uniforme. [_Returns the result of the linear speed calculation of a uniform circular motion._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { frequence }
+   * 
+   * @argument y ***typeof: number*** ⁝ { ray }
+   * 
    */
   export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_linear_movi_circ_unif"];

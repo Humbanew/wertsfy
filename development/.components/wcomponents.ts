@@ -2620,10 +2620,22 @@ export namespace LibraryCalculator {
   export const expClcLeiDosGases: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da regra de três simples. [_Returns the result of the simple rule calculation of three._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { value a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { value b }
+   * 
+   * @argument z ***typeof: string*** ⁝ { value c }
+   * 
+   * @argument w ***typeof: string*** ⁝ { variable position }
    * 
    */
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=

@@ -2100,6 +2100,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do consumo de energia. [_Returns the result of the calculation of energy consumption._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x: {x1, x2} ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
+   * @argument y ***typeof: number*** ⁝ { electric current }
+   * 
+   * @argument z ***typeof: number*** ⁝ { ddp }
+   * 
    */
   export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.consumo_de_energia"];

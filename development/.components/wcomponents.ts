@@ -2081,6 +2081,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do trabalho. [_Returns the result of the work calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { height }
+   * 
    */
   export const expClcTrabalho: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.trabalho"];

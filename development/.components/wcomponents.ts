@@ -2367,6 +2367,18 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do peso aparente da hidroestática e hidrodinâmica. [_Returns the result of calculating the apparent weight of hydroestatic and hydrodynamics._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { weight }
+   * 
+   * @argument y ***typeof: number*** ⁝ { density }
+   * 
+   * @argument z ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument w ***typeof: number*** ⁝ { volume }
+   * 
    */
   export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.peso_aparente_hidroest_hidrodinam"];

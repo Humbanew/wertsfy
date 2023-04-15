@@ -2255,6 +2255,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da temperatura. [_Returns the result of the temperature._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.variaveisDeTemperatura*** ⁝ { operation constructor object }
+   * 
+   * @argument y ***typeof: number*** ⁝ { value }
+   * 
    */
   export const expClcTemperatura: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.temperatura"];

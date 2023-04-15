@@ -2208,6 +2208,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da aceleração angular de um movimento circular uniformente variado. [_Returns the result of the calculation of the angular acceleration of a uniformly varied circular motion._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial angle speed, final angle speed }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
    */
   export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc_acel_ang_movi_circ_var"];

@@ -2439,6 +2439,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do Efeito Joule. [_Returns the result of the joule effect calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { current }
+   * 
+   * @argument y ***typeof: number*** ⁝ { resistence }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
+   * 
    */
   export const expClcEfeitoJoule: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_joule"];

@@ -1181,7 +1181,7 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: TExpressoes.variaveisDePascal*** ⁝ { type of operation }
+   * @argument x ***typeof: TExpressoes.variaveisDePascal*** ⁝ { operation constructor object }
    * 
    * @argument y ***typeof: number*** ⁝ { force"1" }
    * 
@@ -1651,7 +1651,7 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: TExpressoes.porcentagem***
+   * @argument x ***typeof: TExpressoes.porcentagem*** ⁝ { operation constructor object }
    * 
    */
   export const expClcPorcentagem: WComponent["src"]["function"]=
@@ -1662,8 +1662,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do cálculo da determinante. [_Returns the result of the determinant calculation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.determinantes*** ⁝ { operation constructor object }
    * 
    */
   export const expClcDeterminante: WComponent["src"]["function"]=

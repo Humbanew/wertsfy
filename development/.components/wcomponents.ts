@@ -1355,8 +1355,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária da força. [_Returns the result of the operation of the force schedule equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { force }
+   * 
+   * @argument y ***typeof: number*** ⁝ { time }
+   * 
+   * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
   export const expEqcHorariaForca: WComponent["src"]["function"]=

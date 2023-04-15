@@ -2561,10 +2561,18 @@ export namespace LibraryCalculator {
   export const expClcTitulacao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.titulacao"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da concentração. [_Returns the result of the concentration calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { solute massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { volume }
    * 
    */
   export const expClcConcentracao: WComponent["src"]["function"]=

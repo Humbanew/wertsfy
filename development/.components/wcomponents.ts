@@ -2348,6 +2348,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do empuxo da hidroestática e hidrodinâmica. [_Returns the result of calculating the buoyancy of hydroestatic and hydrodynamics._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { density }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { volume }
+   * 
    */
   export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.empuxo_hidroes_hidrodinam"];

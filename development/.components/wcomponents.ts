@@ -2028,6 +2028,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do calor sensível. [_Returns the result of the sensitive heat calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { specific heat }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
+   * 
    */
   export const expClcCalorSensivel: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_sensivel"];

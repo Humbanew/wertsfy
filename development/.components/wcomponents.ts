@@ -1532,8 +1532,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do fatorial de um valor. [_Returns the result of the factorial of a value._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const expClcFatorial: WComponent["src"]["function"]=

@@ -1266,8 +1266,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Tales de Mileto. [_Returns the result of the operation of Tales de Mileto's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x, y, z ***typeof: number***
    * 
    */
   export const expTeoTalesDeMileto: WComponent["src"]["function"]=

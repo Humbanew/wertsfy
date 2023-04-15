@@ -1240,7 +1240,7 @@ export namespace LibraryCalculator {
    * 
    * @argument y ***typeof: number*** ⁝ { gravity }
    * 
-   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { height }
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { start height, final height }
    * 
    */
   export const expTeoStevin: WComponent["src"]["function"]=
@@ -1281,8 +1281,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária do tempo. [_Returns the result of the operation of the time equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { start time, final time }
+   * 
+   * @argument y ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
   export const expEqcHorariaTempo: WComponent["src"]["function"]=

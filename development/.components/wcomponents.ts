@@ -1281,7 +1281,7 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o resultado da operação da equação horária do tempo. [_Returns the result of the operation of the time equation._]
+   * Retorna o resultado da operação da equação horária do tempo. [_Returns the result of the operation of the time schedule equation._]
    * 
    * ______________________________________
    * 
@@ -1300,7 +1300,7 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o resultado da operação da equação horária do espaço. [_Returns the result of the operation of the space equation._]
+   * Retorna o resultado da operação da equação horária do espaço. [_Returns the result of the operation of the space schedule equation._]
    * 
    * ______________________________________
    * 
@@ -1317,8 +1317,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária da velocidade. [_Returns the result of the operation of the speed schedule equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { time }
+   * 
+   * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
   export const expEqcHorariaVelocidade: WComponent["src"]["function"]=

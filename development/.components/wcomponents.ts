@@ -1251,8 +1251,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Stirling. [_Returns the result of the operation of Stirling's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const expTeoStirling: WComponent["src"]["function"]=

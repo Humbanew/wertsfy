@@ -1215,8 +1215,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Plank. [_Returns the result of the operation of Plank's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { energy }
+   * 
+   * @argument y ***typeof: string*** ⁝ { constant }
    * 
    */
   export const expTeoPlank: WComponent["src"]["function"]=

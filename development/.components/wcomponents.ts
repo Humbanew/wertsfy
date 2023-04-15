@@ -2795,10 +2795,20 @@ export namespace LibraryCalculator {
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_quadrantes"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o octante correspondente às coordenadas de entrada. [_Returns the octant corresponding to the input coordinates._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { in absc }
+   * 
+   * @argument y ***typeof: number*** ⁝ { ordered }
+   * 
+   * @argument z ***typeof: number*** ⁝ { cota }
    * 
    */
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=

@@ -1598,8 +1598,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do conjugado de um número complexo. [_Returns the result of the conjugate of a complex number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
   export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=

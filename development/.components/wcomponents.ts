@@ -1232,8 +1232,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação do teorema de Stevin. [_Returns the result of the operation of Stevin's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { density }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { height }
    * 
    */
   export const expTeoStevin: WComponent["src"]["function"]=

@@ -1617,11 +1617,11 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
-   * @argument x ***typeof: string*** ⁝ { vertices }
+   * @argument x ***typeof: number*** ⁝ { vertices }
    * 
-   * @argument y ***typeof: string*** ⁝ { edges }
+   * @argument y ***typeof: number*** ⁝ { edges }
    * 
-   * @argument z ***typeof: string*** ⁝ { faces }
+   * @argument z ***typeof: number*** ⁝ { faces }
    * 
    */
   export const expClcRelacaoEuler: WComponent["src"]["function"]=
@@ -1632,8 +1632,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do representante da potenciação de i, do número complexo. [_Returns the result of the representative of the power of I, of the complex number._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number***
    * 
    */
   export const expClcPotenciasDeI: WComponent["src"]["function"]=

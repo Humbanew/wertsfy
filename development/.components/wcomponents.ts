@@ -1547,8 +1547,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da combinação de dois valores. [_Returns the result of the combination of two values._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { total }
+   * 
+   * @argument y ***typeof: number*** ⁝ { divisor }
    * 
    */
   export const expClcCombinacao: WComponent["src"]["function"]=

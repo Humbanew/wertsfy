@@ -2641,10 +2641,30 @@ export namespace LibraryCalculator {
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_simples"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da regra de três composta. [_Returns the result of the composed rule calculation of three._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { value a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { value b }
+   * 
+   * @argument z ***typeof: string*** ⁝ { value c }
+   * 
+   * @argument w ***typeof: string*** ⁝ { value d }
+   * 
+   * @argument k ***typeof: string*** ⁝ { value e }
+   * 
+   * @argument t ***typeof: string*** ⁝ { value f }
+   * 
+   * @argument r ***typeof: string*** ⁝ { value g }
+   * 
+   * @argument s ***typeof: string*** ⁝ { variable position }
    * 
    */
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=

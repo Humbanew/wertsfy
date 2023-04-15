@@ -1779,8 +1779,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do cálculo da energia cinética. [_Returns the result of the calculation of kinetic energy._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { speed }
    * 
    */
   export const expClcEnergiaCinetica: WComponent["src"]["function"]=
@@ -1791,9 +1796,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_elas"];
@@ -1802,9 +1804,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
@@ -1815,9 +1814,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcPotencialMecanico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_mecanico"];
@@ -1826,9 +1822,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcPotencialElastico: WComponent["src"]["function"]=
@@ -1839,9 +1832,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_sem_atrito"];
@@ -1850,9 +1840,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
@@ -1863,9 +1850,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_x"];
@@ -1874,9 +1858,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
@@ -1887,9 +1868,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lancamento_horizontal"];
@@ -1898,9 +1876,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
@@ -1911,9 +1886,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_lanc_vert"];
@@ -1922,9 +1894,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
@@ -1935,9 +1904,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcCalorSensivel: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_sensivel"];
@@ -1946,9 +1912,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcCalorLatente: WComponent["src"]["function"]=
@@ -1959,9 +1922,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcLeisDeNewton: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.leis_de_newton"];
@@ -1970,9 +1930,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcTrabalho: WComponent["src"]["function"]=
@@ -1983,9 +1940,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.consumo_de_energia"];
@@ -1994,9 +1948,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcForcaGravitacional: WComponent["src"]["function"]=
@@ -2007,9 +1958,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_centrip_mcu"];
@@ -2018,9 +1966,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
@@ -2031,9 +1976,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_linear_movi_circ_unif"];
@@ -2042,9 +1984,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
@@ -2055,9 +1994,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc_acel_ang_movi_circ_var"];
@@ -2066,9 +2002,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcfrequencia: WComponent["src"]["function"]=
@@ -2079,9 +2012,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcPeriodo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.periodo"];
@@ -2090,9 +2020,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcTemperatura: WComponent["src"]["function"]=
@@ -2103,9 +2030,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcDilatacaoLinear: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_linear"];
@@ -2114,9 +2038,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
@@ -2127,9 +2048,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_volumetrica"];
@@ -2138,9 +2056,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
@@ -2151,9 +2066,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.empuxo_hidroes_hidrodinam"];
@@ -2162,9 +2074,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
@@ -2175,9 +2084,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.atrito"];
@@ -2186,9 +2092,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
@@ -2199,9 +2102,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcLeideOhm: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_ohm"];
@@ -2210,9 +2110,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcEfeitoJoule: WComponent["src"]["function"]=
@@ -2223,9 +2120,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
@@ -2234,9 +2128,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=
@@ -2247,9 +2138,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
@@ -2258,9 +2146,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
@@ -2271,9 +2156,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcDensidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.densidade"];
@@ -2282,9 +2164,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcTitulacao: WComponent["src"]["function"]=
@@ -2295,9 +2174,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcConcentracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.concentracao"];
@@ -2306,9 +2182,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcRendimento: WComponent["src"]["function"]=
@@ -2319,9 +2192,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcLeiDosGases: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
@@ -2330,9 +2200,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
@@ -2343,9 +2210,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
@@ -2354,9 +2218,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
@@ -2367,9 +2228,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
@@ -2378,9 +2236,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcSistemasLineares: WComponent["src"]["function"]=
@@ -2391,9 +2246,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcNumerosComplexos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
@@ -2402,9 +2254,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcJurosSimples: WComponent["src"]["function"]=
@@ -2415,9 +2264,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcJurosCompostos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
@@ -2426,9 +2272,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
@@ -2439,9 +2282,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
@@ -2450,9 +2290,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
@@ -2463,9 +2300,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
@@ -2474,9 +2308,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcDiversos: WComponent["src"]["function"]=
@@ -2487,9 +2318,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcNumericos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numericos"];
@@ -2498,9 +2326,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcDiagramaVenn: WComponent["src"]["function"]=
@@ -2511,9 +2336,6 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
-   * 
-   * 
    */
   export const expClcCartesianos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.cartesianos"];
@@ -2522,9 +2344,6 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
-   * 
-   * @comentaryDescription
-   * 
    * 
    */
   export const expClcGeometricos: WComponent["src"]["function"]=

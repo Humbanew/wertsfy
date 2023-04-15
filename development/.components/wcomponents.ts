@@ -2719,10 +2719,20 @@ export namespace LibraryCalculator {
   export const expClcSistemasLineares: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistemas_lineares"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo de números complexos. [_Returns the result of the calculation of complex numbers._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TComuns*** ⁝ { operation selector }
+   * 
+   * @argument y ***typeof: string[]*** ⁝ { expressions list }
+   * 
+   * @argument z ***typeof: number*** ⁝ { potency } *optional attibute* 
    * 
    */
   export const expClcNumerosComplexos: WComponent["src"]["function"]=

@@ -2329,6 +2329,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do princípio fundamental da hidroestática e hidrodinâmica. [_Returns the result of calculating the fundamental principle of hydroestatic and hydrodynamics._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial density }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial height, final height }
+   * 
    */
   export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.principio_fund_hidroest_hidrodinam"];

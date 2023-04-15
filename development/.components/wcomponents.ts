@@ -1414,8 +1414,17 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária do espaço em um movimento circular uniformente variado. [_Returns the result of the operation of the space equation of space in a uniformly varied circular motion._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial angular position }
+   * 
+   * @argument y ***typeof: number*** ⁝ { initial angular speed }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angular acceleration }
+   * 
+   * @argument w ***typeof: number*** ⁝ { time }
    * 
    */
   export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=

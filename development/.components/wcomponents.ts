@@ -1498,8 +1498,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação de Torricelli. [_Returns the result of the operation of the Torricelli equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { acceleration }
+   * 
+   * @argument z ***typeof: object: { number, number }*** ⁝ { start space, final space }
    * 
    */
   export const expEqcTorricelli: WComponent["src"]["function"]=

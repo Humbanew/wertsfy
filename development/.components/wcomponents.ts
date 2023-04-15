@@ -1895,6 +1895,18 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do plano inclinado com atrito. [_Returns the result of the calculation of frictionful inclined plan._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { friction force }
+   * 
+   * @argument y ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument z ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument w ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_com_atrito"];

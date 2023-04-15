@@ -1336,8 +1336,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária da aceleração. [_Returns the result of the operation of the acceleration schedule equation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { acceleration }
+   * 
+   * @argument y ***typeof: number*** ⁝ { time }
+   * 
+   * @argument z ***typeof: number*** ⁝ { speed }
    * 
    */
   export const expEqcHorariaAceleracao: WComponent["src"]["function"]=

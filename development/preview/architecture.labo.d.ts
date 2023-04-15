@@ -4,7 +4,9 @@
 // Wertsfy Whispers => Lydroc + Karzok + Chaosdragon
 declare interface WWhispers { }
 
+// Wertsfy Calculator Part II => Conversores + Expressões Complexas
+declare interface WCalculatorII { }
+
 declare type and = "\&\&";
 declare type or = "\|\|";
-
-declare const WLibCalcPart2: { }
+declare type not = "\!\!";

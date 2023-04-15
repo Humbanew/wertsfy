@@ -1613,8 +1613,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da relação de euler. [_Returns the result of the operation of Euler's relationship._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { vertices }
+   * 
+   * @argument y ***typeof: string*** ⁝ { edges }
+   * 
+   * @argument z ***typeof: string*** ⁝ { faces }
    * 
    */
   export const expClcRelacaoEuler: WComponent["src"]["function"]=

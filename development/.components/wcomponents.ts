@@ -1971,6 +1971,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da altura máxima de um lançamento vertical. [_Returns the result of the maximum height calculation of a vertical release._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alt_max_lanc_vert"];

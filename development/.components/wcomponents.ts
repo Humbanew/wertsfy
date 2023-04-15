@@ -2458,6 +2458,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da lei de Lenz. [_Returns the result of the calculation of the Lenz Law._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { magnetic field intensity }
+   * 
+   * @argument y ***typeof: number*** ⁝ { superficie area }
+   * 
+   * @argument z ***typeof: number*** ⁝ { angle }
+   * 
    */
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];

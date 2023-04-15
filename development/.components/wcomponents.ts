@@ -2489,10 +2489,18 @@ export namespace LibraryCalculator {
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_eletromotriz"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo da contra força eletromotriz. [_Returns the result of the reverse electromotive force calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { total potential generator }
+   * 
+   * @argument y ***typeof: number*** ⁝ { current intensity }
    * 
    */
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=

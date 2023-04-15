@@ -1581,8 +1581,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da probabilidade de dois valores. [_Returns the result of the probability of two values._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { total value }
    * 
    */
   export const expClcProbabilidade: WComponent["src"]["function"]=

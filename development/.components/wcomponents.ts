@@ -2506,10 +2506,16 @@ export namespace LibraryCalculator {
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo do efeito fotoelétrico. [_Returns the result of the calculation of the photoelectric effect._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { light frequency }
    * 
    */
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=

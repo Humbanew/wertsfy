@@ -2405,6 +2405,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo da lei de coulomb. [_Returns the result of the calculation of the Coulomb Law._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { charge a, change b }
+   * 
+   * @argument y: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
+   * 
    */
   export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_coulomb"];

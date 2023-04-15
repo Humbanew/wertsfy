@@ -1861,6 +1861,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do potencial elástico. [_Returns the result of the calculation of elastic potential._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { elastic constant }
+   * 
+   * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
+   * 
    */
   export const expClcPotencialElastico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_elastico"];

@@ -1564,8 +1564,13 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do arranjo de dois valores. [_Returns the result of the arrangement of two values._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { total }
+   * 
+   * @argument y ***typeof: number*** ⁝ { divisor }
    * 
    */
   export const expClcArranjo: WComponent["src"]["function"]=

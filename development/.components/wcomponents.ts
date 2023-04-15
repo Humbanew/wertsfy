@@ -2291,6 +2291,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado da dilatação superficial. [_Returns the result of superficial dilation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial area }
+   * 
+   * @argument y ***typeof: number*** ⁝ { superficial dilation coeficient }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
+   * 
    */
   export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_superficial"];

@@ -2047,6 +2047,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do calor latente. [_Returns the result of the latent heat calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { quantifier of heat }
+   * 
+   * @argument y ***typeof: number*** ⁝ { massa }
+   * 
    */
   export const expClcCalorLatente: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_latente"];

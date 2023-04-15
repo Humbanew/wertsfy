@@ -1374,7 +1374,7 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o resultado da operação da equação horária da velocidade. [_Returns the result of the operation of the speed schedule equation._]
+   * Retorna o resultado da operação da equação horária do espaco e tempo. [_Returns the result of the operation of the space and time schedule equation._]
    * 
    * ______________________________________
    * 
@@ -1395,8 +1395,15 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária do tempo em um movimento circular uniformente variado. [_Returns the result of the operation of the time schedule of time in a uniformly varied circular motion._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial angular speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { angular acceleration }
+   * 
+   * @argument z ***typeof: number*** ⁝ { time }
    * 
    */
   export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=

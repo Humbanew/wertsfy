@@ -1647,8 +1647,11 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado do cálculo de porcentagem. [_Returns the result of the percentage calculation._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.porcentagem***
    * 
    */
   export const expClcPorcentagem: WComponent["src"]["function"]=

@@ -1832,6 +1832,26 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do potencial mecânico. [_Returns the result of the calculation of mecanic potential._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { elastical constant }
+   * 
+   * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
+   * 
+   * @argument w ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument k ***typeof: number*** ⁝ { gravity }
+   * 
+   * @argument t ***typeof: number*** ⁝ { height }
+   * 
+   * @argument r ***typeof: boolean*** ⁝ { elastic potential energy exists }
+   * 
+   * @argument s ***typeof: boolean*** ⁝ { gravitational potential energy exists }
+   * 
    */
   export const expClcPotencialMecanico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_mecanico"];

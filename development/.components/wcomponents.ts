@@ -2189,6 +2189,16 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo de torricelli de um movimento circular uniformente variado. [_Returns the result of the Torricelli calculation of a uniformly varied circular movement._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { initial angle speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { angle acceleration }
+   * 
+   * @argument z: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial angular displacement, final angular displacement }
+   * 
    */
   export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.torricelli-movi-circ-unif-var"];

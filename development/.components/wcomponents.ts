@@ -1477,8 +1477,17 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * @comentaryDescription
+   * Retorna o resultado da operação da equação horária da aceleração do movimento harmônico simples. [_Returns the result of the operation of the time of the simple harmonic movement acceleration._]
    * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { angular speed }
+   * 
+   * @argument y ***typeof: number*** ⁝ { amplitude }
+   * 
+   * @argument z ***typeof: number*** ⁝ { time }
+   * 
+   * @argument w ***typeof: number*** ⁝ { start level }
    * 
    */
   export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=

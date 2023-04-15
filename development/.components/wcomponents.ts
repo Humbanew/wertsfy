@@ -2064,6 +2064,14 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo das leis de newton. [_Returns the result of the calculation of Newton Laws._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { massa }
+   * 
+   * @argument y ***typeof: number*** ⁝ { acceleration }
+   * 
    */
   export const expClcLeisDeNewton: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.leis_de_newton"];

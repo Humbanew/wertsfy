@@ -2240,6 +2240,12 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o resultado do cálculo do período. [_Returns the result of the period._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { frequence }
+   * 
    */
   export const expClcPeriodo: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.periodo"];

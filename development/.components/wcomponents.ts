@@ -2757,10 +2757,22 @@ export namespace LibraryCalculator {
   export const expClcJurosSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_simples"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o resultado do cálculo de juros compostos. [_Returns the result of the compounds interest calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: number*** ⁝ { value }
+   * 
+   * @argument y ***typeof: number*** ⁝ { taxa }
+   * 
+   * @argument z ***typeof: number*** ⁝ { time } 
+   * 
+   * @argument k ***typeof: number*** ⁝ { times } 
    * 
    */
   export const expClcJurosCompostos: WComponent["src"]["function"]=

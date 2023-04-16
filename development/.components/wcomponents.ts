@@ -2848,10 +2848,16 @@ export namespace LibraryCalculator {
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo diverso selecionado. [_Returns the selected diverse calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesDiversos*** ⁝ { operation constructor object }
    * 
    */
   export const expClcDiversos: WComponent["src"]["function"]=

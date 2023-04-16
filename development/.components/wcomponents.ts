@@ -2472,7 +2472,7 @@ export namespace LibraryCalculator {
   export const expClcLeiDeLenz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2489,7 +2489,7 @@ export namespace LibraryCalculator {
   export const expClcForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_eletromotriz"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2506,7 +2506,7 @@ export namespace LibraryCalculator {
   export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2521,7 +2521,7 @@ export namespace LibraryCalculator {
   export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_fotoeletrico"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2538,7 +2538,7 @@ export namespace LibraryCalculator {
   export const expClcDensidade: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.densidade"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2561,7 +2561,7 @@ export namespace LibraryCalculator {
   export const expClcTitulacao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.titulacao"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2578,7 +2578,7 @@ export namespace LibraryCalculator {
   export const expClcConcentracao: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.concentracao"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2595,7 +2595,7 @@ export namespace LibraryCalculator {
   export const expClcRendimento: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.rendimento"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2620,7 +2620,7 @@ export namespace LibraryCalculator {
   export const expClcLeiDosGases: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2641,7 +2641,7 @@ export namespace LibraryCalculator {
   export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_simples"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2670,7 +2670,7 @@ export namespace LibraryCalculator {
   export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2687,7 +2687,7 @@ export namespace LibraryCalculator {
   export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_equacoes"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2704,7 +2704,7 @@ export namespace LibraryCalculator {
   export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2719,7 +2719,7 @@ export namespace LibraryCalculator {
   export const expClcSistemasLineares: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistemas_lineares"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2738,7 +2738,7 @@ export namespace LibraryCalculator {
   export const expClcNumerosComplexos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2757,7 +2757,7 @@ export namespace LibraryCalculator {
   export const expClcJurosSimples: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_simples"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2778,7 +2778,7 @@ export namespace LibraryCalculator {
   export const expClcJurosCompostos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2795,7 +2795,7 @@ export namespace LibraryCalculator {
   export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_quadrantes"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2814,7 +2814,7 @@ export namespace LibraryCalculator {
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2831,7 +2831,7 @@ export namespace LibraryCalculator {
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2848,7 +2848,7 @@ export namespace LibraryCalculator {
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2867,6 +2867,12 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo numérico selecionado. [_Returns the selected numeric calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesNumericos*** ⁝ { operation constructor object }
    * 
    */
   export const expClcNumericos: WComponent["src"]["function"]=

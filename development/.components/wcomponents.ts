@@ -2878,7 +2878,7 @@ export namespace LibraryCalculator {
   export const expClcNumericos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numericos"];
 
-   /**
+  /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
@@ -2897,6 +2897,12 @@ export namespace LibraryCalculator {
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo cartesiano selecionado. [_Returns the selected cartesian calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesCartesianos*** ⁝ { operation constructor object }
    * 
    */
   export const expClcCartesianos: WComponent["src"]["function"]=

@@ -2913,6 +2913,12 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
+   * Retorna o cálculo geométrico selecionado. [_Returns the selected geometric calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesGeometricos*** ⁝ { operation constructor object }
+   * 
    */
   export const expClcGeometricos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.geometricos"];

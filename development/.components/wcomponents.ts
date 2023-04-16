@@ -2819,7 +2819,7 @@ export namespace LibraryCalculator {
    * 
    * **``Método [Method]``**
    * 
-   * Retorna o cálculo do quadrado de punnet. [_Returns the Punnet Square Calculation._]
+   * Retorna o cálculo do quadrado de punnet. [_Returns the punnet square calculation._]
    * 
    * ______________________________________
    * 
@@ -2831,10 +2831,18 @@ export namespace LibraryCalculator {
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo do quadrado de punnet extendido. [_Returns the extended punnet square calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { genotype a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { genotype b }
    * 
    */
   export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=

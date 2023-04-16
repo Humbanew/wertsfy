@@ -13,7 +13,7 @@ const formulasDoCalculoDePorcentagem = (tipo: WertsfyPrototipos.Logicos["Core"][
       resultado = variavel[1].value / 10 ** 4; break;
     case "#10E5":
       resultado = variavel[1].value / 10 ** 5; break;
-    case "#AnyNumber":  
+    case "#anyNumber":  
       resultado = variavel[1].value / variavel[1].valueTotal; break;
   }
   return resultado;

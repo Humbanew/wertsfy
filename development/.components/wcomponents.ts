@@ -2814,10 +2814,18 @@ export namespace LibraryCalculator {
   export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo do quadrado de punnet. [_Returns the Punnet Square Calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: string*** ⁝ { genotype a }
+   * 
+   * @argument y ***typeof: string*** ⁝ { genotype b }
    * 
    */
   export const expClcQuadradoDePunnet: WComponent["src"]["function"]=

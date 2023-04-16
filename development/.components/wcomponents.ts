@@ -12,6 +12,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de avogadro. [_Returns the value of avogadro._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Avogadro: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.avogadro"]; 
@@ -22,6 +27,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de euler. [_Returns the value of euler._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Euler: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.euler"]; 
@@ -32,6 +42,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor do logaritmo de 2. [_Returns the value of the logarithm of 2._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Logarithm2: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm2"]; 
@@ -42,6 +57,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor do logaritmo de 2 na base euler. [_Returns the logarithm value of 2 at the Euler base._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Logarithm2e: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm2e"];
@@ -52,6 +72,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor do logaritmo de 10. [_Returns the value of the logarithm of 10._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Logarithm10: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm10"];
@@ -62,6 +87,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor do logaritmo de 10 na base euler. [_Returns the logarithm value of 10 at the Euler base._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Logarithm10e: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm10e"];
@@ -72,6 +102,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor máximo. [_Returns the max value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Maxvalue: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.maxvalue"];
@@ -82,6 +117,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor mínimo. [_Returns the min value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Minvalue: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.minvalue"];
@@ -92,6 +132,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de newton. [_Returns the value of newton._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Newton: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.newton"];
@@ -102,6 +147,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de pi. [_Returns the value of pi._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Pi: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.pi"];
@@ -112,6 +162,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de plank. [_Returns the value of plank._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Plank: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.plank"]; 
@@ -122,6 +177,11 @@ export namespace LibraryMathematic {
    * **``Constante [Constant]``**
    *  
    * Retorna o valor de tesla. [_Returns the value of tesla._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   * 
    */
   export const Tesla: WComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.tesla"];
@@ -132,6 +192,11 @@ export namespace LibraryMathematic {
    * **``Coleção de Constante [Constant Collection]``**
    *  
    * Retorna a lista de constantes de raízes quadradas. [_Returns the list of square roots constants._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Object``
+   * 
    */
   export const SquareRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.sqrt"];
@@ -142,6 +207,11 @@ export namespace LibraryMathematic {
    * **``Coleção de Constante [Constant Collection]``**
    *  
    * Retorna a lista de constantes de raízes cúbicas. [_Returns the list of cubic roots constants._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Object``
+   * 
    */
   export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.cbrt"];
@@ -152,6 +222,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor absoluto de um número. [_Returns the absolute value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -170,6 +244,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -185,6 +263,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -197,6 +279,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do arco cosseno de um número. [_Returns the cosine arc value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -215,6 +301,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -227,6 +317,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do arco tangente de um número. [_Returns the tangent arc value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -245,6 +339,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -258,6 +356,10 @@ export namespace LibraryMathematic {
    * 
    * Retorna o valor do arco secante de um número. [_Returns the secant arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number***
@@ -275,6 +377,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -288,6 +394,10 @@ export namespace LibraryMathematic {
    * 
    * Retorna o valor do arco cosecante de um número. [_Returns the cosecant arc value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number***
@@ -305,6 +415,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -317,6 +431,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do arco cotangente de um número. [_Returns the cotangent arc value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -335,6 +453,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -347,6 +469,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da raiz quadrada de um número. [_Returns the square root value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -365,6 +491,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -380,6 +510,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -392,6 +526,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da raiz à quinta potência de um número. [_Returns the value of the root to the fifth power of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -410,6 +548,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -422,6 +564,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da raiz à sétima potência de um número. [_Returns the value of the root to the seventh power of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -440,6 +586,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -452,6 +602,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da raiz à nona potência de um número. [_Returns the value of the root to the ninth power of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -470,6 +624,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -482,6 +640,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do seno de um número. [_Returns the sine value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -500,6 +662,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -512,6 +678,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do cosseno de um número. [_Returns the cossine value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -530,6 +700,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -542,6 +716,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da tangente de um número. [_Returns the tangent value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -560,6 +738,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -572,6 +754,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da secante de um número. [_Returns the secant value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -590,6 +776,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -605,6 +795,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -617,6 +811,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor da cosecante hiperbólica de um número. [_Returns the hiperbolic cosecant value of a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -635,6 +833,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -648,6 +850,10 @@ export namespace LibraryMathematic {
    * 
    * Retorna o valor da cotangente hiperbólica de um número. [_Returns the hiperbolic cotangent value of a number._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number***
@@ -665,6 +871,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ {base}
    * 
    * @argument y ***typeof: number*** ⁝ {exponent} 
@@ -679,6 +889,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna a potência de um número elevado por um valor, este elevado por uma sequência de outras potências. [_Returns the power of a high number by a value, this raised by a sequence of other powers._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -701,6 +915,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number[]***
    * 
    */
@@ -716,6 +934,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number[]***
    * 
    */
@@ -728,6 +950,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna um valor numérico aleátorio. [_Returns an rawn numerical value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    */
   export const random: WComponent["src"]["function"]=
@@ -742,6 +968,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -754,6 +984,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o logarítmo de base 10 menos 1 de um valor. [_Returns the base logarithm 10 minus 1 of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -772,6 +1006,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -784,6 +1022,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o logarítmo de base 2 de um valor. [_Returns the base logarithm 2 of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -802,6 +1044,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -817,6 +1063,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -829,6 +1079,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o logarítmo de base qualquer de um valor. [_Returns the base logarithm any of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -849,6 +1103,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { value }
    * 
    * @argument y ***typeof: number*** ⁝ { base }
@@ -863,6 +1121,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o logarítmo de base qualquer mais 1 de um valor. [_Returns the base logarithm any plus 1 of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -883,6 +1145,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -895,6 +1161,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o logarítmo natural menos 1 de um valor. [_Returns the natural logarithm minus 1 of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -913,6 +1183,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -926,6 +1200,10 @@ export namespace LibraryMathematic {
    * 
    * Retorna o exponencial de um valor. [_Returns the exponential of a value._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number*** ⁝ { base }
@@ -942,6 +1220,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o exponencial menos 1 de um valor. [_Returns the exponential minus 1 of a value._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -962,6 +1244,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { base }
    * 
    * @argument y ***typeof: number*** ⁝ { value }
@@ -979,6 +1265,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -991,6 +1281,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor arredondado de um número de ponto flutuante e/ou decimal. [_Returns the rounded value of a floating and/or decimal point number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1009,6 +1303,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -1021,6 +1319,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor arredondado pra baixo de um número. [_Returns the rounded value below a number._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1039,6 +1341,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x, y ***typeof: number***
    * 
    */
@@ -1051,6 +1357,10 @@ export namespace LibraryMathematic {
    * **``Método [Method]``**
    * 
    * Retorna o valor do sinal de número. [_Returns the value of the number signal._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1069,6 +1379,10 @@ export namespace LibraryMathematic {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -1085,6 +1399,12 @@ export namespace LibraryCalculator {
    * **``Coleção de Constante [Constant Collection]``**
    *  
    * Retorna a lista de constantes de atalho da calculadora. [_Returns the list of calculator shortcut constants._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Object``
+   * 
+   * 
    */
   export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
     WertsfyComponents.source.calc["constant.shortcuts"];
@@ -1095,6 +1415,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação selecionada. [_Returns the result of the selected operation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1115,6 +1439,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number[]``
+   * 
+   * ______________________________________
+   * 
    * @argument operation ***typeof: TAvancados***
    * 
    * @argument numbers ***typeof: number[]***
@@ -1129,6 +1457,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação do teorema de Boltzmann. [_Returns the result of the operation of Boltzmann's theorem._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1149,6 +1481,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { electric current }
    * 
    * @argument y ***typeof: number*** ⁝ { distance }
@@ -1166,6 +1502,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Void | Number[] | String[]``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
@@ -1178,6 +1518,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação do teorema de Pascal. [_Returns the result of the operation of Pascal's theorem._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1204,6 +1548,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: TExpressoes.triangulosPitagoricos*** ⁝ { operation constructor object }
    * 
    */
@@ -1217,6 +1565,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado da operação do teorema de Plank. [_Returns the result of the operation of Plank's theorem._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: string*** ⁝ { energy }
@@ -1233,6 +1585,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação do teorema de Stevin. [_Returns the result of the operation of Stevin's theorem._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1255,6 +1611,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -1267,6 +1627,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação do teorema de Tales de Mileto. [_Returns the result of the operation of Tales de Mileto's theorem._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1283,6 +1647,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado da operação da equação horária do tempo. [_Returns the result of the operation of the time schedule equation._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { start time, final time }
@@ -1304,6 +1672,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { start space, final space }
    * 
    * @argument y ***typeof: number*** ⁝ { acceleration }
@@ -1318,6 +1690,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação da equação horária da velocidade. [_Returns the result of the operation of the speed schedule equation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1340,6 +1716,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { acceleration }
    * 
    * @argument y ***typeof: number*** ⁝ { time }
@@ -1359,6 +1739,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { force }
    * 
    * @argument y ***typeof: number*** ⁝ { time }
@@ -1375,6 +1759,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação da equação horária do espaco e tempo. [_Returns the result of the operation of the space and time schedule equation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1399,6 +1787,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { initial angular speed }
    * 
    * @argument y ***typeof: number*** ⁝ { angular acceleration }
@@ -1416,6 +1808,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado da operação da equação horária do espaço em um movimento circular uniformente variado. [_Returns the result of the operation of the space equation of space in a uniformly varied circular motion._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number*** ⁝ { initial angular position }
@@ -1436,6 +1832,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação da equação horária da posição do movimento harmônico simples. [_Returns the result of the operation of the time of the simple harmonic movement position._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1460,6 +1860,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { angular speed }
    * 
    * @argument y ***typeof: number*** ⁝ { amplitude }
@@ -1478,6 +1882,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação da equação horária da aceleração do movimento harmônico simples. [_Returns the result of the operation of the time of the simple harmonic movement acceleration._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1502,6 +1910,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { initial speed }
    * 
    * @argument y ***typeof: number*** ⁝ { acceleration }
@@ -1521,6 +1933,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x, y, xi, yi, xii, yii, xiii, yiii ***typeof: number***
    * 
    */
@@ -1536,6 +1952,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -1548,6 +1968,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da combinação de dois valores. [_Returns the result of the combination of two values._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1568,6 +1992,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { total }
    * 
    * @argument y ***typeof: number*** ⁝ { divisor }
@@ -1582,6 +2010,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da probabilidade de dois valores. [_Returns the result of the probability of two values._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1602,6 +2034,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``String``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
@@ -1614,6 +2050,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da operação da relação de euler. [_Returns the result of the operation of Euler's relationship._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1636,6 +2076,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``String``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number***
    * 
    */
@@ -1648,6 +2092,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo de porcentagem. [_Returns the result of the percentage calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1666,6 +2114,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: TExpressoes.determinantes*** ⁝ { operation constructor object }
    * 
    */
@@ -1678,6 +2130,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo entre polinômios. [_Returns the result of the calculation between polynomials._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``String``
    * 
    * ______________________________________
    * 
@@ -1698,6 +2154,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number[][]``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: TExpressoes.operacoesComuns*** ⁝ { operation constructor object }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number[][], number[][] }*** ⁝ { matrix sentence 1, matrix sentence 2 }
@@ -1712,6 +2172,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da velocidade. [_Returns the result of the speed calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1732,6 +2196,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { speed }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
@@ -1749,6 +2217,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { speed }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial space, final space }
@@ -1763,6 +2235,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da aceleração. [_Returns the result of the acceleration calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1783,6 +2259,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { speed }
@@ -1797,6 +2277,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da energia potencial elástica. [_Returns the result of the calculation of elastic potential energy._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1817,6 +2301,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { gravity }
@@ -1833,6 +2321,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do potencial mecânico. [_Returns the result of the calculation of mecanic potential._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1865,6 +2357,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { elastic constant }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
@@ -1882,6 +2378,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { gravity }
@@ -1896,6 +2396,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do plano inclinado com atrito. [_Returns the result of the calculation of frictionful inclined plan._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1920,6 +2424,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { gravity }
@@ -1937,6 +2445,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado do cálculo da aceleração do plano inclinado no eixo y. [_Returns the result of calculating the tilted plane acceleration on the y axis._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number*** ⁝ { massa }
@@ -1958,6 +2470,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { gravity }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
@@ -1972,6 +2488,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da altura máxima de um lançamento vertical. [_Returns the result of the maximum height calculation of a vertical release._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -1994,6 +2514,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { speed }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
@@ -2010,6 +2534,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do alcance máximo de um lançamento vertical. [_Returns the result of the maximum scope calculation of a vertical release._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2032,6 +2560,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { specific heat }
@@ -2048,6 +2580,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do calor latente. [_Returns the result of the latent heat calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2068,6 +2604,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { massa }
    * 
    * @argument y ***typeof: number*** ⁝ { acceleration }
@@ -2083,6 +2623,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado do cálculo do trabalho. [_Returns the result of the work calculation._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number*** ⁝ { massa }
@@ -2104,6 +2648,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x: {x1, x2} ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    * @argument y ***typeof: number*** ⁝ { electric current }
@@ -2120,6 +2668,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da força gravitacional. [_Returns the result of the calculation of gravitational force._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2142,6 +2694,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { speed }
    * 
    * @argument y ***typeof: number*** ⁝ { ray }
@@ -2157,6 +2713,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado do cálculo da velocidade angular de um movimento circular uniforme. [_Returns the result of the angle speed calculation of a uniform circular motion._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial angle, final angle }
@@ -2176,6 +2736,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { frequence }
    * 
    * @argument y ***typeof: number*** ⁝ { ray }
@@ -2190,6 +2754,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo de torricelli de um movimento circular uniformente variado. [_Returns the result of the Torricelli calculation of a uniformly varied circular movement._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2212,6 +2780,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x: { x1, x2 } ***typeof: object: { number, number }*** ⁝ { initial angle speed, final angle speed }
    * 
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
@@ -2229,6 +2801,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { period }
    * 
    */
@@ -2241,6 +2817,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do período. [_Returns the result of the period._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2276,6 +2856,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { initial length }
    * 
    * @argument y ***typeof: number*** ⁝ { linear dilation coeficient }
@@ -2292,6 +2876,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado da dilatação superficial. [_Returns the result of superficial dilation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2314,6 +2902,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { initial area }
    * 
    * @argument y ***typeof: number*** ⁝ { volumetric dilation coeficient }
@@ -2330,6 +2922,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do princípio fundamental da hidroestática e hidrodinâmica. [_Returns the result of calculating the fundamental principle of hydroestatic and hydrodynamics._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2352,6 +2948,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { density }
    * 
    * @argument y ***typeof: number*** ⁝ { gravity }
@@ -2368,6 +2968,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do peso aparente da hidroestática e hidrodinâmica. [_Returns the result of calculating the apparent weight of hydroestatic and hydrodynamics._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2392,6 +2996,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { friction coeficient }
    * 
    * @argument y ***typeof: number*** ⁝ { massa }
@@ -2406,6 +3014,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da lei de Coulomb. [_Returns the result of the calculation of the Coulomb Law._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2426,6 +3038,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { resistence }
    * 
    * @argument y ***typeof: number*** ⁝ { current }
@@ -2440,6 +3056,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo do Efeito Joule. [_Returns the result of the joule effect calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2462,6 +3082,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { magnetic field intensity }
    * 
    * @argument y ***typeof: number*** ⁝ { superficie area }
@@ -2478,6 +3102,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da força eletromotriz. [_Returns the result of the electromotive force calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2498,6 +3126,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { total potential generator }
    * 
    * @argument y ***typeof: number*** ⁝ { current intensity }
@@ -2515,6 +3147,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { light frequency }
    * 
    */
@@ -2527,6 +3163,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da densidade. [_Returns the result of the density calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2544,6 +3184,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da titulação. [_Returns the result of the calculation of the title._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2570,6 +3214,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { solute massa }
    * 
    * @argument y ***typeof: number*** ⁝ { volume }
@@ -2587,6 +3235,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { part value }
    * 
    * @argument y ***typeof: number*** ⁝ { total value }
@@ -2601,6 +3253,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo da lei dos gases. [_Returns the result of the calculation of the Gases Law._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2629,6 +3285,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { value a }
    * 
    * @argument y ***typeof: number*** ⁝ { value b }
@@ -2648,6 +3308,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado do cálculo da regra de três composta. [_Returns the result of the composed rule calculation of three._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: number*** ⁝ { value a }
@@ -2679,6 +3343,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Void | String``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: string*** ⁝ { expression a }
    * 
    * @argument y ***typeof: string*** ⁝ { expression b }
@@ -2694,6 +3362,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o resultado do cálculo do sistema de inequações. [_Returns the result of the inequation system calculation._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Void | String``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: string*** ⁝ { expression a }
@@ -2713,6 +3385,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Void | Any[]``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: string[]*** ⁝ { expressions list }
    * 
    */
@@ -2725,6 +3401,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo de números complexos. [_Returns the result of the calculation of complex numbers._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Void | String``
    * 
    * ______________________________________
    * 
@@ -2747,6 +3427,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { value }
    * 
    * @argument y ***typeof: number*** ⁝ { taxa }
@@ -2763,6 +3447,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o resultado do cálculo de juros compostos. [_Returns the result of the compounds interest calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2787,6 +3475,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``String``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: number*** ⁝ { in absc }
    * 
    * @argument y ***typeof: number*** ⁝ { ordered }
@@ -2801,6 +3493,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o octante correspondente às coordenadas de entrada. [_Returns the octant corresponding to the input coordinates._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``String``
    * 
    * ______________________________________
    * 
@@ -2820,6 +3516,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o cálculo do quadrado de punnet. [_Returns the punnet square calculation._]
+    * 
+   * ______________________________________
+   * 
+   * @returns ``String[]``
    * 
    * ______________________________________
    * 
@@ -2840,6 +3540,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``String[]``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: string*** ⁝ { genotype a }
    * 
    * @argument y ***typeof: string*** ⁝ { genotype b }
@@ -2854,6 +3558,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o cálculo diverso selecionado. [_Returns the selected diverse calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
    * 
    * ______________________________________
    * 
@@ -2872,6 +3580,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Number | Number[]``
+   *  
+   * ______________________________________
+   * 
    * @argument x ***typeof: TExpressoes.operacoesNumericos*** ⁝ { operation constructor object }
    * 
    */
@@ -2884,6 +3596,10 @@ export namespace LibraryCalculator {
    * **``Método [Method]``**
    * 
    * Retorna o cálculo do Diagrama de Venn selecionado. [_Returns the selected of Diagram of Venn calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @returns ``Object``
    * 
    * ______________________________________
    * 
@@ -2902,6 +3618,10 @@ export namespace LibraryCalculator {
    * 
    * ______________________________________
    * 
+   * @returns ``Void | Number | Number[]``
+   * 
+   * ______________________________________
+   * 
    * @argument x ***typeof: TExpressoes.operacoesCartesianos*** ⁝ { operation constructor object }
    * 
    */
@@ -2915,6 +3635,10 @@ export namespace LibraryCalculator {
    * 
    * Retorna o cálculo geométrico selecionado. [_Returns the selected geometric calculation._]
    * 
+   * ______________________________________
+   * 
+   * @returns ``Number``
+   *  
    * ______________________________________
    * 
    * @argument x ***typeof: TExpressoes.operacoesGeometricos*** ⁝ { operation constructor object }

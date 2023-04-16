@@ -2878,10 +2878,16 @@ export namespace LibraryCalculator {
   export const expClcNumericos: WComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numericos"];
 
-  /**
+   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
    * 
    * **``Método [Method]``**
+   * 
+   * Retorna o cálculo do Diagrama de Venn selecionado. [_Returns the selected of Diagram of Venn calculation._]
+   * 
+   * ______________________________________
+   * 
+   * @argument x ***typeof: TExpressoes.operacoesDiagramaVenn*** ⁝ { operation constructor object }
    * 
    */
   export const expClcDiagramaVenn: WComponent["src"]["function"]=

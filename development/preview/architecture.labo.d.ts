@@ -2,7 +2,7 @@
 // aqui podem ser testados diversos algoritmos
 
 // Wertsfy Whispers => Lydroc + Karzok + Chaosdragon
-declare interface WWhispers { }
+declare interface WWhispers { classlistLibrary: null; }
 
 // Wertsfy Characters => Conjunto de Caracteres Especiais ASCII e Unicode
 declare interface WCharacters { }

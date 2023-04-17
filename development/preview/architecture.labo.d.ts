@@ -2,7 +2,26 @@
 // aqui podem ser testados diversos algoritmos
 
 // Wertsfy Whispers => Lydroc + Karzok + Chaosdragon + SpectralsTerminal
-declare interface WWhispers { cssClasslistLibrary: null; }
+declare interface WWhispers { 
+  
+  lydroc: 
+  { 
+    
+    styles: 
+    { 
+      
+      cssDeclarations: 
+      [
+
+        new () => CSSStyleRule,
+
+      ]; 
+    
+    } 
+  
+  } 
+
+}
 
 // Wertsfy Characters => Conjunto de Caracteres Especiais ASCII e Unicode
 declare interface WCharacters { }

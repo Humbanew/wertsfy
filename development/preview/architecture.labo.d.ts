@@ -11,4 +11,4 @@ declare interface WCharacters { }
 declare interface WCalculatorII { }
 
 // Wertsfy Mix React/Vue/Angular
-declare interface WMixRVA { }
+declare interface WMixRVAE { }

@@ -44,6 +44,12 @@ char* logic_and_not = "\&\!";
 char* logic_and_not_a = "\&\!a";
 char* logic_and_not_b = "\&\!b";
 
+class NodeJS { };
+
+class WAddons { };
+
+class WMods { };
+
 int main() {
 
   Isodecimal template_isodecimal;

@@ -1,7 +1,7 @@
 // possíveis recursos de aprimoramento de arquitetura
 // aqui podem ser testados diversos algoritmos
 
-// Wertsfy Whispers => Lydroc + Karzok + Chaosdragon
+// Wertsfy Whispers => Lydroc + Karzok + Chaosdragon + SpectralsTerminal
 declare interface WWhispers { cssClasslistLibrary: null; }
 
 // Wertsfy Characters => Conjunto de Caracteres Especiais ASCII e Unicode

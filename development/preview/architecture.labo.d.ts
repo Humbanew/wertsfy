@@ -10,5 +10,5 @@ declare interface WCharacters { }
 // Wertsfy Calculator Part II => Conversores + Expressões Complexas
 declare interface WCalculatorII { }
 
-// Wertsfy Mix React/Vue/Angular
+// Wertsfy Mix React/Vue/Angular/Electron
 declare interface WMixRVAE { }

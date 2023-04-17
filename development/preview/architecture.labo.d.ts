@@ -12,7 +12,3 @@ declare interface WCalculatorII { }
 
 // Wertsfy Mix React/Vue/Angular
 declare interface WMixRVA { }
-
-declare type and = "\&\&";
-declare type or = "\|\|";
-declare type not = "\!\!";

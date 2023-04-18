@@ -12,9 +12,6 @@ declare interface WWhispers {
       
       cssDeclarations: 
       [
-
-        new () => CSSStyleRule,
-
       ]; 
     
     } 

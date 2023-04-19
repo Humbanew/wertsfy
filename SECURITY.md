@@ -7,19 +7,7 @@ currently being supported with security updates.
 
 | Version | Security Supported |
 | ------- | ------------------ |
-| wertsfy 1.0 Alpha   | ❌ |
-| wertsfy 1.0 Beta I  | ❌ |
-| wertsfy 1.0 Beta II | ✔️ |
-| wertsfy 1.0.0 | ✔️ |
-| wertsfy 1.1.0 | ✔️ |
-| wertsfy 1.2.0 | ✔️ |
-| wertsfy 1.2.0-1 | ✔️ |
-| wertsfy 1.2.0-2 | ✔️ |
-| wertsfy 1.2.0-3 | ✔️ |
-| wertsfy 1.2.0-4 | ✔️ |
-| wertsfy 1.2.0-5 | ✔️ |
-| wertsfy 1.3.0 | ✔️ |
-| wertsfy 2.0.0 Beta | ⚠️ |
+| wertsfy 0.1.0 | ✔️ |
 
 ## Reporting a Vulnerability
 

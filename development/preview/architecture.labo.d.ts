@@ -11,14 +11,20 @@ declare interface WWhispers {
     { 
       
       cssDeclarations: 
-      [
-      ]; 
+      {
+        
+        classes: [
+          `.lydroc-column-auto { flex: 0 0 auto; width: auto; }`,
+          `.lydroc-column-1 { flex: 0 0 auto; width: 8.33333333%; }`        
+        ]
+
+      }; 
     
     } 
   
   } 
 
-}
+} export declare var wtfy_whispers: WWhispers;
 
 // Wertsfy Characters => Conjunto de Caracteres Especiais ASCII e Unicode
 declare interface WCharacters { }

@@ -6,7 +6,12 @@ typedef struct node {
   char* id;
   class Constructor {
 
-    public: int constructor() { }
+    public: 
+      int constructor() { }
+
+    protected:
+      void addons() { }
+      void modifications() { }
 
   };
 

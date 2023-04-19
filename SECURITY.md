@@ -8,6 +8,7 @@ currently being supported with security updates.
 | Version | Security Supported |
 | ------- | ------------------ |
 | Wertsfy 0.1.0 | ✅ |
+| Wertsfy 0.2.0 | ✅ |
 
 ## Reporting a Vulnerability
 

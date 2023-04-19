@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct model {
+typedef struct node {
 
   char* id;
   class Constructor {
@@ -10,13 +10,7 @@ typedef struct model {
 
   };
 
-} Model;
-
-class NodeJS { };
-
-class WAddons { };
-
-class WMods { };
+} Node;
 
 int main() {
 

@@ -1,0 +1,7 @@
+Isodecimal = "/[0-9a-f]{10}/im"
+logic_and = "\\&\\&"
+logic_or = "\\|\\|"
+logic_not = "\\!\\!"
+logic_and_not = "\\&\\!"
+logic_and_not_a = "\\&\\!a"
+logic_and_not_b = "\\&\\!b"

@@ -9,7 +9,8 @@
     "strict": false,
     "alwaysStrict": false,
     "isolatedModules": false,
-    "rootDir": "./"
+    "rootDir": "./",
+    "resolveJsonModule": true
 
   }
 

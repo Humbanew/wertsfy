@@ -1,0 +1,17 @@
+{
+  "name": "wcli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "npx tsc ./wertsfy.cli.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "wtsfy": "./wertsfy.cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

@@ -2,7 +2,7 @@ type charsetCollection = undefined;
 
 class WWLydroc {
 
-  public lydrocHTMLConstructor() { }
+  public lydrocHTMLConstructor(Structure: any) { }
 
   public lydrocDoctypePlaceholder(): string { 
   
@@ -26,7 +26,7 @@ class WWLydroc {
       |"_top",
     Rel?: string, 
     Type?: string
-    ): string {
+  ): string {
   
     let attrs = null;
 

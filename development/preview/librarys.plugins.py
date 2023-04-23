@@ -1,6 +1,6 @@
 Isodecimal = "/[0-9a-f]{10}/im"
 
-class logical_gates():
+class lib_logical_gates():
 
   def l_and():
     return "\\&\\&";
@@ -19,3 +19,6 @@ class logical_gates():
   
   def l_and_not_b():
     return "\\&\\!b";
+
+class lib_colors():
+  archmodel = "[]";

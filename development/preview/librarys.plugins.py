@@ -2,20 +2,20 @@ Isodecimal = "/[0-9a-f]{10}/im"
 
 class logical_gates():
 
-  def logical_and():
+  def l_and():
     return "\\&\\&";
 
-  def logical_or():
+  def l_or():
     return "\\|\\|";
 
-  def logical_not():
+  def l_not():
     return "\\!\\!";
 
-  def logical_and_not():
+  def l_and_not():
     return "\\&\\!";
 
-  def logical_and_not_a():
+  def l_and_not_a():
     return "\\&\\!a";
   
-  def logical_and_not_b():
+  def l_and_not_b():
     return "\\&\\!b";

@@ -2,72 +2,11 @@ type charsetCollection = undefined;
 
 class WWLydroc {
 
-  public lydrocHTMLConstructor(Structure: any) { }
+  private lydrocHTMLConstructor(Structure: Function | String) { }
 
-  public lydrocDoctypePlaceholder(): string { 
+  public lydrocDoctypePlaceholder(): string { return "<!DOCTYPE html>"; }
   
-    return "<!DOCTYPE html>"; 
-  
-  }
-  
-  public lydrocAnchorPlaceholder(
-    Content: any, 
-    Class?: string, 
-    Id?: string, 
-    Href?: string, 
-    HrefLang?: string, 
-    Charset?: "UTF-8"
-      |"UTF-16"
-      |"UTF-32", 
-    Name?: string, 
-    Target?: "_self"
-      |"_blank"
-      |"_parent"
-      |"_top",
-    Rel?: string, 
-    Type?: string
-  ): string {
-  
-    let attrs = null;
-
-    if(Class) {
-      if(Class == "" || null) return;
-      attrs += `class="${Class}"`;
-    }
-    if(Id) {
-      if(Id == "" || null) return;
-      attrs += `id="${Id}"`;
-    }
-    if(Href) {
-      if(Href == "" || null) return;
-      attrs += `href="${Href}"`;
-    }
-    if(HrefLang) {
-      if(HrefLang == "" || null) return;
-      attrs += `hreflang="${HrefLang}"`;
-    }
-    if(Charset) {
-      attrs += `charset="${Charset}"`;
-    }
-    if(Name) {
-      if(Name == "" || null) return;
-      attrs += `name="${Name}"`;
-    }
-    if(Target) {
-      attrs += `target="${Target}"`;
-    }
-    if(Rel) {
-      if(Rel == "" || null) return;
-      attrs += `rel="${Rel}"`;
-    }
-    if(Type) {
-      if(Type == "" || null) return;
-      attrs += `type="${Type}"`;
-    }
-
-    return `<a ${attrs}>${Content}<a>`;
-  
-  }
+  public lydrocAnchorPlaceholder(): string { return ""; }
 
   protected lydrocAbbrPlaceholder() { }
   protected lydrocAcronymPlaceholder() { }

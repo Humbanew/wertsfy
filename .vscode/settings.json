@@ -1,3 +1,5 @@
 {
-  "editor.semanticHighlighting.enabled": true
+  "editor.semanticHighlighting.enabled": true,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.cursorStyle": "underline"
 }

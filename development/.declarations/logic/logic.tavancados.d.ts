@@ -1,4 +1,4 @@
-export interface TAvancados {
+export interface ITAvancados {
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**

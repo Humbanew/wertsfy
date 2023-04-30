@@ -1,1 +1,9 @@
-namespace WertsfyWhispers { }
+namespace WertsfyWhispers {
+
+  export let lydroc = {
+
+    HTMLConstructor: { }
+
+  }
+
+}

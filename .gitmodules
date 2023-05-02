@@ -10,3 +10,6 @@
 [submodule ".archs-ai"]
 	path = ./.archs-ai
 	url = git@github.com:Humbanew/wertsfy-narchs-ai.git
+[submodule "wiki"]
+	path = ./wiki/wertsfy.wiki
+	url = https://github.com/Humbanew/wertsfy.wiki.git

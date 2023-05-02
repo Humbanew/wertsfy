@@ -1,15 +1,15 @@
 [submodule ".archs"]
-	path = .archs
-	url = https://github.com/Humbanew/wertsfy-narchs.git
+	path = ./.archs
+	url = git@github.com:Humbanew/wertsfy-narchs.git
 [submodule ".archs-node"]
-	path = .archs-node
-	url = https://github.com/Humbanew/wertsfy-narchs-node.git
+	path = ./.archs-node
+	url = git@github.com:Humbanew/wertsfy-narchs-node.git
 [submodule ".archs-cloud"]
-	path = .archs-cloud
-	url = https://github.com/Humbanew/wertsfy-narchs-cloud.git
+	path = ./.archs-cloud
+	url = git@github.com:Humbanew/wertsfy-narchs-cloud.git
 [submodule ".archs-ai"]
-	path = .archs-ai
-	url = https://github.com/Humbanew/wertsfy-narchs-ai.git
+	path = ./.archs-ai
+	url = git@github.com:Humbanew/wertsfy-narchs-ai.git
 [submodule "wiki"]
-	path = wiki/wertsfy.wiki
+	path = ./wiki/wertsfy.wiki
 	url = https://github.com/Humbanew/wertsfy.wiki.git

@@ -239,6 +239,14 @@ namespace WertsfyWhispers {
         return document.createElement('datalist');
       }
 
+      defineDdTag() {
+        return '<dd></dd>';
+      }
+
+      defineDynamicDdTag() {
+        return document.createElement('dd');
+      }
+
       defineDfnTag() {
         return '<dfn></dfn>';
       }
@@ -285,6 +293,46 @@ namespace WertsfyWhispers {
 
       defineDynamicDivTag() {
         return document.createElement('div');
+      }
+
+      defineDlTag() {
+        return '<dl></dl>';
+      }
+
+      defineDynamicDlTag() {
+        return document.createElement('dl');
+      }
+
+      defineDtTag() {
+        return '<dt></dt>';
+      }
+
+      defineDynamicDtTag() {
+        return document.createElement('dt');
+      }
+
+      defineEmTag() {
+        return '<em></em>';
+      }
+
+      defineDynamicEmTag() {
+        return document.createElement('em');
+      }
+
+      defineEmbedTag() {
+        return '<embed></embed>';
+      }
+
+      defineDynamicEmbedTag() {
+        return document.createElement('embed');
+      }
+
+      defineFieldsetTag() {
+        return '<fieldset></fieldset>';
+      }
+
+      defineDynamicFieldsetTag() {
+        return document.createElement('fieldset');
       }
 
     },

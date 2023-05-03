@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "node/node.h"
 
 typedef struct node {
 
@@ -14,6 +15,10 @@ typedef struct node {
       void modifications() { }
 
   };
+
+  struct InstanceCallback {
+    int index_callback;
+  } InstanceCallback;
 
 } Node;
 

@@ -711,6 +711,286 @@ namespace WertsfyWhispers {
         return document.createElement('q');
       }
 
+      defineRpTag() {
+        return '<rp></rp>';
+      }
+
+      defineDynamicRpTag() {
+        return document.createElement('rp');
+      }
+
+      defineRtTag() {
+        return '<rt></rt>';
+      }
+
+      defineDynamicRtTag() {
+        return document.createElement('rt');
+      }
+
+      defineRubyTag() {
+        return '<ruby></ruby>';
+      }
+
+      defineDynamicRubyTag() {
+        return document.createElement('ruby');
+      }
+
+      defineSTag() {
+        return '<s></s>';
+      }
+
+      defineDynamicSTag() {
+        return document.createElement('s');
+      }
+
+      defineSampTag() {
+        return '<samp></samp>';
+      }
+
+      defineDynamicSampTag() {
+        return document.createElement('samp');
+      }
+
+      defineScriptTag() {
+        return '<script></script>';
+      }
+
+      defineDynamicScriptTag() {
+        return document.createElement('script');
+      }
+
+      defineSectionTag() {
+        return '<section></section>';
+      }
+
+      defineDynamicSectionTag() {
+        return document.createElement('section');
+      }
+
+      defineSelectTag() {
+        return '<select></select>';
+      }
+
+      defineDynamicSelectTag() {
+        return document.createElement('select');
+      }
+      
+      defineSlotTag() {
+        return '<slot></slot>';
+      }
+
+      defineDynamicSlotTag() {
+        return document.createElement('slot');
+      }
+
+      defineSmallTag() {
+        return '<small></small>';
+      }
+
+      defineDynamicSmallTag() {
+        return document.createElement('small');
+      }
+
+      defineSourceTag() {
+        return '<source></source>';
+      }
+
+      defineDynamicSourceTag() {
+        return document.createElement('source');
+      }
+
+      defineSpanTag() {
+        return '<span></span>';
+      }
+
+      defineDynamicSpanTag() {
+        return document.createElement('span');
+      }
+
+      defineStrongTag() {
+        return '<strong></strong>';
+      }
+
+      defineDynamicStrongTag() {
+        return document.createElement('strong');
+      }
+
+      defineStyleTag() {
+        return '<style></style>';
+      }
+
+      defineDynamicStyleTag() {
+        return document.createElement('style');
+      }
+
+      defineSubTag() {
+        return '<sub></sub>';
+      }
+
+      defineDynamicSubTag() {
+        return document.createElement('sub');
+      }
+
+      defineSummaryTag() {
+        return '<summary></summary>';
+      }
+
+      defineDynamicSummaryTag() {
+        return document.createElement('summary');
+      }
+
+      defineSupTag() {
+        return '<sup></sup>';
+      }
+
+      defineDynamicSupTag() {
+        return document.createElement('sup');
+      }
+
+      defineTableTag() {
+        return '<table></table>';
+      }
+
+      defineDynamicTableTag() {
+        return document.createElement('table');
+      }
+
+      defineTbodyTag() {
+        return '<tbody></tbody>';
+      }
+
+      defineDynamicTbodyTag() {
+        return document.createElement('tbody');
+      }
+
+      defineTdTag() {
+        return '<td></td>';
+      }
+
+      defineDynamicTdTag() {
+        return document.createElement('td');
+      }
+
+      defineTemplateTag() {
+        return '<template></template>';
+      }
+
+      defineDynamicTemplateTag() {
+        return document.createElement('template');
+      }
+
+      defineTextareaTag() {
+        return '<textarea></textarea>';
+      }
+
+      defineDynamicTextareaTag() {
+        return document.createElement('textarea');
+      }
+
+      defineTfootTag() {
+        return '<tfoot></tfoot>';
+      }
+
+      defineDynamicTfootTag() {
+        return document.createElement('tfoot');
+      }
+
+      defineThTag() {
+        return '<th></th>';
+      }
+
+      defineDynamicThTag() {
+        return document.createElement('th');
+      }
+
+      defineTheadTag() {
+        return '<thead></thead>';
+      }
+
+      defineDynamicTheadTag() {
+        return document.createElement('thead');
+      }
+
+      defineTimeTag() {
+        return '<time></time>';
+      }
+
+      defineDynamicTimeTag() {
+        return document.createElement('time');
+      }
+
+      defineTitleTag() {
+        return '<title></title>';
+      }
+
+      defineDynamicTitleTag() {
+        return document.createElement('title');
+      }
+
+      defineTrTag() {
+        return '<tr></tr>';
+      }
+
+      defineDynamicTrTag() {
+        return document.createElement('tr');
+      }
+
+      defineTrackTag() {
+        return '<track></track>';
+      }
+
+      defineDynamicTrackTag() {
+        return document.createElement('track');
+      }
+
+      defineTtTag() {
+        return '<tt></tt>';
+      }
+
+      defineDynamicTtTag() {
+        return document.createElement('tt');
+      }
+
+      defineUTag() {
+        return '<u></u>';
+      }
+
+      defineDynamicUTag() {
+        return document.createElement('u');
+      }
+
+      defineUlTag() {
+        return '<ul></ul>';
+      }
+
+      defineDynamicUlTag() {
+        return document.createElement('ul');
+      }
+
+      defineVarTag() {
+        return '<var></var>';
+      }
+
+      defineDynamicVarTag() {
+        return document.createElement('var');
+      }
+
+      defineVideoTag() {
+        return '<video></video>';
+      }
+
+      defineDynamicVideoTag() {
+        return document.createElement('video');
+      }
+
+      defineWbrTag() {
+        return '<wbr></wbr>';
+      }
+
+      defineDynamicWbrTag() {
+        return document.createElement('wbr');
+      }
+
     },
 
     HTMLCustomElementsConstructor: class constructor { },

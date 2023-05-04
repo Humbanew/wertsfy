@@ -1,40 +1,8 @@
-protected lydrocRpPlaceholder() { }
-protected lydrocRtPlaceholder() { }
-protected lydrocRubyPlaceholder() { }
-protected lydrocSPlaceholder() { }
-protected lydrocSampPlaceholder() { }
-protected lydrocScriptPlaceholder() { }
-protected lydrocSectionPlaceholder() { }
-protected lydrocSelectPlaceholder() { }
-protected lydrocSmallPlaceholder() { }
-protected lydrocSourcePlaceholder() { }
-protected lydrocSpanPlaceholder() { }
-protected lydrocStrongPlaceholder() { }
-protected lydrocStylePlaceholder() { }
-protected lydrocSubPlaceholder() { }
-protected lydrocSupPlaceholder() { }
-protected lydrocTablePlaceholder() { }
-protected lydrocTbodyPlaceholder() { }
-protected lydrocTdPlaceholder() { }
-protected lydrocTemplatePlaceholder() { }
-protected lydrocTextareaPlaceholder() { }
-protected lydrocTfootPlaceholder() { }
-protected lydrocThPlaceholder() { }
-protected lydrocTheadPlaceholder() { }
-protected lydrocTimePlaceholder() { }
-protected lydrocTrPlaceholder() { }
-protected lydrocTrackPlaceholder() { }
-protected lydrocTtPlaceholder() { }
-protected lydrocUPlaceholder() { }
-protected lydrocUlPlaceholder() { }
-protected lydrocVarPlaceholder() { }
-protected lydrocVideoPlaceholder() { }
-protected lydrocWbrPlaceholder() { }
-  
 // Classes de Wertsfy Whispers Lydroc 
 class WWLStylesheets { }
 class WWLDynamic { }
 class WWLHTML6 { }
+class WWLCSS4 { }
 
 // Classes de Wertsfy Whispers
 class WWKarzok { }

@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './docs/hn.wertsfy.wdk.network/'
+          path: './docs/wertsfy.io/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

@@ -995,17 +995,577 @@ namespace WertsfyWhispers {
 
     HTMLCustomElementsConstructor: class constructor { },
     
-    HTMLStylesheetAbstractionConstructor: (obj: IStylesheetAbstraction) => { return obj; }
+    HTMLStylesheetConstructor: (obj: IStylesheetAbstraction) => { return obj; }
     
   }
 
   interface IStylesheetAbstraction {
 
-    [key: string]: Object;
+    [key: string]: {
+
+      "accent-color"?: 
+        typeof CSSStyleDeclaration.prototype.accentColor;
+      
+      "align-content"?: 
+        typeof CSSStyleDeclaration.prototype.alignContent;
+      
+      "align-items"?: 
+        typeof CSSStyleDeclaration.prototype.alignItems;
+      
+      "align-self"?: 
+        typeof CSSStyleDeclaration.prototype.alignSelf;
+      
+      "all"?: 
+        typeof CSSStyleDeclaration.prototype.all;
+      
+      "animation"?: 
+        typeof CSSStyleDeclaration.prototype.animation;
+      
+      "animation-delay"?: 
+        typeof CSSStyleDeclaration.prototype.animationDelay;
+      
+      "animation-direction"?: 
+        typeof CSSStyleDeclaration.prototype.animationDirection;
+      
+      "animation-duration"?: 
+        typeof CSSStyleDeclaration.prototype.animationDuration;
+      
+      "animation-fill-mode"?: 
+        typeof CSSStyleDeclaration.prototype.animationFillMode;
+      
+      "animation-iteration-count"?: 
+        typeof CSSStyleDeclaration.prototype.animationIterationCount;
+      
+      "animation-name"?: 
+        typeof CSSStyleDeclaration.prototype.animationName;
+      
+      "animation-play-state"?: 
+        typeof CSSStyleDeclaration.prototype.animationPlayState;
+      
+      "animation-timing-function"?: 
+        typeof CSSStyleDeclaration.prototype.animationTimingFunction;
+      
+      "appearance"?: 
+        typeof CSSStyleDeclaration.prototype.appearance;
+      
+      "aspect-ratio"?: 
+        typeof CSSStyleDeclaration.prototype.aspectRatio;
+      
+      "backdrop-filter"?: 
+        typeof CSSStyleDeclaration.prototype.backdropFilter;
+      
+      "backface-visibility"?: 
+        typeof CSSStyleDeclaration.prototype.backfaceVisibility;
+      
+      "background"?: 
+        typeof CSSStyleDeclaration.prototype.background;
+      
+      "background-attachment"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundAttachment;
+      
+      "background-blend-mode"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundBlendMode;
+      
+      "background-clip"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundClip;
+      
+      "background-color"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundColor;
+      
+      "background-image"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundImage;
+      
+      "background-origin"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundOrigin;
+      
+      "background-position"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundPosition;
+      
+      "background-repeat"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundRepeat;
+      
+      "background-size"?: 
+        typeof CSSStyleDeclaration.prototype.backgroundSize;
+      
+      "baseline-shift"?: 
+        typeof CSSStyleDeclaration.prototype.baselineShift;
+      
+      "block-size"?: 
+        typeof CSSStyleDeclaration.prototype.blockSize;
+      
+      "border"?: 
+        typeof CSSStyleDeclaration.prototype.border;
+      
+      "border-block"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlock;
+      
+      "border-block-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockColor;
+      
+      "border-block-end"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockEnd;
+      
+      "border-block-end-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockEndColor;
+      
+      "border-block-end-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockEndStyle;
+      
+      "border-block-end-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockEndWidth;
+      
+      "border-block-start"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockStart;
+      
+      "border-block-start-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockStartColor;
+      
+      "border-block-start-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockStartStyle;
+      
+      "border-block-start-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockStartWidth;
+      
+      "border-block-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockStyle;
+      
+      "border-block-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderBlockWidth;
+      
+      "border-bottom"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottom;
+      
+      "border-bottom-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottomColor;
+      
+      "border-bottom-left-radius"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottomLeftRadius;
+      
+      "border-bottom-right-radius"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottomRightRadius;
+      
+      "border-bottom-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottomStyle;
+      
+      "border-bottom-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderBottomWidth;
+      
+      "border-collapse"?: 
+        typeof CSSStyleDeclaration.prototype.borderCollapse;
+      
+      "border-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderColor;
+      
+      "border-image"?: 
+        typeof CSSStyleDeclaration.prototype.borderImage;
+      
+      "border-image-outset"?: 
+        typeof CSSStyleDeclaration.prototype.borderImageOutset;
+      
+      "border-image-repeat"?: 
+        typeof CSSStyleDeclaration.prototype.borderImageRepeat;
+      
+      "border-image-slice"?: 
+        typeof CSSStyleDeclaration.prototype.borderImageSlice;
+      
+      "border-image-source"?: 
+        typeof CSSStyleDeclaration.prototype.borderImageSource;
+      
+      "border-image-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderImageWidth;
+      
+      "border-left"?: 
+        typeof CSSStyleDeclaration.prototype.borderLeft;
+      
+      "border-left-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderLeftColor;
+      
+      "border-left-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderLeftStyle;
+      
+      "border-left-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderLeftWidth;
+      
+      "border-radius"?: 
+        typeof CSSStyleDeclaration.prototype.borderRadius;
+      
+      "border-right"?: 
+        typeof CSSStyleDeclaration.prototype.borderRight;
+      
+      "border-right-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderRightColor;
+      
+      "border-right-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderRightStyle;
+      
+      "border-right-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderRightWidth;
+      
+      "border-spacing"?: 
+        typeof CSSStyleDeclaration.prototype.borderSpacing;
+      
+      "border-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderStyle;
+      
+      "border-top"?: 
+        typeof CSSStyleDeclaration.prototype.borderTop;
+      
+      "border-top-color"?: 
+        typeof CSSStyleDeclaration.prototype.borderTopColor;
+      
+      "border-top-left-radius"?: 
+        typeof CSSStyleDeclaration.prototype.borderTopLeftRadius;
+      
+      "border-top-right-radius"?: 
+        typeof CSSStyleDeclaration.prototype.borderTopRightRadius;
+      
+      "border-top-style"?: 
+        typeof CSSStyleDeclaration.prototype.borderTopStyle;
+      
+      "border-top-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderTopWidth;
+      
+      "border-width"?: 
+        typeof CSSStyleDeclaration.prototype.borderWidth;
+      
+      "bottom"?: 
+        typeof CSSStyleDeclaration.prototype.bottom;
+      
+      "box-shadow"?: 
+        typeof CSSStyleDeclaration.prototype.boxShadow;
+      
+      "box-sizing"?: 
+        typeof CSSStyleDeclaration.prototype.boxSizing;
+      
+      "break-after"?: 
+        typeof CSSStyleDeclaration.prototype.breakAfter;
+      
+      "break-before"?: 
+        typeof CSSStyleDeclaration.prototype.breakBefore;
+      
+      "break-inside"?: 
+        typeof CSSStyleDeclaration.prototype.breakInside;
+      
+      "caption-side"?: 
+        typeof CSSStyleDeclaration.prototype.captionSide;
+      
+      "caret-color"?: 
+        typeof CSSStyleDeclaration.prototype.caretColor;
+      
+      "clear"?: 
+        typeof CSSStyleDeclaration.prototype.clear;
+      
+      "clip"?: 
+        typeof CSSStyleDeclaration.prototype.clip;
+      
+      "color"?: 
+        typeof CSSStyleDeclaration.prototype.color;
+      
+      "column-count"?: 
+        typeof CSSStyleDeclaration.prototype.columnCount;
+      
+      "column-fill"?: 
+        typeof CSSStyleDeclaration.prototype.columnFill;
+      
+      "column-gap"?: 
+        typeof CSSStyleDeclaration.prototype.columnGap;
+      
+      "column-rule"?: 
+        typeof CSSStyleDeclaration.prototype.columnRule;
+      
+      "column-rule-color"?: 
+        typeof CSSStyleDeclaration.prototype.columnRuleColor;
+      
+      "column-rule-style"?: 
+        typeof CSSStyleDeclaration.prototype.columnRuleStyle;
+      
+      "column-rule-width"?: 
+        typeof CSSStyleDeclaration.prototype.columnRuleWidth;
+      
+      "column-span"?: 
+        typeof CSSStyleDeclaration.prototype.columnSpan;
+      
+      "column-width"?: 
+        typeof CSSStyleDeclaration.prototype.columnWidth;
+      
+      "columns"?: 
+        typeof CSSStyleDeclaration.prototype.columns;
+      
+      "content"?: 
+        typeof CSSStyleDeclaration.prototype.content;
+      
+      "counter-increment"?: 
+        typeof CSSStyleDeclaration.prototype.counterIncrement;
+      
+      "counter-reset"?: 
+        typeof CSSStyleDeclaration.prototype.counterReset;
+      
+      "counter-set"?: 
+        typeof CSSStyleDeclaration.prototype.counterSet;
+      
+      "cursor"?: 
+        typeof CSSStyleDeclaration.prototype.cursor;
+      
+      "direction"?: 
+        typeof CSSStyleDeclaration.prototype.direction;
+      
+      "display"?: 
+        typeof CSSStyleDeclaration.prototype.display;
+      
+      "empty-cells"?: 
+        typeof CSSStyleDeclaration.prototype.emptyCells;
+      
+      "filter"?: 
+        typeof CSSStyleDeclaration.prototype.filter;
+      
+      "flex"?: 
+        typeof CSSStyleDeclaration.prototype.flex;
+      
+      "flex-basis"?: 
+        typeof CSSStyleDeclaration.prototype.flexBasis;
+      
+      "flex-direction"?: 
+        typeof CSSStyleDeclaration.prototype.flexDirection;
+      
+      "flex-flow"?: 
+        typeof CSSStyleDeclaration.prototype.flexFlow;
+      
+      "flex-grow"?: 
+        typeof CSSStyleDeclaration.prototype.flexGrow;
+      
+      "flex-shrink"?: 
+        typeof CSSStyleDeclaration.prototype.flexShrink;
+      
+      "flex-wrap"?: 
+        typeof CSSStyleDeclaration.prototype.flexWrap;
+      
+      "float"?: 
+        typeof CSSStyleDeclaration.prototype.float;
+      
+      "font"?: 
+        typeof CSSStyleDeclaration.prototype.font;
+      
+      "font-family"?: 
+        typeof CSSStyleDeclaration.prototype.fontFamily;
+      
+      "font-size"?: 
+        typeof CSSStyleDeclaration.prototype.fontSize;
+      
+      "font-style"?: 
+        typeof CSSStyleDeclaration.prototype.fontStyle;
+      
+      "font-variant"?: 
+        typeof CSSStyleDeclaration.prototype.fontVariant;
+      
+      "font-weight"?: 
+        typeof CSSStyleDeclaration.prototype.fontWeight;
+      
+      "height"?: 
+        typeof CSSStyleDeclaration.prototype.height;
+      
+      "justify-content"?: 
+        typeof CSSStyleDeclaration.prototype.justifyContent;
+      
+      "left"?: 
+        typeof CSSStyleDeclaration.prototype.left;
+      
+      "letter-spacing"?: 
+        typeof CSSStyleDeclaration.prototype.letterSpacing;
+      
+      "line-height"?: 
+        typeof CSSStyleDeclaration.prototype.lineHeight;
+      
+      "list-style"?: 
+        typeof CSSStyleDeclaration.prototype.listStyle;
+      
+      "list-style-image"?: 
+        typeof CSSStyleDeclaration.prototype.listStyleImage;
+      
+      "list-style-position"?: 
+        typeof CSSStyleDeclaration.prototype.listStylePosition;
+      
+      "list-style-type"?: 
+        typeof CSSStyleDeclaration.prototype.listStyleType;
+      
+      "margin"?: 
+        typeof CSSStyleDeclaration.prototype.margin;
+      
+      "margin-bottom"?: 
+        typeof CSSStyleDeclaration.prototype.marginBottom;
+      
+      "margin-left"?: 
+        typeof CSSStyleDeclaration.prototype.marginLeft;
+      
+      "margin-right"?: 
+        typeof CSSStyleDeclaration.prototype.marginRight;
+      
+      "margin-top"?: 
+        typeof CSSStyleDeclaration.prototype.marginTop;
+      
+      "max-height"?: 
+        typeof CSSStyleDeclaration.prototype.maxHeight;
+      
+      "max-width"?: 
+        typeof CSSStyleDeclaration.prototype.maxWidth;
+      
+      "min-height"?: 
+        typeof CSSStyleDeclaration.prototype.minHeight;
+      
+      "min-width"?: 
+        typeof CSSStyleDeclaration.prototype.minWidth;
+      
+      "opacity"?: 
+        typeof CSSStyleDeclaration.prototype.opacity;
+      
+      "order"?: 
+        typeof CSSStyleDeclaration.prototype.order;
+      
+      "outline"?: 
+        typeof CSSStyleDeclaration.prototype.outline;
+      
+      "outline-color"?: 
+        typeof CSSStyleDeclaration.prototype.outlineColor;
+      
+      "outline-offset"?: 
+        typeof CSSStyleDeclaration.prototype.outlineOffset;
+      
+      "outline-style"?: 
+        typeof CSSStyleDeclaration.prototype.outlineStyle;
+      
+      "outline-width"?: 
+        typeof CSSStyleDeclaration.prototype.outlineWidth;
+      
+      "overflow"?: 
+        typeof CSSStyleDeclaration.prototype.overflow;
+      
+      "overflow-x"?: 
+        typeof CSSStyleDeclaration.prototype.overflowX;
+      
+      "overflow-y"?: 
+        typeof CSSStyleDeclaration.prototype.overflowY;
+      
+      "padding"?: 
+        typeof CSSStyleDeclaration.prototype.padding;
+      
+      "padding-bottom"?: 
+        typeof CSSStyleDeclaration.prototype.paddingBottom;
+      
+      "padding-left"?: 
+        typeof CSSStyleDeclaration.prototype.paddingLeft;
+      
+      "padding-right"?: 
+        typeof CSSStyleDeclaration.prototype.paddingRight;
+      
+      "padding-top"?: 
+        typeof CSSStyleDeclaration.prototype.paddingTop;
+      
+      "page-break-after"?: 
+        typeof CSSStyleDeclaration.prototype.pageBreakAfter;
+      
+      "page-break-before"?: 
+        typeof CSSStyleDeclaration.prototype.pageBreakBefore;
+      
+      "page-break-inside"?: 
+        typeof CSSStyleDeclaration.prototype.pageBreakInside;
+      
+      "perspective"?: 
+        typeof CSSStyleDeclaration.prototype.perspective;
+      
+      "perspective-origin"?: 
+        typeof CSSStyleDeclaration.prototype.perspectiveOrigin;
+      
+      "position"?: 
+        typeof CSSStyleDeclaration.prototype.position;
+      
+      "quotes"?: 
+        typeof CSSStyleDeclaration.prototype.quotes;
+      
+      "right"?: 
+        typeof CSSStyleDeclaration.prototype.right;
+      
+      "table-layout"?: 
+        typeof CSSStyleDeclaration.prototype.tableLayout;
+      
+      "text-align"?: 
+        typeof CSSStyleDeclaration.prototype.textAlign;
+      
+      "text-align-last"?: 
+        typeof CSSStyleDeclaration.prototype.textAlignLast;
+      
+      "text-decoration"?: 
+        typeof CSSStyleDeclaration.prototype.textDecoration;
+      
+      "text-indent"?: 
+        typeof CSSStyleDeclaration.prototype.textIndent;
+      
+      "text-overflow"?: 
+        typeof CSSStyleDeclaration.prototype.textOverflow;
+      
+      "text-shadow"?: 
+        typeof CSSStyleDeclaration.prototype.textShadow;
+      
+      "text-transform"?: 
+        typeof CSSStyleDeclaration.prototype.textTransform;
+      
+      "top"?: 
+        typeof CSSStyleDeclaration.prototype.top;
+      
+      "transform"?: 
+        typeof CSSStyleDeclaration.prototype.transform;
+      
+      "transform-origin"?: 
+        typeof CSSStyleDeclaration.prototype.transformOrigin;
+      
+      "transform-style"?: 
+        typeof CSSStyleDeclaration.prototype.transformStyle;
+      
+      "transition"?: 
+        typeof CSSStyleDeclaration.prototype.transition;
+      
+      "transition-delay"?: 
+        typeof CSSStyleDeclaration.prototype.transitionDelay;
+      
+      "transition-duration"?: 
+        typeof CSSStyleDeclaration.prototype.transitionDuration;
+      
+      "transition-property"?: 
+        typeof CSSStyleDeclaration.prototype.transitionProperty;
+      
+      "transition-timing-function"?: 
+        typeof CSSStyleDeclaration.prototype.transitionTimingFunction;
+      
+      "unicode-bidi"?: 
+        typeof CSSStyleDeclaration.prototype.unicodeBidi;
+      
+      "vertical-align"?: 
+        typeof CSSStyleDeclaration.prototype.verticalAlign;
+      
+      "visibility"?: 
+        typeof CSSStyleDeclaration.prototype.visibility;
+      
+      "white-space"?: 
+        typeof CSSStyleDeclaration.prototype.whiteSpace;
+      
+      "widows"?: 
+        typeof CSSStyleDeclaration.prototype.widows;
+      
+      "width"?: 
+        typeof CSSStyleDeclaration.prototype.width;
+    
+    };
 
   }
 
   export var lyAttrConstructor = new lydroc.HTMLAttrsConstructor();
   export var lyElementsConstructor = new lydroc.HTMLElementsConstructor();
+  export var lyStylesConstructor = (
+    obj: IStylesheetAbstraction
+  ) => lydroc.HTMLStylesheetConstructor(obj);
 
 }
+
+// #region [Priority0]
+
+let wertsfy_whispers_colors = { }
+
+// #endregion

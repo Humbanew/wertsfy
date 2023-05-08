@@ -10,7 +10,21 @@ gulp.task('webserver', () => {
       livereload: true,     
       directoryListing: true,
       open: true,
-      fallback: 'index.html',
+      fallback: './index.html',
 
-    }))
+    }));
+
+  gulp.watch('.').on('change', () => {
+    
+    console.log(
+      "\x1B[31m[" + 
+      new Date().toISOString() + 
+      " \/\/ " + 
+      new Date().toLocaleTimeString() + 
+      "]\x1B[0m" + 
+      " Changed Files. "
+    )
+
+  });
+
 });

@@ -1,0 +1,11 @@
+@keyframes animacao-cabecalho {
+  0% {
+    margin-top: -6vw;
+    transition: ease-in 0.5s;
+  }
+
+  100% {
+    margin-top: 0.2vw;
+    height: auto;
+  }
+}

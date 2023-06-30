@@ -7,7 +7,7 @@ import { WConstSqrtCbrtCollectionObject, WConstShortcutsCollectionObject } from 
  * 
  * É a definição de um componente, podendo ser categorizado de diversas naturezas distintas. [_It is the definition of a component and can be categorized of several distinct natures._]
  */
-export declare interface WComponent {
+export declare interface IWComponent {
   
   /**  
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**

@@ -1,0 +1,11 @@
+.wtfy-corpo-warning {
+  color: #ffffff;
+  display: flex;
+  font-family: 'Chakra-Petch';
+  justify-content: space-around;
+  font-weight: 600;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 10vw;
+  z-index: 0;
+}

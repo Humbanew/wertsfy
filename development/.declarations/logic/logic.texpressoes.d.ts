@@ -1,4 +1,4 @@
-export interface TExpressoes {
+export interface ITExpressoes {
   
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**

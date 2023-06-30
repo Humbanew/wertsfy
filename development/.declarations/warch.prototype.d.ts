@@ -1,4 +1,4 @@
-import { WPLogicos } from "./logic/logic.base";
+import { IWPLogicos } from "./logic/logic.base";
 
 /**
  * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**
@@ -9,9 +9,9 @@ import { WPLogicos } from "./logic/logic.base";
  */
 export declare namespace WertsfyPrototipos {
 
-  export interface Logicos { 
+  export interface ILogicos { 
 
-    Core: WPLogicos;
+    Core: IWPLogicos;
 
   }
 

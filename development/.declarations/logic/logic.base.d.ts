@@ -1,11 +1,11 @@
-import { TAvancados } from "./logic.tavancados";
-import { TComuns } from "./logic.tcomuns";
-import { TExpressoes } from "./logic.texpressoes";
+import { ITAvancados } from "./logic.tavancados";
+import { ITComuns } from "./logic.tcomuns";
+import { ITExpressoes } from "./logic.texpressoes";
 
-export declare interface WPLogicos {
+export declare interface IWPLogicos {
 
-  TComuns: TComuns;
-  TAvancados: TAvancados;
-  TExpressoes: TExpressoes;
+  TComuns: ITComuns;
+  TAvancados: ITAvancados;
+  TExpressoes: ITExpressoes;
 
 }

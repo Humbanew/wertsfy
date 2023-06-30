@@ -1,7 +1,7 @@
 /// <reference path="../.declarations/warch.d.ts" />
 /// <reference path="wcconnection.d.ts" />
 
-import { WComponent } from "../.declarations/warch";
+import { IWComponent } from "../.declarations/warch";
 import { WertsfyComponents } from "./wcconnection";
 
 export namespace LibraryMathematic {
@@ -18,7 +18,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Avogadro: WComponent["src"]["number"]=
+  export const Avogadro: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.avogadro"]; 
 
   /** 
@@ -33,7 +33,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Euler: WComponent["src"]["number"]=
+  export const Euler: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.euler"]; 
 
   /** 
@@ -48,7 +48,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Logarithm2: WComponent["src"]["number"]=
+  export const Logarithm2: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm2"]; 
 
   /** 
@@ -63,7 +63,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Logarithm2e: WComponent["src"]["number"]=
+  export const Logarithm2e: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm2e"];
   
   /** 
@@ -78,7 +78,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Logarithm10: WComponent["src"]["number"]=
+  export const Logarithm10: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm10"];
 
   /** 
@@ -93,7 +93,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Logarithm10e: WComponent["src"]["number"]=
+  export const Logarithm10e: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.logarithm10e"];
 
   /** 
@@ -108,7 +108,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Maxvalue: WComponent["src"]["number"]=
+  export const Maxvalue: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.maxvalue"];
 
   /** 
@@ -123,7 +123,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Minvalue: WComponent["src"]["number"]=
+  export const Minvalue: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.minvalue"];
 
   /** 
@@ -138,7 +138,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Newton: WComponent["src"]["number"]=
+  export const Newton: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.newton"];
 
   /** 
@@ -153,7 +153,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Pi: WComponent["src"]["number"]=
+  export const Pi: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.pi"];
 
   /** 
@@ -168,7 +168,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Plank: WComponent["src"]["number"]=
+  export const Plank: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.plank"]; 
 
   /** 
@@ -183,7 +183,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const Tesla: WComponent["src"]["number"]=
+  export const Tesla: IWComponent["src"]["number"]=
     WertsfyComponents.source.math["constant.tesla"];
 
   /** 
@@ -198,7 +198,7 @@ export namespace LibraryMathematic {
    * @returns ``Object``
    * 
    */
-  export const SquareRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
+  export const SquareRoot: IWComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.sqrt"];
 
   /** 
@@ -213,7 +213,7 @@ export namespace LibraryMathematic {
    * @returns ``Object``
    * 
    */
-  export const CubicRoot: WComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
+  export const CubicRoot: IWComponent["src"]["object"]["collections"]["sqrt_cbrt"]=
     WertsfyComponents.source.math["constant.collection.cbrt"];
 
   /**
@@ -232,7 +232,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const abs: WComponent["src"]["function"]=
+  export const abs: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.abs"]; 
 
   /**
@@ -251,7 +251,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arcsin: WComponent["src"]["function"]=
+  export const arcsin: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsin"];
 
   /**
@@ -270,7 +270,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arcsinh: WComponent["src"]["function"]=
+  export const arcsinh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsinh"];
 
   /**
@@ -289,7 +289,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccos: WComponent["src"]["function"]=
+  export const arccos: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccos"];
 
   /**
@@ -308,7 +308,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccosh: WComponent["src"]["function"]=
+  export const arccosh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosh"];
 
   /**
@@ -327,7 +327,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arctan: WComponent["src"]["function"]=
+  export const arctan: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arctan"];
 
   /**
@@ -346,7 +346,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arctanh: WComponent["src"]["function"]=
+  export const arctanh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arctanh"];
 
   /**
@@ -365,7 +365,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arcsec: WComponent["src"]["function"]=
+  export const arcsec: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsec"];
 
   /**
@@ -384,7 +384,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arcsech: WComponent["src"]["function"]=
+  export const arcsech: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arcsech"]
 
   /**
@@ -403,7 +403,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccosec: WComponent["src"]["function"]=
+  export const arccosec: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosec"];
 
   /**
@@ -422,7 +422,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccosech: WComponent["src"]["function"]=
+  export const arccosech: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccosech"]
 
   /**
@@ -441,7 +441,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccotan: WComponent["src"]["function"]=
+  export const arccotan: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccotan"];
 
   /**
@@ -460,7 +460,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const arccotanh: WComponent["src"]["function"]=
+  export const arccotanh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.arccotanh"]
 
   /**
@@ -479,7 +479,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sqrt: WComponent["src"]["function"]=
+  export const sqrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sqrt"]
 
   /**
@@ -498,7 +498,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cbrt: WComponent["src"]["function"]=
+  export const cbrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cbrt"]
 
   /**
@@ -517,7 +517,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const quart: WComponent["src"]["function"]=
+  export const quart: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.quart"];
 
   /**
@@ -536,7 +536,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const quirt: WComponent["src"]["function"]=
+  export const quirt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.quirt"];
 
   /**
@@ -555,7 +555,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sexrt: WComponent["src"]["function"]=
+  export const sexrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sexrt"]
 
   /**
@@ -574,7 +574,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const seprt: WComponent["src"]["function"]=
+  export const seprt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.seprt"];
 
   /**
@@ -593,7 +593,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const octrt: WComponent["src"]["function"]=
+  export const octrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.octrt"];
 
   /**
@@ -612,7 +612,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const nonrt: WComponent["src"]["function"]=
+  export const nonrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.nonrt"];
 
   /**
@@ -631,7 +631,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const decrt: WComponent["src"]["function"]=
+  export const decrt: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.decrt"];
 
   /**
@@ -650,7 +650,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sin: WComponent["src"]["function"]=
+  export const sin: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sin"];
 
   /**
@@ -669,7 +669,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sinh: WComponent["src"]["function"]=
+  export const sinh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sinh"]
 
   /**
@@ -688,7 +688,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cos: WComponent["src"]["function"]=
+  export const cos: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cos"];
 
   /**
@@ -707,7 +707,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cosh: WComponent["src"]["function"]=
+  export const cosh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosh"];
 
   /**
@@ -726,7 +726,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const tan: WComponent["src"]["function"]=
+  export const tan: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.tan"];
 
   /**
@@ -745,7 +745,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const tanh: WComponent["src"]["function"]=
+  export const tanh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.tanh"];
 
   /**
@@ -764,7 +764,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sec: WComponent["src"]["function"]=
+  export const sec: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sec"];
 
   /**
@@ -783,7 +783,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sech: WComponent["src"]["function"]=
+  export const sech: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sech"];
 
   /**
@@ -802,7 +802,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cosec: WComponent["src"]["function"]=
+  export const cosec: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosec"];
 
   /**
@@ -821,7 +821,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cosech: WComponent["src"]["function"]=
+  export const cosech: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cosech"];
 
   /**
@@ -840,7 +840,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cotan: WComponent["src"]["function"]=
+  export const cotan: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cotan"];
 
   /**
@@ -859,7 +859,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const cotanh: WComponent["src"]["function"]=
+  export const cotanh: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.cotanh"];
 
   /**
@@ -880,7 +880,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ {exponent} 
    * 
    */
-  export const pow: WComponent["src"]["function"]=
+  export const pow: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.pow"];
 
   /**
@@ -903,7 +903,7 @@ export namespace LibraryMathematic {
    * @argument z ***typeof: number[]*** ⁝ {exponent of exponent} 
    * 
    */
-  export const powofpow: WComponent["src"]["function"]=
+  export const powofpow: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.powofpow"]
 
   /**
@@ -922,7 +922,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number[]***
    * 
    */
-  export const min: WComponent["src"]["function"]=
+  export const min: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.min"];
 
   /**
@@ -941,7 +941,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number[]***
    * 
    */
-  export const max: WComponent["src"]["function"]=
+  export const max: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.max"];
 
   /**
@@ -956,7 +956,7 @@ export namespace LibraryMathematic {
    * @returns ``Number``
    * 
    */
-  export const random: WComponent["src"]["function"]=
+  export const random: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.random"];
 
   /**
@@ -975,7 +975,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const log: WComponent["src"]["function"]=
+  export const log: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log"];
 
   /**
@@ -994,7 +994,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const logm1: WComponent["src"]["function"]=
+  export const logm1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logm1"];
 
   /**
@@ -1013,7 +1013,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const logp1: WComponent["src"]["function"]=
+  export const logp1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logp1"];
 
   /**
@@ -1032,7 +1032,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const log2: WComponent["src"]["function"]=
+  export const log2: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2"];
 
   /**
@@ -1051,7 +1051,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const log2m1: WComponent["src"]["function"]=
+  export const log2m1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2m1"];
 
   /**
@@ -1070,7 +1070,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const log2p1: WComponent["src"]["function"]=
+  export const log2p1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.log2p1"];
 
   /**
@@ -1091,7 +1091,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { base }
    * 
    */
-  export const logx: WComponent["src"]["function"]=
+  export const logx: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logx"];
 
   /**
@@ -1112,7 +1112,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { base }
    * 
    */
-  export const logxm1: WComponent["src"]["function"]=
+  export const logxm1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logxm1"];
 
   /**
@@ -1133,7 +1133,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { base }
    * 
    */
-  export const logxp1: WComponent["src"]["function"]=
+  export const logxp1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.logxp1"];
 
   /**
@@ -1152,7 +1152,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const ln: WComponent["src"]["function"]=
+  export const ln: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.ln"];
 
   /**
@@ -1171,7 +1171,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const lnm1: WComponent["src"]["function"]=
+  export const lnm1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.lnm1"];
 
   /**
@@ -1190,7 +1190,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const lnp1: WComponent["src"]["function"]=
+  export const lnp1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.lnp1"];
 
   /**
@@ -1211,7 +1211,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
-  export const exp: WComponent["src"]["function"]=
+  export const exp: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.exp"];
 
   /**
@@ -1232,7 +1232,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
-  export const expm1: WComponent["src"]["function"]=
+  export const expm1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.expm1"];
 
   /**
@@ -1253,7 +1253,7 @@ export namespace LibraryMathematic {
    * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
-  export const expp1: WComponent["src"]["function"]=
+  export const expp1: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.expp1"];
 
   /**
@@ -1272,7 +1272,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const round: WComponent["src"]["function"]=
+  export const round: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.round"];
 
   /**
@@ -1291,7 +1291,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const fround: WComponent["src"]["function"]=
+  export const fround: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.fround"];
 
   /**
@@ -1310,7 +1310,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const floor: WComponent["src"]["function"]=
+  export const floor: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.floor"];
 
   /**
@@ -1329,7 +1329,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const ceil: WComponent["src"]["function"]=
+  export const ceil: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.ceil"];
 
   /**
@@ -1348,7 +1348,7 @@ export namespace LibraryMathematic {
    * @argument x, y ***typeof: number***
    * 
    */
-  export const imul: WComponent["src"]["function"]=
+  export const imul: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.imul"];
 
   /**
@@ -1367,7 +1367,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const sign: WComponent["src"]["function"]=
+  export const sign: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.sign"];
 
   /**
@@ -1386,7 +1386,7 @@ export namespace LibraryMathematic {
    * @argument x ***typeof: number***
    * 
    */
-  export const trunc: WComponent["src"]["function"]=
+  export const trunc: IWComponent["src"]["function"]=
     WertsfyComponents.source.math["method.trunc"];
 
 }
@@ -1406,7 +1406,7 @@ export namespace LibraryCalculator {
    * 
    * 
    */
-  export const Shortcuts: WComponent["src"]["object"]["collections"]["shortcuts"]=
+  export const Shortcuts: IWComponent["src"]["object"]["collections"]["shortcuts"]=
     WertsfyComponents.source.calc["constant.shortcuts"];
 
   /**
@@ -1427,7 +1427,7 @@ export namespace LibraryCalculator {
    * @argument numbers ***typeof: number[]***
    * 
    */
-  export const common: WComponent["src"]["function"]=
+  export const common: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.common"]; 
 
   /**
@@ -1448,7 +1448,7 @@ export namespace LibraryCalculator {
    * @argument numbers ***typeof: number[]***
    * 
    */
-  export const advanced: WComponent["src"]["function"]=
+  export const advanced: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.advanced"];
 
   /**
@@ -1469,7 +1469,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { constant }
    * 
    */
-  export const expTeoBoltzmann: WComponent["src"]["function"]=
+  export const expTeoBoltzmann: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.boltzmann"];
 
   /**
@@ -1490,7 +1490,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { distance }
    * 
    */
-  export const expTeoCoulomb: WComponent["src"]["function"]=
+  export const expTeoCoulomb: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.coulomb"];
 
   /**
@@ -1509,7 +1509,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
-  export const expTeoGirard: WComponent["src"]["function"]=
+  export const expTeoGirard: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.girard"];
 
   /**
@@ -1536,7 +1536,7 @@ export namespace LibraryCalculator {
    * @argument k ***typeof: number*** ⁝ { area"2" }
    * 
    */
-  export const expTeoPascal: WComponent["src"]["function"]=
+  export const expTeoPascal: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.pascal"];
 
   /**
@@ -1555,7 +1555,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.triangulosPitagoricos*** ⁝ { operation constructor object }
    * 
    */
-  export const expTeoPitagoras: WComponent["src"]["function"]=
+  export const expTeoPitagoras: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.pitagoras"];
 
   /**
@@ -1576,7 +1576,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: string*** ⁝ { constant }
    * 
    */
-  export const expTeoPlank: WComponent["src"]["function"]=
+  export const expTeoPlank: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.plank"];
 
   /**
@@ -1599,7 +1599,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { start height, final height }
    * 
    */
-  export const expTeoStevin: WComponent["src"]["function"]=
+  export const expTeoStevin: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.stevin"];
 
   /**
@@ -1618,7 +1618,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number***
    * 
    */
-  export const expTeoStirling: WComponent["src"]["function"]=
+  export const expTeoStirling: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.stirling"];
 
   /**
@@ -1637,7 +1637,7 @@ export namespace LibraryCalculator {
    * @argument x, y, z ***typeof: number***
    * 
    */
-  export const expTeoTalesDeMileto: WComponent["src"]["function"]=
+  export const expTeoTalesDeMileto: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.teo.tales_mileto"];
 
   /**
@@ -1660,7 +1660,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expEqcHorariaTempo: WComponent["src"]["function"]=
+  export const expEqcHorariaTempo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo"];
 
   /**
@@ -1681,7 +1681,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expEqcHorariaEspaco: WComponent["src"]["function"]=
+  export const expEqcHorariaEspaco: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_espaco"];
 
   /**
@@ -1704,7 +1704,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expEqcHorariaVelocidade: WComponent["src"]["function"]=
+  export const expEqcHorariaVelocidade: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade"];
 
   /**
@@ -1727,7 +1727,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { speed }
    * 
    */
-  export const expEqcHorariaAceleracao: WComponent["src"]["function"]=
+  export const expEqcHorariaAceleracao: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_acel"];
 
   /**
@@ -1750,7 +1750,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expEqcHorariaForca: WComponent["src"]["function"]=
+  export const expEqcHorariaForca: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_forca"];
 
   /**
@@ -1775,7 +1775,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expEqcHorariaEspacoTempo: WComponent["src"]["function"]=
+  export const expEqcHorariaEspacoTempo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_espaco"];
 
   /**
@@ -1798,7 +1798,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { time }
    * 
    */
-  export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+  export const expEqcHorariaTempoMovimentoCircularUniformenteVariado: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_tempo_movi_circ_unif_var"];
 
   /**
@@ -1823,7 +1823,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { time }
    * 
    */
-  export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+  export const expEqcHorariaEspacoMovimentoCircularUniformenteVariado: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_espaco_movi_circ_unif_var"];
 
   /**
@@ -1848,7 +1848,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { start level }
    * 
    */
-  export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+  export const expEqcHorariaPosicaoMovimentoHarmonicoSimples: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_posicao_movi_harm_simp"];
 
   /**
@@ -1873,7 +1873,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { start level }
    * 
    */
-  export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+  export const expEqcHorariaVelocidadeMovimentoHarmonicoSimples: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_velocidade_movi_harm_simp"];
 
   /**
@@ -1898,7 +1898,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { start level }
    * 
    */
-  export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: WComponent["src"]["function"]=
+  export const expEqcHorariaAceleracaoMovimentoHarmonicoSimples: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.horaria_acel_movi_harm_simp"];
 
   /**
@@ -1921,7 +1921,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: object: { number, number }*** ⁝ { start space, final space }
    * 
    */
-  export const expEqcTorricelli: WComponent["src"]["function"]=
+  export const expEqcTorricelli: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.torricelli"];
 
   /**
@@ -1940,7 +1940,7 @@ export namespace LibraryCalculator {
    * @argument x, y, xi, yi, xii, yii, xiii, yiii ***typeof: number***
    * 
    */
-  export const expEqcLagrange: WComponent["src"]["function"]=
+  export const expEqcLagrange: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.equac.lagrange"];
 
   /**
@@ -1959,7 +1959,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number***
    * 
    */
-  export const expClcFatorial: WComponent["src"]["function"]=
+  export const expClcFatorial: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.fatorial"];
 
   /**
@@ -1980,7 +1980,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { divisor }
    * 
    */
-  export const expClcCombinacao: WComponent["src"]["function"]=
+  export const expClcCombinacao: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.combinacao"];
 
   /**
@@ -2001,7 +2001,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { divisor }
    * 
    */
-  export const expClcArranjo: WComponent["src"]["function"]=
+  export const expClcArranjo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.arranjo"];
 
   /**
@@ -2022,7 +2022,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { total value }
    * 
    */
-  export const expClcProbabilidade: WComponent["src"]["function"]=
+  export const expClcProbabilidade: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.probabilidade"];
 
   /**
@@ -2041,7 +2041,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: string*** ⁝ { expression }
    * 
    */
-  export const expClcConjugadoNumeroComplexo: WComponent["src"]["function"]=
+  export const expClcConjugadoNumeroComplexo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.conjugado_num_complex"];
 
   /**
@@ -2064,7 +2064,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { faces }
    * 
    */
-  export const expClcRelacaoEuler: WComponent["src"]["function"]=
+  export const expClcRelacaoEuler: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.relacao_euler"];
 
   /**
@@ -2083,7 +2083,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number***
    * 
    */
-  export const expClcPotenciasDeI: WComponent["src"]["function"]=
+  export const expClcPotenciasDeI: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencias_de_i"];
 
   /**
@@ -2102,7 +2102,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.porcentagem*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcPorcentagem: WComponent["src"]["function"]=
+  export const expClcPorcentagem: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.porcentagem"];
 
   /**
@@ -2121,7 +2121,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.determinantes*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcDeterminante: WComponent["src"]["function"]=
+  export const expClcDeterminante: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.determinante"];
 
   /**
@@ -2142,7 +2142,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { polynomials sentence 1, polynomials sentence 2 }
    * 
    */
-  export const expClcPolinomios: WComponent["src"]["function"]=
+  export const expClcPolinomios: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.polinomios"];
 
   /**
@@ -2163,7 +2163,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number[][], number[][] }*** ⁝ { matrix sentence 1, matrix sentence 2 }
    * 
    */
-  export const expClcMatrizes: WComponent["src"]["function"]=
+  export const expClcMatrizes: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.matrizes"];
 
   /**
@@ -2184,7 +2184,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcVelocidade: WComponent["src"]["function"]=
+  export const expClcVelocidade: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.velocidade"];
 
   /**
@@ -2205,7 +2205,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcEspaco: WComponent["src"]["function"]=
+  export const expClcEspaco: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.espaco"];
 
   /**
@@ -2226,7 +2226,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial space, final space }
    * 
    */
-  export const expClcTempo: WComponent["src"]["function"]=
+  export const expClcTempo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.tempo"];
 
   /**
@@ -2247,7 +2247,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcAceleracao: WComponent["src"]["function"]=
+  export const expClcAceleracao: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.aceleracao"];
 
   /**
@@ -2268,7 +2268,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { speed }
    * 
    */
-  export const expClcEnergiaCinetica: WComponent["src"]["function"]=
+  export const expClcEnergiaCinetica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_cinetica"];
 
   /**
@@ -2289,7 +2289,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
    * 
    */
-  export const expClcEnergiaPotencialElastica: WComponent["src"]["function"]=
+  export const expClcEnergiaPotencialElastica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_elas"];
 
   /**
@@ -2312,7 +2312,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { height }
    * 
    */
-  export const expClcEnergiaPotencialGravitacional: WComponent["src"]["function"]=
+  export const expClcEnergiaPotencialGravitacional: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.energia_potencial_grav"];
 
   /**
@@ -2345,7 +2345,7 @@ export namespace LibraryCalculator {
    * @argument s ***typeof: boolean*** ⁝ { gravitational potential energy exists }
    * 
    */
-  export const expClcPotencialMecanico: WComponent["src"]["function"]=
+  export const expClcPotencialMecanico: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_mecanico"];
 
   /**
@@ -2366,7 +2366,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
    * 
    */
-  export const expClcPotencialElastico: WComponent["src"]["function"]=
+  export const expClcPotencialElastico: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.potencial_elastico"];
 
   /**
@@ -2387,7 +2387,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { gravity }
    * 
    */
-  export const expClcPlanoInclinadoSemAtrito: WComponent["src"]["function"]=
+  export const expClcPlanoInclinadoSemAtrito: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_sem_atrito"];
 
   /**
@@ -2412,7 +2412,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcPlanoInclinadoComAtrito: WComponent["src"]["function"]=
+  export const expClcPlanoInclinadoComAtrito: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.plano_incl_com_atrito"];
 
   /**
@@ -2435,7 +2435,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcAceleracaoPlanoInclinadoEixoX: WComponent["src"]["function"]=
+  export const expClcAceleracaoPlanoInclinadoEixoX: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_x"];
 
   /**
@@ -2458,7 +2458,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcAceleracaoPlanoInclinadoEixoY: WComponent["src"]["function"]=
+  export const expClcAceleracaoPlanoInclinadoEixoY: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_plan_incl_eixo_y"];
 
   /**
@@ -2479,7 +2479,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcLancamentoHorizontal: WComponent["src"]["function"]=
+  export const expClcLancamentoHorizontal: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lancamento_horizontal"];
 
   /**
@@ -2502,7 +2502,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcAlturaMaxLancamentoVertical: WComponent["src"]["function"]=
+  export const expClcAlturaMaxLancamentoVertical: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alt_max_lanc_vert"];
 
   /**
@@ -2525,7 +2525,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcAlcanceLancamentoVertical: WComponent["src"]["function"]=
+  export const expClcAlcanceLancamentoVertical: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_lanc_vert"];
 
   /**
@@ -2548,7 +2548,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcAlcanceMaxLancamentoVertical: WComponent["src"]["function"]=
+  export const expClcAlcanceMaxLancamentoVertical: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.alc_max_lanc_vert"];
 
   /**
@@ -2571,7 +2571,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
    * 
    */
-  export const expClcCalorSensivel: WComponent["src"]["function"]=
+  export const expClcCalorSensivel: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_sensivel"];
 
   /**
@@ -2592,7 +2592,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { massa }
    * 
    */
-  export const expClcCalorLatente: WComponent["src"]["function"]=
+  export const expClcCalorLatente: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.calor_latente"];
 
   /**
@@ -2613,7 +2613,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { acceleration }
    * 
    */
-  export const expClcLeisDeNewton: WComponent["src"]["function"]=
+  export const expClcLeisDeNewton: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.leis_de_newton"];
 
   /**
@@ -2636,7 +2636,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { height }
    * 
    */
-  export const expClcTrabalho: WComponent["src"]["function"]=
+  export const expClcTrabalho: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.trabalho"];
 
   /**
@@ -2659,7 +2659,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { ddp }
    * 
    */
-  export const expClcConsumoDeEnergia: WComponent["src"]["function"]=
+  export const expClcConsumoDeEnergia: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.consumo_de_energia"];
 
   /**
@@ -2682,7 +2682,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
    * 
    */
-  export const expClcForcaGravitacional: WComponent["src"]["function"]=
+  export const expClcForcaGravitacional: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_gravitacional"];
 
   /**
@@ -2703,7 +2703,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { ray }
    * 
    */
-  export const expClcAceleracaoCentripetaMovimentoCircularUniforme: WComponent["src"]["function"]=
+  export const expClcAceleracaoCentripetaMovimentoCircularUniforme: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.acel_centrip_mcu"];
 
   /**
@@ -2724,7 +2724,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcVelocidadeAngularMovimentoCircularUniforme: WComponent["src"]["function"]=
+  export const expClcVelocidadeAngularMovimentoCircularUniforme: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_ang_movi_circ_unif"];
 
   /**
@@ -2745,7 +2745,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { ray }
    * 
    */
-  export const expClcVelocidadeLinearMovimentoCircularUniforme: WComponent["src"]["function"]=
+  export const expClcVelocidadeLinearMovimentoCircularUniforme: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.veloc_linear_movi_circ_unif"];
 
   /**
@@ -2768,7 +2768,7 @@ export namespace LibraryCalculator {
    * @argument z: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial angular displacement, final angular displacement }
    * 
    */
-  export const expClcTorricelliMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+  export const expClcTorricelliMovimentoCircularUniformenteVariado: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.torricelli-movi-circ-unif-var"];
 
   /**
@@ -2789,7 +2789,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: WComponent["src"]["function"]=
+  export const expClcAceleracaoAngularMovimentoCircularUniformenteVariado: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc_acel_ang_movi_circ_var"];
 
   /**
@@ -2808,7 +2808,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number*** ⁝ { period }
    * 
    */
-  export const expClcFrequencia: WComponent["src"]["function"]=
+  export const expClcFrequencia: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.frequencia"];
 
   /**
@@ -2827,7 +2827,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number*** ⁝ { frequence }
    * 
    */
-  export const expClcPeriodo: WComponent["src"]["function"]=
+  export const expClcPeriodo: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.periodo"];
 
   /**
@@ -2844,7 +2844,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { value }
    * 
    */
-  export const expClcTemperatura: WComponent["src"]["function"]=
+  export const expClcTemperatura: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.temperatura"];
 
   /**
@@ -2867,7 +2867,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
    * 
    */
-  export const expClcDilatacaoLinear: WComponent["src"]["function"]=
+  export const expClcDilatacaoLinear: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_linear"];
 
   /**
@@ -2890,7 +2890,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
    * 
    */
-  export const expClcDilatacaoSuperficial: WComponent["src"]["function"]=
+  export const expClcDilatacaoSuperficial: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_superficial"];
 
   /**
@@ -2913,7 +2913,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial temperature, final temperature }
    * 
    */
-  export const expClcDilatacaoVolumetrica: WComponent["src"]["function"]=
+  export const expClcDilatacaoVolumetrica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.dilatacao_volumetrica"];
 
   /**
@@ -2936,7 +2936,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial height, final height }
    * 
    */
-  export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+  export const expClcPrincipioFundamentalHidroestaticaHidrodinamica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.principio_fund_hidroest_hidrodinam"];
 
   /**
@@ -2959,7 +2959,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { volume }
    * 
    */
-  export const expClcEmpuxoHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+  export const expClcEmpuxoHidroestaticaHidrodinamica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.empuxo_hidroes_hidrodinam"];
 
   /**
@@ -2984,7 +2984,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: number*** ⁝ { volume }
    * 
    */
-  export const expClcPesoAparenteHidroestaticaHidrodinamica: WComponent["src"]["function"]=
+  export const expClcPesoAparenteHidroestaticaHidrodinamica: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.peso_aparente_hidroest_hidrodinam"];
 
   /**
@@ -3005,7 +3005,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { massa }
    * 
    */
-  export const expClcAtrito: WComponent["src"]["function"]=
+  export const expClcAtrito: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.atrito"];
 
   /**
@@ -3026,7 +3026,7 @@ export namespace LibraryCalculator {
    * @argument y: { y1, y2 } ***typeof: object: { number, number }*** ⁝ { initial distance, final distance }
    * 
    */
-  export const expClcLeiDeCoulomb: WComponent["src"]["function"]=
+  export const expClcLeiDeCoulomb: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_coulomb"];
 
   /**
@@ -3047,7 +3047,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { current }
    * 
    */
-  export const expClcLeideOhm: WComponent["src"]["function"]=
+  export const expClcLeideOhm: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_ohm"];
 
   /**
@@ -3070,7 +3070,7 @@ export namespace LibraryCalculator {
    * @argument z: { z1, z2 } ***typeof: object: { number, number }*** ⁝ { initial time, final time }
    * 
    */
-  export const expClcEfeitoJoule: WComponent["src"]["function"]=
+  export const expClcEfeitoJoule: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_joule"];
 
   /**
@@ -3093,7 +3093,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { angle }
    * 
    */
-  export const expClcLeiDeLenz: WComponent["src"]["function"]=
+  export const expClcLeiDeLenz: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_de_lenz"];
 
   /**
@@ -3114,7 +3114,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { current intensity }
    * 
    */
-  export const expClcForcaEletromotriz: WComponent["src"]["function"]=
+  export const expClcForcaEletromotriz: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.forca_eletromotriz"];
 
   /**
@@ -3135,7 +3135,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { current intensity }
    * 
    */
-  export const expClcContraForcaEletromotriz: WComponent["src"]["function"]=
+  export const expClcContraForcaEletromotriz: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.contra_forca_eletromotriz"];
 
   /**
@@ -3154,7 +3154,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: number*** ⁝ { light frequency }
    * 
    */
-  export const expClcEfeitoFotoeletrico: WComponent["src"]["function"]=
+  export const expClcEfeitoFotoeletrico: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.efeito_fotoeletrico"];
 
   /**
@@ -3175,7 +3175,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { volume }
    * 
    */
-  export const expClcDensidade: WComponent["src"]["function"]=
+  export const expClcDensidade: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.densidade"];
 
   /**
@@ -3202,7 +3202,7 @@ export namespace LibraryCalculator {
    * @argument k ***typeof: number*** ⁝ { acid volume }
    * 
    */
-  export const expClcTitulacao: WComponent["src"]["function"]=
+  export const expClcTitulacao: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.titulacao"];
 
   /**
@@ -3223,7 +3223,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { volume }
    * 
    */
-  export const expClcConcentracao: WComponent["src"]["function"]=
+  export const expClcConcentracao: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.concentracao"];
 
   /**
@@ -3244,7 +3244,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { total value }
    * 
    */
-  export const expClcRendimento: WComponent["src"]["function"]=
+  export const expClcRendimento: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.rendimento"];
 
   /**
@@ -3273,7 +3273,7 @@ export namespace LibraryCalculator {
    * @argument t ***typeof: string*** ⁝ { temperature b }
    * 
    */
-  export const expClcLeiDosGases: WComponent["src"]["function"]=
+  export const expClcLeiDosGases: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.lei_geral_dos_gases"];
 
   /**
@@ -3298,7 +3298,7 @@ export namespace LibraryCalculator {
    * @argument w ***typeof: string*** ⁝ { variable position }
    * 
    */
-  export const expClcRegraDeTresSimples: WComponent["src"]["function"]=
+  export const expClcRegraDeTresSimples: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_simples"];
 
   /**
@@ -3331,7 +3331,7 @@ export namespace LibraryCalculator {
    * @argument s ***typeof: string*** ⁝ { variable position }
    * 
    */
-  export const expClcRegraDeTresComposta: WComponent["src"]["function"]=
+  export const expClcRegraDeTresComposta: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.regra_de_tres_composta"];
 
   /**
@@ -3352,7 +3352,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: string*** ⁝ { expression b }
    * 
    */
-  export const expClcSistemaDeEquacoes: WComponent["src"]["function"]=
+  export const expClcSistemaDeEquacoes: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_equacoes"];
 
   /**
@@ -3373,7 +3373,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: string*** ⁝ { expression b }
    * 
    */
-  export const expClcSistemaDeInequacoes: WComponent["src"]["function"]=
+  export const expClcSistemaDeInequacoes: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistema_de_inequacoes"];
 
   /**
@@ -3392,7 +3392,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: string[]*** ⁝ { expressions list }
    * 
    */
-  export const expClcSistemasLineares: WComponent["src"]["function"]=
+  export const expClcSistemasLineares: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sistemas_lineares"];
 
   /**
@@ -3415,7 +3415,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { potency } *optional attibute* 
    * 
    */
-  export const expClcNumerosComplexos: WComponent["src"]["function"]=
+  export const expClcNumerosComplexos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numeros_complex"];
 
   /**
@@ -3438,7 +3438,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { time } 
    * 
    */
-  export const expClcJurosSimples: WComponent["src"]["function"]=
+  export const expClcJurosSimples: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_simples"];
 
   /**
@@ -3463,7 +3463,7 @@ export namespace LibraryCalculator {
    * @argument k ***typeof: number*** ⁝ { times } 
    * 
    */
-  export const expClcJurosCompostos: WComponent["src"]["function"]=
+  export const expClcJurosCompostos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.juros_compostos"];
 
   /**
@@ -3484,7 +3484,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: number*** ⁝ { ordered }
    * 
    */
-  export const expClcSinalizacaoQuadrantes: WComponent["src"]["function"]=
+  export const expClcSinalizacaoQuadrantes: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_quadrantes"];
 
   /**
@@ -3507,7 +3507,7 @@ export namespace LibraryCalculator {
    * @argument z ***typeof: number*** ⁝ { cota }
    * 
    */
-  export const expClcSinalizacaoOctantes: WComponent["src"]["function"]=
+  export const expClcSinalizacaoOctantes: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.sinalizacao_octantes"];
 
   /**
@@ -3528,7 +3528,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: string*** ⁝ { genotype b }
    * 
    */
-  export const expClcQuadradoDePunnet: WComponent["src"]["function"]=
+  export const expClcQuadradoDePunnet: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet"];
 
   /**
@@ -3549,7 +3549,7 @@ export namespace LibraryCalculator {
    * @argument y ***typeof: string*** ⁝ { genotype b }
    * 
    */
-  export const expClcQuadradoDePunnetExtendido: WComponent["src"]["function"]=
+  export const expClcQuadradoDePunnetExtendido: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.quadrado_de_punnet_extendido"];
 
   /**
@@ -3568,7 +3568,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.operacoesDiversos*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcDiversos: WComponent["src"]["function"]=
+  export const expClcDiversos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.diversos"];
 
   /**
@@ -3587,7 +3587,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.operacoesNumericos*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcNumericos: WComponent["src"]["function"]=
+  export const expClcNumericos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.numericos"];
 
   /**
@@ -3606,7 +3606,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.operacoesDiagramaVenn*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcDiagramaVenn: WComponent["src"]["function"]=
+  export const expClcDiagramaVenn: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.diagrama_venn"];
 
   /**
@@ -3625,7 +3625,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.operacoesCartesianos*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcCartesianos: WComponent["src"]["function"]=
+  export const expClcCartesianos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.cartesianos"];
 
   /**
@@ -3644,7 +3644,7 @@ export namespace LibraryCalculator {
    * @argument x ***typeof: TExpressoes.operacoesGeometricos*** ⁝ { operation constructor object }
    * 
    */
-  export const expClcGeometricos: WComponent["src"]["function"]=
+  export const expClcGeometricos: IWComponent["src"]["function"]=
     WertsfyComponents.source.calc["method.expression.calc.geometricos"];
 
 }

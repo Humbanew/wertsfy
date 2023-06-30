@@ -1,4 +1,4 @@
-export declare interface TComuns {
+export declare interface ITComuns {
 
   /**
    * **𝕎𝕖𝕣𝕥𝕤𝕗𝕪**

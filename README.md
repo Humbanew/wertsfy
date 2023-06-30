@@ -3,12 +3,12 @@
 ![Open Source Project Badge](https://user-images.githubusercontent.com/59739253/221102346-5af3f295-c91c-4d8d-acce-043bc83a9cc7.png)
 ![Typescript](https://img.shields.io/badge/typescript-black.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
 ![Javascript](https://img.shields.io/badge/javascript-black.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
-![Python](https://img.shields.io/badge/python-black.svg?style=for-the-badge&logo=python&logoColor=gold)
-![C_CPP](https://img.shields.io/badge/c_/_c++_lang-black.svg?style=for-the-badge&logo=c&logoColor=lightblue)
 
 ___
 
 <div align="center"> 
+
+  ### Versão: [v0.2.0]<br>
   
   ![Wertsfy Logo Gen 6 CE](https://user-images.githubusercontent.com/59739253/226102298-90549bc6-a19e-4c5f-af14-abae2461a272.png)
   

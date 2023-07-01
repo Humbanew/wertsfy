@@ -3,5 +3,5 @@
   
   "editor.semanticHighlighting.enabled": true,
   "editor.autoClosingBrackets": "languageDefined",
-  "editor.cursorStyle": "underline",
+  "editor.cursorStyle": "line",
 }

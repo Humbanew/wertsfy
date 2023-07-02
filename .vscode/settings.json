@@ -1,7 +1,0 @@
-{
-  "C_Cpp.errorSquiggles": "enabled",
-  
-  "editor.semanticHighlighting.enabled": true,
-  "editor.autoClosingBrackets": "languageDefined",
-  "editor.cursorStyle": "line",
-}

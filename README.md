@@ -8,16 +8,10 @@ ___
 
 <div align="center"> 
 
-  ### Versão: [v0.2.0]<br>
+  ### Versão: [v1.0.0]<br>
   
   ![Wertsfy Logo Gen 6 CE](https://user-images.githubusercontent.com/59739253/226102298-90549bc6-a19e-4c5f-af14-abae2461a272.png)
   
   ![Wertsfy Logo Gen 6 PUE](https://user-images.githubusercontent.com/59739253/226102296-92768bd8-ff89-464c-8bd6-5fb1d670d92e.png)
-  
-  ## Components
-  
-  ![WTFYMTHLIBMD](https://user-images.githubusercontent.com/59739253/231926427-9f41dc14-65d6-4a85-a710-14e14c7a7bd2.png)
-
-  ![WTFYCLCLIBMD](https://user-images.githubusercontent.com/59739253/231926423-2d95baeb-a202-4d29-955b-175b92226ac7.png)
 
 </div>

@@ -6,12 +6,11 @@
 
 typedef struct Node{
   int data;
-  int meta;
   struct Node* next;
 }Node;
 
 typedef struct List{
-  struct Node* head;
+  int size;
   struct Node* tail;
 }List;
 
@@ -33,13 +32,7 @@ namespace wfx6_structures {
 
     Node* node = (Node*) malloc(sizeof(Node));
     node->data = v;
-    node->meta = 0;
     node->next = NULL;
-
-    if(node->meta == 0){
-      l->head = node;
-      l->tail = node;
-    }
 
     l->tail->next = node;
 
@@ -51,11 +44,12 @@ namespace wfx6_structures {
       return;
     }
 
-    Node* node = l->head;
+    Node* node = l->tail->next;
     while(node != NULL){
       printf("%d ", node->data);
       node = node->next;
     }
+
   }
 
 }

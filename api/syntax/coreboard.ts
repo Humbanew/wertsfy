@@ -1,1 +1,13 @@
-let wertsfyCoreboard = undefined;
+let wertsfyPlacaDeNucleos=
+{
+
+  bibliotecas: {
+
+
+    aritmeticos: { }
+
+
+  }
+
+
+};

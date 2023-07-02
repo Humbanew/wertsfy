@@ -1,1 +1,5 @@
-export const wertsfy = {};
+export const wertsfy = {
+
+  libaritm: wertsfyPlacaDeNucleos.bibliotecas.aritmeticos,
+
+};

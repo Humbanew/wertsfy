@@ -1,1 +1,1 @@
-
+interface IComponent<K> {};

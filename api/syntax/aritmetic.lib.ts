@@ -4,8 +4,11 @@ interface ISeletor {
   // atuais
   "#soma" | "#subtracao" | "#divisao" | "#multiplicacao" | "#potencia"
 
-  // adicionais
-  | "#abs" | "#arcsin" | "#arcsinh" | "#arccos" | "#arccosh" | "#arctan" | "#arctanh" | "#arcsec" | "#arcsech" | "#arccosec" | "#arccosech" | "#arccotan" | "#arccotanh" | "#cbrt" | "#ceil" | "#decrt" | "#exp" | "#expm1" | "#expp1" | "#floor" | "#fround" | "#imul" | "#ln" | "#lnm1" | "#lnp1" | "#log" | "#logm1" | "#logp1" | "#log10" | "#log10m1" | "#log10p1" | "#log2" | "#log2m1" | "#log2p1"
+  // adicionais - @letra-a
+  | "#abs" | "#arcsin" | "#arcsinh" | "#arccos" | "#arccosh" | "#arctan" | "#arctanh" | "#arcsec" | "#arcsech" | "#arccosec" | "#arccosech" | "#arccotan" | "#arccotanh" 
+
+  // adicionais - @letra-b
+
 
 } var Seletor: ISeletor["opcoes"];
 

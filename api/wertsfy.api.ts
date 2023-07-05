@@ -1,4 +1,4 @@
-import { Aritmeticos } from "./syntax/aritm.lib";
+import { Aritmeticos } from "./syntax/aritmetic.lib";
 
 export const wertsfy= 
 {

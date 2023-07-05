@@ -1,13 +1,12 @@
-let wertsfyPlacaDeNucleos=
+import { Aritmeticos } from "./core/aritm.lib";
+
+export let wertsfyPlacaDeNucleos=
 {
 
   bibliotecas: {
 
-
-    aritmeticos: { }
-
+    aritm: Aritmeticos
 
   }
-
 
 };

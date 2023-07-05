@@ -1,5 +1,8 @@
-export const wertsfy = {
+import { wertsfyPlacaDeNucleos } from "./syntax/coreboard";
 
-  libaritm: wertsfyPlacaDeNucleos.bibliotecas.aritmeticos,
+export const wertsfy= 
+{
+
+  libaritm: wertsfyPlacaDeNucleos.bibliotecas.aritm,
 
 };

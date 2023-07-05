@@ -34,7 +34,13 @@ namespace wfx6_structures {
     node->data = v;
     node->next = NULL;
 
+    if(l->tail == NULL){
+      l->tail = node;
+      l->size++;
+    }
+
     l->tail->next = node;
+    l->size++;
 
   }
 

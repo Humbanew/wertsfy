@@ -1,15 +1,6 @@
 /// <reference path="./interfaces/wtsfy.int.d.ts" />
 import { Seletor } from "./interfaces/wtsfy.int";
 
-/**
- *  
- * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
- * 
- * **``Biblioteca [Library] - Aritmeticos``**
- * 
- * Contém as referências de constantes e funções aritméticas. _[Contains the references of constants and arithmetic functions.]_ 
- * 
- */
 export const Aritmeticos =
 {
 

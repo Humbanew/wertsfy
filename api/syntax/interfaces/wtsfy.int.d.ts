@@ -11,7 +11,7 @@ interface IException {
 } export var Exception: IException["message"];
 
 
-
+// Arrumar aqui. {#ff2200}
 interface ISeletor {
 
   opcoes:

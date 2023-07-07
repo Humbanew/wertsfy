@@ -1,5 +1,5 @@
 import { wertsfy } from "../api/wertsfy.api";
 
 // Biblioteca Aritmeticas
-wertsfy.Bibliotecas.aritm;
+wertsfy.Bibliotecas.arithm;
 

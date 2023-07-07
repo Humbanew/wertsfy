@@ -11,5 +11,6 @@ ___
 ![Wertsfy Logo Gen 6 CE](https://github.com/Humbanew/wertsfy/assets/59739253/79ed4ca5-9cf1-4e76-a489-ece65d4bfc95)
 ![Wertsfy Logo Gen 6 PUE](https://github.com/Humbanew/wertsfy/assets/59739253/4ed84535-5c22-46b9-a57b-7a0a1dc01106)
 ![Wertsfy Logo Gen 6 ICEE](https://github.com/Humbanew/wertsfy/assets/59739253/ac537b50-bf8e-4c26-80bf-bc43afe90fa1)
+![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
 
 </div>

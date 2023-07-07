@@ -40,7 +40,7 @@ export const wertsfy=
      * 
      * ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0342bd7c-de0b-4b40-a8e2-c6e83733e296)
      * ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a13efd6e-eacb-4d85-a0a0-dd7329a6def6)
-     * ![Library Badge - Aritmetic](https://github.com/Humbanew/wertsfy/assets/59739253/b8614bba-8e90-4466-b897-05f6874a806c)
+     * ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/600a6626-109a-41ed-bb3f-7d651b81d3aa)
      * 
      * **``Biblioteca [Library] - Aritmeticos``**
      * 

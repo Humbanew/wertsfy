@@ -20,7 +20,7 @@ ___
 
 ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0342bd7c-de0b-4b40-a8e2-c6e83733e296)
 ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a13efd6e-eacb-4d85-a0a0-dd7329a6def6)
-![Library Badge - Aritmetic](https://github.com/Humbanew/wertsfy/assets/59739253/b8614bba-8e90-4466-b897-05f6874a806c)
+![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/600a6626-109a-41ed-bb3f-7d651b81d3aa)
 ![Library Badge - Marcation](https://github.com/Humbanew/wertsfy/assets/59739253/b0ebba1f-98cc-4413-9643-3759bc6c564f)
 ![Library Badge - Nikko](https://github.com/Humbanew/wertsfy/assets/59739253/79db85eb-866d-4b3f-96de-a48687381593)
 ![Library Badge - Color](https://github.com/Humbanew/wertsfy/assets/59739253/529bdc54-92f1-4f77-9ada-8c2890c9d626)

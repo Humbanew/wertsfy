@@ -67,14 +67,32 @@ interface IException {
 
 } var Exception: IException["message"];
 
+/**
+ *  
+ * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+ * 
+ * **``Biblioteca [Library] - Aritmeticos``**
+ * 
+ * Contém as referências de constantes e funções aritméticas. _[Contains the references of constants and arithmetic functions.]_ 
+ * 
+ */
 export const Aritmeticos =
 {
 
+  /**
+   *  
+   * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+   * 
+   * **``Categoria [Category] - Consts``**
+   * 
+   * Contém as constantes aritméticas. _[Contains the arithmetic constants.]_ 
+   * 
+   */
   Consts: {
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -89,7 +107,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -104,7 +122,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -119,7 +137,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -134,7 +152,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -149,7 +167,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -164,7 +182,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -179,7 +197,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -194,7 +212,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -209,7 +227,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -224,7 +242,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -239,7 +257,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -254,7 +272,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -269,7 +287,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -284,7 +302,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -299,7 +317,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -314,7 +332,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -329,7 +347,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -344,7 +362,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -359,7 +377,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -374,7 +392,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -389,7 +407,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -404,7 +422,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -419,7 +437,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -434,7 +452,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -450,7 +468,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -465,7 +483,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -480,7 +498,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -495,7 +513,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -510,7 +528,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -525,7 +543,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -540,7 +558,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -555,7 +573,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -570,7 +588,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -585,7 +603,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -600,7 +618,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -615,7 +633,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -630,7 +648,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -645,7 +663,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -660,7 +678,7 @@ export const Aritmeticos =
 
     /**
      * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  
@@ -675,7 +693,7 @@ export const Aritmeticos =
 
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/b6593280-13b5-498b-94bd-d5c46ad72dbb)
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * **``Constante [Constant]``**
      *  

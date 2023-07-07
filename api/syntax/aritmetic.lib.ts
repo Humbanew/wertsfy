@@ -708,8 +708,16 @@ export const Aritmeticos =
 
   },
 
+  /**
+   *  
+   * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+   * 
+   * **``Categoria [Category] - Metodo``**
+   * 
+   * Contém as funções aritméticas. _[Contains the arithmetic functions.]_ 
+   * 
+   */
   Metodo: (S: typeof Seletor, ...Nmbs: number[] | object[]) => { }
 
 };
 
-Aritmeticos.Consts.c_sqrt_of09;

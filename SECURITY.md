@@ -7,8 +7,9 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Wertsfy 0.1.0 | :white_check_mark: |
-| Wertsfy 0.2.0 | :white_check_mark: |
+| Wertsfy 0.1.0 Beta | ✖️ |
+| Wertsfy 0.2.0 Beta | ✖️ |
+| Wertsfy 1.0.0 Beta/Release | ✔️ |
 
 ## Reporting a Vulnerability
 

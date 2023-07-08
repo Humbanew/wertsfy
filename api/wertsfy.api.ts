@@ -19,10 +19,10 @@ export const wertsfy=
    *  
    * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
    * 
-   * **``Bibliotecas da API [API Librarys]``**
-   * 
    * ___
    * ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/29e3f26c-0526-454e-8a9c-b56a818fcf0a)
+   * 
+   * **``Bibliotecas da API [API Librarys]``**
    * 
    * Contém todas as bibliotecas disponíveis. _[Contains all available libraries.]_
    * 

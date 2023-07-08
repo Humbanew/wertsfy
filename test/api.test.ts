@@ -5,5 +5,6 @@ wertsfy.Bibliotecas.arithm;
 
 wertsfy.Bibliotecas.arithm.Consts;
 
+wertsfy.Bibliotecas.arithm.Metodo;
 
-
+wertsfy.Bibliotecas.arithm.Consts.c_cbrt_of05;

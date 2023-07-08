@@ -9,7 +9,10 @@
     "strict": false,
     "alwaysStrict": false,
     "isolatedModules": false,
-    "rootDir": "./"
+    "rootDir": "./",
+    
+    // Javascript Builded Files 
+    "outDir": "./exports/build"
 
   }
 

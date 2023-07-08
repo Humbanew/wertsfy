@@ -8,6 +8,9 @@ export const Aritmeticos =
    *  
    * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
    * 
+   * ___
+   * ![Library Badge - Arithmetic Category](https://github.com/Humbanew/wertsfy/assets/59739253/d2769cee-5e58-4e9a-9767-331b8587d849)
+   * 
    * **``Categoria [Category] - Consts``**
    * 
    * Contém as constantes aritméticas. _[Contains the arithmetic constants.]_ 
@@ -18,6 +21,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -34,6 +40,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 1/2. [_Returns the cubic root of 1/2._]
@@ -48,6 +57,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -64,6 +76,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 1/6. [_Returns the cubic root of 1/6._]
@@ -78,6 +93,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -94,6 +112,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 1. [_Returns the cubic root of 1._]
@@ -108,6 +129,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -124,6 +148,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 3. [_Returns the cubic root of 3._]
@@ -138,6 +165,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -154,6 +184,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 5. [_Returns the cubic root of 5._]
@@ -168,6 +201,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -184,6 +220,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 7. [_Returns the cubic root of 7._]
@@ -198,6 +237,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -214,6 +256,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz cúbica de 9. [_Returns the cubic root of 9._]
@@ -228,6 +273,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -244,6 +292,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor de coulomb. [_Returns the value of coulomb._]
@@ -258,6 +309,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -274,6 +328,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor do logaritmo de 2. [_Returns the value of the logarithm of 2._]
@@ -288,6 +345,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -304,6 +364,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor do logaritmo de 10. [_Returns the value of the logarithm of 10._]
@@ -318,6 +381,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -334,6 +400,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor máximo. [_Returns the max value._]
@@ -348,6 +417,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -364,6 +436,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor de newton. [_Returns the value of newton._]
@@ -378,6 +453,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -395,6 +473,9 @@ export const Aritmeticos =
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor de plank. [_Returns the value of plank._]
@@ -409,6 +490,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -425,6 +509,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 1/4. [_Returns the square root of 1/4._]
@@ -439,6 +526,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -455,6 +545,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 1/8. [_Returns the square root of 1/8._]
@@ -469,6 +562,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -485,6 +581,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 2. [_Returns the square root of 2._]
@@ -499,6 +598,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -515,6 +617,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 4. [_Returns the square root of 4._]
@@ -529,6 +634,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -545,6 +653,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 6. [_Returns the square root of 6._]
@@ -559,6 +670,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -575,6 +689,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 8. [_Returns the square root of 8._]
@@ -589,6 +706,9 @@ export const Aritmeticos =
     /**
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -605,6 +725,9 @@ export const Aritmeticos =
      * 
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+     * 
      * **``Constante [Constant]``**
      *  
      * Retorna o valor da raiz quadrada de 10. [_Returns the square root of 10._]
@@ -619,6 +742,9 @@ export const Aritmeticos =
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
      * 
      * **``Constante [Constant]``**
      *  
@@ -636,6 +762,9 @@ export const Aritmeticos =
   /**
    *  
    * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+   * 
+   * ___
+   * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/a7ca9454-1493-4c1e-b63c-6f71989acd7c)
    * 
    * **``Categoria [Category] - Metodo``**
    * 

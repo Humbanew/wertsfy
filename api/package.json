@@ -16,6 +16,6 @@
     "ts-node": "^10.9.1"
   },
   "bin": {
-    "wtfy": "wertsfy.cli.js"
+    "wtfy": "./cli/wertsfy.cli.js"
   }
 }

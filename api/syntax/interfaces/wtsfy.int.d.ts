@@ -1,373 +1,345 @@
-interface IFabricator {
-
-  returns: Function | ClassMemberDecoratorContext;
-
-} export var Fabricator: IFabricator["returns"];
-
-interface IException {
+interface IGException {
 
   message: string;
 
-} export var Exception: IException["message"];
+} export var Exception: IGException["message"];
 
+
+interface IASeletor { 
+
+  functions: 
+    
+      "+1O#abs" 
+    | "+1O#arcsin" 
+    | "+1O#arcsinh" 
+    | "+1O#arccos" 
+    | "+1O#arccosh" 
+    | "+1O#arctan" 
+    | "+1O#arctanh" 
+    | "+1O#arcsec" 
+    | "+1O#arcsech" 
+    | "+1O#arccosec" 
+    | "+1O#arccosech" 
+    | "+1O#arccotan" 
+    | "+1O#arccotanh" 
+
+    | "+1O#cbrt" 
+    | "+1O#ceil"
+
+    | "+1O#decrt"
+
+    | "+1O#exp" 
+    | "+1O#expm1" 
+    | "+1O#expp1"
+
+    | "+1O#floor" 
+    | "+1O#fround"
+
+    | "+1O#imul"
+
+    | "+1O#soma" 
+    | "+1O#subtracao" 
+    | "+1O#divisao" 
+    | "+1O#multiplicacao" 
+    | "+1O#potencia"
+
+
+  | "+1O#ln" 
+  | "+1O#lnm1" 
+  | "+1O#lnp1" 
+  | "+1O#log" 
+  | "+1O#logm1" 
+  | "+1O#logp1" 
+  | "+1O#log2" 
+  | "+1O#log2m1" 
+  | "+1O#log2p1" 
+  | "+1O#logx" 
+  | "+1O#logxm1" 
+  | "+1O#logxp1"
+
+  | "+1O#max" 
+  | "+1O#min"
+
+  | "+1O#nonrt"
+
+  | "+1O#octrt"
+
+  | "+1O#pow" 
+  | "+1O#powm1" 
+  | "+1O#powp1" 
+  | "+1O#powofpow" 
+  | "+1O#powofpowm1" 
+  | "+1O#powofpowp1"
+
+  | "+1O#quart" 
+  | "+1O#quirt"
+
+  | "+1O#random" 
+  | "+1O#round"
+
+  | "+1O#sec" 
+  | "+1O#sech" 
+  | "+1O#seprt" 
+  | "+1O#sexrt" 
+  | "+1O#sign" 
+  | "+1O#sin" 
+  | "+1O#sinh" 
+  | "+1O#sqrt"
+
+  | "+1O#tan" 
+  | "+1O#tanh" 
+  | "+1O#trunc"
+
+  | "+3C#hexadecimal_para_decimal"
+  | "+3C#decimal_para_hexadecimal"
+  | "+3C#octadecimal_para_decimal"
+  | "+3C#decimal_para_octadecimal"
+  | "+3C#binario_para_decimal"
+  | "+3C#decimal_para_binario"
+  | "+3C#hexadecimal_para_binario"
+  | "+3C#binario_para_hexadecimal"
+  | "+3C#octadecimal_para_binario"
+  | "+3C#binario_para_octadecimal"
+  | "+3C#hexadecimal_para_octadecimal"
+  | "+3C#octadecimal_para_hexadecimal"
+
+} export var Seletor: IASeletor["functions"];
 
 // Arrumar aqui. {#ff2200}
-interface ISeletor {
-
-  opcoes:
-// [*] => funções inexistentes 
-  // Calc - Common
-  "#soma" | "#subtracao" | "#divisao" | "#multiplicacao" | "#potencia"
 
   // Calc - Expressions
 
   /**
    *       
-   *  "method.expression.calc_acel_ang_movi_circ_var": 
-        typeof Component_math_calculator_exp_calc_aceleracao_angular_movimento_circular_uniformente_variado_method
+   * aceleracao_angular_movimento_circular_uniformente_variado
+   *
+   * aceleracao_centripeta_movimento_circular_uniforme
+   *
+   * aceleracao_no_plano_inclinado_eixo_x
+   *
+   * aceleracao_no_plano_inclinado_eixo_y
+   *
+   * aceleracao
+   *
+   * alcance_lancamento_vertical
+   *
+   * alcance_maximo_lancamento_vertical
+   *
+   * altura_maxima_lancamento_vertical
+   *
+   * arranjo
+   *
+   * atrito
+   * 
+   * binômio_de_newton
+   *
+   * calor_latente
+   *
+   * calor_sensivel
+   *
+   * cartesiano_primeiro_grau
+   * 
+   * cartesiano_segundo_grau
+   * 
+   * cartesiano_terceiro_grau
+   * 
+   * cartesiano_quarto_grau
+   *
+   * combinacao
+   *
+   * concentracao
+   *
+   * conjugado_numero_complexo
+   *
+   * consumo_de_energia
+   *
+   * contra_forca_eletromotriz
+   * 
+   * densidade
+   *
+   * determinante_2x2
+   * 
+   * determinante_3x3
+   *
+   * diagrama_venn_2_grupos
+   * 
+   * diagrama_venn_3_grupos
+   * 
+   * diagrama_venn_4_grupos
+   * 
+   * ?diagrama_venn_5_grupos
+   * 
+   * ?diagrama_venn_6_grupos
+   *
+   * dilatacao_linear
+   *
+   * dilatacao_superficial
+   *
+   * dilatacao_volumetrica
+   *
+   * diversos_escala_geografica
+   * 
+   * diversos_idh
+   * 
+   * diversos_gini
+   * 
+   * diversos_imc
+   * 
+   * diversos_densidade_populacional
+   * 
+   * efeito_fotoeletrico
+   *
+   * efeito_joule
+   *
+   * empuxo_hidroestatica_hidrodinamica
+   *
+   * energia_cinetica
 
-      "method.expression.calc.acel_centrip_mcu": 
-        typeof Component_math_calculator_exp_calc_aceleracao_centripeta_movimento_circular_uniforme_method
+      energia_potencial_elastica
 
-      "method.expression.calc.acel_plan_incl_eixo_x": 
-        typeof Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_x_method
+      energia_potencial_gravitacional
 
-      "method.expression.calc.acel_plan_incl_eixo_y": 
-        typeof Component_math_calculator_exp_calc_aceleracao_no_plano_inclinado_eixo_y_method
+      espaco
 
-      "method.expression.calc.aceleracao": 
-        typeof Component_math_calculator_exp_calc_aceleracao_method
+      fatorial
 
-      "method.expression.calc.alc_lanc_vert": 
-        typeof Component_math_calculator_exp_calc_alcance_lancamento_vertical_method
+      forca_eletromotriz
 
-      "method.expression.calc.alc_max_lanc_vert": 
-        typeof Component_math_calculator_exp_calc_alcance_maximo_lancamento_vertical_method
+      forca_gravitacional
 
-      "method.expression.calc.alt_max_lanc_vert": 
-        typeof Component_math_calculator_exp_calc_altura_maxima_lancamento_vertical_method
+      frequencia
 
-      "method.expression.calc.arranjo": 
-        typeof Component_math_calculator_exp_calc_arranjo_method
+      *"method.expression.calc.geometricos": 
+        typeof Component_math_calculator_exp_calc_geometricos
 
-      "method.expression.calc.atrito": 
-        typeof Component_math_calculator_exp_calc_atrito_method
+      juros_compostos
 
-      "method.expression.calc.calor_latente": 
-        typeof Component_math_calculator_exp_calc_calor_latente_method
+      juros_simples
 
-      "method.expression.calc.calor_sensivel": 
-        typeof Component_math_calculator_exp_calc_calor_sensivel_method
+      lancamento_horizontal
 
-      "method.expression.calc.cartesianos": 
-        typeof Component_math_calculator_exp_calc_cartesianos_method
+      lei_de_coulomb
 
-      "method.expression.calc.combinacao": 
-        typeof Component_math_calculator_exp_calc_combinacao_method
+      lei_de_lenz
 
-      "method.expression.calc.concentracao": 
-        typeof Component_math_calculator_exp_calc_concentracao_method
+      lei_de_ohm
 
-      "method.expression.calc.conjugado_num_complex": 
-        typeof Component_math_calculator_exp_calc_conjugado_numero_complexo_method
+      lei_geral_dos_gases
 
-      "method.expression.calc.consumo_de_energia": 
-        typeof Component_math_calculator_exp_calc_consumo_de_energia_method
+      leis_de_newton
 
-      "method.expression.calc.contra_forca_eletromotriz": 
-        typeof Component_math_calculator_exp_calc_contra_forca_eletromotriz_method
+      *"method.expression.calc.matrizes": 
+        typeof Component_math_calculator_exp_calc_matrizes
 
-      "method.expression.calc.densidade": 
-        typeof Component_math_calculator_exp_calc_densidade_method
+      *"method.expression.calc.numericos": 
+        typeof Component_math_calculator_exp_calc_numericos
 
-      "method.expression.calc.determinante": 
-        typeof Component_math_calculator_exp_calc_determinante_method
+      numeros_complexos
 
-      "method.expression.calc.diagrama_venn": 
-        typeof Component_math_calculator_exp_calc_diagrama_venn_method
+      periodo
 
-      "method.expression.calc.dilatacao_linear": 
-        typeof Component_math_calculator_exp_calc_dilatacao_linear_method
+      peso_aparente_hidroestatica_hidrodinamica
 
-      "method.expression.calc.dilatacao_superficial": 
-        typeof Component_math_calculator_exp_calc_dilatacao_superficial_method
+      plano_inclinado_com_atrito
 
-      "method.expression.calc.dilatacao_volumetrica": 
-        typeof Component_math_calculator_exp_calc_dilatacao_volumetrica_method
+      plano_inclinado_sem_atrito
 
-      "method.expression.calc.diversos": 
-        typeof Component_math_calculator_exp_calc_diversos_method
+      *"method.expression.calc.polinomios": 
+        typeof Component_math_calculator_exp_calc_polinomios
 
-      "method.expression.calc.efeito_fotoeletrico": 
-        typeof Component_math_calculator_exp_calc_efeito_fotoeletrico_method
+      porcentagem
 
-      "method.expression.calc.efeito_joule": 
-        typeof Component_math_calculator_exp_calc_efeito_joule_method
+      potencial_elastico
 
-      "method.expression.calc.empuxo_hidroes_hidrodinam": 
-        typeof Component_math_calculator_exp_calc_empuxo_hidroestatica_hidrodinamica_method
+      potencial_mecanico
 
-      "method.expression.calc.energia_cinetica": 
-        typeof Component_math_calculator_exp_calc_energia_cinetica_method
+      potencias_de_i
 
-      "method.expression.calc.energia_potencial_elas": 
-        typeof Component_math_calculator_exp_calc_energia_potencial_elastica_method
+      principio_fundamental_hidroestatica_hidrodinamica
 
-      "method.expression.calc.energia_potencial_grav": 
-        typeof Component_math_calculator_exp_calc_energia_potencial_gravitacional_method
+      probabilidade
 
-      "method.expression.calc.espaco": 
-        typeof Component_math_calculator_exp_calc_espaco_method
+      quadrado_de_punnet_extendido
 
-      "method.expression.calc.fatorial": 
-        typeof Component_math_calculator_exp_calc_fatorial_method
+      quadrado_de_punnet
 
-      "method.expression.calc.forca_eletromotriz": 
-        typeof Component_math_calculator_exp_calc_forca_eletromotriz_method
+      regra_de_tres_composta
 
-      "method.expression.calc.forca_gravitacional": 
-        typeof Component_math_calculator_exp_calc_forca_gravitacional_method
+      regra_de_tres_simples
 
-      "method.expression.calc.frequencia": 
-        typeof Component_math_calculator_exp_calc_frequencia_method
+      relacao_euler
 
-      "method.expression.calc.geometricos": 
-        typeof Component_math_calculator_exp_calc_geometricos_method
+      rendimento
 
-      "method.expression.calc.juros_compostos": 
-        typeof Component_math_calculator_juros_compostos_method
+      "sinalizacao_octantes
 
-      "method.expression.calc.juros_simples": 
-        typeof Component_math_calculator_juros_simples_method
+      sinalizacao_quadrantes
 
-      "method.expression.calc.lancamento_horizontal": 
-        typeof Component_math_calculator_exp_calc_lancamento_horizontal_method
+      sistema_de_equacoes
 
-      "method.expression.calc.lei_de_coulomb": 
-        typeof Component_math_calculator_exp_calc_lei_de_coulomb_method
+      sistema_de_inequacoes
 
-      "method.expression.calc.lei_de_lenz": 
-        typeof Component_math_calculator_exp_calc_lei_de_lenz_method
+      sistemas_lineares
 
-      "method.expression.calc.lei_de_ohm": 
-        typeof Component_math_calculator_exp_calc_lei_de_ohm_method
+      temperatura
 
-      "method.expression.calc.lei_geral_dos_gases": 
-        typeof Component_math_calculator_lei_geral_dos_gases_method
+      tempo
 
-      "method.expression.calc.leis_de_newton": 
-        typeof Component_math_calculator_exp_calc_leis_de_newton_method
+      titulacao
 
-      "method.expression.calc.matrizes": 
-        typeof Component_math_calculator_exp_calc_matrizes_method
+      torricelli_movimento_circular_uniformente_variado
 
-      "method.expression.calc.numericos": 
-        typeof Component_math_calculator_exp_calc_numericos_method
+      trabalho
 
-      "method.expression.calc.numeros_complex": 
-        typeof Component_math_calculator_exp_calc_numeros_complexos_method
+      velocidade_angular_movimento_circular_uniforme
 
-      "method.expression.calc.periodo": 
-        typeof Component_math_calculator_exp_calc_periodo_method
+      velocidade_linear_movimento_circular_uniforme
 
-      "method.expression.calc.peso_aparente_hidroest_hidrodinam": 
-        typeof Component_math_calculator_exp_calc_peso_aparente_hidroestatica_hidrodinamica_method
+      velocidade
 
-      "method.expression.calc.plano_incl_com_atrito": 
-        typeof Component_math_calculator_exp_calc_plano_inclinado_com_atrito_method
+      eq_horaria_aceleracao_movimento_harmonico_simples
 
-      "method.expression.calc.plano_incl_sem_atrito": 
-        typeof Component_math_calculator_exp_calc_plano_inclinado_sem_atrito_method
+      eq_horaria_aceleracao
 
-      "method.expression.calc.polinomios": 
-        typeof Component_math_calculator_exp_calc_polinomios_method
+      eq_horaria_espaco_movimento_circular_uniformente_variado
 
-      "method.expression.calc.porcentagem": 
-        typeof Component_math_calculator_exp_calc_porcentagem_method
+      eq_horaria_espaco
 
-      "method.expression.calc.potencial_elastico": 
-        typeof Component_math_calculator_exp_calc_potencial_elastico_method
+      eq_horaria_forca
 
-      "method.expression.calc.potencial_mecanico": 
-        typeof Component_math_calculator_exp_calc_potencial_mecanico_method
+      eq_horaria_posicao_movimento_harmonico_simples
 
-      "method.expression.calc.potencias_de_i": 
-        typeof Component_math_calculator_exp_calc_potencias_de_i_method
+      eq_horaria_tempo_movimento_circular_uniformemente_variado
 
-      "method.expression.calc.principio_fund_hidroest_hidrodinam": 
-        typeof Component_math_calculator_exp_calc_principio_fundamental_hidroestatica_hidrodinamica_method
+      eq_horaria_espaco_tempo
 
-      "method.expression.calc.probabilidade": 
-        typeof Component_math_calculator_exp_calc_probabilidade_method
+      eq_horaria_tempo
 
-      "method.expression.calc.quadrado_de_punnet_extendido": 
-        typeof Component_math_calculator_exp_calc_quadrado_de_punnet_extendido_method
+      eq_horaria_velocidade_movimento_harmonico_simples
 
-      "method.expression.calc.quadrado_de_punnet": 
-        typeof Component_math_calculator_exp_calc_quadrado_de_punnet_method
+      eq_horaria_velocidade
 
-      "method.expression.calc.regra_de_tres_composta": 
-        typeof Component_math_calculator_exp_calc_regra_de_tres_composta_method
+      eq_lagrange
 
-      "method.expression.calc.regra_de_tres_simples": 
-        typeof Component_math_calculator_exp_calc_regra_de_tres_simples_method
+      eq_torricelli
 
-      "method.expression.calc.relacao_euler": 
-        typeof Component_math_calculator_exp_calc_relacao_euler_method
+      teo_boltzmann
 
-      "method.expression.calc.rendimento": 
-        typeof Component_math_calculator_exp_calc_rendimento_method
+      teo_coulomb
 
-      "method.expression.calc.sinalizacao_octantes": 
-        typeof Component_math_calculator_exp_calc_sinalizacao_octantes_method
+      teo_girard
 
-      "method.expression.calc.sinalizacao_quadrantes": 
-        typeof Component_math_calculator_exp_calc_sinalizacao_quadrantes_method
+      teo_pascal
 
-      "method.expression.calc.sistema_de_equacoes": 
-        typeof Component_math_calculator_exp_calc_sistema_de_equacoes_method
+      teo_pitagoras
 
-      "method.expression.calc.sistema_de_inequacoes": 
-        typeof Component_math_calculator_exp_calc_sistema_de_inequacoes_method
+      teo_plank
 
-      "method.expression.calc.sistemas_lineares": 
-        typeof Component_math_calculator_exp_calc_sistemas_lineares_method
+      teo_stevin
 
-      "method.expression.calc.temperatura": 
-        typeof Component_math_calculator_exp_calc_temperatura_method
+      teo_stirling
 
-      "method.expression.calc.tempo": 
-        typeof Component_math_calculator_exp_calc_tempo_method
-
-      "method.expression.calc.titulacao": 
-        typeof Component_math_calculator_exp_calc_titulacao_method
-
-      "method.expression.calc.torricelli-movi-circ-unif-var": 
-        typeof Component_math_calculator_exp_calc_torricelli_movimento_circular_uniformente_variado_method
-
-      "method.expression.calc.trabalho": 
-        typeof Component_math_calculator_exp_calc_trabalho_method
-
-      "method.expression.calc.veloc_ang_movi_circ_unif": 
-        typeof Component_math_calculator_exp_calc_velocidade_angular_movimento_circular_uniforme_method
-
-      "method.expression.calc.veloc_linear_movi_circ_unif": 
-        typeof Component_math_calculator_exp_calc_velocidade_linear_movimento_circular_uniforme_method
-
-      "method.expression.calc.velocidade": 
-        typeof Component_math_calculator_exp_calc_velocidade_method
-
-      "method.expression.equac.horaria_acel_movi_harm_simp": 
-        typeof Component_math_calculator_exp_eq_horaria_aceleracao_movimento_harmonico_simples_method
-
-      "method.expression.equac.horaria_acel": 
-        typeof Component_math_calculator_exp_eq_horaria_aceleracao_method
-
-      "method.expression.equac.horaria_espaco_movi_circ_unif_var": 
-        typeof Component_math_calculator_exp_eq_horaria_espaco_movimento_circular_uniformente_variado_method
-
-      "method.expression.equac.horaria_espaco": 
-        typeof Component_math_calculator_exp_eq_horaria_espaco_method
-
-      "method.expression.equac.horaria_forca": 
-        typeof Component_math_calculator_exp_eq_horaria_forca_method
-
-      "method.expression.equac.horaria_posicao_movi_harm_simp": 
-        typeof Component_math_calculator_exp_eq_horaria_posicao_movimento_harmonico_simples_method
-
-      "method.expression.equac.horaria_tempo_movi_circ_unif_var": 
-        typeof Component_math_calculator_exp_eq_horaria_tempo_movimento_circular_uniformemente_variado_method
-
-      "method.expression.equac.horaria_tempo_espaco": 
-        typeof Component_math_calculator_exp_eq_horaria_espaco_tempo_method
-
-      "method.expression.equac.horaria_tempo": 
-        typeof Component_math_calculator_exp_eq_horaria_tempo_method
-
-      "method.expression.equac.horaria_velocidade_movi_harm_simp": 
-        typeof Component_math_calculator_exp_eq_horaria_velocidade_movimento_harmonico_simples_method
-
-      "method.expression.equac.horaria_velocidade": 
-        typeof Component_math_calculator_exp_eq_horaria_velocidade_method
-
-      "method.expression.equac.lagrange": 
-        typeof Component_math_calculator_exp_eq_lagrange_method
-
-      "method.expression.equac.torricelli": 
-        typeof Component_math_calculator_exp_eq_torricelli_method
-
-      "method.expression.teo.boltzmann": 
-        typeof Component_math_calculator_exp_teo_boltzmann_method
-
-      "method.expression.teo.coulomb": 
-        typeof Component_math_calculator_exp_teo_coulomb_method
-
-      "method.expression.teo.girard": 
-        typeof Component_math_calculator_exp_teo_girard_method
-
-      "method.expression.teo.pascal": 
-        typeof Component_math_calculator_exp_teo_pascal_method
-
-      "method.expression.teo.pitagoras": 
-        typeof Component_math_calculator_exp_teo_pitagoras_method
-
-      "method.expression.teo.plank": 
-        typeof Component_math_calculator_exp_teo_plank_method
-
-      "method.expression.teo.stevin": 
-        typeof Component_math_calculator_exp_teo_stevin_method
-
-      "method.expression.teo.stirling": 
-        typeof Component_math_calculator_exp_teo_stirling_method
-
-      "method.expression.teo.tales_mileto": 
-        typeof Component_math_calculator_exp_teo_tales_mileto_method
+      teo_tales_mileto
+   *
    */
 
-  // Math - 0letra-a
-  | "#abs" | "#arcsin" | "#arcsinh" | "#arccos" | "#arccosh" | "#arctan" | "#arctanh" | "#arcsec" | "#arcsech" | "#arccosec" | "#arccosech" | "#arccotan" | "#arccotanh" 
-
-  // Math - 0letra-c
-  | "#cbrt" | "#ceil"
-
-  // Math - 0letra-d
-  | "#decrt"
-
-  // Math - 0letra-e
-  | "#exp" | "#expm1" | "#expp1"
-
-  // Math - 0letra-f
-  | "#floor" | "#fround"
-
-  // Math - 0letra-i
-  | "#imul"
-
-  // Math - 0letra-l
-  | "#ln" | "#lnm1" | "#lnp1" | "#log" | "#logm1" | "#logp1" | "#log2" | "#log2m1" | "#log2p1" | "#logx" | "#logxm1" | "#logxp1"
-
-  // Math - 0letra-m
-  | "max" | "min"
-
-  // Math - 0letra-n
-  | "#nonrt"
-
-  // Math - 0letra-o
-  | "octrt"
-
-  // Math - 0letra-p
-  | "#pow" | "*#powm1" | "*#powp1" | "#powofpow" | "*#powofpowm1" | "*#powofpowp1"
-
-  // Math - 0letra-q
-  | "#quart" | "#quirt"
-
-  // Math - 0letra-r
-  | "#random" | "#round"
-
-  // Math - 0letra-s
-  | "#sec" | "#sech" | "#seprt" | "#sexrt" | "#sign" | "#sin" | "#sinh" | "#sqrt"
-
-  // Math - 0letra-t
-  | "#tan" | "#tanh" | "#trunc"
-
-
-} export var Seletor: ISeletor["opcoes"];

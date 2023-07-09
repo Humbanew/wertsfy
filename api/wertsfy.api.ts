@@ -7,7 +7,7 @@ import { Aritmeticos } from "./syntax/arithmetic.lib";
  * **``Interface de Programação de Aplicativos [Application Programming Interface]``**
  * 
  * ___
- * ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c13aebc5-3c48-4d34-9ab1-2600b4926ab4)
+ * ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/f1aaab14-3a9c-4b23-9a8a-2cb67e3faac8)
  * 
  * Contém todos os recursos disponíveis pelo kit de desenvolvimento. _[Contains all resources available by the Development Kit.]_
  * 
@@ -20,7 +20,7 @@ export const wertsfy=
    * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
    * 
    * ___
-   * ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/29e3f26c-0526-454e-8a9c-b56a818fcf0a)
+   * ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0e7410ee-28ee-4260-ae9b-650c031d0517)
    * 
    * **``Bibliotecas da API [API Librarys]``**
    * 
@@ -34,7 +34,7 @@ export const wertsfy=
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
      * 
      * ___
-     * ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/fdb1c145-f36e-42ba-a645-12e7520074c4)
+     * ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/edce6832-23e7-4305-ad7d-e1c215e26e0b)
      * 
      * **``Biblioteca [Library] - Aritmeticos``**
      * 

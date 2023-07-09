@@ -18,23 +18,16 @@ ___
 
 ### Badges
 
-![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c13aebc5-3c48-4d34-9ab1-2600b4926ab4)
+![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/f1aaab14-3a9c-4b23-9a8a-2cb67e3faac8)
 
-![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/29e3f26c-0526-454e-8a9c-b56a818fcf0a)
+![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0e7410ee-28ee-4260-ae9b-650c031d0517)
 
-![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/fdb1c145-f36e-42ba-a645-12e7520074c4)
+![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/edce6832-23e7-4305-ad7d-e1c215e26e0b)
 
-![Library Badge - Arithmetic Category](https://github.com/Humbanew/wertsfy/assets/59739253/d2769cee-5e58-4e9a-9767-331b8587d849)
+![Library Badge - Arithmetic Category](https://github.com/Humbanew/wertsfy/assets/59739253/653499fe-188a-451c-b884-8846c52944a9)
 
-![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/bda87b7c-28a1-416c-9e70-df5237485313)
+![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/5369d8e3-f62e-41b4-8526-fafbc862a0ee)
 
-![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/a7ca9454-1493-4c1e-b63c-6f71989acd7c)
-
-![Library Badge - Color](https://github.com/Humbanew/wertsfy/assets/59739253/a71524ab-2334-4490-894a-b604b55886eb)
-
-![Library Badge - Nikko](https://github.com/Humbanew/wertsfy/assets/59739253/29cf2451-0f20-4483-a84c-2417e021cad9)
-
-![Library Badge - Marcation](https://github.com/Humbanew/wertsfy/assets/59739253/758f86e3-3623-4d44-b1eb-63dd0f7ff8bc)
-
+![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
 
 </div>

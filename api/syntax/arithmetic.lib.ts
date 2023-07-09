@@ -1,6 +1,3 @@
-// /// <reference path="./interfaces/wtsfy.int.d.ts" />
-// import { Seletor } from "./interfaces/wtsfy.int";
-
 export const Aritmeticos =
 {
 

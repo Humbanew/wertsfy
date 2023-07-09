@@ -1,4 +1,49 @@
-declare class AritmeticosFuncs { }
+declare class AritmeticosFuncs { 
+
+  /** operation **ABS** */
+  public static readonly "#absoluto": null;
+
+  public static readonly "#arco-seno": null;
+
+  public static readonly "#arco-seno-hiperbolico": null;
+
+  public static readonly "#arco-cosseno": null;
+
+  public static readonly "#arco-cosseno-hiperbolico": null;
+
+  public static readonly "#arco-tangente": null;
+
+  public static readonly "#arco-tangente-hiperbolica": null;
+
+  public static readonly "#arco-secante": null;
+
+  public static readonly "#arco-secante-hiperbolica": null;
+
+  public static readonly "#arco-cosecante": null;
+
+  public static readonly "#arco-cosecante-hiperbolica": null;
+
+  public static readonly "#arco-cotangente": null;
+
+  public static readonly "#arco-cotangente-hiperbolica": null;
+
+  public static readonly "#arredonda-para-baixo": null;
+
+  public static readonly "#arredonda-para-cima": null;
+
+  public static readonly "#arredonda-decimal-para-inteiro": null;
+
+  public static readonly "#exponencial": null;
+
+  public static readonly "#exponencial-mais-um": null;
+
+  public static readonly "#exponencial-menos-um": null;
+
+  public static readonly "#raiz-cúbica": null;
+  
+  public static readonly "#raiz-décima-potência": null;
+
+} export var AFSelector: typeof AritmeticosFuncs;
 
 // Arrumar aqui. {#ff2200}
 

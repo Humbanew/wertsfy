@@ -1,5 +1,5 @@
-/// <reference path="./interfaces/wtsfy.int.d.ts" />
-import { Seletor } from "./interfaces/wtsfy.int";
+// /// <reference path="./interfaces/wtsfy.int.d.ts" />
+// import { Seletor } from "./interfaces/wtsfy.int";
 
 export const Aritmeticos =
 {
@@ -771,7 +771,7 @@ export const Aritmeticos =
    * Contém as funções aritméticas. _[Contains the arithmetic functions.]_ 
    * 
    */
-  Metodo: (S: typeof Seletor, ...Nmbs: number[] | object[]) => { }
+  // Metodo: (S: typeof Seletor, ...Nmbs: number[] | object[]) => { }
 
 };
 

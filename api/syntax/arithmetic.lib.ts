@@ -1,3 +1,6 @@
+/// <reference path="./interfaces/wtsfy.int.d.ts" />
+import { ArithmSetups } from "./interfaces/wtsfy.int";
+
 export const Aritmeticos =
 {
 
@@ -767,8 +770,9 @@ export const Aritmeticos =
    * 
    * Contém as funções aritméticas. _[Contains the arithmetic functions.]_ 
    * 
+   * 
    */
-  Metodo: (S: undefined, ...Nmbs: number[] | object[]) => { }
+  Metodo: (S: typeof ArithmSetups.options ) => { }
 
 };
 

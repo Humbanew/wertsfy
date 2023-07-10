@@ -1,3 +1,4 @@
+/// <reference path="../api/syntax/interfaces/wtsfy.int.d.ts" />
 import { wertsfy } from "../api/wertsfy.api";
 
 // Biblioteca Aritmeticas

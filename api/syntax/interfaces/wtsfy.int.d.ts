@@ -7,223 +7,218 @@ declare interface IGException {
 export interface IASetups { 
   
   options: {
-    /** 
-     * 
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
-     * 
-     * operação 
-     */
+    /** operação */
     "#absoluto": { x: number } } | {
 
     /** operação */
-    "#arco-seno": null } | {
+    "#arco-seno": { x: number } } | {
 
     /** operação */
-    "#arco-seno-hiperbolico": null } | {
+    "#arco-seno-hiperbolico": { x: number } } | {
 
     /** operação */
-    "#arco-cosseno": null } | {
+    "#arco-cosseno": { x: number } } | {
 
     /** operação */
-    "#arco-cosseno-hiperbolico": null } | {
+    "#arco-cosseno-hiperbolico": { x: number } } | {
 
     /** operação */
-    "#arco-tangente": null } | {
+    "#arco-tangente": { x: number } } | {
 
     /** operação */
-    "#arco-tangente-hiperbolica": null } | {
+    "#arco-tangente-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#arco-secante": null } | {
+    "#arco-secante": { x: number } } | {
 
     /** operação */
-    "#arco-secante-hiperbolica": null } | {
+    "#arco-secante-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#arco-cosecante": null } | {
+    "#arco-cosecante": { x: number } } | {
 
     /** operação */
-    "#arco-cosecante-hiperbolica": null } | {
+    "#arco-cosecante-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#arco-cotangente": null } | {
+    "#arco-cotangente": { x: number } } | {
 
     /** operação */
-    "#arco-cotangente-hiperbolica": null } | {
+    "#arco-cotangente-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#arredonda-para-baixo": null } | {
+    "#arredonda-para-baixo": { x: number } } | {
 
     /** operação */
-    "#arredonda-para-cima": null } | {
+    "#arredonda-para-cima": { x: number } } | {
 
     /** operação */
-    "#arredonda-para-inteiro": null } | {
+    "#arredonda-para-inteiro": { x: number } } | {
 
     /** operação */
-    "#arredonda-decimal-para-inteiro": null } | {
+    "#arredonda-decimal-para-inteiro": { x: number } } | {
 
     /** operação */
-    "#cosseno": null } | {
+    "#cosseno": { x: number } } | {
 
     /** operação */
-    "#cosseno-hiperbolico": null } | {
+    "#cosseno-hiperbolico": { x: number } } | {
 
     /** operação */
-    "#cosecante": null } | {
+    "#cosecante": { x: number } } | {
 
     /** operação */
-    "#cosecante-hiperbolica": null } | {
+    "#cosecante-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#cotangente": null } | {
+    "#cotangente": { x: number } } | {
 
     /** operação */
-    "#cotangente-hiperbolica": null } | {
+    "#cotangente-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#divisão": null } | {
+    "#divisão": { x: number[] } } | {
 
     /** operação */
-    "#exponencial": null } | {
+    "#exponencial": { x: number, y: number } } | {
 
     /** operação */
-    "#exponencial-mais-1": null } | {
+    "#exponencial-mais-1": { x: number, y: number } } | {
 
     /** operação */
-    "#exponencial-menos-1": null } | {
+    "#exponencial-menos-1": { x: number, y: number } } | {
 
     /** operação */
-    "#logarítmo-natural": null } | {
+    "#logarítmo-natural": { x: number } } | {
 
     /** operação */
-    "#logarítmo-natural-mais-1": null } | {
+    "#logarítmo-natural-mais-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-natural-menos-1": null } | {
+    "#logarítmo-natural-menos-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-10": null } | {
+    "#logarítmo-de-base-10": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-10-mais-1": null } | {
+    "#logarítmo-de-base-10-mais-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-10-menos-1": null } | {
+    "#logarítmo-de-base-10-menos-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-2": null } | {
+    "#logarítmo-de-base-2": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-2-mais-1": null } | {
+    "#logarítmo-de-base-2-mais-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-2-menos-1": null } | {
+    "#logarítmo-de-base-2-menos-1": { x: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-qualquer": null } | {
+    "#logarítmo-de-base-qualquer": { x: number, y: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-qualquer-mais-1": null } | {
+    "#logarítmo-de-base-qualquer-mais-1": { x: number, y: number } } | {
 
     /** operação */
-    "#logarítmo-de-base-qualquer-menos-1": null } | {
+    "#logarítmo-de-base-qualquer-menos-1": { x: number, y: number } } | {
 
     /** operação */
-    "#multiplicação": null } | {
+    "#multiplicação": { x: number[] } } | {
 
     /** operação */
-    "#multiplicação-de-inteiros-de-32-bits": null } | {
+    "#multiplicação-de-inteiros-de-32-bits": { x: number } } | {
 
     /** operação */
-    "#módulo": null } | {
+    "#módulo": { x: number[] } } | {
 
     /** operação */
-    "#número-aleatório": null } | {
+    "#número-aleatório": void } | {
 
     /** operação */
-    "#parte-inteira-valor-decimal": null } | {
+    "#parte-inteira-valor-decimal": { x: number } } | {
 
     /** operação */
-    "#potência": null } | {
+    "#potência": { x: number, y: number } } | {
 
     /** operação */
-    "#potência-mais-um": null } | {
+    "#potência-mais-um": { x: number, y: number } } | {
 
     /** operação */
-    "#potência-menos-um": null } | {
+    "#potência-menos-um": { x: number, y: number } } | {
 
     /** operação */
-    "#potência-de-potência": null } | {
+    "#potência-de-potência": { x: number, y: number, z: number[] } } | {
 
     /** operação */
-    "#potência-de-potência-mais-um": null } | {
+    "#potência-de-potência-mais-um": { x: number, y: number, z: number[] } } | {
 
     /** operação */
-    "#potência-de-potência-menos-um": null } | {
+    "#potência-de-potência-menos-um": { x: number, y: number, z: number[] } } | {
 
     /** operação */
-    "#raiz-cúbica": null } | {
+    "#raiz-cúbica": { x: number } } | {
 
     /** operação */
-    "#raiz-décima-potência": null } | {
+    "#raiz-décima-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-quadrada": null } | {
+    "#raiz-quadrada": { x: number } } | {
 
     /** operação */
-    "#raiz-quarta-potência": null } | {
+    "#raiz-quarta-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-quinta-potência": null } | {
+    "#raiz-quinta-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-sexta-potência": null } | {
+    "#raiz-sexta-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-sétima-potência": null } | {
+    "#raiz-sétima-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-nona-potência": null } | {
+    "#raiz-nona-potência": { x: number } } | {
 
     /** operação */
-    "#raiz-oitava-potência": null } | {
+    "#raiz-oitava-potência": { x: number } } | {
 
     /** operação */
-    "#resto": null } | {
+    "#resto": { x: number[] } } | {
 
     /** operação */
-    "#soma": { k: number[] } } | {
+    "#soma": { x: number[] } } | {
 
     /** operação */
-    "#secante": null } | {
+    "#secante": { x: number } } | {
 
     /** operação */
-    "#secante-hiperbolica": null } | {
+    "#secante-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#seno": null } | {
+    "#seno": { x: number } } | {
 
     /** operação */
-    "#seno-hiperbolico": null } | {
+    "#seno-hiperbolico": { x: number } } | {
 
     /** operação */
-    "#tangente": null } | {
+    "#subtracao": { x: number[] } } | {
 
     /** operação */
-    "#tangente-hiperbolica": null } | {
+    "#tangente": { x: number } } | {
 
     /** operação */
-    "#subtracao": null } | {
+    "#tangente-hiperbolica": { x: number } } | {
 
     /** operação */
-    "#valor-máximo": null } | {
+    "#valor-máximo": { x: number[] } } | {
 
     /** operação */
-    "#valor-minimo": null } | {
+    "#valor-minimo": { x: number[] } } | {
 
     /** operação */
-    "#verifica-sinal": null } | {
+    "#verifica-sinal": { x: number } } | {
 
 
     "#aceleracao_angular_mcuv": null } | {
@@ -239,10 +234,10 @@ export interface IASetups {
     "#binômio_de_newton": null } | {
     "#calor_latente": null } | {
     "#calor_sensivel": null } | {
-    "#cartesiano_primeiro_grau": null } | {
-    "#cartesiano_segundo_grau": null } | {
-    "#cartesiano_terceiro_grau": null } | {
-    "#cartesiano_quarto_grau": null } | {
+    "#função_primeiro_grau": null } | {
+    "#função_segundo_grau": null } | {
+    "#função_terceiro_grau": null } | {
+    "#função_quarto_grau": null } | {
     "#combinacao": null } | {
     "#concentracao": null } | {
     "#correcao": null } | {
@@ -261,11 +256,11 @@ export interface IASetups {
     "#dilatacao_linear": null } | {
     "#dilatacao_superficial": null } | {
     "#dilatacao_volumetrica": null } | {
-    "#diversos_escala_geografica": null } | {
-    "#diversos_idh": null } | {
-    "#diversos_gini": null } | {
-    "#diversos_imc": null } | {
-    "#diversos_densidade_populacional": null } | {
+    "#escala_geografica": null } | {
+    "#indice_de_desenvolvimento_humano": null } | {
+    "#gini": null } | {
+    "#indice_de_massa_corporea": null } | {
+    "#densidade_populacional": null } | {
     "#efeito_fotoeletrico": null } | {
     "#efeito_joule": null } | {
     "#empuxo_hidroestatica_hidrodinamica": null } | {
@@ -273,206 +268,85 @@ export interface IASetups {
     "#energia_cinetica": null } | {
     "#energia_potencial_elastica": null } | {
     "#energia_potencial_gravitacional": null } | {
-    "#energia_potencial_magnetica": null } | {
-    "#espaco": null } | {
-    "#fatorial": null 
-  
+    "#energia_potencial_magnética": null } | {
+    "#espaço": null } | {
+    "#fatorial": null } | {
+    "#força_eletromotriz": null } | {
+    "#forca_gravitacional": null } | {
+    "#frequencia": null } | {
+    "#juros_compostos": null } | {
+    "#juros_simples": null } | {
+    "#lancamento_horizontal": null } | {
+    "#lei_de_coulomb": null } | {
+    "#lei_de_lenz": null } | {
+    "#lei_de_ohm": null } | {
+    "#lei_geral_dos_gases": null } | {
+    "#leis_de_newton": null } | {
+    "#numeros_complexos": null } | {
+    "#periodo": null } | {
+    "#peso_aparente_hidroestatica_hidrodinamica": null } | {
+    "#plano_inclinado_com_atrito": null } | {
+    "#plano_inclinado_sem_atrito": null } | {
+    "#soma_polinomios": null } | {
+    "#subtracao_polinomios": null } | {
+    "#multiplicacao_polinomios": null } | {
+    "#divisao_polinomios": null } | {
+    "#potencia_polinomios": null } | {
+    "#potencial_elastico": null } | {
+    "#potencial_mecanico": null } | {
+    "#potencias_de_i": null } | {
+    "#principio_fundamental_hidroestatica_hidrodinamica": null } | {
+    "#probabilidade": null } | {
+    "#quadrado_de_punnet_extendido": null } | {
+    "#quadrado_de_punnet": null } | {
+    "#regra_de_tres_composta": null } | {
+    "#regra_de_tres_simples": null } | {
+    "#relacao_euler": null } | {
+    "#rendimento": null } | {
+    "#sinalizacao_octantes": null } | {
+    "#sinalizacao_quadrantes": null } | {
+    "#sistema_de_equacoes": null } | {
+    "#sistema_de_inequacoes": null } | {
+    "#sistemas_lineares": null } | {
+    "#tempo": null } | {
+    "#titulacao": null } | {
+    "#torricelli_movimento_circular_uniformente_variado": null } | {
+    "#trabalho": null } | {
+    "#velocidade_angular_movimento_circular_uniforme": null } | {
+    "#velocidade_linear_movimento_circular_uniforme": null } | {
+    "#velocidade": null } | {
+    "#eq_horaria_aceleracao_movimento_harmonico_simples": null } | {
+    "#eq_horaria_aceleracao": null } | {
+    "#eq_horaria_espaco_movimento_circular_uniformente_variado": null } | {
+    "#eq_horaria_espaco": null } | {
+    "#eq_horaria_forca": null } | {
+    "#eq_horaria_velocidade": null } | {
+    "#eq_lagrange": null } | {
+    "#eq_torricelli": null } | {
+    "#teo_boltzmann": null } | {
+    "#teo_coulomb": null } | {
+    "#teo_girard": null } | {
+    "#teo_pascal": null } | {
+    "#teo_pitagoras": null } | {
+    "#teo_plank": null } | {
+    "#teo_stevin": null } | {
+    "#teo_stirling": null } | {
+    "#teo_tales_mileto": null
+
   }
 
 } export var ArithmSetups: IASetups;
 
-  /**
-   *       
+  /**      
    *
-   * determinante_2x2
+   * *geometricos
    * 
-   * determinante_3x3
+   * *matrizes
    *
-   * diagrama_venn_2_grupos
-   * 
-   * diagrama_venn_3_grupos
-   * 
-   * diagrama_venn_4_grupos
-   * 
-   * diagrama_venn_5_grupos
-   * 
-   * diagrama_venn_6_grupos
+   * *numericos
    *
-   * dilatacao_linear
+   * *porcentagem
    *
-   * dilatacao_superficial
-   *
-   * dilatacao_volumetrica
-   *
-   * diversos_escala_geografica
-   * 
-   * diversos_idh
-   * 
-   * diversos_gini
-   * 
-   * diversos_imc
-   * 
-   * diversos_densidade_populacional
-   * 
-   * efeito_fotoeletrico
-   *
-   * efeito_joule
-   *
-   * empuxo_hidroestatica_hidrodinamica
-   *
-   * energia_cinetica
-
-      energia_potencial_elastica
-
-      energia_potencial_gravitacional
-
-      espaco
-
-      fatorial
-
-      forca_eletromotriz
-
-      forca_gravitacional
-
-      frequencia
-
-      *"method.expression.calc.geometricos": 
-        typeof Component_math_calculator_exp_calc_geometricos
-
-      juros_compostos
-
-      juros_simples
-
-      lancamento_horizontal
-
-      lei_de_coulomb
-
-      lei_de_lenz
-
-      lei_de_ohm
-
-      lei_geral_dos_gases
-
-      leis_de_newton
-
-      *"method.expression.calc.matrizes": 
-        typeof Component_math_calculator_exp_calc_matrizes
-
-      *"method.expression.calc.numericos": 
-        typeof Component_math_calculator_exp_calc_numericos
-
-      numeros_complexos
-
-      periodo
-
-      peso_aparente_hidroestatica_hidrodinamica
-
-      plano_inclinado_com_atrito
-
-      plano_inclinado_sem_atrito
-
-      soma_polinomios
-
-      subtracao_polinomios
-
-      multiplicacao_polinomios
-
-      divisao_polinomios
-
-      potencia_polinomios
-
-      *porcentagem
-
-      potencial_elastico
-
-      potencial_mecanico
-
-      potencias_de_i
-
-      principio_fundamental_hidroestatica_hidrodinamica
-
-      probabilidade
-
-      quadrado_de_punnet_extendido
-
-      quadrado_de_punnet
-
-      regra_de_tres_composta
-
-      regra_de_tres_simples
-
-      relacao_euler
-
-      rendimento
-
-      sinalizacao_octantes
-
-      sinalizacao_quadrantes
-
-      sistema_de_equacoes
-
-      sistema_de_inequacoes
-
-      sistemas_lineares
-
-      *temperatura
-
-      tempo
-
-      titulacao
-
-      torricelli_movimento_circular_uniformente_variado
-
-      trabalho
-
-      velocidade_angular_movimento_circular_uniforme
-
-      velocidade_linear_movimento_circular_uniforme
-
-      velocidade
-
-      eq_horaria_aceleracao_movimento_harmonico_simples
-
-      eq_horaria_aceleracao
-
-      eq_horaria_espaco_movimento_circular_uniformente_variado
-
-      eq_horaria_espaco
-
-      eq_horaria_forca
-
-      eq_horaria_posicao_movimento_harmonico_simples
-
-      eq_horaria_tempo_movimento_circular_uniformemente_variado
-
-      eq_horaria_espaco_tempo
-
-      eq_horaria_tempo
-
-      eq_horaria_velocidade_movimento_harmonico_simples
-
-      eq_horaria_velocidade
-
-      eq_lagrange
-
-      eq_torricelli
-
-      teo_boltzmann
-
-      teo_coulomb
-
-      teo_girard
-
-      teo_pascal
-
-      teo_pitagoras
-
-      teo_plank
-
-      teo_stevin
-
-      teo_stirling
-
-      teo_tales_mileto
+   * *temperatura
    *
    */

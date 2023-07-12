@@ -9,7 +9,7 @@
     "strict": false,
     "alwaysStrict": false,
     "isolatedModules": false,
-    "rootDir": "./"
+    "rootDirs": ["./", "../"]
 
   }
 

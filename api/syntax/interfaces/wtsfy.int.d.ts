@@ -735,6 +735,116 @@ export interface IASetups {
   } | {
     "#teo_tales_mileto": null
 
+
+
+    // geometricos
+  } | {  
+    "#area_triangulo_qualquer": null
+  } | {
+    "#apotema_triangulo_qualquer": null
+  } | {
+    "#area_quadrado_qualquer": null
+  } | {
+    "#area_retangulo_qualquer": null
+  } | {
+    "#area_circulo_qualquer": null
+  } | {
+    "#area_elipse_qualquer": null
+  } | {
+    "#area_piramide_qualquer": null
+  } | {
+    "#area_cilindro_qualquer": null
+  } | {
+    "#area_cone_qualquer": null
+  } | {
+    "#area_trapezio_qualquer": null
+  } | {
+    "#area_lozango_qualquer": null
+  } | {
+    "#area_superficie_qualquer": null
+  } | {
+    "#volume_superficie_qualquer": null
+  } | {
+    "#area_esfera_qualquer": null
+  } | {
+    "#area_poligono_qualquer": null
+  } | {
+    "#volume_poligono_formato_lozango_qualquer": null
+  } | {
+    "#volume_poligono_formato_trapezio_qualquer": null
+  } | {
+    "#area_paralelogramo_qualquer": null
+  } | {
+    "#area_lateral_prisma_qualquer": null
+  } | {
+    "#volume_prisma_qualquer": null
+  } | {
+    "#volume_cubo_qualquer": null
+  } | {
+    "#volume_paralelogramo_qualquer": null
+  } | {
+    "#volume_piramide_qualquer": null
+  } | {
+    "#volume_tetraedro_qualquer": null
+  } | {
+    "#volume_hexaedro_qualquer": null
+  } | {
+    "#volume_octaedro_qualquer": null
+  } | {
+    "#volume_dodecaedro_qualquer": null
+  } | {
+    "#volume_icosaedro_qualquer": null
+  } | {
+    "#volume_cone_qualquer": null
+  } | {
+    "#volume_cilindro_qualquer": null
+  } | {
+    "#volume_esfera_qualquer": null
+  } | {
+    "#volume_romb_qualquer": null
+  } | {
+    "#area_circunferencia_qualquer": null
+  } | {
+    "#area_lateral_cilindro_qualquer": null
+  } | {
+    "#soma_matrizes": null
+  } | {
+    "#subtracao_matrizes": null
+  } | {
+    "#divisao_matrizes": null
+  } | {
+    "#multiplicacao_matrizes": null
+  } | {
+    "#numeros_pares": null
+  } | {
+    "#numeros_impares": null
+  } | {
+    "#numeros_primos": null
+  } | {
+    "#conjuntos": null
+  } | {
+    "#porcentagem": null
+  } | {
+    "#porcentagem_por_1000": null
+  } | {
+    "#porcentagem_por_10000": null
+  } | {
+    "#porcentagem_por_100000": null
+  } | {
+    "#porcentagem_por_qualquer_numero": null
+  } | {
+    "#celsius_para_fahrenheit": null
+  } | {
+    "#celsius_para_kelvin": null
+  } | {
+    "#fahrenheit_para_celsius": null
+  } | {
+    "#fahrenheit_para_kelvin": null
+  } | {
+    "#kelvin_para_celsius": null
+  } | {
+    "#kelvin_para_fahrenheit": null
+
   }
 
 } export var ArithmSetups: IASetups;
@@ -743,12 +853,153 @@ export interface IASetups {
  *
  * *geometricos
  * 
+    case "#areaPiramideQualquer":
+      attrs = tipo[1]; 
+      resultado = (attrs.base * attrs.altura) / 3; break;
+    case "#areaCilindroQualquer":
+      attrs = tipo[1]; 
+      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura; break;
+    case "#areaConeQualquer":
+      attrs = tipo[1]; 
+      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * (attrs.altura / 3); break;
+    case "#areaTrapezioQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.baseMaior + attrs.baseMenor * attrs.altura) / 2; break; 
+    case "#areaLozangoQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.diagonalMaior * attrs.diagonalMenor) / 2; break; 
+    case "#areaSuperficieQualquer":
+      attrs = tipo[1];
+      resultado = attrs.comprimento * attrs.largura; break;
+    case "#volumeSuperficieQualquer":
+      attrs = tipo[1]; 
+      resultado = attrs.area * attrs.comprimento * attrs.largura; break;
+    case "#areaEsferaQualquer":
+      attrs = tipo[1];
+      resultado = 4 * Component_math_corebase_pi_constant * (attrs.raio ** 2) / 2; break; 
+    case "#areaPoligonoQualquer":
+      attrs = tipo[1];
+      resultado = attrs.comprimento == attrs.largura ? attrs.nLados * ((attrs.comprimento * attrs.comprimento * Component_math_corebase_sqrt_method(3)) / 4) : attrs.nLados * (attrs.comprimento * attrs.largura / 2); break;
+    case "#volumePoligonoFormatoLozangoQualquer":
+      attrs = tipo[1];
+      resultado = ((attrs.diagonalMaior * attrs.diagonalMenor) / 2 ) * attrs.altura; break;
+    case "#volumePoligonoFormatoTrapezioQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.baseMaior + attrs.baseMenor * attrs.altura) / 2; break;
+    case "#areaParalelogramoQualquer":
+      attrs = tipo[1];
+      resultado = attrs.lado * attrs.altura; break;
+    case "#areaLateralPrismaQualquer":
+      attrs = tipo[1];
+      resultado = attrs.nLados * (attrs.comprimento * attrs.largura); break;
+    case "#volumePrismaQualquer":
+      attrs = tipo[1];
+      resultado = attrs.area * attrs.comprimento * attrs.largura; break;
+    case "#volumeCuboQualquer":
+      attrs = tipo[1];
+      resultado = attrs.aresta * attrs.aresta * attrs.aresta; break;
+    case "#volumeParalelogramoQualquer":
+      attrs = tipo[1];
+      resultado = attrs.comprimento * attrs.largura * attrs.altura; break; 
+    case "#volumePiramideQualquer": 
+      attrs = tipo[1];
+      resultado = (attrs.base * attrs.altura) / 3; break;
+    case "#volumeTetraedroQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 4; break; 
+    case "#volumeHexaedroQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 6; break;
+    case "#volumeOctaedroQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 8; break;
+    case "#volumeDodecaedroQualquer":
+      attrs = tipo[1]; 
+      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 12; break;
+    case "#volumeIcosaedroQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 20; break;
+    case "#volumeConeQualquer":
+      attrs = tipo[1];
+      resultado = (Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura) / 3; break; 
+    case "#volumeCilindroQualquer":
+      attrs = tipo[1];
+      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura; break; 
+    case "#volumeEsferaQualquer":
+      attrs = tipo[1];
+      resultado = (4 * Component_math_corebase_pi_constant * (attrs.raio ** 3)) / 3; break; 
+    case "#volumeRombQualquer":
+      attrs = tipo[1];
+      resultado = (attrs.aresta * attrs.aresta) / 2; break; 
+    case "#areaCircunferenciaQualquer":
+      attrs = tipo[1];
+      resultado = Component_math_corebase_pi_constant * (attrs.raio * 2); break; 
+    case "#areaLateralCilindroQualquer":
+      attrs = tipo[1];
+      resultado = 2 * Component_math_corebase_pi_constant * attrs.raio * attrs.altura;
+ * 
  * *matrizes
+ * 
+ *         case "#plus":
+          resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
+        case "#minus":
+          resultado[i][j] = matriz.m1[i][j] - matriz.m2[i][j]; break;
+        case "#multip":
+          if(matriz.m1[0][j] != matriz.m2[i][j]){ new Error("Calc Error"); }
+          resultado[i][j] = matriz.m1[i][j] * matriz.m2[i][j]; break;
+        case "#divisor":
+          resultado[i][j] = matriz.m1[i][j] / matriz.m2[i][j]; break;
  *
  * *numericos
+ * 
+ *     case "#numerosPares":
+      attrs = tipo[1];
+      resultado = attrs.numero / 2;
+      if(resultado % 2 === 0) { console.info(1) }
+      else { console.info(0) }; break;
+    case "#numerosImpares":
+      attrs = tipo[1];
+      resultado = attrs.numero / 3;
+      if(resultado % 3 === 0) { console.info(1) }
+      else { console.info(0) }; break;
+    case "#numerosPrimos":
+      attrs = tipo[1];
+      resultado = [];
+      for(let i = 0; i < attrs.numerosPesquisados; i++) {
+        if(i % 2 !== 0) {
+          resultado.push(i);
+        }
+      }; break;
+    case "#conjuntos":
+      attrs = tipo[1];
+      resultado = 2 ** attrs.elementos; break;
  *
  * *porcentagem
+ * 
+ *     case "#10E2":
+      resultado = variavel[1].value / 10 ** 2; break;
+    case "#10E3":
+      resultado = variavel[1].value / 10 ** 3; break;
+    case "#10E4":
+      resultado = variavel[1].value / 10 ** 4; break;
+    case "#10E5":
+      resultado = variavel[1].value / 10 ** 5; break;
+    case "#anyNumber":  
+      resultado = variavel[1].value / variavel[1].valueTotal; break;
  *
  * *temperatura
+ * 
+ *     case "#celsiusFahrenheit":
+      resultado = (1.8 * valor) + 32; break;
+    case "#celsiusKelvin":
+      resultado = valor - 273; break;
+    case "#fahrenheitCelsius":
+      resultado = (valor - 32) / 1.8; break;
+    case "#fahrenheitKelvin":
+      resultado = ((valor - 32) * 5) / 9 + 273; break;
+    case "#kelvinCelsius":
+      resultado = valor + 273; break;
+    case "#kelvinFahrenheit":
+      resultado = (valor - 273) * 1.8 + 32; break;
  *
  */

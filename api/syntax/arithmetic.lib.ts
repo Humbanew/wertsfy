@@ -1,5 +1,56 @@
-/// <reference path="./interfaces/wtsfy.int.d.ts" />
-import { ArithmSetups } from "./interfaces/wtsfy.int";
+import { absoluto } from "./modules/absoluto.mdl";
+import { aceleracaoAngularMCUV } from "./modules/aceleracao-angular-mcuv.mdl";
+import { aceleracaoCentripetaMCU } from "./modules/aceleracao-centripeta-mcu.mdl";
+import { aceleracaoPlanoInclinadoEixoX } from "./modules/aceleracao-plano-inclinado-eixo-x.mdl";
+import { aceleracaoPlanoInclinadoEixoY } from "./modules/aceleracao-plano-inclinado-eixo-y.mdl";
+import { aceleracao } from "./modules/aceleracao.mdl";
+import { alcanceLancamentoVertical } from "./modules/alcance-lancamento-vertical.mdl";
+import { alcanceMaximoLancamentoVertical } from "./modules/alcance-maximo-lancamento-vertical.mdl";
+import { alturaMaximaLancamentoVertical } from "./modules/altura-maxima-lancamento-vertical.mdl";
+import { antilogaritmoBase10 } from "./modules/antilogaritmo_base_10.mdl";
+import { antilogaritmoBase10Mais1 } from "./modules/antilogaritmo_base_10_mais_1.mdl";
+import { antilogaritmoBase10Menos1 } from "./modules/antilogaritmo_base_10_menos_1.mdl";
+import { antilogaritmoBase2 } from "./modules/antilogaritmo_base_2.mdl";
+import { antilogaritmoBase2Mais1 } from "./modules/antilogaritmo_base_2_mais_1.mdl";
+import { antilogaritmoBase2Menos1 } from "./modules/antilogaritmo_base_2_menos_1.mdl";
+import { antilogaritmoBaseQualquer } from "./modules/antilogaritmo_base_qualquer.mdl";
+import { antilogaritmoBaseQualquerMais1 } from "./modules/antilogaritmo_base_qualquer_mais_1.mdl";
+import { antilogaritmoBaseQualquerMenos1 } from "./modules/antilogaritmo_base_qualquer_menos_1.mdl";
+import { antilogaritmoNatural } from "./modules/antilogaritmo_natural.mdl";
+import { antilogaritmoNaturalMais1 } from "./modules/antilogaritmo_natural_mais_1.mdl";
+import { antilogaritmoNaturalMenos1 } from "./modules/antilogaritmo_natural_menos_1.mdl";
+import { apotemaTriangulo } from "./modules/apotema_triangulo.mdl";
+import { arcoCosecante } from "./modules/arco_cosecante.mdl";
+import { arcoCosecanteHiperbolica } from "./modules/arco_cosecante_hiperbolica.mdl";
+import { arcoCosseno } from "./modules/arco_cosseno.mdl";
+import { arcoCossenoHiperbolico } from "./modules/arco_cosseno_hiperbolico.mdl";
+import { arcoCotangente } from "./modules/arco_cotangente.mdl";
+import { arcoCotangenteHiperbolica } from "./modules/arco_cotangente_hiperbolica.mdl";
+import { arcoSecante } from "./modules/arco_secante.mdl";
+import { arcoSecanteHiperbolica } from "./modules/arco_secante_hiperbolica.mdl";
+import { arcoSeno } from "./modules/arco_seno.mdl";
+import { arcoSenoHiperbolico } from "./modules/arco_seno_hiperbolico.mdl";
+import { arcoTangente } from "./modules/arco_tangente.mdl";
+import { arcoTangenteHiperbolica } from "./modules/arco_tangente_hiperbolica.mdl";
+import { areaCirculo } from "./modules/area_circulo.mdl";
+import { areaCircunferencia } from "./modules/area_circunferencia.mdl";
+import { areaElipse } from "./modules/area_elipse.mdl";
+import { areaEsfera } from "./modules/area_esfera.mdl";
+import { areaLateralCilindro } from "./modules/area_lateral_cilindro.mdl";
+import { areaLateralPrisma } from "./modules/area_lateral_prisma.mdl";
+import { areaLozango } from "./modules/area_lozango.mdl";
+import { areaPiramide } from "./modules/area_piramide.mdl";
+import { areaPoligono } from "./modules/area_poligono.mdl";
+import { areaQuadrado } from "./modules/area_quadrado.mdl";
+import { areaRetangulo } from "./modules/area_retangulo.mdl";
+import { areaTrapezio } from "./modules/area_trapezio.mdl";
+import { areaTriangulo } from "./modules/area_triangulo.mdl";
+import { arranjo } from "./modules/arranjo.mdl";
+import { arrendondaParaBaixo } from "./modules/arrendonda_para_baixo.mdl";
+import { arrendondaParaCima } from "./modules/arrendonda_para_cima.mdl";
+import { arrendondaParaDecimal32Bits } from "./modules/arrendonda_para_decimal_32bits.mdl";
+import { arrendondaParaInteiro } from "./modules/arrendonda_para_inteiro.mdl";
+import { atrito } from "./modules/atrito.mdl";
 
 export const Aritmeticos =
 {
@@ -764,15 +815,122 @@ export const Aritmeticos =
    * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
    * 
    * ___
-   * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+   * ![Library Badge - Arithmetic Category](https://github.com/Humbanew/wertsfy/assets/59739253/653499fe-188a-451c-b884-8846c52944a9)
    * 
-   * **``Categoria [Category] - Metodo``**
+   * **``Categoria [Category] - Methods``**
    * 
    * Contém as funções aritméticas. _[Contains the arithmetic functions.]_ 
    * 
    * 
    */
-  Metodo: (S: typeof ArithmSetups.options ) => { }
+  Methods: {
+
+    m_absoluto: absoluto,
+
+    m_aceleracao_angular_mcuv: aceleracaoAngularMCUV,
+
+    m_aceleracao_centripeta_mcu: aceleracaoCentripetaMCU,
+
+    m_aceleracao_plano_inclinado_eixo_x: aceleracaoPlanoInclinadoEixoX,
+
+    m_aceleracao_plano_inclinado_eixo_y: aceleracaoPlanoInclinadoEixoY,
+
+    m_aceleracao: aceleracao,
+
+    m_alcance_lancamento_vertical: alcanceLancamentoVertical,
+
+    m_alcance_maximo_lancamento_vertical: alcanceMaximoLancamentoVertical,
+
+    m_altura_maxima_lancamento_vertical: alturaMaximaLancamentoVertical,
+
+    m_antilogaritmo_base_2: antilogaritmoBase2,
+
+    m_antilogaritmo_base_2_mais_1: antilogaritmoBase2Mais1,
+    
+    m_antilogaritmo_base_2_menos_1: antilogaritmoBase2Menos1,
+
+    m_antilogaritmo_base_10: antilogaritmoBase10,
+
+    m_antilogaritmo_base_10_mais_1: antilogaritmoBase10Mais1,
+
+    m_antilogaritmo_base_10_menos_1: antilogaritmoBase10Menos1,
+
+    m_antilogaritmo_base_qualquer: antilogaritmoBaseQualquer,
+
+    m_antilogaritmo_base_qualquer_mais_1: antilogaritmoBaseQualquerMais1,
+
+    m_antilogaritmo_base_qualquer_menos_1: antilogaritmoBaseQualquerMenos1,
+
+    m_antilogaritmo_natural: antilogaritmoNatural,
+
+    m_antilogaritmo_natural_mais_1: antilogaritmoNaturalMais1,
+
+    m_antilogaritmo_natural_menos_1: antilogaritmoNaturalMenos1,
+
+    m_apotema_triangulo: apotemaTriangulo,
+
+    m_arco_cosecante: arcoCosecante,
+
+    m_arco_cosecante_hiperbolica: arcoCosecanteHiperbolica,
+
+    m_arco_cosseno: arcoCosseno,
+
+    m_arco_cosseno_hiperbolico: arcoCossenoHiperbolico,
+
+    m_arco_cotangente: arcoCotangente,
+
+    m_arco_cotangente_hiperbolica: arcoCotangenteHiperbolica,
+
+    m_arco_secante: arcoSecante,
+
+    m_arco_secante_hiperbolica: arcoSecanteHiperbolica,
+
+    m_arco_seno: arcoSeno,
+
+    m_arco_seno_hiperbolico: arcoSenoHiperbolico,
+
+    m_arco_tangente: arcoTangente,
+
+    m_arco_tangente_hiperbolica: arcoTangenteHiperbolica,
+
+    m_area_circulo: areaCirculo,
+
+    m_area_circunferencia: areaCircunferencia,
+
+    m_area_elipse: areaElipse,
+
+    m_area_esfera: areaEsfera,
+
+    m_area_lateral_cilindro: areaLateralCilindro,
+
+    m_area_lateral_prisma: areaLateralPrisma,
+
+    m_area_lozango: areaLozango,
+
+    m_area_piramide: areaPiramide,
+
+    m_area_poligono: areaPoligono,
+
+    m_area_quadrado: areaQuadrado,
+
+    m_area_retangulo: areaRetangulo,
+
+    m_area_trapezio: areaTrapezio,
+
+    m_area_triangulo: areaTriangulo,
+
+    m_arranjo: arranjo,
+
+    m_arrendonda_para_baixo: arrendondaParaBaixo,
+
+    m_arrendonda_para_cima: arrendondaParaCima,
+
+    m_arrendonda_para_decimal_32bits: arrendondaParaDecimal32Bits,
+
+    m_arrendonda_para_inteiro: arrendondaParaInteiro,
+
+    m_atrito: atrito,
+
+  }
 
 };
-

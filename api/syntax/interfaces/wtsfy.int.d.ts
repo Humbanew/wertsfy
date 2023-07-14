@@ -121,7 +121,7 @@ export interface IASetups {
   } | {
 
     /** operação */
-    "#arredonda-decimal-para-inteiro": {
+    "#arredonda-para-decimal-32bits": {
       x: number
     }
 
@@ -171,7 +171,8 @@ export interface IASetups {
 
     /** operação */
     "#divisão": { 
-      x: number[] 
+      x: number,
+      y: number 
     }
   
   } | {
@@ -289,7 +290,8 @@ export interface IASetups {
 
     /** operação */
     "#multiplicação": { 
-      x: number[] 
+      x: number,
+      y: number 
     }
   
   } | {
@@ -429,14 +431,16 @@ export interface IASetups {
 
     /** operação */
     "#resto": { 
-      x: number[] 
+      x: number,
+      y: number 
     }
   
   } | {
 
     /** operação */
     "#soma": { 
-      x: number[] 
+      x: number,
+      y: number 
     }
   
   } | {
@@ -471,7 +475,8 @@ export interface IASetups {
 
     /** operação */
     "#subtracao": { 
-      x: number[] 
+      x: number,
+      y: number 
     }
   
   } | {
@@ -500,13 +505,6 @@ export interface IASetups {
     /** operação */
     "#valor-minimo": { 
       x: number[] 
-    }
-  
-  } | {
-
-    /** operação */
-    "#verifica-sinal": { 
-      x: number 
     }
   
   } | {
@@ -572,10 +570,6 @@ export interface IASetups {
     "#diagrama_venn_3_grupos": null
   } | {
     "#diagrama_venn_4_grupos": null
-  } | {
-    "#diagrama_venn_5_grupos": null
-  } | {
-    "#diagrama_venn_6_grupos": null
   } | {
     "#dilatacao_linear": null
   } | {
@@ -734,272 +728,141 @@ export interface IASetups {
     "#teo_stirling": null
   } | {
     "#teo_tales_mileto": null
-
-
-
-    // geometricos
   } | {  
-    "#area_triangulo_qualquer": null
+    "#area_triangulo": null
   } | {
-    "#apotema_triangulo_qualquer": null
+    "#apotema_triangulo": null
   } | {
-    "#area_quadrado_qualquer": null
+    "#area_quadrado": null
   } | {
-    "#area_retangulo_qualquer": null
+    "#area_retangulo": null
   } | {
-    "#area_circulo_qualquer": null
+    "#area_circulo": null
   } | {
-    "#area_elipse_qualquer": null
+    "#area_elipse": null
   } | {
-    "#area_piramide_qualquer": null
+    "#area_trapezio": null
   } | {
-    "#area_cilindro_qualquer": null
+    "#area_lozango": null
   } | {
-    "#area_cone_qualquer": null
+    "#area_superficie": null
   } | {
-    "#area_trapezio_qualquer": null
+    "#volume_superficie": null
   } | {
-    "#area_lozango_qualquer": null
+    "#area_esfera": null
   } | {
-    "#area_superficie_qualquer": null
+    "#area_poligono": null
   } | {
-    "#volume_superficie_qualquer": null
+    "#volume_poligono_formato_lozango": null
   } | {
-    "#area_esfera_qualquer": null
+    "#volume_poligono_formato_trapezio": null
   } | {
-    "#area_poligono_qualquer": null
+    "#area_paralelogramo": null
   } | {
-    "#volume_poligono_formato_lozango_qualquer": null
+    "#area_lateral_prisma": null
   } | {
-    "#volume_poligono_formato_trapezio_qualquer": null
+    "#volume_prisma": null
   } | {
-    "#area_paralelogramo_qualquer": null
+    "#volume_cubo": null
   } | {
-    "#area_lateral_prisma_qualquer": null
+    "#volume_paralelogramo": null
   } | {
-    "#volume_prisma_qualquer": null
+    "#volume_piramide": null
   } | {
-    "#volume_cubo_qualquer": null
+    "#volume_tetraedro": null
   } | {
-    "#volume_paralelogramo_qualquer": null
+    "#volume_hexaedro": null
   } | {
-    "#volume_piramide_qualquer": null
+    "#volume_octaedro": null
   } | {
-    "#volume_tetraedro_qualquer": null
+    "#volume_dodecaedro": null
   } | {
-    "#volume_hexaedro_qualquer": null
+    "#volume_icosaedro": null
   } | {
-    "#volume_octaedro_qualquer": null
+    "#volume_cone": null
   } | {
-    "#volume_dodecaedro_qualquer": null
+    "#volume_cilindro": null
   } | {
-    "#volume_icosaedro_qualquer": null
+    "#volume_esfera": null
   } | {
-    "#volume_cone_qualquer": null
+    "#area_circunferencia": null
   } | {
-    "#volume_cilindro_qualquer": null
+    "#area_lateral_cilindro": null
+
+
   } | {
-    "#volume_esfera_qualquer": null
+    "#quantidade_conjuntos": { x: number }
   } | {
-    "#volume_romb_qualquer": null
+    "#porcentagem": { x: number }
   } | {
-    "#area_circunferencia_qualquer": null
+    "#porcentagem_por_1000": { x: number }
   } | {
-    "#area_lateral_cilindro_qualquer": null
+    "#porcentagem_por_10000": { x: number }
   } | {
-    "#soma_matrizes": null
+    "#porcentagem_por_100000": { x: number }
   } | {
-    "#subtracao_matrizes": null
+    "#porcentagem_por_qualquer_numero": { x: number, y: number }
   } | {
-    "#divisao_matrizes": null
+    "#celsius_para_fahrenheit": { x: number }
   } | {
-    "#multiplicacao_matrizes": null
+    "#celsius_para_kelvin": { x: number }
   } | {
-    "#numeros_pares": null
+    "#fahrenheit_para_celsius": { x: number }
   } | {
-    "#numeros_impares": null
+    "#fahrenheit_para_kelvin": { x: number }
   } | {
-    "#numeros_primos": null
+    "#kelvin_para_celsius": { x: number }
   } | {
-    "#conjuntos": null
+    "#kelvin_para_fahrenheit": { x: number }
   } | {
-    "#porcentagem": null
+    "#antilogaritmo-natural": { x: number }
   } | {
-    "#porcentagem_por_1000": null
+    "#antilogaritmo-natural-mais-1": { x: number }
   } | {
-    "#porcentagem_por_10000": null
+    "#antilogaritmo-natural-menos-1": { x: number }
   } | {
-    "#porcentagem_por_100000": null
+    "#cologaritmo-natural": { x: number }
   } | {
-    "#porcentagem_por_qualquer_numero": null
+    "#cologaritmo-natural-mais-1": { x: number }
   } | {
-    "#celsius_para_fahrenheit": null
+    "#cologaritmo-natural-menos-1": { x: number }
   } | {
-    "#celsius_para_kelvin": null
+    "#antilogaritmo-base-10": { x: number }
   } | {
-    "#fahrenheit_para_celsius": null
+    "#antilogaritmo-base-10-mais-1": { x: number }
   } | {
-    "#fahrenheit_para_kelvin": null
+    "#antilogaritmo-base-10-menos-1": { x: number }
   } | {
-    "#kelvin_para_celsius": null
+    "#cologaritmo-base-10": { x: number }
   } | {
-    "#kelvin_para_fahrenheit": null
+    "#cologaritmo-base-10-mais-1": { x: number }
+  } | {
+    "#cologaritmo-base-10-menos-1": { x: number }
+  } | {
+    "#antilogaritmo-base-2": { x: number }
+  } | {
+    "#antilogaritmo-base-2-mais-1": { x: number }
+  } | {
+    "#antilogaritmo-base-2-menos-1": { x: number }
+  } | {
+    "#cologaritmo-base-2": { x: number }
+  } | {
+    "#cologaritmo-base-2-mais-1": { x: number }
+  } | {
+    "#cologaritmo-base-2-menos-1": { x: number }
+  } | {
+    "#antilogaritmo-base-qualquer": { x: number, y: number }
+  } | {
+    "#antilogaritmo-base-qualquer-mais-1": { x: number, y: number }
+  } | {
+    "#antilogaritmo-base-qualquer-menos-1": { x: number, y: number }
+  } | {
+    "#cologaritmo-base-qualquer": { x: number, y: number }
+  } | {
+    "#cologaritmo-base-qualquer-mais-1": { x: number, y: number }
+  } | {
+    "#cologaritmo-base-qualquer-menos-1": { x: number, y: number }
 
   }
 
 } export var ArithmSetups: IASetups;
-
-/**
- *
- * *geometricos
- * 
-    case "#areaPiramideQualquer":
-      attrs = tipo[1]; 
-      resultado = (attrs.base * attrs.altura) / 3; break;
-    case "#areaCilindroQualquer":
-      attrs = tipo[1]; 
-      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura; break;
-    case "#areaConeQualquer":
-      attrs = tipo[1]; 
-      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * (attrs.altura / 3); break;
-    case "#areaTrapezioQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.baseMaior + attrs.baseMenor * attrs.altura) / 2; break; 
-    case "#areaLozangoQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.diagonalMaior * attrs.diagonalMenor) / 2; break; 
-    case "#areaSuperficieQualquer":
-      attrs = tipo[1];
-      resultado = attrs.comprimento * attrs.largura; break;
-    case "#volumeSuperficieQualquer":
-      attrs = tipo[1]; 
-      resultado = attrs.area * attrs.comprimento * attrs.largura; break;
-    case "#areaEsferaQualquer":
-      attrs = tipo[1];
-      resultado = 4 * Component_math_corebase_pi_constant * (attrs.raio ** 2) / 2; break; 
-    case "#areaPoligonoQualquer":
-      attrs = tipo[1];
-      resultado = attrs.comprimento == attrs.largura ? attrs.nLados * ((attrs.comprimento * attrs.comprimento * Component_math_corebase_sqrt_method(3)) / 4) : attrs.nLados * (attrs.comprimento * attrs.largura / 2); break;
-    case "#volumePoligonoFormatoLozangoQualquer":
-      attrs = tipo[1];
-      resultado = ((attrs.diagonalMaior * attrs.diagonalMenor) / 2 ) * attrs.altura; break;
-    case "#volumePoligonoFormatoTrapezioQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.baseMaior + attrs.baseMenor * attrs.altura) / 2; break;
-    case "#areaParalelogramoQualquer":
-      attrs = tipo[1];
-      resultado = attrs.lado * attrs.altura; break;
-    case "#areaLateralPrismaQualquer":
-      attrs = tipo[1];
-      resultado = attrs.nLados * (attrs.comprimento * attrs.largura); break;
-    case "#volumePrismaQualquer":
-      attrs = tipo[1];
-      resultado = attrs.area * attrs.comprimento * attrs.largura; break;
-    case "#volumeCuboQualquer":
-      attrs = tipo[1];
-      resultado = attrs.aresta * attrs.aresta * attrs.aresta; break;
-    case "#volumeParalelogramoQualquer":
-      attrs = tipo[1];
-      resultado = attrs.comprimento * attrs.largura * attrs.altura; break; 
-    case "#volumePiramideQualquer": 
-      attrs = tipo[1];
-      resultado = (attrs.base * attrs.altura) / 3; break;
-    case "#volumeTetraedroQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 4; break; 
-    case "#volumeHexaedroQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 6; break;
-    case "#volumeOctaedroQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 8; break;
-    case "#volumeDodecaedroQualquer":
-      attrs = tipo[1]; 
-      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 12; break;
-    case "#volumeIcosaedroQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.aresta * attrs.aresta * attrs.aresta) / 20; break;
-    case "#volumeConeQualquer":
-      attrs = tipo[1];
-      resultado = (Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura) / 3; break; 
-    case "#volumeCilindroQualquer":
-      attrs = tipo[1];
-      resultado = Component_math_corebase_pi_constant * (attrs.raio ** 2) * attrs.altura; break; 
-    case "#volumeEsferaQualquer":
-      attrs = tipo[1];
-      resultado = (4 * Component_math_corebase_pi_constant * (attrs.raio ** 3)) / 3; break; 
-    case "#volumeRombQualquer":
-      attrs = tipo[1];
-      resultado = (attrs.aresta * attrs.aresta) / 2; break; 
-    case "#areaCircunferenciaQualquer":
-      attrs = tipo[1];
-      resultado = Component_math_corebase_pi_constant * (attrs.raio * 2); break; 
-    case "#areaLateralCilindroQualquer":
-      attrs = tipo[1];
-      resultado = 2 * Component_math_corebase_pi_constant * attrs.raio * attrs.altura;
- * 
- * *matrizes
- * 
- *         case "#plus":
-          resultado[i][j] = matriz.m1[i][j] + matriz.m2[i][j]; break;
-        case "#minus":
-          resultado[i][j] = matriz.m1[i][j] - matriz.m2[i][j]; break;
-        case "#multip":
-          if(matriz.m1[0][j] != matriz.m2[i][j]){ new Error("Calc Error"); }
-          resultado[i][j] = matriz.m1[i][j] * matriz.m2[i][j]; break;
-        case "#divisor":
-          resultado[i][j] = matriz.m1[i][j] / matriz.m2[i][j]; break;
- *
- * *numericos
- * 
- *     case "#numerosPares":
-      attrs = tipo[1];
-      resultado = attrs.numero / 2;
-      if(resultado % 2 === 0) { console.info(1) }
-      else { console.info(0) }; break;
-    case "#numerosImpares":
-      attrs = tipo[1];
-      resultado = attrs.numero / 3;
-      if(resultado % 3 === 0) { console.info(1) }
-      else { console.info(0) }; break;
-    case "#numerosPrimos":
-      attrs = tipo[1];
-      resultado = [];
-      for(let i = 0; i < attrs.numerosPesquisados; i++) {
-        if(i % 2 !== 0) {
-          resultado.push(i);
-        }
-      }; break;
-    case "#conjuntos":
-      attrs = tipo[1];
-      resultado = 2 ** attrs.elementos; break;
- *
- * *porcentagem
- * 
- *     case "#10E2":
-      resultado = variavel[1].value / 10 ** 2; break;
-    case "#10E3":
-      resultado = variavel[1].value / 10 ** 3; break;
-    case "#10E4":
-      resultado = variavel[1].value / 10 ** 4; break;
-    case "#10E5":
-      resultado = variavel[1].value / 10 ** 5; break;
-    case "#anyNumber":  
-      resultado = variavel[1].value / variavel[1].valueTotal; break;
- *
- * *temperatura
- * 
- *     case "#celsiusFahrenheit":
-      resultado = (1.8 * valor) + 32; break;
-    case "#celsiusKelvin":
-      resultado = valor - 273; break;
-    case "#fahrenheitCelsius":
-      resultado = (valor - 32) / 1.8; break;
-    case "#fahrenheitKelvin":
-      resultado = ((valor - 32) * 5) / 9 + 273; break;
-    case "#kelvinCelsius":
-      resultado = valor + 273; break;
-    case "#kelvinFahrenheit":
-      resultado = (valor - 273) * 1.8 + 32; break;
- *
- */

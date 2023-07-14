@@ -60,26 +60,4 @@ namespace wfx6_structures {
 
 }
 
-namespace wfx6_defines {
-
-  namespace plataform {
-    
-    bool debug = 0;
-
-    #if defined(__ANDROID__) 
-      #include <sys/cdefs.h>
-    
-    #elif defined(__LINUX__)
-      #include <features.h>
-
-    #elif defined(__APPLE__)
-      #include <TargetConditionals.h>
-    
-    #endif
-
-
-  }
-
-}
-
 #endif  // WFX6_H_

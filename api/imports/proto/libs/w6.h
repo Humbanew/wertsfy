@@ -1,5 +1,5 @@
-// #ifndef __DEKKARDE_H_ 
-// #define __DEKKARDE_H_
+// #ifndef __W6_H_ 
+// #define __W6_H_
 // #endif
 
 namespace w6 { };

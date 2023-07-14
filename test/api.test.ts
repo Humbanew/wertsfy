@@ -8,3 +8,4 @@ wertsfy.Bibliotecas.arithm.Consts;
 
 wertsfy.Bibliotecas.arithm.Consts.c_cbrt_of05;
 
+wertsfy.Bibliotecas.arithm.Methods.m_absoluto;

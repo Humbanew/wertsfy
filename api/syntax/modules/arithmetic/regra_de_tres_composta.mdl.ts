@@ -1,13 +1,13 @@
-export var regraDeTresComposta = (valor1: number, valor2: number, valor3: number, valor4: number, valor5: number, valor6: number, valor7: number, localDaVariavel: string = ("A" || "B" || "C" || "D" || "E" || "F" || "G")): number => {
-  if (localDaVariavel == "a") { localDaVariavel = "A"; }
-  if (localDaVariavel == "b") { localDaVariavel = "B"; }
-  if (localDaVariavel == "c") { localDaVariavel = "C"; }
-  if (localDaVariavel == "d") { localDaVariavel = "D"; }
-  if (localDaVariavel == "e") { localDaVariavel = "E"; }
-  if (localDaVariavel == "f") { localDaVariavel = "F"; }
-  if (localDaVariavel == "g") { localDaVariavel = "G"; }
+export var regraDeTresComposta = (valor1: number, valor2: number, valor3: number, valor4: number, valor5: number, valor6: number, valor7: number, localDavariavel: string = ("A" || "B" || "C" || "D" || "E" || "F" || "G")): number => {
+  if (localDavariavel == "a") { localDavariavel = "A"; }
+  if (localDavariavel == "b") { localDavariavel = "B"; }
+  if (localDavariavel == "c") { localDavariavel = "C"; }
+  if (localDavariavel == "d") { localDavariavel = "D"; }
+  if (localDavariavel == "e") { localDavariavel = "E"; }
+  if (localDavariavel == "f") { localDavariavel = "F"; }
+  if (localDavariavel == "g") { localDavariavel = "G"; }
   let resultado = 0;
-  switch (localDaVariavel) {
+  switch (localDavariavel) {
     case "A": resultado = valor1 * valor2 / valor3; break;
     case "B": resultado = valor1 * valor3 / valor2; break;
     case "C": resultado = valor2 * valor3 / valor1; break;

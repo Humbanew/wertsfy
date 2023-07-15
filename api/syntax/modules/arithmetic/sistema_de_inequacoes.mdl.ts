@@ -1,4 +1,4 @@
-const sistemaDeInequacoes = (expressao1: string, expressao2: string): string|void => {
+export var sistemaDeInequacoes = (expressao1: string, expressao2: string): string|void => {
   let resultado = "", verificacao = /((\-)?([0-9]+)(\.[0-9]+)?[x])(((\-)?(\+)?)([0-9]+)(\.[0-9]+)?[y])((\<\=)?(\>\=)?(\<)?(\>)?(\-)?([0-9]+)(\.[0-9]+)?)/gi;
   if (expressao1.match(verificacao) == null || expressao2.match(verificacao) == null) { return console.error("A expressão inserida não é válida"); }
   let pegaParteA = /((\-)?([0-9]+)(\.[0-9]+)?[x])/gi,

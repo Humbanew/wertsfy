@@ -1,56 +1,56 @@
-import { absoluto } from "./modules/absoluto.mdl";
-import { aceleracaoAngularMCUV } from "./modules/aceleracao-angular-mcuv.mdl";
-import { aceleracaoCentripetaMCU } from "./modules/aceleracao-centripeta-mcu.mdl";
-import { aceleracaoPlanoInclinadoEixoX } from "./modules/aceleracao-plano-inclinado-eixo-x.mdl";
-import { aceleracaoPlanoInclinadoEixoY } from "./modules/aceleracao-plano-inclinado-eixo-y.mdl";
-import { aceleracao } from "./modules/aceleracao.mdl";
-import { alcanceLancamentoVertical } from "./modules/alcance-lancamento-vertical.mdl";
-import { alcanceMaximoLancamentoVertical } from "./modules/alcance-maximo-lancamento-vertical.mdl";
-import { alturaMaximaLancamentoVertical } from "./modules/altura-maxima-lancamento-vertical.mdl";
-import { antilogaritmoBase10 } from "./modules/antilogaritmo_base_10.mdl";
-import { antilogaritmoBase10Mais1 } from "./modules/antilogaritmo_base_10_mais_1.mdl";
-import { antilogaritmoBase10Menos1 } from "./modules/antilogaritmo_base_10_menos_1.mdl";
-import { antilogaritmoBase2 } from "./modules/antilogaritmo_base_2.mdl";
-import { antilogaritmoBase2Mais1 } from "./modules/antilogaritmo_base_2_mais_1.mdl";
-import { antilogaritmoBase2Menos1 } from "./modules/antilogaritmo_base_2_menos_1.mdl";
-import { antilogaritmoBaseQualquer } from "./modules/antilogaritmo_base_qualquer.mdl";
-import { antilogaritmoBaseQualquerMais1 } from "./modules/antilogaritmo_base_qualquer_mais_1.mdl";
-import { antilogaritmoBaseQualquerMenos1 } from "./modules/antilogaritmo_base_qualquer_menos_1.mdl";
-import { antilogaritmoNatural } from "./modules/antilogaritmo_natural.mdl";
-import { antilogaritmoNaturalMais1 } from "./modules/antilogaritmo_natural_mais_1.mdl";
-import { antilogaritmoNaturalMenos1 } from "./modules/antilogaritmo_natural_menos_1.mdl";
-import { apotemaTriangulo } from "./modules/apotema_triangulo.mdl";
-import { arcoCosecante } from "./modules/arco_cosecante.mdl";
-import { arcoCosecanteHiperbolica } from "./modules/arco_cosecante_hiperbolica.mdl";
-import { arcoCosseno } from "./modules/arco_cosseno.mdl";
-import { arcoCossenoHiperbolico } from "./modules/arco_cosseno_hiperbolico.mdl";
-import { arcoCotangente } from "./modules/arco_cotangente.mdl";
-import { arcoCotangenteHiperbolica } from "./modules/arco_cotangente_hiperbolica.mdl";
-import { arcoSecante } from "./modules/arco_secante.mdl";
-import { arcoSecanteHiperbolica } from "./modules/arco_secante_hiperbolica.mdl";
-import { arcoSeno } from "./modules/arco_seno.mdl";
-import { arcoSenoHiperbolico } from "./modules/arco_seno_hiperbolico.mdl";
-import { arcoTangente } from "./modules/arco_tangente.mdl";
-import { arcoTangenteHiperbolica } from "./modules/arco_tangente_hiperbolica.mdl";
-import { areaCirculo } from "./modules/area_circulo.mdl";
-import { areaCircunferencia } from "./modules/area_circunferencia.mdl";
-import { areaElipse } from "./modules/area_elipse.mdl";
-import { areaEsfera } from "./modules/area_esfera.mdl";
-import { areaLateralCilindro } from "./modules/area_lateral_cilindro.mdl";
-import { areaLateralPrisma } from "./modules/area_lateral_prisma.mdl";
-import { areaLozango } from "./modules/area_lozango.mdl";
-import { areaPiramide } from "./modules/area_piramide.mdl";
-import { areaPoligono } from "./modules/area_poligono.mdl";
-import { areaQuadrado } from "./modules/area_quadrado.mdl";
-import { areaRetangulo } from "./modules/area_retangulo.mdl";
-import { areaTrapezio } from "./modules/area_trapezio.mdl";
-import { areaTriangulo } from "./modules/area_triangulo.mdl";
-import { arranjo } from "./modules/arranjo.mdl";
-import { arrendondaParaBaixo } from "./modules/arrendonda_para_baixo.mdl";
-import { arrendondaParaCima } from "./modules/arrendonda_para_cima.mdl";
-import { arrendondaParaDecimal32Bits } from "./modules/arrendonda_para_decimal_32bits.mdl";
-import { arrendondaParaInteiro } from "./modules/arrendonda_para_inteiro.mdl";
-import { atrito } from "./modules/atrito.mdl";
+import { absoluto } from "./modules/arithmetic/absoluto.mdl";
+import { aceleracao } from "./modules/arithmetic/aceleracao.mdl";
+import { aceleracaoAngularMCUV } from "./modules/arithmetic/aceleracao_angular_mcuv.mdl";
+import { aceleracaoCentripetaMCU } from "./modules/arithmetic/aceleracao_centripeta_mcu.mdl";
+import { aceleracaoPlanoInclinadoEixoX } from "./modules/arithmetic/aceleracao_plano_inclinado_eixo_x.mdl";
+import { aceleracaoPlanoInclinadoEixoY } from "./modules/arithmetic/aceleracao_plano_inclinado_eixo_y.mdl";
+import { alcanceLancamentoVertical } from "./modules/arithmetic/alcance_lancamento_vertical.mdl";
+import { alcanceMaximoLancamentoVertical } from "./modules/arithmetic/alcance_maximo_lancamento_vertical.mdl";
+import { alturaMaximaLancamentoVertical } from "./modules/arithmetic/altura_maxima_lancamento_vertical.mdl";
+import { antilogaritmoBase10 } from "./modules/arithmetic/antilogaritmo_base_10.mdl";
+import { antilogaritmoBase10Mais1 } from "./modules/arithmetic/antilogaritmo_base_10_mais_1.mdl";
+import { antilogaritmoBase10Menos1 } from "./modules/arithmetic/antilogaritmo_base_10_menos_1.mdl";
+import { antilogaritmoBase2 } from "./modules/arithmetic/antilogaritmo_base_2.mdl";
+import { antilogaritmoBase2Mais1 } from "./modules/arithmetic/antilogaritmo_base_2_mais_1.mdl";
+import { antilogaritmoBase2Menos1 } from "./modules/arithmetic/antilogaritmo_base_2_menos_1.mdl";
+import { antilogaritmoBaseQualquer } from "./modules/arithmetic/antilogaritmo_base_qualquer.mdl";
+import { antilogaritmoBaseQualquerMais1 } from "./modules/arithmetic/antilogaritmo_base_qualquer_mais_1.mdl";
+import { antilogaritmoBaseQualquerMenos1 } from "./modules/arithmetic/antilogaritmo_base_qualquer_menos_1.mdl";
+import { antilogaritmoNatural } from "./modules/arithmetic/antilogaritmo_natural.mdl";
+import { antilogaritmoNaturalMais1 } from "./modules/arithmetic/antilogaritmo_natural_mais_1.mdl";
+import { antilogaritmoNaturalMenos1 } from "./modules/arithmetic/antilogaritmo_natural_menos_1.mdl";
+import { apotemaTriangulo } from "./modules/arithmetic/apotema_triangulo.mdl";
+import { arcoCosecante } from "./modules/arithmetic/arco_cosecante.mdl";
+import { arcoCosecanteHiperbolica } from "./modules/arithmetic/arco_cosecante_hiperbolica.mdl";
+import { arcoCosseno } from "./modules/arithmetic/arco_cosseno.mdl";
+import { arcoCossenoHiperbolico } from "./modules/arithmetic/arco_cosseno_hiperbolico.mdl";
+import { arcoCotangente } from "./modules/arithmetic/arco_cotangente.mdl";
+import { arcoCotangenteHiperbolica } from "./modules/arithmetic/arco_cotangente_hiperbolica.mdl";
+import { arcoSecante } from "./modules/arithmetic/arco_secante.mdl";
+import { arcoSecanteHiperbolica } from "./modules/arithmetic/arco_secante_hiperbolica.mdl";
+import { arcoSeno } from "./modules/arithmetic/arco_seno.mdl";
+import { arcoSenoHiperbolico } from "./modules/arithmetic/arco_seno_hiperbolico.mdl";
+import { arcoTangente } from "./modules/arithmetic/arco_tangente.mdl";
+import { arcoTangenteHiperbolica } from "./modules/arithmetic/arco_tangente_hiperbolica.mdl";
+import { areaCirculo } from "./modules/arithmetic/area_circulo.mdl";
+import { areaCircunferencia } from "./modules/arithmetic/area_circunferencia.mdl";
+import { areaElipse } from "./modules/arithmetic/area_elipse.mdl";
+import { areaEsfera } from "./modules/arithmetic/area_esfera.mdl";
+import { areaLateralCilindro } from "./modules/arithmetic/area_lateral_cilindro.mdl";
+import { areaLateralPrisma } from "./modules/arithmetic/area_lateral_prisma.mdl";
+import { areaLozango } from "./modules/arithmetic/area_lozango.mdl";
+import { areaPiramide } from "./modules/arithmetic/area_piramide.mdl";
+import { areaPoligono } from "./modules/arithmetic/area_poligono.mdl";
+import { areaQuadrado } from "./modules/arithmetic/area_quadrado.mdl";
+import { areaRetangulo } from "./modules/arithmetic/area_retangulo.mdl";
+import { areaTrapezio } from "./modules/arithmetic/area_trapezio.mdl";
+import { areaTriangulo } from "./modules/arithmetic/area_triangulo.mdl";
+import { arranjo } from "./modules/arithmetic/arranjo.mdl";
+import { arrendondaParaBaixo } from "./modules/arithmetic/arrendonda_para_baixo.mdl";
+import { arrendondaParaCima } from "./modules/arithmetic/arrendonda_para_cima.mdl";
+import { arrendondaParaDecimal32Bits } from "./modules/arithmetic/arrendonda_para_decimal_32bits.mdl";
+import { arrendondaParaInteiro } from "./modules/arithmetic/arrendonda_para_inteiro.mdl";
+import { atrito } from "./modules/arithmetic/atrito.mdl";
 
 export const Aritmeticos =
 {
@@ -930,6 +930,8 @@ export const Aritmeticos =
     m_arrendonda_para_inteiro: arrendondaParaInteiro,
 
     m_atrito: atrito,
+
+    
 
   }
 

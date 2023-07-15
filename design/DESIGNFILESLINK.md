@@ -30,4 +30,16 @@ ___
 
 ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
 
+
+![Internal Arch Root Badge - Class](https://github.com/Humbanew/wertsfy/assets/59739253/95c307d4-06f6-4000-932a-af57f0822e34)
+
+![Internal Arch Root Badge - Constant](https://github.com/Humbanew/wertsfy/assets/59739253/12015273-f30b-44ab-8b92-350df637e731)
+
+![Internal Arch Root Badge - Interface](https://github.com/Humbanew/wertsfy/assets/59739253/4090acd6-bb45-4d6a-942a-fe49b3f6d2d4)
+
+![Internal Arch Root Badge - Module](https://github.com/Humbanew/wertsfy/assets/59739253/0734ef3a-b385-4482-9989-7f2bb004ce40)
+
+![Internal Arch Root Badge - Type](https://github.com/Humbanew/wertsfy/assets/59739253/a8a42000-18b5-4ffd-b9b1-478840efea74)
+
+
 </div>

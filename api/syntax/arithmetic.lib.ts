@@ -1668,7 +1668,6 @@ export const Aritmeticos =
    * 
    * Contém as funções aritméticas. _[Contains the arithmetic functions.]_ 
    * 
-   * 
    */
   Methods: {
 

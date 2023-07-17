@@ -1684,9 +1684,6 @@ export var Aritmeticos =
      * **``Método [Method] - Absoluto``**
      * 
      * Realiza o cálculo do valor absoluto. _[Performs the calculation of the absolute value.]_
-     * ___
-     * @param {number} x - ``[value]`` 
-     *  @returns {number}
      *  
      **/
     m_absoluto: 
@@ -1702,11 +1699,6 @@ export var Aritmeticos =
      * **``Método [Method] - Aceleração Angular do Movimento Circular Uniformente Variado``**
      * 
      * Realiza o cálculo da aceleração angular do movimento circular uniformente variado. _[Performs the calculation of the angular acceleration of the uniformly varied circular movement.]_
-     * ___
-     * @param {{inicial: number, final: number}} velocidadeAngular ``[angular speed]``
-     * 
-     * @param {{inicial: number, final: number}} tempo ``[time]``
-     *  @returns {number}
      *  
      **/
     m_aceleracao_angular_mcuv: 
@@ -1722,11 +1714,6 @@ export var Aritmeticos =
      * **``Método [Method] - Aceleração Centrípeta do Movimento Circular Uniforme``**
      * 
      * Realiza o cálculo da aceleração centrípeta do movimento circular uniforme. _[Performs the calculation of the centripetal acceleration of the uniform circular movement.]_
-     * ___
-     * @param {number} velocidade ``[speed]``
-     * 
-     * @param {number} raio ``[ray]``
-     *  @returns {number}
      *  
      **/
     m_aceleracao_centripeta_mcu: 
@@ -1743,13 +1730,6 @@ export var Aritmeticos =
      * **``Método [Method] - Aceleração Plano Inclinado Eixo X``**
      * 
      * Realiza o cálculo da aceleração plano inclinado no eixo x. _[Performs the calculation of inclined plane acceleration on the x axis.]_
-     * ___
-     * @param {number} massa ``[massa]``
-     * 
-     * @param {number} gravidade ``[gravity]``
-     * 
-     * @param {number} angulo ``[angle]``
-     *  @returns {number}
      *  
      **/
     m_aceleracao_plano_inclinado_eixo_x: 
@@ -1765,13 +1745,6 @@ export var Aritmeticos =
      * **``Método [Method] - Aceleração Plano Inclinado Eixo Y``**
      * 
      * Realiza o cálculo da aceleração plano inclinado no eixo y. _[Performs the calculation of the tilt plane acceleration on the y axis.]_
-     * ___
-     * @param {number} massa ``[massa]``
-     * 
-     * @param {number} gravidade ``[gravity]``
-     * 
-     * @param {number} angulo ``[angle]``
-     *  @returns {number}
      *  
      **/
     m_aceleracao_plano_inclinado_eixo_y: 
@@ -1787,16 +1760,10 @@ export var Aritmeticos =
      * **``Método [Method] - Aceleração``**
      * 
      * Realiza o cálculo da aceleração. _[Performs the acceleration calculation.]_
-     * ___
-     * @param {number} velocidade ``[speed]``
-     * 
-     * @param {{inicial: number, final: number}} tempo ``[time]``
-     *  @returns {number} 
      * 
      **/
     m_aceleracao: 
       aceleracao,
-
 
     /**
      *  
@@ -1808,7 +1775,7 @@ export var Aritmeticos =
      * **``Método [Method] - Alcance Lançamento Vertical``** 
      * 
      * Realiza o cálculo do alcance lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
-     *
+     * 
      **/
     m_alcance_lancamento_vertical: 
       alcanceLancamentoVertical,
@@ -1823,7 +1790,7 @@ export var Aritmeticos =
      * **``Método [Method] - Alcance Máximo Lançamento Vertical``** 
      * 
      * Realiza o cálculo do alcance máximo lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
-     *
+     * 
      **/
     m_alcance_maximo_lancamento_vertical: 
       alcanceMaximoLancamentoVertical,
@@ -1838,7 +1805,7 @@ export var Aritmeticos =
      * **``Método [Method] - Altura Máxima Lançamento Vertical``** 
      * 
      * Realiza o cálculo da altura máxima lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
-     *
+     * 
      **/
     m_altura_maxima_lancamento_vertical: 
       alturaMaximaLancamentoVertical,
@@ -1853,7 +1820,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 2``** 
      * 
      * Realiza o cálculo do antilogaritmo base 2. _[Performs the calculation of the base 2 antilogarithm.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_2: 
       antilogaritmoBase2,
@@ -1868,7 +1835,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 2 mais 1``** 
      * 
      * Realiza o cálculo do antilogaritmo base 2 mais 1. _[Performs the calculation of the base 2 antilogarithm plus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_2_mais_1: 
       antilogaritmoBase2Mais1,
@@ -1883,7 +1850,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 2 menos 1``** 
      * 
      * Realiza o cálculo do antilogaritmo base 2 menos 1. _[Performs the calculation of the base 2 antilogarithm minus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_2_menos_1: 
       antilogaritmoBase2Menos1,
@@ -1898,7 +1865,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 10``** 
      * 
      * Realiza o cálculo do antilogaritmo base 10. _[Performs the calculation of the base 10 antilogarithm.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_10: 
       antilogaritmoBase10,
@@ -1913,7 +1880,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 10 mais 1``** 
      * 
      * Realiza o cálculo do antilogaritmo base 10 mais 1. _[Performs the calculation of the base 10 antilogarithm plus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_10_mais_1: 
       antilogaritmoBase10Mais1,
@@ -1928,7 +1895,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base 10 menos 1``** 
      * 
      * Realiza o cálculo do antilogaritmo base 10 menos 1. _[Performs the calculation of the base 10 antilogarithm minus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_10_menos_1: 
       antilogaritmoBase10Menos1,
@@ -1943,7 +1910,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base Qualquer``** 
      * 
      * Realiza o cálculo do antilogaritmo base qualquer. _[Performs the calculation of the any base antilogarithm.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_qualquer: 
       antilogaritmoBaseQualquer,
@@ -1958,7 +1925,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base Qualquer mais 1```** 
      * 
      * Realiza o cálculo do antilogaritmo base qualquer mais 1. _[Performs the calculation of the any base antilogarithm plus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_qualquer_mais_1: 
       antilogaritmoBaseQualquerMais1,
@@ -1973,7 +1940,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Base Qualquer menos 1``** 
      * 
      * Realiza o cálculo do antilogaritmo base qualquer menos 1. _[Performs the calculation of the any base antilogarithm minus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_base_qualquer_menos_1: 
       antilogaritmoBaseQualquerMenos1,
@@ -1988,7 +1955,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Natural``** 
      * 
      * Realiza o cálculo do antilogaritmo natural. _[Performs the calculation of the natural antilogarithm.]_
-     *
+     * 
      **/
     m_antilogaritmo_natural: 
       antilogaritmoNatural,
@@ -2003,7 +1970,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Natural mais 1``** 
      * 
      * Realiza o cálculo do antilogaritmo natural mais 1. _[Performs the calculation of the natural antilogarithm plus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_natural_mais_1: 
       antilogaritmoNaturalMais1,
@@ -2018,7 +1985,7 @@ export var Aritmeticos =
      * **``Método [Method] - Antilogarítmo Natural menos 1``** 
      * 
      * Realiza o cálculo do antilogaritmo natural menos 1. _[Performs the calculation of the natural antilogarithm minus 1.]_
-     *
+     * 
      **/
     m_antilogaritmo_natural_menos_1: 
       antilogaritmoNaturalMenos1,
@@ -2033,7 +2000,7 @@ export var Aritmeticos =
      * **``Método [Method] - Apótema do Triângulo``** 
      * 
      * Realiza o cálculo do apótema do triângulo. _[Performs the calculation of the apothem of the triangle.]_
-     *
+     * 
      **/
     m_apotema_triangulo: 
       apotemaTriangulo,
@@ -2048,7 +2015,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cosecante``** 
      * 
      * Realiza o cálculo do arco cosecante. _[Performs the calculation of the cosecante arc.]_
-     *
+     * 
      **/
     m_arco_cosecante: 
       arcoCosecante,
@@ -2063,7 +2030,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cosecante Hiperbólica``** 
      * 
      * Realiza o cálculo do arco cosecante hiperbólico. _[Performs the calculation of the hyperbolic cosecante arc.]_
-     *
+     * 
      **/
     m_arco_cosecante_hiperbolica: 
       arcoCosecanteHiperbolica,
@@ -2078,7 +2045,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cosseno``** 
      * 
      * Realiza o cálculo do arco cosseno. _[Performs the calculation of the cosine arc.]_
-     *
+     * 
      **/
     m_arco_cosseno: 
       arcoCosseno,
@@ -2093,7 +2060,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cosseno Hiperbólico``** 
      * 
      * Realiza o cálculo do arco cosseno hiperbólico. _[Performs the calculation of the hyperbolic cosine arc.]_
-     *
+     * 
      **/
     m_arco_cosseno_hiperbolico: 
       arcoCossenoHiperbolico,
@@ -2108,7 +2075,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cotangente``** 
      * 
      * Realiza o cálculo do arco cotangente. _[Performs the calculation of the cotangent arc.]_
-     *
+     * 
      **/
     m_arco_cotangente: 
       arcoCotangente,
@@ -2123,7 +2090,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Cotangente Hiperbólico``** 
      * 
      * Realiza o cálculo do arco cotangente hiperbólico. _[Performs the calculation of the hyperbolic cotangent arc.]_
-     *
+     * 
      **/
     m_arco_cotangente_hiperbolica: 
       arcoCotangenteHiperbolica,
@@ -2138,7 +2105,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Secante``** 
      * 
      * Realiza o cálculo do arco secante. _[Performs the calculation of the secant arc.]_
-     *
+     * 
      **/
     m_arco_secante: 
       arcoSecante,
@@ -2153,7 +2120,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Secante Hiperbólica``** 
      * 
      * Realiza o cálculo do arco secante hiperbólico. _[Performs the calculation of the hyperbolic secant arc.]_
-     *
+     * 
      **/
     m_arco_secante_hiperbolica: 
       arcoSecanteHiperbolica,
@@ -2168,7 +2135,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Seno``** 
      * 
      * Realiza o cálculo do arco seno. _[Performs the calculation of the sine arc.]_
-     *
+     * 
      **/
     m_arco_seno: 
       arcoSeno,
@@ -2183,7 +2150,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Seno Hiperbólico``** 
      * 
      * Realiza o cálculo do arco seno hiperbólico. _[Performs the calculation of the hyperbolic sine arc.]_
-     *
+     * 
      **/
     m_arco_seno_hiperbolico: 
       arcoSenoHiperbolico,
@@ -2198,7 +2165,7 @@ export var Aritmeticos =
      * **``Método [Method] - Arco Tangente``** 
      * 
      * Realiza o cálculo do arco tangente. _[Performs the calculation of the tangent arc.]_
-     *
+     * 
      **/
     m_arco_tangente: 
       arcoTangente,
@@ -2212,7 +2179,7 @@ export var Aritmeticos =
      * 
      * **``Método [Method] - Arco Tangente Hiperbólico``** 
      * 
-     * Realiza o cálculo do arco tangente hiperbólico. _[Performs the calculation of the hyperbolic tangent arc.]_
+     * Realiza o cálculo do arco tangente hiperbólica. _[Performs the calculation of the hyperbolic tangent arc.]_
      *
      **/
     m_arco_tangente_hiperbolica: 
@@ -2228,7 +2195,7 @@ export var Aritmeticos =
      * **``Método [Method] - Área do Circulo``** 
      * 
      * Realiza o cálculo da área do circulo. _[Performs the calculation of the area of a circle.]_
-     *
+     * 
      **/
     m_area_circulo: 
       areaCirculo,
@@ -2243,7 +2210,7 @@ export var Aritmeticos =
      * **``Método [Method] - Área da Circunferência``** 
      * 
      * Realiza o cálculo da área da circunferência. _[Performs the calculation of the area of a circle.]_
-     *
+     * 
      **/
     m_area_circunferencia: 
       areaCircunferencia,
@@ -2258,7 +2225,7 @@ export var Aritmeticos =
      * **``Método [Method] - Área da Elipse``** 
      * 
      * Realiza o cálculo da área da elipse. _[Performs the calculation of the area of an ellipse.]_
-     *
+     * 
      **/
     m_area_elipse: 
       areaElipse,
@@ -2273,7 +2240,7 @@ export var Aritmeticos =
      * **``Método [Method] - Área da Esfera``** 
      * 
      * Realiza o cálculo da área da esfera. _[Performs the calculation of the area of a sphere.]_
-     *
+     * 
      **/
     m_area_esfera: 
       areaEsfera,
@@ -2303,7 +2270,7 @@ export var Aritmeticos =
      * **``Método [Method] - Área Lateral do Prisma``** 
      * 
      * Realiza o cálculo da área lateral do prisma. _[Performs the calculation of the lateral area of a prism.]_
-     *
+     * 
      **/
     m_area_lateral_prisma: 
       areaLateralPrisma,

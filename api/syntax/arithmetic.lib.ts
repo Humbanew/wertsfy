@@ -1685,7 +1685,8 @@ export var Aritmeticos =
      * 
      * Realiza o cálculo do valor absoluto. _[Performs the calculation of the absolute value.]_
      * ___
-     * @param {number} x - ``[value]``
+     * @param {number} x - ``[value]`` 
+     *  @returns {number}
      *  
      **/
     m_absoluto: 
@@ -1705,6 +1706,7 @@ export var Aritmeticos =
      * @param {{inicial: number, final: number}} velocidadeAngular ``[angular speed]``
      * 
      * @param {{inicial: number, final: number}} tempo ``[time]``
+     *  @returns {number}
      *  
      **/
     m_aceleracao_angular_mcuv: 
@@ -1724,6 +1726,7 @@ export var Aritmeticos =
      * @param {number} velocidade ``[speed]``
      * 
      * @param {number} raio ``[ray]``
+     *  @returns {number}
      *  
      **/
     m_aceleracao_centripeta_mcu: 
@@ -1746,6 +1749,7 @@ export var Aritmeticos =
      * @param {number} gravidade ``[gravity]``
      * 
      * @param {number} angulo ``[angle]``
+     *  @returns {number}
      *  
      **/
     m_aceleracao_plano_inclinado_eixo_x: 
@@ -1767,6 +1771,7 @@ export var Aritmeticos =
      * @param {number} gravidade ``[gravity]``
      * 
      * @param {number} angulo ``[angle]``
+     *  @returns {number}
      *  
      **/
     m_aceleracao_plano_inclinado_eixo_y: 
@@ -1786,7 +1791,8 @@ export var Aritmeticos =
      * @param {number} velocidade ``[speed]``
      * 
      * @param {{inicial: number, final: number}} tempo ``[time]``
-     *  
+     *  @returns {number} 
+     * 
      **/
     m_aceleracao: 
       aceleracao,
@@ -4390,7 +4396,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Secante``**
+     * 
+     * Realiza o cálculo da secante. _[Performs the calculation of the secant.]_ 
      *
      **/
     m_secante: 
@@ -4403,7 +4411,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Secante Hiperbólica``**
+     * 
+     * Realiza o cálculo da secante hiperbólica. _[Performs the calculation of the secant hiperbolic.]_ 
      *
      **/
     m_secante_hiperbolica: 
@@ -4416,8 +4426,10 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Seno``** 
      *
+     * Realiza o cálculo do seno. _[Performs the calculation of the sine.]_
+     * 
      **/
     m_seno: 
       seno,
@@ -4429,7 +4441,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Seno Hiperbólico``**
+     * 
+     * Realiza o cálculo do seno hiperbólico. _[Performs the calculation of the sine hiperbolic.]_ 
      *
      **/
     m_seno_hiperbolico: 
@@ -4442,7 +4456,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Sinalização Octantes``**
+     * 
+     * Realiza o cálculo da sinalização octantes. _[Performs the calculation of the octant.]_ 
      *
      **/
     m_sinalizacao_octantes: 
@@ -4455,7 +4471,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Sinalização Quadrantes``**
+     * 
+     *  
      *
      **/
     m_sinalizacao_quadrantes: 
@@ -4468,7 +4486,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Sistema de Equações``**
+     * 
+     * Realiza o cálculo do sistema de equações. _[Performs the calculation of the system of equations.]_ 
      *
      **/
     m_sistema_de_equacoes: 
@@ -4481,7 +4501,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Sistema de Inequações``**
+     * 
+     * Realiza o cálculo do sistema de inequações. _[Performs the calculation of the system of inequations.]_ 
      *
      **/
     m_sistema_de_inequacoes: 
@@ -4494,10 +4516,12 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Sistemas Lineares``** 
      *
+     * Realiza o cálculo do sistema de equações. _[Performs the calculation of the system of equations.]_
+     * 
      **/
-    m_sistema_lineares: 
+    m_sistemas_lineares: 
       sistemasLineares,
 
     /**
@@ -4507,7 +4531,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Soma``**
+     * 
+     * Realiza o cálculo da soma. _[Performs the calculation of the sum.]_ 
      *
      **/
     m_soma: 
@@ -4520,7 +4546,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Subtração``**
+     * 
+     * Realiza o cálculo da subtração. _[Performs the calculation of the subtraction.]_ 
      *
      **/
     m_subtracao: 
@@ -4533,7 +4561,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Tangente``**
+     * 
+     * Realiza o cálculo da tangente. _[Performs the calculation of the tangent.]_ 
      *
      **/
     m_tangente: 
@@ -4546,7 +4576,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Tangente Hiperbólica``**
+     * 
+     * Realiza o cálculo da tangente hiperbólica. _[Performs the calculation of the tangent hiperbolic.]_ 
      *
      **/
     m_tangente_hiperbolica: 
@@ -4559,7 +4591,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Tempo``**
+     * 
+     * Realiza o cálculo do tempo. _[Performs the calculation of the time.]_ 
      *
      **/
     m_tempo: 
@@ -4572,7 +4606,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Boltzmann``**
+     * 
+     * Realiza o cálculo do teorema de Boltzmann. _[Performs the calculation of the Boltzmann theorem.]_ 
      *
      **/
     m_teorema_boltzmann: 
@@ -4585,7 +4621,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Coulomb``**
+     * 
+     * Realiza o cálculo do teorema de Coulomb. _[Performs the calculation of the Coulomb theorem.]_ 
      *
      **/
     m_teorema_coulomb: 
@@ -4598,7 +4636,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Girard``**
+     * 
+     * Realiza o cálculo do teorema de Girard. _[Performs the calculation of the Girard theorem.]_ 
      *
      **/
     m_teorema_girard: 
@@ -4611,7 +4651,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Pascal``**
+     * 
+     * Realiza o cálculo do teorema de Pascal. _[Performs the calculation of the Pascal theorem.]_ 
      *
      **/
     m_teorema_pascal: 
@@ -4624,7 +4666,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Pitágoras A N``**
+     * 
+     * Realiza o cálculo do teorema de Pitágoras A N. _[Performs the calculation of the Pitágoras A N theorem.]_ 
      *
      **/
     m_teorema_pitagoras_a_n: 
@@ -4637,7 +4681,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Pitágoras B C H``**
+     * 
+     * Realiza o cálculo do teorema de Pitágoras B C H. _[Performs the calculation of the Pitágoras B C H theorem.]_ 
      *
      **/
     m_teorema_pitagoras_b_c_h: 
@@ -4650,7 +4696,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Pitágoras Clássico``**
+     * 
+     * Realiza o cálculo do teorema de Pitágoras Clássico. _[Performs the calculation of the Pitágoras Clássico theorem.]_ 
      *
      **/
     m_teorema_pitagoras_classico: 
@@ -4663,7 +4711,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Pitágoras M N``** 
+     * 
+     * Realiza o cálculo do teorema de Pitágoras M N. _[Performs the calculation of the Pitágoras M N theorem.]_
      *
      **/
     m_teorema_pitagoras_m_n: 
@@ -4676,7 +4726,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Plank``**
+     * 
+     * Realiza o cálculo do teorema de Plank. _[Performs the calculation of the Plank theorem.]_ 
      *
      **/
     m_teorema_plank: 
@@ -4689,7 +4741,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Stevin``**
+     * 
+     * Realiza o cálculo do teorema de Stevin. _[Performs the calculation of the Stevin theorem.]_ 
      *
      **/
     m_teorema_stevin: 
@@ -4702,7 +4756,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Stirling``**
+     * 
+     * Realiza o cálculo do teorema de Stirling. _[Performs the calculation of the Stirling theorem.]_ 
      *
      **/
     m_teorema_stirling: 
@@ -4715,7 +4771,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Tales de Mileto``**
+     * 
+     * Realiza o cálculo do teorema de Tales de Mileto. _[Performs the calculation of the Tales de Mileto theorem.]_ 
      *
      **/
     m_teorema_tales_de_mileto: 
@@ -4728,7 +4786,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Titulação``**
+     * 
+     * Realiza o cálculo do teorema de Titulação. _[Performs the calculation of the Titulação theorem.]_ 
      *
      **/
     m_titulacao: 
@@ -4741,7 +4801,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Teorema de Torricelli no Movimento Circular Uniformente Variado``**
+     * 
+     * Realiza o cálculo do teorema de Torricelli no Movimento Circular Uniformente Variado. _[Performs the calculation of the Torricelli theorem in the uniformly varied circular movement.]_ 
      *
      **/
     m_torricelli_mcuv: 
@@ -4754,7 +4816,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Trabalho``**
+     * 
+     * Realiza o cálculo do trabalho. _[Performs the calculation of the work.]_ 
      *
      **/
     m_trabalho: 
@@ -4767,7 +4831,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Valor Máximo``**
+     * 
+     * Realiza o cálculo do valor máximo. _[Performs the calculation of the maximum value.]_ 
      *
      **/
     m_valor_maximo: 
@@ -4780,7 +4846,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Valor Mínimo``**
+     * 
+     * Realiza o cálculo do valor mínimo. _[Performs the calculation of the minimum value.]_ 
      *
      **/
     m_valor_minimo: 
@@ -4793,7 +4861,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Velocidade Angular no Movimento Circular Uniforme``**
+     * 
+     * Realiza o cálculo da velocidade angular no movimento circular uniforme. _[Performs the calculation of the angular velocity in the uniformly varied circular movement.]_ 
      *
      **/
     m_velocidade_angular_mcu: 
@@ -4806,7 +4876,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Velocidade Linear no Movimento Circular Uniforme``**
+     * 
+     * Realiza o cálculo da velocidade linear no movimento circular uniforme. _[Performs the calculation of the linear velocity in the uniformly varied circular movement.]_ 
      *
      **/
     m_velocidade_linear_mcu: 
@@ -4819,7 +4891,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Velocidade``**
+     * 
+     * Realiza o cálculo da velocidade. _[Performs the calculation of the velocity.]_ 
      *
      **/
     m_velocidade: 
@@ -4832,7 +4906,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Cilindro``**
+     * 
+     * Realiza o cálculo do volume do cilindro. _[Performs the calculation of the volume of the cylinder.]_ 
      *
      **/
     m_volume_cilindro: 
@@ -4845,7 +4921,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Cone``** 
+     * 
+     * Realiza o cálculo do volume do cone. _[Performs the calculation of the volume of the cone.]_
      *
      **/
     m_volume_cone: 
@@ -4858,7 +4936,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Cubo``**
+     * 
+     * Realiza o cálculo do volume do cubo. _[Performs the calculation of the volume of the cube.]_ 
      *
      **/
     m_volume_cubo: 
@@ -4871,7 +4951,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Dodecaedro``**
+     * 
+     * Realiza o cálculo do volume dodecaedro. _[Performs the calculation of the volume of the dodecaedro.]_ 
      *
      **/
     m_volume_dodecaedro: 
@@ -4884,7 +4966,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume da Esfera``**
+     * 
+     * Realiza o cálculo do volume da esfera. _[Performs the calculation of the volume of the sphere.]_ 
      *
      **/
     m_volume_esfera: 
@@ -4897,7 +4981,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Hexaedro``**
+     * 
+     * Realiza o cálculo do volume hexaedro. _[Performs the calculation of the volume of the hexaedro.]_ 
      *
      **/
     m_volume_hexaedro: 
@@ -4910,7 +4996,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Icosaedro``**
+     * 
+     * Realiza o cálculo do volume icosaedro. _[Performs the calculation of the volume of the icosaedro.]_ 
      *
      **/
     m_volume_icosaedro: 
@@ -4923,7 +5011,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Octaedro``** 
+     * 
+     * Realiza o cálculo do volume octaedro. _[Performs the calculation of the volume of the octaedro.]_
      *
      **/
     m_volume_octaedro: 
@@ -4936,7 +5026,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Paralelogramo``**
+     * 
+     * Realiza o cálculo do volume paralelogramo. _[Performs the calculation of the volume of the paralelogramo.]_ 
      *
      **/
     m_volume_paralelogramo: 
@@ -4949,7 +5041,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume da Pirâmide``**
+     * 
+     * Realiza o cálculo do volume da pirâmide. _[Performs the calculation of the volume of the pirâmide.]_ 
      *
      **/
     m_volume_piramide: 
@@ -4962,7 +5056,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Polígono de Formato Lozango``**
+     * 
+     * Realiza o cálculo do volume do polígono de formato lozango. _[Performs the calculation of the volume of the polígono de formato lozango.]_ 
      *
      **/
     m_volume_poligono_formato_lozango: 
@@ -4975,7 +5071,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Polígono de Formato Trapézio``**
+     * 
+     * Realiza o cálculo do volume do polígono de formato trapézio. _[Performs the calculation of the volume of the polígono de formato trapézio.]_ 
      *
      **/
     m_volume_poligono_formato_trapezio: 
@@ -4988,7 +5086,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Prisma``**
+     * 
+     * Realiza o cálculo do volume do prisma. _[Performs the calculation of the volume of the prisma.]_ 
      *
      **/
     m_volume_prisma: 
@@ -5001,7 +5101,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Superfície``**
+     * 
+     * Realiza o cálculo do volume do superície. _[Performs the calculation of the volume of the superície.]_ 
      *
      **/
     m_volume_superficie: 
@@ -5014,7 +5116,9 @@ export var Aritmeticos =
      * ___
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
-     * **``Método [Method]``** 
+     * **``Método [Method] - Volume do Tetraedro``**
+     * 
+     * Realiza o cálculo do volume do tetraedro. _[Performs the calculation of the volume of the tetraedro.]_ 
      *
      **/
     m_volume_tetraedro: 

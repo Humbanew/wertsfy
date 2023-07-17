@@ -1,3 +1,3 @@
-const frequencia = (periodo: number): number => {
+export var frequencia = (periodo: number): number => {
   return 1 / periodo;
 };

@@ -1,0 +1,1 @@
+let nikko: object = { };

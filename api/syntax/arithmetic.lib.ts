@@ -457,6 +457,7 @@ import {
 import { 
   fahrenheitKelvin 
 } from "./modules/arithmetic/fahrenheit_kelvin.mdl";
+import { fatorial } from "./modules/arithmetic/fatorial.mdl";
 
 import { 
   forcaEletromotriz 
@@ -465,6 +466,7 @@ import {
 import { 
   forcaGravitacional 
 } from "./modules/arithmetic/forca_gravitacional.mdl";
+import { frequencia } from "./modules/arithmetic/frequencia.mdl";
 
 import { 
   indiceDesenvolvimentoHumano 
@@ -693,6 +695,7 @@ import {
 import { 
   regraDeTresComposta 
 } from "./modules/arithmetic/regra_de_tres_composta.mdl";
+import { relacaoDeEuler } from "./modules/arithmetic/relacao-euler.mdl";
 
 import { 
   rendimento 
@@ -899,7 +902,7 @@ import {
 } from "./modules/arithmetic/volume_tetraedro.mdl";
 
 
-export const Aritmeticos =
+export var Aritmeticos =
 {
 
   /**
@@ -1671,687 +1674,3349 @@ export const Aritmeticos =
    */
   Methods: {
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Absoluto``**
+     * 
+     * Realiza o cálculo do valor absoluto. _[Performs the calculation of the absolute value.]_
+     * ___
+     * @param {number} x - ``[value]``
+     *  
+     **/
     m_absoluto: 
       absoluto,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Aceleração Angular do Movimento Circular Uniformente Variado``**
+     * 
+     * Realiza o cálculo da aceleração angular do movimento circular uniformente variado. _[Performs the calculation of the angular acceleration of the uniformly varied circular movement.]_
+     * ___
+     * @param {{inicial: number, final: number}} velocidadeAngular ``[angular speed]``
+     * 
+     * @param {{inicial: number, final: number}} tempo ``[time]``
+     *  
+     **/
     m_aceleracao_angular_mcuv: 
       aceleracaoAngularMCUV,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Aceleração Centrípeta do Movimento Circular Uniforme``**
+     * 
+     * Realiza o cálculo da aceleração centrípeta do movimento circular uniforme. _[Performs the calculation of the centripetal acceleration of the uniform circular movement.]_
+     * ___
+     * @param {number} velocidade ``[speed]``
+     * 
+     * @param {number} raio ``[ray]``
+     *  
+     **/
     m_aceleracao_centripeta_mcu: 
       aceleracaoCentripetaMCU,
 
+
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Aceleração Plano Inclinado Eixo X``**
+     * 
+     * Realiza o cálculo da aceleração plano inclinado no eixo x. _[Performs the calculation of inclined plane acceleration on the x axis.]_
+     * ___
+     * @param {number} massa ``[massa]``
+     * 
+     * @param {number} gravidade ``[gravity]``
+     * 
+     * @param {number} angulo ``[angle]``
+     *  
+     **/
     m_aceleracao_plano_inclinado_eixo_x: 
       aceleracaoPlanoInclinadoEixoX,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Aceleração Plano Inclinado Eixo Y``**
+     * 
+     * Realiza o cálculo da aceleração plano inclinado no eixo y. _[Performs the calculation of the tilt plane acceleration on the y axis.]_
+     * ___
+     * @param {number} massa ``[massa]``
+     * 
+     * @param {number} gravidade ``[gravity]``
+     * 
+     * @param {number} angulo ``[angle]``
+     *  
+     **/
     m_aceleracao_plano_inclinado_eixo_y: 
       aceleracaoPlanoInclinadoEixoY,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Aceleração``**
+     * 
+     * Realiza o cálculo da aceleração. _[Performs the acceleration calculation.]_
+     * ___
+     * @param {number} velocidade ``[speed]``
+     * 
+     * @param {{inicial: number, final: number}} tempo ``[time]``
+     *  
+     **/
     m_aceleracao: 
       aceleracao,
 
+
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Alcance Lançamento Vertical``** 
+     * 
+     * Realiza o cálculo do alcance lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
+     *
+     **/
     m_alcance_lancamento_vertical: 
       alcanceLancamentoVertical,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Alcance Máximo Lançamento Vertical``** 
+     * 
+     * Realiza o cálculo do alcance máximo lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
+     *
+     **/
     m_alcance_maximo_lancamento_vertical: 
       alcanceMaximoLancamentoVertical,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Altura Máxima Lançamento Vertical``** 
+     * 
+     * Realiza o cálculo da altura máxima lançamento vertical. _[Performs the calculation of the maximum vertical movement.]_
+     *
+     **/
     m_altura_maxima_lancamento_vertical: 
       alturaMaximaLancamentoVertical,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 2``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 2. _[Performs the calculation of the base 2 antilogarithm.]_
+     *
+     **/
     m_antilogaritmo_base_2: 
       antilogaritmoBase2,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 2 mais 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 2 mais 1. _[Performs the calculation of the base 2 antilogarithm plus 1.]_
+     *
+     **/
     m_antilogaritmo_base_2_mais_1: 
       antilogaritmoBase2Mais1,
-    
+
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 2 menos 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 2 menos 1. _[Performs the calculation of the base 2 antilogarithm minus 1.]_
+     *
+     **/
     m_antilogaritmo_base_2_menos_1: 
       antilogaritmoBase2Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 10``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 10. _[Performs the calculation of the base 10 antilogarithm.]_
+     *
+     **/
     m_antilogaritmo_base_10: 
       antilogaritmoBase10,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 10 mais 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 10 mais 1. _[Performs the calculation of the base 10 antilogarithm plus 1.]_
+     *
+     **/
     m_antilogaritmo_base_10_mais_1: 
       antilogaritmoBase10Mais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base 10 menos 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base 10 menos 1. _[Performs the calculation of the base 10 antilogarithm minus 1.]_
+     *
+     **/
     m_antilogaritmo_base_10_menos_1: 
       antilogaritmoBase10Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base Qualquer``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base qualquer. _[Performs the calculation of the any base antilogarithm.]_
+     *
+     **/
     m_antilogaritmo_base_qualquer: 
       antilogaritmoBaseQualquer,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base Qualquer mais 1```** 
+     * 
+     * Realiza o cálculo do antilogaritmo base qualquer mais 1. _[Performs the calculation of the any base antilogarithm plus 1.]_
+     *
+     **/
     m_antilogaritmo_base_qualquer_mais_1: 
       antilogaritmoBaseQualquerMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Base Qualquer menos 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo base qualquer menos 1. _[Performs the calculation of the any base antilogarithm minus 1.]_
+     *
+     **/
     m_antilogaritmo_base_qualquer_menos_1: 
       antilogaritmoBaseQualquerMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Natural``** 
+     * 
+     * Realiza o cálculo do antilogaritmo natural. _[Performs the calculation of the natural antilogarithm.]_
+     *
+     **/
     m_antilogaritmo_natural: 
       antilogaritmoNatural,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Natural mais 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo natural mais 1. _[Performs the calculation of the natural antilogarithm plus 1.]_
+     *
+     **/
     m_antilogaritmo_natural_mais_1: 
       antilogaritmoNaturalMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Antilogarítmo Natural menos 1``** 
+     * 
+     * Realiza o cálculo do antilogaritmo natural menos 1. _[Performs the calculation of the natural antilogarithm minus 1.]_
+     *
+     **/
     m_antilogaritmo_natural_menos_1: 
       antilogaritmoNaturalMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Apótema do Triângulo``** 
+     * 
+     * Realiza o cálculo do apótema do triângulo. _[Performs the calculation of the apothem of the triangle.]_
+     *
+     **/
     m_apotema_triangulo: 
       apotemaTriangulo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cosecante``** 
+     * 
+     * Realiza o cálculo do arco cosecante. _[Performs the calculation of the cosecante arc.]_
+     *
+     **/
     m_arco_cosecante: 
       arcoCosecante,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cosecante Hiperbólica``** 
+     * 
+     * Realiza o cálculo do arco cosecante hiperbólico. _[Performs the calculation of the hyperbolic cosecante arc.]_
+     *
+     **/
     m_arco_cosecante_hiperbolica: 
       arcoCosecanteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cosseno``** 
+     * 
+     * Realiza o cálculo do arco cosseno. _[Performs the calculation of the cosine arc.]_
+     *
+     **/
     m_arco_cosseno: 
       arcoCosseno,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cosseno Hiperbólico``** 
+     * 
+     * Realiza o cálculo do arco cosseno hiperbólico. _[Performs the calculation of the hyperbolic cosine arc.]_
+     *
+     **/
     m_arco_cosseno_hiperbolico: 
       arcoCossenoHiperbolico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cotangente``** 
+     * 
+     * Realiza o cálculo do arco cotangente. _[Performs the calculation of the cotangent arc.]_
+     *
+     **/
     m_arco_cotangente: 
       arcoCotangente,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Cotangente Hiperbólico``** 
+     * 
+     * Realiza o cálculo do arco cotangente hiperbólico. _[Performs the calculation of the hyperbolic cotangent arc.]_
+     *
+     **/
     m_arco_cotangente_hiperbolica: 
       arcoCotangenteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Secante``** 
+     * 
+     * Realiza o cálculo do arco secante. _[Performs the calculation of the secant arc.]_
+     *
+     **/
     m_arco_secante: 
       arcoSecante,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Secante Hiperbólica``** 
+     * 
+     * Realiza o cálculo do arco secante hiperbólico. _[Performs the calculation of the hyperbolic secant arc.]_
+     *
+     **/
     m_arco_secante_hiperbolica: 
       arcoSecanteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Seno``** 
+     * 
+     * Realiza o cálculo do arco seno. _[Performs the calculation of the sine arc.]_
+     *
+     **/
     m_arco_seno: 
       arcoSeno,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Seno Hiperbólico``** 
+     * 
+     * Realiza o cálculo do arco seno hiperbólico. _[Performs the calculation of the hyperbolic sine arc.]_
+     *
+     **/
     m_arco_seno_hiperbolico: 
       arcoSenoHiperbolico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Tangente``** 
+     * 
+     * Realiza o cálculo do arco tangente. _[Performs the calculation of the tangent arc.]_
+     *
+     **/
     m_arco_tangente: 
       arcoTangente,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arco Tangente Hiperbólico``** 
+     * 
+     * Realiza o cálculo do arco tangente hiperbólico. _[Performs the calculation of the hyperbolic tangent arc.]_
+     *
+     **/
     m_arco_tangente_hiperbolica: 
       arcoTangenteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Circulo``** 
+     * 
+     * Realiza o cálculo da área do circulo. _[Performs the calculation of the area of a circle.]_
+     *
+     **/
     m_area_circulo: 
       areaCirculo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área da Circunferência``** 
+     * 
+     * Realiza o cálculo da área da circunferência. _[Performs the calculation of the area of a circle.]_
+     *
+     **/
     m_area_circunferencia: 
       areaCircunferencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área da Elipse``** 
+     * 
+     * Realiza o cálculo da área da elipse. _[Performs the calculation of the area of an ellipse.]_
+     *
+     **/
     m_area_elipse: 
       areaElipse,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área da Esfera``** 
+     * 
+     * Realiza o cálculo da área da esfera. _[Performs the calculation of the area of a sphere.]_
+     *
+     **/
     m_area_esfera: 
       areaEsfera,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área Lateral do Cilindro``** 
+     * 
+     * Realiza o cálculo da área lateral do cilindro. _[Performs the calculation of the lateral area of a cylinder.]_
+     *
+     **/
     m_area_lateral_cilindro: 
       areaLateralCilindro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área Lateral do Prisma``** 
+     * 
+     * Realiza o cálculo da área lateral do prisma. _[Performs the calculation of the lateral area of a prism.]_
+     *
+     **/
     m_area_lateral_prisma: 
       areaLateralPrisma,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] Área do Lozango``** 
+     * 
+     * Realiza o cálculo da área do lozango. _[Performs the calculation of the area of a lozango.]_
+     *
+     **/
     m_area_lozango: 
       areaLozango,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área da Pirâmide``** 
+     * 
+     * Realiza o cálculo da área da pirâmide. _[Performs the calculation of the area of a pyramid.]_
+     *
+     **/
     m_area_piramide: 
       areaPiramide,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Poligono``** 
+     * 
+     * Realiza o cálculo da área do polígono. _[Performs the calculation of the area of a polygon.]_
+     *
+     **/
     m_area_poligono: 
       areaPoligono,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Quadrado``** 
+     * 
+     * Realiza o cálculo da área do quadrado. _[Performs the calculation of the area of a square.]_
+     *
+     **/
     m_area_quadrado: 
       areaQuadrado,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Retângulo``** 
+     * 
+     * Realiza o cálculo da área do retângulo. _[Performs the calculation of the area of a rectangle.]_
+     *
+     **/
     m_area_retangulo: 
       areaRetangulo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Trapézio``** 
+     * 
+     * Realiza o cálculo da área do trapézio. _[Performs the calculation of the area of a trapezium.]_
+     *
+     **/
     m_area_trapezio: 
       areaTrapezio,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Área do Triângulo``** 
+     * 
+     * Realiza o cálculo da área do triângulo. _[Performs the calculation of the area of a triangle.]_
+     *
+     **/
     m_area_triangulo: 
       areaTriangulo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arranjo``** 
+     * 
+     * Realiza o cálculo do arranjo. _[Performs the calculation of the arranjo.]_
+     *
+     **/
     m_arranjo: 
       arranjo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arrendonda para Baixo``** 
+     * 
+     * Realiza o cálculo do arrendondamento para baixo. _[Performs the calculation of the downward.]_
+     *
+     **/
     m_arrendonda_para_baixo: 
       arrendondaParaBaixo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arrendonda para Cima``** 
+     * 
+     * Realiza o cálculo do arrendondamento para cima. _[Performs the calculation of the upward.]_
+     *
+     **/
     m_arrendonda_para_cima: 
       arrendondaParaCima,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arrendonda para Decimal de 32 bits``** 
+     * 
+     * Realiza o cálculo do arrendondamento para decimal de 32 bits. _[Performs the calculation of the rounding.]_
+     *
+     **/
     m_arrendonda_para_decimal_32bits: 
       arrendondaParaDecimal32Bits,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Arrendonda para Inteiro``** 
+     * 
+     * Realiza o cálculo do arrendondamento para inteiro. _[Performs the calculation of the integer.]_
+     *
+     **/
     m_arrendonda_para_inteiro: 
       arrendondaParaInteiro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Atrito``** 
+     * 
+     * Realiza o cálculo do atrito. _[Performs the calculation of the atrito.]_
+     *
+     **/
     m_atrito: 
       atrito,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Calor Latente``** 
+     * 
+     * Realiza o cálculo do calor latente. _[Performs the calculation of the latent.]_
+     *
+     **/
     m_calor_latente: 
       calorLatente,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Calor Sensivel``** 
+     * 
+     * Realiza o cálculo do calor sensível. _[Performs the calculation of the sensitive.]_
+     *
+     **/
     m_calor_sensivel: 
       calorSensivel,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Celsius para Fahrenheit``** 
+     * 
+     * Realiza o cálculo do Celsius para Fahrenheit. _[Performs the calculation of the Celsius to Fahrenheit.]_
+     *
+     **/
     m_celsius_fahrenheit: 
       celsiusFahrenheit,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Celsius para Kelvin``** 
+     * 
+     * Realiza o cálculo do Celsius para Kelvin. _[Performs the calculation of the Celsius to Kelvin.]_
+     *
+     **/
     m_celsius_kelvin: 
       celsiusKelvin,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 2``** 
+     * 
+     * Realiza o cálculo do cologaritmo base 2. _[Performs the calculation of the cologarithm base 2.]_
+     *
+     **/
     m_cologaritmo_base_2: 
       cologaritmoBase2,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 2 mais 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo base 2 mais 1. _[Performs the calculation of the cologarithm base 2 plus 1.]_
+     *
+     **/
     m_cologaritmo_base_2_mais_1: 
       cologaritmoBase2Mais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 2 menos 1```** 
+     * 
+     * Realiza o cálculo do cologaritmo base 2 menos 1. _[Performs the calculation of the cologarithm base 2 minus 1.]_
+     *
+     **/
     m_cologaritmo_base_2_menos_1: 
       cologaritmoBase2Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 10``** 
+     * 
+     * Realiza o cálculo do cologaritmo base 10. _[Performs the calculation of the cologarithm base 10.]_
+     *
+     **/
     m_cologaritmo_base_10: 
       cologaritmoBase10,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 10 mais 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo base 10 mais 1. _[Performs the calculation of the cologarithm base 10 plus 1.]_
+     *
+     **/
     m_cologaritmo_base_10_mais_1: 
       cologaritmoBase10Mais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base 10 menos 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo base 10 menos 1. _[Performs the calculation of the cologarithm base 10 minus 1.]_
+     *
+     **/
     m_cologaritmo_base_10_menos_1: 
       cologaritmoBase10Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base Qualquer``** 
+     * 
+     * Realiza o cálculo do cologaritmo base qualquer. _[Performs the calculation of the cologarithm base any.]_
+     *
+     **/
     m_cologaritmo_base_qualquer: 
       cologaritmoBaseQualquer,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base Qualquer mais 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo base qualquer mais 1. _[Performs the calculation of the cologarithm base any plus 1.]_
+     *
+     **/
     m_cologaritmo_base_qualquer_mais_1: 
       cologaritmoBaseQualquerMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Base Qualquer menos 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo base qualquer menos 1. _[Performs the calculation of the cologarithm base any minus 1.]_
+     *
+     **/
     m_cologaritmo_base_qualquer_menos_1: 
       cologaritmoBaseQualquerMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Natural``** 
+     * 
+     * Realiza o cálculo do cologaritmo natural. _[Performs the calculation of the cologarithm natural.]_
+     *
+     **/
     m_cologaritmo_natural: 
       cologaritmoNatural,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Natural mais 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo natural mais 1. _[Performs the calculation of the cologarithm natural plus 1.]_
+     *
+     **/
     m_cologaritmo_natural_mais_1: 
       cologaritmoNaturalMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cologarítmo Natural menos 1``** 
+     * 
+     * Realiza o cálculo do cologaritmo natural menos 1. _[Performs the calculation of the cologarithm natural minus 1.]_
+     *
+     **/
     m_cologaritmo_natural_menos_1: 
       cologaritmoNaturalMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Combinação``** 
+     * 
+     * Realiza o cálculo da combinação. _[Performs the calculation of the combination.]_ 
+     *
+     **/
     m_combinacao: 
       combinacao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Concentração``** 
+     * 
+     * Realiza o cálculo da concentração. _[Performs the calculation of the concentration.]_
+     *
+     **/
     m_concentracao: 
       concentracao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Consumo de Energia``** 
+     * 
+     * Realiza o cálculo do consumo de energia. _[Performs the calculation of the consumption of energy.]_
+     *
+     **/
     m_consumo_de_energia: 
       consumoDeEnergia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Contra Força Eletromotriz``** 
+     * 
+     * Realiza o cálculo da contra força eletromotriz. _[Performs the calculation of the against electromotive force.]_
+     *
+     **/
     m_contra_forca_eletromotriz: 
       contraForcaEletromotriz,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cosecante``** 
+     * 
+     * Realiza o cálculo do cosecante. _[Performs the calculation of the cosecante.]_
+     *
+     **/
     m_cosecante: 
       cosecante,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cosecante Hiperbólica``**
+     * 
+     * Realiza o cálculo do cosecante hiperbolica. _[Performs the calculation of the hiperbolic cosecant.]_ 
+     *
+     **/
     m_cosecante_hiperbolica: 
       cosecanteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cosseno``**
+     * 
+     * Realiza o cálculo do cosseno. _[Performs the calculation of the cosine.]_ 
+     *
+     **/
     m_cosseno: 
       cosseno,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cosseno Hiperbólico``** 
+     *
+     **/
     m_cosseno_hiperbolico: 
       cossenoHiperbolico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cotangente``**
+     * 
+     * Realiza o cálculo da cotangente. _[Performs the calculation of the cotangent.]_ 
+     *
+     **/
     m_cotangente: 
       cotangente,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Cotangente Hiperbólico``**
+     * 
+     * Realiza o cálculo da cotangente hiperbolica. _[Performs the calculation of the hiperbolic cotangent.]_ 
+     *
+     **/
     m_cotangente_hiperbolica: 
       cotangenteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Densidade``**
+     * 
+     * Realiza o cálculo da densidade. _[Performs the calculation of the density.]_ 
+     *
+     **/
     m_densidade: 
       densidade,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Determinante 2x2``**
+     * 
+     * Realiza o cálculo do determinante 2x2. _[Performs the calculation of the determinant 2x2.]_ 
+     *
+     **/
     m_determinante_2x2: 
       determinante2x2,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Determinante 3x3``**
+     * 
+     * Realiza o cálculo do determinante 3x3. _[Performs the calculation of the determinant 3x3.]_ 
+     *
+     **/
     m_determinante_3x3: 
       determinante3x3,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Diagrama de Venn de 2 Grupos``**
+     * 
+     * Realiza o cálculo do diagrama de Venn de 2 grupos. _[Performs the calculation of the diagram of Venn of 2 groups.]_ 
+     *
+     **/
     m_diagrama_venn_2_grupos: 
       diagramaVenn2Grupos,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Diagrama de Venn de 3 Grupos``**
+     * 
+     * Realiza o cálculo do diagrama de Venn de 3 grupos. _[Performs the calculation of the diagram of Venn of 3 groups.]_ 
+     *
+     **/
     m_diagrama_venn_3_grupos: 
       diagramaVenn3Grupos,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Diagrama de Venn de 4 Grupos``**
+     * 
+     * Realiza o cálculo do diagrama de Venn de 4 grupos. _[Performs the calculation of the diagram of Venn of 4 groups.]_ 
+     *
+     **/
     m_diagrama_venn_4_grupos: 
       diagramaVenn4Grupos,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Dilatação Linear``**
+     * 
+     * Realiza o cálculo da dilatação linear. _[Performs the calculation of the linear dilatation.]_ 
+     *
+     **/
     m_dilatacao_linear: 
       dilatacaoLinear,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Dilatação Superficial``**
+     * 
+     * Realiza o cálculo da dilatação superficial. _[Performs the calculation of the superficial dilatation.]_ 
+     *
+     **/
     m_dilatacao_superficial: 
       dilatacaoSuperficial,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Dilatação Volumérica``**
+     * 
+     * Realiza o cálculo da dilatação volumérica. _[Performs the calculation of the volumetric dilatation.]_ 
+     *
+     **/
     m_dilatacao_volumetrica: 
       dilatacaoVolumetrica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Divisão``**
+     * 
+     * Realiza o cálculo da divisão. _[Performs the calculation of the division.]_ 
+     *
+     **/
     m_divisao: 
       divisao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Efeito Fotoelétrico``**
+     * 
+     * Realiza o cálculo do efeito fotoelétrico. _[Performs the calculation of the photoelectric effect.]_ 
+     *
+     **/
     m_efeito_fotoeletrico: 
       efeitoFotoeletrico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Efeito Joule``**
+     * 
+     * Realiza o cálculo do efeito joule. _[Performs the calculation of the joule effect.]_ 
+     *
+     **/
     m_efeito_joule: 
       efeitoJoule,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Empuxo na Hidroestática Hidrodinâmica``** 
+     *
+     **/
     m_empuxo_hidroestatica_hidrodinamica: 
       empuxoHidroestaticaHidrodinamica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Energia Cinética``**
+     * 
+     * Realiza o cálculo da energia cinética. _[Performs the calculation of the kinetic energy.]_ 
+     *
+     **/
     m_energia_cinetica: 
       energiaCinetica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Energia Potencial Elástica``**
+     * 
+     * Realiza o cálculo da energia potencial elástica. _[Performs the calculation of the elastic energy potential.]_ 
+     *
+     **/
     m_energia_potencial_elastica: 
       energiaPotencialElastica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Energia Potencial Gravitacional``**
+     * 
+     * Realiza o cálculo da energia potencial gravitacional. _[Performs the calculation of the gravitational energy potential.]_ 
+     *
+     **/
     m_energia_potencial_gravitacional: 
       energiaPotencialGravitacional,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Energia Potencial Movimento Harmônico Simples``**
+     * 
+     * Realiza o cálculo da energia potencial movimento harmônico simples. _[Performs the calculation of the simple harmonic motion energy potential.]_ 
+     *
+     **/
     m_equacao_horaria_aceleracao_mhs: 
       equacaoHorariaDeAceleracaoMHS,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária da Aceleração``**
+     * 
+     * Realiza o cálculo da equação horária da aceleração. _[Performs the calculation of the horizontal acceleration equation.]_ 
+     *
+     **/
     m_equacao_horaria_aceleracao: 
       equacaoHorariaDaAceleracao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária do Espaço no Movimento Circular Uniformente Variado``**
+     * 
+     * Realiza o cálculo da equação horária do espço no movimento circular uniformente variado. _[Performs the calculation of the horizontal space motion equation.]_
+     *
+     **/
     m_equacao_horaria_espaco_mcuv: 
       equacaoHorariaDoEspacoMCUV,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária do Espaço``**
+     * 
+     * Realiza o cálculo da equação horária do espaço. _[Performs the calculation of the horizontal space motion equation.]_ 
+     *
+     **/
     m_equacao_horaria_espaco: 
       equacaoHorariaDoEspaco,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária da Força``**
+     * 
+     * Realiza o cálculo da equação horária da força. _[Performs the calculation of the horizontal force equation.]_ 
+     *
+     **/
     m_equacao_horaria_forca: 
       equacaoHorariaDaForca,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária da Posição no Movimento Harmônico Simples``**
+     * 
+     * Realiza o cálculo da equação horária da posição no movimento harmônico simples. _[Performs the calculation of the simple harmonic motion position equation.]_ 
+     *
+     **/
     m_equacao_horaria_posicao_mhs: 
       equacaoHorariaDePosicaoMHS,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária do Tempo no Espaço``**
+     * 
+     * Realiza o cálculo da equação horária do tempo no espaço. _[Performs the calculation of the horizontal space motion equation.]_ 
+     *
+     **/
     m_equacao_horaria_tempo_espaco: 
       equacaoHorariaDoTempoEspaco,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária do Tempo no Movimento Circular Uniformente Variado``**
+     * 
+     * Realiza o cálculo da equação horária do tempo no movimento circular uniformente variado. _[Performs the calculation of the horizontal space motion equation.]_ 
+     *
+     **/
     m_equacao_horaria_tempo_mcuv: 
       equacaoHorariaDoTempoMCUV,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária do Tempo``**
+     * 
+     * Realiza o cálculo da equação horária do tempo. _[Performs the calculation of the horizontal space motion equation.]_ 
+     *
+     **/
     m_equacao_horaria_tempo: 
       equacaoHorariaDoTempo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária da Velocidade no Movimento Harmônico Simples``**
+     * 
+     * Realiza o cálculo da equação horária da velocidade no movimento harmônico simples. _[Performs the calculation of the simple harmonic motion velocity equation.]_ 
+     *
+     **/
     m_equacao_horaria_velocidade_mhs: 
       equacaoHorariaDeVelocidadeMHS,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação Horária da Velocidade``**
+     * 
+     * Realiza o cálculo da equação horária da velocidade. _[Performs the calculation of the horizontal velocity equation.]_ 
+     *
+     **/
     m_equacao_horaria_velocidade: 
       equacaoHorariaDaVelocidade,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação de Lagrange``**
+     * 
+     * Realiza o cálculo da equação de lagrange. _[Performs the calculation of the lagrange equation.]_ 
+     *
+     **/
     m_equacao_lagrange: 
       equacaoDeLagrange,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Equação de Torricelli``**
+     * 
+     * Realiza o cálculo da equação de torricelli. _[Performs the calculation of the torricelli equation.]_ 
+     *
+     **/
     m_equacao_torricelli: 
       equacaoDeTorricelli,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Escala Geográfica``**
+     * 
+     * Realiza o cálculo da escala geográfica. _[Performs the calculation of the geographic scale.]_ 
+     *
+     **/
     m_escala_geografica: 
       escalaGeografica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Espaço``**
+     * 
+     * Realiza o cálculo do espaço. _[Performs the calculation of the space.]_ 
+     *
+     **/
     m_espaco: 
       espaco,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Exponencial``**
+     * 
+     * Realiza o cálculo da exponencial. _[Performs the calculation of the exponential.]_ 
+     *
+     **/
     m_exponencial: 
       exponencial,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Exponencial mais 1``**
+     * 
+     * Realiza o cálculo da exponencial mais 1. _[Performs the calculation of the exponential plus 1.]_ 
+     *
+     **/
     m_exponencial_mais_1: 
       exponencialMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Exponencial menos 1``**
+     * 
+     * Realiza o cálculo da exponencial menos 1. _[Performs the calculation of the exponential minus 1.]_ 
+     *
+     **/
     m_exponencial_menos_1: 
       exponencialMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Fahrenheit para Celsius``**
+     * 
+     * Realiza o cálculo do Fahrenheit para Celsius. _[Performs the calculation of the Fahrenheit to Celsius.]_ 
+     *
+     **/
     m_fahrenheit_celsius: 
       fahrenheitCelsius,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Fahrenheit para Kelvin``**
+     * 
+     * Realiza o cálculo do Fahrenheit para Kelvin. _[Performs the calculation of the Fahrenheit to Kelvin.]_ 
+     *
+     **/
     m_fahrenheit_kelvin: 
       fahrenheitKelvin,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Fatorial``**
+     * 
+     * Realiza o cálculo do fatorial. _[Performs the calculation of the factorial.]_ 
+     *
+     **/
     m_fatorial: 
       fatorial,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Força Eletromotriz``**
+     * 
+     * Realiza o cálculo da força eletromotriz. _[Performs the calculation of the eletromotive force.]_ 
+     *
+     **/
     m_forca_eletromotriz: 
       forcaEletromotriz,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Força Gravitacional``**
+     * 
+     * Realiza o cálculo da força gravitacional. _[Performs the calculation of the gravitational force.]_ 
+     *
+     **/
     m_forca_gravitacional: 
       forcaGravitacional,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Frequência``**
+     * 
+     * Realiza o cálculo da frequência. _[Performs the calculation of the frequency.]_ 
+     *
+     **/
     m_frequencia: 
       frequencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Índice de Desenvolvimento Humano``**
+     * 
+     * Realiza o cálculo do índice de desenvolvimento humano. _[Performs the calculation of the index of human development.]_ 
+     *
+     **/
     m_indice_desenvolvimento_humano: 
       indiceDesenvolvimentoHumano,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Índice de Gini``**
+     * 
+     * Realiza o cálculo do índice de Gini. _[Performs the calculation of the index of Gini.]_ 
+     *
+     **/
     m_indice_gini: 
       indiceGini,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Índice de Massa Corporal``**
+     * 
+     * Realiza o cálculo do índice de massa corporal. _[Performs the calculation of the index of mass corporal.]_ 
+     *
+     **/
     m_indice_massa_corporal: 
       indiceMassaCorporal,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Juros Compostos``**
+     * 
+     * Realiza o cálculo do juros compostos. _[Performs the calculation of the compound interest.]_ 
+     *
+     **/
     m_juros_compostos: 
       jurosCompostos,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Juros Simples``**
+     * 
+     * Realiza o cálculo do juros simples. _[Performs the calculation of the simple interest.]_ 
+     *
+     **/
     m_juros_simples: 
       jurosSimples,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Kelvin para Celsius``**
+     * 
+     * Realiza o cálculo do Kelvin para Celsius. _[Performs the calculation of the Kelvin to Celsius.]_
+     *
+     **/
     m_kelvin_celsius: 
       kelvinCelsius,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Kelvin para Fahrenheit``**
+     * 
+     * Realiza o cálculo do Kelvin para Fahrenheit. _[Performs the calculation of the Kelvin to Fahrenheit.]_ 
+     *
+     **/
     m_kelvin_fahrenheit: 
       kelvinFahrenheit,
 
-    m_lancamento_vertical: 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Lançamento Horizontal``**
+     * 
+     * Realiza o cálculo do lançamento horizontal. _[Performs the calculation of the horizontal launch.]_ 
+     *
+     **/
+    m_lancamento_horizontal: 
       lancamentoHorizontal,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Lei de Coulomb``**
+     * 
+     * Realiza o cálculo da lei de Coulomb. _[Performs the calculation of the Coulomb's law.]_ 
+     *
+     **/
     m_lei_de_coulomb: 
       leiDeCoulomb,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Lei de Lenz``**
+     * 
+     * Realiza o cálculo da lei de Lenz. _[Performs the calculation of the Lenz's law.]_ 
+     *
+     **/
     m_lei_de_lenz: 
       leiDeLenz,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Lei de Ohm``**
+     * 
+     * Realiza o cálculo da lei de Ohm. _[Performs the calculation of the Ohm's law.]_ 
+     *
+     **/
     m_lei_de_ohm: 
       leiDeOhm,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Lei de Geral dos Gases``**
+     * 
+     * Realiza o cálculo da lei de Geral dos Gases. _[Performs the calculation of the general law of gases.]_ 
+     *
+     **/
     m_lei_geral_dos_gases: 
       leiGeralDosGases,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Leis de Newton``**
+     * 
+     * Realiza o cálculo da lei de Newton. _[Performs the calculation of the Newton's law.]_ 
+     *
+     **/
     m_leis_de_newton: 
       leisDeNewton,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 2``** 
+     * 
+     * Realiza o cálculo do logarítmo de base 2. _[Performs the calculation of the logarithm base 2.]_
+     *
+     **/
     m_logaritmo_base_2: 
       logaritmoBase2,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 2 mais 1``**
+     * 
+     * Realiza o cálculo do logarítmo de base 2 mais 1. _[Performs the calculation of the logarithm base 2 plus 1.]_ 
+     *
+     **/
     m_logaritmo_base_2_mais_1: 
       logaritmoBase2Mais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 2 menos 1``**
+     * 
+     * Realiza o cálculo do logarítmo de base 2 menos 1. _[Performs the calculation of the logarithm base 2 minus 1.]_ 
+     *
+     **/
     m_logaritmo_base_2_menos_1: 
       logaritmoBase2Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 10``**
+     * 
+     * Realiza o cálculo do logarítmo de base 10. _[Performs the calculation of the logarithm base 10.]_ 
+     *
+     **/
     m_logaritmo_base_10: 
       logaritmoBase10,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 10 mais 1``**
+     * 
+     * Realiza o cálculo do logarítmo de base 10 mais 1. _[Performs the calculation of the logarithm base 10 plus 1.]_ 
+     *
+     **/
     m_logaritmo_base_10_mais_1: 
       logaritmoBase10Mais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo de Base 10 menos 1``**
+     * 
+     * Realiza o cálculo do logarítmo de base 10 menos 1. _[Performs the calculation of the logarithm base 10 minus 1.]_ 
+     *
+     **/
     m_logaritmo_base_10_menos_1: 
       logaritmoBase10Menos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Base Qualquer``**
+     * 
+     * Realiza o cálculo do logarítmo base qualquer. _[Performs the calculation of the logarithm any base.]_ 
+     *
+     **/
     m_logaritmo_base_qualquer: 
       logaritmoBaseQualquer,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Base Qualquer mais 1``**
+     * 
+     * Realiza o cálculo do logarítmo base qualquer mais 1. _[Performs the calculation of the logarithm any base plus 1.]_ 
+     *
+     **/
     m_logaritmo_base_qualquer_mais_1: 
       logaritmoBaseQualquerMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Base Qualquer menos 1``**
+     * 
+     * Realiza o cálculo do logarítmo base qualquer menos 1. _[Performs the calculation of the logarithm any base minus 1.]_ 
+     *
+     **/
     m_logaritmo_base_qualquer_menos_1: 
       logaritmoBaseQualquerMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Natural``**
+     * 
+     * Realiza o cálculo do logarítmo natural. _[Performs the calculation of the natural logarithm.]_ 
+     *
+     **/
     m_logaritmo_natural: 
       logaritmoNatural,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Natural mais 1``**
+     * 
+     * Realiza o cálculo do logarítmo natural mais 1. _[Performs the calculation of the natural logarithm plus 1.]_ 
+     *
+     **/
     m_logaritmo_natural_mais_1: 
       logaritmoNaturalMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Logarítmo Natural menos 1``**
+     * 
+     * Realiza o cálculo do logarítmo natural menos 1. _[Performs the calculation of the natural logarithm minus 1.]_ 
+     *
+     **/
     m_logaritmo_natural_menos_1: 
       logaritmoNaturalMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Período``**
+     * 
+     * Realiza o cálculo do período. _[Performs the calculation of the period.]_ 
+     *
+     **/
     m_periodo: 
       periodo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Peso Aparente na Hidroestática Hidrodinâmica``**
+     * 
+     * Realiza o cálculo do peso aparente na hidroestática hidrodinâmica. _[Performs the calculation of the weight apparent in the hydrodynamic water.]_ 
+     *
+     **/
     m_peso_aparente_hidroestatica_hidrodinamica: 
       pesoAparenteDaHidroestaticaHidrodinamica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Plano Inclinado com Atrito``**
+     * 
+     * Realiza o cálculo do plano inclinado com atrito. _[Performs the calculation of the inclined plane with atrito.]_ 
+     *
+     **/
     m_plano_inclinado_com_atrito: 
       planoInclinadoComAtrito,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Plano Inclinado sem Atrito``**
+     * 
+     * Realiza o cálculo do plano inclinado sem atrito. _[Performs the calculation of the inclined plane without atrito.]_ 
+     *
+     **/
     m_plano_inclinado_sem_atrito: 
       planoInclinadoSemAtrito,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Porcentagem``**
+     * 
+     * Realiza o cálculo da porcentagem. _[Performs the calculation of the percentage.]_ 
+     *
+     **/
     m_porcentagem: 
       porcentagem,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Porcentagem por 1000``**
+     * 
+     * Realiza o cálculo da porcentagem por 1000. _[Performs the calculation of the percentage by 1000.]_ 
+     *
+     **/
     m_porcentagem_por_1000: 
       porcentagemPor1000,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Porcentagem por 10000``**
+     * 
+     * Realiza o cálculo da porcentagem por 10000. _[Performs the calculation of the percentage by 10000.]_ 
+     *
+     **/
     m_porcentagem_por_10000: 
       porcentagemPor10000,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Porcentagem por 100000``**
+     * 
+     * Realiza o cálculo da porcentagem por 100000. _[Performs the calculation of the percentage by 100000.]_ 
+     *
+     **/
     m_porcentagem_por_100000: 
       porcentagemPor100000,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência``**
+     * 
+     * Realiza o cálculo da potência. _[Performs the calculation of the power.]_ 
+     *
+     **/
     m_potencia: 
       potencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência mais 1``**
+     * 
+     * Realiza o cálculo da potência mais 1. _[Performs the calculation of the power plus 1.]_ 
+     *
+     **/
     m_potencia_mais_1: 
       potenciaMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência menos 1``**
+     * 
+     * Realiza o cálculo da potência menos 1. _[Performs the calculation of the power minus 1.]_ 
+     *
+     **/
     m_potencia_menos_1: 
       potenciaMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência de Potência``**
+     * 
+     * Realiza o cálculo da potência de potência. _[Performs the calculation of the power of power.]_ 
+     *
+     **/
     m_potencia_de_potencia: 
       potenciaDePotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência de Potência mais 1``**
+     * 
+     * Realiza o cálculo da potência de potência mais 1. _[Performs the calculation of the power of power plus 1.]_ 
+     *
+     **/
     m_potencia_de_potencia_mais_1: 
       potenciaDePotenciaMais1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potência de Potência menos 1``**
+     * 
+     * Realiza o cálculo da potência de potência menos 1. _[Performs the calculation of the power of power minus 1.]_ 
+     *
+     **/
     m_potencia_de_potencia_menos_1: 
       potenciaDePotenciaMenos1,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potencial Elástico``**
+     * 
+     * Realiza o cálculo do potencial eléstico. _[Performs the calculation of the elastic potential.]_ 
+     *
+     **/
     m_potencial_elastico: 
       potencialElastico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Potencial Mecânico``**
+     * 
+     * Realiza o cálculo do potencial mecânico. _[Performs the calculation of the mechanical potential.]_ 
+     *
+     **/
     m_potencial_mecanico: 
       potencialMecanico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Principio Fundamental da Hidroestática Hidrodinâmica``**
+     * 
+     * Realiza o cálculo do princípio fundamental da hidroestática hidrodinâmica. _[Performs the calculation of the fundamental principle of hydrodynamic flow.]_ 
+     *
+     **/
     m_principio_fundamental_hidroestatica_hidrodinamica: 
       principioFundamentalDaHidroestaticaHidrodinamica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Probabilidade``**
+     * 
+     * Realiza o cálculo da probabilidade. _[Performs the calculation of the probability.]_ 
+     *
+     **/
     m_probabilidade: 
       probabilidade,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Quadrado de Punnet``**
+     * 
+     * Realiza o cálculo do quadrado de punnet. _[Performs the calculation of the square of punnet.]_ 
+     *
+     **/
     m_quadrado_de_punnet: 
       quadradoDePunnet,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Quadrado de Punnet Expandido``**
+     * 
+     * Realiza o cálculo do quadrado de punnet expandido. _[Performs the calculation of the expanded square of punnet.]_ 
+     *
+     **/
     m_quadrado_de_punnet_expandido: 
       quadradoDePunnetExpandido,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Quantidade de Conjuntos``**
+     * 
+     * Realiza o cálculo da quantidade de conjuntos. _[Performs the calculation of the quantity of sets.]_ 
+     *
+     **/
     m_quantidade_conjuntos: 
       quantidadeConjuntos,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Cúbica``**
+     * 
+     * Realiza o cálculo da raíz cúbica. _[Performs the calculation of the cubic root.]_ 
+     *
+     **/
     m_raiz_cubica: 
       raizCubica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Décima Potência``**
+     * 
+     * Realiza o cálculo da décima potência. _[Performs the calculation of the decimal power root.]_ 
+     *
+     **/
     m_raiz_decima_potencia: 
       raizDecimaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Nona Potência``**
+     * 
+     * Realiza o cálculo da nona potência. _[Performs the calculation of the nona power root.]_ 
+     *
+     **/
     m_raiz_nona_potencia: 
       raizNonaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Oitava Potência``**
+     * 
+     * Realiza o cálculo da raíz à oitava potência. _[Performs the calculation of the octa power root.]_ 
+     *
+     **/
     m_raiz_oitava_potencia: 
       raizOitavaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Quadrada``**
+     * 
+     * Realiza o cálculo da raíz quadrada. _[Performs the calculation of the square root.]_ 
+     *
+     **/
     m_raiz_quadrada: 
       raizQuadrada,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Quarta Potência``** 
+     * 
+     * Realiza o cálculo da raíz quarta potência. _[Performs the calculation of the quartic power root.]_
+     *
+     **/
     m_raiz_quanta_potencia: 
       raizQuartaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Quinta Potência``**
+     * 
+     * Realiza o cálculo da raíz quinta potência. _[Performs the calculation of the quintic power root.]_ 
+     *
+     **/
     m_raiz_quinta_potencia: 
       raizQuintaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Sétima Potência``**
+     * 
+     * Realiza o cálculo da raíz sétima potência. _[Performs the calculation of the septa power root.]_
+     *
+     **/
     m_raiz_setima_potencia: 
       raizSetimaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Raíz Sexta Potência``**
+     * 
+     * Realiza o cálculo da raíz sexta potência. _[Performs the calculation of the sexta power root.]_ 
+     *
+     **/
     m_raiz_sexta_potencia: 
       raizSextaPotencia,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Regra de Três Composta``**
+     * 
+     * Realiza o cálculo da regra de três composta. _[Performs the calculation of the three-composed rule.]_ 
+     *
+     **/
     m_regra_de_tres_composta: 
       regraDeTresComposta,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Regra de Três Simples``**
+     * 
+     * Realiza o cálculo da regra de três simples. _[Performs the calculation of the three-simples rule.]_ 
+     *
+     **/
     m_regra_de_tres_simples: 
       regraDeTresSimples,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Relação de Euler``**
+     * 
+     * Realiza o cálculo da relação de Euler. _[Performs the calculation of the Euler relation.]_ 
+     *
+     **/
     m_relacao_euler: 
       relacaoDeEuler,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Rendimento``**
+     * 
+     * Realiza o cálculo do rendimento. _[Performs the calculation of the performance.]_ 
+     *
+     **/
     m_rendimento: 
       rendimento,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method] - Resto``**
+     * 
+     * Realiza o cálculo do resto. _[Performs the calculation of the remainder.]_ 
+     *
+     **/
     m_resto: 
       resto,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_secante: 
       secante,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_secante_hiperbolica: 
       secanteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_seno: 
       seno,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_seno_hiperbolico: 
       senoHiperbolico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_sinalizacao_octantes: 
       sinalizacaoOctantes,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_sinalizacao_quadrantes: 
       sinalizacaoQuadrantes,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_sistema_de_equacoes: 
       sistemaDeEquacoes,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_sistema_de_inequacoes: 
       sistemaDeInequacoes,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_sistema_lineares: 
       sistemasLineares,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_soma: 
       soma,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_subtracao: 
       subtracao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_tangente: 
       tangente,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_tangente_hiperbolica: 
       tangenteHiperbolica,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_tempo: 
       tempo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_boltzmann: 
       teoremaDeBoltzmann,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_coulomb: 
       teoremaDeCoulomb,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_girard: 
       teoremaDeGirard,
-    
+
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_pascal: 
       teoremaDePascal,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_pitagoras_a_n: 
       teoremaPitagorasAN,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_pitagoras_b_c_h: 
       teoremaPitagorasBCH,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_pitagoras_classico: 
       teoremaPitagorasClassico,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_pitagoras_m_n: 
       teoremaPitagorasMN,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_plank: 
       teoremaDePlank,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_stevin: 
       teoremaDeStevin,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_stirling: 
       teoremaDeStirling,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_teorema_tales_de_mileto: 
       teoremaTalesDeMileto,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_titulacao: 
       titulacao,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_torricelli_mcuv: 
       torricelliMCUV,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_trabalho: 
       trabalho,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_valor_maximo: 
       valorMaximo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_valor_minimo: 
       valorMinimo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_velocidade_angular_mcu: 
       velocidadeAngularMCU,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_velocidade_linear_mcu: 
       velocidadeLinearMCU,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_velocidade: 
       velocidade,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_cilindro: 
       volumeCilindro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_cone: 
       volumeCone,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_cubo: 
       volumeCubo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_dodecaedro: 
       volumeDodecaedro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_esfera: 
       volumeEsfera,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_hexaedro: 
       volumeHexaedro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_icosaedro: 
       volumeIcosaedro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_octaedro: 
       volumeOctaedro,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_paralelogramo: 
       volumeParalelogramo,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_piramide: 
       volumePiramide,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_poligono_formato_lozango: 
       volumePoligonoFormatoLozango,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_poligono_formato_trapezio: 
       volumePoligonoFormatoTrapezio,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_prisma: 
       volumePrisma,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_superficie: 
       volumeSuperficie,
 
+    /**
+     *  
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+     * 
+     * ___
+     * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
+     * 
+     * **``Método [Method]``** 
+     *
+     **/
     m_volume_tetraedro: 
       volumeTetraedro
 

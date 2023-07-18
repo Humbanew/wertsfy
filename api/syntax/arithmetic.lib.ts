@@ -1606,7 +1606,7 @@ export var Aritmeticos =
      * Realiza o cálculo do valor absoluto. _[Performs the calculation of the absolute value.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
      *  
      **/
     m_absoluto: 
@@ -1745,8 +1745,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 2. _[Performs the calculation of the base 2 antilogarithm.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_base_2: 
       antilogaritmoBase2,
@@ -1763,8 +1763,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 2 mais 1. _[Performs the calculation of the base 2 antilogarithm plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_base_2_mais_1: 
       antilogaritmoBase2Mais1,
@@ -1781,8 +1781,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 2 menos 1. _[Performs the calculation of the base 2 antilogarithm minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_base_2_menos_1: 
       antilogaritmoBase2Menos1,
@@ -1799,8 +1799,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 10. _[Performs the calculation of the base 10 antilogarithm.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_base_10: 
       antilogaritmoBase10,
@@ -1817,8 +1817,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 10 mais 1. _[Performs the calculation of the base 10 antilogarithm plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     *  
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *   
      **/
     m_antilogaritmo_base_10_mais_1: 
       antilogaritmoBase10Mais1,
@@ -1835,8 +1835,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base 10 menos 1. _[Performs the calculation of the base 10 antilogarithm minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_base_10_menos_1: 
       antilogaritmoBase10Menos1,
@@ -1907,8 +1907,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo natural. _[Performs the calculation of the natural antilogarithm.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_natural: 
       antilogaritmoNatural,
@@ -1925,8 +1925,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo natural mais 1. _[Performs the calculation of the natural antilogarithm plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_natural_mais_1: 
       antilogaritmoNaturalMais1,
@@ -1943,8 +1943,8 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo natural menos 1. _[Performs the calculation of the natural antilogarithm minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_antilogaritmo_natural_menos_1: 
       antilogaritmoNaturalMenos1,
@@ -1976,8 +1976,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cosecante. _[Performs the calculation of the cosecante arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cosecante: 
       arcoCosecante,
@@ -1994,8 +1994,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cosecante hiperbólico. _[Performs the calculation of the hyperbolic cosecante arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cosecante_hiperbolica: 
       arcoCosecanteHiperbolica,
@@ -2012,8 +2012,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cosseno. _[Performs the calculation of the cosine arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cosseno: 
       arcoCosseno,
@@ -2030,8 +2030,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cosseno hiperbólico. _[Performs the calculation of the hyperbolic cosine arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cosseno_hiperbolico: 
       arcoCossenoHiperbolico,
@@ -2048,8 +2048,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cotangente. _[Performs the calculation of the cotangent arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cotangente: 
       arcoCotangente,
@@ -2066,8 +2066,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco cotangente hiperbólico. _[Performs the calculation of the hyperbolic cotangent arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_cotangente_hiperbolica: 
       arcoCotangenteHiperbolica,
@@ -2084,8 +2084,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco secante. _[Performs the calculation of the secant arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_secante: 
       arcoSecante,
@@ -2102,8 +2102,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco secante hiperbólico. _[Performs the calculation of the hyperbolic secant arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_secante_hiperbolica: 
       arcoSecanteHiperbolica,
@@ -2120,8 +2120,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco seno. _[Performs the calculation of the sine arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_seno: 
       arcoSeno,
@@ -2138,8 +2138,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco seno hiperbólico. _[Performs the calculation of the hyperbolic sine arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_seno_hiperbolico: 
       arcoSenoHiperbolico,
@@ -2156,8 +2156,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco tangente. _[Performs the calculation of the tangent arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_tangente: 
       arcoTangente,
@@ -2174,8 +2174,8 @@ export var Aritmeticos =
      * Realiza o cálculo do arco tangente hiperbólica. _[Performs the calculation of the hyperbolic tangent arc.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arco_tangente_hiperbolica: 
       arcoTangenteHiperbolica,
@@ -2400,7 +2400,10 @@ export var Aritmeticos =
      * **``Método [Method] - Arrendonda para Baixo``** 
      * 
      * Realiza o cálculo do arrendondamento para baixo. _[Performs the calculation of the downward.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arrendonda_para_baixo: 
       arrendondaParaBaixo,
@@ -2415,7 +2418,10 @@ export var Aritmeticos =
      * **``Método [Method] - Arrendonda para Cima``** 
      * 
      * Realiza o cálculo do arrendondamento para cima. _[Performs the calculation of the upward.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arrendonda_para_cima: 
       arrendondaParaCima,
@@ -2430,7 +2436,10 @@ export var Aritmeticos =
      * **``Método [Method] - Arrendonda para Decimal de 32 bits``** 
      * 
      * Realiza o cálculo do arrendondamento para decimal de 32 bits. _[Performs the calculation of the rounding.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arrendonda_para_decimal_32bits: 
       arrendondaParaDecimal32Bits,
@@ -2445,7 +2454,10 @@ export var Aritmeticos =
      * **``Método [Method] - Arrendonda para Inteiro``** 
      * 
      * Realiza o cálculo do arrendondamento para inteiro. _[Performs the calculation of the integer.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_arrendonda_para_inteiro: 
       arrendondaParaInteiro,
@@ -2505,7 +2517,10 @@ export var Aritmeticos =
      * **``Método [Method] - Celsius para Fahrenheit``** 
      * 
      * Realiza o cálculo do Celsius para Fahrenheit. _[Performs the calculation of the Celsius to Fahrenheit.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_celsius_fahrenheit: 
       celsiusFahrenheit,
@@ -2520,7 +2535,10 @@ export var Aritmeticos =
      * **``Método [Method] - Celsius para Kelvin``** 
      * 
      * Realiza o cálculo do Celsius para Kelvin. _[Performs the calculation of the Celsius to Kelvin.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_celsius_kelvin: 
       celsiusKelvin,
@@ -2537,8 +2555,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 2. _[Performs the calculation of the cologarithm base 2.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_2: 
       cologaritmoBase2,
@@ -2555,8 +2573,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 2 mais 1. _[Performs the calculation of the cologarithm base 2 plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_2_mais_1: 
       cologaritmoBase2Mais1,
@@ -2573,8 +2591,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 2 menos 1. _[Performs the calculation of the cologarithm base 2 minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_2_menos_1: 
       cologaritmoBase2Menos1,
@@ -2591,8 +2609,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 10. _[Performs the calculation of the cologarithm base 10.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_10: 
       cologaritmoBase10,
@@ -2609,8 +2627,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 10 mais 1. _[Performs the calculation of the cologarithm base 10 plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_10_mais_1: 
       cologaritmoBase10Mais1,
@@ -2627,8 +2645,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo base 10 menos 1. _[Performs the calculation of the cologarithm base 10 minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_base_10_menos_1: 
       cologaritmoBase10Menos1,
@@ -2699,8 +2717,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo natural. _[Performs the calculation of the cologarithm natural.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_natural: 
       cologaritmoNatural,
@@ -2717,8 +2735,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo natural mais 1. _[Performs the calculation of the cologarithm natural plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_natural_mais_1: 
       cologaritmoNaturalMais1,
@@ -2735,8 +2753,8 @@ export var Aritmeticos =
      * Realiza o cálculo do cologaritmo natural menos 1. _[Performs the calculation of the cologarithm natural minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cologaritmo_natural_menos_1: 
       cologaritmoNaturalMenos1,
@@ -2811,7 +2829,10 @@ export var Aritmeticos =
      * **``Método [Method] - Cosecante``** 
      * 
      * Realiza o cálculo do cosecante. _[Performs the calculation of the cosecante.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cosecante: 
       cosecante,
@@ -2826,7 +2847,10 @@ export var Aritmeticos =
      * **``Método [Method] - Cosecante Hiperbólica``**
      * 
      * Realiza o cálculo do cosecante hiperbolica. _[Performs the calculation of the hiperbolic cosecant.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cosecante_hiperbolica: 
       cosecanteHiperbolica,
@@ -2841,7 +2865,10 @@ export var Aritmeticos =
      * **``Método [Method] - Cosseno``**
      * 
      * Realiza o cálculo do cosseno. _[Performs the calculation of the cosine.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cosseno: 
       cosseno,
@@ -2854,7 +2881,10 @@ export var Aritmeticos =
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
      * **``Método [Method] - Cosseno Hiperbólico``** 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cosseno_hiperbolico: 
       cossenoHiperbolico,
@@ -2869,7 +2899,10 @@ export var Aritmeticos =
      * **``Método [Method] - Cotangente``**
      * 
      * Realiza o cálculo da cotangente. _[Performs the calculation of the cotangent.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cotangente: 
       cotangente,
@@ -2884,7 +2917,10 @@ export var Aritmeticos =
      * **``Método [Method] - Cotangente Hiperbólico``**
      * 
      * Realiza o cálculo da cotangente hiperbolica. _[Performs the calculation of the hiperbolic cotangent.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_cotangente_hiperbolica: 
       cotangenteHiperbolica,
@@ -3034,7 +3070,10 @@ export var Aritmeticos =
      * **``Método [Method] - Divisão``**
      * 
      * Realiza o cálculo da divisão. _[Performs the calculation of the division.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``** @param {number} y ``attr² ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * 
      **/
     m_divisao: 
       divisao,
@@ -3049,7 +3088,10 @@ export var Aritmeticos =
      * **``Método [Method] - Efeito Fotoelétrico``**
      * 
      * Realiza o cálculo do efeito fotoelétrico. _[Performs the calculation of the photoelectric effect.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} frequenciaDeLuz ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * 
      **/
     m_efeito_fotoeletrico: 
       efeitoFotoeletrico,
@@ -3077,6 +3119,8 @@ export var Aritmeticos =
      * ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
      * 
      * **``Método [Method] - Empuxo na Hidroestática Hidrodinâmica``** 
+     * 
+     * Realiza o cálculo do empuxo na hidroestática hidrodinâmica. _[Performs the calculation of the empuxo na hidroestática hidrodinâmica.]_
      *
      **/
     m_empuxo_hidroestatica_hidrodinamica: 
@@ -3092,7 +3136,10 @@ export var Aritmeticos =
      * **``Método [Method] - Energia Cinética``**
      * 
      * Realiza o cálculo da energia cinética. _[Performs the calculation of the kinetic energy.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} massa ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**  @param {number} velocidade ``attr² ⇒`` **``PT-BR: expressão | EN-US: expression``** 
+     * 
      **/
     m_energia_cinetica: 
       energiaCinetica,
@@ -3302,7 +3349,10 @@ export var Aritmeticos =
      * **``Método [Method] - Equação de Lagrange``**
      * 
      * Realiza o cálculo da equação de lagrange. _[Performs the calculation of the lagrange equation.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attribute² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xi ``attribute³ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yi ``attribute⁢⁴ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xii ``attribute⁢⁵ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yii ``attribute⁢⁶ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xiii ``attribute⁢⁷ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yiii ``attribute⁢⁸ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_equacao_lagrange: 
       equacaoDeLagrange,
@@ -3711,8 +3761,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 2 mais 1. _[Performs the calculation of the logarithm base 2 plus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_base_2_mais_1: 
       logaritmoBase2Mais1,
@@ -3729,8 +3779,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 2 menos 1. _[Performs the calculation of the logarithm base 2 minus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_base_2_menos_1: 
       logaritmoBase2Menos1,
@@ -3747,8 +3797,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 10. _[Performs the calculation of the logarithm base 10.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_base_10: 
       logaritmoBase10,
@@ -3765,8 +3815,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 10 mais 1. _[Performs the calculation of the logarithm base 10 plus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_base_10_mais_1: 
       logaritmoBase10Mais1,
@@ -3783,8 +3833,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 10 menos 1. _[Performs the calculation of the logarithm base 10 minus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_base_10_menos_1: 
       logaritmoBase10Menos1,
@@ -3855,8 +3905,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo natural. _[Performs the calculation of the natural logarithm.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_natural: 
       logaritmoNatural,
@@ -3873,8 +3923,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo natural mais 1. _[Performs the calculation of the natural logarithm plus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_natural_mais_1: 
       logaritmoNaturalMais1,
@@ -3891,8 +3941,8 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo natural menos 1. _[Performs the calculation of the natural logarithm minus 1.]_ 
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
-     * 
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_logaritmo_natural_menos_1: 
       logaritmoNaturalMenos1,
@@ -3937,7 +3987,10 @@ export var Aritmeticos =
      * **``Método [Method] - Plano Inclinado com Atrito``**
      * 
      * Realiza o cálculo do plano inclinado com atrito. _[Performs the calculation of the inclined plane with atrito.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} forcaDeAtrito ``attribute¹ ⇒`` **A força de atrito presente** ``₪`` _The present frictional force_ @param {number} massa ``attribute² ⇒`` **O valor da massa do objeto** ``₪`` _The value of the mass of the object_ @param {number} gravidade ``attribute³ ⇒`` **A força gravitacional** ``₪`` _The gravitational force_ @param {number} angulo ``attribute⁴⁢ ⇒`` **O ângulo do plano** ``₪`` _The angle of the plano_
+     *  
      **/
     m_plano_inclinado_com_atrito: 
       planoInclinadoComAtrito,
@@ -3952,7 +4005,10 @@ export var Aritmeticos =
      * **``Método [Method] - Plano Inclinado sem Atrito``**
      * 
      * Realiza o cálculo do plano inclinado sem atrito. _[Performs the calculation of the inclined plane without atrito.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} massa ``attribute¹ ⇒`` **valor da massa de um objeto** ``₪`` _value of the mass of an object_ @param {number} gravidade ``attribute² ⇒`` **valor da gravidade** ``₪`` _value of the gravity_
+     *  
      **/
     m_plano_inclinado_sem_atrito: 
       planoInclinadoSemAtrito,
@@ -3967,7 +4023,10 @@ export var Aritmeticos =
      * **``Método [Method] - Porcentagem``**
      * 
      * Realiza o cálculo da porcentagem. _[Performs the calculation of the percentage.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_porcentagem: 
       porcentagem,
@@ -3982,7 +4041,10 @@ export var Aritmeticos =
      * **``Método [Method] - Porcentagem por 1000``**
      * 
      * Realiza o cálculo da porcentagem por 1000. _[Performs the calculation of the percentage by 1000.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_porcentagem_por_1000: 
       porcentagemPor1000,
@@ -3997,7 +4059,10 @@ export var Aritmeticos =
      * **``Método [Method] - Porcentagem por 10000``**
      * 
      * Realiza o cálculo da porcentagem por 10000. _[Performs the calculation of the percentage by 10000.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_porcentagem_por_10000: 
       porcentagemPor10000,
@@ -4012,7 +4077,10 @@ export var Aritmeticos =
      * **``Método [Method] - Porcentagem por 100000``**
      * 
      * Realiza o cálculo da porcentagem por 100000. _[Performs the calculation of the percentage by 100000.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_porcentagem_por_100000: 
       porcentagemPor100000,
@@ -4027,7 +4095,10 @@ export var Aritmeticos =
      * **``Método [Method] - Potência``**
      * 
      * Realiza o cálculo da potência. _[Performs the calculation of the power.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attribute² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *  
      **/
     m_potencia: 
       potencia,
@@ -4042,7 +4113,10 @@ export var Aritmeticos =
      * **``Método [Method] - Potência mais 1``**
      * 
      * Realiza o cálculo da potência mais 1. _[Performs the calculation of the power plus 1.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attribute² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *  
      **/
     m_potencia_mais_1: 
       potenciaMais1,
@@ -4057,7 +4131,10 @@ export var Aritmeticos =
      * **``Método [Method] - Potência menos 1``**
      * 
      * Realiza o cálculo da potência menos 1. _[Performs the calculation of the power minus 1.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attribute² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *  
      **/
     m_potencia_menos_1: 
       potenciaMenos1,
@@ -4207,7 +4284,10 @@ export var Aritmeticos =
      * **``Método [Method] - Quantidade de Conjuntos``**
      * 
      * Realiza o cálculo da quantidade de conjuntos. _[Performs the calculation of the quantity of sets.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} elementos ``attribute¹ ⇒`` **quantidade de números dentro de um conjunto** ``₪`` _number of numbers inside a set_
+     *  
      **/
     m_quantidade_conjuntos: 
       quantidadeConjuntos,
@@ -4222,7 +4302,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Cúbica``**
      * 
      * Realiza o cálculo da raíz cúbica. _[Performs the calculation of the cubic root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_cubica: 
       raizCubica,
@@ -4237,7 +4320,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Décima Potência``**
      * 
      * Realiza o cálculo da décima potência. _[Performs the calculation of the decimal power root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_decima_potencia: 
       raizDecimaPotencia,
@@ -4252,7 +4338,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Nona Potência``**
      * 
      * Realiza o cálculo da nona potência. _[Performs the calculation of the nona power root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_nona_potencia: 
       raizNonaPotencia,
@@ -4267,7 +4356,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Oitava Potência``**
      * 
      * Realiza o cálculo da raíz à oitava potência. _[Performs the calculation of the octa power root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_oitava_potencia: 
       raizOitavaPotencia,
@@ -4282,7 +4374,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Quadrada``**
      * 
      * Realiza o cálculo da raíz quadrada. _[Performs the calculation of the square root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_quadrada: 
       raizQuadrada,
@@ -4297,8 +4392,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Quarta Potência``** 
      * 
      * Realiza o cálculo da raíz quarta potência. _[Performs the calculation of the quartic power root.]_
-     *
-     **/
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *       **/
     m_raiz_quanta_potencia: 
       raizQuartaPotencia,
 
@@ -4312,7 +4409,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Quinta Potência``**
      * 
      * Realiza o cálculo da raíz quinta potência. _[Performs the calculation of the quintic power root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_quinta_potencia: 
       raizQuintaPotencia,
@@ -4327,7 +4427,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Sétima Potência``**
      * 
      * Realiza o cálculo da raíz sétima potência. _[Performs the calculation of the septa power root.]_
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_setima_potencia: 
       raizSetimaPotencia,
@@ -4342,7 +4445,10 @@ export var Aritmeticos =
      * **``Método [Method] - Raíz Sexta Potência``**
      * 
      * Realiza o cálculo da raíz sexta potência. _[Performs the calculation of the sexta power root.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number} x ``attribute¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *  
      **/
     m_raiz_sexta_potencia: 
       raizSextaPotencia,
@@ -4492,7 +4598,10 @@ export var Aritmeticos =
      * **``Método [Method] - Sinalização Octantes``**
      * 
      * Realiza o cálculo da sinalização octantes. _[Performs the calculation of the octant.]_ 
-     *
+     * 
+     * ___
+     * @returns {string} @param {number} x ``attribute¹ ⇒`` **valor numérico da coordenada das abscissas** ``₪`` _numerical value of the abscissa coordinate_ @param {number} y ``attribute² ⇒`` **valor numérico da coordenada das ordenadas** ``₪`` _numerical value of the ordinate coordinate_ @param {number} z ``attribute³ ⇒`` **valor numérico da coordenada das cotas** ``₪`` _numerical value of the quotas coordinate_
+     *  
      **/
     m_sinalizacao_octantes: 
       sinalizacaoOctantes,
@@ -4506,7 +4615,10 @@ export var Aritmeticos =
      * 
      * **``Método [Method] - Sinalização Quadrantes``**
      * 
+     * Realiza o cálculo da sinalização quadrantes. _[Performs the calculation of the quadrant.]_
      *  
+     * ___
+     * @returns {string} @param {number} x ``attribute¹ ⇒`` **valor numérico da coordenada das abscissas** ``₪`` _numerical value of the abscissa coordinate_ @param {number} y ``attribute² ⇒`` **valor numérico da coordenada das ordenadas** ``₪`` _numerical value of the ordinate coordinate_
      *
      **/
     m_sinalizacao_quadrantes: 
@@ -4867,7 +4979,10 @@ export var Aritmeticos =
      * **``Método [Method] - Valor Máximo``**
      * 
      * Realiza o cálculo do valor máximo. _[Performs the calculation of the maximum value.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number[]} x ``attribute¹ ⇒`` **valores numéricos** ``₪`` _numeric values_
+     *  
      **/
     m_valor_maximo: 
       valorMaximo,
@@ -4882,7 +4997,10 @@ export var Aritmeticos =
      * **``Método [Method] - Valor Mínimo``**
      * 
      * Realiza o cálculo do valor mínimo. _[Performs the calculation of the minimum value.]_ 
-     *
+     * 
+     * ___
+     * @returns {number} @param {number[]} x ``attribute¹ ⇒`` **valores numéricos** ``₪`` _numeric values_
+     *  
      **/
     m_valor_minimo: 
       valorMinimo,

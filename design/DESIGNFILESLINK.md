@@ -32,4 +32,12 @@ ___
 ![Internal Arch Root Badge - Module](https://github.com/Humbanew/wertsfy/assets/59739253/0734ef3a-b385-4482-9989-7f2bb004ce40)
 ![Internal Arch Root Badge - Type](https://github.com/Humbanew/wertsfy/assets/59739253/a8a42000-18b5-4ffd-b9b1-478840efea74)
 
+![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+![Beta Badge](https://github.com/Humbanew/wertsfy/assets/59739253/4a743bfe-8995-4c31-83e2-1f3eff03f6ee)
+![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c9bd5ccf-e4ce-4737-a1f1-ad12e63d4e3b)
+![Deprecated Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0b6ce59c-b4de-476f-ad45-73ed94d1851b)
+
+
+
 </div>

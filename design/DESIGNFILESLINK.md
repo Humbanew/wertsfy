@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" align-itens="center">
 
 # Design Files Link JsDocs
 
@@ -19,27 +19,23 @@ ___
 ### Badges
 
 ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/f1aaab14-3a9c-4b23-9a8a-2cb67e3faac8)
-
 ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0e7410ee-28ee-4260-ae9b-650c031d0517)
-
 ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/edce6832-23e7-4305-ad7d-e1c215e26e0b)
-
 ![Library Badge - Arithmetic Category](https://github.com/Humbanew/wertsfy/assets/59739253/653499fe-188a-451c-b884-8846c52944a9)
-
 ![Library Badge - Arithmetic Category Constant](https://github.com/Humbanew/wertsfy/assets/59739253/5369d8e3-f62e-41b4-8526-fafbc862a0ee)
-
 ![Library Badge - Arithmetic Category Method](https://github.com/Humbanew/wertsfy/assets/59739253/abeeb4ad-8f4c-4267-9b39-8917d7e1530c)
 
 
 ![Internal Arch Root Badge - Class](https://github.com/Humbanew/wertsfy/assets/59739253/95c307d4-06f6-4000-932a-af57f0822e34)
-
 ![Internal Arch Root Badge - Constant](https://github.com/Humbanew/wertsfy/assets/59739253/12015273-f30b-44ab-8b92-350df637e731)
-
 ![Internal Arch Root Badge - Interface](https://github.com/Humbanew/wertsfy/assets/59739253/4090acd6-bb45-4d6a-942a-fe49b3f6d2d4)
-
 ![Internal Arch Root Badge - Module](https://github.com/Humbanew/wertsfy/assets/59739253/0734ef3a-b385-4482-9989-7f2bb004ce40)
-
 ![Internal Arch Root Badge - Type](https://github.com/Humbanew/wertsfy/assets/59739253/a8a42000-18b5-4ffd-b9b1-478840efea74)
 
+
+![v1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/d88c567d-dac9-47eb-9f0e-07ae5cf8a8d9)
+![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/f29fde2b-a2ff-4f19-8bee-64b5d7ebd9e0)
+![Beta Badge](https://github.com/Humbanew/wertsfy/assets/59739253/8d545fb6-e511-42c2-ac33-2a56933f63c9)
+![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/26bee01e-3448-44c1-b175-1481aec2a9ae)
 
 </div>

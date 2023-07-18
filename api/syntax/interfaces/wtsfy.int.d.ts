@@ -8,7 +8,7 @@
  * **``Interface Global Exception``**
  * 
  * Define uma exceção com um modelo global. _[Defines an exception with a global model.]_
- * 
+ *
  */
 declare interface IGException {
 

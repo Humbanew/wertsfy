@@ -9,7 +9,7 @@
   "author": "Humbanew Project",
   "repository": "git:github.com/humbanew/wertsfy.git",
   "readme": "https://github.com/humbanew/wertsfy/blob/main/README.md",
-  "license": "ISC",
+  "license": "Humbanew License v3",
   "devDependencies": {
     "@types/node": "^18.15.13",
     "typescript": "^5.1.6"

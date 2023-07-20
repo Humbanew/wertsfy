@@ -11,8 +11,8 @@
     "isolatedModules": false,
     "rootDirs": ["./", "../"],
     
-    // Javascript Builded Files 
-    "outDir": "./exports/build"
+    // Javascript Test Builded Files 
+    "outDir": "./labo-out"
 
   }
 

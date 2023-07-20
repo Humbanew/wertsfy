@@ -1,5 +1,5 @@
 {
-  "name": "@humbanew-project/wertsfy",
+  "name": "@humbanew/wertsfy",
   "version": "1.0.0",
   "description": "The Basic UDK.",
   "main": "index.js",
@@ -7,10 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Humbanew Project",
-  "repository": {
-    "url": "https://github.com/Humbanew/wertsfy",
-    "type": "git"
-  },
+  "repository": "git:github.com/Humbanew/wertsfy.git",
   "readme": "https://github.com/Humbanew/wertsfy/blob/main/README.md",
   "license": "ISC",
   "devDependencies": {

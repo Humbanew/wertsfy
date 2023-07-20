@@ -1760,8 +1760,6 @@ export var Aritmeticos =
    */
   Methods: {
 
-    // #FFFFFF ¹²³⁴⁵⁶⁷⁸⁹⁰
-
     /**
      *  
      * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
@@ -1775,7 +1773,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
-     * 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1) 
      **/
     m_absoluto: 
       absoluto,
@@ -1793,6 +1794,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} velocidadeAngular ``attr¹ ⇒`` **velocidade angular inicial e final de um objeto** ``₪`` _velocity angular initial and final of an object_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo inicial e final da aceleração** ``₪`` _velocity angular initial and final of an object_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *   
      **/
     m_aceleracao_angular_mcuv: 
@@ -1811,6 +1816,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade realizada pela aceleração** ``₪`` _velocity performed by the acceleration_ @param {number} raio ``attr² ⇒`` **raio da circunferência** ``₪`` _radius of the circle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_aceleracao_centripeta_mcu: 
@@ -1829,7 +1838,11 @@ export var Aritmeticos =
      * Realiza o cálculo da aceleração plano inclinado no eixo x. _[Performs the calculation of inclined plane acceleration on the x axis.]_
      * 
      * ___
-     * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa de um objeto** ``₪`` _object mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle
+     * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa de um objeto** ``₪`` _object mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_aceleracao_plano_inclinado_eixo_x: 
@@ -1847,7 +1860,11 @@ export var Aritmeticos =
      * Realiza o cálculo da aceleração plano inclinado no eixo y. _[Performs the calculation of the tilt plane acceleration on the y axis.]_
      * 
      * ___
-     * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa de um objeto** ``₪`` _object mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle
+     * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa de um objeto** ``₪`` _object mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_aceleracao_plano_inclinado_eixo_y: 
@@ -1866,6 +1883,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade da aceleração** ``₪`` _velocity of the acceleration_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo inicial e final** ``₪`` _initial and final time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_aceleracao: 
@@ -1885,6 +1906,10 @@ export var Aritmeticos =
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo inicial e final** ``₪`` _initial and final time_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_
      *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+     *
      **/
     m_alcance_lancamento_vertical: 
       alcanceLancamentoVertical,
@@ -1902,6 +1927,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade do lançamento** ``₪`` _launching speed_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_  @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_alcance_maximo_lancamento_vertical: 
@@ -1920,6 +1949,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeInicial ``attr¹ ⇒`` **velocidade inicial do lançamento** ``₪`` _velocity initial of the launch_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_altura_maxima_lancamento_vertical: 
@@ -1938,6 +1971,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_base_2: 
@@ -1956,6 +1993,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_base_2_mais_1: 
@@ -1974,6 +2015,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_base_2_menos_1: 
@@ -1992,6 +2037,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_base_10: 
@@ -2010,6 +2059,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *   
      **/
     m_antilogaritmo_base_10_mais_1: 
@@ -2028,6 +2081,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_base_10_menos_1: 
@@ -2045,7 +2102,11 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base qualquer. _[Performs the calculation of the any base antilogarithm.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``** @param {number} y ``attr² ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_antilogaritmo_base_qualquer: 
@@ -2063,7 +2124,11 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base qualquer mais 1. _[Performs the calculation of the any base antilogarithm plus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``** @param {number} y ``attr² ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_antilogaritmo_base_qualquer_mais_1: 
@@ -2081,7 +2146,11 @@ export var Aritmeticos =
      * Realiza o cálculo do antilogaritmo base qualquer menos 1. _[Performs the calculation of the any base antilogarithm minus 1.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: base | EN-US: base``** @param {number} y ``attr² ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_antilogaritmo_base_qualquer_menos_1: 
@@ -2100,6 +2169,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_natural: 
@@ -2118,6 +2191,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_natural_mais_1: 
@@ -2136,6 +2213,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_antilogaritmo_natural_menos_1: 
@@ -2151,7 +2232,14 @@ export var Aritmeticos =
      * **``Método [Method] - Apótema do Triângulo``** 
      * 
      * Realiza o cálculo do apótema do triângulo. _[Performs the calculation of the apothem of the triangle.]_
+     *
+     * ___
+     * @returns {number} @param {number} lado ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
      * 
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+     *
      **/
     m_apotema_triangulo: 
       apotemaTriangulo,
@@ -2169,6 +2257,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cosecante: 
@@ -2187,6 +2279,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cosecante_hiperbolica: 
@@ -2205,6 +2301,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cosseno: 
@@ -2223,6 +2323,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cosseno_hiperbolico: 
@@ -2241,6 +2345,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cotangente: 
@@ -2259,6 +2367,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_cotangente_hiperbolica: 
@@ -2277,6 +2389,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_secante: 
@@ -2295,6 +2411,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_secante_hiperbolica: 
@@ -2313,6 +2433,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_seno: 
@@ -2331,6 +2455,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_seno_hiperbolico: 
@@ -2349,6 +2477,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_tangente: 
@@ -2367,6 +2499,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_arco_tangente_hiperbolica: 
@@ -2385,6 +2521,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio do círculo** ``₪`` _radius of the circle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_circulo: 
@@ -2403,6 +2543,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio da circunferência** ``₪`` _circumference radius_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_area_circunferencia: 
@@ -2421,6 +2565,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio da elipse** ``₪`` _radius of the ellipse_ @param {number} altura ``attr² ⇒`` **altura da elipse** ``₪`` _height of the ellipse_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_area_elipse: 
@@ -2439,6 +2587,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio da esfera** ``₪`` _sphere radius_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_esfera: 
@@ -2457,6 +2609,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio da cilindro** ``₪`` _radius of the cylinder_ @param {number} altura ``attr² ⇒`` **altura da cilindro** ``₪`` _height of the cylinder_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_area_lateral_cilindro: 
@@ -2475,6 +2631,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} lados ``attr¹ ⇒`` **quantidade de lados do prisma** ``₪`` _number of sides of the prism_ @param {number} comprimento ``attr² ⇒`` **comprimento do lado do prisma** ``₪`` _length of the side of prism_ @param {number} largura ``attr³ ⇒`` **largura do lado do prisma** ``₪`` _width of the side of prism_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_lateral_prisma: 
@@ -2493,6 +2653,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} diagonalMaior ``attr¹ ⇒`` **tamanho da diagonal maior do lozango** ``₪`` _size of the major diagonal of the lozango_ @param {number} diagonalMenor ``attr² ⇒`` **tamanho da diagonal menor do lozango** ``₪`` _size of the minor diagonal of the lozango_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_lozango: 
@@ -2511,6 +2675,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} areaLateral ``attr¹ ⇒`` **area lateral da pirâmide** ``₪`` _lateral area of the pyramid_ @param {number} areaBase ``attr² ⇒`` **area base da pirâmide** ``₪`` _base area of the pyramid_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_piramide: 
@@ -2529,6 +2697,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} lados ``attr¹ ⇒`` **quantidade de lados do polígono** ``₪`` _number of sides of the polygon_ @param {number} comprimento ``attr² ⇒`` **comprimento do lado do polígono** ``₪`` _length of the side of polygon_ @param {number} largura ``attr³ ⇒`` **largura do lado do polígono** ``₪`` _width of the side of polygon_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_poligono: 
@@ -2547,6 +2719,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} lado ``attr¹ ⇒`` **lado do quadrado** ``₪`` _length of the square_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_quadrado: 
@@ -2565,6 +2741,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} comprimento ``attr¹ ⇒`` **comprimento do retângulo** ``₪`` _length of the rectangle_ @param {number} largura ``attr² ⇒`` **largura do retângulo** ``₪`` _width of the rectangle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_retangulo: 
@@ -2583,6 +2763,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} baseMaior ``attr¹ ⇒`` **base maior do trapézio** ``₪`` _base of the trapezium_ @param {number} baseMenor ``attr² ⇒`` **base menor do trapézio** ``₪`` _base of the trapezium_ @param {number} altura ``attr³ ⇒`` **altura do trapézio** ``₪`` _height of the trapezium_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_trapezio: 
@@ -2601,6 +2785,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} lado ``attr¹ ⇒`` **lado do triângulo** ``₪`` _length of the triangle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_area_triangulo: 
@@ -2619,6 +2807,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} total ``attr¹ ⇒`` **numero total de tipos** ``₪`` _total number of types_ @param {number} divisor ``attr² ⇒`` **divisor de combinações tomadas** ``₪`` _divisor of taken combinations_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_arranjo: 
@@ -2637,6 +2829,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c9bd5ccf-e4ce-4737-a1f1-ad12e63d4e3b)
      *  
      **/
     m_arrendonda_para_baixo: 
@@ -2655,6 +2851,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c9bd5ccf-e4ce-4737-a1f1-ad12e63d4e3b)
      *  
      **/
     m_arrendonda_para_cima: 
@@ -2673,6 +2873,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c9bd5ccf-e4ce-4737-a1f1-ad12e63d4e3b)
      *  
      **/
     m_arrendonda_para_decimal_32bits: 
@@ -2691,6 +2895,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Experimental Badge](https://github.com/Humbanew/wertsfy/assets/59739253/c9bd5ccf-e4ce-4737-a1f1-ad12e63d4e3b)
      *  
      **/
     m_arrendonda_para_inteiro: 
@@ -2709,6 +2917,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} coeficienteDeAtrito ``attr¹ ⇒`` **quantidade de atrito existente** ``₪`` _quantity of existing atrito_ @param {number} massa ``attr² ⇒`` **massa onde é aplicado o atrito presente** ``₪`` _mass where is applied the existing atrito_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_atrito: 
@@ -2727,6 +2939,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} quantidadeDeCalor ``attr¹ ⇒`` **quantidade de calor** ``₪`` _quantity of calor_ @param {number} massa ``attr² ⇒`` **massa** ``₪`` _mass_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_calor_latente: 
@@ -2745,6 +2961,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa** ``₪`` _mass_ @param calorEspecifico ``attr² ⇒`` **calor especifico** ``₪`` _specific calor_ @param {{inicial: number, final: number}} temperatura ``attr³ ⇒`` **temperatura final e inicial** ``₪`` _initial and final temperature_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_calor_sensivel: 
@@ -2763,6 +2983,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_celsius_fahrenheit: 
@@ -2781,6 +3005,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_celsius_kelvin: 
@@ -2799,6 +3027,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_2: 
@@ -2817,6 +3049,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_2_mais_1: 
@@ -2835,6 +3071,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_2_menos_1: 
@@ -2853,6 +3093,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_10: 
@@ -2871,6 +3115,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_10_mais_1: 
@@ -2889,6 +3137,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_10_menos_1: 
@@ -2907,6 +3159,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_cologaritmo_base_qualquer: 
@@ -2925,6 +3181,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_cologaritmo_base_qualquer_mais_1: 
@@ -2943,6 +3203,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_base_qualquer_menos_1: 
@@ -2961,6 +3225,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_natural: 
@@ -2979,6 +3247,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_natural_mais_1: 
@@ -2997,6 +3269,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cologaritmo_natural_menos_1: 
@@ -3015,6 +3291,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} total ``attr¹ ⇒`` **numero total de combinações** ``₪`` _numeric total of combinations_ @param {number} divisor ``attr² ⇒`` **divisor de combinações requisitadas** ``₪`` _divisor of required combinations_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_combinacao: 
@@ -3033,6 +3313,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massaSoluto ``attr¹ ⇒`` **massa do soluto de uma reação** ``₪`` _numeric mass of solute in a reaction_ @param {number} volume ``attr² ⇒`` **volume da solução** ``₪`` _numeric volume of solution_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_concentracao: 
@@ -3051,6 +3335,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} tempo ``attr¹ ⇒`` **tempo final e inicial do consumo** ``₪`` _numeric final and initial consumption of energy_ @param {number} correnteEletrica ``attr² ⇒`` **corrente elétrica** ``₪`` _current electric_ @param {number} ddp ``attr³ ⇒`` **Diferença de Potencial** ``₪`` _numeric difference of potential_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_consumo_de_energia: 
@@ -3069,6 +3357,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} potenciaTotalGerador ``attr¹ ⇒`` **potência total de um gerador** ``₪`` _numeric total power of a generator_ @param {number} intensidadeDaCorrente ``attr² ⇒`` **intensidade de corrente** ``₪`` _numeric intensity of current_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_contra_forca_eletromotriz: 
@@ -3087,6 +3379,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cosecante: 
@@ -3105,6 +3401,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cosecante_hiperbolica: 
@@ -3123,6 +3423,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cosseno: 
@@ -3139,6 +3443,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cosseno_hiperbolico: 
@@ -3157,6 +3465,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cotangente: 
@@ -3175,6 +3487,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_cotangente_hiperbolica: 
@@ -3193,6 +3509,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa de um objeto** ``₪`` _numeric mass of an object_ @param {number} volume ``attr¹ ⇒`` **volume de um objeto** ``₪`` _numeric volume of an object_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_densidade: 
@@ -3211,6 +3531,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} a00 ``attr¹ ⇒`` **item da primeira linha e coluna** ``₪`` _numeric item of the first row and column_ @param {number} a01 ``attr² ⇒`` **item da primeira linha e segunda coluna** ``₪`` _numeric item of the first row and second column_ @param {number} a10 ``attr³ ⇒`` **item da segunda linha e primeira coluna** ``₪`` _numeric item of the second row and first column_ @param {number} a11 ``attr³ ⇒`` **item da segunda linha e coluna** ``₪`` _numeric item of the second row and column_   
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_determinante_2x2: 
@@ -3229,6 +3553,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} a00 ``attr¹ ⇒`` **item da primeira linha e coluna** ``₪`` _numeric item of the first row and column_ @param {number} a01 ``attr² ⇒`` **item da primeira linha e segunda coluna** ``₪`` _numeric item of the first line item and second column_ @param {number} a02 ``attr³ ⇒`` **item da primeira linha e terceira coluna** ``₪`` _numeric item of the first line item and third column_ @param {number} a10 ``attr⁢⁴ ⇒`` **item da segunda linha e primeira coluna** ``₪`` _numeric item of second line and first column_ @param {number} a11 ``attr⁢⁵ ⇒`` **item da segunda linha e coluna** ``₪`` _numeric item of second line and column_ @param {number} a12 ``attr⁢⁶ ⇒`` **item da segunda linha e terceira coluna** ``₪`` _numeric item of second line and third column_ @param {number} a20 ``attr⁢⁷ ⇒`` **item da terceira linha e primeira coluna** ``₪`` _numeric item of third line and first column_ @param {number} a21 ``attr⁢⁸ ⇒`` **item da terceira linha e segunda coluna** ``₪`` _numeric item of third line and second column_ @param {number} a22 ``attr⁢⁹ ⇒`` **item da terceira linha e coluna** ``₪`` _numeric item of third line and column_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_determinante_3x3: 
@@ -3247,6 +3575,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} ng1 ``attr¹ ⇒`` **grupo numérico 1** ``₪`` _numeric group number_ @param {number} ng2 ``attr² ⇒`` **grupo numérico 2** ``₪`` _numeric group number_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_diagrama_venn_2_grupos: 
@@ -3265,6 +3597,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} ng1 ``attr¹ ⇒`` **grupo numérico 1** ``₪`` _numeric group number_ @param {number} ng2 ``attr² ⇒`` **grupo numérico 2** ``₪`` _numeric group number_ @param {number} ng3 ``attr³ ⇒`` **grupo numérico 3** ``₪`` _numeric group number_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_diagrama_venn_3_grupos: 
@@ -3283,6 +3619,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} ng1 ``attr¹ ⇒`` **grupo numérico 1** ``₪`` _numeric group number_ @param {number} ng2 ``attr² ⇒`` **grupo numérico 2** ``₪`` _numeric group number_ @param {number} ng3 ``attr³ ⇒`` **grupo numérico 3** ``₪`` _numeric group number_ @param {number} ng4 ``attr⁢⁴ ⇒`` **grupo numérico 4** ``₪`` _numeric group number_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_diagrama_venn_4_grupos: 
@@ -3301,6 +3641,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} comprimentoInicial ``attr¹ ⇒`` **comprimento inicial de um objeto** ``₪`` _numeric initial size of an object_ @param {number} coeficienteDeDilatacaoLinear ``attr² ⇒`` **coeficiente de dilatação linear** ``₪`` _coefficient of dilatation linear_ @param {{inicial: number, final: number}} temperatura ``attr³ ⇒`` **temperatura inicial e final** ``₪`` _numeric initial and final temperature_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_dilatacao_linear: 
@@ -3319,6 +3663,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} areaInicial ``attr¹ ⇒`` **comprimento inicial de um objeto** ``₪`` _numeric initial size of an object_ @param {number} coeficienteDeDilatacaoSuperficial ``attr² ⇒`` **coeficiente de dilatação linear** ``₪`` _coefficient of dilatation linear_ @param {{inicial: number, final: number}} temperatura ``attr³ ⇒`` **temperatura inicial e final** ``₪`` _numeric initial and final temperature_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_dilatacao_superficial: 
@@ -3337,6 +3685,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} volumeInicial ``attr¹ ⇒`` **comprimento inicial de um objeto** ``₪`` _numeric initial size of an object_ @param {number} coeficienteDeDilatacaoVolumetrica ``attr² ⇒`` **coeficiente de dilatação linear** ``₪`` _coefficient of dilatation linear_ @param {{inicial: number, final: number}} temperatura ``attr³ ⇒`` **temperatura inicial e final** ``₪`` _numeric initial and final temperature_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_dilatacao_volumetrica: 
@@ -3355,6 +3707,10 @@ export var Aritmeticos =
      *
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_divisao: 
@@ -3373,6 +3729,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} frequenciaDeLuz ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_efeito_fotoeletrico: 
@@ -3391,6 +3751,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} corrente ``attr¹ ⇒`` **corrente elétrica** ``₪`` _eletric current_ @param {number} resistencia ``attr² ⇒`` **resistência em um circuito elétrico** ``₪`` _resistance in an electric circuit_ @param {{inicial: number, final: number}} tempo ``attr³ ⇒`` **temperatura inicial e final** ``₪`` _numeric initial and final temperature_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_efeito_joule: 
@@ -3409,6 +3773,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} densidade ``attr¹ ⇒`` **densidade de um objeto** ``₪`` _numeric density of an object_ @param gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} volume ``attr³ ⇒`` **volume** ``₪`` _volume_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_empuxo_hidroestatica_hidrodinamica: 
@@ -3427,6 +3795,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa** ``₪`` _mass_ @param {number} velocidade ``attr² ⇒`` **velocidade** ``₪`` _velocity_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_energia_cinetica: 
@@ -3445,6 +3817,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} constanteElastica ``attr¹ ⇒`` **constante elástica de distorção** ``₪`` _constant elastic distortion_ @param {{inicial: number, final: number}} distancia ``attr² ⇒`` **distância inicial e final** ``₪`` _numeric initial and final distance_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_energia_potencial_elastica: 
@@ -3463,6 +3839,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa** ``₪`` _mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} altura ``attr³ ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_energia_potencial_gravitacional: 
@@ -3481,6 +3861,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeAngular ``attr¹ ⇒`` **velocidade angular do movimento** ``₪`` _velocity angular of a movement_ @param {number} amplitude ``attr² ⇒`` **amplitude do movimento** ``₪`` _amplitude of a movement_ @param {number} tempo ``attr³ ⇒`` **tempo** ``₪`` _time_ @param {number} faseInicial ``attr⁴ ⇒`` **fase inicial** ``₪`` _initial phase_  
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_aceleracao_mhs: 
@@ -3499,6 +3883,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aceleracao ``attr¹ ⇒`` **aceleração** ``₪`` _acceleration_ @param {number} tempo ``attr² ⇒`` **tempo** ``₪`` _time_ @param {number} velocidade ``attr³ ⇒`` **velocidade** ``₪`` _velocity_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_aceleracao: 
@@ -3517,6 +3905,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} posicaoAngularInicial ``attr¹ ⇒`` **posição angular inicial** ``₪`` _initial position angular_ @param {number} velocidadeAngularInicial ``attr² ⇒`` **velocidade angular inicial** ``₪`` _initial velocity angular_ @param {number} aceleracaoAngular ``attr³ ⇒`` **aceleração angular** ``₪`` _angular acceleration_ @param {number} tempo ``attr⁴ ⇒`` **tempo** ``₪`` _time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_espaco_mcuv: 
@@ -3535,6 +3927,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} espaco ``attr¹ ⇒`` **espaco inicial e final** ``₪`` _initial and final space @param {number} aceleracao ``attr² ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_espaco: 
@@ -3553,6 +3949,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} forca ``attr¹ ⇒`` **forca aplicada** ``₪`` _forces applied_ @param {number} tempo ``attr² ⇒`` **tempo** ``₪`` _time_ @param {number} aceleracao ``attr³ ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_forca: 
@@ -3571,6 +3971,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeAngular ``attr¹ ⇒`` **velocidade angular de posição** ``₪`` _positional velocity angular_ @param {number} amplitude ``attr² ⇒`` **amplitude** ``₪`` _amplitude_ @param {number} tempo ``attr³ ⇒`` **tempo** ``₪`` _time_ @param {number} faseInicial ``attr⁴ ⇒`` **fase inicial** ``₪`` _initial phase_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_posicao_mhs: 
@@ -3589,6 +3993,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} tempo ``attr¹ ⇒`` **tempo inicial e final** ``₪`` _initial and final time_ @param {{inicial: number, final: number}} espaco ``attr² ⇒`` **espaco inicial e final** ``₪`` _initial and final space_ @param {number} velocidade ``attr³ ⇒`` **velocidade** ``₪`` _velocity_ @param {number} aceleracao ``attr⁴ ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_equacao_horaria_tempo_espaco: 
@@ -3607,6 +4015,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeAngularInicial ``attr¹ ⇒`` **velocidade angular inicial** ``₪`` _initial angular velocity_ @param {number} aceleracaoAngular ``attr² ⇒`` **aceleração angular** ``₪`` _angular acceleration_ @param {number} tempo ``attr³ ⇒`` **tempo** ``₪`` _time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_tempo_mcuv: 
@@ -3625,6 +4037,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} tempo ``attr¹ ⇒`` **tempo inicial e final** ``₪`` _initial and final time_ @param {number} velocidade ``attr² ⇒`` **velocidade** ``₪`` _velocity_ @param {number} aceleracao ``attr³ ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_tempo: 
@@ -3643,6 +4059,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeAngular ``attr¹ ⇒`` **velocidade angular** ``₪`` _angular velocity_ @param {number} amplitude ``attr² ⇒`` **amplitude** ``₪`` _amplitude_ @param {number} tempo ``attr³ ⇒`` **tempo** ``₪`` _time_ @param {number} faseInicial ``attr⁴ ⇒`` **fase inicial** ``₪`` _initial phase_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_velocidade_mhs: 
@@ -3661,6 +4081,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade** ``₪`` _velocity_ @param {number} tempo ``attr² ⇒`` **tempo** ``₪`` _time_ @param {number} aceleracao ``attr³ ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_horaria_velocidade: 
@@ -3679,6 +4103,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xi ``attr³ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yi ``attr⁢⁴ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xii ``attr⁢⁵ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yii ``attr⁢⁶ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} xiii ``attr⁢⁷ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} yiii ``attr⁢⁸ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_equacao_lagrange: 
@@ -3697,6 +4125,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeInicial ``attr¹ ⇒`` **velocidade inicial** ``₪`` _initial velocity_ @param {number} aceleracao ``attr² ⇒`` **aceleracao** ``₪`` _acceleration_ @param {{inicial: number, final: number}} espaco ``attr³ ⇒`` **espaco inicial e final** ``₪`` _initial and final space_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_equacao_torricelli: 
@@ -3715,6 +4147,10 @@ export var Aritmeticos =
     * 
      * ___
      * @returns {number} @param {number} tamanhoReal ``attr¹ ⇒`` **tamanho real** ``₪`` _real size_ @param {number} tamanhoFicticio ``attr² ⇒`` **tamanho fictício** ``₪`` _fictitious size_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_escala_geografica: 
@@ -3733,6 +4169,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade** ``₪`` _velocity_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo inicial e final** ``₪`` _initial and final time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_espaco: 
@@ -3751,6 +4191,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _numeric value of the base_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_exponencial: 
@@ -3769,6 +4213,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _numeric value of the base_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_exponencial_mais_1: 
@@ -3787,6 +4235,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _numeric value of the base_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_exponencial_menos_1: 
@@ -3805,6 +4257,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_fahrenheit_celsius: 
@@ -3823,6 +4279,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_fahrenheit_kelvin: 
@@ -3841,6 +4301,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_fatorial: 
@@ -3859,6 +4323,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} potenciaTotalGerador ``attr¹ ⇒`` **potencial total do gerador** ``₪`` _total potential of the generator_ @param {number} intensidadeDaCorrente ``attr² ⇒`` **intensidade da corrente** ``₪`` _intensity of the current_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_forca_eletromotriz: 
@@ -3877,6 +4345,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} gravidade ``attr¹ ⇒`` **gravidade** ``₪`` _gravitational force_ @param {number} massaPlaneta ``attr² ⇒`` **massa do planeta** ``₪`` _mass of the planet_ @param {{inicial: number, final: number}} distancia ``attr³ ⇒`` **distância inicial e final** ``₪`` _initial and final distance_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_forca_gravitacional: 
@@ -3895,6 +4367,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} periodo ``attr¹ ⇒`` **periodo** ``₪`` _period_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_frequencia: 
@@ -3913,6 +4389,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} saude ``attr¹ ⇒`` **indice de saúde** ``₪`` _index of health_ @param {number} educacao ``attr² ⇒`` **indice de educação** ``₪`` _index of education_ @param {number} renda ``attr³ ⇒`` **indice de renda** ``₪`` _index of income_ @param {number} populacao ``attr⁴ ⇒`` **indice de população** ``₪`` _index of population_ @param {number} ppc ``attr⁵ ⇒`` **indice de ppc** ``₪`` _index of ppc_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_indice_desenvolvimento_humano: 
@@ -3931,6 +4411,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} pnb ``attr¹ ⇒`` **indice de pnb** ``₪`` _index of pnb_ @param {number} populacao ``attr² ⇒`` **indice de população** ``₪`` _index of population_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_indice_gini: 
@@ -3949,6 +4433,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} peso ``attr¹ ⇒`` **quantidade de peso** ``₪`` _weight_ @param {number} altura ``attr² ⇒`` **quantidade de altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_indice_massa_corporal: 
@@ -3967,6 +4455,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valor ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} taxa ``attr² ⇒`` **taxa de juros** ``₪`` _taxes_ @param {number} tempo ``attr³ ⇒`` **tempo de aplicação** ``₪`` _time of application_ @param {number} vezes ``attr⁴ ⇒`` **vezes aplicadas** ``₪`` _times applied_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_juros_compostos: 
@@ -3985,6 +4477,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valor ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} taxa ``attr² ⇒`` **taxa de juros** ``₪`` _taxes_ @param {number} tempo ``attr³ ⇒`` **tempo de aplicação** ``₪`` _time of application_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_juros_simples: 
@@ -4003,6 +4499,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_kelvin_celsius: 
@@ -4021,6 +4521,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_kelvin_fahrenheit: 
@@ -4039,6 +4543,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} gravidade ``attr¹ ⇒`` **gravidade** ``₪`` _gravity_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo** ``₪`` _time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_lancamento_horizontal: 
@@ -4057,6 +4565,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{a: number, b: number}} carga ``attr¹ ⇒`` **carga a e b** ``₪`` _cargo a and b_ @param {{inicial: number, final: number}} distancia ``attr² ⇒`` **distância inicial e final** ``₪`` _distance_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_lei_de_coulomb: 
@@ -4075,6 +4587,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} intensidadeDoCampoMagnetico ``attr¹ ⇒`` **intensidade do campo magnetico** ``₪`` _intensity of magnetic field_ @param areaDoSuperficie ``attr² ⇒`` **area do superfície** ``₪`` _surface area_ @param {number} angulo ``attr³ ⇒`` **angulo** ``₪`` _angle_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_lei_de_lenz: 
@@ -4093,6 +4609,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} resistencia ``attr¹ ⇒`` **resistencia** ``₪`` _resistance_ @param corrente ``attr² ⇒`` **corrente** ``₪`` _current_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_lei_de_ohm: 
@@ -4111,6 +4631,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {string} pressao1 ``attr¹ ⇒`` **pressão 1** ``₪`` _pressure 1_ @param {string} pressao2 ``attr² ⇒`` **pressão 2** ``₪`` _pressure 2_ @param {string} volume1 ``attr³ ⇒`` **volume 1** ``₪`` _volume 1_ @param {string} volume2 ``attr⁴ ⇒`` **volume 2** ``₪`` _volume 2_ @param temperatura1 ``attr⁵ ⇒`` **temperatura 1** ``₪`` _temperature 1_ @param temperatura2 ``attr⁶ ⇒`` **temperatura 2** ``₪`` _temperature 2_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_lei_geral_dos_gases: 
@@ -4129,6 +4653,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa** ``₪`` _mass_ @param {number} aceleracao ``attr² ⇒`` **aceleração** ``₪`` _acceleration_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_leis_de_newton: 
@@ -4146,7 +4674,12 @@ export var Aritmeticos =
      * Realiza o cálculo do logarítmo de base 2. _[Performs the calculation of the logarithm base 2.]_
      * 
      * ___
-     * @returns {number} @param {number} x ``attr¹ ⇒`` **``PT-BR: expressão | EN-US: expression``**
+     * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     * 
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+     *
      **/
     m_logaritmo_base_2: 
       logaritmoBase2,
@@ -4164,6 +4697,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_2_mais_1: 
@@ -4182,6 +4719,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_2_menos_1: 
@@ -4200,6 +4741,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_10: 
@@ -4218,6 +4763,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_10_mais_1: 
@@ -4236,6 +4785,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_10_menos_1: 
@@ -4254,6 +4807,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_logaritmo_base_qualquer: 
@@ -4272,6 +4829,10 @@ export var Aritmeticos =
      *
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_base_qualquer_mais_1: 
@@ -4290,6 +4851,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} base ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number} x ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_logaritmo_base_qualquer_menos_1: 
@@ -4308,6 +4873,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_natural: 
@@ -4326,6 +4895,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_natural_mais_1: 
@@ -4344,6 +4917,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_logaritmo_natural_menos_1: 
@@ -4362,6 +4939,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} frequencia ``attr¹ ⇒`` **frequencia indicada** ``₪`` _frequency indicated_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_periodo: 
@@ -4380,6 +4961,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} peso ``attr¹ ⇒`` **peso aparente** ``₪`` _weight apparent_ @param {number} densidade ``attr² ⇒`` **densidade** ``₪`` _density_ @param {number} gravidade ``attr³ ⇒`` **gravidade** ``₪`` _gravity_ @param {number} volume ``attr⁴ ⇒`` **volume** ``₪`` _volume_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_peso_aparente_hidroestatica_hidrodinamica: 
@@ -4398,6 +4983,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} forcaDeAtrito ``attr¹ ⇒`` **A força de atrito presente** ``₪`` _The present frictional force_ @param {number} massa ``attr² ⇒`` **O valor da massa do objeto** ``₪`` _The value of the mass of the object_ @param {number} gravidade ``attr³ ⇒`` **A força gravitacional** ``₪`` _The gravitational force_ @param {number} angulo ``attr⁴⁢ ⇒`` **O ângulo do plano** ``₪`` _The angle of the plano_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_plano_inclinado_com_atrito: 
@@ -4416,6 +5005,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **valor da massa de um objeto** ``₪`` _value of the mass of an object_ @param {number} gravidade ``attr² ⇒`` **valor da gravidade** ``₪`` _value of the gravity_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_plano_inclinado_sem_atrito: 
@@ -4434,6 +5027,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_porcentagem: 
@@ -4452,6 +5049,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_porcentagem_por_1000: 
@@ -4470,6 +5071,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_porcentagem_por_10000: 
@@ -4488,6 +5093,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_porcentagem_por_100000: 
@@ -4506,6 +5115,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attr² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia: 
@@ -4524,6 +5137,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attr² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia_mais_1: 
@@ -4542,6 +5159,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base da potencia** ``₪`` _numerical value of the base of the power_ @param {number} y ``attr² ⇒`` **valor numérico do expoente da potencia** ``₪`` _numerical value of the exponent of the power_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia_menos_1: 
@@ -4560,6 +5181,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number[]} y ``attr² ⇒`` **valores numéricos de expoentes** ``₪`` _exponent numeric values_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia_de_potencia: 
@@ -4578,6 +5203,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number[]} y ``attr² ⇒`` **valores numéricos de expoentes** ``₪`` _exponent numeric values_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia_de_potencia_mais_1: 
@@ -4596,6 +5225,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico da base** ``₪`` _base numeric value_ @param {number[]} y ``attr² ⇒`` **valores numéricos de expoentes** ``₪`` _exponent numeric values_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencia_de_potencia_menos_1: 
@@ -4614,6 +5247,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} constanteElastica ``attr¹ ⇒`` **constante elástica** ``₪`` _elastic constant_ @param {{initial: number, final: number}} distancia ``attr² ⇒`` **distância** ``₪`` _distance_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_potencial_elastico: 
@@ -4632,6 +5269,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade** ``₪`` _velocity_ @param {number} constanteElastica ``attr² ⇒`` **constante elástica** ``₪`` _elastic constant_ @param {{initial: number, final: number}} distancia ``attr³ ⇒`` **distância** ``₪`` _distance_ @param {number} massa ``attr⁢⁴ ⇒`` **massa** ``₪`` _mass_ @param {number} gravidade ``attr⁢⁵ ⇒`` **gravidade** ``₪`` _gravity_ @param {number} altura ``attr⁢⁶ ⇒`` **altura** ``₪`` _height_ @param {boolean} energPotElas ``attr⁢⁷ ⇒`` **sinaliza se possui energia potencial elástica ou não** ``₪`` _whether it has a potential elastic energy or not_ @param {boolean} energPotGrav ``attr⁢⁸ ⇒`` **sinaliza se possui energia potencial gravidade ou não** ``₪`` _whether it has a potential gravity energy or not_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_potencial_mecanico: 
@@ -4650,6 +5291,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} densidade ``attr¹ ⇒`` **densidade** ``₪`` _density_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {{initial: number, final: number}} altura ``attr³ ⇒`` **altura inicial e final** ``₪`` _height initial and final_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_principio_fundamental_hidroestatica_hidrodinamica: 
@@ -4668,6 +5313,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valor ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valorTotal ``attr² ⇒`` **valor numérico total** ``₪`` _total numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_probabilidade: 
@@ -4686,6 +5335,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {string[]} @param {string} genotipo1 ``attr¹ ⇒`` **primeiro genótipo** ``₪`` _first genotype_ @param {string} genotipo2 ``attr² ⇒`` **segundo genótipo** ``₪`` _second genotype_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_quadrado_de_punnet: 
@@ -4704,6 +5357,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {string[]} @param {string} genotipo1 ``attr¹ ⇒`` **primeiro genótipo** ``₪`` _first genotype_ @param {string} genotipo2 ``attr² ⇒`` **segundo genótipo** ``₪`` _second genotype_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_quadrado_de_punnet_expandido: 
@@ -4722,6 +5379,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} elementos ``attr¹ ⇒`` **quantidade de números dentro de um conjunto** ``₪`` _number of numbers inside a set_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_quantidade_conjuntos: 
@@ -4740,6 +5401,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_cubica: 
@@ -4758,6 +5423,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_decima_potencia: 
@@ -4776,6 +5445,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_nona_potencia: 
@@ -4794,6 +5467,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_oitava_potencia: 
@@ -4812,6 +5489,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_quadrada: 
@@ -4830,6 +5511,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *       
      **/
     m_raiz_quanta_potencia: 
@@ -4848,6 +5533,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_quinta_potencia: 
@@ -4866,6 +5555,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_setima_potencia: 
@@ -4884,6 +5577,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_raiz_sexta_potencia: 
@@ -4902,6 +5599,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valor1 ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor2 ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor3 ``attr³ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor4 ``attr⁴ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor5 ``attr⁵ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor6 ``attr⁶ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor7 ``attr⁷ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {string} localDaVariavel ``attr⁸ ⇒`` **local da variável da regra de três composta** ``₪`` _local of the rule variable_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_regra_de_tres_composta: 
@@ -4921,6 +5622,10 @@ export var Aritmeticos =
      * ___
      * @returns {number} @param {number} valor1 ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor2 ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} valor3 ``attr³ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {string} localDaVariavel ``attr⁢⁴ ⇒`` **local da variável da regra de três composta** ``₪`` _local of the rule variable_
      *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+     *
      **/
     m_regra_de_tres_simples: 
       regraDeTresSimples,
@@ -4938,6 +5643,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} vertices ``attr¹ ⇒`` **valor numérico de vértices** ``₪`` _numeric number of vertices_ @param {number} arestas ``attr² ⇒`` **valor numérico de arestas** ``₪`` _numeric number of edges_ @param {number} faces ``attr³ ⇒`` **valor numérico de faces** ``₪`` _numeric number of faces_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_relacao_euler: 
@@ -4956,6 +5665,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valorParte ``attr¹ ⇒`` **valor da parte** ``₪`` _numeric part_ @param {number} valorTotal ``attr² ⇒`` **valor total** ``₪`` _total value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_rendimento: 
@@ -4974,6 +5687,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_resto: 
@@ -4992,6 +5709,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_secante: 
@@ -5010,6 +5731,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_secante_hiperbolica: 
@@ -5028,6 +5753,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_seno: 
@@ -5046,6 +5775,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_seno_hiperbolico: 
@@ -5064,6 +5797,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {string} @param {number} x ``attr¹ ⇒`` **valor numérico da coordenada das abscissas** ``₪`` _numerical value of the abscissa coordinate_ @param {number} y ``attr² ⇒`` **valor numérico da coordenada das ordenadas** ``₪`` _numerical value of the ordinate coordinate_ @param {number} z ``attr³ ⇒`` **valor numérico da coordenada das cotas** ``₪`` _numerical value of the quotas coordinate_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_sinalizacao_octantes: 
@@ -5083,6 +5820,10 @@ export var Aritmeticos =
      * ___
      * @returns {string} @param {number} x ``attr¹ ⇒`` **valor numérico da coordenada das abscissas** ``₪`` _numerical value of the abscissa coordinate_ @param {number} y ``attr² ⇒`` **valor numérico da coordenada das ordenadas** ``₪`` _numerical value of the ordinate coordinate_
      *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
+     *
      **/
     m_sinalizacao_quadrantes: 
       sinalizacaoQuadrantes,
@@ -5100,6 +5841,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {string} @param {string} expressao1 ``attr¹ ⇒`` **expressão algébrica** ``₪`` _numeric algebraic expression_ @param {string} expressao2 ``attr² ⇒`` **expressão algébrica** ``₪`` _numeric algebraic expression_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_sistema_de_equacoes: 
@@ -5118,6 +5863,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {string} @param {string} expressao1 ``attr¹ ⇒`` **expressão algébrica** ``₪`` _numeric algebraic expression_ @param {string} expressao2 ``attr² ⇒`` **expressão algébrica** ``₪`` _numeric algebraic expression_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_sistema_de_inequacoes: 
@@ -5136,6 +5885,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {void | any[]} @param {string[]} expressoes ``attr¹ ⇒`` **expressões algébricas** ``₪`` _numeric algebraic expressions_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_sistemas_lineares: 
@@ -5154,6 +5907,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_soma: 
@@ -5172,6 +5929,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} y ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_subtracao: 
@@ -5190,6 +5951,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_tangente: 
@@ -5208,6 +5973,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} x ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_tangente_hiperbolica: 
@@ -5226,6 +5995,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidade ``attr¹ ⇒`` **velocidade** ``₪`` _velocity_ @param {{inicial: number, final: number}} espaço ``attr² ⇒`` **espaço inicial e final** ``₪`` _initial and final space_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_tempo: 
@@ -5244,6 +6017,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} temperatura ``attr¹ ⇒`` **temperatura** ``₪`` _temperature_ @param {number} constante ``attr² ⇒`` **constante** ``₪`` _constant_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_boltzmann: 
@@ -5262,6 +6039,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} correnteEletrica ``attr¹ ⇒`` **corrente elétrica** ``₪`` _electric current_ @param {number} distancia ``attr² ⇒`` **distância** ``₪`` _distance_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_coulomb: 
@@ -5280,6 +6061,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number[] | string[] | void} @param {string} expressao ``attr¹ ⇒`` **expressão algébrica** ``₪`` _numeric algebraic expression_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_girard: 
@@ -5298,6 +6083,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} forca1 ``attr¹ ⇒`` **força 1** ``₪`` _force 1_ @param {number} forca2 ``attr² ⇒`` **força 2** ``₪`` _force 2_ @param {number} area1 ``attr³ ⇒`` **area 1** ``₪`` _area 1_ @param {number} area2 ``attr⁴ ⇒`` **area 2** ``₪`` _area 2_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_pascal: 
@@ -5316,6 +6105,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} a ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} n ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_pitagoras_a_n: 
@@ -5334,6 +6127,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} b ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} c ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} h ``attr³ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_pitagoras_b_c_h: 
@@ -5352,6 +6149,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} a ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} b ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_pitagoras_classico: 
@@ -5370,6 +6171,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} m ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} n ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_pitagoras_m_n: 
@@ -5388,6 +6193,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} energia ``attr¹ ⇒`` **energia** ``₪`` _energy_ @param {number} constante ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_plank: 
@@ -5406,6 +6215,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} densidade ``attr¹ ⇒`` **densidade de um objeto** ``₪`` _numeric density_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {{inicial: number, final: number}} altura ``attr³ ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_stevin: 
@@ -5424,6 +6237,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} valor ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_stirling: 
@@ -5442,6 +6259,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} n1 ``attr¹ ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} n2 ``attr² ⇒`` **valor numérico** ``₪`` _numeric value_ @param {number} n3 ``attr³ ⇒`` **valor numérico** ``₪`` _numeric value_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_teorema_tales_de_mileto: 
@@ -5460,6 +6281,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massaBase ``attr¹ ⇒`` **massa da base** ``₪`` _base mass_ @param {number} massaAcido ``attr² ⇒`` **massa do acido** ``₪`` _acid mass_ @param volumeBase ``attr³ ⇒`` **volume da base** ``₪`` _base volume_ @param volumeAcido ``attr⁴ ⇒`` **volume do acido** ``₪`` _acid volume_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_titulacao: 
@@ -5478,6 +6303,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} velocidadeAngularInicial ``attr¹ ⇒`` **velocidade angular de partida** ``₪`` _velocity angular initial_ @param {number} aceleracaoAngular ``attr² ⇒`` **aceleração angular** ``₪`` _angular acceleration_ @param {{inicial: number, final: number}} deslocamentoAngular ``attr³ ⇒`` **deslocamento angular** ``₪`` _angular displacement_ 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_torricelli_mcuv: 
@@ -5496,6 +6325,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} massa ``attr¹ ⇒`` **massa** ``₪`` _mass_ @param {number} gravidade ``attr² ⇒`` **gravidade** ``₪`` _gravity_ @param {number} altura ``attr³ ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_trabalho: 
@@ -5514,6 +6347,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number[]} x ``attr¹ ⇒`` **valores numéricos** ``₪`` _numeric values_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_valor_maximo: 
@@ -5532,6 +6369,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number[]} x ``attr¹ ⇒`` **valores numéricos** ``₪`` _numeric values_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      *  
      **/
     m_valor_minimo: 
@@ -5550,6 +6391,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} angulo ``attr¹ ⇒`` **ângulo inicial e final** ``₪`` _angular initial and final_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo** ``₪`` _time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_velocidade_angular_mcu: 
@@ -5568,6 +6413,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} frequencia ``attr¹ ⇒`` **frequência de impressão da velocidade** ``₪`` _numeric value_ @param {number} raio ``attr² ⇒`` **raio** ``₪`` _radius_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_velocidade_linear_mcu: 
@@ -5586,6 +6435,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {{inicial: number, final: number}} espaco ``attr¹ ⇒`` **espaco** ``₪`` _space_ @param {{inicial: number, final: number}} tempo ``attr² ⇒`` **tempo** ``₪`` _time_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_velocidade: 
@@ -5604,6 +6457,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio** ``₪`` _radius_ @param {number} altura ``attr² ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_cilindro: 
@@ -5622,6 +6479,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio** ``₪`` _radius_ @param {number} altura ``attr² ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_cone: 
@@ -5640,6 +6501,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um cubo** ``₪`` _edge of cube_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_cubo: 
@@ -5658,6 +6523,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um dodecaedro** ``₪`` _edge of dodecaedro_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_dodecaedro: 
@@ -5676,6 +6545,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} raio ``attr¹ ⇒`` **raio** ``₪`` _radius_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_esfera: 
@@ -5694,6 +6567,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um cubo** ``₪`` _edge_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_hexaedro: 
@@ -5712,6 +6589,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um cubo** ``₪`` _edge_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_icosaedro: 
@@ -5730,6 +6611,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um cubo** ``₪`` _edge_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_octaedro: 
@@ -5748,6 +6633,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} comprimento ``attr¹ ⇒`` **comprimento** ``₪`` _length_ @param {number} largura ``attr² ⇒`` **largura** ``₪`` _width_ @param {number} altura ``attr³ ⇒`` **altura** ``₪`` _height
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_paralelogramo: 
@@ -5766,6 +6655,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} areaBase ``attr¹ ⇒`` **área da base** ``₪`` _base area_ @param {number} altura ``attr² ⇒`` **altura** ``₪`` _height_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_piramide: 
@@ -5784,6 +6677,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} diagonalMaior ``attr¹ ⇒`` **diagonal maior** ``₪`` _largest diagonal_ @param {number} diagonalMenor ``attr² ⇒`` **diagonal menor** ``₪`` _smallest diagonal_ @param {number} altura ``attr³ ⇒`` **altura** ``₪`` _height
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_poligono_formato_lozango: 
@@ -5802,6 +6699,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} baseMaior ``attr¹ ⇒`` **base maior** ``₪`` _largest base_ @param {number} baseMenor ``attr² ⇒`` **base menor** ``₪`` _smallest base_ @param {number} altura ``attr³ ⇒`` **altura** ``₪`` _height 
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_poligono_formato_trapezio: 
@@ -5820,6 +6721,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} area ``attr¹ ⇒`` **area** ``₪`` _area_ @param {number} altura ``attr² ⇒`` **altura** ``₪`` _height
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_prisma: 
@@ -5838,6 +6743,10 @@ export var Aritmeticos =
      * 
      * ___
      * @returns {number} @param {number} aresta ``attr¹ ⇒`` **aresta de um cubo** ``₪`` _edge_
+     *
+     * ___
+     * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
+     * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
      * 
      **/
     m_volume_tetraedro: 

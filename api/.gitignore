@@ -1,1 +1,4 @@
 /node_modules/
+
+# releases folders
+/exports/@1.0.0/node_modules/

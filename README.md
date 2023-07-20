@@ -7,11 +7,7 @@
 ___
 
 <div align="center"> 
-
-  ### Versão: [v1.0.0]<br>
   
-  ![Wertsfy Logo Gen 6 CE](https://user-images.githubusercontent.com/59739253/226102298-90549bc6-a19e-4c5f-af14-abae2461a272.png)
-  
-  ![Wertsfy Logo Gen 6 PUE](https://user-images.githubusercontent.com/59739253/226102296-92768bd8-ff89-464c-8bd6-5fb1d670d92e.png)
+  ![Wertsfy Logo Gen 6](https://github.com/Humbanew/wertsfy/assets/59739253/73c0983e-dc74-41c7-9465-ae5fc0bcbd50)
 
 </div>

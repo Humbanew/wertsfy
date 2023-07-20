@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Humbanew Project",
-  "repository": "git:github.com/humbanew/wertsfy.git",
-  "readme": "https://github.com/humbanew/wertsfy/blob/main/README.md",
+  "author": "humbanew",
+  "repository": "https://github.com/humbanew/wertsfy.git",
+  "readme": "https://github.com/humbanew/wertsfy#README.md",
   "license": "Humbanew License v3",
   "devDependencies": {
     "@types/node": "^18.15.13",

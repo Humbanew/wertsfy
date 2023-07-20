@@ -1,5 +1,5 @@
 {
-  "name": "wertsfy",
+  "name": "@humbanew/wertsfy",
   "version": "1.0.0",
   "description": "The Basic UDK.",
   "main": "index.js",
@@ -24,6 +24,6 @@
     "wtfy": "./cli/wertsfy.cli.js"
   },
   "publishConfig": {
-    "@Humbanew:registry": "https://npm.pkg.github.com"
+    "@humbanew:registry": "https://npm.pkg.github.com"
   }
 }

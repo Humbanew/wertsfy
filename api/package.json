@@ -1,12 +1,12 @@
 {
-  "name": "wertsfy",
+  "name": "@humbanew/wertsfy",
   "version": "1.0.0",
   "description": "The Basic UDK.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Humbanew",
+  "author": "Humbanew Project",
   "repository": {
     "url": "https://github.com/Humbanew/wertsfy",
     "type": "git"
@@ -24,6 +24,6 @@
     "wtfy": "./cli/wertsfy.cli.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@humbanew:registry": "https://npm.pkg.github.com"
   }
 }

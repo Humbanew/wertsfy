@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Humbanew Project",
-  "repository": "git:github.com/Humbanew/wertsfy.git",
-  "readme": "https://github.com/Humbanew/wertsfy/blob/main/README.md",
+  "repository": "git:github.com/humbanew/wertsfy.git",
+  "readme": "https://github.com/humbanew/wertsfy/blob/main/README.md",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.13",

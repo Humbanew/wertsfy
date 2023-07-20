@@ -24,6 +24,6 @@
     "wtfy": "./cli/wertsfy.cli.js"
   },
   "publishConfig": {
-    "@humbanew:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }

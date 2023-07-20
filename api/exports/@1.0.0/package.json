@@ -1,5 +1,5 @@
 {
-  "name": "@humbanew/wertsfy",
+  "name": "@humbanew-project/wertsfy",
   "version": "1.0.0",
   "description": "The Basic UDK.",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "type": "git"
   },
   "readme": "https://github.com/Humbanew/wertsfy/blob/main/README.md",
-  "license": "Humbanew License v3",
+  "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.13",
     "typescript": "^5.1.6"

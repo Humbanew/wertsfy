@@ -12,10 +12,10 @@
     "rootDirs": ["./", "../"],
     
     // Javascript Builded Files 
-    "outDir": "./javascript",
+    "outDir": "./",
 
     // Javascript Declaration Builded Files
-    "declarationDir": "./javascript/dist/",
+    "declarationDir": "./dist/",
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,

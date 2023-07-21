@@ -36,7 +36,7 @@ ___
   ###### _Install the package._
   ```shell
   
-  $ npm install wertsfy
+  $ npm install @humbanew/wertsfy
   
   ```
 

@@ -9,7 +9,12 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | Wertsfy 0.1.0 Beta | ✖️ |
 | Wertsfy 0.2.0 Beta | ✖️ |
-| Wertsfy 1.0.0 Beta/Release | ✔️ |
+| Wertsfy 1.0.0 Release | ✔️ |
+| Wertsfy 1.0.1 Release | ✔️ |
+| Wertsfy 1.0.2 Release | ✔️ |
+| Wertsfy 1.0.3 Release | ✔️ |
+| Wertsfy 1.0.4 Release | ✔️ |
+| Wertsfy 1.0.5 Release | ✔️ |
 
 ## Reporting a Vulnerability
 

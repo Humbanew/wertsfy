@@ -20,18 +20,26 @@ ___
 
 <br><br>
 
-  1. Crie o arquivo ``.npmrc`` com o seguinte conteúdo: ``₪`` _Create the `` .npmrc`` file with the following content:_
+  ### 1. Crie o arquivo ``.npmrc`` com o seguinte conteúdo: 
+  
+  ###### _Create the `` .npmrc`` file with the following content:_
+
+
   ```markdown 
   
   @humbanew:registry=https://npm.pkg.github.com 
   
   ```
 
-  2. Instale o pacote. ``₪`` _Install the package._
+  ### 2. Instale o pacote.  
+  
+  ###### _Install the package._
   ```shell
   
   $ npm install wertsfy
   
   ```
 
-  3. Pronto! ``₪`` _Ready!_
+  ### 3. Pronto!  
+  
+  ###### _Ready!_

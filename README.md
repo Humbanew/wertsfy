@@ -11,3 +11,27 @@ ___
   ![Wertsfy Logo Gen 6](https://github.com/Humbanew/wertsfy/assets/59739253/73c0983e-dc74-41c7-9465-ae5fc0bcbd50)
 
 </div>
+
+<div align="center"> 
+  
+  ## Instalação do Pacote _[Package Installation]_
+
+</div>
+
+<br><br>
+
+  1. Crie o arquivo ``.npmrc`` com o seguinte conteúdo: ``₪`` _Create the `` .npmrc`` file with the following content:_
+  ```markdown 
+  
+  @humbanew:registry=https://npm.pkg.github.com 
+  
+  ```
+
+  2. Instale o pacote. ``₪`` _Install the package._
+  ```shell
+  
+  $ npm install wertsfy
+  
+  ```
+
+  3. Pronto! ``₪`` _Ready!_

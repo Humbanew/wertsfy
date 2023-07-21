@@ -16,7 +16,7 @@ import { Aritmeticos } from "./syntax/arithmetic.lib";
  * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
  * 
  */
-export const wertsfy= 
+export var wertsfy= 
 {
 
   /**
@@ -59,4 +59,3 @@ export const wertsfy=
 
 
 };
-

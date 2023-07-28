@@ -1,6 +1,12 @@
+declare interface IGException {
+
+  message: string;
+
+} 
+
 /**
  *  
- * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+ * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/humbanew/wertsfy/assets/59739253/e68bd2eb-4358-452e-bf90-7b2ed2375f94)
  * 
  * ___
  * ![Internal Arch Root Badge - Interface](https://github.com/Humbanew/wertsfy/assets/59739253/4090acd6-bb45-4d6a-942a-fe49b3f6d2d4)
@@ -14,8 +20,4 @@
  * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
  * 
  */
-declare interface IGException {
-
-  message: string;
-
-} export var Exception: IGException["message"];
+export var Exception: IGException["message"];

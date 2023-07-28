@@ -39,7 +39,8 @@ export var wertsfy=
   
     /**
      *  
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+
+     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/humbanew/wertsfy/assets/59739253/e68bd2eb-4358-452e-bf90-7b2ed2375f94)
      * 
      * ___
      * ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/edce6832-23e7-4305-ad7d-e1c215e26e0b)

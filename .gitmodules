@@ -1,3 +1,18 @@
 [submodule "test/wtsfy-labo"]
 	path = test/wtsfy-labo
 	url = git@github.com:humbanew/wtsfy-labo.git
+[submodule "api/srcs/github/narchs"]
+	path = api/srcs/github/narchs
+	url = git@github.com:humbanew/wertsfy-narchs.git
+[submodule "api/srcs/github/narchs-ai"]
+	path = api/srcs/github/narchs-ai
+	url = git@github.com:humbanew/wertsfy-narchs-ai.git
+[submodule "api/srcs/github/narchs-node"]
+	path = api/srcs/github/narchs-node
+	url = git@github.com:humbanew/wertsfy-narchs-node.git
+[submodule "api/srcs/github/narchs-cloud"]
+	path = api/srcs/github/narchs-cloud
+	url = git@github.com:humbanew/wertsfy-narchs-cloud.git
+[submodule "api/srcs/github/v8-engine"]
+	path = api/srcs/github/v8-engine
+	url = git@github.com:v8/v8.git

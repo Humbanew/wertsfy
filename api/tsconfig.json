@@ -9,12 +9,17 @@
     "strict": false,
     "alwaysStrict": false,
     "isolatedModules": false,
-    "rootDirs": ["./", "../"],
+    "rootDirs": ["./"],
     
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "extendedDiagnostics": true,
 
-  }
+    // diretório de export
+    "outDir": "./exports/@1.1.0/",
+
+  },
+  "exclude": ["./exports/", "./srcs/", "./cli/"]
 
 }

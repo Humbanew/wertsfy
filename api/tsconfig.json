@@ -21,6 +21,6 @@
 
   },
   // Arquivos que não devem ser exportados
-  "exclude": ["./exports/", "./imports/", "./srcs/", "./cli/"]
+  "exclude": ["./exports/", "./imports/", "./srcs/", "./cli/", "./data/"]
 
 }

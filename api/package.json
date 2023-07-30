@@ -4,7 +4,7 @@
   "description": "The Basic UDK.",
   "main": "wertsfy.api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && copyfiles ./package.json ./exports/@1.1.0/ && copyfiles ./package-lock.json ./exports/@1.1.0/"
   },
   "author": "humbanew",
   "repository": "https://github.com/humbanew/wertsfy.git",
@@ -14,6 +14,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "ts-node": "^10.9.1"
   },
   "bin": {

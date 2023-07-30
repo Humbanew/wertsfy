@@ -189,7 +189,25 @@
       "yellow_green": "#9acd32"
     }
   },
-  "pantonecolors": { }
+  "pantonecolors": {
+    "betaselectors": { 
+      "#a": { }, "#b": { }, "#c": { }, "#d": { }, "#f": { }, "#g": { }, "#h": { }, "#i": { }, "#k": { }, "#l": { }, "#m": { }, "#n": { }, "#o": { }, "#p": { }, "#r": { }, "#s": { }, "#t": { }, "#v": { }, "#w": { }, "#y": { }, "#z": { }
+    },
+
+    "egret": { },
+    "snow-white": { },
+    "bright-white": { },
+    "cloud-dancer": { },
+    "gardenia": { },
+    "marshmallow": { },
+    "blanc-de-blanc": { },
+    "pristine": { },
+    "whisper-white": { },
+    "white-asparagus": { },
+    "birch": { },
+    "turtledove": { },
+    "bone-white": { }
+  }
 } 
 
 /** 

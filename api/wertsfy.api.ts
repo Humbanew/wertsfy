@@ -1,4 +1,4 @@
-import { Aritmeticos } from "./syntax/arithmetic.lib";
+import { Aritmeticos } from "./project/arithmetic.lib";
 
 /**
  *  

@@ -16,10 +16,11 @@
     "sourceMap": true,
     "extendedDiagnostics": true,
 
-    // diretório de export
-    "outDir": "./exports/@1.1.0/",
+    // Diretório de export
+    "outDir": "./exports/@1.0.7/",
 
   },
-  "exclude": ["./exports/", "./srcs/", "./cli/"]
+  // Arquivos que não devem ser exportados
+  "exclude": ["./exports/", "./imports/", "./srcs/", "./cli/", "./project/nikko.lib.ts", "./project/userinterface.lib.ts"]
 
 }

@@ -20,7 +20,7 @@ _____________________________________________
 
 7. Todas as ideias e contribuições feitas aos projetos recebem os seus devidos créditos de participação.
 
-8. Alguns dos projetos feitos pela Humbanew **não são de código aberto**, estes são sinalizados com um badge nas páginas do mesmos. No entanto, são exceções em meio aos demais existentes. 
+8. Alguns dos projetos feitos pela Humbanew **não são de código aberto**, estes são sinalizados com um badge nas páginas de desenvolvimento. No entanto, são exceções em meio aos demais existentes. 
 
 9. O uso de arquiteturas de software é bem vindo aqui, se for bem implementado, pode se tornar oficial e adotado pela grupo aqui descrito em um futuro possível. Após um processo de teste detalhado.
  
@@ -60,9 +60,6 @@ _____________________________________________
 
 9. A licença não deve restringir outro software 
   > A licença não deve colocar restrições em outro software que é distribuído junto com o software licenciado. Por exemplo, a licença não deve insistir que todos os outros programas distribuídos no mesmo meio devam ser software de código aberto. 
-
-10. A licença deve ser neutra em tecnologia 
-  > Nenhuma provisão da licença pode ser baseada em qualquer tecnologia ou estilo de interface individual.
 
 ## |EN-US|
 ### ***Humbanew General Terms*** 
@@ -121,8 +118,5 @@ _____________________________________________
 
  9. The license should not restrict another software 
    > The license should not put restrictions on other software that is distributed along with the licensed software. For example, the license should not insist that all other programs distributed in the same medium should be open source software. 
-
- 10. The license must be neutral in technology 
-   > No license provision can be based on any individual technology or style of interface.
 
 </div>

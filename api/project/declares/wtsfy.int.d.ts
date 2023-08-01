@@ -6,10 +6,9 @@ declare interface IGException {
 
 /**
  *  
- * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/humbanew/wertsfy/assets/59739253/e68bd2eb-4358-452e-bf90-7b2ed2375f94)
+ * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
  * 
- * ___
- * ![Internal Arch Root Badge - Interface](https://github.com/Humbanew/wertsfy/assets/59739253/4090acd6-bb45-4d6a-942a-fe49b3f6d2d4)
+ * ![Internal Badge](https://github.com/humbanew/wertsfy/assets/59739253/d6e6eb6c-df4d-4b75-9357-e0df4ef953d8)
  * 
  * **``Interface Global Exception``**
  * 

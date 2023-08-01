@@ -2,15 +2,14 @@ import { Aritmeticos } from "./project/arithmetic.lib";
 
 /**
  *  
- * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
+ * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
  * 
  * **``Interface de Programação de Aplicativos [Application Programming Interface]``**
  * 
- * ___
- * ![Root Badge](https://github.com/Humbanew/wertsfy/assets/59739253/f1aaab14-3a9c-4b23-9a8a-2cb67e3faac8)
- * 
  * Contém todos os recursos disponíveis pelo kit de desenvolvimento. _[Contains all resources available by the Development Kit.]_
  *
+ * ![Root Badge](https://github.com/humbanew/wertsfy/assets/59739253/2bf354cf-edcd-4332-8358-665aa0a92ac3)
+ * 
  * ___
  * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
  * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
@@ -21,15 +20,14 @@ export var wertsfy=
 
   /**
    *  
-   * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/Humbanew/wertsfy/assets/59739253/e8e71afd-190e-437e-800e-efd353f91e61)
-   * 
-   * ___
-   * ![Library Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0e7410ee-28ee-4260-ae9b-650c031d0517)
+   * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
    * 
    * **``Bibliotecas da API [API Librarys]``**
    * 
    * Contém todas as bibliotecas disponíveis. _[Contains all available libraries.]_
    *
+   * ![Root-_Library Badge](https://github.com/humbanew/wertsfy/assets/59739253/33523076-7463-4682-8b1f-4629c9e05c4c)
+   * 
    * ___
    * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
    * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)
@@ -39,16 +37,14 @@ export var wertsfy=
   
     /**
      *  
-
-     * ![Wertsfy Logo Gen 6 JSDocs](https://github.com/humbanew/wertsfy/assets/59739253/e68bd2eb-4358-452e-bf90-7b2ed2375f94)
-     * 
-     * ___
-     * ![Library Badge - Arithmetic](https://github.com/Humbanew/wertsfy/assets/59739253/edce6832-23e7-4305-ad7d-e1c215e26e0b)
+     * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
      * 
      * **``Biblioteca [Library] - Aritmeticos``**
      * 
      * Contém as referências de constantes e funções aritméticas. _[Contains the references of constants and arithmetic functions.]_ 
      *
+     * ![Root-_Library-_Arithmetic Badge](https://github.com/humbanew/wertsfy/assets/59739253/850c1200-f66e-49eb-a1dd-0cbad2841446)
+     * 
      * ___
      * ![1 0 0 Badge](https://github.com/Humbanew/wertsfy/assets/59739253/a0c8edb1-da2c-431b-b450-fe6f3642bc18)
      * ![Release Badge](https://github.com/Humbanew/wertsfy/assets/59739253/2a9a3224-2818-49ff-8f39-1caa7d9b99d1)

@@ -29,7 +29,7 @@ ___
 ![Internal Arch Root Badge - Type](https://github.com/Humbanew/wertsfy/assets/59739253/a8a42000-18b5-4ffd-b9b1-478840efea74)
 
 ### Badges [Gen 2]
-![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
+![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
 
 ![Root Badge](https://github.com/humbanew/wertsfy/assets/59739253/2bf354cf-edcd-4332-8358-665aa0a92ac3)
 ![Root-_Library Badge](https://github.com/humbanew/wertsfy/assets/59739253/33523076-7463-4682-8b1f-4629c9e05c4c)

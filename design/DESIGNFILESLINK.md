@@ -50,3 +50,6 @@ ___
 ![Deprecated Badge](https://github.com/Humbanew/wertsfy/assets/59739253/0b6ce59c-b4de-476f-ad45-73ed94d1851b)
 
 </div>
+<br><br>
+
+``Copyright (©️) 2023 Humbanew Project. All rights reserved.``

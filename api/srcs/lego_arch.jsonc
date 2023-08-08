@@ -257,5 +257,195 @@
     "panel": { }, 
     "window_door": { }, 
     "stairs": { } 
+  },
+  "#snot": { 
+    "bracket": { },
+    "brick": { },
+    "jumper": { }
+  },
+  "#clip": {
+    "bar": { },
+    "clip": { },
+    "flag": { },
+    "handle": { },
+    "door": { },
+    "flexible": { }
+  },
+  "#hinge": { 
+    "click_brick": { },
+    "click_plate": { },
+    "click_other": { },
+    "hinge": { },
+    "turntable": { }
+  },
+  "#socket": {
+    "ball": { },
+    "click": { },
+    "towball": { }
+  },
+  "#angle": {
+    "slope_10_18_30": { },
+    "slope_33": { },
+    "slope_45": { },
+    "slope_55_65_75": { },
+    "slope_inverted": { },
+    "windscreen": { },
+    "wedge_brick": { },
+    "wedge_plate": { },
+    "wedge_tile": { },
+    "wedge_nose": { },
+    "wedge_inverted": { }
+  },
+  "#curved": { 
+    "plate": { },
+    "doubleplate": { },
+    "brick": { },
+    "tile": { },
+    "cylinder": { },
+    "cone": { },
+    "curved": { },
+    "arch_bow": { },
+    "dish_dome": { },
+    "mudguard": { },
+    "wedge": { },
+    "ball": { },
+    "heart_star": { },
+    "other": { }
+  },
+  "#vehicle": { 
+    "wheel_integrated_tire": { },
+    "wheel_8mm": { },
+    "wheel_11mm": { },
+    "wheel_14mm_15mm": { },
+    "wheel_18mm": { },
+    "wheel_30.4mm": { },
+    "wheel_43.2mm": { },
+    "wheel_56mm": { },
+    "wheel_motorcycle": { },
+    "pin_small": { },
+    "pin_technic": { },
+    "pin_other": { },
+    "bracket": { },
+    "fin": { },
+    "nose_engine": { },
+    "roof": { },
+    "train": { },
+    "coaster": { },
+    "door_steering": { }
+  },
+  "#minifig": { 
+    "$categories": {
+      "animals": { 
+        "@0_mammals": "mammals",
+        "@1_birds": "birds",
+        "@2_insects_and_arachnids": "insects_and_arachnids",
+        "@3_reptiles_and_amphibians": "reptiles_and_amphibians",
+        "@4_fish_and_sea_creatures": "fish_and_sea_creatures"
+      },
+      "clothing_hair": { 
+        "@0_hair": "hair",
+        "@1_hair_wrap": "hair_wrap",
+        "@2_hat": "hat",
+        "@3_helmet": "helmet",
+        "@4_beard": "beard",
+        "@5_armor": "armor",
+        "@6_neck_gear": "neck_gear"
+      },
+      "accessories": { 
+        "@0_containers_and_seats": "containers_and_seats",
+        "@1_food_and_drink": "food_and_drink",
+        "@2_footwear": "footwear",
+        "@3_tools": "tools",
+        "@4_weapons": "weapons",
+        "@5_other": "other"
+      },
+      "weapons": { 
+        "@0_shields": "shields",
+        "@1_swords": "swords",
+        "@2_guns": "guns",
+        "@3_bows_and_crossbows": "bows_and_crossbows",
+        "@4_magic": "magic",
+        "@5_other_weapons": "other_weapons"
+      }
+    },
+    "animals": { },
+    "minifig": { },
+    "minidoll": { },
+    "nanofig": { },
+    "hair_accessory": { },
+    "clothing": { },
+    "footwear": { },
+    "food_drink": { },
+    "tools_other": { },
+    "weapon": { },
+    "container_seat": { },
+    "transportation": { }
+  },
+  "#nature": { 
+    "elemental": { },
+    "flower": { },
+    "plant": { },
+    "produce": { },
+    "barb_horn_tail": { },
+    "tooth": { }
+  },
+  "#technic": { 
+    "brick": { },
+    "brick_round": { },
+    "plate": { },
+    "liftarm": { },
+    "frame": { },
+    "panel": { },
+    "axle": { },
+    "pin": { },
+    "connector": { },
+    "hub": { },
+    "gears": { },
+    "rack": { },
+    "link": { },
+    "engine": { },
+    "mechanical": { },
+    "ball_socket": { },
+    "blade_propeller": { },
+    "other": { }
+  },
+  "#electronics": {
+    "hub": { },
+    "motors": { },
+    "sensors_accessories": { }
+  },
+  "#other": { 
+    "railing_ladder": { },
+    "shooter": { },
+    "structural": { },
+    "chain_string": { },
+    "miscellaneous": { }
+  },
+  "#retired": { 
+    "basic": { },
+    "wall": { },
+    "snot": { },
+    "hinge": { },
+    "socket_ball": { },
+    "socket_click": { },
+    "angle": { },
+    "curve": { },
+    "vehicle": { },
+    "minifigure": { },
+    "nature": { },
+    "technic": { },
+    "electronics": { }
+  },
+
+  "#duplo": { 
+    "brick": { },
+    "plate": { },
+    "angle": { },
+    "curved": { },
+    "other": { },
+    "quatro": { }
+  },
+  "#new_in_v39": { 
+    "#": "9rows"
   }
 }

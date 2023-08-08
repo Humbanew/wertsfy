@@ -256,5 +256,6 @@
     "groove_rail": { }, 
     "panel": { }, 
     "window_door": { }, 
-    "stairs": { } }
+    "stairs": { } 
+  }
 }

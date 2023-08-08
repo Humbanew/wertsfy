@@ -249,5 +249,68 @@
       }
     }
   },
-  "tags": { }
+  "tags": { 
+    "html": {
+      "global_attrs": "typer object global_attrs",
+      "aria_attrs": "typer object aria_attrs",
+      "event_handlers_attrs": "typer object event_handlers_attrs",
+      "attrs": { 
+        "manifest": "typer string",
+        "version": "typer string",
+        "xmlns": "typer string",
+        "lang": "typer string"
+      }
+    },
+    "base": { 
+      "global_attrs": "typer object global_attrs",
+      "aria_attrs": "typer object aria_attrs",
+      "event_handlers_attrs": "typer object event_handlers_attrs",
+      "attrs": { 
+        "href": "typer string",
+        "target": "'_self'|'_blank'|'_parent'|'_top'"
+      }
+    },
+    "head": { 
+      "global_attrs": "typer object global_attrs",
+      "aria_attrs": "typer object aria_attrs",
+      "event_handlers_attrs": "typer object event_handlers_attrs",
+      "attrs": {
+        "profile": "typer string"
+      }
+    },
+    "link": { 
+      "global_attrs": "typer object global_attrs",
+      "aria_attrs": "typer object aria_attrs",
+      "event_handlers_attrs": "typer object event_handlers_attrs",
+      "attrs": {
+        "as": "'audio'|'document'|'embed'|'fetch'|'font'|'image'|'object'|'script'|'style'|'track'|'video'|'worker'",
+        "crossorigin": "'anonymous'|'use-credentials'",
+        "disabled": "typer boolean",
+        "fetchpriority": "'high'|'low'|'auto'",
+        "href": "typer string",
+        "hreflang": "typer string",
+        "imagesizes": "typer string",
+        "imagesrcset": "typer string",
+        "integrity": "typer string",
+        "media": "typer string",
+        "prefetch": "typer boolean",
+        "referrerpolicy": "'no-referrer'|'no-referrer-when-downgrade'|'origin'|'origin-when-cross-origin'|'same-origin'|'strict-origin'|'strict-origin-when-cross-origin'|'unsafe-url'",
+        "rel": "typer string",
+        "sizes": "'any'|'whitespace =>{width in pixels}x{height in pixels} or {width in pixels}X{height in pixels}'",
+        "title": "typer string",
+        "type": "typer string",
+        "methods": "typer string",
+        "target": "typer string",
+        "charset": "typer string",
+        "rev": "typer string"
+      }
+    },
+    "meta": { },
+    "style": { },
+    "title": { },
+    "body": { }
+
+  },
+  "html6_theory": { },
+  "buildhooks": { }
 }

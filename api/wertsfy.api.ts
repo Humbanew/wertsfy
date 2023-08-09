@@ -2,7 +2,7 @@ import { Aritmeticos } from "./project/arithmetic.lib";
 
 /**
  *  
- * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
+ * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
  * 
  * **``Interface de Programação de Aplicativos [Application Programming Interface]``**
  * 
@@ -20,7 +20,7 @@ export var wertsfy=
 
   /**
    *  
-   * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
+   * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
    * 
    * **``Bibliotecas da API [API Librarys]``**
    * 

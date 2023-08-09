@@ -894,12 +894,12 @@ import {
 } from "./modules/arithmetic/volume_tetraedro.mdl";
 
 
-export var Aritmeticos =
+export var Aritmeticos: object =
 {
 
   /**
    *  
-   * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/606b5195-7f68-43e9-82c9-8b1075098828)
+   * ![StylusProject Badge](https://github.com/humbanew/wertsfy/assets/59739253/dfae18b5-adfb-4bb3-9398-bd2c09ac47ab)
    * 
    * ![Root-_Library-_Arithmetic-_Category Badge](https://github.com/humbanew/wertsfy/assets/59739253/b5882aaa-4c59-42da-9c38-2ec406451f38)
    * 

@@ -143,6 +143,10 @@ let userinterface =
 
       m_format_notcrossed: (conteudo: string): string => {
         return `\x1b[29m${conteudo}\x1b[00m`;
+      },
+
+      m_format_proposital_spacing: (conteudo: string): string => {
+        return `\x1b[50m${conteudo}\x1b[00m`;
       }
 
     }

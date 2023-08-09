@@ -1,4 +1,5 @@
-let userinterface: object = { 
+let userinterface = 
+{ 
 
   terminal: { 
 
@@ -16,7 +17,7 @@ let userinterface: object = {
 
       c_eschar_escape: "\x1b",
 
-      c_eschar_space: " ",
+      c_eschar_space: "\0",
 
     },
     Methods: { }

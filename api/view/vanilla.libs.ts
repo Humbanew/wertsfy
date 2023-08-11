@@ -1,1 +1,1 @@
-let depedencies = { };
+let features = { };

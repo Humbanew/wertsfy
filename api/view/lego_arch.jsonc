@@ -179,48 +179,57 @@
     "plate": { 
       "1x1": { 
         "code": "3024", 
-        "icosodec": "0-7B4", 
+        "icosodec": "1-7B4", 
         "instuds": 1, 
         "outstuds": 1 
       },
       "1x2": { 
         "code": "3023", 
-        "icosodec": "0-7B3", 
+        "icosodec": "1-7B3", 
         "instuds": 2, 
         "outstuds": 2 
       },
       "1x3": { 
         "code": "3623", 
-        "icosodec": "0-913", 
+        "icosodec": "1-913", 
         "instuds": 3, 
         "outstuds": 3 
       },
       "1x4": { 
         "code": "3710", 
-        "icosodec": "0-95A", 
+        "icosodec": "1-95A", 
         "instuds": 4, 
         "outstuds": 4 
       },
       "1x5": { 
         "code": "78329", 
-        "icosodec": "0-9FG9", 
+        "icosodec": "1-9FG9", 
         "instuds": 5, 
         "outstuds": 5 
       },
       "1x6": { 
         "code": "3666", 
-        "icosodec": "0-936", 
+        "icosodec": "1-936", 
         "instuds": 6, 
         "outstuds": 6 
       },
       "1x8": { 
-        "code": "3460"
+        "code": "3460",
+        "icosodec": "1-8D0",
+        "instuds": 8,
+        "outstuds": 8
       },
       "1x10": { 
-        "code": "4477"
+        "code": "4477",
+        "icosodec": "1-B3H",
+        "instuds": 10,
+        "outstuds": 10
       },
       "1x12": { 
-        "code": "60479"
+        "code": "60479",
+        "icosodec": "1-FB3J",
+        "instuds": 12,
+        "outstuds": 12
       },
       "2x2": { 
         "code": "3022"
@@ -279,51 +288,137 @@
       "6x12": { 
         "code": "3028"
       },
-      "6x14": { },
-      "6x16": { },
-      "8x8": { },
-      "8x16": { },
-      "16x16": { },
-      "2x2_corner": { },
-      "3x3_corner": { },
-      "3x3_cross": { },
-      "2x3_plate_w/cutout": { },
-      "4x4_corner": { },
-      "4x4_corner_w/2x2_cutout": { },
-      "1x4_w/2_studs": { },
-      "2x2_w/studs_edge": { },
-      "4x4_w/studs_edge": { },
-      "4x6_w/studs_edge": { },
-      "6x12_w/studs_edge": { },
-      "6x16_w/studs_edge": { },
-      "3x4_w/studs_center": { },
-      "8x8_w/grille": { },
-      "16x16_baseplate": { },
-      "32x32_baseplate": { },
-      "8x8x2/3_w/studs": { },
-      "8x16x2/3_w/studs": { },
-      "8x16x2/3_w/recessed_studs": { },
-      "16x16x2/3_w/recessed_studs": { }
+      "6x14": { 
+        "code": "3456"
+      },
+      "6x16": { 
+        "code": "3027"
+      },
+      "8x8": { 
+        "code": "41539"
+      },
+      "8x16": { 
+        "code": "92438"
+      },
+      "16x16": { 
+        "code": "91403"
+      },
+      "2x2_corner": { 
+        "code": "2420"
+      },
+      "3x3_corner": { 
+        "code": "77844"
+      },
+      "3x3_cross": { 
+        "code": "15397"
+      },
+      "2x3_plate_w/cutout": { 
+        "code": "73831"
+      },
+      "4x4_corner": { 
+        "code": "2639"
+      },
+      "4x4_corner_w/2x2_cutout": { 
+        "code": "64799"
+      },
+      "1x4_w/2_studs": { 
+        "code": {
+          "w/o_groove": "92593",
+          "w/_groove": "41740"
+        }
+      },
+      "2x2_w/studs_edge": { 
+        "code": "33909"
+      },
+      "4x4_w/studs_edge": {
+        "code": "6179"
+      },
+      "4x6_w/studs_edge": { 
+        "code": "6180"
+      },
+      "6x12_w/studs_edge": { 
+        "code": "6178"
+      },
+      "6x16_w/studs_edge": { 
+        "code": "6205"
+      },
+      "3x4_w/studs_center": { 
+        "code": "88646/17846"
+      },
+      "8x8_w/grille": { 
+        "code": "4151"
+      },
+      "16x16_baseplate": { 
+        "code": "3867"
+      },
+      "32x32_baseplate": { 
+        "code": "3811"
+      },
+      "8x8x2/3_w/studs": { 
+        "code": "15624"
+      },
+      "8x16x2/3_w/studs": { 
+        "code": "18922"
+      },
+      "8x16x2/3_w/recessed_studs": { 
+        "code": "71772"
+      },
+      "16x16x2/3_w/recessed_studs": { 
+        "code": "69958"
+      }
     },
     "tile": { 
-      "1x1": { },
-      "1x2": { },
-      "1x3": { },
-      "1x4": { },
-      "1x6": { },
-      "1x8": { },
-      "2x2_corner": { },
-      "2x2": { },
-      "2x3": { },
-      "2x4": { },
-      "2x6": { },
-      "4x4": { },
-      "6x6": { },
-      "8x16": { },
-      "2x2_inverted": { },
-      "1x3_inverted_w/hole": { }
+      "1x1": { 
+        "code": "3070"
+      },
+      "1x2": { 
+        "code": "3069"
+      },
+      "1x3": { 
+        "code": "63864"
+      },
+      "1x4": { 
+        "code": "2431"
+      },
+      "1x6": { 
+        "code": "6636"
+      },
+      "1x8": { 
+        "code": "4162"
+      },
+      "2x2_corner": { 
+        "code": "14719"
+      },
+      "2x2": { 
+        "code": "3068"
+      },
+      "2x3": { 
+        "code": "26603"
+      },
+      "2x4": { 
+        "code": "87079"
+      },
+      "2x6": { 
+        "code": "69729"
+      },
+      "6x6": { 
+        "code": "10202"
+      },
+      "4x4": { 
+        "code": "1751"
+      },
+      "8x16": { 
+        "code": "90498"
+      },
+      "2x2_inverted": { 
+        "code": "11203"
+      },
+      "1x3_inverted_w/hole": { 
+        "code": "35459"
+      }
     } 
   },
+  // #ff1100 [aqui]
   "#wall": { 
     "decorative": { }, 
     "fence": { }, 

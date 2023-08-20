@@ -1,1 +1,5 @@
-let nikko: object = { };
+let nikko: object = { 
+
+  Test: class NTest { }
+
+};

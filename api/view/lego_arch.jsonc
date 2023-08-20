@@ -232,189 +232,374 @@
         "outstuds": 12
       },
       "2x2": { 
-        "code": "3022"
+        "code": "3022",
+        "icosodec": "1-7B2",
+        "instuds": 4,
+        "outstuds": 4
       },
       "2x3": { 
-        "code": "3021"
+        "code": "3021",
+        "icosodec": "1-7B1",
+        "instuds": 6,
+        "outstuds": 6
       },
       "2x4": { 
-        "code": "3020"
+        "code": "3020",
+        "icosodec": "1-7B0",
+        "instuds": 8,
+        "outstuds": 8
       },
       "2x6": { 
-        "code": "3795"
+        "code": "3795",
+        "icosodec": "1-99F",
+        "instuds": 12,
+        "outstuds": 12
       },
       "2x8": { 
-        "code": "3034"
+        "code": "3034",
+        "icosodec": "1-7BE",
+        "instuds": 16,
+        "outstuds": 16
       },
       "2x10": { 
-        "code": "3832"
+        "code": "3832",
+        "icosodec": "1-9BC",
+        "instuds": 20,
+        "outstuds": 20
       },
       "2x12": { 
-        "code": "2445"
+        "code": "2445",
+        "icosodec": "1-625",
+        "instuds": 24,
+        "outstuds": 24
       },
       "2x14": { 
-        "code": "91988"
+        "code": "91988",
+        "icosodec": "1-B9JI",
+        "instuds": 28,
+        "outstuds": 28
       },
       "2x16": { 
-        "code": "4282"
+        "code": "4282",
+        "icosodec": "1-AE2",
+        "instuds": 32,
+        "outstuds": 32
       },
       "3x3": { 
-        "code": "11212"
+        "code": "11212",
+        "icosodec": "1-180C",
+        "instuds": 9,
+        "outstuds": 9
       },
       "4x4": { 
-        "code": "3031"
+        "code": "3031",
+        "icosodec": "1-7BB",
+        "instuds": 16,
+        "outstuds": 16
       },
       "4x6": { 
-        "code": "3032"
+        "code": "3032",
+        "icosodec": "1-7BC",
+        "instuds": 24,
+        "outstuds": 24
       },
       "4x8": { 
-        "code": "3035"
+        "code": "3035",
+        "icosodec": "1-7BF",
+        "instuds": 32,
+        "outstuds": 32
       },
       "4x10": { 
-        "code": "3030"
+        "code": "3030",
+        "icosodec": "1-7BA",
+        "instuds": 40,
+        "outstuds": 40
       },
       "4x12": { 
-        "code": "3029"
+        "code": "3029",
+        "icosodec": "1-7B9",
+        "instuds": 48,
+        "outstuds": 48
       },
       "6x6": { 
-        "code": "3958"
+        "code": "3958",
+        "icosodec": "1-9HI",
+        "instuds": 36,
+        "outstuds": 36
       },
       "6x8": { 
-        "code": "3036"
+        "code": "3036",
+        "icosodec": "1-7BG",
+        "instuds": 48,
+        "outstuds": 48
       },
       "6x10": { 
-        "code": "3033"
+        "code": "3033",
+        "icosodec": "1-7BD",
+        "instuds": 60,
+        "outstuds": 60
       },
       "6x12": { 
-        "code": "3028"
+        "code": "3028",
+        "icosodec": "1-7B8",
+        "instuds": 72,
+        "outstuds": 72
       },
       "6x14": { 
-        "code": "3456"
+        "code": "3456",
+        "icosodec": "1-8CG",
+        "instuds": 84,
+        "outstuds": 84
       },
       "6x16": { 
-        "code": "3027"
+        "code": "3027",
+        "icosodec": "1-7B7",
+        "instuds": 96,
+        "outstuds": 96
       },
       "8x8": { 
-        "code": "41539"
+        "code": "41539",
+        "icosodec": "1-53GJ",
+        "instuds": 64,
+        "outstuds": 64
       },
       "8x16": { 
-        "code": "92438"
+        "code": "92438",
+        "icosodec": "1-BB1I",
+        "instuds": 128,
+        "outstuds": 128
       },
       "16x16": { 
-        "code": "91403"
+        "code": "91403",
+        "icosodec": "1-B8A3",
+        "instuds": 256,
+        "outstuds": 256
       },
       "2x2_corner": { 
-        "code": "2420"
+        "code": "2420",
+        "icosodec": "1-610",
+        "instuds": 3,
+        "outstuds": 3
       },
       "3x3_corner": { 
-        "code": "77844"
+        "code": "77844",
+        "icosodec": "1-9EC4",
+        "instuds": 5,
+        "outstuds": 5
       },
       "3x3_cross": { 
-        "code": "15397"
+        "code": "15397",
+        "icosodec": "1-1I9H",
+        "instuds": 5,
+        "outstuds": 5
       },
       "2x3_plate_w/cutout": { 
-        "code": "73831"
+        "code": "73831",
+        "icosodec": "1-94BB",
+        "instuds": 5,
+        "outstuds": 5
       },
       "4x4_corner": { 
-        "code": "2639"
+        "code": "2639",
+        "icosodec": "1-6BJ",
+        "instuds": 12,
+        "outstuds": 12
+
       },
       "4x4_corner_w/2x2_cutout": { 
-        "code": "64799"
+        "code": "64799",
+        "icosodec": "1-81JJ",
+        "instuds": 12,
+        "outstuds": 12
       },
       "1x4_w/2_studs": { 
         "code": {
           "w/o_groove": "92593",
           "w/_groove": "41740"
-        }
+        },
+        "icosodec": {
+          "w/o_groove": "1-BB9D",
+          "w/_groove": "1-5470"
+        },
+        "instuds": 2,
+        "outstuds": 4
       },
       "2x2_w/studs_edge": { 
-        "code": "33909"
+        "code": "33909",
+        "icosodec": "1-44F9",
+        "instuds": 2,
+        "outstuds": 2
       },
       "4x4_w/studs_edge": {
-        "code": "6179"
+        "code": "6179",
+        "icosodec": "1-F8J",
+        "instuds": 4,
+        "outstuds": 4
       },
       "4x6_w/studs_edge": { 
-        "code": "6180"
+        "code": "6180",
+        "icosodec": "1-F90",
+        "instuds": 12,
+        "outstuds": 12
       },
       "6x12_w/studs_edge": { 
-        "code": "6178"
+        "code": "6178",
+        "icosodec": "1-F8I",
+        "instuds": 22,
+        "outstuds": 22
       },
       "6x16_w/studs_edge": { 
-        "code": "6205"
+        "code": "6205",
+        "icosodec": "1-FA5",
+        "instuds": 26,
+        "outstuds": 26
       },
       "3x4_w/studs_center": { 
-        "code": "88646/17846"
+        "code": "88646/17846",
+        "icosodec": "1-B1C6/1-24C6",
+        "instuds": 4,
+        "outstuds": 4
       },
       "8x8_w/grille": { 
-        "code": "4151"
+        "code": "4151",
+        "icosodec": "1-A7B",
+        "instuds": 16,
+        "outstuds": 112
       },
       "16x16_baseplate": { 
-        "code": "3867"
+        "code": "3867",
+        "icosodec": "1-9D7",
+        "instuds": 256,
+        "outstuds": 256
       },
       "32x32_baseplate": { 
-        "code": "3811"
+        "code": "3811",
+        "icosodec": "1-9AB",
+        "instuds": 512,
+        "outstuds": 512
       },
       "8x8x2/3_w/studs": { 
-        "code": "15624"
+        "code": "15624",
+        "icosodec": "1-1J14",
+        "instuds": 56,
+        "outstuds": 68
       },
       "8x16x2/3_w/studs": { 
-        "code": "18922"
+        "code": "18922",
+        "icosodec": "1-279C",
+        "instuds": 94,
+        "outstuds": 132
+
       },
       "8x16x2/3_w/recessed_studs": { 
-        "code": "71772"
+        "code": "71772",
+        "icosodec": "1-8J8C",
+        "instuds": 32,
+        "outstuds": 128
       },
       "16x16x2/3_w/recessed_studs": { 
-        "code": "69958"
+        "code": "69958",
+        "icosodec": "1-8EHI",
+        "instuds": 64,
+        "outstuds": 256
       }
     },
     "tile": { 
       "1x1": { 
-        "code": "3070"
+        "code": "3070",
+        "icosodec": "2-7DA",
+        "instuds": 0,
+        "outstuds": 1
       },
       "1x2": { 
-        "code": "3069"
+        "code": "3069",
+        "icosodec": "2-7D9",
+        "instuds": 0,
+        "outstuds": 2
       },
       "1x3": { 
-        "code": "63864"
+        "code": "63864",
+        "icosodec": "2-7JD4",
+        "instuds": 0,
+        "outstuds": 3
       },
       "1x4": { 
-        "code": "2431"
+        "code": "2431",
+        "icosodec": "2-61B",
+        "instuds": 0,
+        "outstuds": 4
       },
       "1x6": { 
-        "code": "6636"
+        "code": "6636",
+        "icosodec": "2-GBG",
+        "instuds": 0,
+        "outstuds": 6
       },
       "1x8": { 
-        "code": "4162"
+        "code": "4162",
+        "icosodec": "2-A82",
+        "instuds": 0,
+        "outstuds": 8
       },
       "2x2_corner": { 
-        "code": "14719"
+        "code": "14719",
+        "icosodec": "2-1GFJ",
+        "instuds": 0,
+        "outstuds": 3
       },
       "2x2": { 
-        "code": "3068"
+        "code": "3068",
+        "icosodec": "2-7D8",
+        "instuds": 0,
+        "outstuds": 4
       },
       "2x3": { 
-        "code": "26603"
+        "code": "26603",
+        "icosodec": "2-35A3",
+        "instuds": 0,
+        "outstuds": 6
       },
       "2x4": { 
-        "code": "87079"
+        "code": "87079",
+        "icosodec": "2-87DJ",
+        "instuds": 0,
+        "outstuds": 8
       },
       "2x6": { 
-        "code": "69729"
+        "code": "69729",
+        "icosodec": "2-8E69",
+        "instuds": 0,
+        "outstuds": 12
       },
       "6x6": { 
-        "code": "10202"
+        "code": "10202",
+        "icosodec": "2-15A2",
+        "instuds": 0,
+        "outstuds": 36
       },
       "4x4": { 
-        "code": "1751"
+        "code": "1751",
+        "icosodec": "2-47B",
+        "instuds": 0,
+        "outstuds": 16
       },
       "8x16": { 
-        "code": "90498"
+        "code": "90498",
+        "icosodec": "2-B64I",
+        "instuds": 0,
+        "outstuds": 128
       },
       "2x2_inverted": { 
-        "code": "11203"
+        "code": "11203",
+        "icosodec": "2-1803",
+        "instuds": 4,
+        "outstuds": 0
       },
       "1x3_inverted_w/hole": { 
-        "code": "35459"
+        "code": "35459",
+        "icosodec": "2-48CJ",
+        "instuds": 3,
+        "outstuds": 0
       }
     } 
   },

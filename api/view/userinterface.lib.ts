@@ -359,8 +359,8 @@ let userinterface =
 
     }
 
-  },
+  }
   
-  colorpalette: { }
+  // colorpalette: { }
 
 };

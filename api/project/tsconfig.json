@@ -2,9 +2,9 @@
 
   "compilerOptions": {
 
-    "module": "CommonJS",
+    "module": "NodeNext",
     "moduleDetection": "auto",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "NodeNext",
     "target": "ESNext",
     "strict": false,
     "alwaysStrict": false,

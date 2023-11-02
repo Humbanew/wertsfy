@@ -462,7 +462,10 @@ import {
 import { 
   forcaGravitacional 
 } from "./modules/arithmetic/forca_gravitacional.mdl";
-import { frequencia } from "./modules/arithmetic/frequencia.mdl";
+
+import { 
+  frequencia 
+} from "./modules/arithmetic/frequencia.mdl";
 
 import { 
   indiceDesenvolvimentoHumano 
@@ -691,7 +694,10 @@ import {
 import { 
   regraDeTresComposta 
 } from "./modules/arithmetic/regra_de_tres_composta.mdl";
-import { relacaoDeEuler } from "./modules/arithmetic/relacao-euler.mdl";
+
+import { 
+  relacaoDeEuler 
+} from "./modules/arithmetic/relacao-euler.mdl";
 
 import { 
   rendimento 

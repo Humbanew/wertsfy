@@ -14,5 +14,3 @@
   ![Wertsfy_Install_Guide_v1 0 x](https://github.com/humbanew/wertsfy/assets/59739253/69c919d8-68fa-4f35-bb2a-c6bef4fbfd67)
 
 </div>
-
-_Esta branch se encontra em manutenção para melhores atualizações no futuro._

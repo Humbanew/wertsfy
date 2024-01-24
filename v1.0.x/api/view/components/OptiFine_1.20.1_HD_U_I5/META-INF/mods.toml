@@ -1,0 +1,79 @@
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+# The overall format is standard TOML format, v0.5.0.
+# Note that there are a couple of TOML lists in this file.
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+# Template https://github.com/MinecraftForge/MinecraftForge/blob/1.16.x/mdk/src/main/resources/META-INF/mods.toml
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+# mandatory
+modLoader="javafml"
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+# This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+# mandatory
+loaderVersion="[14,)"
+
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All rights reserved"
+
+# A URL to refer people to when problems occur with this mod
+# optional
+issueTrackerURL="https://github.com/sp614x/optifine/issues"
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+# mandatory
+[[mods]] 
+
+# The modid of the mod
+# mandatory
+modId="optifine"
+
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+# mandatory
+# version="${file.jarVersion}"
+version="1.0.0"
+
+# A display name for the mod
+# mandatory
+displayName="OptiFine"
+
+# A URL to query for updates for this mod. See the JSON update specification <here>
+# optional
+#updateJSONURL=""
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+# optional
+displayURL="https://optifine.net"
+
+# A file name (in the root of the mod JAR) containing a logo for display
+# optional
+#logoFile="examplemod.png"
+
+# A text field displayed in the mod UI
+# optional
+#credits="Thanks for this example mod goes to Java"
+
+# A text field displayed in the mod UI
+# optional
+authors="sp614x"
+
+# The description text for the mod (multi line!)
+# mandatory
+description='''
+OptiFine is a Minecraft optimization mod.
+It allows Minecraft to run faster and look better with full support for shaders, HD textures and many configuration options.
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+#[[dependencies.optifine]]
+#    # the modid of the dependency
+#    modId="forge" #mandatory
+#    # Does this dependency have to exist - if not, ordering below must be specified
+#    mandatory=true #mandatory
+#    # The version range of the dependency
+#    versionRange="[33,)" #mandatory
+#    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+#    ordering="NONE"
+#    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+#    side="BOTH"

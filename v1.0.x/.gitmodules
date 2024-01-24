@@ -1,0 +1,4 @@
+[submodule "test/wtsfy-labo"]
+	path = test/wtsfy-labo
+	url = git@github.com:humbanew/wtsfy-labo.git
+	

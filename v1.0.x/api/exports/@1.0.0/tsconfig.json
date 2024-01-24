@@ -1,0 +1,19 @@
+{
+
+  "compilerOptions": {
+
+    "module": "CommonJS",
+    "moduleDetection": "auto",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "strict": false,
+    "alwaysStrict": false,
+    "isolatedModules": false,
+    "rootDirs": ["./", "../"],
+    
+    // Javascript Builded Files 
+    "outDir": "./javascript",
+
+  }
+
+}

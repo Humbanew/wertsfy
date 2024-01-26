@@ -1,5 +1,5 @@
 <div align="center">
 
-  ![Wertsfy-Logo-7Gen](https://github.com/humbanew/wertsfy-next/assets/59739253/9b00b654-272a-4c00-8855-c047ce0fca05)
+  ![Wertsfy-Logo-7Gen](https://github.com/humbanew/wertsfy-next/assets/59739253/e911b998-9752-4e75-8997-332e5f067f91)
 
 <div>

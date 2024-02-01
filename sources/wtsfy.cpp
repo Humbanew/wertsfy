@@ -1,6 +1,6 @@
-#include <cstdio>
-#include <cstdlib>
 #include <iostream>
+
+#include "wtsfy-types.hpp"
 
 int main(void) {
   return 0;

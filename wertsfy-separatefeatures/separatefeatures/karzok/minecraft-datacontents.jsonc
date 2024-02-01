@@ -1,0 +1,2561 @@
+{
+	// % Observações de desenvolvimento: %
+	// PROPRIEDADES COM "@lib" SIMBOLIZAM CONJUNTOS DE PROPRIEDADES QUE SÃO VARIAÇÕES DE INPUT DA PROPRIEDADE SEMELHANTE
+	// PROPRIEDADES COM "@alt" SIMBOLIZAM MODELOS ALTERNATIVOS AOS MAIS UTILIZADOS PELOS DESENVOLVEDORES
+
+	// Referências de informações:
+		// https://minecraft.fandom.com/wiki/Pack_format
+		// https://minecraft.fandom.com/wiki/Resource_pack
+		// https://minecraft.fandom.com/wiki/Tutorials/Creating_a_resource_pack
+		// https://minecraft.fandom.com/wiki/Data_pack
+		// https://minecraft.fandom.com/wiki/Tutorials/Creating_a_data_pack
+
+	"karzok": {
+		"minecraft": {
+			"resource-pack": {
+				"archmodel": {
+					// Edição Java Edition
+					"java-edition": {
+						// Templates e tutoriais das estruturas de pastas e arquivos:
+						"estrutura-pastas-arquivos": {
+							"[resource-pack-name]": {
+								"arquivo-pack.mcmeta": {
+									"arquivo-caminho": "[./pack.mcmeta]",
+									// A marca raiz
+									"estrutura-pack.mcmeta": {
+										// Contém as informações do pacote de recursos
+										"pack": {
+											// Versão do pacote. Se esse número não corresponder ao número necessário atual, o pacote de recursos exibirá um erro e exigirá confirmação adicional para carregar o pacote.
+											"pack_format": 0,
+											// A tabela abaixo descreve o intervalo de versão usando cada número de formato de pacote:
+											// Predefinição:Formato de pacote
+											"pack_format@lib": [
+												
+												{
+													"#version": 1,
+													"#mcversion": "13w24a-1.8.9",
+													"#mcreleases": "1.6.1-1.8.9"
+												},
+												{
+													"#version": 2,
+													"#mcversion": "15w31a-1.10.2",
+													"#mcreleases": "1.9-1.10.2"
+												},
+												{
+													"#version": 3,
+													"#mcversion": "16w32a-18w47a",
+													"#mcreleases": "1.11-1.12.2"
+												},
+												{
+													"#version": 4,
+													"#mcversion": "18w48a–19w46b",
+													"#mcreleases": "1.13–1.14.4"
+												},
+												{
+													"#version": 5,
+													"#mcversion": "1.15-pre1–1.16.2-pre3",
+													"#mcreleases": "1.15–1.16.1"
+												},
+												{
+													"#version": 6,
+													"#mcversion": "1.16.2-rc1–1.16.5",
+													"#mcreleases": "1.16.2–1.16.5"
+												},
+												{
+													"#version": 7,
+													"#mcversion": "20w45a–21w38a",
+													"#mcreleases": "1.17–1.17.1"
+												},
+												{
+													"#version": 8,
+													"#mcversion": "21w39a–1.18.2",
+													"#mcreleases": "1.18–1.18.2"
+												},
+												{
+													"#version": 9,
+													"#mcversion": "22w11a–1.19.2",
+													"#mcreleases": "1.19–1.19.2"
+												},
+												{
+													"#version": 11,
+													"#mcversion": "22w42a–22w44a",
+													"#mcreleases": null
+												},
+												{
+													"#version": 12,
+													"#mcversion": "22w45a–23w07a",
+													"#mcreleases": "1.19.3"
+												},
+												{
+													"#version": 13,
+													"#mcversion": "1.19.4-pre1–23w13a",
+													"#mcreleases": "1.19.4"
+												},
+												{
+													"#version": 14,
+													"#mcversion": "23w14a–23w16a",
+													"#mcreleases": null
+												},
+												{
+													"#version": 15,
+													"#mcversion": "23w17a–1.20.1",
+													"#mcreleases": "1.20–1.20.1"
+												},
+												{
+													"#version": 16,
+													"#mcversion": "23w31a",
+													"#mcreleases": null
+												},	
+												{
+													"#version": 17,
+													"#mcversion": "23w32a–1.20.2-pre1",
+													"#mcreleases": null
+												},
+												{
+													"#version": 18,
+													"#mcversion": "1.20.2-pre2-",
+													"#mcreleases": "1.20.2-1.20.4"
+												}
+
+											],
+											// Texto mostrado abaixo do nome do pacote no menu do pacote de recursos. O texto é mostrado em duas linhas. Se o texto for muito longo, ele será truncado.
+											"description": "",
+											// Contém um objeto texto JSON bruto que é mostrado como a descrição do pacote no menu do pacote de recursos. Mesmo comportamento da versão string da tag description, mas não podem coexistir.
+											"description@alt": { }
+										},
+										// Contém idiomas adicionais para adicionar ao menu de idiomas
+										"language": {
+											// Código de idioma para um idioma, correspondente a um arquivo .json com o mesmo nome na pasta assets/<namespace>/lang.
+											"[./assets/<namespace>/lang]": {
+												// O nome completo do idioma
+												"name": "",
+												// O nome do país ou região
+												"region": "",
+												// Se verdadeiro, o idioma lê da direita para a esquerda.
+												"bidirectional": true,
+												"bidirectional@alt": false
+											}
+										},
+
+										//  Seção para filtrar arquivos de pacotes de recursos aplicada abaixo desta. Qualquer arquivo que corresponda a um dos padrões dentro de block será tratado como se não estivesse presente no pacote.
+										"filter": {
+											// Lista de padrões
+											"block": [
+												{
+													// Uma expressão regular para o namespace dos arquivos a serem filtrados. Se não especificado, aplica-se a todos os espaços de nomes.
+													"namespace": "",
+													// Uma expressão regular para os caminhos dos arquivos a serem filtrados. Se não especificado, aplica-se a todos os arquivos.
+													"path": ""
+												}
+											]
+										}
+										// O diretório raiz também contém uma imagem opcional chamado pack.png, que irá mostrar como a miniatura para o pacote no menu de selecção pacote de recursos.
+									}
+								},
+								"arquivo-pack.png": "[./pack.png]",
+								"pasta-assets": {
+									"pasta-icons": {
+										"arquivo-icon_16x16.png": "[./icon_16x16.png]",
+										"arquivo-icon_32x32.png": "[./icon_32x32.png]",
+										"arquivo-minecraft.icns": "[./minecraft.incs]"
+									},
+									// Mais de um diretório para diferentes namespaces pode existir sob o diretório assets.
+									"pasta-<namespace>": {
+										// Os pacotes de recursos carregam sons adicionais com o tipo de arquivo .ogg. Cada som colocado no pacote substitui os sons dos pacotes abaixo, e os pacotes também contêm um arquivo chamado sounds.json, que é colocado em assets/minecraft. Ao contrário da maioria dos outros arquivos em pacotes de recursos, sounds.json mescla informações de som de pacotes abaixo do pacote superior, em vez de cada arquivo sounds.json substituir completamente o anterior.
+										"arquivo-sounds.json": "[./sounds.json]",
+										/*
+                     * Modelos são arquivos em formato JSON com a extensão .json, que determinam a forma e texturas de blocos e itens.
+										 * Blocos de usar um arquivo de estado do bloco de assets/minecraft/blockstates para determinar qual o modelo é carregado para cada variante. Enquanto isso, cada item tem um modelo de item para determinar seu modelo, que tanto cargas de modelo de um bloco, contém dados para o seu próprio modelo personalizado, ou usa o padrão "flat", ou modelo de "entity".
+										 * Os modelos e estados de bloco usados nos pacotes abaixo do topo ainda são carregados, a menos que sejam substituídos no pacote superior, o que pode fazer com que algumas texturas e modelos usados pelo pacote superior não sejam mais carregados.
+										 */
+										"pasta-blockstates": {
+											"arquivo-<blockstate>.json": "[./<blockstate>.json]"
+										},
+										"arquivo-gpu_warnlist.json": "[./gpu_warnlist.json]",
+										"pasta-font": {
+											"arquivo-<font>.png": "[./<font>.png]"
+										},
+										"pasta-icons": {
+											"arquivo-icon_16x16.png": "[./icon_16x16.png]",
+											"arquivo-icon_32x32.png": "[./icon_32x32.png]",
+											"arquivo-minecraft.icns": "[./minecraft.incs]"
+										},
+										/*
+										 * Os pacotes de recursos podem criar arquivos de idioma do tipo .json na pasta assets/<namespace>/lang. Cada arquivo substitui as informações de um arquivo de mesmo nome no pacote padrão ou inferior, ou cria um novo idioma conforme definido por pack.mcmeta.
+										 * Cada linha no arquivo .json está no formato json padrão de "identifier":"name" seguido por uma vírgula caso seja seguido por outro valor na próxima linha. identifier é o que o jogo usa para procurar o nome de algo e, como tal, não deve ser traduzido ou alterado. name é o nome que é exibido. Por exemplo, stone no arquivo de idioma padrão é "block.minecraft.stone":"Stone", com block.minecraft.stone sendo o identificador e Stone sendo o nome exibido. As linhas em branco são ignoradas. O arquivo precisa ter uma sintaxe JSON válida, o que significa que começa com um {, tem uma vírgula após cada par de chave-valor, exceto o último, e termina com um }.
+										 * Os arquivos de idioma precisam adicionar apenas as linhas que são alteradas pelo pacote. Quaisquer nomes que não estejam no pacote são carregados do pacote abaixo ou padrão se nenhum pacote alterar os nomes.
+										 */
+										"pasta-lang": {
+											"arquivo-<lang>.png": "[./<lang>.png]"
+										},
+										// Para que as texturas de blocos ou itens funcionem, elas devem ter largura e altura iguais (ou altura que seja um múltiplo da largura se animadas); caso contrário, será exibida como um tabuleiro de xadrez magenta e preto. Para a maioria das outras texturas, o arquivo é esticado para caber nas dimensões necessárias.
+										// A maioria dos blocos sólidos torna qualquer área transparente totalmente opaca. Alguns outros blocos, que têm transparência "recortada" (como o vidro), tornam todos os pixels com menos de 10% de opacidade totalmente transparentes e todos os outros pixels completamente opacos. Todos os outros blocos renderizam texturas semitransparentes como estão. Todos os itens e quaisquer blocos ou entidades que são semitransparentes, por padrão suportam semitransparentes.
+										// Se um arquivo não existir em nenhum pacote de recursos, incluindo o padrão, a textura ausente aparecerá em seu lugar. A partir da 1.19.1, existem seis desses casos no pacote de recursos vanilla, todos relacionados a partículas.
+										"pasta-template-models": {
+											"pasta-block": {
+												"arquivo-<model>.json": "[./<model>.json]"
+											},
+											"pasta-item": {
+												"arquivo-<model>.json": "[./<model>.json]"
+											}
+										},
+										"pasta-particles": {
+											"arquivo-<particle>.json": "[./<particle>.json]"
+										},
+										// Os avisos de conformidade regional podem ser personalizados em assets/<namespace>/regional_compliancies.json.
+										"arquivo-regional_compliancies.json": {
+											"arquivo-caminho": "[./regional_compliancies.json]",
+											// A etiqueta raiz
+											"estrutura-conformidade-regional": {
+												// Contém uma lista de avisos. Observe que a própria chave é um código de região ISO 3166-1 alpha-3 determinado pela configuração de localidade do dispositivo.
+												"Region": {
+													// Opcional. Define quanto tempo o jogo deve esperar até mostrar esta mensagem em minutos. Isso não pode ser zero.
+													"delay": 0,
+													// O intervalo de tempo que esta mensagem deve ser mostrada em minutos. Isso não pode ser zero.
+													"period": 0,
+													// O identificador de tradução do título da mensagem. Um slot é fornecido para a string de tradução, contendo quantas vezes esse aviso foi exibido.
+													"title": "",
+													// O identificador de tradução da mensagem. Um slot é fornecido para a string de tradução, quantas vezes esse aviso foi exibido.
+													"message": ""
+												}
+											}
+										},
+										"pasta-sounds": {
+											"arquivo-<sound>.ogg": "[./<sound>.ogg]"
+										},
+										// Na maioria dos lugares, o texto é renderizado, uma sombra aparece abaixo de cada caractere. Essa sombra é uma cópia do bitmap do personagem, com os valores r, g e b divididos por 4 e posicionados 12,5% a sudeste do personagem, em relação ao seu espaçamento. Independente da resolução da textura do personagem, a sombra é sempre movida em 12,5%; se existe alguma maneira de alterar esse valor usando pacotes de recursos é desconhecido. Na fonte padrão (assets/minecraft/textures/font/ascii.png), a sombra equivale a ser movida 1 pixel para baixo e para a direita.
+										// Os shaders são uma maneira de os pacotes de recursos alterarem a renderização do jogo. Eles são escritos em OpenGL Shading Language (GLSL).
+										"pasta-shaders": {
+											"pasta-post": {
+												"arquivo-<post>.json": "[./<post>.json]"
+											},
+											"pasta-program": {
+												"arquivo-<fragment_shader>.fsh": "[./<fragment_shader>.fsh]",
+												"arquivo-<program>.json": "[./<program>.json]",
+												"arquivo-<vertex_shader>.vsh": "[./<vertex-shader>.vsh]"
+											}
+										},
+										// Dois arquivos .txt no formato UTF-8 e um arquivo .json existem em assets/minecraft/texts. Eles são usados pelo jogo para determinar o texto a ser exibido.
+										// O arquivo end.txt contém o texto do poema final, usando códigos de formatação para aplicar as cores aos dois alto-falantes, e com o texto PLAYERNAME sendo substituído pelo nome do jogador. Depois que esse arquivo é mostrado, o conteúdo de credits.json é mostrado.
+										// O arquivo splashes.txt contém linhas de texto separadas por quebras de linha para determinar os splashes a serem exibidos no jogo. Qualquer um dos splashes pode ser substituído por um texto diferente.
+										"pasta-texts": {
+											"arquivo-<text>.txt": "[./<text>.txt]"
+										},
+										"pasta-textures": {
+											"pasta-block": {
+												"arquivo-<texture>.png": "[./<texture>.png]"
+											},
+											// Os mapas de cores são imagens de 256 × 256 pixels que informam ao jogo qual cor usar em cada bioma. Eles estão localizados em assets/minecraft/textures/colormap. O jogo contém dois mapas de cores: foliage.png para ad cores de plantas como folhas (exceto bétula e abeto) e trepadeiras e grass.png para as cores de grama e blocos de grama. Os mapas de cores podem ser desativados em blocos individuais removendo a tag tintindex do modelo de bloco.
+											"pasta-colormap": {
+												"arquivo-<texture>.png": "[./<texture>.png]"
+											},
+											// Tinta brilhante em um sinal faz com que um personagem crie oito cópias de si mesmo, semelhantes às sombras, mas em todas as oito direções. Isso faz com que a fonte pareça ter um contorno grosso.
+											// Minecraft geralmente não armazena várias texturas diferentes em folhas e, em vez disso, as armazena em arquivos separados. Duas exceções atuais são os ícones do mapa[3] e orbes de experiência.[4]
+											"pasta-effect": {
+												"arquivo-<texture>.png": "[./<texture>.png]"
+											},
+											"pasta-entity": {
+												"arquivo-<texture>.png": "[./<texture>.png]",
+												"pasta-<entity-type>": {
+													"arquivo-<texture>.png": "[./<texture>.png]",
+													// Texturas de assets/minecraft/textures/entity/villager e assets/minecraft/textures/entity/zombie_villager suportam um arquivo .mcmeta no formato JSON contendo efeitos adicionais para aplicar na camada do chapéu. O arquivo está contido no mesmo diretório da textura e tem o mesmo nome da textura, exceto pelo acréscimo de .mcmeta. Por exemplo, o arquivo profession/farmer.png pode ter um arquivo de propriedades chamado profession/farmer.png.mcmeta
+													"estrutura-villager": {
+														"villager": {
+															"hat": "full",
+															"hat@alt": {
+																"#0": "partial",
+																"#1": "default"
+															}
+														}
+													}
+												}
+											},
+											"pasta-environment": {
+												"arquivo-<texture>.png": "[./<texture>.png]"
+											},
+											// Um arquivo de fonte é um arquivo JSON localizado em assets/<namespace>/font dentro de um pacote de recursos e contém uma lista de provedores que vinculam um conjunto de caracteres a um local de recurso junto com algumas informações extras. A fonte padrão é definida pela fonte minecraft:default enquanto a fonte padrão usada pelas tabelas de encantamento é definida pela fonte minecraft:alt. Os locais de recursos fornecidos nos provedores de fontes também devem incluir as extensões de arquivo.
+											"pasta-font": {
+												"arquivo-<texture>.png": "[./<texture>.png]",
+												// A etiqueta raiz
+												"estrutura-fonts": {
+													// Uma lista de provedores que são mesclados nesta fonte.
+													"providers": [
+														// Um provedor de fontes. O conteúdo depende do valor da tag "type".
+														{
+															// O tipo do provedor de fonte. Pode ser um dos seguintes:
+															"type": "",
+															// Uma fonte de bitmap.
+															// Os arquivos de textura das fontes padrão contêm uma grade de caracteres brancos, que são coloridos automaticamente pelo Minecraft conforme necessário no jogo. Os tamanhos dos caracteres são determinados automaticamente com base na última linha de pixels que contém qualquer valor alfa. Devido à forma como as fontes são detectadas, preencher o plano de fundo de um caractere com uma cor que contém 5% de alfa de fundo faz com que a largura total seja renderizada sem geralmente ter um plano de fundo visível para o personagem. O caractere padrão da fonte é 8×8 pixels, enquanto accented.png é 9×12 pixels.
+															// Glifos 0x20 (espaço) a 0x7E (til) exibem os caracteres ASCII padrão
+															// Glifos 0x7F (<control>) a 0xFF (y com diaeresis) exibem os caracteres Code page 437
+															// A textura padrão está localizada em assets/minecraft/textures/font/ascii.png.
+															// Uma folha de textura em assets/minecraft/textures/font/nonlatin_european.png contém muitos caracteres acentuados e a maioria dos símbolos que Minecraft suporta. Ao contrário do nome, ele também inclui caracteres não europeus[1] e alguns caracteres latinos obscuros.
+															// Uma textura secundária está localizada em assets/minecraft/textures/font/accented.png. Ele suporta a maioria dos caracteres acentuados básicos, letras gregas, caracteres cirílicos, bem como alguns caracteres alfanuméricos incluídos e outros símbolos.
+															// A textura padrão usada ao exibir o Alfabeto Galáctico Padrão (também conhecido como texto encantador ou "fonte alienígena") é assets/minecraft/textures/font/ascii_sga.png.
+															// Há outra textura atualmente não utilizada chamada illageralt, que é a fonte tipo runa do Minecraft Dungeons. Ele está localizado em assets/minecraft/textures/font/asciillager.png
+															"bitmap": {
+																// A localização do recurso do arquivo usado, começando em assets/minecraft/textures por padrão. Antecede o local com <namespace>: altera o local para assets/<namespace>/textures.
+																"file": "",
+																// Opcional. A altura do caractere, medida em pixels. Pode ser negativo. Essa tag é separada da área usada na textura de origem e apenas redimensiona o resultado exibido. O padrão é 8.
+																"height": 8,
+																// A ascensão do caractere, medida em pixels. Este valor adiciona um deslocamento vertical ao resultado exibido.
+																"ascent": 0,
+																// Uma lista de strings contendo os caracteres substituídos por este provedor, bem como sua ordem dentro da textura. Todos os elementos devem descrever o mesmo número de caracteres. A textura é dividida em uma linha de tamanho igual para cada elemento desta lista. Cada linha é dividida em um caractere de tamanho igual para cada caractere dentro de um elemento de lista.
+																"chars": ["", ""]
+															},
+															// Uma fonte unicode herdada. Este formato é obsoleto, priorizado apenas quando a opção "Fonte Unicode" está ativada.
+															// Como alternativa para caracteres sem textura, o Minecraft usa o GNU Unifont. Cada folha de caracteres é armazenada seguindo o formato de unicode_page_##, onde ## são os números hexadecimais 00 até FF. Essas páginas têm 16 × 16 pixels e aparecem pequenas e irregulares no jogo. A versão do GNU Unifont usada é 9.0.04[2] e está desatualizada em 1.17.1. Ele fornece suporte para os caracteres CJK, bem como um fallback para todos os caracteres não fornecidos por nenhuma fonte carregada.
+															// As entradas Unifont usam um glyph_sizes.bin para registrar as larguras dos glifos. Cada entrada tem um byte de tamanho; o nibble superior regista a posição inicial, enquanto o inferior regista a posição final na grade de glifo 16×16. Por exemplo, um caractere quadrado ocupando toda a grade (pixel #0 a #15) teria um byte de 0F.
+															// Codepoints além de U+FFFF não são manipulados e são ignorados.
+															// Desde a 1.15, Minecraft pode suportar sequências UTF-16 para emojis, ou qualquer caractere no plano Unicode SMP.
+															// Para que o emoji seja lido corretamente na matriz  char do arquivo de fonte, o caractere pode:
+															// Ser dividido de seu ponto de código UTF-16 em dois pontos de código UTF-8 (substitutos); por exemplo, 1F603 = D83D DE03
+															// Ser inserido diretamente
+															// O primeiro método é usado no arquivo de fonte Vanilla, mas qualquer um funciona igualmente bem. Para converter um caractere em um par substituto, pode-se usar as seguintes equações, onde C é o ponto de código em decimal.
+															// A partir da 1.17.1, Minecraft tem suporte padrão para os emojis referidos.
+															"legacy_unicode": {
+																// A localização do recurso de um arquivo binário que descreve as posições horizontais inicial e final para cada caractere de 0 a 15. A extensão do arquivo de destino deve ser .bin. O caminho do local do recurso é relativo à raiz do namespace.
+																"sizes": "",
+																// A localização do recurso dentro de assets/<namespace>/textures que leva aos arquivos de textura que devem ser usados para este provedor. O jogo substitui %s do valor desta tag pelos dois primeiros caracteres do código hexadecimal dos caracteres substituídos, portanto, um único provedor desse tipo pode apontar para vários arquivos de textura.
+																"template": ""
+															},
+															// Uma fonte TrueType ou fonte OpenType. Apesar do nome, ele suporta TTF e OTF.
+															"ttf": {
+																// A localização do recurso do arquivo de fonte TrueType/OpenType em assets/<namespace>/font.
+																"file": "",
+																"swift": [
+																	// Deslocamento à esquerda, valores negativos são permitidos.
+																	0.0, 
+																	// Deslocamento para baixo, valores negativos são permitidos.
+																	0.0
+																],
+																// Tamanho da fonte a ser renderizada.
+																"size": 0.0,
+																// Resolução para renderizar, aumentando o fator anti-aliasing.
+																"oversample": 0.0,
+																// String de caracteres ou matriz de caracteres a excluir.
+																"skip": ""												
+															},
+															// Mostrar caracteres escolhidos como espaços
+															"space": {
+																"advances": {
+																	// A quantidade de pixels que os seguintes caracteres são movidos para a direita.
+																	"A_character": 0
+																}
+															}
+															// As folhas de textura de fonte são redimensionadas automaticamente com base na quantidade de caracteres em cada linha de matriz, e algumas folhas podem usar uma folha de 16 caracteres de largura, a fim de estar em conformidade com um bloco Unicode. É assim que o jogo formata a fonte padrão JSON.
+														}
+													]
+												}
+											},
+											"pasta-gui": {
+												"arquivo-<texture>.png": "[./<texture>.png]",
+												"pasta-advancements": {
+													"arquivo-<texture>.png": "[./<texture>.png]",
+													"pasta-backgrounds": {
+														"arquivo-<texture>.png": "[./<texture>.png]"
+													}
+												},
+												"pasta-conteiner": {
+													"arquivo-<texture>.png": "[./<texture>.png]",
+													"pasta-creative_inventory": {
+														"arquivo-<texture>.png": "[./<texture>.png]"
+													}
+												},
+												"pasta-presets": {
+													"arquivo-<texture>.png": "[./<texture>.png]"
+												},
+												"pasta-title": {
+													"arquivo-<texture>.png": "[./<texture>.png]",
+													"pasta-background": {
+														"arquivo-<texture>.png": "[./<texture>.png]"
+													}
+												}
+											}
+										},
+										"pasta-item": {
+											"arquivo-<texture>.png": "[./<texture>.png]"
+										},
+										"pasta-map": {
+											"arquivo-<texture>.png": "[./<texture>.png]"
+										},
+										// As texturas de assets/minecraft/textures/misc suportam um arquivo .mcmeta no formato JSON contendo efeitos adicionais para aplicar à textura. O arquivo está contido no mesmo diretório da textura e tem o mesmo nome da textura, exceto pelo acréscimo de .mcmeta. Por exemplo, o arquivo pumpkinblur.png pode ter um arquivo de propriedades chamado pumpkinblur.png.mcmeta
+										"pasta-misc": {
+											"arquivo-<texture>.png": "[./<texture>.png]",
+											// A marca raiz
+											"estrutura-propriedades": {
+												// Contém os dados para a textura
+												"texture": {
+													// Faz com que a textura fique desfocada quando vista de perto. O padrão é false
+													"blur": true,
+													"blur@alt": false,
+													// Faz com que a textura se estique em vez de lado a lado nos casos em que o faria, como na sombra. O padrão é false
+													"clamp": true,
+													"clamp@alt": false,
+													// Valores de mipmap personalizados para a textura
+													// Se o arquivo .mcmeta não existir no pacote e a textura existir, o jogo carrega as configurações padrão, em vez de carregar um arquivo .mcmeta de um pacote abaixo desse pacote.
+													"mipmaps": [
+														0, 1, 2, 3, 4
+													]
+												}
+											}
+										},
+										// Texturas de bloco, item, partícula, pintura, quadro de item e ícone de efeito de status (assets/minecraft/textures/mob_effect) suportam animação colocando cada quadro adicional abaixo do último. A animação é então controlada usando um arquivo .mcmeta no formato JSON com o mesmo nome e .png no final do nome do arquivo, no mesmo diretório. Por exemplo, o arquivo .mcmeta para stone.png seria stone.png.mcmeta.
+										"pasta-mob_effect": {
+											"arquivo-<texture>.png": "[./<texture>.png]",
+											// A marca raiz
+											"estrutura-animation": {
+												// Contém os dados para a animação
+												"animation": {
+													// Se verdadeiro, Minecraft gera quadros adicionais entre os quadros com um tempo de quadro maior que 1 entre eles. O padrão é false.
+													"interpolate": true,
+													"interpolate@alt": false,
+													// A largura do bloco, como uma proporção direta em vez de em pixels. Isso não é usado nos arquivos do vanilla, mas pode ser usado por pacotes de recursos para têm molduras que não são quadrados perfeitos.
+													"width": 0,
+													// A altura do bloco como uma proporção em vez de pixels. Isso não é usado nos arquivos de vanilla, mas pode ser usado por pacotes de recursos para obter molduras que não são quadrados perfeitos.
+													"height": 0,
+													// Define o tempo padrão para cada quadro em incrementos de um ticks do jogo. O padrão é 1.
+													"frametime": 1,
+													// Contém uma lista de quadros. O padrão é exibir todos os quadros de cima para baixo.
+													"frames": [
+														// Um número correspondente à posição de um quadro a partir do topo, com o quadro superior sendo 0.
+														0,
+														// Um quadro especifica um quadro com dados adicionais.
+														{
+															// Um número correspondente à posição de um quadro a partir do topo, com o quadro superior sendo 0.
+															"index": 0,
+															// O tempo em ticks para mostrar este quadro, substituindo "frametime" acima.
+															// Se o arquivo .mcmeta não existir no pacote e a textura existir, o jogo assume que a textura não é animada, em vez de carregar um arquivo .mcmeta de um pacote abaixo desse pacote. Se nenhum arquivo .mcmeta existir para uma textura com dimensões desiguais, a textura aparecerá como um tabuleiro de xadrez roxo e preto.
+															"time": 0
+														}
+													]
+												}
+											}
+										},
+										"pasta-models": {
+											"pasta-armor": {
+												"arquivo-<texture>.png": "[./<texture>.png]"
+											}
+										},
+										"pasta-painting": {
+											"arquivo-<texture>.png": "[./<texture>.png]"
+										},
+										"pasta-particle": {
+											"arquivo-<texture>.png": "[./<texture>.png]"
+										}
+									}
+								}
+							}
+						},
+						// A estrutura de pastas do pacote de recursos vannila:
+						"estrutura-guia-template": {
+							"pacote-recursos-vanilla": {
+								"arquivo-pack.mcmeta": "[./pack.mcmeta]",
+								"arquivo-pack.png": "[./pack.png]",
+								"pasta-assets": {
+									"arquivo-pack.mcmeta": "[./pack.mcmeta]",
+									"pasta-icons": {
+										"arquivo-icon_16x16.png": "[./icon_16x16.png]",
+										"arquivo-icon_32x32.png": "[./icon_32x32.png]",
+										"arquivo-minecraft.icns": "[./minecraft.incs]"
+									},
+									"pasta-minecraft": {
+										"arquivo-sounds.json": "[./sounds.json]",
+											"estrutura-json-sounds": { },
+										"pasta-blockstates": {
+											// acacia_button.json
+											"arquivo-acacia_button.json": "[./acacia_button.json]",
+												"estrutura-json-acacia_button": { },
+											// acacia_door.json
+											"arquivo-acacia_door.json": "[./acacia_door.json]",
+												"estrutura-json-acacia_door": { },
+											// acacia_fence.json
+											"arquivo-acacia_fence.json": "[./acacia_fence.json]",
+												"estrutura-json-acacia_fence": { },
+											// acacia_fence_gate.json
+											"arquivo-acacia_fence_gate.json": "[./acacia_fence_gate.json]",
+												"estrutura-json-acacia_gate": { },
+											// acacia_leaves.json
+											"arquivo-acacia_leaves.json": "[./acacia_leaves.json]",
+												"estrutura-json-acacia_leaves": { },
+											// acacia_log.json
+											"arquivo-acacia_log.json": "[./acacia_log.json]",
+												"estrutura-json-acacia_log": { },
+											// acacia_planks.json
+											"arquivo-acacia_planks.json": "[./acacia_planks.json]",
+												"estrutura-json-acacia_planks": { },
+											// acacia_pressure_plate.json
+											"arquivo-acacia_pressure_plate.json": "[./acacia_pressure_plate.json]",
+												"estrutura-json-acacia_pressure_plate": { },
+											// acacia_sapling.json
+											"arquivo-acacia_sapling.json": "[./acacia_sapling.json]",
+												"estrutura-acacia_sapling": { },
+											// acacia_sign.json
+											"arquivo-acacia_sign.json": "[./acacia_sign.json]",
+												"estrutura-acacia_sign": { },
+											// acacia_slab.json
+											"arquivo-acacia_slab.json": "[./acacia_slab.json]",
+												"estrutura-acacia_slab": { },
+											// acacia_stairs.json
+											"arquivo-acacia_stairs.json": "[./acacia_stairs.json]",
+												"estrutura-acacia_stairs": { },
+											// acacia_trapdoor.json
+											"arquivo-acacia_trapdoor.json": "[./acacia_trapdoor.json]",
+												"estrutura-acacia_trapdoor": { },
+											// acacia_wall_sign.json
+											"arquivo-acacia_wall_sign.json": "[./acacia_wall_sign.json]",
+												"estrutura-acacia_wall_sign": { },
+											// acacia_wood.json
+											"arquivo-acacia_wood.json": "[./acacia_wood.json]",
+												"estrutura-acacia_wood": { },
+											// activator_rail.json
+											"arquivo-activator_rail.json": "[./activator_rail.json]",
+												"estrutura-activator_rail": { },
+											// air.json
+											"arquivo-air.json": "[./air.json]",
+												"estrutura-air": { },
+											// allium.json
+											"arquivo-allium.json": "[./allium.json]",
+												"estrutura-allium": { },
+											// amethyst_block.json
+											"arquivo-amethyst_block.json": "[./amethyst_block.json]",
+												"estrutura-amethyst_block": { },
+											// amethyst_cluster.json
+											"arquivo-amethyst_cluster.json": "[./amethyst_cluster.json]",
+												"estrutura-amethyst_cluster": { },
+											// ancient_debris.json
+											"arquivo-ancient_debris.json": "[./ancient_debris.json]",
+												"estrutura-ancient_debris": { },
+											// andesite.json
+											"arquivo-andesite.json": "[./andesite.json]",
+												"estrutura-andesite": { },
+											// andesite_slab.json
+											"arquivo-andesite_slab.json": "[./andesite_slab.json]",
+												"estrutura-andesite_slab": { },
+											// andesite_stairs.json
+											"arquivo-andesite_stairs.json": "[./andesite_stairs.json]",
+												"estrutura-andesite_stairs": { },
+											// andesite_wall.json
+											"arquivo-andesite_wall.json": "[./andesite_wall.json]",
+												"estrutura-andesite_wall": { },
+											// anvil.json
+											"arquivo-anvil.json": "[./anvil.json]",
+												"estrutura-anvil": { },
+											// attached_melon_stem.json
+											"arquivo-attached_melon_stem.json": "[./attached_melon_stem.json]",
+												"estrutura-attached_melon_stem": { },
+											// attached_pumpkin_stem.json
+											"arquivo-attached_pumpkin_stem.json": "[./attached_pumpkin_stem.json]",
+												"estrutura-attached_pumpkin_stem": { },
+											// azalea.json
+											"arquivo-azalea.json": "[./azalea.json]",
+												"estrutura-azalea": { },
+											// azalea_leaves.json
+											"arquivo-azalea_leaves.json": "[./azalea_leaves.json]",
+												"estrutura-azalea_leaves": { },
+											// azure_bluet.json
+											"arquivo-azure_bluet.json": "[./azure_bluet.json]",
+												"estrutura-azure_bluet": { },
+											// bamboo.json
+											"arquivo-bamboo.json": "[./bamboo.json]",
+												"estrutura-bamboo": { },
+											// bamboo_sapling.json
+											"arquivo-bamboo_sapling.json": "[./bamboo_sapling.json]",
+												"estrutura-bamboo_sapling": { },
+											// barrel.json
+											"arquivo-barrel.json": "[./barrel.json]",
+												"estrutura-barrel": { },
+											// barrier.json
+											"arquivo-barrier.json": "[./barrier.json]",
+												"estrutura-barrier": { },
+											// basalt.json
+											"arquivo-basalt.json": "[./basalt.json]",
+												"estrutura-basalt": { },
+											// beacon.json
+											"arquivo-beacon.json": "[./beacon.json]",
+												"estrutura-beacon": { },
+											// bedrock.json
+											"arquivo-bedrock.json": "[./bedrock.json]",
+												"estrutura-bedrock": { },
+											// bee_nest.json
+											"arquivo-bee_nest.json": "[./bee_nest.json]",
+												"estrutura-bee_nest": { },
+											// beehive.json
+											"arquivo-beehive.json": "[./beehive.json]",
+												"estrutura-beehive": { },
+											// beetroots.json
+											"arquivo-beetroots.json": "[./beetroots.json]",
+												"estrutura-beetroots": { },
+											// bell.json
+											"arquivo-bell.json": "[./bell.json]",
+												"estrutura-bell": { },
+											// big_dripleaf.json
+											"arquivo-big_dripleaf.json": "[./big_dripleaf.json]",
+												"estrutura-big_dripleaf": { },
+											// big_dripleaf_stem.json
+											"arquivo-big_dripleaf_stem.json": "[./big_dripleaf_stem.json]",
+												"estrutura-big_dripleaf_stem": { },
+											// birch_button.json
+											"arquivo-birch_button.json": "[./birch_button.json]",
+												"estrutura-birch_button": { },
+											// birch_door.json
+											"arquivo-birch_door.json": "[./birch_door.json]",
+												"estrutura-birch_door": { },
+											// birch_fence.json
+											"arquivo-birch_fence.json": "[./birch_fence.json]",
+												"estrutura-birch_fence": { },
+											// birch_fence_gate.json
+											"arquivo-birch_fence_gate.json": "[./birch_fence_gate.json]",
+												"estrutura-birch_fence_gate": { },
+											// birch_leaves.json
+											"arquivo-birch_leaves.json": "[./birch_leaves.json]",
+												"estrutura-birch_leaves": { },
+											// birch_log.json
+											"arquivo-birch_log.json": "[./birch_log.json]",
+												"estrutura-birch_log": { },
+											// birch_planks.json
+											"arquivo-birch_planks.json": "[./birch_planks.json]",
+												"estrutura-birch_planks": { },
+											// birch_pressure_plate.json
+											"arquivo-birch_pressure_plate.json": "[./birch_pressure_plate.json]",
+												"estrutura-birch_pressure_plate": { },
+											// birch_sapling.json
+											"arquivo-birch_sapling.json": "[./birch_sapling.json]",
+												"estrutura-birch_sapling": { },
+											// birch_sign.json
+											"arquivo-birch_sign.json": "[./birch_sign.json]",
+												"estrutura-birch_sign": { },
+											// birch_slab.json
+											"arquivo-birch_slab.json": "[./birch_slab.json]",
+												"estrutura-birch_slab": { },
+											// birch_stairs.json
+											"arquivo-birch_stairs.json": "[./birch_stairs.json]",
+												"estrutura-birch_stairs": { },
+											// birch_trapdoor.json
+											"arquivo-birch_trapdoor.json": "[./birch_trapdoor.json]",
+												"estrutura-birch_trapdoor": { },
+											// birch_wall_sign.json
+											"arquivo-birch_wall_sign.json": "[./birch_wall_sign.json]",
+												"estrutura-birch_wall_sign": { },
+											// birch_wood.json
+											"arquivo-birch_wood.json": "[./birch_wood.json]",
+												"estrutura-birch_wood": { },
+											// black_banner.json
+											"arquivo-black_banner.json": "[./black_banner.json]",
+												"estrutura-black_banner": { },
+											// black_bed.json
+											"arquivo-black_bed.json": "[./black_bed.json]",
+												"estrutura-black_bed": { },
+											// black_candle.json
+											"arquivo-black_candle.json": "[./black_candle.json]",
+												"estrutura-black_candle": { },
+											// black_candle_cake.json
+											"arquivo-black_candle_cake.json": "[./black_candle_cake.json]",
+												"estrutura-black_candle_cake": { },
+											// black_carpet.json
+											"arquivo-black_carpet.json": "[./black_carpet.json]",
+												"estrutura-black_carpet": { },
+											// black_concrete.json
+											"arquivo-black_concrete.json": "[./black_concrete.json]",
+												"estrutura-black_concrete": { },
+											// black_concrete_powder.json
+											"arquivo-black_concrete_powder.json": "[./black_concrete_powder.json]",
+												"estrutura-black_concrete_powder": { },
+											// black_glazed_terracotta.json
+											"arquivo-black_glazed_terracotta.json": "[./black_glazed_terracotta.json]",
+												"estrutura-black_glazed_terracotta": { },
+											// black_shulker_box.json
+											"arquivo-black_shulker_box.json": "[./black_shulker_box.json]",
+												"estrutura-black_shulker_box": { },
+											// black_stained_glass.json
+											"arquivo-black_stained_glass.json": "[./black_stained_glass.json]",
+												"estrutura-black_stained_glass": { },
+											// black_stained_glass_pane.json
+											"arquivo-black_stained_glass_pane.json": "[./black_stained_glass_pane.json]",
+												"estrutura-black_stained_glass_pane": { },
+											// black_terracotta.json
+											"arquivo-black_terracotta.json": "[./black_terracotta.json]",
+												"estrutura-black_terracotta": { },
+											// black_wall_banner.json
+											"arquivo-black_wall_banner.json": "[./black_wall_banner.json]",
+												"estrutura-black_wall_banner": { },
+											// black_wool.json
+											"arquivo-black_wool.json": "[./black_wool.json]",
+												"estrutura-black_wool": { },
+											// blackstone.json
+											"arquivo-blackstone.json": "[./blackstone.json]",
+												"estrutura-blackstone": { },
+											// blackstone_slab.json
+											"arquivo-blackstone_slab.json": "[./blackstone_slab.json]",
+												"estrutura-blackstone_slab": { },
+											// blackstone_stairs.json
+											"arquivo-blackstone_stairs.json": "[./blackstone_stairs.json]",
+												"estrutura-blackstone_stairs": { },
+											// blackstone_wall.json
+											"arquivo-blackstone_wall.json": "[./blackstone_wall.json]",
+												"estrutura-blackstone_wall": { },
+											// blast_furnace.json
+											"arquivo-blast_furnace.json": "[./blast_furnace.json]",
+												"estrutura-blast_furnace": { },
+											// blue_banner.json
+											"arquivo-blue_banner.json": "[./blue_banner.json]",
+												"estrutura-blue_banner": { },
+											// blue_bed.json
+											"arquivo-blue_bed.json": "[./blue_bed.json]",
+												"estrutura-blue_bed": { },
+											// blue_candle.json
+											"arquivo-blue_candle.json": "[./blue_candle.json]",
+												"estrutura-blue_candle": { },
+											// blue_candle_cake.json
+											"arquivo-blue_candle_cake.json": "[./blue_candle_cake.json]",
+												"estrutura-blue_candle_cake": { },
+											// blue_carpet.json
+											"arquivo-blue_carpet.json": "[./blue_carpet.json]",
+												"estrutura-blue_carpet": { },
+											// blue_concrete.json
+											"arquivo-blue_concrete.json": "[./blue_concrete.json]",
+												"estrutura-blue_concrete": { },
+											// blue_concrete_powder.json
+											"arquivo-blue_concrete_powder.json": "[./blue_concrete_powder.json]",
+												"estrutura-blue_concrete_powder": { },
+											// blue_glazed_terracotta.json
+											"arquivo-blue_glazed_terracotta.json": "[./blue_glazed_terracotta.json]",
+												"estrutura-blue_glazed_terracotta": { },
+											// blue_ice.json
+											"arquivo-blue_ice.json": "[./blue_ice.json]",
+												"estrutura-blue_ice": { },
+											// blue_orchid.json
+											"arquivo-blue_orchid.json": "[./blue_orchid.json]",
+												"estrutura-blue_orchid": { },
+											// blue_shulker_box.json
+											"arquivo-blue_shulker_box.json": "[./blue_shulker_box.json]",
+												"estrutura-blue_shulker_box": { },
+											// blue_stained_glass.json
+											"arquivo-blue_stained_glass.json": "[./blue_stained_glass.json]",
+												"estrutura-blue_stained_glass": { },
+											// blue_stained_glass_pane.json
+											"arquivo-blue_stained_glass_pane.json": "[./blue_stained_glass_pane.json]",
+												"estrutura-blue_stained_glass_pane": { },
+											// blue_terracotta.json
+											"arquivo-blue_terracotta.json": "[./blue_terracotta.json]",
+												"estrutura-blue_terracotta": { },
+											// blue_wall_banner.json
+											"arquivo-blue_wall_banner.json": "[./blue_wall_banner.json]",
+												"estrutura-blue_wall_banner": { },
+											// blue_wool.json
+											"arquivo-blue_wool.json": "[./blue_wool.json]",
+												"estrutura-blue_wool": { },
+											// bone_block.json
+											"arquivo-bone_block.json": "[./bone_block.json]",
+												"estrutura-bone_block": { },
+											// bookshelf.json
+											"arquivo-bookshelf.json": "[./bookshelf.json]",
+												"estrutura-bookshelf": { },
+											// brain_coral.json
+											"arquivo-brain_coral.json": "[./brain_coral.json]",
+												"estrutura-brain_coral": { },
+											// brain_coral_block.json
+											"arquivo-brain_coral_block.json": "[./brain_coral_block.json]",
+												"estrutura-brain_coral_block": { },
+											// brain_coral_fan.json
+											"arquivo-brain_coral_fan.json": "[./brain_coral_fan.json]",
+												"estrutura-brain_coral_fan": { },
+											// brain_coral_wall_fan.json
+											"arquivo-brain_coral_wall_fan.json": "[./brain_coral_wall_fan.json]",
+												"estrutura-brain_coral_wall_fan": { },
+											// brewing_stand.json
+											"arquivo-brewing_stand.json": "[./brewing_stand.json]",
+												"estrutura-brewing_stand": { },
+											// brick_slab.json
+											"arquivo-brick_slab.json": "[./brick_slab.json]",
+												"estrutura-brick_slab": { },
+											// brick_stairs.json
+											"arquivo-brick_stairs.json": "[./brick_stairs.json]",
+												"estrutura-brick_stairs": { },
+											// brick_wall.json
+											"arquivo-brick_wall.json": "[./brick_wall.json]",
+												"estrutura-brick_wall": { },
+											// bricks.json
+											"arquivo-bricks.json": "[./bricks.json]",
+												"estrutura-bricks": { },
+											// brown_banner.json
+											"arquivo-brown_banner.json": "[./brown_banner.json]",
+												"estrutura-brown_banner": { },
+											// brown_bed.json
+											"arquivo-brown_bed.json": "[./brown_bed.json]",
+												"estrutura-brown_bed": { },
+											// brown_candle.json
+											"arquivo-brown_candle.json": "[./brown_candle.json]",
+												"estrutura-brown_candle": { },
+											// brown_candle_cake.json
+											"arquivo-brown_candle_cake.json": "[./brown_candle_cake.json]",
+												"estrutura-brown_candle_cake": { },
+											// brown_carpet.json
+											"arquivo-brown_carpet.json": "[./brown_carpet.json]",
+												"estrutura-brown_carpet": { },
+											// brown_concrete.json
+											"arquivo-brown_concrete.json": "[./brown_concrete.json]",
+												"estrutura-brown_concrete": { },
+											// brown_concrete_powder.json
+											"arquivo-brown_concrete_powder.json": "[./brown_concrete_powder.json]",
+												"estrutura-brown_concrete_powder": { },
+											// brown_glazed_terracotta.json
+											"arquivo-brown_glazed_terracotta.json": "[./brown_glazed_terracotta.json]",
+												"estrutura-brown_glazed_terracotta": { },
+											// brown_mushroom.json
+											"arquivo-brown_mushroom.json": "[./brown_mushroom.json]",
+												"estrutura-brown_mushroom": { },
+											// brown_mushroom_block.json
+											"arquivo-brown_mushroom_block.json": "[./brown_mushroom_block.json]",
+												"estrutura-brown_mushroom_block": { },
+											// brown_shulker_box.json
+											"arquivo-brown_shulker_box.json": "[./brown_shulker_box.json]",
+												"estrutura-brown_shulker_box": { },
+											// brown_stained_glass.json
+											"arquivo-brown_stained_glass.json": "[./brown_stained_glass.json]",
+												"estrutura-brown_stained_glass": { },
+											// brown_stained_glass_pane.json
+											"arquivo-brown_stained_glass_pane.json": "[./brown_stained_glass_pane.json]",
+												"estrutura-brown_stained_glass_pane": { },
+											// brown_terracotta.json
+											"arquivo-brown_terracotta.json": "[./brown_terracotta.json]",
+												"estrutura-brown_terracotta": { },
+											// brown_wall_banner.json
+											"arquivo-brown_wall_banner.json": "[./brown_wall_banner.json]",
+												"estrutura-brown_wall_banner": { },
+											// brown_wool.json
+											"arquivo-brown_wool.json": "[./brown_wool.json]",
+												"estrutura-brown_wool": { },
+											// bubble_column.json
+											"arquivo-bubble_column.json": "[./bubble_column.json]",
+												"estrutura-bubble_column": { },
+											// bubble_coral.json
+											"arquivo-bubble_coral.json": "[./bubble_coral.json]",
+												"estrutura-bubble_coral": { },
+											// bubble_coral_block.json
+											"arquivo-bubble_coral_block.json": "[./bubble_coral_block.json]",
+												"estrutura-bubble_coral_block": { },
+											// bubble_coral_fan.json
+											"arquivo-bubble_coral_fan.json": "[./bubble_coral_fan.json]",
+												"estrutura-bubble_coral_fan": { },
+											// bubble_coral_wall_fan.json
+											"arquivo-bubble_coral_wall_fan.json": "[./bubble_coral_wall_fan.json]",
+												"estrutura-bubble_coral_wall_fan": { },
+											// budding_amethyst.json
+											"arquivo-budding_amethyst.json": "[./budding_amethyst.json]",
+												"estrutura-budding_amethyst": { },
+											// cactus.json
+											"arquivo-cactus.json": "[./cactus.json]",
+												"estrutura-cactus": { },
+											// cake.json
+											"arquivo-cake.json": "[./cake.json]",
+												"estrutura-cake": { },
+											// calcite.json
+											"arquivo-calcite.json": "[./calcite.json]",
+												"estrutura-calcite": { },
+											// campfire.json
+											"arquivo-campfire.json": "[./campfire.json]",
+												"estrutura-campfire": { },
+											// candle.json
+											"arquivo-candle.json": "[./candle.json]",
+												"estrutura-candle": { },
+											// candle_cake.json
+											"arquivo-candle_cake.json": "[./candle_cake.json]",
+												"estrutura-candle_cake": { },
+											// carrots.json
+											"arquivo-carrots.json": "[./carrots.json]",
+												"estrutura-carrots": { },
+											// cartography_table.json
+											"arquivo-cartography_table.json": "[./cartography_table.json]",
+												"estrutura-cartography_table": { },
+											// carved_pumpkin.json
+											"arquivo-carved_pumpkin.json": "[./carved_pumpkin.json]",
+												"estrutura-carved_pumpkin": { },
+											// cauldron.json
+											"arquivo-cauldron.json": "[./cauldron.json]",
+												"estrutura-cauldron": { },
+											// cave_air.json
+											"arquivo-cave_air.json": "[./cave_air.json]",
+												"estrutura-cave_air": { },
+											// cave_vines.json
+											"arquivo-cave_vines.json": "[./cave_vines.json]",
+												"estrutura-cave_vines": { },
+											// cave_vines_plant.json
+											"arquivo-cave_vines_plant.json": "[./cave_vines_plant.json]",
+												"estrutura-cave_vines_plant": { },
+											// chain.json
+											"arquivo-chain.json": "[./chain.json]",
+												"estrutura-chain": { },
+											// chain_command_block.json
+											"arquivo-chain_command_block.json": "[./chain_command_block.json]",
+												"estrutura-chain_command_block": { },
+											// chest.json
+											"arquivo-chest.json": "[./chest.json]",
+												"estrutura-chest": { },
+											// chipped_anvil.json
+											"arquivo-chipped_anvil.json": "[./chipped_anvil.json]",
+												"estrutura-chipped_anvil": { },
+											// chiseled_deepslate.json
+											"arquivo-chiseled_deepslate.json": "[./chiseled_deepslate.json]",
+												"estrutura-chiseled_deepslate": { },
+											// chiseled_nether_bricks.json
+											"arquivo-chiseled_nether_bricks.json": "[./chiseled_nether_bricks.json]",
+												"estrutura-chiseled_nether_bricks": { },
+											// chiseled_polished_blackstone.json
+											"arquivo-chiseled_polished_blackstone.json": "[./chiseled_polished_blackstone.json]",
+												"estrutura-chiseled_polished_blackstone": { },
+											// chiseled_quartz_block.json
+											"arquivo-chiseled_quartz_block.json": "[./chiseled_quartz_block.json]",
+												"estrutura-chiseled_quartz_block": { },
+											// chiseled_red_sandstone.json
+											"arquivo-chiseled_red_sandstone.json": "[./chiseled_red_sandstone.json]",
+												"estrutura-chiseled_red_sandstone": { },
+											// chiseled_sandstone.json
+											"arquivo-chiseled_sandstone.json": "[./chiseled_sandstone.json]",
+												"estrutura-chiseled_sandstone": { },
+											// chiseled_stone_bricks.json
+											"arquivo-chiseled_stone_bricks.json": "[./chiseled_stone_bricks.json]",
+												"estrutura-chiseled_stone_bricks": { },
+											// chorus_flower.json
+											"arquivo-chorus_flower.json": "[./chorus_flower.json]",
+												"estrutura-chorus_flower": { },
+											// chorus_plant.json
+											"arquivo-chorus_plant.json": "[./chorus_plant.json]",
+												"estrutura-chorus_plant": { },
+											// clay.json
+											"arquivo-clay.json": "[./clay.json]",
+												"estrutura-clay": { },
+											// coal_block.json
+											"arquivo-coal_block.json": "[./coal_block.json]",
+												"estrutura-coal_block": { },
+											// coal_ore.json
+											"arquivo-coal_ore.json": "[./coal_ore.json]",
+												"estrutura-coal_ore": { },
+											// coarse_dirt.json
+											"arquivo-coarse_dirt.json": "[./coarse_dirt.json]",
+												"estrutura-coarse_dirt": { },
+											// cobbled_deepslate.json
+											"arquivo-cobbled_deepslate.json": "[./cobbled_deepslate.json]",
+												"estrutura-cobbled_deepslate": { },
+											// cobbled_deepslate_slab.json
+											"arquivo-cobbled_deepslate_slab.json": "[./cobbled_deepslate_slab.json]",
+												"estrutura-cobbled_deepslate_slab": { },
+											// cobbled_deepslate_stairs.json
+											"arquivo-cobbled_deepslate_stairs.json": "[./cobbled_deepslate_stairs.json]",
+												"estrutura-cobbled_deepslate_stairs": { },
+											// cobbled_deepslate_wall.json
+											"arquivo-cobbled_deepslate_wall.json": "[./cobbled_deepslate_wall.json]",
+												"estrutura-cobbled_deepslate_wall": { },
+											// cobblestone.json
+											"arquivo-cobblestone.json": "[./cobblestone.json]",
+												"estrutura-cobblestone": { },
+											// cobblestone_slab.json
+											"arquivo-cobblestone_slab.json": "[./cobblestone_slab.json]",
+												"estrutura-cobblestone_slab": { },
+											// cobblestone_stairs.json
+											"arquivo-cobblestone_stairs.json": "[./cobblestone_stairs.json]",
+												"estrutura-cobblestone_stairs": { },
+											// cobblestone_wall.json
+											"arquivo-cobblestone_wall.json": "[./cobblestone_wall.json]",
+												"estrutura-cobblestone_wall": { },
+											// cobweb.json
+											"arquivo-cobweb.json": "[./cobweb.json]",
+												"estrutura-cobweb": { },
+											// cocoa.json
+											"arquivo-cocoa.json": "[./cocoa.json]",
+												"estrutura-cocoa": { },
+											// command_block.json
+											"arquivo-command_block.json": "[./command_block.json]",
+												"estrutura-command_block": { },
+											// comparator.json
+											"arquivo-comparator.json": "[./comparator.json]",
+												"estrutura-comparator": { },
+											// composter.json
+											"arquivo-composter.json": "[./composter.json]",
+												"estrutura-composter": { },
+											// conduit.json
+											"arquivo-conduit.json": "[./conduit.json]",
+												"estrutura-conduit": { },
+											// copper_block.json
+											"arquivo-copper_block.json": "[./copper_block.json]",
+												"estrutura-copper_block": { },
+											// copper_ore.json
+											"arquivo-copper_ore.json": "[./copper_ore.json]",
+												"estrutura-copper_ore": { },
+											// cornflower.json
+											"arquivo-cornflower.json": "[./cornflower.json]",
+												"estrutura-cornflower": { },
+											// cracked_deepslate_bricks.json
+											"arquivo-cracked_deepslate_bricks.json": "[./cracked_deepslate_bricks.json]",
+												"estrutura-cracked_deepslate_bricks": { },
+											// cracked_deepslate_tiles.json
+											"arquivo-cracked_deepslate_tiles.json": "[./cracked_deepslate_tiles.json]",
+												"estrutura-cracked_deepslate_tiles": { },
+											// cracked_nether_bricks.json
+											"arquivo-cracked_nether_bricks.json": "[./cracked_nether_bricks.json]",
+												"estrutura-cracked_nether_bricks": { },
+											// cracked_polished_blackstone_bricks.json
+											"arquivo-cracked_polished_blackstone_bricks.json": "[./cracked_polished_blackstone_bricks.json]",
+												"estrutura-cracked_polished_blackstone_bricks": { },
+											// cracked_stone_bricks.json
+											"arquivo-cracked_stone_bricks.json": "[./cracked_stone_bricks.json]",
+												"estrutura-cracked_stone_bricks": { },
+											// crafting_table.json
+											"arquivo-crafting_table.json": "[./crafting_table.json]",
+												"estrutura-crafting_table": { },
+											// creeper_head.json
+											"arquivo-creeper_head.json": "[./creeper_head.json]",
+												"estrutura-creeper_head": { },
+											// creeper_wall_head.json
+											"arquivo-creeper_wall_head.json": "[./creeper_wall_head.json]",
+												"estrutura-creeper_wall_head": { },
+											// crimson_button.json
+											"arquivo-crimson_button.json": "[./crimson_button.json]",
+												"estrutura-crimson_button": { },
+											// crimson_door.json
+											"arquivo-crimson_door.json": "[./crimson_door.json]",
+												"estrutura-crimson_door": { },
+											// crimson_fence.json
+											"arquivo-crimson_fence.json": "[./crimson_fence.json]",
+												"estrutura-crimson_fence": { },
+											// crimson_fence_gate.json
+											"arquivo-crimson_fence_gate.json": "[./crimson_fence_gate.json]",
+												"estrutura-crimson_fence_gate": { },
+											// crimson_fungus.json
+											"arquivo-crimson_fungus.json": "[./crimson_fungus.json]",
+												"estrutura-crimson_fungus": { },
+											// crimson_hyphae.json
+											"arquivo-crimson_hyphae.json": "[./crimson_hyphae.json]",
+												"estrutura-crimson_hyphae": { },
+											// crimson_nylium.json
+											"arquivo-crimson_nylium.json": "[./crimson_nylium.json]",
+												"estrutura-crimson_nylium": { },
+											// crimson_planks.json
+											"arquivo-crimson_planks.json": "[./crimson_planks.json]",
+												"estrutura-crimson_planks": { },
+											// crimson_pressure_plate.json
+											"arquivo-crimson_pressure_plate.json": "[./crimson_pressure_plate.json]",
+												"estrutura-crimson_pressure_plate": { },
+											// crimson_roots.json
+											"arquivo-crimson_roots.json": "[./crimson_roots.json]",
+												"estrutura-crimson_roots": { },
+											// crimson_sign.json
+											"arquivo-crimson_sign.json": "[./crimson_sign.json]",
+												"estrutura-crimson_sign": { },
+											// crimson_slab.json
+											"arquivo-crimson_slab.json": "[./crimson_slab.json]",
+												"estrutura-crimson_slab": { },
+											// crimson_stairs.json
+											"arquivo-crimson_stairs.json": "[./crimson_stairs.json]",
+												"estrutura-crimson_stairs": { },
+											// crimson_stem.json
+											"arquivo-crimson_stem.json": "[./crimson_stem.json]",
+												"estrutura-crimson_stem": { },
+											// crimson_trapdoor.json
+											"arquivo-crimson_trapdoor.json": "[./crimson_trapdoor.json]",
+												"estrutura-crimson_trapdoor": { },
+											// crimson_wall_sign.json
+											"arquivo-crimson_wall_sign.json": "[./crimson_wall_sign.json]",
+												"estrutura-crimson_wall_sign": { },
+											// crying_obsidian.json
+											"arquivo-crying_obsidian.json": "[./crying_obsidian.json]",
+												"estrutura-crying_obsidian": { },
+											// cut_copper.json
+											"arquivo-cut_copper.json": "[./cut_copper.json]",
+												"estrutura-cut_copper": { },
+											// cut_copper_slab.json
+											"arquivo-cut_copper_slab.json": "[./cut_copper_slab.json]",
+												"estrutura-cut_copper_slab": { },
+											// cut_copper_stairs.json
+											"arquivo-cut_copper_stairs.json": "[./cut_copper_stairs.json]",
+												"estrutura-cut_copper_stairs": { },
+											// cut_red_sandstone.json
+											"arquivo-cut_red_sandstone.json": "[./cut_red_sandstone.json]",
+												"estrutura-cut_red_sandstone": { },
+											// cut_red_sandstone_slab.json
+											"arquivo-cut_red_sandstone_slab.json": "[./cut_red_sandstone_slab.json]",
+												"estrutura-cut_red_sandstone_slab": { },
+											// cut_sandstone.json
+											"arquivo-cut_sandstone.json": "[./cut_sandstone.json]",
+												"estrutura-cut_sandstone": { },
+											// cut_sandstone_slab.json
+											"arquivo-cut_sandstone_slab.json": "[./cut_sandstone_slab.json]",
+												"estrutura-cut_sandstone_slab": { },
+											// cyan_banner.json
+											"arquivo-cyan_banner.json": "[./cyan_banner.json]",
+												"estrutura-cyan_banner": { },
+											// cyan_bed.json
+											"arquivo-cyan_bed.json": "[./cyan_bed.json]",
+												"estrutura-cyan_bed": { },
+											// cyan_candle.json
+											"arquivo-cyan_candle.json": "[./cyan_candle.json]",
+												"estrutura-cyan_candle": { },
+											// cyan_candle_cake.json
+											"arquivo-cyan_candle_cake.json": "[./cyan_candle_cake.json]",
+												"estrutura-cyan_candle_cake": { },
+											// cyan_carpet.json
+											"arquivo-cyan_carpet.json": "[./cyan_carpet.json]",
+												"estrutura-cyan_carpet": { },
+											// cyan_concrete.json
+											"arquivo-cyan_concrete.json": "[./cyan_concrete.json]",
+												"estrutura-cyan_concrete": { },
+											// cyan_concrete_powder.json
+											"arquivo-cyan_concrete_powder.json": "[./cyan_concrete_powder.json]",
+												"estrutura-cyan_concrete_powder": { },
+											// cyan_glazed_terracotta.json
+											"arquivo-cyan_glazed_terracotta.json": "[./cyan_glazed_terracotta.json]",
+												"estrutura-cyan_glazed_terracotta": { },
+											// cyan_shulker_box.json
+											"arquivo-cyan_shulker_box.json": "[./cyan_shulker_box.json]",
+												"estrutura-cyan_shulker_box": { },
+											// cyan_stained_glass.json
+											"arquivo-cyan_stained_glass.json": "[./cyan_stained_glass.json]",
+												"estrutura-cyan_stained_glass": { },
+											// cyan_stained_glass_pane.json
+											"arquivo-cyan_stained_glass_pane.json": "[./cyan_stained_glass_pane.json]",
+												"estrutura-cyan_stained_glass_pane": { },
+											// cyan_terracotta.json
+											"arquivo-cyan_terracotta.json": "[./cyan_terracotta.json]",
+												"estrutura-cyan_terracotta": { },
+											// cyan_wall_banner.json
+											"arquivo-cyan_wall_banner.json": "[./cyan_wall_banner.json]",
+												"estrutura-cyan_wall_banner": { },
+											// cyan_wool.json
+											"arquivo-cyan_wool.json": "[./cyan_wool.json]",
+												"estrutura-cyan_wool": { },
+											// damaged_anvil.json
+											"arquivo-damaged_anvil.json": "[./damaged_anvil.json]",
+												"estrutura-damaged_anvil": { },
+											// dandelion.json
+											"arquivo-dandelion.json": "[./dandelion.json]",
+												"estrutura-dandelion": { },
+											// dark_oak_button.json
+											"arquivo-dark_oak_button.json": "[./dark_oak_button.json]",
+												"estrutura-dark_oak_button": { },
+											// dark_oak_door.json
+											"arquivo-dark_oak_door.json": "[./dark_oak_door.json]",
+												"estrutura-dark_oak_door": { },
+											// dark_oak_fence.json
+											"arquivo-dark_oak_fence.json": "[./dark_oak_fence.json]",
+												"estrutura-dark_oak_fence": { },
+											// dark_oak_fence_gate.json
+											"arquivo-dark_oak_fence_gate.json": "[./dark_oak_fence_gate.json]",
+												"estrutura-dark_oak_fence_gate": { },
+											// dark_oak_leaves.json
+											"arquivo-dark_oak_leaves.json": "[./dark_oak_leaves.json]",
+												"estrutura-dark_oak_leaves": { },
+											// dark_oak_log.json
+											"arquivo-dark_oak_log.json": "[./dark_oak_log.json]",
+												"estrutura-dark_oak_log": { },
+											// dark_oak_planks.json
+											"arquivo-dark_oak_planks.json": "[./dark_oak_planks.json]",
+												"estrutura-dark_oak_planks": { },
+											// dark_oak_pressure_plate.json
+											"arquivo-dark_oak_pressure_plate.json": "[./dark_oak_pressure_plate.json]",
+												"estrutura-dark_oak_pressure_plate": { },
+											// dark_oak_sapling.json
+											"arquivo-dark_oak_sapling.json": "[./dark_oak_sapling.json]",
+												"estrutura-dark_oak_sapling": { },
+											// dark_oak_sign.json
+											"arquivo-dark_oak_sign.json": "[./dark_oak_sign.json]",
+												"estrutura-dark_oak_sign": { },
+											// dark_oak_slab.json
+											"arquivo-dark_oak_slab.json": "[./dark_oak_slab.json]",
+												"estrutura-dark_oak_slab": { },
+											// dark_oak_stairs.json
+											"arquivo-dark_oak_stairs.json": "[./dark_oak_stairs.json]",
+												"estrutura-dark_oak_stairs": { },
+											// dark_oak_trapdoor.json
+											"arquivo-dark_oak_trapdoor.json": "[./dark_oak_trapdoor.json]",
+												"estrutura-dark_oak_trapdoor": { },
+											// dark_oak_wall_sign.json
+											"arquivo-dark_oak_wall_sign.json": "[./dark_oak_wall_sign.json]",
+												"estrutura-dark_oak_wall_sign": { },
+											// dark_oak_wood.json
+											"arquivo-dark_oak_wood.json": "[./dark_oak_wood.json]",
+												"estrutura-dark_oak_wood": { },
+											// dark_prismarine.json
+											"arquivo-dark_prismarine.json": "[./dark_prismarine.json]",
+												"estrutura-dark_prismarine": { },
+											// dark_prismarine_slab.json
+											"arquivo-dark_prismarine_slab.json": "[./dark_prismarine_slab.json]",
+												"estrutura-dark_prismarine_slab": { },
+											// dark_prismarine_stairs.json
+											"arquivo-dark_prismarine_stairs.json": "[./dark_prismarine_stairs.json]",
+												"estrutura-dark_prismarine_stairs": { },
+											// daylight_detector.json
+											"arquivo-daylight_detector.json": "[./daylight_detector.json]",
+												"estrutura-daylight_detector": { },
+											// dead_brain_coral.json
+											"arquivo-dead_brain_coral.json": "[./dead_brain_coral.json]",
+												"estrutura-dead_brain_coral": { },
+											// dead_brain_coral_block.json
+											"arquivo-dead_brain_coral_block.json": "[./dead_brain_coral_block.json]",
+												"estrutura-dead_brain_coral_block": { },
+											// dead_brain_coral_fan.json
+											"arquivo-dead_brain_coral_fan.json": "[./dead_brain_coral_fan.json]",
+												"estrutura-dead_brain_coral_fan": { },
+											// dead_brain_coral_wall_fan.json
+											"arquivo-dead_brain_coral_wall_fan.json": "[./dead_brain_coral_wall_fan.json]",
+												"estrutura-dead_brain_coral_wall_fan": { },
+											// dead_bubble_coral.json
+											"arquivo-dead_bubble_coral.json": "[./dead_bubble_coral.json]",
+												"estrutura-dead_bubble_coral": { },
+											// dead_bubble_coral_block.json
+											"arquivo-dead_bubble_coral_block.json": "[./dead_bubble_coral_block.json]",
+												"estrutura-dead_bubble_coral_block": { },
+											// dead_bubble_coral_fan.json
+											"arquivo-dead_bubble_coral_fan.json": "[./dead_bubble_coral_fan.json]",
+												"estrutura-dead_bubble_coral_fan": { },
+											// dead_bubble_coral_wall_fan.json
+											"arquivo-dead_bubble_coral_wall_fan.json": "[./dead_bubble_coral_wall_fan.json]",
+												"estrutura-dead_bubble_coral_wall_fan": { },
+											// dead_bush.json
+											"arquivo-dead_bush.json": "[./dead_bush.json]",
+												"estrutura-dead_bush": { },
+											// dead_fire_coral.json
+											"arquivo-dead_fire_coral.json": "[./dead_fire_coral.json]",
+												"estrutura-dead_fire_coral": { },
+											// dead_fire_coral_block.json
+											"arquivo-dead_fire_coral_block.json": "[./dead_fire_coral_block.json]",
+												"estrutura-dead_fire_coral_block": { },
+											// dead_fire_coral_fan.json
+											"arquivo-dead_fire_coral_fan.json": "[./dead_fire_coral_fan.json]",
+												"estrutura-dead_fire_coral_fan": { },
+											// dead_fire_coral_wall_fan.json
+											"arquivo-dead_fire_coral_wall_fan.json": "[./dead_fire_coral_wall_fan.json]",
+												"estrutura-dead_fire_coral_wall_fan": { },
+											// dead_horn_coral.json
+											"arquivo-dead_horn_coral.json": "[./dead_horn_coral.json]",
+												"estrutura-dead_horn_coral": { },
+											// dead_horn_coral_block.json
+											"arquivo-dead_horn_coral_block.json": "[./dead_horn_coral_block.json]",
+												"estrutura-dead_horn_coral_block": { },
+											// dead_horn_coral_fan.json
+											"arquivo-dead_horn_coral_fan.json": "[./dead_horn_coral_fan.json]",
+												"estrutura-dead_horn_coral_fan": { },
+											// dead_horn_coral_wall_fan.json
+											"arquivo-dead_horn_coral_wall_fan.json": "[./dead_horn_coral_wall_fan.json]",
+												"estrutura-dead_horn_coral_wall_fan": { },
+											// dead_tube_coral.json
+											"arquivo-dead_tube_coral.json": "[./dead_tube_coral.json]",
+												"estrutura-dead_tube_coral": { },
+											// dead_tube_coral_block.json
+											"arquivo-dead_tube_coral_block.json": "[./dead_tube_coral_block.json]",
+												"estrutura-dead_tube_coral_block": { },
+											// dead_tube_coral_fan.json
+											"arquivo-dead_tube_coral_fan.json": "[./dead_tube_coral_fan.json]",
+												"estrutura-dead_tube_coral_fan": { },
+											// dead_tube_coral_wall_fan.json
+											"arquivo-dead_tube_coral_wall_fan.json": "[./dead_tube_coral_wall_fan.json]",
+												"estrutura-dead_tube_coral_wall_fan": { },
+											// deepslate.json
+											"arquivo-deepslate.json": "[./deepslate.json]",
+												"estrutura-deepslate": { },
+											// deepslate_brick_slab.json
+											"arquivo-deepslate_brick_slab.json": "[./deepslate_brick_slab.json]",
+												"estrutura-deepslate_brick_slab": { },
+											// deepslate_brick_stairs.json
+											"arquivo-deepslate_brick_stairs.json": "[./deepslate_brick_stairs.json]",
+												"estrutura-deepslate_brick_stairs": { },
+											// deepslate_brick_wall.json
+											"arquivo-deepslate_brick_wall.json": "[./deepslate_brick_wall.json]",
+												"estrutura-deepslate_brick_wall": { },
+											// deepslate_bricks.json
+											"arquivo-deepslate_bricks.json": "[./deepslate_bricks.json]",
+												"estrutura-deepslate_bricks": { },
+											// deepslate_coal_ore.json
+											"arquivo-deepslate_coal_ore.json": "[./deepslate_coal_ore.json]",
+												"estrutura-deepslate_coal_ore": { },
+											// deepslate_copper_ore.json
+											"arquivo-deepslate_copper_ore.json": "[./deepslate_copper_ore.json]",
+												"estrutura-deepslate_copper_ore": { },
+											// deepslate_diamond_ore.json
+											"arquivo-deepslate_diamond_ore.json": "[./deepslate_diamond_ore.json]",
+												"estrutura-deepslate_diamond_ore": { },
+											// deepslate_emerald_ore.json
+											"arquivo-deepslate_emerald_ore.json": "[./deepslate_emerald_ore.json]",
+												"estrutura-deepslate_emerald_ore": { },
+											// deepslate_gold_ore.json
+											"arquivo-deepslate_gold_ore.json": "[./deepslate_gold_ore.json]",
+												"estrutura-deepslate_gold_ore": { },
+											// deepslate_iron_ore.json
+											"arquivo-deepslate_iron_ore.json": "[./deepslate_iron_ore.json]",
+												"estrutura-deepslate_iron_ore": { },
+											// deepslate_lapis_ore.json
+											"arquivo-deepslate_lapis_ore.json": "[./deepslate_lapis_ore.json]",
+												"estrutura-deepslate_lapis_ore": { },
+											// deepslate_redstone_ore.json
+											"arquivo-deepslate_redstone_ore.json": "[./deepslate_redstone_ore.json]",
+												"estrutura-deepslate_redstone_ore": { },
+											// deepslate_tile_slab.json
+											"arquivo-deepslate_tile_slab.json": "[./deepslate_tile_slab.json]",
+												"estrutura-deepslate_tile_slab": { },
+											// deepslate_tile_stairs.json
+											"arquivo-deepslate_tile_stairs.json": "[./deepslate_tile_stairs.json]",
+												"estrutura-deepslate_tile_stairs": { },
+											// deepslate_tile_wall.json
+											"arquivo-deepslate_tile_wall.json": "[./deepslate_tile_wall.json]",
+												"estrutura-deepslate_tile_wall": { },
+											// deepslate_tiles.json
+											"arquivo-deepslate_tiles.json": "[./deepslate_tiles.json]",
+												"estrutura-deepslate_tiles": { },
+											// detector_rail.json
+											"arquivo-detector_rail.json": "[./detector_rail.json]",
+												"estrutura-detector_rail": { },
+											// diamond_block.json
+											"arquivo-diamond_block.json": "[./diamond_block.json]",
+												"estrutura-diamond_block": { },
+											// diamond_ore.json
+											"arquivo-diamond_ore.json": "[./diamond_ore.json]",
+												"estrutura-diamond_ore": { },
+											// diorite.json
+											"arquivo-diorite.json": "[./diorite.json]",
+												"estrutura-diorite": { },
+											// diorite_slab.json
+											"arquivo-diorite_slab.json": "[./diorite_slab.json]",
+												"estrutura-diorite_slab": { },
+											// diorite_stairs.json
+											"arquivo-diorite_stairs.json": "[./diorite_stairs.json]",
+												"estrutura-diorite_stairs": { },
+											// diorite_wall.json
+											"arquivo-diorite_wall.json": "[./diorite_wall.json]",
+												"estrutura-diorite_wall": { },
+											// dirt.json
+											"arquivo-dirt.json": "[./dirt.json]",
+												"estrutura-dirt": { },
+											// dirt_path.json
+											"arquivo-dirt_path.json": "[./dirt_path.json]",
+												"estrutura-dirt_path": { },
+											// dispenser.json
+											"arquivo-dispenser.json": "[./dispenser.json]",
+												"estrutura-dispenser": { },
+											// dragon_egg.json
+											"arquivo-dragon_egg.json": "[./dragon_egg.json]",
+												"estrutura-dragon_egg": { },
+											// dragon_head.json
+											"arquivo-dragon_head.json": "[./dragon_head.json]",
+												"estrutura-dragon_head": { },
+											// dragon_wall_head.json
+											"arquivo-dragon_wall_head.json": "[./dragon_wall_head.json]",
+												"estrutura-dragon_wall_head": { },
+											// dried_kelp_block.json
+											"arquivo-dried_kelp_block.json": "[./dried_kelp_block.json]",
+												"estrutura-dried_kelp_block": { },
+											// dripstone_block.json
+											"arquivo-dripstone_block.json": "[./dripstone_block.json]",
+												"estrutura-dripstone_block": { },
+											// dropper.json
+											"arquivo-dropper.json": "[./dropper.json]",
+												"estrutura-dropper": { },
+											// emerald_block.json
+											"arquivo-emerald_block.json": "[./emerald_block.json]",
+												"estrutura-emerald_block": { },
+											// emerald_ore.json
+											"arquivo-emerald_ore.json": "[./emerald_ore.json]",
+												"estrutura-emerald_ore": { },
+											// enchanting_table.json
+											"arquivo-enchanting_table.json": "[./enchanting_table.json]",
+												"estrutura-enchanting_table": { },
+											// end_gateway.json
+											"arquivo-end_gateway.json": "[./end_gateway.json]",
+												"estrutura-end_gateway": { },
+											// end_portal.json
+											"arquivo-end_portal.json": "[./end_portal.json]",
+												"estrutura-end_portal": { },
+											// end_portal_frame.json
+											"arquivo-end_portal_frame.json": "[./end_portal_frame.json]",
+												"estrutura-end_portal_frame": { },
+											// end_rod.json
+											"arquivo-end_rod.json": "[./end_rod.json]",
+												"estrutura-end_rod": { },
+											// end_stone.json
+											"arquivo-end_stone.json": "[./end_stone.json]",
+												"estrutura-end_stone": { },
+											// end_stone_brick_slab.json
+											"arquivo-end_stone_brick_slab.json": "[./end_stone_brick_slab.json]",
+												"estrutura-end_stone_brick_slab": { },
+											// end_stone_brick_stairs.json
+											"arquivo-end_stone_brick_stairs.json": "[./end_stone_brick_stairs.json]",
+												"estrutura-end_stone_brick_stairs": { },
+											// end_stone_brick_wall.json
+											"arquivo-end_stone_brick_wall.json": "[./end_stone_brick_wall.json]",
+												"estrutura-end_stone_brick_wall": { },
+											// end_stone_bricks.json
+											"arquivo-end_stone_bricks.json": "[./end_stone_bricks.json]",
+												"estrutura-end_stone_bricks": { },
+											// ender_chest.json
+											"arquivo-ender_chest.json": "[./ender_chest.json]",
+												"estrutura-ender_chest": { },
+											// exposed_copper.json
+											"arquivo-exposed_copper.json": "[./exposed_copper.json]",
+												"estrutura-exposed_copper": { },
+											// exposed_cut_copper.json
+											"arquivo-exposed_cut_copper.json": "[./exposed_cut_copper.json]",
+												"estrutura-exposed_cut_copper": { },
+											// exposed_cut_copper_slab.json
+											"arquivo-exposed_cut_copper_slab.json": "[./exposed_cut_copper_slab.json]",
+												"estrutura-exposed_cut_copper_slab": { },
+											// exposed_cut_copper_stairs.json
+											"arquivo-exposed_cut_copper_stairs.json": "[./exposed_cut_copper_stairs.json]",
+												"estrutura-exposed_cut_copper_stairs": { },
+											// farmland.json
+											"arquivo-farmland.json": "[./farmland.json]",
+												"estrutura-farmland": { },
+											// fern.json
+											"arquivo-fern.json": "[./fern.json]",
+												"estrutura-fern": { },
+											// fire.json
+											"arquivo-fire.json": "[./fire.json]",
+												"estrutura-fire": { },
+											// fire_coral.json
+											"arquivo-fire_coral.json": "[./fire_coral.json]",
+												"estrutura-fire_coral": { },
+											// fire_coral_block.json
+											"arquivo-fire_coral_block.json": "[./fire_coral_block.json]",
+												"estrutura-fire_coral_block": { },
+											// fire_coral_fan.json
+											"arquivo-fire_coral_fan.json": "[./fire_coral_fan.json]",
+												"estrutura-fire_coral_fan": { },
+											// fire_coral_wall_fan.json
+											"arquivo-fire_coral_wall_fan.json": "[./fire_coral_wall_fan.json]",
+												"estrutura-fire_coral_wall_fan": { },
+											// fletching_table.json
+											"arquivo-fletching_table.json": "[./fletching_table.json]",
+												"estrutura-fletching_table": { },
+											// flower_pot.json
+											"arquivo-flower_pot.json": "[./flower_pot.json]",
+												"estrutura-flower_pot": { },
+											// flowering_azalea.json
+											"arquivo-flowering_azalea.json": "[./flowering_azalea.json]",
+												"estrutura-flowering_azalea": { },
+											// flowering_azalea_leaves.json
+											"arquivo-flowering_azalea_leaves.json": "[./flowering_azalea_leaves.json]",
+												"estrutura-flowering_azalea_leaves": { },
+											// frosted_ice.json
+											"arquivo-frosted_ice.json": "[./frosted_ice.json]",
+												"estrutura-frosted_ice": { },
+											// furnace.json
+											"arquivo-furnace.json": "[./furnace.json]",
+												"estrutura-furnace": { },
+											// gilded_blackstone.json
+											"arquivo-gilded_blackstone.json": "[./gilded_blackstone.json]",
+												"estrutura-gilded_blackstone": { },
+											// glass.json
+											"arquivo-glass.json": "[./glass.json]",
+												"estrutura-glass": { },
+											// glass_pane.json
+											"arquivo-glass_pane.json": "[./glass_pane.json]",
+												"estrutura-glass_pane": { },
+											// glow_item_frame.json
+											"arquivo-glow_item_frame.json": "[./glow_item_frame.json]",
+												"estrutura-glow_item_frame": { },
+											// glow_lichen.json
+											"arquivo-glow_lichen.json": "[./glow_lichen.json]",
+												"estrutura-glow_lichen": { },
+											// glowstone.json
+											"arquivo-glowstone.json": "[./glowstone.json]",
+												"estrutura-glowstone": { },
+											// gold_block.json
+											"arquivo-gold_block.json": "[./gold_block.json]",
+												"estrutura-gold_block": { },
+											// gold_ore.json
+											"arquivo-gold_ore.json": "[./gold_ore.json]",
+												"estrutura-gold_ore": { },
+											// granite.json
+											"arquivo-granite.json": "[./granite.json]",
+												"estrutura-granite": { },
+											// granite_slab.json
+											"arquivo-granite_slab.json": "[./granite_slab.json]",
+												"estrutura-granite_slab": { },
+											// granite_stairs.json
+											"arquivo-granite_stairs.json": "[./granite_stairs.json]",
+												"estrutura-granite_stairs": { },
+											// granite_wall.json
+											"arquivo-granite_wall.json": "[./granite_wall.json]",
+												"estrutura-granite_wall": { },
+											// grass.json
+											"arquivo-grass.json": "[./grass.json]",
+												"estrutura-grass": { },
+											// grass_block.json
+											"arquivo-grass_block.json": "[./grass_block.json]",
+												"estrutura-grass_block": { },
+											// gravel.json
+											"arquivo-gravel.json": "[./gravel.json]",
+												"estrutura-gravel": { },
+											// gray_banner.json
+											"arquivo-gray_banner.json": "[./gray_banner.json]",
+												"estrutura-gray_banner": { },
+											// gray_bed.json
+											"arquivo-gray_bed.json": "[./gray_bed.json]",
+												"estrutura-gray_bed": { },
+											// gray_candle.json
+											"arquivo-gray_candle.json": "[./gray_candle.json]",
+												"estrutura-gray_candle": { },
+											// gray_candle_cake.json
+											"arquivo-gray_candle_cake.json": "[./gray_candle_cake.json]",
+												"estrutura-gray_candle_cake": { },
+											// gray_carpet.json
+											"arquivo-gray_carpet.json": "[./gray_carpet.json]",
+												"estrutura-gray_carpet": { },
+											// gray_concrete.json
+											"arquivo-gray_concrete.json": "[./gray_concrete.json]",
+												"estrutura-gray_concrete": { },
+											// gray_concrete_powder.json
+											"arquivo-gray_concrete_powder.json": "[./gray_concrete_powder.json]",
+												"estrutura-gray_concrete_powder": { },
+											// gray_glazed_terracotta.json
+											"arquivo-gray_glazed_terracotta.json": "[./gray_glazed_terracotta.json]",
+												"estrutura-gray_glazed_terracotta": { },
+											// gray_shulker_box.json
+											"arquivo-gray_shulker_box.json": "[./gray_shulker_box.json]",
+												"estrutura-gray_shulker_box": { },
+											// gray_stained_glass.json
+											"arquivo-gray_stained_glass.json": "[./gray_stained_glass.json]",
+												"estrutura-gray_stained_glass": { },
+											// gray_stained_glass_pane.json
+											"arquivo-gray_stained_glass_pane.json": "[./gray_stained_glass_pane.json]",
+												"estrutura-gray_stained_glass_pane": { },
+											// gray_terracotta.json
+											"arquivo-gray_terracotta.json": "[./gray_terracotta.json]",
+												"estrutura-gray_terracotta": { },
+											// gray_wall_banner.json
+											"arquivo-gray_wall_banner.json": "[./gray_wall_banner.json]",
+												"estrutura-gray_wall_banner": { },
+											// gray_wool.json
+											"arquivo-gray_wool.json": "[./gray_wool.json]",
+												"estrutura-gray_wool": { },
+											// green_banner.json
+											"arquivo-green_banner.json": "[./green_banner.json]",
+												"estrutura-green_banner": { },
+											// green_bed.json
+											"arquivo-green_bed.json": "[./green_bed.json]",
+												"estrutura-green_bed": { },
+											// green_candle.json
+											"arquivo-green_candle.json": "[./green_candle.json]",
+												"estrutura-green_candle": { },
+											// green_candle_cake.json
+											"arquivo-green_candle_cake.json": "[./green_candle_cake.json]",
+												"estrutura-green_candle_cake": { },
+											// green_carpet.json
+											"arquivo-green_carpet.json": "[./green_carpet.json]",
+												"estrutura-green_carpet": { },
+											// green_concrete.json
+											"arquivo-green_concrete.json": "[./green_concrete.json]",
+												"estrutura-green_concrete": { },
+											// green_concrete_powder.json
+											"arquivo-green_concrete_powder.json": "[./green_concrete_powder.json]",
+												"estrutura-green_concrete_powder": { },
+											// green_glazed_terracotta.json
+											"arquivo-green_glazed_terracotta.json": "[./green_glazed_terracotta.json]",
+												"estrutura-green_glazed_terracotta": { },
+											// green_shulker_box.json
+											"arquivo-green_shulker_box.json": "[./green_shulker_box.json]",
+												"estrutura-green_shulker_box": { },
+											// green_stained_glass.json
+											"arquivo-green_stained_glass.json": "[./green_stained_glass.json]",
+												"estrutura-green_stained_glass": { },
+											// green_stained_glass_pane.json
+											"arquivo-green_stained_glass_pane.json": "[./green_stained_glass_pane.json]",
+												"estrutura-green_stained_glass_pane": { },
+											// green_terracotta.json
+											"arquivo-green_terracotta.json": "[./green_terracotta.json]",
+												"estrutura-green_terracotta": { },
+											// green_wall_banner.json
+											"arquivo-green_wall_banner.json": "[./green_wall_banner.json]",
+												"estrutura-green_wall_banner": { },
+											// green_wool.json
+											"arquivo-green_wool.json": "[./green_wool.json]",
+												"estrutura-green_wool": { },
+											// grindstone.json
+											"arquivo-grindstone.json": "[./grindstone.json]",
+												"estrutura-grindstone": { },
+											// hanging_roots.json
+											"arquivo-hanging_roots.json": "[./hanging_roots.json]",
+												"estrutura-hanging_roots": { },
+											// hay_block.json
+											"arquivo-hay_block.json": "[./hay_block.json]",
+												"estrutura-hay_block": { },
+											// heavy_weighted_pressure_plate.json
+											"arquivo-heavy_weighted_pressure_plate.json": "[./heavy_weighted_pressure_plate.json]",
+												"estrutura-heavy_weighted_pressure_plate": { },
+											// honey_block.json
+											"arquivo-honey_block.json": "[./honey_block.json]",
+												"estrutura-honey_block": { },
+											// honeycomb_block.json
+											"arquivo-honeycomb_block.json": "[./honeycomb_block.json]",
+												"estrutura-honeycomb_block": { },
+											// hopper.json
+											"arquivo-hopper.json": "[./hopper.json]",
+												"estrutura-hopper": { },
+											// horn_coral.json
+											"arquivo-horn_coral.json": "[./horn_coral.json]",
+												"estrutura-horn_coral": { },
+											// horn_coral_block.json
+											"arquivo-horn_coral_block.json": "[./horn_coral_block.json]",
+												"estrutura-horn_coral_block": { },
+											// horn_coral_fan.json
+											"arquivo-horn_coral_fan.json": "[./horn_coral_fan.json]",
+												"estrutura-horn_coral_fan": { },
+											// horn_coral_wall_fan.json
+											"arquivo-horn_coral_wall_fan.json": "[./horn_coral_wall_fan.json]",
+												"estrutura-horn_coral_wall_fan": { },
+											// ice.json
+											"arquivo-ice.json": "[./ice.json]",
+												"estrutura-ice": { },
+											// infested_chiseled_stone_bricks.json
+											"arquivo-infested_chiseled_stone_bricks.json": "[./infested_chiseled_stone_bricks.json]",
+												"estrutura-infested_chiseled_stone_bricks": { },
+											// infested_cobblestone.json
+											"arquivo-infested_cobblestone.json": "[./infested_cobblestone.json]",
+												"estrutura-infested_cobblestone": { },
+											// infested_cracked_stone_bricks.json
+											"arquivo-infested_cracked_stone_bricks.json": "[./infested_cracked_stone_bricks.json]",
+												"estrutura-infested_cracked_stone_bricks": { },
+											// infested_deepslate.json
+											"arquivo-infested_deepslate.json": "[./infested_deepslate.json]",
+												"estrutura-infested_deepslate": { },
+											// infested_mossy_stone_bricks.json
+											"arquivo-infested_mossy_stone_bricks.json": "[./infested_mossy_stone_bricks.json]",
+												"estrutura-infested_mossy_stone_bricks": { },
+											// infested_stone.json
+											"arquivo-infested_stone.json": "[./infested_stone.json]",
+												"estrutura-infested_stone": { },
+											// infested_stone_bricks.json
+											"arquivo-infested_stone_bricks.json": "[./infested_stone_bricks.json]",
+												"estrutura-infested_stone_bricks": { },
+											// iron_bars.json
+											"arquivo-iron_bars.json": "[./iron_bars.json]",
+												"estrutura-iron_bars": { },
+											// iron_block.json
+											"arquivo-iron_block.json": "[./iron_block.json]",
+												"estrutura-iron_block": { },
+											// iron_door.json
+											"arquivo-iron_door.json": "[./iron_door.json]",
+												"estrutura-iron_door": { },
+											// iron_ore.json
+											"arquivo-iron_ore.json": "[./iron_ore.json]",
+												"estrutura-iron_ore": { },
+											// iron_trapdoor.json
+											"arquivo-iron_trapdoor.json": "[./iron_trapdoor.json]",
+												"estrutura-iron_trapdoor": { },
+											// item_frame.json
+											"arquivo-item_frame.json": "[./item_frame.json]",
+												"estrutura-item_frame": { },
+											// jack_o_lantern.json
+											"arquivo-jack_o_lantern.json": "[./jack_o_lantern.json]",
+												"estrutura-jack_o_lantern": { },
+											// jigsaw.json
+											"arquivo-jigsaw.json": "[./jigsaw.json]",
+												"estrutura-jigsaw": { },
+											// jukebox.json
+											"arquivo-jukebox.json": "[./jukebox.json]",
+												"estrutura-jukebox": { },
+											// jungle_button.json
+											"arquivo-jungle_button.json": "[./jungle_button.json]",
+												"estrutura-jungle_button": { },
+											// jungle_door.json
+											"arquivo-jungle_door.json": "[./jungle_door.json]",
+												"estrutura-jungle_door": { },
+											// jungle_fence.json
+											"arquivo-jungle_fence.json": "[./jungle_fence.json]",
+												"estrutura-jungle_fence": { },
+											// jungle_fence_gate.json
+											"arquivo-jungle_fence_gate.json": "[./jungle_fence_gate.json]",
+												"estrutura-jungle_fence_gate": { },
+											// jungle_leaves.json
+											"arquivo-jungle_leaves.json": "[./jungle_leaves.json]",
+												"estrutura-jungle_leaves": { },
+											// jungle_log.json
+											"arquivo-jungle_log.json": "[./jungle_log.json]",
+												"estrutura-jungle_log": { },
+											// jungle_planks.json
+											"arquivo-jungle_planks.json": "[./jungle_planks.json]",
+												"estrutura-jungle_planks": { },
+											// jungle_pressure_plate.json
+											"arquivo-jungle_pressure_plate.json": "[./jungle_pressure_plate.json]",
+												"estrutura-jungle_pressure_plate": { },
+											// jungle_sapling.json
+											"arquivo-jungle_sapling.json": "[./jungle_sapling.json]",
+												"estrutura-jungle_sapling": { },
+											// jungle_sign.json
+											"arquivo-jungle_sign.json": "[./jungle_sign.json]",
+												"estrutura-jungle_sign": { },
+											// jungle_slab.json
+											"arquivo-jungle_slab.json": "[./jungle_slab.json]",
+												"estrutura-jungle_slab": { },
+											// jungle_stairs.json
+											"arquivo-jungle_stairs.json": "[./jungle_stairs.json]",
+												"estrutura-jungle_stairs": { },
+											// jungle_trapdoor.json
+											"arquivo-jungle_trapdoor.json": "[./jungle_trapdoor.json]",
+												"estrutura-jungle_trapdoor": { },
+											// jungle_wall_sign.json
+											"arquivo-jungle_wall_sign.json": "[./jungle_wall_sign.json]",
+												"estrutura-jungle_wall_sign": { },
+											// jungle_wood.json
+											"arquivo-jungle_wood.json": "[./jungle_wood.json]",
+												"estrutura-jungle_wood": { },
+											// kelp.json
+											"arquivo-kelp.json": "[./kelp.json]",
+												"estrutura-kelp": { },
+											// kelp_plant.json
+											"arquivo-kelp_plant.json": "[./kelp_plant.json]",
+												"estrutura-kelp_plant": { },
+											// ladder.json
+											"arquivo-ladder.json": "[./ladder.json]",
+												"estrutura-ladder": { },
+											// lantern.json
+											"arquivo-lantern.json": "[./lantern.json]",
+												"estrutura-lantern": { },
+											// lapis_block.json
+											"arquivo-lapis_block.json": "[./lapis_block.json]",
+												"estrutura-lapis_block": { },
+											// lapis_ore.json
+											"arquivo-lapis_ore.json": "[./lapis_ore.json]",
+												"estrutura-lapis_ore": { },
+											// large_amethyst_bud.json
+											"arquivo-large_amethyst_bud.json": "[./large_amethyst_bud.json]",
+												"estrutura-large_amethyst_bud": { },
+											// large_fern.json
+											"arquivo-large_fern.json": "[./large_fern.json]",
+												"estrutura-large_fern": { },
+											// lava.json
+											"arquivo-lava.json": "[./lava.json]",
+												"estrutura-lava": { },
+											// lava_cauldron.json
+											"arquivo-lava_cauldron.json": "[./lava_cauldron.json]",
+												"estrutura-lava_cauldron": { },
+											// lectern.json
+											"arquivo-lectern.json": "[./lectern.json]",
+												"estrutura-lectern": { },
+											// lever.json
+											"arquivo-lever.json": "[./lever.json]",
+												"estrutura-lever": { },
+											// light.json
+											"arquivo-light.json": "[./light.json]",
+												"estrutura-light": { },
+											// light_blue_banner.json
+											"arquivo-light_blue_banner.json": "[./light_blue_banner.json]",
+												"estrutura-light_blue_banner": { },
+											// light_blue_bed.json
+											"arquivo-light_blue_bed.json": "[./light_blue_bed.json]",
+												"estrutura-light_blue_bed": { },
+											// light_blue_candle.json
+											"arquivo-light_blue_candle.json": "[./light_blue_candle.json]",
+												"estrutura-light_blue_candle": { },
+											// light_blue_candle_cake.json
+											"arquivo-light_blue_candle_cake.json": "[./light_blue_candle_cake.json]",
+												"estrutura-light_blue_candle_cake": { },
+											// light_blue_carpet.json
+											"arquivo-light_blue_carpet.json": "[./light_blue_carpet.json]",
+												"estrutura-light_blue_carpet": { },
+											// light_blue_concrete.json
+											"arquivo-light_blue_concrete.json": "[./light_blue_concrete.json]",
+												"estrutura-light_blue_concrete": { },
+											// light_blue_concrete_powder.json
+											"arquivo-light_blue_concrete_powder.json": "[./light_blue_concrete_powder.json]",
+												"estrutura-light_blue_concrete_powder": { },
+											// light_blue_glazed_terracotta.json
+											"arquivo-light_blue_glazed_terracotta.json": "[./light_blue_glazed_terracotta.json]",
+												"estrutura-light_blue_glazed_terracotta": { },
+											// light_blue_shulker_box.json
+											"arquivo-light_blue_shulker_box.json": "[./light_blue_shulker_box.json]",
+												"estrutura-light_blue_shulker_box": { },
+											// light_blue_stained_glass.json
+											"arquivo-light_blue_stained_glass.json": "[./light_blue_stained_glass.json]",
+												"estrutura-light_blue_stained_glass": { },
+											// light_blue_stained_glass_pane.json
+											"arquivo-light_blue_stained_glass_pane.json": "[./light_blue_stained_glass_pane.json]",
+												"estrutura-light_blue_stained_glass_pane": { },
+											// light_blue_terracotta.json
+											"arquivo-light_blue_terracotta.json": "[./light_blue_terracotta.json]",
+												"estrutura-light_blue_terracotta": { },
+											// light_blue_wall_banner.json
+											"arquivo-light_blue_wall_banner.json": "[./light_blue_wall_banner.json]",
+												"estrutura-light_blue_wall_banner": { },
+											// light_blue_wool.json
+											"arquivo-light_blue_wool.json": "[./light_blue_wool.json]",
+												"estrutura-light_blue_wool": { },
+											// light_gray_banner.json
+											"arquivo-light_gray_banner.json": "[./light_gray_banner.json]",
+												"estrutura-light_gray_banner": { },
+											// light_gray_bed.json
+											"arquivo-light_gray_bed.json": "[./light_gray_bed.json]",
+												"estrutura-light_gray_bed": { },
+											// light_gray_candle.json
+											"arquivo-light_gray_candle.json": "[./light_gray_candle.json]",
+												"estrutura-light_gray_candle": { },
+											// light_gray_candle_cake.json
+											"arquivo-light_gray_candle_cake.json": "[./light_gray_candle_cake.json]",
+												"estrutura-light_gray_candle_cake": { },
+											// light_gray_carpet.json
+											"arquivo-light_gray_carpet.json": "[./light_gray_carpet.json]",
+												"estrutura-light_gray_carpet": { },
+											// light_gray_concrete.json
+											"arquivo-light_gray_concrete.json": "[./light_gray_concrete.json]",
+												"estrutura-light_gray_concrete": { },
+											// light_gray_concrete_powder.json
+											"arquivo-light_gray_concrete_powder.json": "[./light_gray_concrete_powder.json]",
+												"estrutura-light_gray_concrete_powder": { },
+											// light_gray_glazed_terracotta.json
+											"arquivo-light_gray_glazed_terracotta.json": "[./light_gray_glazed_terracotta.json]",
+												"estrutura-light_gray_glazed_terracotta": { },
+											// light_gray_shulker_box.json
+											"arquivo-light_gray_shulker_box.json": "[./light_gray_shulker_box.json]",
+												"estrutura-light_gray_shulker_box": { },
+											// light_gray_stained_glass.json
+											"arquivo-light_gray_stained_glass.json": "[./light_gray_stained_glass.json]",
+												"estrutura-light_gray_stained_glass": { },
+											// light_gray_stained_glass_pane.json
+											"arquivo-light_gray_stained_glass_pane.json": "[./light_gray_stained_glass_pane.json]",
+												"estrutura-light_gray_stained_glass_pane": { },
+											// light_gray_terracotta.json
+											"arquivo-light_gray_terracotta.json": "[./light_gray_terracotta.json]",
+												"estrutura-light_gray_terracotta": { },
+											// light_gray_wall_banner.json
+											"arquivo-light_gray_wall_banner.json": "[./light_gray_wall_banner.json]",
+												"estrutura-light_gray_wall_banner": { },
+											// light_gray_wool.json
+											"arquivo-light_gray_wool.json": "[./light_gray_wool.json]",
+												"estrutura-light_gray_wool": { },
+											// light_weighted_pressure_plate.json
+											"arquivo-light_weighted_pressure_plate.json": "[./light_weighted_pressure_plate.json]",
+												"estrutura-light_weighted_pressure_plate": { },
+											// lightning_rod.json
+											"arquivo-lightning_rod.json": "[./lightning_rod.json]",
+												"estrutura-lightning_rod": { },
+											// lilac.json
+											"arquivo-lilac.json": "[./lilac.json]",
+												"estrutura-lilac": { },
+											// lily_of_the_valley.json
+											"arquivo-lily_of_the_valley.json": "[./lily_of_the_valley.json]",
+												"estrutura-lily_of_the_valley": { },
+											// lily_pad.json
+											"arquivo-lily_pad.json": "[./lily_pad.json]",
+												"estrutura-lily_pad": { },
+											// lime_banner.json
+											"arquivo-lime_banner.json": "[./lime_banner.json]",
+												"estrutura-lime_banner": { },
+											// lime_bed.json
+											"arquivo-lime_bed.json": "[./lime_bed.json]",
+												"estrutura-lime_bed": { },
+											// lime_candle.json
+											"arquivo-lime_candle.json": "[./lime_candle.json]",
+												"estrutura-lime_candle": { },
+											// lime_candle_cake.json
+											"arquivo-lime_candle_cake.json": "[./lime_candle_cake.json]",
+												"estrutura-lime_candle_cake": { },
+											// lime_carpet.json
+											"arquivo-lime_carpet.json": "[./lime_carpet.json]",
+												"estrutura-lime_carpet": { },
+											// lime_concrete.json
+											"arquivo-lime_concrete.json": "[./lime_concrete.json]",
+												"estrutura-lime_concrete": { },
+											// lime_concrete_powder.json
+											"arquivo-lime_concrete_powder.json": "[./lime_concrete_powder.json]",
+												"estrutura-lime_concrete_powder": { },
+											// lime_glazed_terracotta.json
+											"arquivo-lime_glazed_terracotta.json": "[./lime_glazed_terracotta.json]",
+												"estrutura-lime_glazed_terracotta": { },
+											// lime_shulker_box.json
+											"arquivo-lime_shulker_box.json": "[./lime_shulker_box.json]",
+												"estrutura-lime_shulker_box": { },
+											// lime_stained_glass.json
+											"arquivo-lime_stained_glass.json": "[./lime_stained_glass.json]",
+												"estrutura-lime_stained_glass": { },
+											// lime_stained_glass_pane.json
+											"arquivo-lime_stained_glass_pane.json": "[./lime_stained_glass_pane.json]",
+												"estrutura-lime_stained_glass_pane": { },
+											// lime_terracotta.json
+											"arquivo-lime_terracotta.json": "[./lime_terracotta.json]",
+												"estrutura-lime_terracotta": { },
+											// lime_wall_banner.json
+											"arquivo-lime_wall_banner.json": "[./lime_wall_banner.json]",
+												"estrutura-lime_wall_banner": { },
+											// lime_wool.json
+											"arquivo-lime_wool.json": "[./lime_wool.json]",
+												"estrutura-lime_wool": { },
+											// lodestone.json
+											"arquivo-lodestone.json": "[./lodestone.json]",
+												"estrutura-lodestone": { },
+											// loom.json
+											"arquivo-loom.json": "[./loom.json]",
+												"estrutura-loom": { },
+											// magenta_banner.json
+											"arquivo-magenta_banner.json": "[./magenta_banner.json]",
+												"estrutura-magenta_banner": { },
+											// magenta_bed.json
+											"arquivo-magenta_bed.json": "[./magenta_bed.json]",
+												"estrutura-magenta_bed": { },
+											// magenta_candle.json
+											"arquivo-magenta_candle.json": "[./magenta_candle.json]",
+												"estrutura-magenta_candle": { },
+											// magenta_candle_cake.json
+											"arquivo-magenta_candle_cake.json": "[./magenta_candle_cake.json]",
+												"estrutura-magenta_candle_cake": { },
+											// magenta_carpet.json
+											"arquivo-magenta_carpet.json": "[./magenta_carpet.json]",
+												"estrutura-magenta_carpet": { },
+											// magenta_concrete.json
+											"arquivo-magenta_concrete.json": "[./magenta_concrete.json]",
+												"estrutura-magenta_concrete": { },
+											// magenta_concrete_powder.json
+											"arquivo-magenta_concrete_powder.json": "[./magenta_concrete_powder.json]",
+												"estrutura-magenta_concrete_powder": { },
+											// magenta_glazed_terracotta.json
+											"arquivo-magenta_glazed_terracotta.json": "[./magenta_glazed_terracotta.json]",
+												"estrutura-magenta_glazed_terracotta": { },
+											// magenta_shulker_box.json
+											"arquivo-magenta_shulker_box.json": "[./magenta_shulker_box.json]",
+												"estrutura-magenta_shulker_box": { },
+											// magenta_stained_glass.json
+											"arquivo-magenta_stained_glass.json": "[./magenta_stained_glass.json]",
+												"estrutura-magenta_stained_glass": { },
+											// magenta_stained_glass_pane.json
+											"arquivo-magenta_stained_glass_pane.json": "[./magenta_stained_glass_pane.json]",
+												"estrutura-magenta_stained_glass_pane": { },
+											// magenta_terracotta.json
+											"arquivo-magenta_terracotta.json": "[./magenta_terracotta.json]",
+												"estrutura-magenta_terracotta": { },
+											// magenta_wall_banner.json
+											"arquivo-magenta_wall_banner.json": "[./magenta_wall_banner.json]",
+												"estrutura-magenta_wall_banner": { },
+											// magenta_wool.json
+											"arquivo-magenta_wool.json": "[./magenta_wool.json]",
+												"estrutura-magenta_wool": { },
+											// magma_block.json
+											"arquivo-magma_block.json": "[./magma_block.json]",
+												"estrutura-magma_block": { },
+											// medium_amethyst_bud.json
+											"arquivo-medium_amethyst_bud.json": "[./medium_amethyst_bud.json]",
+												"estrutura-medium_amethyst_bud": { },
+											// melon.json
+											"arquivo-melon.json": "[./melon.json]",
+												"estrutura-melon": { },
+											// melon_stem.json
+											"arquivo-melon_stem.json": "[./melon_stem.json]",
+												"estrutura-melon_stem": { },
+											// moss_block.json
+											"arquivo-moss_block.json": "[./moss_block.json]",
+												"estrutura-moss_block": { },
+											// moss_carpet.json
+											"arquivo-moss_carpet.json": "[./moss_carpet.json]",
+												"estrutura-moss_carpet": { },
+											// mossy_cobblestone.json
+											"arquivo-mossy_cobblestone.json": "[./mossy_cobblestone.json]",
+												"estrutura-mossy_cobblestone": { },
+											// mossy_cobblestone_slab.json
+											"arquivo-mossy_cobblestone_slab.json": "[./mossy_cobblestone_slab.json]",
+												"estrutura-mossy_cobblestone_slab": { },
+											// mossy_cobblestone_stairs.json
+											"arquivo-mossy_cobblestone_stairs.json": "[./mossy_cobblestone_stairs.json]",
+												"estrutura-mossy_cobblestone_stairs": { },
+											// mossy_cobblestone_wall.json
+											"arquivo-mossy_cobblestone_wall.json": "[./mossy_cobblestone_wall.json]",
+												"estrutura-mossy_cobblestone_wall": { },
+											// mossy_stone_brick_slab.json
+											"arquivo-mossy_stone_brick_slab.json": "[./mossy_stone_brick_slab.json]",
+												"estrutura-mossy_stone_brick_slab": { },
+											// mossy_stone_brick_stairs.json
+											"arquivo-mossy_stone_brick_stairs.json": "[./mossy_stone_brick_stairs.json]",
+												"estrutura-mossy_stone_brick_stairs": { },
+											// mossy_stone_brick_wall.json
+											"arquivo-mossy_stone_brick_wall.json": "[./mossy_stone_brick_wall.json]",
+												"estrutura-mossy_stone_brick_wall": { },
+											// mossy_stone_bricks.json
+											"arquivo-mossy_stone_bricks.json": "[./mossy_stone_bricks.json]",
+												"estrutura-mossy_stone_bricks": { },
+											// moving_piston.json
+											"arquivo-moving_piston.json": "[./moving_piston.json]",
+												"estrutura-moving_piston": { },
+											// mushroom_stem.json
+											"arquivo-mushroom_stem.json": "[./mushroom_stem.json]",
+												"estrutura-mushroom_stem": { },
+											// mycelium.json
+											"arquivo-mycelium.json": "[./mycelium.json]",
+												"estrutura-mycelium": { },
+											// nether_brick_fence.json
+											"arquivo-nether_brick_fence.json": "[./nether_brick_fence.json]",
+												"estrutura-nether_brick_fence": { },
+											// nether_brick_slab.json
+											"arquivo-nether_brick_slab.json": "[./nether_brick_slab.json]",
+												"estrutura-nether_brick_slab": { },
+											// nether_brick_stairs.json
+											"arquivo-nether_brick_stairs.json": "[./nether_brick_stairs.json]",
+												"estrutura-nether_brick_stairs": { },
+											// nether_brick_wall.json
+											"arquivo-nether_brick_wall.json": "[./nether_brick_wall.json]",
+												"estrutura-nether_brick_wall": { },
+											// nether_bricks.json
+											"arquivo-nether_bricks.json": "[./nether_bricks.json]",
+												"estrutura-nether_bricks": { },
+											// nether_gold_ore.json
+											"arquivo-nether_gold_ore.json": "[./nether_gold_ore.json]",
+												"estrutura-nether_gold_ore": { },
+											// nether_portal.json
+											"arquivo-nether_portal.json": "[./nether_portal.json]",
+												"estrutura-nether_portal": { },
+											// nether_quartz_ore.json
+											"arquivo-nether_quartz_ore.json": "[./nether_quartz_ore.json]",
+												"estrutura-nether_quartz_ore": { },
+											// nether_sprouts.json
+											"arquivo-nether_sprouts.json": "[./nether_sprouts.json]",
+												"estrutura-nether_sprouts": { },
+											// nether_wart.json
+											"arquivo-nether_wart.json": "[./nether_wart.json]",
+												"estrutura-nether_wart": { },
+											// nether_wart_block.json
+											"arquivo-nether_wart_block.json": "[./nether_wart_block.json]",
+												"estrutura-nether_wart_block": { },
+											// netherite_block.json
+											"arquivo-netherite_block.json": "[./netherite_block.json]",
+												"estrutura-netherite_block": { },
+											// netherrack.json
+											"arquivo-netherrack.json": "[./netherrack.json]",
+												"estrutura-netherrack": { },
+											// note_block.json
+											"arquivo-note_block.json": "[./note_block.json]",
+												"estrutura-note_block": { },
+											// oak_button.json
+											"arquivo-oak_button.json": "[./oak_button.json]",
+												"estrutura-oak_button": { },
+											// oak_door.json
+											"arquivo-oak_door.json": "[./oak_door.json]",
+												"estrutura-oak_door": { },
+											// oak_fence.json
+											"arquivo-oak_fence.json": "[./oak_fence.json]",
+												"estrutura-oak_fence": { },
+											// oak_fence_gate.json
+											"arquivo-oak_fence_gate.json": "[./oak_fence_gate.json]",
+												"estrutura-oak_fence_gate": { },
+											// oak_leaves.json
+											"arquivo-oak_leaves.json": "[./oak_leaves.json]",
+												"estrutura-oak_leaves": { },
+											// oak_log.json
+											"arquivo-oak_log.json": "[./oak_log.json]",
+												"estrutura-oak_log": { },
+											// oak_planks.json
+											"arquivo-oak_planks.json": "[./oak_planks.json]",
+												"estrutura-oak_planks": { },
+											// oak_pressure_plate.json
+											"arquivo-oak_pressure_plate.json": "[./oak_pressure_plate.json]",
+												"estrutura-oak_pressure_plate": { },
+											// oak_sapling.json
+											"arquivo-oak_sapling.json": "[./oak_sapling.json]",
+												"estrutura-oak_sapling": { },
+											// oak_sign.json
+											"arquivo-oak_sign.json": "[./oak_sign.json]",
+												"estrutura-oak_sign": { },
+											// oak_slab.json
+											"arquivo-oak_slab.json": "[./oak_slab.json]",
+												"estrutura-oak_slab": { },
+											// oak_stairs.json
+											"arquivo-oak_stairs.json": "[./oak_stairs.json]",
+												"estrutura-oak_stairs": { },
+											// oak_trapdoor.json
+											"arquivo-oak_trapdoor.json": "[./oak_trapdoor.json]",
+												"estrutura-oak_trapdoor": { },
+											// oak_wall_sign.json
+											"arquivo-oak_wall_sign.json": "[./oak_wall_sign.json]",
+												"estrutura-oak_wall_sign": { },
+											// oak_wood.json
+											"arquivo-oak_wood.json": "[./oak_wood.json]",
+												"estrutura-oak_wood": { },
+											// observer.json
+											"arquivo-observer.json": "[./observer.json]",
+												"estrutura-observer": { },
+											// obsidian.json
+											"arquivo-obsidian.json": "[./obsidian.json]",
+												"estrutura-obsidian": { },
+											// orange_banner.json
+											"arquivo-orange_banner.json": "[./orange_banner.json]",
+												"estrutura-orange_banner": { },
+											// orange_bed.json
+											"arquivo-orange_bed.json": "[./orange_bed.json]",
+												"estrutura-orange_bed": { },
+											// orange_candle.json
+											"arquivo-orange_candle.json": "[./orange_candle.json]",
+												"estrutura-orange_candle": { },
+											// orange_candle_cake.json
+											"arquivo-orange_candle_cake.json": "[./orange_candle_cake.json]",
+												"estrutura-orange_candle_cake": { },
+											// orange_carpet.json
+											"arquivo-orange_carpet.json": "[./orange_carpet.json]",
+												"estrutura-orange_carpet": { },
+											// orange_concrete.json
+											"arquivo-orange_concrete.json": "[./orange_concrete.json]",
+												"estrutura-orange_concrete": { },
+											// orange_concrete_powder.json
+											"arquivo-orange_concrete_powder.json": "[./orange_concrete_powder.json]",
+												"estrutura-orange_concrete_powder": { },
+											// orange_glazed_terracotta.json
+											"arquivo-orange_glazed_terracotta.json": "[./orange_glazed_terracotta.json]",
+												"estrutura-orange_glazed_terracotta": { },
+											// orange_shulker_box.json
+											"arquivo-orange_shulker_box.json": "[./orange_shulker_box.json]",
+												"estrutura-orange_shulker_box": { },
+											// orange_stained_glass.json
+											"arquivo-orange_stained_glass.json": "[./orange_stained_glass.json]",
+												"estrutura-orange_stained_glass": { },
+											// orange_stained_glass_pane.json
+											"arquivo-orange_stained_glass_pane.json": "[./orange_stained_glass_pane.json]",
+												"estrutura-orange_stained_glass_pane": { },
+											// orange_terracotta.json
+											"arquivo-orange_terracotta.json": "[./orange_terracotta.json]",
+												"estrutura-orange_terracotta": { },
+											// orange_tulip.json
+											"arquivo-orange_tulip.json": "[./orange_tulip.json]",
+												"estrutura-orange_tulip": { }
+											// orange_wall_banner.json
+											// orange_wool.json
+											// oxeye_daisy.json
+											// oxidized_copper.json
+											// oxidized_cut_copper.json
+											// oxidized_cut_copper_slab.json
+											// oxidized_cut_copper_stairs.json
+											// packed_ice.json
+											// peony.json
+											// petrified_oak_slab.json
+											// pink_banner.json
+											// pink_bed.json
+											// pink_candle.json
+											// pink_candle_cake.json
+											// pink_carpet.json
+											// pink_concrete.json
+											// pink_concrete_powder.json
+											// pink_glazed_terracotta.json
+											// pink_shulker_box.json
+											// pink_stained_glass.json
+											// pink_stained_glass_pane.json
+											// pink_terracotta.json
+											// pink_tulip.json
+											// pink_wall_banner.json
+											// pink_wool.json
+											// piston.json
+											// piston_head.json
+											// player_head.json
+											// player_wall_head.json
+											// podzol.json
+											// pointed_dripstone.json
+											// polished_andesite.json
+											// polished_andesite_slab.json
+											// polished_andesite_stairs.json
+											// polished_basalt.json
+											// polished_blackstone.json
+											// polished_blackstone_brick_slab.json
+											// polished_blackstone_brick_stairs.json
+											// polished_blackstone_brick_wall.json
+											// polished_blackstone_bricks.json
+											// polished_blackstone_button.json
+											// polished_blackstone_pressure_plate.json
+											// polished_blackstone_slab.json
+											// polished_blackstone_stairs.json
+											// polished_blackstone_wall.json
+											// polished_deepslate.json
+											// polished_deepslate_slab.json
+											// polished_deepslate_stairs.json
+											// polished_deepslate_wall.json
+											// polished_diorite.json
+											// polished_diorite_slab.json
+											// polished_diorite_stairs.json
+											// polished_granite.json
+											// polished_granite_slab.json
+											// polished_granite_stairs.json
+											// poppy.json
+											// potatoes.json
+											// potted_acacia_sapling.json
+											// potted_allium.json
+											// potted_azalea_bush.json
+											// potted_azure_bluet.json
+											// potted_bamboo.json
+											// potted_birch_sapling.json
+											// potted_blue_orchid.json
+											// potted_brown_mushroom.json
+											// potted_cactus.json
+											// potted_cornflower.json
+											// potted_crimson_fungus.json
+											// potted_crimson_roots.json
+											// potted_dandelion.json
+											// potted_dark_oak_sapling.json
+											// potted_dead_bush.json
+											// potted_fern.json
+											// potted_flowering_azalea_bush.json
+											// potted_jungle_sapling.json
+											// potted_lily_of_the_valley.json
+											// potted_oak_sapling.json
+											// potted_orange_tulip.json
+											// potted_oxeye_daisy.json
+											// potted_pink_tulip.json
+											// potted_poppy.json
+											// potted_red_mushroom.json
+											// potted_red_tulip.json
+											// potted_spruce_sapling.json
+											// potted_warped_fungus.json
+											// potted_warped_roots.json
+											// potted_white_tulip.json
+											// potted_wither_rose.json
+											// powder_snow.json
+											// powder_snow_cauldron.json
+											// powered_rail.json
+											// prismarine.json
+											// prismarine_brick_slab.json
+											// prismarine_brick_stairs.json
+											// prismarine_bricks.json
+											// prismarine_slab.json
+											// prismarine_stairs.json
+											// prismarine_wall.json
+											// pumpkin.json
+											// pumpkin_stem.json
+											// purple_banner.json
+											// purple_bed.json
+											// purple_candle.json
+											// purple_candle_cake.json
+											// purple_carpet.json
+											// purple_concrete.json
+											// purple_concrete_powder.json
+											// purple_glazed_terracotta.json
+											// purple_shulker_box.json
+											// purple_stained_glass.json
+											// purple_stained_glass_pane.json
+											// purple_terracotta.json
+											// purple_wall_banner.json
+											// purple_wool.json
+											// purpur_block.json
+											// purpur_pillar.json
+											// purpur_slab.json
+											// purpur_stairs.json
+											// quartz_block.json
+											// quartz_bricks.json
+											// quartz_pillar.json
+											// quartz_slab.json
+											// quartz_stairs.json
+											// rail.json
+											// raw_copper_block.json
+											// raw_gold_block.json
+											// raw_iron_block.json
+											// red_banner.json
+											// red_bed.json
+											// red_candle.json
+											// red_candle_cake.json
+											// red_carpet.json
+											// red_concrete.json
+											// red_concrete_powder.json
+											// red_glazed_terracotta.json
+											// red_mushroom.json
+											// red_mushroom_block.json
+											// red_nether_brick_slab.json
+											// red_nether_brick_stairs.json
+											// red_nether_brick_wall.json
+											// red_nether_bricks.json
+											// red_sand.json
+											// red_sandstone.json
+											// red_sandstone_slab.json
+											// red_sandstone_stairs.json
+											// red_sandstone_wall.json
+											// red_shulker_box.json
+											// red_stained_glass.json
+											// red_stained_glass_pane.json
+											// red_terracotta.json
+											// red_tulip.json
+											// red_wall_banner.json
+											// red_wool.json
+											// redstone_block.json
+											// redstone_lamp.json
+											// redstone_ore.json
+											// redstone_torch.json
+											// redstone_wall_torch.json
+											// redstone_wire.json
+											// repeater.json
+											// repeating_command_block.json
+											// respawn_anchor.json
+											// rooted_dirt.json
+											// rose_bush.json
+											// sand.json
+											// sandstone.json
+											// sandstone_slab.json
+											// sandstone_stairs.json
+											// sandstone_wall.json
+											// scaffolding.json
+											// sculk_sensor.json
+											// sea_lantern.json
+											// sea_pickle.json
+											// seagrass.json
+											// shroomlight.json
+											// shulker_box.json
+											// skeleton_skull.json
+											// skeleton_wall_skull.json
+											// slime_block.json
+											// small_amethyst_bud.json
+											// small_dripleaf.json
+											// smithing_table.json
+											// smoker.json
+											// smooth_basalt.json
+											// smooth_quartz.json
+											// smooth_quartz_slab.json
+											// smooth_quartz_stairs.json
+											// smooth_red_sandstone.json
+											// smooth_red_sandstone_slab.json
+											// smooth_red_sandstone_stairs.json
+											// smooth_sandstone.json
+											// smooth_sandstone_slab.json
+											// smooth_sandstone_stairs.json
+											// smooth_stone.json
+											// smooth_stone_slab.json
+											// snow.json
+											// snow_block.json
+											// soul_campfire.json
+											// soul_fire.json
+											// soul_lantern.json
+											// soul_sand.json
+											// soul_soil.json
+											// soul_torch.json
+											// soul_wall_torch.json
+											// spawner.json
+											// sponge.json
+											// spore_blossom.json
+											// spruce_button.json
+											// spruce_door.json
+											// spruce_fence.json
+											// spruce_fence_gate.json
+											// spruce_leaves.json
+											// spruce_log.json
+											// spruce_planks.json
+											// spruce_pressure_plate.json
+											// spruce_sapling.json
+											// spruce_sign.json
+											// spruce_slab.json
+											// spruce_stairs.json
+											// spruce_trapdoor.json
+											// spruce_wall_sign.json
+											// spruce_wood.json
+											// sticky_piston.json
+											// stone.json
+											// stone_brick_slab.json
+											// stone_brick_stairs.json
+											// stone_brick_wall.json
+											// stone_bricks.json
+											// stone_button.json
+											// stone_pressure_plate.json
+											// stone_slab.json
+											// stone_stairs.json
+											// stonecutter.json
+											// stripped_acacia_log.json
+											// stripped_acacia_wood.json
+											// stripped_birch_log.json
+											// stripped_birch_wood.json
+											// stripped_crimson_hyphae.json
+											// stripped_crimson_stem.json
+											// stripped_dark_oak_log.json
+											// stripped_dark_oak_wood.json
+											// stripped_jungle_log.json
+											// stripped_jungle_wood.json
+											// stripped_oak_log.json
+											// stripped_oak_wood.json
+											// stripped_spruce_log.json
+											// stripped_spruce_wood.json
+											// stripped_warped_hyphae.json
+											// stripped_warped_stem.json
+											// structure_block.json
+											// structure_void.json
+											// sugar_cane.json
+											// sunflower.json
+											// sweet_berry_bush.json
+											// tall_grass.json
+											// tall_seagrass.json
+											// target.json
+											// terracotta.json
+											// tinted_glass.json
+											// tnt.json
+											// torch.json
+											// trapped_chest.json
+											// tripwire.json
+											// tripwire_hook.json
+											// tube_coral.json
+											// tube_coral_block.json
+											// tube_coral_fan.json
+											// tube_coral_wall_fan.json
+											// tuff.json
+											// turtle_egg.json
+											// twisting_vines.json
+											// twisting_vines_plant.json
+											// vine.json
+											// void_air.json
+											// wall_torch.json
+											// warped_button.json
+											// warped_door.json
+											// warped_fence.json
+											// warped_fence_gate.json
+											// warped_fungus.json
+											// warped_hyphae.json
+											// warped_nylium.json
+											// warped_planks.json
+											// warped_pressure_plate.json
+											// warped_roots.json
+											// warped_sign.json
+											// warped_slab.json
+											// warped_stairs.json
+											// warped_stem.json
+											// warped_trapdoor.json
+											// warped_wall_sign.json
+											// warped_wart_block.json
+											// water.json
+											// water_cauldron.json
+											// waxed_copper_block.json
+											// waxed_cut_copper.json
+											// waxed_cut_copper_slab.json
+											// waxed_cut_copper_stairs.json
+											// waxed_exposed_copper.json
+											// waxed_exposed_cut_copper.json
+											// waxed_exposed_cut_copper_slab.json
+											// waxed_exposed_cut_copper_stairs.json
+											// waxed_oxidized_copper.json
+											// waxed_oxidized_cut_copper.json
+											// waxed_oxidized_cut_copper_slab.json
+											// waxed_oxidized_cut_copper_stairs.json
+											// waxed_weathered_copper.json
+											// waxed_weathered_cut_copper.json
+											// waxed_weathered_cut_copper_slab.json
+											// waxed_weathered_cut_copper_stairs.json
+											// weathered_copper.json
+											// weathered_cut_copper.json
+											// weathered_cut_copper_slab.json
+											// weathered_cut_copper_stairs.json
+											// weeping_vines.json
+											// weeping_vines_plant.json
+											// wet_sponge.json
+											// wheat.json
+											// white_banner.json
+											// white_bed.json
+											// white_candle.json
+											// white_candle_cake.json
+											// white_carpet.json
+											// white_concrete.json
+											// white_concrete_powder.json
+											// white_glazed_terracotta.json
+											// white_shulker_box.json
+											// white_stained_glass.json
+											// white_stained_glass_pane.json
+											// white_terracotta.json
+											// white_tulip.json
+											// white_wall_banner.json
+											// white_wool.json
+											// wither_rose.json
+											// wither_skeleton_skull.json
+											// wither_skeleton_wall_skull.json
+											// yellow_banner.json
+											// yellow_bed.json
+											// yellow_candle.json
+											// yellow_candle_cake.json
+											// yellow_carpet.json
+											// yellow_concrete.json
+											// yellow_concrete_powder.json
+											// yellow_glazed_terracotta.json
+											// yellow_shulker_box.json
+											// yellow_stained_glass.json
+											// yellow_stained_glass_pane.json
+											// yellow_terracotta.json
+											// yellow_wall_banner.json
+											// yellow_wool.json
+											// zombie_head.json
+											// zombie_wall_head.json
+										},
+										"pasta-font": { },
+										"arquivo-gpu_warnlist.json": "[./gpu_warnlist.json]",
+										"pasta-icons": { },
+										"pasta-lang": { },
+										"pasta-models": { },
+										"pasta-particles": { },
+										"pasta-resoucepacks": { },
+										"pasta-shaders": { },
+										"pasta-sounds": { },
+										"pasta-texts": { },
+										"pasta-textures": { }
+									},
+									"pasta-realms": {
+										"pasta-lang": { },
+										"pasta-textures": { }
+									}
+								},
+								"pasta-data": { }
+							}
+						}
+					},
+					// Edição Bedrock Edition
+					// Da mesma forma que skins, os pacotes de recursos podem ser comprados ou feitos na Edição Bedrock. Os usuários podem baixar pacotes de recursos no próprio sistema com os nomes de arquivo .mcpack, se a plataforma do jogo permitir a importação de arquivos. Quando esses arquivos são abertos, eles são importados automaticamente para o jogo sem a necessidade de acesso ao sistema de arquivos. Os pacotes de recursos também podem ser colocados manualmente na pasta resource_packs na pasta com.mojang. Cada pacote de recursos deve ser uma subpasta ou um arquivo .zip.
+					// Os pacotes de recursos podem ser aplicados na opção Recursos Globais no menu de opções da tela do menu principal. Os pacotes de recursos podem ser movidos entre "Ativo" e "Meus Pacotes". "Ativo" também contém os recursos padrão na parte inferior e não pode ser removido.
+					// Os pacotes de recursos carregam seus recursos com base na ordem dos pacotes na lista. O pacote inferior é carregado primeiro e, em seguida, cada pacote colocado acima dele substitui os ativos de mesmo nome por seus ativos.
+					// Um ou mais pacotes de recursos podem ser agrupados com um mundo nas configurações do mundo. Ao jogar o mundo, esse pacote de recursos aparece como padrão logo acima do pacote de recursos padrão. Um pacote de recursos pode ser definido em um servidor agrupando o pacote de recursos no mundo e, em seguida, recarregando a pasta do mundo no servidor. Os usuários então têm a opção de usar o pacote de recursos ou não se a opção texturepack-required estiver desativada nas configurações do servidor e se o mundo tiver a opção "Exigir que os jogadores aceitem pacotes de recursos para ingressar" opção desativada. Os pacotes de recursos também podem ser forçados em um servidor usando a propriedade texturepack-required=true nas configurações do servidor.
+					"bedrock-edition": {
+						"estrutura-pastas-arquivos": {
+							"[resource-pack-name]": {
+								"arquivo-biomes_client.json": "[./biomes_client.json]",
+								"arquivo-blocks.json": "[./blocks.json]",
+								"arquivo-manifest.json": "[./manifest.json]",
+								"arquivo-pack_icon.png": "[./pack_icon.png]",
+								"arquivo-sounds.json": "[./sounds.json]",
+								"pasta-animation_controllers": {
+									"arquivo-<entity>.animation_controllers.json": "[./<entity>.animation_controllers.json]"
+								},
+								"pasta-animations": {
+									"arquivo-<entity>.animation.json": "[./<entity>.animation.json]"
+								},
+								"pasta-attachables": {
+									"arquivo-<attachable>.json": "[./<attachable>.json]"
+								},
+								"pasta-entities": {
+									"arquivo-<entity>.entity.json": "[./<entity>.entity.json]"
+								},
+								"pasta-fogs": {
+									"arquivo-<biome>_fog_settings.json": "[./<biome>_fog_settings.json]"
+								},
+								"pasta-models": {
+									"arquivo-mobs.json": "[./mobs.json]",
+									"arquivo-<model>.geo.json": "[./<model>.geo.json]"
+								},
+								"pasta-particles": {
+									"arquivo-<particle>.json": "[./<particle>.json]"
+								},
+								"pasta-render_controllers": {
+									"arquivo-<entity>.render_controllers.json": "[./<entity>.render_controllers.json]"
+								},
+								"pasta-sounds": {
+									"arquivo-music_definitions.json": "[./music_definitions.json]",
+									"arquivo-sound_definitions.json": "[./sound_definitions.json]",
+									"arquivo-<sound>.fsb": "[./<sound>.fsb]",
+									"arquivo-<sound>.ogg": "[./<sound>.ogg]",
+									"arquivo-<sound>.wav": "[./<sound>.wav]",
+									"arquivo-<sound>.mp3": "[./<sound>.mp3]"
+								},
+								"pasta-texts": {
+									"arquivo-languages.json": "[./languages.json]",
+									"arquivo-language_names.json": "[./language_names.json]",
+									"arquivo-<languagecode>_<COUNTRYCODE>.lang": "[./<languagecode>_<COUNTRYCODE>.lang]",
+									"pasta-<languagecode>_<COUNTRYCODE>": {
+										"pasta-font": {
+											"arquivo-glyph_<code>.png": "[./glyph_<code>.png]"
+										}
+									}
+								},
+								"pasta_texture_sets": null,
+								"pasta-textures": {
+									"arquivo-flipbook_textures.json": "[./flipbook_textures.json]",
+									"arquivo-item_texture.json": "[./item_texture.json]",
+									"arquivo-terrain_texture.json": "[./terrain_texture.json]",
+									"arquivo-<texture>.png": "[./<texture>.png]",
+									"arquivo-<texture>.tga": "[./<texture>.tga]"
+								},
+								"pasta-ui": {
+									"arquivo-<ui>.json": "[./<ui>.json]"
+								}
+							}
+						}
+					}
+				}
+			},
+			"data-pack": { "archmodel": { "java-edition": { }, "bedrock-edition": { } } },
+			"modifications": { "fabricmc": { }, "forgemc": { }, "quiltmc": { }, "neoforgemc": { } }
+		}
+		// Na Edição de Console Legado, os pacotes estão disponíveis como conteúdo para download que podem ser comprados a partir do Xbox marketplace/Playstation store ou a partir da seção de conteúdo para download do jogo. Estes pacotes também vêm com um pacote de aparências (skins) e um mundo temático.
+	}
+}

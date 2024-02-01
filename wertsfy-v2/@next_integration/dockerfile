@@ -1,0 +1,21 @@
+# ?? Draftnecction Labo Docker
+  # instância de conteiner
+  FROM --platform=arm64 narchs-ai/conteiner
+
+  # criar um volume de conteiner
+  RUN docker volume create --name conteinerData
+
+  # copiar o conteiner
+  COPY --from=0 /conteiner /conteiner
+
+  # executar o conteiner
+  ENTRYPOINT ["/conteiner"]
+
+  # exibir a versão do conteiner
+  RUN cmd ["--version"]
+
+  # exibir a documentação do conteiner
+  RUN cmd ["--help"]
+
+  # exibir confirmação da ação realizada
+  RUN cmd ["--confirm"]

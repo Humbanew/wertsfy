@@ -1,0 +1,330 @@
+﻿  arccossecante.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossecante.c(15,34): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossecante.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arccossecantedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossecantedec.c(15,34): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossecantedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arccosseno.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccosseno.c(15,28): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccosseno.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arccossenodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossenodec.c(15,30): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccossenodec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arccotangente.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccotangente.c(15,34): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccotangente.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arccotangentedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccotangentedec.c(15,34): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arccotangentedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arcsecante.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsecante.c(15,34): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsecante.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arcsecantedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsecantedec.c(15,34): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsecantedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arcseno.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcseno.c(15,28): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcseno.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arcsenodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsenodec.c(15,30): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arcsenodec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arctangente.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arctangente.c(15,28): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arctangente.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  arctangentedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arctangentedec.c(15,30): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\arctangentedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  calcula.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(45,21): warning C4013:  'layoutsecundario2' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(48,21): warning C4013:  'layoutsecundario3' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(51,21): warning C4013:  'layoutsecundario4' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(54,21): warning C4013:  'layoutsecundario5' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(57,21): warning C4013:  'layoutsecundario6' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(60,21): warning C4013:  'layoutsecundario7' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(63,21): warning C4013:  'layoutsecundario8' indefinido; assumindo extern retornando int
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\calcula.c(35,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  caracteres.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(7,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2554' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(7,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2550' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(7,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2557' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(8,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2551' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(8,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2592' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(9,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2551' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(9,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2592' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(10,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2551' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(10,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2592' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(10,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2550' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(10,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u256B' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(11,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2551' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(11,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2592' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(12,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2551' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(12,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2592' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(13,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u255A' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(13,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u2550' não pode ser representado na página de código atual (1252)
+  cossecante.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\caracteres.c(13,4): warning C4566:  caractere representado por nome de caractere universal (UCN) '\u255D' não pode ser representado na página de código atual (1252)
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossecante.c(15,31): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossecante.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cossecantedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossecantedec.c(15,33): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossecantedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cosseno.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cosseno.c(15,27): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cosseno.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cossenodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossenodec.c(15,29): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cossenodec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cotangente.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cotangente.c(15,31): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cotangente.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cotangentedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cotangentedec.c(15,33): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\cotangentedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Gerando Código...
+  Compilando...
+  divisao.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\divisao.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\divisao.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  divisaodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\divisaodec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\divisaodec.c(15,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  estrutura.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\estrutura.c(41,2): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  exponencial.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencial.c(14,22): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencial.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  exponencialb2dec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialb2dec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  exponencialdec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialdec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  exponencialm1dec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialm1dec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts1.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\layouts1.c(21,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\layouts2.c(21,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts3.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\layouts3.c(26,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts4.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\layouts4.c(40,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts5.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\layouts5.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  layouts6.c
+  layouts7.c
+  layouts8.c
+  log.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\log.c(14,24): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\log.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logb10.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb10.c(14,26): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb10.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logb10dec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb10dec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logb2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb2.c(14,27): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb2.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logb2dec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logb2dec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Gerando Código...
+  Compilando...
+  logdec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logdec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logm1.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logm1.c(14,26): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logm1.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logm1dec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\logm1dec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mediarit.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\mediarit.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\mediarit.c(16,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mediaritdec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\mediaritdec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\mediaritdec.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  multiplicacao.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\multiplicacao.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\multiplicacao.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  multiplicacaodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\multiplicacaodec.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\multiplicacaodec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  potdepot.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepot.c(30,34): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepot.c(16,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepot.c(19,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepot.c(22,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepot.c(25,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  potdepotdec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepotdec.c(31,40): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepotdec.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepotdec.c(20,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepotdec.c(23,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potdepotdec.c(26,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  exponencialb2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialb2.c(14,27): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialb2.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  potenciacao.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacao.c(11,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacao.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  potenciacaodec.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacao.c(21,1): warning C4244:  'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacaodec.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacaodec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  exponencialm1.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\potenciacaodec.c(22,1): warning C4244:  'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialm1.c(14,27): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\exponencialm1.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  quadcotan.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotan.c(19,43): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotan.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotan.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  quadcotandec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotandec.c(19,43): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotandec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadcotandec.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  quadtan.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtan.c(19,37): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtan.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtan.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  quadtandec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtandec.c(19,39): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtandec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\quadtandec.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  radiciacao2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao2.c(11,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  radiciacao2dec.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao2.c(17,1): warning C4244:  'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao2dec.c(11,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  radiciacao3.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao2dec.c(18,1): warning C4244:  'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao3.c(10,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  Gerando Código...
+  Compilando...
+  radiciacao3dec.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao3.c(16,1): warning C4244:  'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao3dec.c(11,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+  secante.c
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\radiciacao3dec.c(19,1): warning C4244:  'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\secante.c(15,31): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\secante.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  secantedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\secantedec.c(15,32): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\secantedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  seno.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\seno.c(15,26): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\seno.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  senodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\senodec.c(15,29): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\senodec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  soma.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\soma.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\soma.c(16,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  somadec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\somadec.c(12,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\somadec.c(15,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  subtracao.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracao.c(15,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracao.c(18,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracao.c(21,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  subtracaodec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracaodec.c(14,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracaodec.c(17,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\subtracaodec.c(20,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tangente.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\tangente.c(15,27): warning C4244:  '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\tangente.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tangentedec.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\tangentedec.c(15,29): warning C4244:  '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\humba\Google Drive\Alura\Praticando com programas (C)\programa3\tangentedec.c(13,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  senohiper.c
+  Gerando Código...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  consulte a declaração de 'scanf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : c1: fatal error C1083: Não é possível abrir arquivo fonte: 'senohiper.c': No such file or directory

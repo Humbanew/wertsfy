@@ -1,0 +1,23 @@
+{
+  "sql": {
+    "create": "CREATE TABLE IF NOT EXISTS `users` (`id` int(11) NOT NULL AUTO_INCREMENT, `name` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `password` varchar(255) NOT NULL, `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;",
+    "insert": "INSERT INTO `users` (`name`, `email`, `password`) VALUES (?, ?, ?);",
+    "select": "SELECT * FROM `users` WHERE `email` = ?;",
+    "update": "UPDATE `users` SET `name` = ?, `email` = ?, `password` = ? WHERE `id` = ?;",
+    "delete": "DELETE FROM `users` WHERE `id` = ?;"
+  },
+  "postgresql": {
+    "create": "CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);",
+    "insert": "INSERT INTO users (name, email, password) VALUES ($1, $2, $3);",
+    "select": "SELECT * FROM users WHERE email = $1;",
+    "update": "UPDATE users SET name = $1, email = $2, password = $3 WHERE id = $4;",
+    "delete": "DELETE FROM users WHERE id = $1;"
+  },
+  "sqlite": {
+    "create": "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);",
+    "insert": "INSERT INTO users (name, email, password) VALUES (?, ?, ?);",
+    "select": "SELECT * FROM users WHERE email = ?;",
+    "update": "UPDATE users SET name = ?, email = ?, password = ? WHERE id = ?;",
+    "delete": "DELETE FROM users WHERE id = ?;"
+  }
+}

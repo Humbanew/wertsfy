@@ -1,0 +1,290 @@
+Manifest-Version: 1.0
+Implementation-Title: FabricInstaller
+Implementation-Version: 0.8.3
+Main-Class: net.fabricmc.installer.Main
+
+Name: mjson/Json$Reader.class
+SHA-256-Digest: 50Y8LQK4FpqM0GMXi6OG0MlDYCOk3DaXQwSRzxXqY3M=
+
+Name: natives/macos-x86_64_arm64.dylib
+SHA-256-Digest: RxSgagpr0FWIYlIIQJws9IIT2BWKu4nOvHGgSmjM+b4=
+
+Name: lang/installer_pl_PL.properties
+SHA-256-Digest: 3+UXzsausJcrcnYH+WUW21YxKrFMLFIJ7lJ7qkSpr0c=
+
+Name: profile_icon.png
+SHA-256-Digest: DbZS/uXuXHKgnlPYCg9awaN5dlpJxnaTEgzbQKUCvPA=
+
+Name: mjson/Json$DefaultSchema$Sequence.class
+SHA-256-Digest: jvHcpnOhX5xfIIU1PAlorb/fgAjvac8ZlqZdT9hvX3M=
+
+Name: lang/installer.properties
+SHA-256-Digest: HQfp4N3r6iDlahiIFYTRKQgtLpuuB+OJMRiBeAKvJXc=
+
+Name: lang/installer_fr_FR.properties
+SHA-256-Digest: og9a/N1IIhnxjib/mG33l3dkLXAe/ycAdvb+hFONtOI=
+
+Name: net/fabricmc/installer/LoaderVersion.class
+SHA-256-Digest: rp8NlZ2gEmIK7zjP5Xb+po7YL00tARLr7FGmMKeOwFk=
+
+Name: mjson/Json$Schema.class
+SHA-256-Digest: LZXWrmGBJQ/yNNAlhR1MPl0nkk1dLYltAMZC85LcOKQ=
+
+Name: mjson/Json$DefaultSchema$CheckNumber.class
+SHA-256-Digest: 647cRoAYB9q94NRoHU/KxH+4yhTAxp6Qvh8B/wULB7A=
+
+Name: net/fabricmc/installer/util/MetaHandler.class
+SHA-256-Digest: eo57BZjGtlo780coCsKRgYfFyOS/wrzsBHGH+L9WluM=
+
+Name: mjson/Json$NumberJson.class
+SHA-256-Digest: lUjCTyjM3/t9LcgNxf0EyB1xPzPfxl+pT6IbfKU3DSY=
+
+Name: net/fabricmc/installer/util/LauncherMeta$Version.class
+SHA-256-Digest: J7bxlkBFYbB4D+cFKgbX7RjrYPc/RigBHv1OmEXzolQ=
+
+Name: mjson/Json$DefaultSchema$IsString.class
+SHA-256-Digest: oQdB0VdXVoNLrQ93bW9NDhomdFLr7LSPg5yif1qvTa4=
+
+Name: net/fabricmc/installer/util/CompletableHandler.class
+SHA-256-Digest: 4wTHn2Aj/pj/08rrBMN765cvRW/HMsTc6PC2avlM0bI=
+
+Name: net/fabricmc/installer/launcher/NativesHelper.class
+SHA-256-Digest: +w2dhpU+SoK4BxXbY81n1qGglwdHC06it9uecD9H6MU=
+
+Name: mjson/Json$DefaultSchema$IsInteger.class
+SHA-256-Digest: QNWkRNyB/g47hR4UPDg+PprtN2BdarpYGcVM2+oMAYM=
+
+Name: net/fabricmc/installer/util/MetaHandler$GameVersion.class
+SHA-256-Digest: VmrZLz1RtZnRIloq8rmojGHzhjtolsSZWEc9hNbx7Yg=
+
+Name: net/fabricmc/installer/util/InstallerProgress$1.class
+SHA-256-Digest: csI1PeR9afGi3yGHMDCfpWnSdIoHz08SCEjO+4xDX7o=
+
+Name: net/fabricmc/installer/server/ServerHandler.class
+SHA-256-Digest: GxVgZUQgI38mxnL9DS+kHmc4qHNPG9Huz6Qcl2kMfas=
+
+Name: net/fabricmc/installer/util/Library.class
+SHA-256-Digest: s3B78e6udB/bdA61se1okkrEroRP143MITAtebj1wXU=
+
+Name: net/fabricmc/installer/server/ServerPostInstallDialog.class
+SHA-256-Digest: 7g1AWvCMXKWmJoS50U56f7QXFo/IECzcAgfawVoFH4s=
+
+Name: mjson/Json$BooleanJson.class
+SHA-256-Digest: hrmehThr+OzH9NddsBrXTHpY4WLINFSE3Y75HvwHrIs=
+
+Name: mjson/Json$DefaultSchema$CheckOne.class
+SHA-256-Digest: yuUhxncYMrPnDDs/tBGxvdNu8fcBSQhHc8KJ2a7DBsc=
+
+Name: net/fabricmc/installer/server/MinecraftServerDownloader.class
+SHA-256-Digest: X/v8+5Dlvik+W64PG7sXF1TceiGLQHQ4JhP/rL9Z7BA=
+
+Name: lang/installer_zh_CN.properties
+SHA-256-Digest: Nzf4KjvlDToj7D08V1/+etzmwZs6edEQ74OmGQ13zzg=
+
+Name: lang/installer_zh_TW.properties
+SHA-256-Digest: U6yy34y8XRzxQbylKwHX1UYsTQhR/mrPgsTnWlP3Sg8=
+
+Name: mjson/Json$DefaultSchema$IsObject.class
+SHA-256-Digest: sfmbaAiCPCCU18/GluzA+xWj0Lz3b+fimnQ6D9XNZjw=
+
+Name: META-INF/maven/org.sharegov/mjson/pom.xml
+SHA-256-Digest: m+3tOK7iDx2L+AkM2MkrnwSSkV04fRzbWM9rycoYN6o=
+
+Name: mjson/Json$ArrayJson.class
+SHA-256-Digest: rq0kth1isMdCAW+BV2F1NF3d95LN7SxXg1MsfkfCW/s=
+
+Name: mjson/Json$NullJson.class
+SHA-256-Digest: v3BSEmwoq2ATqk8NuFZwd8TDhZZ99e/UPG54JHpN9W8=
+
+Name: natives/windows-x64.dll
+SHA-256-Digest: DfFXQSNt7hqogIhCEXtKwf6AcHWxEH8OoU38J8cNWRQ=
+
+Name: mjson/Json$DefaultSchema$IsNumber.class
+SHA-256-Digest: sEeriRXjF+X1YsLy+lHvAoqDUOBcz0XvvULhK6ZecwI=
+
+Name: mjson/Json$help.class
+SHA-256-Digest: Vna5hCrO2agtwrH9TtnoyyvwY1Bdi7lecWpTlC+Q2QY=
+
+Name: mjson/Json$DefaultSchema$CheckArray.class
+SHA-256-Digest: 36M3YS7lPX0x9bZn3jOoEbDTLbfWnNzsB2xBHLmV+cY=
+
+Name: mjson/Json$Factory.class
+SHA-256-Digest: dnHoQQ9JZY5ElEWzt3ajO1OdJX4CZVaO+5t/IlcvSQM=
+
+Name: net/fabricmc/installer/util/VersionMeta.class
+SHA-256-Digest: Z919wI5E2eGFmsq0saIhy064g4vKTwtRf7n+HJ67Z2A=
+
+Name: mjson/Json$DefaultSchema$CheckEnum.class
+SHA-256-Digest: W59Ntf9GR5WKNFwJ26J43ZuIKkGS5SR6JAGmQwWdOkg=
+
+Name: mjson/Json$ObjectJson.class
+SHA-256-Digest: CR4YLI5wCCkhHXmoHYnRtchOZC3AxVSPjvDeqwnmQG8=
+
+Name: mjson/Json$DefaultSchema$1.class
+SHA-256-Digest: jveOL5dAk9zMwt0Yo80sC6qtNycfTShVvUWIiSSadag=
+
+Name: lang/installer_ar_Ar.properties
+SHA-256-Digest: hzP0W+/pYmAmEm6cyjwxGwibaDmZbEVySsFaSbVZ1HU=
+
+Name: mjson/Json$DefaultSchema$CheckObject$CheckProperty.class
+SHA-256-Digest: XEKtBo4ogOzcogC8rOA93VP7yKytoPgfc0Tbkab0GII=
+
+Name: mjson/Json$DefaultSchema$CheckPropertyDependency.class
+SHA-256-Digest: sqi7KhQXKltVXCpPB8Wi/6C5q9Tt/DE0IiAVlAaXiUE=
+
+Name: mjson/Json$StringJson.class
+SHA-256-Digest: irIwAL8qGe55NGoACn8Icr0RD/nxsANAixs7ZK32TgY=
+
+Name: lang/installer_ja_JP.properties
+SHA-256-Digest: Ri8MzOvCmw+EqvNUd5/yLUMA+S+Sh4ocg0UiQIpTaxM=
+
+Name: mjson/Json$DefaultSchema.class
+SHA-256-Digest: 3OTynjQxe89FO0fJOmnM1M4LvbbQJAxYVZxacossuQE=
+
+Name: mjson/Json$DefaultSchema$IsBoolean.class
+SHA-256-Digest: EjIpXqyHdOasGFh2jqaWf8080Q8PP19KQr8/GPlh/Cw=
+
+Name: lang/installer_ru_RU.properties
+SHA-256-Digest: cONpZ64i63OKaM33/dtCjRvdcT1zHq9xL1nUQK5wGjQ=
+
+Name: net/fabricmc/installer/util/Utils.class
+SHA-256-Digest: QShMOBM8pN+ksrY8wbL0LtyhHStSBQvNjwaQQzhW0SE=
+
+Name: icon.png
+SHA-256-Digest: z7q0LKIokLnJ9Q72fKYPtSfenfpOkhL19B9bc2N+eLM=
+
+Name: natives/windows-Win32.dll
+SHA-256-Digest: cbicVTLoPsp/F8rE+VYlyIsQ1UmQY4h3s8dlayFb7q0=
+
+Name: net/fabricmc/installer/ServerLauncher$LaunchData.class
+SHA-256-Digest: Gpvn3yOK5vMIOfTys59CVd5RzHzKscwndxR3FBXA5tU=
+
+Name: net/fabricmc/installer/InstallerGui.class
+SHA-256-Digest: k7InVZTcei/81kBZSdrVjnjNhUrE5I84fIdfVVqxEG8=
+
+Name: net/fabricmc/installer/client/ClientInstaller.class
+SHA-256-Digest: O6GpuHXCYYPWIlts//P0AVrJCmcwTUVVqS/v3s/0A/s=
+
+Name: mjson/Json$DefaultSchema$2.class
+SHA-256-Digest: AZrlREBZLKpBFzsJ7n47jscehvHiAAiZkpb8Rx1tA3U=
+
+Name: META-INF/maven/org.sharegov/mjson/pom.properties
+SHA-256-Digest: IpK5sNnhFsVr1Rbt08CKmH7D26W40ECVsadrCZisUEE=
+
+Name: net/fabricmc/installer/launcher/MojangLauncherHelper.class
+SHA-256-Digest: qNOdpd3qDQhCepq/ElqEvYUvVSDVr8RRP75TpKKRAQ8=
+
+Name: lang/installer_es_ES.properties
+SHA-256-Digest: LFWFL8oaA4z30XcE+NSxg8BwQ/EcFses9l/bwJVGeH0=
+
+Name: mjson/Json$DefaultSchema$CheckPropertyPresent.class
+SHA-256-Digest: BcJBQt5L69u1nwcgL0/+fY8uCAvzJrHbrfkDNfZCteo=
+
+Name: mjson/Json$Function.class
+SHA-256-Digest: gCReiHlDOisNJHRAaUYW0d7iYz1fviZA/KLP28BbHsk=
+
+Name: lang/installer_et_EE.properties
+SHA-256-Digest: KMM67Vf3HFLf5J0U4ytTX5VdZ4ejkvI1Dtp9v5mm13s=
+
+Name: net/fabricmc/installer/client/ClientHandler.class
+SHA-256-Digest: 1mR+Uk6eP8hX/hGQcKpJTmbyrfTQ9gIeElO1+DGMhPA=
+
+Name: lang/installer_fi_FI.properties
+SHA-256-Digest: 6xitJpVFrtlIZKoNHcVFneZeYWgzNdDku/YOi0EhO3A=
+
+Name: net/fabricmc/installer/client/ProfileInstaller.class
+SHA-256-Digest: 2p8la9E4puFsW25DZEyByXu0GLrHY9PF3uW+PtdUMk4=
+
+Name: net/fabricmc/installer/util/Utils$1.class
+SHA-256-Digest: XNby5us84m2uO9E7zgoN2CO4pLfc7pyeItZNpjMKSwc=
+
+Name: mjson/Json$DefaultSchema$IsArray.class
+SHA-256-Digest: I1rbLYWIhsB4yrm93kKKcTSPJIt7aG1gKgs/KH9Qbc8=
+
+Name: mjson/Json$DefaultFactory.class
+SHA-256-Digest: B9DLXHh86WJl3V9mQD0zY2bXtEbt5ry/1NFpUCfDLco=
+
+Name: mjson/Json$Escaper.class
+SHA-256-Digest: f/6XfAaL+4urlKzTi/6EZNZB4Udx0DOPhnpG+5InT3E=
+
+Name: net/fabricmc/installer/ServerLauncher.class
+SHA-256-Digest: J64dq8y/clRxCrxWVu7IVuTaq8HTjWunNLFi/1zk9tA=
+
+Name: net/fabricmc/installer/util/CrashDialog.class
+SHA-256-Digest: mj3DvAJ3nwsxBx+4qQdMxjR6yPx03w9x+NNJ3NsfKVo=
+
+Name: mjson/Json$DefaultSchema$CheckType.class
+SHA-256-Digest: 0uaI6c+JX8odOvEdg1jMyxg4dihWeH25uBxixTiK4kQ=
+
+Name: mjson/Json.class
+SHA-256-Digest: D1cLKKUKLlcyQfeMin0B/SvnjkdqdfzXGNXhdByJhJc=
+
+Name: net/fabricmc/installer/ServerLauncher$1.class
+SHA-256-Digest: 8YEyfQ6cQ+ua6VPLSAh0Ifj83dCb9JfhBWpQYqgvehU=
+
+Name: net/fabricmc/installer/util/ArgumentParser.class
+SHA-256-Digest: zOlgUXo1/qO8C50tXpXamfRgjpbj4ZVROp0c5jgBFTs=
+
+Name: mjson/Json$ParentArrayJson.class
+SHA-256-Digest: 7gqk4YOZj9n32XoEG/0fum/+BMMAeB3KobxAoCnOVWo=
+
+Name: mjson/Json$DefaultSchema$Instruction.class
+SHA-256-Digest: QZDB9K5XUCFg7uJvXgjEvA9zmVQdjUQoowXU0PSYuDQ=
+
+Name: net/fabricmc/installer/launcher/MojangLauncherHelperWrapper.class
+SHA-256-Digest: G7SBUNMMZFDEHTLDy7nnkPdDjBTi5BA6alhFwrxhpRU=
+
+Name: net/fabricmc/installer/util/VersionMeta$Download.class
+SHA-256-Digest: uwpCy3BJtd0hGuNDg3EVVPY2DZqbhCZiaNn0DlgQoQk=
+
+Name: mjson/Json$DefaultSchema$CheckSchemaDependency.class
+SHA-256-Digest: SST1xVQMbG/HU/HnNfAtF0FKoObQOYLibGn+Lc4/QfY=
+
+Name: mjson/Json$1.class
+SHA-256-Digest: BBnNmiffKEVV/nf9aKnKfSM2Ky5ONi+RqLsK1BxC4eU=
+
+Name: mjson/Json$DefaultSchema$CheckString.class
+SHA-256-Digest: H9V488Fga6kDmyy/1phbXIFvUBMj8Hfw/SwW4WpVgII=
+
+Name: net/fabricmc/installer/util/LauncherMeta.class
+SHA-256-Digest: o5iKUAV35x0xsmGHjN77pbF1AIUFDzCbqQEZQGTAOAQ=
+
+Name: mjson/Json$DefaultSchema$CheckObject.class
+SHA-256-Digest: WsW9IecVLwLZjg4+6RibDGUlCpGhlSRwf4GW5zWbEk8=
+
+Name: net/fabricmc/installer/server/ServerInstaller.class
+SHA-256-Digest: v5WS90EzTaE9BregIJpOA7/ZSMjNVs2PCsAqHSd8FTQ=
+
+Name: lang/installer_pt_BR.properties
+SHA-256-Digest: Yt0JuF0ooXUJF21lCDwUDIERoqz1cR2cRVEfDOPgafM=
+
+Name: net/fabricmc/installer/util/InstallerProgress.class
+SHA-256-Digest: UEf2LiadbECDuTIeQ80OpVF4qFekJB752L7yBVhC4ww=
+
+Name: mjson/Json$DefaultSchema$CheckAny.class
+SHA-256-Digest: /f4K0DrO4445NnxqUYt6AcjP579N5ANcbZrMCSBcqZk=
+
+Name: natives/windows-ARM64.dll
+SHA-256-Digest: QPVVeBzGUtnzwxh11yyeeKAnjGpCM521VWhaaAa4RtM=
+
+Name: mjson/Json$DefaultSchema$CheckNot.class
+SHA-256-Digest: laumGcz5tmLhDDlY5VMDRIoZoD4djemKqzsFaZqZFUU=
+
+Name: mjson/Json$DefaultSchema$CheckObject$CheckPatternProperty.class
+SHA-256-Digest: /svQMvc/2UH5t1dY8oxkeJOQm0QBmMrrnlaWoOtIf5Y=
+
+Name: mjson/Json$DefaultSchema$IsNull.class
+SHA-256-Digest: wZWQKDS0kadW871mHul1b1QChH6uKRIkoYhNpzdY5F0=
+
+Name: net/fabricmc/installer/Main.class
+SHA-256-Digest: cXJxpMke5sr3V7ID0ROWaCCDYvezyxDFvX9OepIVA5A=
+
+Name: mjson/Json$MalformedJsonException.class
+SHA-256-Digest: Pxu/j5Oiavd4ahjIoQF0V1GC/wC0Bh/zqkIqd0L4D84=
+
+Name: net/fabricmc/installer/Handler.class
+SHA-256-Digest: b1cdN+AbLDyK9VZYia/Cl2QO+/wL+iWvkjTftSp5ZiA=
+
+Name: net/fabricmc/installer/util/Reference.class
+SHA-256-Digest: 0QBZL7nC4oGXcV6GkDpFXvsVUjWTlwcVfxYRu755ndQ=
+

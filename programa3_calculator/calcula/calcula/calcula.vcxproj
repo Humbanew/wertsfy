@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{DE6A0A20-841C-4E92-BA65-52897E275F47}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>calcula</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\arccossecante.c" />
+    <ClCompile Include="..\..\arccossecantedec.c" />
+    <ClCompile Include="..\..\arccosseno.c" />
+    <ClCompile Include="..\..\arccossenodec.c" />
+    <ClCompile Include="..\..\arccotangente.c" />
+    <ClCompile Include="..\..\arccotangentedec.c" />
+    <ClCompile Include="..\..\arcsecante.c" />
+    <ClCompile Include="..\..\arcsecantedec.c" />
+    <ClCompile Include="..\..\arcseno.c" />
+    <ClCompile Include="..\..\arcsenodec.c" />
+    <ClCompile Include="..\..\arctangente.c" />
+    <ClCompile Include="..\..\arctangentedec.c" />
+    <ClCompile Include="..\..\calcula.c" />
+    <ClCompile Include="..\..\caracteres.c" />
+    <ClCompile Include="..\..\cossecante.c" />
+    <ClCompile Include="..\..\cossecantedec.c" />
+    <ClCompile Include="..\..\cosseno.c" />
+    <ClCompile Include="..\..\cossenodec.c" />
+    <ClCompile Include="..\..\cotangente.c" />
+    <ClCompile Include="..\..\cotangentedec.c" />
+    <ClCompile Include="..\..\divisao.c" />
+    <ClCompile Include="..\..\divisaodec.c" />
+    <ClCompile Include="..\..\estrutura.c" />
+    <ClCompile Include="..\..\exponencial.c" />
+    <ClCompile Include="..\..\exponencialb2dec.c" />
+    <ClCompile Include="..\..\exponencialdec.c" />
+    <ClCompile Include="..\..\exponencialm1dec.c" />
+    <ClCompile Include="..\..\layouts1.c" />
+    <ClCompile Include="..\..\layouts2.c" />
+    <ClCompile Include="..\..\layouts3.c" />
+    <ClCompile Include="..\..\layouts4.c" />
+    <ClCompile Include="..\..\layouts5.c" />
+    <ClCompile Include="..\..\layouts6.c" />
+    <ClCompile Include="..\..\layouts7.c" />
+    <ClCompile Include="..\..\layouts8.c" />
+    <ClCompile Include="..\..\log.c" />
+    <ClCompile Include="..\..\logb10.c" />
+    <ClCompile Include="..\..\logb10dec.c" />
+    <ClCompile Include="..\..\logb2.c" />
+    <ClCompile Include="..\..\logb2dec.c" />
+    <ClCompile Include="..\..\logdec.c" />
+    <ClCompile Include="..\..\logm1.c" />
+    <ClCompile Include="..\..\logm1dec.c" />
+    <ClCompile Include="..\..\mediarit.c" />
+    <ClCompile Include="..\..\mediaritdec.c" />
+    <ClCompile Include="..\..\multiplicacao.c" />
+    <ClCompile Include="..\..\multiplicacaodec.c" />
+    <ClCompile Include="..\..\potdepot.c" />
+    <ClCompile Include="..\..\potdepotdec.c" />
+    <ClCompile Include="..\..\exponencialb2.c" />
+    <ClCompile Include="..\..\potenciacao.c" />
+    <ClCompile Include="..\..\potenciacaodec.c" />
+    <ClCompile Include="..\..\exponencialm1.c" />
+    <ClCompile Include="..\..\quadcotan.c" />
+    <ClCompile Include="..\..\quadcotandec.c" />
+    <ClCompile Include="..\..\quadtan.c" />
+    <ClCompile Include="..\..\quadtandec.c" />
+    <ClCompile Include="..\..\radiciacao2.c" />
+    <ClCompile Include="..\..\radiciacao2dec.c" />
+    <ClCompile Include="..\..\radiciacao3.c" />
+    <ClCompile Include="..\..\radiciacao3dec.c" />
+    <ClCompile Include="..\..\secante.c" />
+    <ClCompile Include="..\..\secantedec.c" />
+    <ClCompile Include="..\..\seno.c" />
+    <ClCompile Include="..\..\senodec.c" />
+    <ClCompile Include="..\..\soma.c" />
+    <ClCompile Include="..\..\somadec.c" />
+    <ClCompile Include="..\..\subtracao.c" />
+    <ClCompile Include="..\..\subtracaodec.c" />
+    <ClCompile Include="..\..\tangente.c" />
+    <ClCompile Include="..\..\tangentedec.c" />
+    <ClCompile Include="senohiper.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\arccossecante.h" />
+    <ClInclude Include="..\..\arccossecantedec.h" />
+    <ClInclude Include="..\..\arccosseno.h" />
+    <ClInclude Include="..\..\arccossenodec.h" />
+    <ClInclude Include="..\..\arccotangente.h" />
+    <ClInclude Include="..\..\arccotangentedec.h" />
+    <ClInclude Include="..\..\arcsecante.h" />
+    <ClInclude Include="..\..\arcsecantedec.h" />
+    <ClInclude Include="..\..\arcseno.h" />
+    <ClInclude Include="..\..\arcsenodec.h" />
+    <ClInclude Include="..\..\arctangente.h" />
+    <ClInclude Include="..\..\arctangentedec.h" />
+    <ClInclude Include="..\..\cotangentedec.h" />
+    <ClInclude Include="..\..\calcula.h" />
+    <ClInclude Include="..\..\caracteres.h" />
+    <ClInclude Include="..\..\cossecante.h" />
+    <ClInclude Include="..\..\cossecantedec.h" />
+    <ClInclude Include="..\..\cosseno.h" />
+    <ClInclude Include="..\..\cossenodec.h" />
+    <ClInclude Include="..\..\cotangente.h" />
+    <ClInclude Include="..\..\divisao.h" />
+    <ClInclude Include="..\..\divisaodec.h" />
+    <ClInclude Include="..\..\estrutura.h" />
+    <ClInclude Include="..\..\exponencial.h" />
+    <ClInclude Include="..\..\exponencialb2dec.h" />
+    <ClInclude Include="..\..\exponencialdec.h" />
+    <ClInclude Include="..\..\exponencialm1dec.h" />
+    <ClInclude Include="..\..\layouts1.h" />
+    <ClInclude Include="..\..\layouts2.h" />
+    <ClInclude Include="..\..\layouts3.h" />
+    <ClInclude Include="..\..\layouts4.h" />
+    <ClInclude Include="..\..\layouts5.h" />
+    <ClInclude Include="..\..\layouts6.h" />
+    <ClInclude Include="..\..\layouts7.h" />
+    <ClInclude Include="..\..\layouts8.h" />
+    <ClInclude Include="..\..\log.h" />
+    <ClInclude Include="..\..\logb10.h" />
+    <ClInclude Include="..\..\logb10dec.h" />
+    <ClInclude Include="..\..\logb2.h" />
+    <ClInclude Include="..\..\logb2dec.h" />
+    <ClInclude Include="..\..\logdec.h" />
+    <ClInclude Include="..\..\logm1.h" />
+    <ClInclude Include="..\..\logm1dec.h" />
+    <ClInclude Include="..\..\mediarit.h" />
+    <ClInclude Include="..\..\mediaritdec.h" />
+    <ClInclude Include="..\..\multiplicacao.h" />
+    <ClInclude Include="..\..\multiplicacaodec.h" />
+    <ClInclude Include="..\..\potdepot.h" />
+    <ClInclude Include="..\..\potdepotdec.h" />
+    <ClInclude Include="..\..\exponencialb2.h" />
+    <ClInclude Include="..\..\potenciacao.h" />
+    <ClInclude Include="..\..\potenciacaodec.h" />
+    <ClInclude Include="..\..\exponencialm1.h" />
+    <ClInclude Include="..\..\quadcotan.h" />
+    <ClInclude Include="..\..\quadcotandec.h" />
+    <ClInclude Include="..\..\quadtan.h" />
+    <ClInclude Include="..\..\quadtandec.h" />
+    <ClInclude Include="..\..\radiciacao2.h" />
+    <ClInclude Include="..\..\radiciacao2dec.h" />
+    <ClInclude Include="..\..\radiciacao3.h" />
+    <ClInclude Include="..\..\radiciacao3dec.h" />
+    <ClInclude Include="..\..\secante.h" />
+    <ClInclude Include="..\..\secantedec.h" />
+    <ClInclude Include="..\..\seno.h" />
+    <ClInclude Include="..\..\senodec.h" />
+    <ClInclude Include="..\..\soma.h" />
+    <ClInclude Include="..\..\somadec.h" />
+    <ClInclude Include="..\..\subtracao.h" />
+    <ClInclude Include="..\..\subtracaodec.h" />
+    <ClInclude Include="..\..\tangente.h" />
+    <ClInclude Include="..\..\tangentedec.h" />
+    <ClInclude Include="senohiper.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

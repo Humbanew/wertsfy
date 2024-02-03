@@ -1,3 +1,11 @@
+/**
+ * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
+ * @copyright Humbanew Wertsfy ©️ 2021-2024.
+ * @copyright Humbanew Calculator ©️ 2019-2024. 
+ * { Notas de Desenvolvimento }
+ * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
+ */
+
 #ifndef WTSFY_TYPES_HPP
 #define WTSFY_TYPES_HPP
 
@@ -7,7 +15,6 @@
 #include <cstdlib>
 #include <cstdint>
 #include <string>
-#include <regex>
 
 using namespace std;
 
@@ -149,7 +156,6 @@ using namespace std;
   #pragma region ANOTHER-DEFINITIONS
 
     typedef any any_t;
-    typedef regex regex_t;
 
   #pragma endregion
 

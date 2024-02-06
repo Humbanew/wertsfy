@@ -19,13 +19,15 @@
 #define WTSFY_ETEST 1
 #define WTSFY_EPROD 2
 
-#define WTSFY_MEM_UP_S 1024
-#define WTSFY_MEM_UP_M 2048
-#define WTSFY_MEM_UP_L 4096
-#define WTSFY_MEM_UP_XL 8192
-#define WTSFY_MEM_UP_XXL 16384
+#define WTSFY_MEM_UP_E 1024
+#define WTSFY_MEM_UP_D 2048
 
-struct Registros { };
+struct Registro 
+{
+  struct Modelo {};
+  struct Registro *prox;
+  struct Registro *ante;
+};
 
 
 #endif

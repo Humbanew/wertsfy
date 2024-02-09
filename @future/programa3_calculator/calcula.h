@@ -1,2 +1,0 @@
-void layoutpadrao();
-void selecionainterfacemenu();

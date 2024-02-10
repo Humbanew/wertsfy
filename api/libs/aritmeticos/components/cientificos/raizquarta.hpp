@@ -5,7 +5,7 @@
 #ifndef RAIZQUARTA_HPP
 #define RAIZQUARTA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_quarta(f32t x) 

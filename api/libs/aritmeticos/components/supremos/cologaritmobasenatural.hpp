@@ -5,8 +5,8 @@
 #ifndef COLOGARITMOBASENATURAL_HPP
 #define COLOGARITMOBASENATURAL_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t cologaritmo_base_natural(f32t x)

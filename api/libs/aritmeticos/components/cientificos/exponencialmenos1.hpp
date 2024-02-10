@@ -5,7 +5,7 @@
 #ifndef EXPONENCIALMENOS1_HPP
 #define EXPONENCIALMENOS1_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "logaritmobasequalquer.hpp"
 
 f32t exponencial_menos_1(f32t base, f32t x)

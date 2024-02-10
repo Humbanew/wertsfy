@@ -5,7 +5,7 @@
 #ifndef ARCOCOTANGENTE_HPP
 #define ARCOCOTANGENTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcotangente.hpp"
 
 f32t arco_cotangente(f32t x) 

@@ -5,7 +5,7 @@
 #ifndef COTANGENTEHIPERBOLICA_HPP
 #define COTANGENTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "seno.hpp"
 #include "cosseno.hpp"
 

@@ -5,7 +5,7 @@
 #ifndef COSSENO_HPP
 #define COSSENO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t cosseno(f32t x)

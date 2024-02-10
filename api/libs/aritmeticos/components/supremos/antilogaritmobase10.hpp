@@ -5,7 +5,7 @@
 #ifndef ANTILOGARITMOBASE10_HPP
 #define ANTILOGARITMOBASE10_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../private/logaritmobase.hpp"
 
 f32t antilogaritmo_base_10(f32t x)

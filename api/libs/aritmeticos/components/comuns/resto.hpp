@@ -5,7 +5,7 @@
 #ifndef RESTO_HPP
 #define RESTO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 
 i64t resto(i64t x, i64t y)
 {

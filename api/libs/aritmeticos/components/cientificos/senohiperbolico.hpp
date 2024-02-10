@@ -5,7 +5,7 @@
 #ifndef SENOHIPERBOLICO_HPP
 #define SENOHIPERBOLICO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t seno_hiperbolico(f32t x)

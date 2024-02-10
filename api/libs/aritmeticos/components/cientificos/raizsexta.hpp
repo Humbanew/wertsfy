@@ -5,7 +5,7 @@
 #ifndef RAIZSEXTA_HPP
 #define RAIZSEXTA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_sexta(f32t x) 

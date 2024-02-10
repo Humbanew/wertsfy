@@ -5,7 +5,7 @@
 #ifndef ARCOSECANTE_HPP
 #define ARCOSECANTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcocosseno.hpp"
 
 f32t arco_secante(f32t x)

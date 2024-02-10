@@ -5,8 +5,8 @@
 #ifndef ANTILOGARITMOBASENATURAL_HPP
 #define ANTILOGARITMOBASENATURAL_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t antilogaritmo_base_natural(f32t x)

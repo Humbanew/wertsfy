@@ -5,7 +5,7 @@
 #ifndef SECANTE_HPP
 #define SECANTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "cosseno.hpp"
 
 f32t secante(f32t x)

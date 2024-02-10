@@ -5,7 +5,7 @@
 #ifndef ARCOCOTANGENTEHIPERBOLICA_HPP
 #define ARCOCOTANGENTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcotangentehiperbolica.hpp"
 
 f32t arco_cotangente_hiperbolica(f32t x) 

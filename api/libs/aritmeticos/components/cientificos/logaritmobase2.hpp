@@ -5,8 +5,8 @@
 #ifndef LOGARITMOBASE2_HPP
 #define LOGARITMOBASE2_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
-#include "logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t logaritmo_base_2(f32t x)
 {

@@ -5,8 +5,8 @@
 #ifndef COLOGARITMOBASE2MENOS1_HPP
 #define COLOGARITMOBASE2MENOS1_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t cologaritmo_base_2_menos_1(f32t x)
 {

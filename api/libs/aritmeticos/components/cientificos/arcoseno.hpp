@@ -5,7 +5,7 @@
 #ifndef ARCOSENO_HPP
 #define ARCOSENO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t arco_seno(f32t x)

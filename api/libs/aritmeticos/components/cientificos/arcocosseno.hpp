@@ -5,7 +5,7 @@
 #ifndef ARCOCOSSENO_HPP
 #define ARCOCOSSENO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t arco_cosseno(f32t x) 

@@ -5,8 +5,8 @@
 #ifndef ANTILOGARITMOBASEQUALQUER_HPP
 #define ANTILOGARITMOBASEQUALQUER_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t antilogaritmo_base_qualquer(f32t x, f32t base)
 {

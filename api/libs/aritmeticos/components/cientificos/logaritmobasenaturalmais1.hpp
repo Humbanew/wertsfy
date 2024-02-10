@@ -5,9 +5,9 @@
 #ifndef LOGARITMOBASENATURALMAIS1_HPP
 #define LOGARITMOBASENATURALMAIS1_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
-#include "logaritmobase.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t logaritmo_base_natural_mais_1(f32t x)
 {

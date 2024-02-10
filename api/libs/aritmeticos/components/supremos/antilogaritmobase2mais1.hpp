@@ -5,8 +5,8 @@
 #ifndef ANTILOGARITMOBASE2MAIS1_HPP
 #define ANTILOGARITMOBASE2MAIS1_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "../defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t antilogaritmo_base_2_mais_1(f32t x)
 {

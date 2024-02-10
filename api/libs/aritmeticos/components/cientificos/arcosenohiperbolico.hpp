@@ -5,7 +5,7 @@
 #ifndef ARCOSENOHIPERBOLICO_HPP
 #define ARCOSENOHIPERBOLICO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t arco_seno_hiperbolico(f32t x) 

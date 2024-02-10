@@ -5,7 +5,7 @@
 #ifndef SECANTEHIPERBOLICA_HPP
 #define SECANTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "cosseno.hpp"
 
 f32t secante_hiperbolica(f32t x)

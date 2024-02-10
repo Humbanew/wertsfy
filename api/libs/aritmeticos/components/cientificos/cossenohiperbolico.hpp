@@ -5,7 +5,7 @@
 #ifndef COSSENOHIPERBOLICO_HPP
 #define COSSENOHIPERBOLICO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "aritmeticos/core-arithm.hpp"
 
 f32t cosseno_hiperbolico(f32t x)

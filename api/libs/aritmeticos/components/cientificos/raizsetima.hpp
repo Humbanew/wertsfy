@@ -5,7 +5,7 @@
 #ifndef RAIZSETIMA_HPP
 #define RAIZSETIMA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_setima(f32t x) 

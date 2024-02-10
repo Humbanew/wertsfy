@@ -5,7 +5,7 @@
 #ifndef ARCOTANGENTE_HPP
 #define ARCOTANGENTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcoseno.hpp"
 #include "arcocosseno.hpp"
 

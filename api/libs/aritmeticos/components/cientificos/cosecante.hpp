@@ -5,7 +5,7 @@
 #ifndef COSECANTE_HPP
 #define COSECANTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "seno.hpp"
 
 f32t cosecante(f32t x)

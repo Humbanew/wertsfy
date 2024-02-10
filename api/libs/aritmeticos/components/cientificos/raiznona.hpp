@@ -5,7 +5,7 @@
 #ifndef RAIZNONA_HPP
 #define RAIZNONA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_nona(f32t x) 

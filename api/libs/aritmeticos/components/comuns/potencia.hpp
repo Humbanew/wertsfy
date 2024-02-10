@@ -5,7 +5,7 @@
 #ifndef POTENCIA_HPP
 #define POTENCIA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 
 f32t potencia(f32t x, f32t y) 
 {

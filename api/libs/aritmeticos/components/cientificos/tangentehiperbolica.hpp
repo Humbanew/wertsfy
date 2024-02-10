@@ -5,7 +5,7 @@
 #ifndef TANGENTEHIPERBOLICA_HPP
 #define TANGENTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "seno.hpp"
 #include "cosseno.hpp"
 

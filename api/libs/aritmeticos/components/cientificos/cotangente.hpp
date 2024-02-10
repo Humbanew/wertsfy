@@ -5,7 +5,7 @@
 #ifndef COTANGENTE_HPP
 #define COTANGENTE_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "seno.hpp"
 #include "cosseno.hpp"
 

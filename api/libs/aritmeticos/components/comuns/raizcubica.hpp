@@ -5,7 +5,7 @@
 #ifndef RAIZCUBICA_HPP
 #define RAIZCUBICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "potencia.hpp"
 
 f32t raiz_cubica(f32t x) 

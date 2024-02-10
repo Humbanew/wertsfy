@@ -5,8 +5,8 @@
 #ifndef COLOGARITMOBASE10MAIS1_HPP
 #define COLOGARITMOBASE10MAIS1_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t cologaritmo_base_10_mais_1(f32t x)
 {

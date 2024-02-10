@@ -5,7 +5,7 @@
 #ifndef ARCOSECANTEHIPERBOLICA_HPP
 #define ARCOSECANTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcocossenohiperbolico.hpp"
 
 f32t arco_secante_hiperbolica(f32t x) 

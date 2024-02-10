@@ -5,7 +5,7 @@
 #ifndef EXPONENCIAL_HPP
 #define EXPONENCIAL_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "logaritmobasequalquer.hpp"
 
 f32t exponencial(f32t base, f32t x)

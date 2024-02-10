@@ -5,7 +5,7 @@
 #ifndef SUBTRACAO_HPP
 #define SUBTRACAO_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
             
 f32t subtracao(f32t x, f32t y)
 {

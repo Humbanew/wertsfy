@@ -5,7 +5,7 @@
 #ifndef COSECANTEHIPERBOLICA_HPP
 #define COSECANTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "seno.hpp"
 
 f32t cosecante_hiperbolica(f32t x)

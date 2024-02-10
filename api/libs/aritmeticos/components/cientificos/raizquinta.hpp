@@ -5,7 +5,7 @@
 #ifndef RAIZQUINTA_HPP
 #define RAIZQUINTA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_quinta(f32t x) 

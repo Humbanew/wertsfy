@@ -5,7 +5,7 @@
 #ifndef RAIZOITAVA_HPP
 #define RAIZOITAVA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "../comuns/potencia.hpp"
 
 f32t raiz_oitava(f32t x) 

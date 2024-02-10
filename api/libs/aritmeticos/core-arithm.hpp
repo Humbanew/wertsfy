@@ -1,7 +1,15 @@
+/**
+ * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
+ *  
+ * { Notas de Desenvolvimento }
+ * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
+ */
+
 #ifndef CORE_ARITHM_HPP
 #define CORE_ARITHM_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+// COMUNS
+#include "defs/wtsfy-tipos.hpp"
 #include "components/comuns/soma.hpp"
 #include "components/comuns/subtracao.hpp"
 #include "components/comuns/multiplicacao.hpp"
@@ -11,6 +19,8 @@
 #include "components/comuns/potenciadepotencia.hpp"
 #include "components/comuns/raizquadrada.hpp"
 #include "components/comuns/raizcubica.hpp"
+
+// CIENTÍFICOS
 #include "components/cientificos/raizquarta.hpp"
 #include "components/cientificos/raizquinta.hpp"
 #include "components/cientificos/raizsexta.hpp"
@@ -57,6 +67,8 @@
 #include "components/cientificos/logaritmobasenatural.hpp"
 #include "components/cientificos/logaritmobasenaturalmais1.hpp"
 #include "components/cientificos/logaritmobasenaturalmenos1.hpp"
+
+// SUPREMAS
 #include "components/supremos/antilogaritmobase2.hpp"
 #include "components/supremos/antilogaritmobase2mais1.hpp"
 #include "components/supremos/antilogaritmobase2menos1.hpp"
@@ -81,6 +93,63 @@
 #include "components/supremos/cologaritmobasenatural.hpp"
 #include "components/supremos/cologaritmobasenaturalmais1.hpp"
 #include "components/supremos/cologaritmobasenaturalmenos1.hpp"
+
+// VERSION 2020
+#include "components/version2020/soma.classic.hpp"
+#include "components/version2020/soma-decimal.classic.hpp"
+#include "components/version2020/subtracao.classic.hpp"
+#include "components/version2020/subtracao-decimal.classic.hpp"
+#include "components/version2020/multiplicacao.classic.hpp"
+#include "components/version2020/multiplicacao-decimal.classic.hpp"
+#include "components/version2020/divisao.classic.hpp"
+#include "components/version2020/divisao-decimal.classic.hpp"
+#include "components/version2020/potenciacao.classic.hpp"
+#include "components/version2020/potenciacao-decimal.classic.hpp"
+#include "components/version2020/potenciacaopor2.classic.hpp"
+#include "components/version2020/potenciacaopor2-decimal.classic.hpp"
+#include "components/version2020/potenciacaopor10.classic.hpp"
+#include "components/version2020/potenciacaopor10-decimal.classic.hpp"
+#include "components/version2020/potenciadepotencia.classic.hpp"
+#include "components/version2020/potenciadepotencia-decimal.classic.hpp"
+#include "components/version2020/radiciacaopor2.classic.hpp"
+#include "components/version2020/radiciacaopor2-decimal.classic.hpp"
+#include "components/version2020/radiciacaopor3.classic.hpp"
+#include "components/version2020/radiciacaopor3-decimal.classic.hpp"
+#include "components/version2020/mediaaritmetica.classic.hpp"
+#include "components/version2020/mediaaritmetica-decimal.classic.hpp"
+#include "components/version2020/exponencial.classic.hpp"
+#include "components/version2020/exponencial-decimal.classic.hpp"
+#include "components/version2020/logaritmo.classic.hpp"
+#include "components/version2020/logaritmo-decimal.classic.hpp"
+#include "components/version2020/logaritmobase2.classic.hpp"
+#include "components/version2020/logaritmobase2-decimal.classic.hpp"
+#include "components/version2020/logaritmobase10.classic.hpp"
+#include "components/version2020/logaritmobase10-decimal.classic.hpp"
+#include "components/version2020/seno.classic.hpp"
+#include "components/version2020/cosseno.classic.hpp"
+#include "components/version2020/tangente.classic.hpp"
+#include "components/version2020/secante.classic.hpp"
+#include "components/version2020/cosecante.classic.hpp"
+#include "components/version2020/cotangente.classic.hpp"
+#include "components/version2020/senohiperbolico.classic.hpp"
+#include "components/version2020/cossenohiperbolico.classic.hpp"
+#include "components/version2020/tangentehiperbolica.classic.hpp"
+#include "components/version2020/secantehiperbolica.classic.hpp"
+#include "components/version2020/cosecantehiperbolica.classic.hpp"
+#include "components/version2020/cotangentehiperbolica.classic.hpp"
+#include "components/version2020/arcoseno.classic.hpp"
+#include "components/version2020/arcocosseno.classic.hpp"
+#include "components/version2020/arcotangente.classic.hpp"
+#include "components/version2020/arcosecante.classic.hpp"
+#include "components/version2020/arcocosecante.classic.hpp"
+#include "components/version2020/arcocotangente.classic.hpp"
+#include "components/version2020/arcosenohiperbolico.classic.hpp"
+#include "components/version2020/arcocossenohiperbolico.classic.hpp"
+#include "components/version2020/arcotangentehiperbolica.classic.hpp"
+#include "components/version2020/arcosecantehiperbolica.classic.hpp"
+#include "components/version2020/arcocosecantehiperbolica.classic.hpp"
+#include "components/version2020/arcocotangentehiperbolica.classic.hpp"
+
 
 class Aritmeticos 
 {
@@ -377,8 +446,110 @@ class Aritmeticos
 
 };
 
-int a() { Aritmeticos aritmeticos; }
+class Aritmeticos2020Version
+{
 
-class Aritmeticos2020Version { };
+  public:
+  f32t LOGARITHM=
+    2.302585;
+
+  f32t LOGARITHM2=
+    0.693147;
+
+  f32t LOGARITHM10=
+    2.302585;
+
+  f32t PI=
+    3.141592;
+
+  f32t ZERO=
+    0.000000;
+
+  f32t SENO30=
+    0.500000;
+
+  f32t COSSENO30=
+    0.866025;
+
+  f32t TANGENTE30=
+    0.577350;
+
+  f32t SENO45=
+    0.707107;
+
+  f32t COSSENO45=
+    0.707107;
+
+  f32t TANGENTE45=
+    1.000000;
+
+  f32t SENO60=
+    0.866025;
+
+  f32t COSSENO60=
+    0.500000;
+
+  f32t TANGENTE60=
+    1.732051;
+
+  f32t EULER=
+    2.718281;
+
+  decltype(soma_classic) soma_classic;
+  decltype(soma_classic_decimal) soma_classic_decimal;
+  decltype(subtracao_classic) subtracao_classic;
+  decltype(subtracao_classic_decimal) subtracao_classic_decimal;
+  decltype(multiplicacao_classic) multiplicacao_classic;
+  decltype(multiplicacao_classic_decimal) multiplicacao_classic_decimal;
+  decltype(divisao_classic) divisao_classic;
+  decltype(divisao_classic_decimal) divisao_classic_decimal;
+  decltype(potenciacao_classic) potenciacao_classic;
+  decltype(potenciacao_classic_decimal) potenciacao_classic_decimal;
+  decltype(potenciacao_por2_classic) potenciacao_por2_classic;
+  decltype(potenciacao_por2_classic_decimal) potenciacao_por2_classic_decimal;
+  decltype(potenciacao_por10_classic) potenciacao_por10_classic;
+  decltype(potenciacao_por10_classic_decimal) potenciacao_por10_classic_decimal;
+  decltype(potenciadepotencia_classic) potenciadepotencia_classic;
+  decltype(potenciadepotencia_classic_decimal) potenciadepotencia_classic_decimal;
+  decltype(radiciacaopor2_classic) radiciacaopor2_classic;
+  decltype(radiciacaopor2_classic_decimal) radiciacaopor2_classic_decimal;
+  decltype(radiciacaopor3_classic) radiciacaopor3_classic;
+  decltype(radiciacaopor3_classic_decimal) radiciacaopor3_classic_decimal;
+  decltype(media_aritmetica_classic) media_aritmetica_classic;
+  decltype(media_aritmetica_classic_decimal) media_aritmetica_classic_decimal;
+  decltype(exponencial_classic) exponencial_classic;
+  decltype(exponencial_classic_decimal) exponencial_classic_decimal;
+  decltype(logaritmo_classic) logaritmo_classic;
+  decltype(logaritmo_classic_decimal) logaritmo_classic_decimal;
+  decltype(logaritmobase2_classic) logaritmobase2_classic;
+  decltype(logaritmobase2_classic_decimal) logaritmobase2_classic_decimal;
+  decltype(logaritmobase10_classic) logaritmobase10_classic;
+  decltype(logaritmobase10_classic_decimal) logaritmobase10_classic_decimal;
+  decltype(seno_classic) seno_classic;
+  decltype(cosseno_classic) cosseno_classic;
+  decltype(tangente_classic) tangente_classic;
+  decltype(secante_classic) secante_classic;
+  decltype(cosecante_classic) cosecante_classic;
+  decltype(cotangente_classic) cotangente_classic;
+  decltype(senohiperbolico_classic) senohiperbolico_classic;
+  decltype(cossenohiperbolico_classic) cossenohiperbolico_classic;
+  decltype(tangentehiperbolica_classic) tangentehiperbolica_classic;
+  decltype(secantehiperbolica_classic) secantehiperbolica_classic;
+  decltype(cosecantehiperbolica_classic) cosecantehiperbolica_classic;
+  decltype(cotangentehiperbolica_classic) cotangentehiperbolica_classic;
+  decltype(arcoseno_classic) arcoseno_classic;
+  decltype(arcocosseno_classic) arcocosseno_classic;
+  decltype(arcotangente_classic) arcotangente_classic;
+  decltype(arcosecante_classic) arcosecante_classic;
+  decltype(arcocosecante_classic) arcocosecante_classic;
+  decltype(arcocotangente_classic) arcocotangente_classic;
+  decltype(arcosenohiperbolico_classic) arcosenohiperbolico_classic;
+  decltype(arcocossenohiperbolico_classic) arcocossenohiperbolico_classic;
+  decltype(arcotangentehiperbolica_classic) arcotangentehiperbolica_classic;
+  decltype(arcosecantehiperbolica_classic) arcosecantehiperbolica_classic;
+  decltype(arcocosecantehiperbolica_classic) arcocosecantehiperbolica_classic;
+  decltype(arcocotangentehiperbolica_classic) arcocotangentehiperbolica_classic;
+
+};
 
 #endif // CORE_ARITHM_HPP

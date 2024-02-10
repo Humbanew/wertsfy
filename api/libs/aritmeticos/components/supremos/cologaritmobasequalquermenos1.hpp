@@ -5,8 +5,8 @@
 #ifndef COLOGARITMOBASEQUALQUERMENOS1_HPP
 #define COLOGARITMOBASEQUALQUERMENOS1_HPP
 
-#include "../../../defs/wtsfy-tipos.hpp"
-#include "../private/logaritmobase.hpp"
+#include "defs/wtsfy-tipos.hpp"
+#include "private/logaritmobase.hpp"
 
 f32t cologaritmo_base_qualquer_menos_1(f32t base, f32t x)
 {

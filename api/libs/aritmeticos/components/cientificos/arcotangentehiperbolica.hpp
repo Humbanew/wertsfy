@@ -5,7 +5,7 @@
 #ifndef ARCOTANGENTEHIPERBOLICA_HPP
 #define ARCOTANGENTEHIPERBOLICA_HPP
 
-#include "../../defs/wtsfy-tipos.hpp"
+#include "defs/wtsfy-tipos.hpp"
 #include "arcosenohiperbolico.hpp"
 #include "arcocossenohiperbolico.hpp"
 

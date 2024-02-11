@@ -14,6 +14,7 @@
 #include <cstdlib>
 #include <cstdint>
 #include <string>
+#include <regex>
 
 using namespace std;
 
@@ -152,57 +153,26 @@ using namespace std;
 
   #pragma endregion
 
-  #pragma region ANOTHER-DEFINITIONS
+  #pragma region ANY-DEFINITIONS
 
     typedef any any_t;
+
+  #pragma endregion
+
+  #pragma region STRUCT-DEFINITIONS
+
+  // Template JSON
+  struct JSON
+  {
+    string key;
+    string value;
+  };
+
+  // Template Catalogo de Cores
+
 
   #pragma endregion
 
 #pragma endregion
 
 #endif // WTSFY_TYPES_HPP
-
-// #pragma region wsf_misc_structs
-
-//   struct Node
-//   {
-//     int valor;
-//     struct Node *prox;
-//     struct Node *ante;
-//   };
-
-//   struct Tree
-//   {
-//     int valor;
-//     struct Tree *esq;
-//     struct Tree *dir;
-//   };
-
-//   struct Minheap
-//   {
-//     int valor;
-//     struct Minheap *esq;
-//     struct Minheap *dir;
-//   };
-
-//   struct Maxheap
-//   {
-//     int valor;
-//     struct Maxheap *esq;
-//     struct Maxheap *dir;
-//   };
-
-//   struct Stack
-//   {
-//     int quantidade;
-//     struct Stack *start;
-//   };
-
-//   struct Queue
-//   {
-//     int valor;
-//     struct Queue *head;
-//     struct Queue *tail;
-//   };
-
-// #pragma endregion

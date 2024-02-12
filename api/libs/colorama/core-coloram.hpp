@@ -1,7 +1,7 @@
 #ifndef CORE_COLORAMA_HPP
 #define CORE_COLORAMA_HPP
 
-#include "defs/wtsfy-tipos.hpp"
+#include "../../defs/wtsfy-tipos.hpp"
 
 class Colorama 
 { };

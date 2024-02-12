@@ -8,7 +8,7 @@
 #ifndef WTSFY_BIBLIOTECAS_HPP
 #define WTSFY_BIBLIOTECAS_HPP
 
-#include "aritmeticos/core-arithm.hpp"
+#include "./aritmeticos/core-arithm.hpp"
 
 namespace wtsfy 
 {
@@ -29,5 +29,6 @@ namespace wtsfy
 
 }
 
+namespace Wtsfy = wtsfy::sistema;
 
 #endif // WTSFY_BIBLIOTECAS_HPP

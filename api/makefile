@@ -1,2 +1,2 @@
 main:
-	g++ wtsfy.cpp -o wtsfy.exe -std=c++23
+	g++ wtsfy.cpp -o out/wtsfy.exe -std=c++23

@@ -161,8 +161,15 @@ using namespace std;
 
   #pragma region STRUCT-DEFINITIONS
 
-    // Template JSON
-    // Template Catalogo de Cores
+    // em desevolvimento
+      // Template JSON
+    struct JSON 
+    {
+      string key;
+      string value;
+    };
+    
+      // Template Catalogo de Cores
 
   #pragma endregion
 

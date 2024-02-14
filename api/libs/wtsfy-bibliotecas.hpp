@@ -9,6 +9,7 @@
 #define WTSFY_BIBLIOTECAS_HPP
 
 #include "./aritmeticos/core-arithm.hpp"
+#include "./colorama/core-coloram.hpp"
 
 namespace wtsfy 
 {
@@ -22,6 +23,8 @@ namespace wtsfy
       Aritmeticos aritmeticos;
 
       Aritmeticos2020Version aritmeticos_classic;
+
+      Colorama colorama;
 
     }
 

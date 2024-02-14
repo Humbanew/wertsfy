@@ -159,17 +159,44 @@ using namespace std;
 
   #pragma endregion
 
+  // talvez vire "wtsfy-structs.hpp" 
   #pragma region STRUCT-DEFINITIONS
 
-    // em desevolvimento
-      // Template JSON
-    struct JSON 
+    // Template/Struct JSON
+    typedef union JSONValues 
+    {
+      string a; i8t b; i16t b_1; i32t b_2; i64t b_3; ui8t b_4; ui16t b_5; ui32t b_6; ui64t b_7; f32t c; f64t c_1; blt d; chrt e; 
+      struct KeyValue { string Key; jsonvalues Value; }; 
+    } jsonvalues;
+
+    struct JSON
     {
       string key;
-      string value;
+      JSONValues value;
     };
     
-      // Template Catalogo de Cores
+    // Template de Catálogo de Cores RGBA/HSV/EscapeCode/Hexadecimal
+    struct RGBA { i8t r; i8t g; i8t b; i8t a; };
+    struct HSV { f32t h; f32t s; f32t v; };
+    struct Hex { const char hexname; const char hexhtml; lli64t hexraw; };
+    
+    template<RGBA scheme_rgba, HSV scheme_hsv, Hex scheme_hex> 
+    struct CatalogColor { RGBA color_rgba = scheme_rgba; HSV color_hsv = scheme_hsv; Hex color_hex = scheme_hex; };
+
+    
+    // Template/Struct Historico da Calculadora
+    struct HistoryCalculator
+    {
+      i64t value;
+      struct HistoryCalculator *prox;
+    };
+
+    struct HistoryCalculatorProps
+    {
+      void aloca_historico() { }
+      void adiciona_elemento() { }
+      void remove_elemento() { }
+    };
 
   #pragma endregion
 

@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
 
   if(std::string(argv[1]) == "wtsfy") {}
+  else {return 1;}
   return 0;
 
 }

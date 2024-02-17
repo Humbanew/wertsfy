@@ -187,15 +187,32 @@ using namespace std;
     // Template/Struct Historico da Calculadora
     struct HistoryCalculator
     {
-      i64t value;
+      f32t valor;
       struct HistoryCalculator *prox;
+    };
+
+    struct HistoryCalculatorList
+    {
+      i64t quantidade;
+      HistoryCalculator *iniciohistorico;
     };
 
     struct HistoryCalculatorProps
     {
-      void aloca_historico() { }
-      void adiciona_elemento() { }
-      void remove_elemento() { }
+      HistoryCalculator aloca_historico()
+      { 
+        HistoryCalculator *historico = (HistoryCalculator*) malloc(sizeof(HistoryCalculator));
+        return *historico;
+      }
+
+      HistoryCalculatorList aloca_historico_lista()
+      {
+        HistoryCalculatorList *historico_lista = (HistoryCalculatorList*) malloc(sizeof(HistoryCalculatorList));
+        return *historico_lista;
+      }
+
+      void adiciona_elemento(HistoryCalculatorList *l, f32t v) { }
+      void remove_elemento(HistoryCalculatorList *l, f32t v) { }
     };
 
   #pragma endregion

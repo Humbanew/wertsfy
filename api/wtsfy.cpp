@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     // ajustar ainda os outputs
     printf(
       "\n\x1b[34;1mHumbanew Wertsfy SDK\x1b[0m\n"
-      "Versao 2.0.0\n\n"
+      "\x1b[1mVersao 2.0.0\x1b[0m\n\n"
       "Biblioteca 'Aritmeticos' ainda sem comandos disponiveis.\n"
       "Biblioteca 'Colorama' ainda sem comandos disponiveis.\n"
       "Recursos de acessibilidade e linguagem ainda nao adotados.\n"

@@ -30,7 +30,7 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: saadmk11/changelog-ci@94435ac02b50745a2543caf0c5d6eae23665615a
       - uses: saadmk11/changelog-ci@v1.1.2
-        # with:
+        with:
           # Name of the changelog file if not provided defaults to CHANGELOG.md
           # changelog_filename: # optional, default is CHANGELOG.md
           # Location of the config JSON file

@@ -36,11 +36,11 @@ jobs:
           # Location of the config JSON file
           # config_file: # optional
           # Name of the user who will commit the changes to GitHub
-          # committer_username: # optional, default is github-actions[bot]
+          committer_username: Humba01
           # Email Address of the user who will commit the changes to GitHub
-          # committer_email: # optional, default is github-actions[bot]@users.noreply.github.com
+          committer_email: humbandroid@gmail.com
           # The release version that will be used on the generated Changelog
-          # release_version: # optional
+          release_version: null
           # GITHUB_TOKEN or Personal Access Token (PAT)
           # github_token: # optional, default is ${{ github.token }}
             

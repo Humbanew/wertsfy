@@ -43,4 +43,8 @@ jobs:
           release_version: 2.0.0
           # GITHUB_TOKEN or Personal Access Token (PAT)
           # github_token: # optional, default is ${{ github.token }}
+      
+      - uses: RiskLedger/generate-changelog@v2
+        env:
+          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
             

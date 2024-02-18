@@ -40,7 +40,7 @@ jobs:
           # Email Address of the user who will commit the changes to GitHub
           committer_email: humbandroid@gmail.com
           # The release version that will be used on the generated Changelog
-          release_version: null
+          release_version: 2.0.0
           # GITHUB_TOKEN or Personal Access Token (PAT)
           # github_token: # optional, default is ${{ github.token }}
             

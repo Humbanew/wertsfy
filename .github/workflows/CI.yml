@@ -10,27 +10,21 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  changelog:
+    name: Update Changelog
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      changelog:
-        name: Update Changelog
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v3
-            with:
-              fetch-depth: 0
-          - name: Update Changelog
-            uses: AlexxNB/chalogen@master
-            with:
-              title: My project changelog 
-          - name: Commit Changelog to repository
-            uses: stefanzweifel/git-auto-commit-action@v4.13.0
-            with:
-              commit_message: 'docs(Changelog): Update Changelog'
-              file_pattern: CHANGELOG.md
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Update Changelog
+        uses: AlexxNB/chalogen@master
+        with:
+          title: My project changelog 
+      - name: Commit Changelog to repository
+        uses: stefanzweifel/git-auto-commit-action@v4.13.0
+        with:
+          commit_message: 'docs(Changelog): Update Changelog'
+          file_pattern: CHANGELOG.md
+

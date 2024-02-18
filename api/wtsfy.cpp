@@ -14,10 +14,18 @@ int main(int argc, char *argv[])
 {
 
   if(
-    (std::string(argv[1]) == "wtsfy") ||
-    (std::string(argv[1]) == "wtsfy -h")
+    std::string(argv[1]) == "wtsfy\0-v"
   ) {
-    printf("\x1b[32mHN Wertsfy - 2021-2024\x1b[0m\n");
+    // ajustar ainda os outputs
+    printf(
+      "\n\x1b[34;1mHumbanew Wertsfy SDK\x1b[0m\n"
+      "Versao 2.0.0\n\n"
+      "Biblioteca 'Aritmeticos' ainda sem comandos disponiveis.\n"
+      "Biblioteca 'Colorama' ainda sem comandos disponiveis.\n"
+      "Recursos de acessibilidade e linguagem ainda nao adotados.\n"
+      "Demonstracao grafica de recursos criados ainda em desenvolvimento.\n"
+      "Conjunto de ferramentas com interface grafica nao implementadas.\n\n"
+    );
   }
   else {return 1;}
 

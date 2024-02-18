@@ -8,13 +8,6 @@ on:
   push:
     branches: [ "main", "labo@reunion-pieces" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-    inputs:
-      release_version:
-        description: 'Set Release Version'
-        required: true
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -24,27 +17,20 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # You may pin to the exact commit or the version.
-      # uses: saadmk11/changelog-ci@94435ac02b50745a2543caf0c5d6eae23665615a
-      - uses: saadmk11/changelog-ci@v1.1.2
-        with:
-          # Name of the changelog file if not provided defaults to CHANGELOG.md
-          # changelog_filename: # optional, default is CHANGELOG.md
-          # Location of the config JSON file
-          config_file: changelog-ci-config.json
-          # Name of the user who will commit the changes to GitHub
-          committer_username: Humba01
-          # Email Address of the user who will commit the changes to GitHub
-          committer_email: humbandroid@gmail.com
-          # The release version that will be used on the generated Changelog
-          release_version: 2.0.0
-          # GITHUB_TOKEN or Personal Access Token (PAT)
-          # github_token: # optional, default is ${{ github.token }}
-      
-      - uses: RiskLedger/generate-changelog@v2
-        env:
-          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
-            
+      changelog:
+        name: Update Changelog
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v3
+            with:
+              fetch-depth: 0
+          - name: Update Changelog
+            uses: AlexxNB/chalogen@master
+            with:
+              title: My project changelog 
+          - name: Commit Changelog to repository
+            uses: stefanzweifel/git-auto-commit-action@v4.13.0
+            with:
+              commit_message: 'docs(Changelog): Update Changelog'
+              file_pattern: CHANGELOG.md

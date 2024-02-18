@@ -34,7 +34,7 @@ jobs:
           # Name of the changelog file if not provided defaults to CHANGELOG.md
           # changelog_filename: # optional, default is CHANGELOG.md
           # Location of the config JSON file
-          # config_file: # optional
+          config_file: changelog-ci-config.json
           # Name of the user who will commit the changes to GitHub
           committer_username: Humba01
           # Email Address of the user who will commit the changes to GitHub

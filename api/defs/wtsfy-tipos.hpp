@@ -162,19 +162,6 @@ using namespace std;
   // talvez vire "wtsfy-structs.hpp" 
   #pragma region STRUCT-DEFINITIONS
 
-    // Template/Struct JSON
-    typedef union JSONValues 
-    {
-      string a; i8t b; i16t b_1; i32t b_2; i64t b_3; ui8t b_4; ui16t b_5; ui32t b_6; ui64t b_7; f32t c; f64t c_1; blt d; chrt e; 
-      struct KeyValue { string Key; jsonvalues Value; }; 
-    } jsonvalues;
-
-    struct JSON
-    {
-      string key;
-      JSONValues value;
-    };
-    
     // Template de Catálogo de Cores RGBA/HSV/EscapeCode/Hexadecimal
     struct RGBA { i8t r; i8t g; i8t b; i8t a; };
     struct HSV { f32t h; f32t s; f32t v; };
@@ -183,37 +170,22 @@ using namespace std;
     template<RGBA scheme_rgba, HSV scheme_hsv, Hex scheme_hex> 
     struct CatalogColor { RGBA color_rgba = scheme_rgba; HSV color_hsv = scheme_hsv; Hex color_hex = scheme_hex; };
 
-    
-    // Template/Struct Historico da Calculadora
-    struct HistoryCalculator
-    {
-      f32t valor;
-      struct HistoryCalculator *prox;
-    };
-
-    struct HistoryCalculatorList
-    {
-      i64t quantidade;
-      HistoryCalculator *iniciohistorico;
-    };
-
-    struct HistoryCalculatorProps
-    {
-      HistoryCalculator aloca_historico()
-      { 
-        HistoryCalculator *historico = (HistoryCalculator*) malloc(sizeof(HistoryCalculator));
-        return *historico;
-      }
-
-      HistoryCalculatorList aloca_historico_lista()
+    // Template de estrutura JSON
+    typedef struct JSON {
+      string key;
+      typedef union ValueTypes
       {
-        HistoryCalculatorList *historico_lista = (HistoryCalculatorList*) malloc(sizeof(HistoryCalculatorList));
-        return *historico_lista;
-      }
-
-      void adiciona_elemento(HistoryCalculatorList *l, f32t v) { }
-      void remove_elemento(HistoryCalculatorList *l, f32t v) { }
-    };
+        i8t a;
+        i16t a_1;
+        i32t a_2;
+        i64t a_3;
+        f32t b;
+        f64t b_1;
+        char* z;
+        struct JSON *x;
+      } valuetyp;
+      valuetyp value;
+    } json;
 
   #pragma endregion
 

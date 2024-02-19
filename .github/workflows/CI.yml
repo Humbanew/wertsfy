@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Update Changelog
@@ -27,7 +27,7 @@ jobs:
         with:
           commit_message: 'docs(Changelog): Update Changelog'
           file_pattern: CHANGELOG.md
-      - name: Generate docs
+      - name: Generate docs by Powershell (not working yet)
         uses: Microsoft/ps-docs@main
         with:
           inputPath: 'api/'       # Optional. The path PSDocs will look for files to input files.
@@ -37,3 +37,9 @@ jobs:
           outputPath: 'docs/'      # Optional. The path to write documentation to.
           path: '.'            # Optional. The working directory PSDocs is run from.
           prerelease: false     # Optional. Determine if a pre-release module version is installed.
+      - name: Setup helm-docs
+        uses: gabe565/setup-helm-docs-action@v1
+        run: helm-docs
+
+      - name: Run helm-docs
+        uses: losisin/helm-docs-github-action@v1

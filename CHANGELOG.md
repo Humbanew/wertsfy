@@ -1,0 +1,49 @@
+# My project changelog
+
+## unreleased
+
+### Other
+
+- Arrumando GH Actions [`d53449a5`](https://github.com/humbanew/wertsfy-next/commit/d53449a59d256f9275e7738d5f53cf8a8bd0de65)
+- Arrumando GH Actions [`1008d383`](https://github.com/humbanew/wertsfy-next/commit/1008d38323b54fac20371def22ecfbd1b677b125)
+- Arrumando GH Actions [`b078627c`](https://github.com/humbanew/wertsfy-next/commit/b078627cc245fc48fca4f99d1ba476b7eefa7d8a)
+- Arrumando GH Actions [`28ef4fb2`](https://github.com/humbanew/wertsfy-next/commit/28ef4fb259c9289c6fec9435075e12c102d36abb)
+- Arrumando GH Actions [`3ed21d8d`](https://github.com/humbanew/wertsfy-next/commit/3ed21d8d1e88a2fd87c6fd0cb40713030333ba93)
+- Arrumando GH Actions [`4f15b532`](https://github.com/humbanew/wertsfy-next/commit/4f15b532d82657ef57501626f8156a59a14b7ede)
+- Arrumando GH Actions [`7477eb5a`](https://github.com/humbanew/wertsfy-next/commit/7477eb5a4667086712b6eababd09e050c1f60216)
+- Arrumando GH Actions [`8204a58f`](https://github.com/humbanew/wertsfy-next/commit/8204a58f3af34b34286faef1fc4b3170cf72bc7a)
+- Arrumando GH Actions [`75bc400f`](https://github.com/humbanew/wertsfy-next/commit/75bc400f761d241d89f4b63725f97c4533f26bec)
+- Merge pull request #3 from humbanew/main ([#3](https://github.com/humbanew/wertsfy-next/issues/3)) [`ba0aa8ec`](https://github.com/humbanew/wertsfy-next/commit/ba0aa8ec329def714f3815b822d25cc247547f3d)
+
+    *Adding GH Actions*
+- Create CI.yml [`9f586abc`](https://github.com/humbanew/wertsfy-next/commit/9f586abc1d527d58452c9ffe735b8980c411f28f)
+- Create label.yml [`75a82cf8`](https://github.com/humbanew/wertsfy-next/commit/75a82cf8aa9e6c4fde991bcde79d686d42103e22)
+- Create greetings.yml [`226390c8`](https://github.com/humbanew/wertsfy-next/commit/226390c8019d6fbfde031f5d55320c734948700a)
+- Create stale.yml [`077a831f`](https://github.com/humbanew/wertsfy-next/commit/077a831fbc53723e8cd0b35e7cc657cd980c1939)
+- Merge pull request #2 from humbanew/main ([#2](https://github.com/humbanew/wertsfy-next/issues/2)) [`3a3fe0ac`](https://github.com/humbanew/wertsfy-next/commit/3a3fe0ac906432a73b9b4e2ad0823a0dc72bf7da)
+
+    *Create SECURITY.md*
+- Create SECURITY.md [`20d61e8e`](https://github.com/humbanew/wertsfy-next/commit/20d61e8e22731129e18ce9c7207e601ae2ec8ca7)
+- Arrumando arquivos [`04843271`](https://github.com/humbanew/wertsfy-next/commit/04843271b9995c11f531ceafdcbc729a7a7ef6a0)
+- Adicionando novas estruturas [`2e1230d6`](https://github.com/humbanew/wertsfy-next/commit/2e1230d6d31a89f9ed44c7b25558e2717612e777)
+- Adicionando novas estruturas [`051c5259`](https://github.com/humbanew/wertsfy-next/commit/051c52596cf52e9afc588b674bb3dcce5d2cbdc3)
+- Adicionando novas estruturas [`1bb64611`](https://github.com/humbanew/wertsfy-next/commit/1bb646111560845eb721303dd8eccc9093bf427e)
+- Adicionando novas estruturas [`bad729f7`](https://github.com/humbanew/wertsfy-next/commit/bad729f779ed59e0e360df67fe6717f7d62679ca)
+- Adicionando novas estruturas [`93331344`](https://github.com/humbanew/wertsfy-next/commit/93331344a5c32f62a883b87b5e50524a5f3af475)
+- Adicionando novas estruturas [`16099f28`](https://github.com/humbanew/wertsfy-next/commit/16099f2882635526fee741cd5819be768a4b833c)
+- Adicionando novas estruturas [`a4bacf61`](https://github.com/humbanew/wertsfy-next/commit/a4bacf61d43acac2c670bff3526b95d5a501a178)
+- Reparando importações [`52af5b46`](https://github.com/humbanew/wertsfy-next/commit/52af5b46d8321331a80e167373d09371ba42cdfe)
+- Construindo mais estruturas [`a0bbca91`](https://github.com/humbanew/wertsfy-next/commit/a0bbca9194ba2513842a52cfb1e647f3e2a4f29e)
+- Construindo mais estruturas [`393372cb`](https://github.com/humbanew/wertsfy-next/commit/393372cb3c3200f67dd77907ae828f7f82e0104f)
+- Adicionando mais recursos [`c4ca2039`](https://github.com/humbanew/wertsfy-next/commit/c4ca203982b487bc405ebcade4b0f2529984d15d)
+- Arrumando o diretorio `/designs/` [`da47b646`](https://github.com/humbanew/wertsfy-next/commit/da47b6469cfa09dd9e7ca50b4607f9f5b8021443)
+- Arrumando pastas do repositorio [`087356ef`](https://github.com/humbanew/wertsfy-next/commit/087356efb362886533de9089aac2c4907b4b4d94)
+- Refatorando código [`5545d6f5`](https://github.com/humbanew/wertsfy-next/commit/5545d6f5ff87376fe5dcd189e93e605f03006ba1)
+- Construindo programa [`f579ba9a`](https://github.com/humbanew/wertsfy-next/commit/f579ba9aa56e37d39c6f19912011371426caab85)
+- Construindo programa [`c636ffa4`](https://github.com/humbanew/wertsfy-next/commit/c636ffa485cad42f94f8a7642add4e0adee3a0da)
+- Construindo programa [`7f557017`](https://github.com/humbanew/wertsfy-next/commit/7f55701792a3642f90f9effe9ff95c9ef383238e)
+- Gerando laboratório com todos os recursos [`12636096`](https://github.com/humbanew/wertsfy-next/commit/126360961077174d3a1973d714c981eed8e084bd)
+- Merge branch 'main' of github.com:humbanew/wertsfy-next [`3aa813f3`](https://github.com/humbanew/wertsfy-next/commit/3aa813f3b4876458dfeabd3a413075937f8b8898)
+- Preparando atualizações [`eb473780`](https://github.com/humbanew/wertsfy-next/commit/eb473780b9ccaf7c4de2e0c628940a046d671312)
+- Update README.md [`9a67208a`](https://github.com/humbanew/wertsfy-next/commit/9a67208aeaafdb0ba70cf482fb8b991823eade49)
+- Create README.md [`2703e64c`](https://github.com/humbanew/wertsfy-next/commit/2703e64ca7cf885fa0e715433cb70d584c92fb27)

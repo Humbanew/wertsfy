@@ -29,3 +29,11 @@ jobs:
           file_pattern: CHANGELOG.md
       - name: Generate docs
         uses: Microsoft/ps-docs@main
+        with:
+          inputPath: 'api/'       # Optional. The path PSDocs will look for files to input files.
+          # modules: string         # Optional. A comma separated list of modules to use containing document definitions.
+          source: 'api/'          # Optional. An path containing definitions to use for generating documentation.
+          # conventions: string     # Optional. A comma separated list of conventions to use for generating documentation.
+          outputPath: 'docs/'      # Optional. The path to write documentation to.
+          path: '.'            # Optional. The working directory PSDocs is run from.
+          prerelease: false     # Optional. Determine if a pre-release module version is installed.

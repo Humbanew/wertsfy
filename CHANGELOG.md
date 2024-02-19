@@ -4,6 +4,8 @@
 
 ### Other
 
+- Arrumando GH Actions - CI [`78bda524`](https://github.com/humbanew/wertsfy-next/commit/78bda52427ef4f438e7a8a34b86c0baa8666a425)
+- Arrumando GH Actions - CI [`d2ade1fe`](https://github.com/humbanew/wertsfy-next/commit/d2ade1fe07bd49e142b6d6df92de403055055980)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`bbaea174`](https://github.com/humbanew/wertsfy-next/commit/bbaea174de27993f2374b1157ed1986cceaaa5d6)
 - Arrumando GH Actions - CI [`21ae8eaf`](https://github.com/humbanew/wertsfy-next/commit/21ae8eafd2f6592d24f6194db1bce7304e772916)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`807211ac`](https://github.com/humbanew/wertsfy-next/commit/807211ac20017ed9b8b45dd0d0fe1d89a39e875d)

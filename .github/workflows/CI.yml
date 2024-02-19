@@ -37,7 +37,3 @@ jobs:
           outputPath: 'docs/'      # Optional. The path to write documentation to.
           path: '.'            # Optional. The working directory PSDocs is run from.
           prerelease: false     # Optional. Determine if a pre-release module version is installed.
-      - name: Setup helm-docs
-        uses: gabe565/setup-helm-docs-action@v1
-      - name: Run helm-docs
-        uses: losisin/helm-docs-github-action@v1

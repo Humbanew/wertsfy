@@ -1,9 +1,11 @@
-# My project changelog
+# HN Wertsfy [Next] Changelog (v2.0.0-epysilon)
 
 ## unreleased
 
 ### Other
 
+- Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`807211ac`](https://github.com/humbanew/wertsfy-next/commit/807211ac20017ed9b8b45dd0d0fe1d89a39e875d)
+- Arrumando GH Actions - CI [`c099097d`](https://github.com/humbanew/wertsfy-next/commit/c099097d5de2f655837e7a3ffe4766cd4fbc80e5)
 - Arrumando GH Actions [`d53449a5`](https://github.com/humbanew/wertsfy-next/commit/d53449a59d256f9275e7738d5f53cf8a8bd0de65)
 - Arrumando GH Actions [`1008d383`](https://github.com/humbanew/wertsfy-next/commit/1008d38323b54fac20371def22ecfbd1b677b125)
 - Arrumando GH Actions [`b078627c`](https://github.com/humbanew/wertsfy-next/commit/b078627cc245fc48fca4f99d1ba476b7eefa7d8a)

@@ -39,7 +39,5 @@ jobs:
           prerelease: false     # Optional. Determine if a pre-release module version is installed.
       - name: Setup helm-docs
         uses: gabe565/setup-helm-docs-action@v1
-        run: helm-docs
-
       - name: Run helm-docs
         uses: losisin/helm-docs-github-action@v1

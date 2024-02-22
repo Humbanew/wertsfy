@@ -1,5 +1,5 @@
 /**
- * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
+ * @author Humbanew Project ©️ 2024. Todos os direitos reservados.
  *  
  * { Notas de Desenvolvimento }
  * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
@@ -10,11 +10,21 @@
 
 #include "../../defs/wtsfy-tipos.hpp"
 
+#include "componentes/html/red/indianred.hpp"
+#include "componentes/html/red/lightcoral.hpp"
+#include "componentes/html/red/salmon.hpp"
+#include "componentes/html/red/darksalmon.hpp"
+#include "componentes/html/red/lightsalmon.hpp"
+#include "componentes/html/red/crimson.hpp"
+#include "componentes/html/red/red.hpp"
+#include "componentes/html/red/firebrick.hpp"
+#include "componentes/html/red/darkred.hpp"
+
 class Colorama
 {
 
-  typedef struct Categorias {
-
+  typedef struct Categorias 
+  {
 
     struct HTML 
     {
@@ -219,6 +229,31 @@ class Colorama
     };
     
   } categorias;
+
+  // passará por uma revisão de implementação [#fff]
+  #pragma region em_construcao
+    string escape_color_model(i8t RED, i8t GREEN, i8t BLUE) 
+    { 
+      return "\x1b[38;2;"+
+        to_string(RED)+";"+
+        to_string(GREEN)+";"+
+        to_string(BLUE)+"m"; 
+    }
+
+    decltype(RGBA::r) red;
+    decltype(RGBA::g) green;
+    decltype(RGBA::b) blue;
+
+    vdt bright_100(RGBA x) { x.a = 0.1; };
+    vdt bright_200(RGBA x) { x.a = 0.2; };
+    vdt bright_300(RGBA x) { x.a = 0.3; };
+    vdt bright_400(RGBA x) { x.a = 0.4; };
+    vdt bright_500(RGBA x) { x.a = 0.5; };
+    vdt bright_600(RGBA x) { x.a = 0.6; };
+    vdt bright_700(RGBA x) { x.a = 0.7; };
+    vdt bright_800(RGBA x) { x.a = 0.8; };
+    vdt bright_900(RGBA x) { x.a = 0.9; };
+  #pragma endregion
 
   public:
   categorias::HTML::RED html_red_pallet;

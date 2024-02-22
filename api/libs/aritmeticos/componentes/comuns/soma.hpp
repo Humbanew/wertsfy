@@ -5,7 +5,7 @@
 #ifndef SOMA_HPP
 #define SOMA_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 
 f32t soma(f32t x, f32t y)
 {

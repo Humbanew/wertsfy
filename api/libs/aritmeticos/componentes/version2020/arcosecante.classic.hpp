@@ -1,7 +1,7 @@
 #ifndef ARCOSECANTE_CLASSIC_HPP
 #define ARCOSECANTE_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 f32t arcosecante_classic(f32t a) {

@@ -5,6 +5,8 @@
 #ifndef RAIZDECIMA_HPP
 #define RAIZDECIMA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_decima(f32t x) 
 { 
   return potencia(x, 1 / 10); 

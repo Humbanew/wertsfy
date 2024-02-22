@@ -5,6 +5,8 @@
 #ifndef RAIZOITAVA_HPP
 #define RAIZOITAVA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_oitava(f32t x) 
 { 
   return potencia(x, 1 / 8); 

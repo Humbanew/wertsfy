@@ -1,7 +1,7 @@
 #ifndef SECANTE_CLASSIC_HPP
 #define SECANTE_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 f32t secante_classic(f32t a) {

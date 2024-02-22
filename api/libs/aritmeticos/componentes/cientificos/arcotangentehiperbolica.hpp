@@ -5,6 +5,8 @@
 #ifndef ARCOTANGENTEHIPERBOLICA_HPP
 #define ARCOTANGENTEHIPERBOLICA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t arco_tangente_hiperbolica(f32t x) 
 {
   return arco_seno_hiperbolico(x) / arco_cosseno_hiperbolico(x);

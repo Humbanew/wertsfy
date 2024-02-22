@@ -5,6 +5,7 @@
 #ifndef LOGARITMOBASE10MENOS1_HPP
 #define LOGARITMOBASE10MENOS1_HPP
 
+#include "../../core-arithm.hpp"
 #include "../private/logaritmobase.hpp"
 
 f32t logaritmo_base_10_menos_1(f32t x)

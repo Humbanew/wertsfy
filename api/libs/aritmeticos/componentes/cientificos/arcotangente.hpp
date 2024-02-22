@@ -5,6 +5,8 @@
 #ifndef ARCOTANGENTE_HPP
 #define ARCOTANGENTE_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t arco_tangente(f32t x) 
 {
   return arco_seno(x) / arco_cosseno(x);

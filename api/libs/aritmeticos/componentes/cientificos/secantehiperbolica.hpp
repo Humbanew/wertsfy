@@ -5,6 +5,8 @@
 #ifndef SECANTEHIPERBOLICA_HPP
 #define SECANTEHIPERBOLICA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t secante_hiperbolica(f32t x)
 {
   return 1 / (1 / cosseno(x)); 

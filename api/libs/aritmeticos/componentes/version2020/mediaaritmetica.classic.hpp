@@ -1,7 +1,7 @@
 #ifndef MEDIAARITMETICA_CLASSIC_HPP
 #define MEDIAARITMETICA_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 
 i64t media_aritmetica_classic(i64t *a, i64t b) {
   i64t resultado;

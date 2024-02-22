@@ -5,6 +5,8 @@
 #ifndef TANGENTEHIPERBOLICA_HPP
 #define TANGENTEHIPERBOLICA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t tangente_hiperbolica(f32t x)
 {
   return 1 / (seno(x) / cosseno(x));

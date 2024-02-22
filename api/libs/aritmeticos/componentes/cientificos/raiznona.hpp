@@ -5,6 +5,8 @@
 #ifndef RAIZNONA_HPP
 #define RAIZNONA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_nona(f32t x) 
 { 
   return potencia(x, 1 / 9); 

@@ -5,6 +5,8 @@
 #ifndef ARCOCOSSENOHIPERBOLICO_HPP
 #define ARCOCOSSENOHIPERBOLICO_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t arco_cosseno_hiperbolico(f32t x) 
 {
   return 1 / ((-1 * ((2 * Aritmeticos().PI * 1) / 4) / 90) * x);

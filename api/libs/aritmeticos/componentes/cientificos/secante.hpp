@@ -5,6 +5,8 @@
 #ifndef SECANTE_HPP
 #define SECANTE_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t secante(f32t x)
 {
   return 1 / cosseno(x);

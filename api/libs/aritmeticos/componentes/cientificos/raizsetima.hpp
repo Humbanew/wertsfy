@@ -5,6 +5,8 @@
 #ifndef RAIZSETIMA_HPP
 #define RAIZSETIMA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_setima(f32t x) 
 { 
   return potencia(x, 1 / 7); 

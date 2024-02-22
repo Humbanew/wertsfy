@@ -5,6 +5,8 @@
 #ifndef RAIZSEXTA_HPP
 #define RAIZSEXTA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_sexta(f32t x) 
 { 
   return potencia(x, 1 / 6); 

@@ -5,7 +5,7 @@
 #ifndef POTENCIADEPOTENCIA_HPP
 #define POTENCIADEPOTENCIA_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 f32t potencia_de_potencia(f32t x, f32t y, f32t z) 

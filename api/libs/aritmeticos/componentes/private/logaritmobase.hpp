@@ -5,6 +5,8 @@
 #ifndef LOGARITMOBASE_HPP
 #define LOGARITMOBASE_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t logaritmo_base(f32t expo, f32t x) 
 {
   f32t exp = expo;

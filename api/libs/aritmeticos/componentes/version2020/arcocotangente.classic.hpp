@@ -1,7 +1,7 @@
 #ifndef ARCOCOTANGENTE_CLASSIC_HPP
 #define ARCOCOTANGENTE_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 f32t arcocotangente_classic(f32t a) {

@@ -5,7 +5,7 @@
 #ifndef MULTIPLICACAO_HPP
 #define MULTIPLICACAO_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 
 f32t multiplicacao(f32t x, f32t y)
 {

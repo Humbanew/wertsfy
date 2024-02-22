@@ -5,7 +5,7 @@
 #ifndef DIVISAO_HPP
 #define DIVISAO_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 
 f32t divisao(f32t x, f32t y)
 {

@@ -5,6 +5,8 @@
 #ifndef RAIZQUINTA_HPP
 #define RAIZQUINTA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_quinta(f32t x) 
 { 
   return potencia(x, 1 / 5); 

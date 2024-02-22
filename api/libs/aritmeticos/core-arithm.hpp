@@ -8,6 +8,8 @@
 #ifndef CORE_ARITHM_HPP
 #define CORE_ARITHM_HPP
 
+#include "../../defs/wtsfy-tipos.hpp"
+
 // COMUNS
 #include "componentes/comuns/soma.hpp"
 #include "componentes/comuns/subtracao.hpp"

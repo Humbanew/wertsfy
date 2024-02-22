@@ -1,7 +1,7 @@
 #ifndef POTENCIADEPOTENCIA_CLASSIC_HPP
 #define POTENCIADEPOTENCIA_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 i64t potenciadepotencia_classic(i64t a, i64t b, i64t c) {

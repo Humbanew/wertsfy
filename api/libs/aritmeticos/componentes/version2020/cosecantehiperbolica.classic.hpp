@@ -1,7 +1,7 @@
 #ifndef COSECANTEHIPERBOLICA_CLASSIC_HPP
 #define COSECANTEHIPERBOLICA_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 f32t cosecantehiperbolica_classic(f32t a) {

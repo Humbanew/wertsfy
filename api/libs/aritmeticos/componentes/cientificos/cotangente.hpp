@@ -5,6 +5,8 @@
 #ifndef COTANGENTE_HPP
 #define COTANGENTE_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t cotangente(f32t x)
 {
   return 1 / (cosseno(x) / seno(x));

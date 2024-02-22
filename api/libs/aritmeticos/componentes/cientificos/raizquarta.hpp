@@ -5,6 +5,8 @@
 #ifndef RAIZQUARTA_HPP
 #define RAIZQUARTA_HPP
 
+#include "../../core-arithm.hpp"
+
 f32t raiz_quarta(f32t x) 
 { 
   return potencia(x, 1 / 4); 

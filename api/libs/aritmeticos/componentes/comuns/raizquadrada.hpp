@@ -5,7 +5,7 @@
 #ifndef RAIZQUADRADA_HPP
 #define RAIZQUADRADA_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include "potencia.hpp"
 
 f32t raiz_quadrada(f32t x) 

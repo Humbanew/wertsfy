@@ -1,7 +1,7 @@
 #ifndef POTENCIACAOPOR2_CLASSIC_HPP
 #define POTENCIACAOPOR2_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 i64t potenciacao_por2_classic(i64t a) {

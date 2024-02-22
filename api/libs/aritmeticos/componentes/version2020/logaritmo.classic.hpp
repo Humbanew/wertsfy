@@ -1,7 +1,7 @@
 #ifndef LOGARITMO_CLASSIC_HPP
 #define LOGARITMO_CLASSIC_HPP
 
-#include "../../../../defs/wtsfy-tipos.hpp"
+#include "../../core-arithm.hpp"
 #include <cmath>
 
 i64t logaritmo_classic(i64t a) {

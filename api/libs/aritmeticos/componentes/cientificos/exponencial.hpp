@@ -5,6 +5,7 @@
 #ifndef EXPONENCIAL_HPP
 #define EXPONENCIAL_HPP
 
+#include "../../core-arithm.hpp"
 #include "logaritmobasequalquer.hpp"
 
 f32t exponencial(f32t base, f32t x)

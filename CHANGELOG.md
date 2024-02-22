@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`9ed35198`](https://github.com/humbanew/wertsfy-next/commit/9ed35198bc062ceae244285399644aa3971ccc99)
+- Fazendo revisão de includes do código já desenvolvido [`c4fd44f1`](https://github.com/humbanew/wertsfy-next/commit/c4fd44f1e155bcf56b4ce87f7e8157297eefc099)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`43cea11a`](https://github.com/humbanew/wertsfy-next/commit/43cea11a2ba503380953a4813b289da62c976c9a)
 - Atualizando workflow HN Actions [`27b2eb49`](https://github.com/humbanew/wertsfy-next/commit/27b2eb49e693d394bc11f42fcc714310c9727440)
 - Arrumando GH Actions - CI [`78bda524`](https://github.com/humbanew/wertsfy-next/commit/78bda52427ef4f438e7a8a34b86c0baa8666a425)

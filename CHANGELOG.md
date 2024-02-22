@@ -1,9 +1,10 @@
-# HN Wertsfy [Next] Changelog (v2.0.0-epysilon)
+# HN Wertsfy [Next] Changelog (v2.0.0)
 
 ## unreleased
 
 ### Other
 
+- Arrumando 'CHANGELOG.md' [`be675831`](https://github.com/humbanew/wertsfy-next/commit/be675831fb350542552c1dbcba8c042e1be7202d)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`9ed35198`](https://github.com/humbanew/wertsfy-next/commit/9ed35198bc062ceae244285399644aa3971ccc99)
 - Fazendo revisão de includes do código já desenvolvido [`c4fd44f1`](https://github.com/humbanew/wertsfy-next/commit/c4fd44f1e155bcf56b4ce87f7e8157297eefc099)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`43cea11a`](https://github.com/humbanew/wertsfy-next/commit/43cea11a2ba503380953a4813b289da62c976c9a)

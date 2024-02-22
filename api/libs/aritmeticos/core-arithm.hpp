@@ -435,15 +435,15 @@ class Aritmeticos
    */ 
   categorias::Comuns comuns;
 
-//   /** 
-//    * Grupo Categórico de funcionalidades científicas 
-//    */
-//   categorias::Cientificas cientificas;
+  /** 
+   * Grupo Categórico de funcionalidades científicas 
+   */
+  categorias::Cientificas cientificas;
 
-//   /** 
-//    * Grupo Categórico de funcionalidades supremas 
-//    */
-//   categorias::Supremas supremas;
+  /** 
+   * Grupo Categórico de funcionalidades supremas 
+   */
+  categorias::Supremas supremas;
 
 };
 

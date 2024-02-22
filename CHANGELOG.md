@@ -4,6 +4,7 @@
 
 ### Other
 
+- Fazendo revisão de includes do código já desenvolvido - III [`495aaa08`](https://github.com/humbanew/wertsfy-next/commit/495aaa086cc505a7fc467957535a279089730312)
 - Fazendo revisão de includes do código já desenvolvido - II [`291b6398`](https://github.com/humbanew/wertsfy-next/commit/291b6398a0d353803d479b0f30557934e774c164)
 - Arrumando 'CHANGELOG.md' [`be675831`](https://github.com/humbanew/wertsfy-next/commit/be675831fb350542552c1dbcba8c042e1be7202d)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`9ed35198`](https://github.com/humbanew/wertsfy-next/commit/9ed35198bc062ceae244285399644aa3971ccc99)

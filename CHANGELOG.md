@@ -4,6 +4,7 @@
 
 ### Other
 
+- **Construindo biblioteca Colorama - II** [`c56e29cd`](https://github.com/humbanew/wertsfy-next/commit/c56e29cdedb37750ab0f71319b3efacf9d506077)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`c97d0e0f`](https://github.com/humbanew/wertsfy-next/commit/c97d0e0f0096236af4f97d7ace56eaabc79445a9)
 - Construindo biblioteca Colorama [`88da72fb`](https://github.com/humbanew/wertsfy-next/commit/88da72fb8148decb6c00b72673cd74efc0bbb037)
 - Fazendo revisão de includes do código já desenvolvido - III [`495aaa08`](https://github.com/humbanew/wertsfy-next/commit/495aaa086cc505a7fc467957535a279089730312)

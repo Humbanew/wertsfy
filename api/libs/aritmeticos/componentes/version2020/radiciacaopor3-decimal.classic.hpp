@@ -1,3 +1,7 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
 #ifndef RADICIACAOPOR3_DECIMAL_CLASSIC_HPP
 #define RADICIACAOPOR3_DECIMAL_CLASSIC_HPP
 

@@ -1,3 +1,7 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
 #ifndef ARCOCOSSENO_CLASSIC_HPP
 #define ARCOCOSSENO_CLASSIC_HPP
 

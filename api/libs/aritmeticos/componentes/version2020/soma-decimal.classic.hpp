@@ -1,3 +1,7 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
 #ifndef SOMA_DECIMAL_CLASSIC_HPP
 #define SOMA_DECIMAL_CLASSIC_HPP
 

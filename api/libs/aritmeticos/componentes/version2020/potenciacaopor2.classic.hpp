@@ -1,3 +1,7 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
 #ifndef POTENCIACAOPOR2_CLASSIC_HPP
 #define POTENCIACAOPOR2_CLASSIC_HPP
 

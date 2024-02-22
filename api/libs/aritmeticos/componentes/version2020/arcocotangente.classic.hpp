@@ -1,3 +1,7 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
 #ifndef ARCOCOTANGENTE_CLASSIC_HPP
 #define ARCOCOTANGENTE_CLASSIC_HPP
 

@@ -32,15 +32,15 @@ class Colorama
       struct RED
       {
 
-        CatalogColor<RGBA(205, 92, 92, 1), HSV(0, 0.53, 0.8), Hex(*"indianred", *"#CD5C5C", 0xCD5C5C)> indianred;
-        CatalogColor<RGBA(240, 128, 128, 1), HSV(0, 0.72, 0.94), Hex(*"lightcoral", *"#F08080", 0xF08080)> lightcoral;
-        CatalogColor<RGBA(250, 128, 114, 1), HSV(0, 0.54, 0.98), Hex(*"salmon", *"#FA8072", 0xFA8072)> salmon;
-        CatalogColor<RGBA(233, 150, 122, 1), HSV(0, 0.48, 0.91), Hex(*"darksalmon", *"#E9967A", 0xE9967A)> darksalmon;
-        CatalogColor<RGBA(255, 160, 122, 1), HSV(0, 0.100, 1), Hex(*"lightsalmon", *"#FFA07A", 0xFFA07A)> lightsalmon;
-        CatalogColor<RGBA(220, 20, 60, 1), HSV(0, 0.91, 0.86), Hex(*"crimson", *"#DC143C", 0xDC143C)> crimson;
-        CatalogColor<RGBA(255, 0, 0, 1), HSV(0, 1, 1), Hex(*"red", *"#FF0000", 0xFF0000)> red;
-        CatalogColor<RGBA(178, 34, 34, 1), HSV(0, 0.81, 0.55), Hex(*"firebrick", *"#B22222", 0xB22222)> firebrick;
-        CatalogColor<RGBA(139, 0, 0, 1), HSV(0, 1, 0.54), Hex(*"darkred", *"#8B0000", 0x8B0000)> darkred;
+        decltype(indianred) indianred;
+        decltype(lightcoral) lightcoral;
+        decltype(salmon) salmon;
+        decltype(darksalmon) darksalmon;
+        decltype(lightsalmon) lightsalmon;
+        decltype(crimson) crimson;
+        decltype(red) red;
+        decltype(firebrick) firebrick;
+        decltype(darkred) darkred;
 
       };
 

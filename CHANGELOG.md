@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`655e5797`](https://github.com/humbanew/wertsfy-next/commit/655e5797b3e57cf3ac7ae4ed5f42771ae79aabde)
+- **Construindo biblioteca Colorama - IV** [`917bb0e0`](https://github.com/humbanew/wertsfy-next/commit/917bb0e03f38a1a5d7e4e5982487dfd9fa871ce2)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`23955142`](https://github.com/humbanew/wertsfy-next/commit/239551425bedf2dc0e9590f0f34979cc69c05762)
 - **Arrumando biblioteca Colorama - III, Adicionando modelo de addon do NodeJS** [`b1f36683`](https://github.com/humbanew/wertsfy-next/commit/b1f36683ecd876cec4bff494fac9b3befd06486d)
 - Create LICENSE.md [`0cc22079`](https://github.com/humbanew/wertsfy-next/commit/0cc22079c7cb83204b488af3e60f9fb4655b8934)

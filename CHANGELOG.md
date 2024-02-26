@@ -4,6 +4,7 @@
 
 ### Other
 
+- Adicionando gramática de branchs do repositorio [`8328c428`](https://github.com/humbanew/wertsfy-next/commit/8328c4281d5142cf4a784802ba0528d9555baff6)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`c7bddff3`](https://github.com/humbanew/wertsfy-next/commit/c7bddff3c5f8375283fdfa377734ebed329274af)
 - Atualizando executável [`1d82426c`](https://github.com/humbanew/wertsfy-next/commit/1d82426c9e2cf7745062dbc65586ecad9db4018d)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`ac2986a8`](https://github.com/humbanew/wertsfy-next/commit/ac2986a8acf7aad5d65b6eb5e4fd66c515a153a2)

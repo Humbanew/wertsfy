@@ -23,7 +23,11 @@
 
 // html: pink
 #include "componentes/html/pink/pink.hpp"
-
+#include "componentes/html/pink/lightpink.hpp"
+#include "componentes/html/pink/hotpink.hpp"
+#include "componentes/html/pink/deeppink.hpp"
+#include "componentes/html/pink/mediumvioletred.hpp"
+#include "componentes/html/pink/palevioletred.hpp"
 
 class Colorama
 {
@@ -52,12 +56,12 @@ class Colorama
       struct PINK
       {
 
-        CatalogColor<RGBA(255, 192, 203, 1), HSV(0, 0.25, 1), Hex(*"pink", *"#FFC0CB", 0xFFC0CB)> pink;
-        CatalogColor<RGBA(255, 182, 193, 1), HSV(0, 0.25, 1), Hex(*"lightpink", *"#FFB6C1", 0xFFB6C1)> lightpink;
-        CatalogColor<RGBA(255, 105, 180, 1), HSV(0, 0.79, 1), Hex(*"hotpink", *"#FF69B4", 0xFF69B4)> hotpink;
-        CatalogColor<RGBA(255, 20, 147, 1), HSV(0, 0.92, 1), Hex(*"deeppink", *"#FF1493", 0xFF1493)> deeppink;
-        CatalogColor<RGBA(199, 21, 133, 1), HSV(0, 0.89, 0.78), Hex(*"mediumvioletred", *"#C71585", 0xC71585)> mediumvioletred;
-        CatalogColor<RGBA(219, 112, 147, 1), HSV(0, 0.36, 0.86), Hex(*"palevioletred", *"#DB7093", 0xDB7093)> palevioletred;
+        decltype(pink) pink;
+        decltype(lightpink) lightpink;
+        decltype(hotpink) hotpink;
+        decltype(deeppink) deeppink;
+        decltype(mediumvioletred) mediumvioletred;
+        decltype(palevioletred) palevioletred;
 
       };
 

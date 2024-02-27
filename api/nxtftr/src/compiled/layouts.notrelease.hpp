@@ -15,7 +15,7 @@ namespace Wtsfy
     {
       
       // MODELOS LEGADO
-      char* legado_desenhosoma[7][15] = {
+      const char* legado_desenhosoma[7][15] = {
         { "╔═════════════╗"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
         { "║▒     ║     ▒║"},
@@ -25,7 +25,7 @@ namespace Wtsfy
         { "╚═════════════╝"}
       };
 
-      char* legado_desenhosubtracao[7][15] = {
+      const char* legado_desenhosubtracao[7][15] = {
         { "╔═════════════╗"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
         { "║▒           ▒║"},
@@ -35,44 +35,79 @@ namespace Wtsfy
         { "╚═════════════╝"}
       };
 
-      char* legado_desenhomultiplicacao[7][15] = {
+      const char* legado_desenhomultiplicacao[7][15] = {
         { "╔═════════════╗"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
-        { "║▒▒▒▒     ▒▒▒▒║"},
-        { "║▒▒▒▒ ═╫═ ▒▒▒▒║"},
-        { "║▒▒▒▒     ▒▒▒▒║"},
+        { "║▒           ▒║"},
+        { "║▒    ═╫═    ▒║"},
+        { "║▒           ▒║"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
         { "╚═════════════╝"}
       };
       
-      char* legado_desenhodivisao[7][15] = {
+      const char* legado_desenhodivisao[7][15] = {
         { "╔═════════════╗"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
-        { "║▒▒▒▒   ╫═▒▒▒▒║"},
-        { "║▒▒▒▒ ═╫═ ▒▒▒▒║"},
-        { "║▒▒▒▒═╫   ▒▒▒▒║"},
+        { "║▒      ╫═   ▒║"},
+        { "║▒    ═╫═    ▒║"},
+        { "║▒   ═╫      ▒║"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
         { "╚═════════════╝"}
       };
 
-      char* legado_desenhopotenciacao[7][15] = {
+      const char* legado_desenhopotenciacao[7][15] = {
         { "╔═════════════╗"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
-        { "║▒▒▒▒     ▒▒▒▒║"},
-        { "║▒▒▒═  ═  ═▒▒▒║"},
-        { "║▒▒▒▒     ▒▒▒▒║"},
+        { "║▒     ═     ▒║"},
+        { "║▒    ═ ═    ▒║"},
+        { "║▒   ═   ═   ▒║"},
         { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
         { "╚═════════════╝"}
       };
 
 
-      char* legado_desenhoraizquadrada[7][15] = {};
-      char* legado_desenhoraizcubica[7][15] = {};
-      char* legado_desenhopotdepot[7][15] = {};
-      char* legado_desenhomediarit[7][15] = {};
+      const char* legado_desenhoraizquadrada[7][15] = {
+        { "╔═════════════╗"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "║▒     ═     ▒║"},
+        { "║▒══  ═ ═    ▒║"},
+        { "║▒  ╫╫   ═   ▒║"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "╚═════════════╝"}
+      };
+
+      const char* legado_desenhoraizcubica[7][15] = {
+        { "╔═════════════╗"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "║▒   ═ ═     ▒║"},
+        { "║▒══  ═ ═    ▒║"},
+        { "║▒  ╫╫   ═   ▒║"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "╚═════════════╝"}
+      };
+
+      const char* legado_desenhopotdepot[7][15] = {
+        { "╔═════════════╗"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "║▒  ═     ═  ▒║"},
+        { "║▒ ═ ═   ═ ═ ▒║"},
+        { "║▒═   ═ ═   ═▒║"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "╚═════════════╝"}
+      };
+
+      const char* legado_desenhomediarit[7][15] = {
+        { "╔═════════════╗"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "║▒  ══   ══  ▒║"},
+        { "║▒ ═════════ ▒║"},
+        { "║▒    ═ ═    ▒║"},
+        { "║▒▒▒▒▒▒▒▒▒▒▒▒▒║"},
+        { "╚═════════════╝"}
+      };
 
 
-      char* design_component[8][20];
+      const char* design_component[8][20];
       typedef decltype(design_component) UICLIElement;
 
       public:

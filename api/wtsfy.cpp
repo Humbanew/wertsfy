@@ -10,6 +10,7 @@
 #include <iostream>
 #include "defs/wtsfy-tipos.hpp"
 
+// Ainda em construção.
 int main(int argc, char *argv[]) 
 {
 

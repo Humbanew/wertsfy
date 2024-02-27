@@ -608,6 +608,8 @@ namespace Wtsfy
 
       }
 
+      vdt UIMenus() { };
+
     };
 
 

@@ -4,6 +4,7 @@
 
 ### Other
 
+- Fazendo ajustes em todos os diretórios e algoritmos do projeto [`7a6722c4`](https://github.com/humbanew/wertsfy-next/commit/7a6722c49a9f3be717025cf48748f3195a7dbf4d)
 - Atualizando configurações do C/C++ em diferentes sistemas operacionais [`f02ab9c2`](https://github.com/humbanew/wertsfy-next/commit/f02ab9c2318ddffdcd899c54b7e5bd54d6c49567)
 - Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`3920d001`](https://github.com/humbanew/wertsfy-next/commit/3920d001e045e3135ccd11e771a97e7f4bdf15f2)
 - Atualizando `wtsfy.cpp` [`b1199dbd`](https://github.com/humbanew/wertsfy-next/commit/b1199dbd9e4750e20a611f3afc6bc96f5112377b)

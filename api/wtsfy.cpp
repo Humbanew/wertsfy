@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     std::string(argv[1]) == "wtsfy\0-v"
   ) {
     // ajustar ainda os outputs
-    printf(
+    cout <<
       "\n\x1b[34;1mHumbanew Wertsfy SDK\x1b[0m\n"
       "\x1b[1mVersao 2.0.0\x1b[0m\n\n"
       "Biblioteca 'Aritmeticos' ainda sem comandos disponiveis.\n"
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
       "Recursos de acessibilidade e linguagem ainda nao adotados.\n"
       "Demonstracao grafica de recursos criados ainda em desenvolvimento.\n"
       "Conjunto de ferramentas com interface grafica nao implementadas.\n\n"
-    );
+    << endl;
   }
   else {return 1;}
 

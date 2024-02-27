@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`1763da67`](https://github.com/humbanew/wertsfy-next/commit/1763da67c565324fc8e27e0c847f01db0ef20ddc)
+- Organizando os diretórios do projeto de forma eficiente [`7a1528ad`](https://github.com/humbanew/wertsfy-next/commit/7a1528ad735d511617b8d0583456eba49b1d4522)
 - Atualizando github actions [`62ce0b38`](https://github.com/humbanew/wertsfy-next/commit/62ce0b38073f5c19c9b4f14ebb963f98a8b38e22)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8e1e1a51`](https://github.com/humbanew/wertsfy-next/commit/8e1e1a514e3b604992deac605081cadcde022807)
 - Arrumando branchs [`56409a48`](https://github.com/humbanew/wertsfy-next/commit/56409a480b4c92fe7256c3449364df0e28de119a)

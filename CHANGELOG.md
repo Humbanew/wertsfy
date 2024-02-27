@@ -4,6 +4,9 @@
 
 ### Other
 
+- Atualizando github actions [`62ce0b38`](https://github.com/humbanew/wertsfy-next/commit/62ce0b38073f5c19c9b4f14ebb963f98a8b38e22)
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8e1e1a51`](https://github.com/humbanew/wertsfy-next/commit/8e1e1a514e3b604992deac605081cadcde022807)
+- Arrumando branchs [`56409a48`](https://github.com/humbanew/wertsfy-next/commit/56409a480b4c92fe7256c3449364df0e28de119a)
 - Fazendo ajustes em todos os diretórios e algoritmos do projeto - II [`ee06c218`](https://github.com/humbanew/wertsfy-next/commit/ee06c2185bd94e84b709a0144f5c6616810c53b4)
 - Fazendo ajustes em todos os diretórios e algoritmos do projeto [`7a6722c4`](https://github.com/humbanew/wertsfy-next/commit/7a6722c49a9f3be717025cf48748f3195a7dbf4d)
 - Atualizando configurações do C/C++ em diferentes sistemas operacionais [`f02ab9c2`](https://github.com/humbanew/wertsfy-next/commit/f02ab9c2318ddffdcd899c54b7e5bd54d6c49567)

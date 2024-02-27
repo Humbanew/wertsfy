@@ -9,9 +9,10 @@
 #include <cstdlib>
 #include <iostream>
 #include "defs/wtsfy-tipos.hpp"
+#include "libs/wtsfy-bibliotecas.hpp"
 
 // Ainda em construção.
-int main(int argc, char *argv[]) 
+int cli(int argc, char *argv[]) 
 {
 
   if(
@@ -32,4 +33,12 @@ int main(int argc, char *argv[])
 
   return 0;
 
+}
+
+int main(void)
+{ 
+  Wtsfy::bibliotecas::aritmeticos;
+  Wtsfy::bibliotecas::aritmeticos_classic;
+  Wtsfy::bibliotecas::colorama;
+  return 0;   
 }

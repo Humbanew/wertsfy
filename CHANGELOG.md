@@ -4,6 +4,7 @@
 
 ### Other
 
+- Atualizando makefile do projeto [`c7088cdc`](https://github.com/humbanew/wertsfy-next/commit/c7088cdce79526c9989f726a8761e904f43fa401)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`1763da67`](https://github.com/humbanew/wertsfy-next/commit/1763da67c565324fc8e27e0c847f01db0ef20ddc)
 - Organizando os diretórios do projeto de forma eficiente [`7a1528ad`](https://github.com/humbanew/wertsfy-next/commit/7a1528ad735d511617b8d0583456eba49b1d4522)
 - Atualizando github actions [`62ce0b38`](https://github.com/humbanew/wertsfy-next/commit/62ce0b38073f5c19c9b4f14ebb963f98a8b38e22)

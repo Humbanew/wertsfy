@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'labo@reunion-pieces' of github.com:humbanew/wertsfy-next into labo@reunion-pieces [`fa7eaa05`](https://github.com/humbanew/wertsfy-next/commit/fa7eaa05e7d5400a5908ebc2171babcfc8034872)
+- Atualizando arquivos de funcionalidades avulsas [`474fff8c`](https://github.com/humbanew/wertsfy-next/commit/474fff8c46009fb256bde3d30df2c07f3d2419d0)
 - Arrumando makefile [`82608e04`](https://github.com/humbanew/wertsfy-next/commit/82608e04a9bac2a6a85d38611291beb8a4329a36)
 - Adicionando features avulsas [`7acad182`](https://github.com/humbanew/wertsfy-next/commit/7acad182abdda4d05f95f31f2da8ea92aa8d9d30)
 - Adicionando gramática de branchs do repositorio [`8328c428`](https://github.com/humbanew/wertsfy-next/commit/8328c4281d5142cf4a784802ba0528d9555baff6)

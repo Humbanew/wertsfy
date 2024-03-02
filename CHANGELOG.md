@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`376c47af`](https://github.com/humbanew/wertsfy-next/commit/376c47af3385307f58ffcac69c152921eb2d06c3)
+- Arrumando todos os setores de código da Wertsfy, antes do começo paralelo entre a v1.1.0 e a v2.0.0 [`953f66f7`](https://github.com/humbanew/wertsfy-next/commit/953f66f7991007ff276eae3fb6d28faa9626f82b)
 - Construindo Páginas HN a partir da Wertsfy e Configurando outras GH Actions [`ca86d8ee`](https://github.com/humbanew/wertsfy-next/commit/ca86d8eed8dd0aa46ddaf92661e099a614ff9b2c)
 - Atualizando makefile do projeto [`c7088cdc`](https://github.com/humbanew/wertsfy-next/commit/c7088cdce79526c9989f726a8761e904f43fa401)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`1763da67`](https://github.com/humbanew/wertsfy-next/commit/1763da67c565324fc8e27e0c847f01db0ef20ddc)

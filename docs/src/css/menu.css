@@ -1,7 +1,4 @@
 .hnaplicacao_menu_conteiner {
-  background-color: var(--wertsfy-palette-pantone-274-c);
-  height: 60vw;
-  width: 60%;
-  margin-left: 1vw;
-  color: #ffffff;
+  display: inline-block;
+  position: fixed;
 }

@@ -33,6 +33,8 @@
 
 .hnaplicacao_cabecalho__nav_menu {
   display: flex;
+  border-left: 1px solid gray;
+  margin-left: 2vw;
 }
 
 .hnaplicacao_cabecalho__nav_menu_lista, hnaplicacao_cabecalho__nav_menu_lista_item {

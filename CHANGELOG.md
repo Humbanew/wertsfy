@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`990373fd`](https://github.com/humbanew/wertsfy-next/commit/990373fd917ac9dffefacd9b74d7cab9d3e25595)
+- **v2.0.0** - Atualizando pasta `nxtftr` [`d5cb859b`](https://github.com/humbanew/wertsfy-next/commit/d5cb859b891cdf6de33b98391860b54dd682f975)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`bff48cb6`](https://github.com/humbanew/wertsfy-next/commit/bff48cb69176c865dfa70b714f96036a243c07f2)
 - **v2.0.0** - Atualizando pasta `nxtftr` [`63b38897`](https://github.com/humbanew/wertsfy-next/commit/63b38897e2b571eb55e0d5f5e5d183e15f099b4b)
 - **v1.1.0** - Arrumando README.md [`c0414912`](https://github.com/humbanew/wertsfy-next/commit/c0414912e6917c918726268600d6acba14bda774)

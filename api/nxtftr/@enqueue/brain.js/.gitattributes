@@ -1,3 +1,0 @@
-dist/* linguist-vendored
-examples/* linguist-documentation
-*.js linguist-detectable=false

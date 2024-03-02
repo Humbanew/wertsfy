@@ -4,6 +4,7 @@
 
 ### Other
 
+- **v1.1.0** - Arrumando README.md [`c0414912`](https://github.com/humbanew/wertsfy-next/commit/c0414912e6917c918726268600d6acba14bda774)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`05e60637`](https://github.com/humbanew/wertsfy-next/commit/05e606379cc264021227e58ada99b45ea0223390)
 - **v1.1.0** - Usando v1.0.7 de base de desenvolvimento [`d09f1743`](https://github.com/humbanew/wertsfy-next/commit/d09f174357073995f1d93cd4426f91b47ebf3a74)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`3790cab1`](https://github.com/humbanew/wertsfy-next/commit/3790cab17727d108acff7ee3bd93d5e57459a65f)

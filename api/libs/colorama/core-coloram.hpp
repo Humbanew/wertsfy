@@ -10,7 +10,7 @@
 
 #include "../../defs/wtsfy-tipos.hpp"
 
-// html: red
+// HTML: red
 #include "componentes/html/red/indianred.hpp"
 #include "componentes/html/red/lightcoral.hpp"
 #include "componentes/html/red/salmon.hpp"
@@ -21,7 +21,7 @@
 #include "componentes/html/red/firebrick.hpp"
 #include "componentes/html/red/darkred.hpp"
 
-// html: pink
+// HTML: pink
 #include "componentes/html/pink/pink.hpp"
 #include "componentes/html/pink/lightpink.hpp"
 #include "componentes/html/pink/hotpink.hpp"

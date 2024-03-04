@@ -12,9 +12,12 @@ typedef struct JSON
 } json;
 
 int labo() { 
+  json modelo;
+
   return 0;
 }
 
 int main(vdt) {
+  labo();
   return 0;
 }

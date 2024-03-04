@@ -4,6 +4,9 @@
 
 ### Other
 
+- **v2.0.0** - Lapidando modelos de endpoints já implementados - II [`60fa093a`](https://github.com/humbanew/wertsfy-next/commit/60fa093a93e3fd86e4ec53f039d1b235bb4ada52)
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8022b1bb`](https://github.com/humbanew/wertsfy-next/commit/8022b1bbeb91ada0776a04bffb35ede01f2cab26)
+- **v2.0.0** - Lapidando modelos de endpoints já implementados [`9ff7686e`](https://github.com/humbanew/wertsfy-next/commit/9ff7686e58aec28b970c51161cc77eafd9bb987d)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`990373fd`](https://github.com/humbanew/wertsfy-next/commit/990373fd917ac9dffefacd9b74d7cab9d3e25595)
 - **v2.0.0** - Atualizando pasta `nxtftr` [`d5cb859b`](https://github.com/humbanew/wertsfy-next/commit/d5cb859b891cdf6de33b98391860b54dd682f975)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`bff48cb6`](https://github.com/humbanew/wertsfy-next/commit/bff48cb69176c865dfa70b714f96036a243c07f2)

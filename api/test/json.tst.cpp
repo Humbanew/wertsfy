@@ -4,6 +4,26 @@
 
 #include "../defs/wtsfy-tipos.hpp"
 
+// Template de estrutura JSON
+typedef struct JSON {
+  private:
+  typedef union ValueTypes
+  {
+    i8t a;
+    i16t a_1;
+    i32t a_2;
+    i64t a_3;
+    f32t b;
+    f64t b_1;
+    char* z;
+    struct JSON *x;
+  } valuetyp;
+
+  public:
+  string key;
+  valuetyp value;
+} json;
+
 int labo() { 
 
   json a;

@@ -170,26 +170,6 @@ using namespace std;
     template<RGBA scheme_rgba, HSV scheme_hsv, Hex scheme_hex> 
     struct CatalogColor { RGBA color_rgba = scheme_rgba; HSV color_hsv = scheme_hsv; Hex color_hex = scheme_hex; };
 
-    // Template de estrutura JSON
-    typedef struct JSON {
-      private:
-      typedef union ValueTypes
-      {
-        i8t a;
-        i16t a_1;
-        i32t a_2;
-        i64t a_3;
-        f32t b;
-        f64t b_1;
-        char* z;
-        struct JSON *x;
-      } valuetyp;
-
-      public:
-      string key;
-      valuetyp value;
-    } json;
-
   #pragma endregion
 
 #pragma endregion

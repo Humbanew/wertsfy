@@ -172,7 +172,7 @@ using namespace std;
 
     // Template de estrutura JSON
     typedef struct JSON {
-      string key;
+      private:
       typedef union ValueTypes
       {
         i8t a;
@@ -184,6 +184,9 @@ using namespace std;
         char* z;
         struct JSON *x;
       } valuetyp;
+
+      public:
+      string key;
       valuetyp value;
     } json;
 

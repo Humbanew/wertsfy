@@ -4,6 +4,7 @@
 
 ### Other
 
+- Update README.md [`2ff2b015`](https://github.com/humbanew/wertsfy-next/commit/2ff2b0159c9a2fbe489f9fbc6d2290bc3afd3962)
 - **v2.0.0** - Criando modelos de testes no laboratorio [`c1eec58c`](https://github.com/humbanew/wertsfy-next/commit/c1eec58c75e7f9ebeec54b9f229fd3d7c7b8488c)
 - **v2.0.0** - Criando modelos de testes no laboratorio [`9fdb9335`](https://github.com/humbanew/wertsfy-next/commit/9fdb93357fb8cc0fbc5fec51eba58e06be8c0783)
 - **v1.1.0** - Criando arquivo base - II [`dfa8eeca`](https://github.com/humbanew/wertsfy-next/commit/dfa8eeca1d8b653633e0678672e549a6ec34e0c7)

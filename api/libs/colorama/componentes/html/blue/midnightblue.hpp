@@ -5,7 +5,7 @@
 #ifndef MIDNIGHTBLUE_HPP
 #define MIDNIGHTBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(25, 25, 112, 1), 

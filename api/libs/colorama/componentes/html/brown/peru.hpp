@@ -5,7 +5,7 @@
 #ifndef PERU_HPP
 #define PERU_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(205, 133, 63, 1), 

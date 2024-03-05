@@ -1,8 +1,14 @@
 main:
 	g++ wtsfy.cpp -o out/wtsfy.exe -std=c++23
 
+teste:
+	g++ test/laboratorio.tst.cpp -o out/test/laboratorio.tst.exe -std=c++23
+
 exec: main
-	./out/wtsfy.exe
+	/out/wtsfy.exe
+
+exec-teste: teste
+	/out/test/laboratorio.tst.exe
 
 # variaveis de flags do gpp
 # -Wall: mostra todos os warnings
@@ -20,3 +26,5 @@ exec: main
 # -fno-omit-frame-pointer: desabilita a otimização do frame pointer
 # -fno-optimize-sibling-calls: desabilita a otimização de chamadas de funções irmãs
 # -fno-inline: desabilita a otimização de inline
+
+# -march=native 

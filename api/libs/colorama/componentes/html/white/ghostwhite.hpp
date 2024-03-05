@@ -5,7 +5,7 @@
 #ifndef GHOSTWHITE_HPP
 #define GHOSTWHITE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(248, 248, 255, 1), 

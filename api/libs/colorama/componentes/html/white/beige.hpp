@@ -5,7 +5,7 @@
 #ifndef BEIGE_HPP
 #define BEIGE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(245, 245, 220, 1), 

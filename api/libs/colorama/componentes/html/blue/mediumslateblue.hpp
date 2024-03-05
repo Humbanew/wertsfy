@@ -5,7 +5,7 @@
 #ifndef MEDIUMSLATEBLUE_HPP
 #define MEDIUMSLATEBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(123, 104, 238, 1), 

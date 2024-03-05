@@ -5,7 +5,7 @@
 #ifndef INDIGO_HPP
 #define INDIGO_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(75, 0, 130, 1), 

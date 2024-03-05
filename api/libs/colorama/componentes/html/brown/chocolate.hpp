@@ -5,7 +5,7 @@
 #ifndef CHOCOLATE_HPP
 #define CHOCOLATE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(210, 105, 30, 1), 

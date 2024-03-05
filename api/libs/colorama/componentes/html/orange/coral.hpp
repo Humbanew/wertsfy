@@ -5,7 +5,7 @@
 #ifndef CORAL_HPP
 #define CORAL_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 127, 80, 1), 

@@ -5,7 +5,7 @@
 #ifndef KHARI_HPP
 #define KHARI_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(240, 230, 140, 1), 

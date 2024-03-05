@@ -5,7 +5,7 @@
 #ifndef ORANGERED_HPP
 #define ORANGERED_HPP
 
-#include "../../core-coloram.hpp"
+#include ../"../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 69, 0, 1), 

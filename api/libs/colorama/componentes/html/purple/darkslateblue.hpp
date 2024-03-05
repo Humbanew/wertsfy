@@ -5,7 +5,7 @@
 #ifndef DARKSLATEBLUE_HPP
 #define DARKSLATEBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(72, 61, 139, 1), 

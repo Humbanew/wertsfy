@@ -5,7 +5,7 @@
 #ifndef SIENNA_HPP
 #define SIENNA_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(160, 82, 45, 1), 

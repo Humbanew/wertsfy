@@ -5,7 +5,7 @@
 #ifndef PEACHPUFF_HPP
 #define PEACHPUFF_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 218, 185, 1), 

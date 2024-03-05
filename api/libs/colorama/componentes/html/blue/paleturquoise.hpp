@@ -5,7 +5,7 @@
 #ifndef PALETURQUOISE_HPP
 #define PALETURQUOISE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(175, 238, 238, 1), 

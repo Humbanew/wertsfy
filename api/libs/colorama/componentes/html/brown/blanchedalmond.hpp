@@ -5,7 +5,7 @@
 #ifndef BLANCHEDALMOND_HPP
 #define BLANCHEDALMOND_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 235, 205, 1), 

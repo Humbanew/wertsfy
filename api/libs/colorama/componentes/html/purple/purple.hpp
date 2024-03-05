@@ -5,7 +5,7 @@
 #ifndef PURPLE_HPP
 #define PURPLE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(128, 0, 128, 1), 

@@ -5,7 +5,7 @@
 #ifndef NAVAJOWHITE_HPP
 #define NAVAJOWHITE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 222, 173, 1), 

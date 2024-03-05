@@ -5,7 +5,7 @@
 #ifndef AQUA_HPP
 #define AQUA_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 255, 255, 1), 

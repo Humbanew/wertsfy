@@ -5,7 +5,7 @@
 #ifndef INDIANRED_HPP
 #define INDIANRED_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(205, 92, 92, 1), 

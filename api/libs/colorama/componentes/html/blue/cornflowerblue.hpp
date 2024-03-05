@@ -5,7 +5,7 @@
 #ifndef CORNFLOWERBLUE_HPP
 #define CORNFLOWERBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(100, 149, 237, 1), 

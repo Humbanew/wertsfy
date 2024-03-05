@@ -5,7 +5,7 @@
 #ifndef GRAY_HPP
 #define GRAY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(128, 128, 128, 1), 

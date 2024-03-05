@@ -5,7 +5,7 @@
 #ifndef MEDIUMPURPLE_HPP
 #define MEDIUMPURPLE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(147, 112, 219, 1), 

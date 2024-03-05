@@ -5,7 +5,7 @@
 #ifndef SEAGREEN_HPP
 #define SEAGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(46, 139, 87, 1), 

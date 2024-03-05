@@ -5,7 +5,7 @@
 #ifndef LIGHTPINK_HPP
 #define LIGHTPINK_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 182, 193, 1), 

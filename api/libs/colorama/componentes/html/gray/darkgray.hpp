@@ -5,7 +5,7 @@
 #ifndef DARKGRAY_HPP
 #define DARKGRAY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(169, 169, 169, 1), 

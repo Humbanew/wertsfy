@@ -5,7 +5,7 @@
 #ifndef MINTCREAM_HPP
 #define MINTCREAM_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(245, 255, 250, 1), 

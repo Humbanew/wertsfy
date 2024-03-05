@@ -5,7 +5,7 @@
 #ifndef ORCHID_HPP
 #define ORCHID_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(218, 112, 214, 1), 

@@ -5,7 +5,7 @@
 #ifndef TURQUIOSE_HPP
 #define TURQUIOSE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(64, 224, 208, 1), 

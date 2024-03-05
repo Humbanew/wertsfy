@@ -5,7 +5,7 @@
 #ifndef LINEN_HPP
 #define LINEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(250, 240, 230, 1), 

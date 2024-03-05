@@ -5,7 +5,7 @@
 #ifndef ALICEBLUE_HPP
 #define ALICEBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(240, 248, 255, 1), 

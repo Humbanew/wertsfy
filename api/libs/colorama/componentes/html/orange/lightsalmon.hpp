@@ -5,7 +5,7 @@
 #ifndef LIGHTSALMON_HPP
 #define LIGHTSALMON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 160, 122, 1), 

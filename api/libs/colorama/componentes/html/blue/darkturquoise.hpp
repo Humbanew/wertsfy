@@ -5,7 +5,7 @@
 #ifndef DARKTURQUOISE_HPP
 #define DARKTURQUOISE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 206, 209, 1), 

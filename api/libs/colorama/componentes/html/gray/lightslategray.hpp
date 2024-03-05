@@ -5,7 +5,7 @@
 #ifndef LIGHTSLATEGRAY_HPP
 #define LIGHTSLATEGRAY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(119, 136, 153, 1), 

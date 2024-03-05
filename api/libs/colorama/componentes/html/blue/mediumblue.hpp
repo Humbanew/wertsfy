@@ -5,7 +5,7 @@
 #ifndef MEDIUMBLUE_HPP
 #define MEDIUMBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 0, 205, 1), 

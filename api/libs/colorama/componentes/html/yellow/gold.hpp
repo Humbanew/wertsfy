@@ -5,7 +5,7 @@
 #ifndef GOLD_HPP
 #define GOLD_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 215, 0, 1), 

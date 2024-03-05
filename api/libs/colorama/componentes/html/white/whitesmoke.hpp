@@ -5,7 +5,7 @@
 #ifndef WHITESMOKE_HPP
 #define WHITESMOKE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(245, 245, 245, 1), 

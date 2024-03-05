@@ -5,7 +5,7 @@
 #ifndef FIREBRICK_HPP
 #define FIREBRICK_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(178, 34, 34, 1), 

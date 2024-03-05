@@ -5,7 +5,7 @@
 #ifndef AZURE_HPP
 #define AZURE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(240, 255, 255, 1), 

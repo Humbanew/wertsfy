@@ -5,7 +5,7 @@
 #ifndef LAVENDER_HPP
 #define LAVENDER_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(230, 230, 250, 1), 

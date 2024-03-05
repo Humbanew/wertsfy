@@ -5,7 +5,7 @@
 #ifndef FUCHSIA_HPP
 #define FUCHSIA_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 0, 255, 1), 

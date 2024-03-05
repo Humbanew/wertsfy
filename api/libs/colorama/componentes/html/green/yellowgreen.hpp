@@ -5,7 +5,7 @@
 #ifndef YELLOWGREEN_HPP
 #define YELLOWGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(154, 205, 50, 1), 

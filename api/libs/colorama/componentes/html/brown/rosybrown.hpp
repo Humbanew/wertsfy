@@ -5,7 +5,7 @@
 #ifndef ROSYBROWN_HPP
 #define ROSYBROWN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(188, 143, 143, 1), 

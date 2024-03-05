@@ -5,7 +5,7 @@
 #ifndef SKYBLUE_HPP
 #define SKYBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(135, 206, 235, 1), 

@@ -5,7 +5,7 @@
 #ifndef BLUE_HPP
 #define BLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 0, 255, 1), 

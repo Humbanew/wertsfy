@@ -5,7 +5,7 @@
 #ifndef BROWN_HPP
 #define BROWN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(165, 42, 42, 1), 

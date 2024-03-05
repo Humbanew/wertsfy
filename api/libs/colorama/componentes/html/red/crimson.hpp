@@ -5,7 +5,7 @@
 #ifndef CRIMSON_HPP
 #define CRIMSON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(220, 20, 60, 1), 

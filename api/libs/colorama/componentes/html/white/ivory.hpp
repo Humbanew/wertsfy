@@ -5,7 +5,7 @@
 #ifndef IVORY_HPP
 #define IVORY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 255, 240, 1), 

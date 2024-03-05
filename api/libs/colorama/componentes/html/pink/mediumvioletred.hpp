@@ -5,7 +5,7 @@
 #ifndef MEDUIMVIOLETRED_HPP
 #define MEDUIMVIOLETRED_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(199, 21, 133, 1), 

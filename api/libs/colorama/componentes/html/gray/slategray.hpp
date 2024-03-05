@@ -5,7 +5,7 @@
 #ifndef SLATEGRAY_HPP
 #define SLATEGRAY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(112, 128, 144, 1), 

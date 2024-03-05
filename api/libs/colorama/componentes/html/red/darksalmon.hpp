@@ -5,7 +5,7 @@
 #ifndef DARKSALMON_HPP
 #define DARKSALMON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(233, 150, 122, 1), 

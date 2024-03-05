@@ -5,7 +5,7 @@
 #ifndef VIOLET_HPP
 #define VIOLET_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(238, 130, 238, 1), 

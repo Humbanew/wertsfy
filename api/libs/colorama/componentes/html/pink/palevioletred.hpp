@@ -5,7 +5,7 @@
 #ifndef PALEVIOLETRED_HPP
 #define PALEVIOLETRED_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(219, 112, 147, 1), 

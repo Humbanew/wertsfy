@@ -5,7 +5,7 @@
 #ifndef LIGHTYELLOW_HPP
 #define LIGHTYELLOW_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 255, 224, 1), 

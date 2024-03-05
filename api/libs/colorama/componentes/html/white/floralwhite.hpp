@@ -5,7 +5,7 @@
 #ifndef FLORALWHITE_HPP
 #define FLORALWHITE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 250, 240, 1), 

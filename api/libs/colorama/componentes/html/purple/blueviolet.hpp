@@ -5,7 +5,7 @@
 #ifndef BLUEVIOLET_HPP
 #define BLUEVIOLET_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(138, 43, 226, 1), 

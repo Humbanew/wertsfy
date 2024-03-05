@@ -5,7 +5,7 @@
 #ifndef LIGHTSEAGREEN_HPP
 #define LIGHTSEAGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(32, 178, 170, 1), 

@@ -5,7 +5,7 @@
 #ifndef SILVER_HPP
 #define SILVER_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(192, 192, 192, 1), 

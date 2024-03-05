@@ -5,7 +5,7 @@
 #ifndef DARKSEAGREEN_HPP
 #define DARKSEAGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(143, 188, 143, 1), 

@@ -5,7 +5,7 @@
 #ifndef DODGERBLUE_HPP
 #define DODGERBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(30, 144, 255, 1), 

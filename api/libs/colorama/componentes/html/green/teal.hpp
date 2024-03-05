@@ -5,7 +5,7 @@
 #ifndef TEAL_HPP
 #define TEAL_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 128, 128, 1), 

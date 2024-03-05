@@ -5,7 +5,7 @@
 #ifndef TAN_HPP
 #define TAN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(210, 180, 140, 1), 

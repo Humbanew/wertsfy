@@ -5,7 +5,7 @@
 #ifndef SEASHELL_HPP
 #define SEASHELL_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 245, 238, 1), 

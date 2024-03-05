@@ -5,7 +5,7 @@
 #ifndef PAPAYAWHIP_HPP
 #define PAPAYAWHIP_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 239, 213, 1), 

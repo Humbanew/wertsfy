@@ -5,7 +5,7 @@
 #ifndef DARKORCHILD_HPP
 #define DARKORCHILD_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(153, 50, 204, 1), 

@@ -5,7 +5,7 @@
 #ifndef STEELBLUE_HPP
 #define STEELBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(70, 130, 180, 1), 

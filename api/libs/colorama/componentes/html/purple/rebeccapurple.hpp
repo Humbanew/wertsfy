@@ -5,7 +5,7 @@
 #ifndef REBECCAPURPLE_HPP
 #define REBECCAPURPLE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(102, 51, 153, 1), 

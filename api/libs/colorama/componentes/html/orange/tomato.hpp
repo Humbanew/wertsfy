@@ -5,7 +5,7 @@
 #ifndef TOMATO_HPP
 #define TOMATO_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 99, 71, 1), 

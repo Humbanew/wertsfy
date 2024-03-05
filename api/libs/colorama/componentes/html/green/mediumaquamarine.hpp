@@ -5,7 +5,7 @@
 #ifndef MEDIUMAQUAMARINE_HPP
 #define MEDIUMAQUAMARINE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(102, 205, 170, 1), 

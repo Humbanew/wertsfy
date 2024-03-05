@@ -5,7 +5,7 @@
 #ifndef CADETBLUE_HPP
 #define CADETBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(95, 158, 160, 1), 

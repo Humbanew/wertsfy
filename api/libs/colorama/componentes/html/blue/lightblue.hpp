@@ -5,7 +5,7 @@
 #ifndef LIGHTBLUE_HPP
 #define LIGHTBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(173, 216, 230, 1), 

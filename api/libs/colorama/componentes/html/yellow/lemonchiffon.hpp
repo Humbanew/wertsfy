@@ -5,7 +5,7 @@
 #ifndef LEMONCHIFFON_HPP
 #define LEMONCHIFFON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 250, 205, 1), 

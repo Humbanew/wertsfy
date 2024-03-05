@@ -5,7 +5,7 @@
 #ifndef POWDERBLUE_HPP
 #define POWDERBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(176, 224, 230, 1), 

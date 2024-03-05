@@ -5,7 +5,7 @@
 #ifndef MAROON_HPP
 #define MAROON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(128, 0, 0, 1), 

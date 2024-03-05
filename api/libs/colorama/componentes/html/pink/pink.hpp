@@ -5,7 +5,7 @@
 #ifndef PINK_HPP
 #define PINK_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 192, 203, 1), 

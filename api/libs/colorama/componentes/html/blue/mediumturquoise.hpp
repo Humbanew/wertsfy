@@ -5,7 +5,7 @@
 #ifndef MEDIUMTURQUOISE_HPP
 #define MEDIUMTURQUOISE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(72, 209, 204, 1), 

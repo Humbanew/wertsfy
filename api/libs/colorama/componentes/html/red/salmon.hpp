@@ -5,7 +5,7 @@
 #ifndef SALMON_HPP
 #define SALMON_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(250, 128, 114, 1), 

@@ -5,7 +5,7 @@
 #ifndef DARKORANGE_HPP
 #define DARKORANGE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 140, 0, 1), 

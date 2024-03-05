@@ -5,7 +5,7 @@
 #ifndef MAGENTA_HPP
 #define MAGENTA_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 0, 255, 1), 

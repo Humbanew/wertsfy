@@ -5,7 +5,7 @@
 #ifndef WHEAT_HPP
 #define WHEAT_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(245, 222, 179, 1), 

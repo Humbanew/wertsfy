@@ -5,7 +5,7 @@
 #ifndef BISQUE_HPP
 #define BISQUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 228, 196, 1), 

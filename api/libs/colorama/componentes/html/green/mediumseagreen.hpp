@@ -5,7 +5,7 @@
 #ifndef MEDIUMSEAGREEN_HPP
 #define MEDIUMSEAGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(60, 179, 113, 1), 

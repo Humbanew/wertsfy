@@ -5,7 +5,7 @@
 #ifndef DARKMAGENTA_HPP
 #define DARKMAGENTA_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(139, 0, 139, 1), 

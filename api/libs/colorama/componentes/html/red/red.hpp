@@ -5,7 +5,7 @@
 #ifndef RED_HPP
 #define RED_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 0, 0, 1), 

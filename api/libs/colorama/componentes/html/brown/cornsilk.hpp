@@ -5,7 +5,7 @@
 #ifndef CORNSILK_HPP
 #define CORNSILK_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 248, 220, 1), 

@@ -5,7 +5,7 @@
 #ifndef THISTLE_HPP
 #define THISTLE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(216, 191, 216, 1), 

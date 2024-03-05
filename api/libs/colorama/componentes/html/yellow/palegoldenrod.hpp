@@ -5,7 +5,7 @@
 #ifndef PALEGOLDENROD_HPP
 #define PALEGOLDENROD_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(238, 232, 170, 1), 

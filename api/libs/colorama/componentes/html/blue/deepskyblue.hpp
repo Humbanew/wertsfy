@@ -5,7 +5,7 @@
 #ifndef DEEPSKYBLUE_HPP
 #define DEEPSKYBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 191, 255, 1), 

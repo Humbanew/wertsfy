@@ -5,7 +5,7 @@
 #ifndef PLUM_HPP
 #define PLUM_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(221, 160, 221, 1), 

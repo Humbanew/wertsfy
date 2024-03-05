@@ -5,7 +5,7 @@
 #ifndef GREENYELLOW_HPP
 #define GREENYELLOW_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(173, 255, 47, 1), 

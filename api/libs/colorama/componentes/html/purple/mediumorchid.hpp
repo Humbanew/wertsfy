@@ -5,7 +5,7 @@
 #ifndef MEDIUMORCHID_HPP
 #define MEDIUMORCHID_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(186, 85, 211, 1), 

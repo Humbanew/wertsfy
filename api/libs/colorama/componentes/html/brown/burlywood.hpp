@@ -5,7 +5,7 @@
 #ifndef BURLYWOOD_HPP
 #define BURLYWOOD_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(222, 184, 135, 1), 

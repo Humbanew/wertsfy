@@ -5,7 +5,7 @@
 #ifndef DIMGRAY_HPP
 #define DIMGRAY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(105, 105, 105, 1), 

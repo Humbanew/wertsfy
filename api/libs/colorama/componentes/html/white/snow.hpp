@@ -5,7 +5,7 @@
 #ifndef SNOW_HPP
 #define SNOW_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 250, 250, 1), 

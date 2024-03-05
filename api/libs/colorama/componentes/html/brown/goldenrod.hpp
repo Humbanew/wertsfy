@@ -5,7 +5,7 @@
 #ifndef GOLDENROD_HPP
 #define GOLDENROD_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(218, 165, 32, 1), 

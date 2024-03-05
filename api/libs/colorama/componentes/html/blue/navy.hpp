@@ -5,7 +5,7 @@
 #ifndef NAVY_HPP
 #define NAVY_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(0, 0, 128, 1), 

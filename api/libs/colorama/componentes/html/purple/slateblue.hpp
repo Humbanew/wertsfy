@@ -5,7 +5,7 @@
 #ifndef SLATEBLUE_HPP
 #define SLATEBLUE_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(106, 90, 205, 1), 

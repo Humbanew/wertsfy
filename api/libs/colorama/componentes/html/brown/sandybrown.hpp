@@ -5,7 +5,7 @@
 #ifndef SANDYBROWN_HPP
 #define SANDYBROWN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(244, 164, 96, 1), 

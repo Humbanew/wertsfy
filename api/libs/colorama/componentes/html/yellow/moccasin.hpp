@@ -5,7 +5,7 @@
 #ifndef MOCCASIN_HPP
 #define MOCCASIN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 228, 181, 1), 

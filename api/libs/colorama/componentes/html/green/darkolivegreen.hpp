@@ -5,7 +5,7 @@
 #ifndef DARKOLIVEGREEN_HPP
 #define DARKOLIVEGREEN_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(85, 107, 47, 1), 

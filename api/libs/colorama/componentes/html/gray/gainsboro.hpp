@@ -5,7 +5,7 @@
 #ifndef GAINSBORO_HPP
 #define GAINSBORO_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(220, 220, 220, 1), 

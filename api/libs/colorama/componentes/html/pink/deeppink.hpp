@@ -5,7 +5,7 @@
 #ifndef DEEPPINK_HPP
 #define DEEPPINK_HPP
 
-#include "../../core-coloram.hpp"
+#include "../../../core-coloram.hpp"
 
 CatalogColor<
   RGBA(255, 20, 147, 1), 

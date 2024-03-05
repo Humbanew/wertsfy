@@ -2,7 +2,8 @@
 #define TERMINALUI_NOTRELEASE_HPP
 
 #include <string>
-#include "defs/wtsfy-tipos.hpp"
+// Nova arquitetura de pastas
+#include "includes/core/wtsfy-tipos.hpp"
 
 namespace Wtsfy
 {

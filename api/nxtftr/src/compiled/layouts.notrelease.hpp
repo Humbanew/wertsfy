@@ -1,13 +1,13 @@
 #ifndef LAYOUTS_NOTRELEASE_HPP
 #define LAYOUTS_NOTRELEASE_HPP
 
-#include <cstdio>
-#include <cstdlib>
 #include <iostream>
-#include "defs/wtsfy-tipos.hpp"
+// Nova Arquitetura de Pastas
+#include "includes/core/wtsfy_tipos.hpp"
 
 namespace Wtsfy 
 { 
+  
   namespace Alpha 
   { 
 

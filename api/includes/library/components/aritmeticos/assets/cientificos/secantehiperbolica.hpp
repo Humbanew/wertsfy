@@ -1,0 +1,16 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
+#ifndef SECANTEHIPERBOLICA_HPP
+#define SECANTEHIPERBOLICA_HPP
+
+#include "../../hub_aritmeticos.hpp"
+#include "cossenohiperbolico.hpp"
+
+f32t secante_hiperbolica(f32t x)
+{
+  return 1 / cosseno_hiperbolico(x); 
+}
+
+#endif // SECANTEHIPERBOLICA_HPP

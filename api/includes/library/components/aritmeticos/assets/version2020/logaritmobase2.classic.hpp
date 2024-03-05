@@ -1,0 +1,15 @@
+/**
+ * @author Humbanew Project ©️ 2019-2024. Todos os direitos reservados.
+ */  
+
+#ifndef LOGARITMOBASE2_CLASSIC_HPP
+#define LOGARITMOBASE2_CLASSIC_HPP
+
+#include "../../hub_aritmeticos.hpp"
+#include <cmath>
+
+i64t logaritmobase2_classic(i64t a) {
+  return log2(a);
+}
+
+#endif // LOGARITMOBASE2_CLASSIC_HPP

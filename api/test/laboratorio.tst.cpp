@@ -1,31 +1,23 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cassert>
-// #include <concepts>
+#include <concepts>
 #include <iostream>
 #include <memory>
-
-#include "../defs/wtsfy-tipos.hpp"
+// Nova Arquitetura de Pastas
+#include "./../includes/core/wtsfy_tipos.hpp"
 
 // Template de estrutura JSON
 typedef struct JSON
 { 
-  private:
-  // template<typename X> concept mdl = std::integral
-  template<typename W> class A{};
-
-  public:
   chrt* key;
   struct JSON *value;
 } json;
 
-vdt labo() { 
-  json *modelo;
-}
+vdt labo() { }
 
-int main(vdt) {
+int main(vdt) 
+{
   labo();
-  decltype(memory_order_consume) memoria();
-  cout << memoria << endl;
   return 0;
 }

@@ -1,14 +1,14 @@
 main:
-	g++ wtsfy.cpp -o out/wtsfy.exe -std=c++23
+	g++ wtsfy.cpp -o exports/out/wtsfy.exe -std=c++23 -Wall
 
 teste:
-	g++ test/laboratorio.tst.cpp -o out/test/laboratorio.tst.exe -std=c++23
+	g++ test/laboratorio.tst.cpp -o exports/out/test/laboratorio.tst.exe -std=c++23 -Wall
 
 exec: main
-	/out/wtsfy.exe
+	/exports/out/wtsfy.exe
 
 exec-teste: teste
-	/out/test/laboratorio.tst.exe
+	/exports/out/test/laboratorio.tst.exe
 
 # variaveis de flags do gpp
 # -Wall: mostra todos os warnings

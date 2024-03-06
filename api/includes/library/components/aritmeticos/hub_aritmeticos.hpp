@@ -153,6 +153,7 @@
 class Aritmeticos 
 { 
 
+  private:
   typedef struct Comuns
   {
     decltype(soma) soma;
@@ -436,6 +437,7 @@ class Aritmeticos
 class Aritmeticos2020Version 
 { 
 
+  private:
   typedef struct Modulos 
   { 
     decltype(soma_classic) soma;

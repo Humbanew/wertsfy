@@ -1,6 +1,7 @@
 // Nova Arquitetura de Pastas
 #include "./../includes/core/wtsfy_tipos.hpp"
 
+// este modelo pode ser usado em qualquer lugar...
 struct No
 {
   i64t valor;

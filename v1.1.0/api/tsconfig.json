@@ -20,8 +20,6 @@
     "outDir": "./out/@1.1.0/",
     "declarationDir": "./out/@1.1.0/ts/",
 
-  },
-  // Arquivos que não devem ser exportados
-  "exclude": ["./exports/", "./imports/", "./srcs/", "./cli/", "./data/"]
+  }
 
 }

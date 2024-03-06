@@ -12,12 +12,13 @@
     "rootDirs": ["./"],
     
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    "declarationMap": false,
+    "sourceMap": false,
     "extendedDiagnostics": true,
 
     // Diretório de export
-    "outDir": "./exports/@1.1.0/",
+    "outDir": "./out/@1.1.0/",
+    "declarationDir": "./out/@1.1.0/ts/",
 
   },
   // Arquivos que não devem ser exportados

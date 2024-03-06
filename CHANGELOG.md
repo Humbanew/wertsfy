@@ -4,6 +4,7 @@
 
 ### Other
 
+- **v1.1.0**-Criando base do projeto [`45daff7b`](https://github.com/humbanew/wertsfy-next/commit/45daff7b9e4a1c4052dfd0acb158d8d6d036aea2)
 - **v2.0.0** - Modificando e melhorando arquitetura de software do projeto - IX [`78bac186`](https://github.com/humbanew/wertsfy-next/commit/78bac18659e357c7cd84c589bcc36ee74e299eea)
 - **v2.0.0** - Modificando e melhorando arquitetura de software do projeto - VIII [`88e1a36f`](https://github.com/humbanew/wertsfy-next/commit/88e1a36f1c2bea9e2d5a70316a55dec718ee37a8)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`3fb20654`](https://github.com/humbanew/wertsfy-next/commit/3fb2065408285401d4df825911139ab562cda75b)

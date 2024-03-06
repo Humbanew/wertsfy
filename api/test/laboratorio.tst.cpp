@@ -18,7 +18,8 @@ vdt cria_no(i64t x) {
   novo->valor = x;
 }
 
-vdt cria_lista(struct Lista *l) {
+vdt cria_lista() {
+  struct Lista *l = (struct Lista*)malloc(sizeof(struct Lista));
   l->quantidade = 0;
   l->inicio = NULL;
 }

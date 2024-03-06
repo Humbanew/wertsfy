@@ -10,7 +10,7 @@
 // Nova arquitetura de pastas
 #include "../../../includes/core/wtsfy_tipos.hpp"
 
-// Includes de Headers de Aritmeticos.hpp
+// Includes de Headers de hub_aritmeticos.hpp
   // assets/comuns/
 #include "assets/comuns/soma.hpp"
 #include "assets/comuns/subtracao.hpp"

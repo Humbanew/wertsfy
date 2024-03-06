@@ -4,12 +4,19 @@
 
 ### Other
 
+- **v2.0.0** - Modificando e melhorando arquitetura de software do projeto - V [`9e17f814`](https://github.com/humbanew/wertsfy-next/commit/9e17f81466e7f50166e67af4197a9ff8174413d8)
+- **v2.0.0** - Modificando e melhorando arquitetura de software do projeto - IV [`9f821182`](https://github.com/humbanew/wertsfy-next/commit/9f821182d6b2a2ad7ee69cb58bb647dd0a8f8898)
+- **v2.0.0** - Modificando e melhorando arquitetura de software do projeto - III [`3d7921dc`](https://github.com/humbanew/wertsfy-next/commit/3d7921dc6fe3f4193f91e99d9b3847237586e7cb)
+- **v2.0.0** - Modificando e melhorando arquitetura de software do projeto | **v1.1.0** - Adicionando estrutura do projeto [`0541f15f`](https://github.com/humbanew/wertsfy-next/commit/0541f15fd8d2a3687e5093cb58b1c90a1d3bc5fe)
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`e7e985ad`](https://github.com/humbanew/wertsfy-next/commit/e7e985adaa64cfec098691feefe4f840839203cf)
 - Update README.md [`2ff2b015`](https://github.com/humbanew/wertsfy-next/commit/2ff2b0159c9a2fbe489f9fbc6d2290bc3afd3962)
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`4b391fc3`](https://github.com/humbanew/wertsfy-next/commit/4b391fc3ada379d953e394b9bb6c32dd6cd7add4)
 - **v2.0.0** - Criando modelos de testes no laboratorio [`c1eec58c`](https://github.com/humbanew/wertsfy-next/commit/c1eec58c75e7f9ebeec54b9f229fd3d7c7b8488c)
 - **v2.0.0** - Criando modelos de testes no laboratorio [`9fdb9335`](https://github.com/humbanew/wertsfy-next/commit/9fdb93357fb8cc0fbc5fec51eba58e06be8c0783)
 - **v1.1.0** - Criando arquivo base - II [`dfa8eeca`](https://github.com/humbanew/wertsfy-next/commit/dfa8eeca1d8b653633e0678672e549a6ec34e0c7)
 - **v2.0.0** - Criando coisas no laboratorio - II | **v1.1.0** - Criando arquivo base [`56d68174`](https://github.com/humbanew/wertsfy-next/commit/56d681746f141d45f755760bef45202957bb26f7)
 - **v2.0.0** - Criando coisas no laboratorio [`cf1cd0cb`](https://github.com/humbanew/wertsfy-next/commit/cf1cd0cb4d8e93b815ff13826bae10c504352655)
+- **v2.0.0** - Lapidando modelos de endpoints já implementados - III [`56029638`](https://github.com/humbanew/wertsfy-next/commit/56029638cb5241fc21d9503e7be9ab8b07344b22)
 - **v2.0.0** - Lapidando modelos de endpoints já implementados - II [`60fa093a`](https://github.com/humbanew/wertsfy-next/commit/60fa093a93e3fd86e4ec53f039d1b235bb4ada52)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8022b1bb`](https://github.com/humbanew/wertsfy-next/commit/8022b1bbeb91ada0776a04bffb35ede01f2cab26)
 - **v2.0.0** - Lapidando modelos de endpoints já implementados [`9ff7686e`](https://github.com/humbanew/wertsfy-next/commit/9ff7686e58aec28b970c51161cc77eafd9bb987d)

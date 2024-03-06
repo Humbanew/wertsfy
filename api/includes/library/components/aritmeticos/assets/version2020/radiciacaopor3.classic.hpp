@@ -8,7 +8,7 @@
 #include "../../hub_aritmeticos.hpp"
 #include <cmath>
 
-i64t radiciacaopor3_classic(i64t a) {
+i64t radiciacao_por3_classic(i64t a) {
   return cbrt(a);
 }
 

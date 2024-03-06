@@ -8,7 +8,7 @@
 #include "../../hub_aritmeticos.hpp"
 #include <cmath>
 
-i64t radiciacaopor2_classic(i64t a) {
+i64t radiciacao_por2_classic(i64t a) {
   return sqrt(a);
 }
 

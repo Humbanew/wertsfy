@@ -105,7 +105,50 @@
 #include "assets/version2020/multiplicacao_decimal.classic.hpp"
 #include "assets/version2020/divisao.classic.hpp"
 #include "assets/version2020/divisao_decimal.classic.hpp"
-
+#include "assets/version2020/mediaaritmetica.classic.hpp"
+#include "assets/version2020/mediaaritmetica_decimal.classic.hpp"
+#include "assets/version2020/potenciacao.classic.hpp"
+#include "assets/version2020/potenciacao_decimal.classic.hpp"
+#include "assets/version2020/potenciacaopor2.classic.hpp"
+#include "assets/version2020/potenciacaopor2_decimal.classic.hpp"
+#include "assets/version2020/potenciacaopor10.classic.hpp"
+#include "assets/version2020/potenciacaopor10_decimal.classic.hpp"
+#include "assets/version2020/radiciacaopor2.classic.hpp"
+#include "assets/version2020/radiciacaopor2_decimal.classic.hpp"
+#include "assets/version2020/radiciacaopor3.classic.hpp"
+#include "assets/version2020/radiciacaopor3_decimal.classic.hpp"
+#include "assets/version2020/seno.classic.hpp"
+#include "assets/version2020/senohiperbolico.classic.hpp"
+#include "assets/version2020/cosseno.classic.hpp"
+#include "assets/version2020/cossenohiperbolico.classic.hpp"
+#include "assets/version2020/tangente.classic.hpp"
+#include "assets/version2020/tangentehiperbolica.classic.hpp"
+#include "assets/version2020/secante.classic.hpp"
+#include "assets/version2020/secantehiperbolica.classic.hpp"
+#include "assets/version2020/cosecante.classic.hpp"
+#include "assets/version2020/cosecantehiperbolica.classic.hpp"
+#include "assets/version2020/cotangente.classic.hpp"
+#include "assets/version2020/cotangentehiperbolica.classic.hpp"
+#include "assets/version2020/arcoseno.classic.hpp"
+#include "assets/version2020/arcosenohiperbolico.classic.hpp"
+#include "assets/version2020/arcocosseno.classic.hpp"
+#include "assets/version2020/arcocossenohiperbolico.classic.hpp"
+#include "assets/version2020/arcotangente.classic.hpp"
+#include "assets/version2020/arcotangentehiperbolica.classic.hpp"
+#include "assets/version2020/arcosecante.classic.hpp"
+#include "assets/version2020/arcosecantehiperbolica.classic.hpp"
+#include "assets/version2020/arcocosecante.classic.hpp"
+#include "assets/version2020/arcocosecantehiperbolica.classic.hpp"
+#include "assets/version2020/arcocotangente.classic.hpp"
+#include "assets/version2020/arcocotangentehiperbolica.classic.hpp"
+#include "assets/version2020/logaritmobase2.classic.hpp"
+#include "assets/version2020/logaritmobase2_decimal.classic.hpp"
+#include "assets/version2020/logaritmobase10.classic.hpp"
+#include "assets/version2020/logaritmobase10_decimal.classic.hpp"
+#include "assets/version2020/logaritmo.classic.hpp"
+#include "assets/version2020/logaritmo_decimal.classic.hpp"
+#include "assets/version2020/exponencial.classic.hpp"
+#include "assets/version2020/exponencial_decimal.classic.hpp"
 
 class Aritmeticos 
 { 
@@ -393,7 +436,61 @@ class Aritmeticos
 class Aritmeticos2020Version 
 { 
 
-  typedef struct Modulos { } Modulos;
+  typedef struct Modulos 
+  { 
+    decltype(soma_classic) soma;
+    decltype(soma_classic_decimal) soma_decimal;
+    decltype(subtracao_classic) subtracao;
+    decltype(subtracao_classic_decimal) subtracao_decimal;
+    decltype(multiplicacao_classic) multiplicacao;
+    decltype(multiplicacao_classic_decimal) multiplicacao_decimal;
+    decltype(divisao_classic) divisao;
+    decltype(divisao_classic_decimal) divisao_decimal;
+    decltype(media_aritmetica_classic) mediaaritmetica;
+    decltype(media_aritmetica_classic_decimal) mediaaritmetica_decimal;
+    decltype(potenciacao_classic) potenciacao;
+    decltype(potenciacao_classic_decimal) potenciacao_decimal;
+    decltype(potenciacao_por2_classic) potenciacaopor2;
+    decltype(potenciacao_por2_classic_decimal) potenciacaopor2_decimal;
+    decltype(potenciacao_por10_classic) potenciacaopor10;
+    decltype(potenciacao_por10_classic_decimal) potenciacaopor10_decimal;
+    decltype(radiciacao_por2_classic) radiciacaopor2;
+    decltype(radiciacao_por2_classic_decimal) radiciacaopor2_decimal;
+    decltype(radiciacao_por3_classic) radiciacaopor3;
+    decltype(radiciacao_por3_classic_decimal) radiciacaopor3_decimal;
+    decltype(seno_classic) seno;
+    decltype(senohiperbolico_classic) senohiperbolico;
+    decltype(cosseno_classic) cosseno;
+    decltype(cossenohiperbolico_classic) cossenohiperbolico;
+    decltype(tangente_classic) tangente;
+    decltype(tangentehiperbolica_classic) tangentehiperbolica;
+    decltype(secante_classic) secante;
+    decltype(secantehiperbolica_classic) secantehiperbolica;
+    decltype(cosecante_classic) cosecante;
+    decltype(cosecantehiperbolica_classic) cosecantehiperbolica;
+    decltype(cotangente_classic) cotangente;
+    decltype(cotangentehiperbolica_classic) cotangentehiperbolica;
+    decltype(arcoseno_classic) arcoseno;
+    decltype(arcosenohiperbolico_classic) arcosenohiperbolico;
+    decltype(arcocosseno_classic) arcocosseno;
+    decltype(arcocossenohiperbolico_classic) arcocossenohiperbolico;
+    decltype(arcotangente_classic) arcotangente;
+    decltype(arcotangentehiperbolica_classic) arcotangentehiperbolica;
+    decltype(arcosecante_classic) arcosecante;
+    decltype(arcosecantehiperbolica_classic) arcosecantehiperbolica;
+    decltype(arcocosecante_classic) arcocosecante;
+    decltype(arcocosecantehiperbolica_classic) arcocosecantehiperbolica;
+    decltype(arcocotangente_classic) arcocotangente;
+    decltype(arcocotangentehiperbolica_classic) arcocotangentehiperbolica;
+    decltype(logaritmo_classic) logaritmo;
+    decltype(logaritmo_classic_decimal) logaritmo_decimal;
+    decltype(logaritmobase2_classic) logaritmobase2;
+    decltype(logaritmobase2_classic_decimal) logaritmobase2_decimal;
+    decltype(logaritmobase10_classic) logaritmobase10;
+    decltype(logaritmobase10_classic_decimal) logaritmobase10_decimal;
+    decltype(exponencial_classic) exponencial;
+    decltype(exponencial_classic_decimal) exponencial_decimal;
+  } Modulos;
 
   public:
     f32t LOGARITHM=

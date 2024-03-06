@@ -8,7 +8,7 @@
 #include "../../hub_aritmeticos.hpp"
 #include <cmath>
 
-f32t radiciacaopor3_classic_decimal(f32t a) {
+f32t radiciacao_por3_classic_decimal(f32t a) {
   return cbrt(a);
 }
 

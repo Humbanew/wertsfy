@@ -17,8 +17,8 @@
     "extendedDiagnostics": true,
 
     // Diretório de export
-    "outDir": "./out/@1.1.0/",
-    "declarationDir": "./out/@1.1.0/ts/",
+    "outDir": "./dist/",
+    "declarationDir": "./dist/ts/",
 
   }
 

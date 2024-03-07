@@ -1,14 +1,14 @@
 {
   "name": "@humbanew/wertsfy",
   "version": "1.1.0",
-  "description": "The Arithmetic API & CLI",
-  "main": "wetsfy.api.js",
+  "description": "The Basic 'Ultimate Development Kit'.",
+  "main": "wertsfy.api.js",
   "scripts": {
     "null": ""
   },
   "author": "humbanew",
   "repository": "https://github.com/humbanew/wertsfy.git",
-  "license": "MIT",
+  "license": "Humbanew License v3",
   "readme": "../README.md",
   "devDependencies": {
     "@types/node": "^18.15.13",
@@ -19,7 +19,7 @@
     "ts-node": "^10.9.1"
   },
   "bin": {
-    "wtsfy": "./cli/wtsfy.cli.js"
+    "wtsfy": "./cli/wertsfy.cli.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

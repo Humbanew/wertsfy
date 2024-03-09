@@ -4,79 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/img/Wertsfy-Icon.svg" type="image/x-icon">
-    <title>Wertsfy</title>
-
+    <title>Wertsfy Docs</title>
     <link rel="stylesheet" href="src/css/raiz.css" />
-    <link rel="stylesheet" href="src/css/header.css" />
-    <link rel="stylesheet" href="src/css/menu.css" />
+    <link rel="stylesheet" href="src/css/cabecalho.css" />
+    <link rel="stylesheet" href="src/css/badge.css" />
   </head>
   <body>
 
-    <header class="hnaplicacao_cabecalho">
+    <header class="hnaplicacao_cabecalho_container">
 
-      <nav class="hnaplicacao_cabecalho__nav">
-
-        <div class="hnaplicacao_cabecalho__nav_conteiner">
-          <img class="hnaplicacao_cabecalho__nav_conteiner_icon" src="src/img/Wertsfy-Icon.svg" />
+      <div class="hnaplicacao_cabecalho_flex_container">
+  
+        <div class="hnaplicacao_cabecalho">
+  
+          <img class="hnaplicacao_cabecalho__logo" src="src/img/Wertsfy-Icon.svg" />
+          <h1 class="hnaplicacao_cabecalho__logo_texto">Wertsfy Docs</h1>
+  
         </div>
 
-        <menu class="hnaplicacao_cabecalho__nav_menu">
-          <ul class="hnaplicacao_cabecalho__nav_menu_lista">
-            <li class="hnaplicacao_cabecalho__nav_menu_lista_item" id="home">Home</li>
-            <li class="hnaplicacao_cabecalho__nav_menu_lista_item" id="sobre">Sobre</li>
-            <li class="hnaplicacao_cabecalho__nav_menu_lista_item" id="instalacao">Instalação</li>
-            <li class="hnaplicacao_cabecalho__nav_menu_lista_item" id="docs">Docs</li>
-          </ul>
-        </menu>
+        <div class="hnaplicacao_cabecalho_infos">
 
-        <!-- <div class="hnaplicacao_cabecalho__nav_docs_conteiner_botao"></div>
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" class="hnaplicacao_cabecalho__nav_docs_botao">
-          <path id="menu_icon_p1" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-          <path id="menu_icon_p2" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-          <path id="menu_icon_p3" d="M120-240v-80h720v80H120Z"/>
-        </svg> -->
+          <span class="hnaplicacao_cabecalho_infos__modelo">Modelo Provisório</span>
 
-      </nav>
+          <select class="hnaplicacao_cabecalho_infos__seletor" name="Versão">
+            <option id="v1-0-x" value="1.0.x">1.0.x</option>
+            <option id="v1-1-x" value="1.1.x">1.1.x</option>
+            <option id="v2-0-x" value="2.0.x">2.0.x</option>
+          </select>
+
+        </div>
+
+      </div>
 
     </header>
 
-    <div class="hnaplicacao_menu_conteiner"></div>
+    <br><br><br><br>
+    <span class="hnbadge" id="aprovado">
+      <span class="hnbadge_status" id="aprovado-status"></span>
+      Aprovado
+    </span>
+    <span class="hnbadge" id="emfila">
+      <span class="hnbadge_status" id="emfila-status"></span>
+      Em Fila
+    </span>
+    <span class="hnbadge" id="emdesenvolvimento">
+      <span class="hnbadge_status" id="emdesenvolvimento-status"></span>
+      Em Desenvolvimento
+    </span>
+    <span class="hnbadge" id="funcionando">
+      <span class="hnbadge_status" id="funcionando-status"></span>
+      Funcionando
+    </span>
 
-    <section class="hnaplicacao_page_conteiner" id="home"></section>
-    <section class="hnaplicacao_page_conteiner" id="install"></section>
-    <section class="hnaplicacao_page_conteiner" id="docs"></section>
-    <section class="hnaplicacao_page_conteiner" id="about"></section>
+    <aside></aside>
+    <section id="docs-v1-0-x"></section>
+    <section id="docs-v1-1-x"></section>
+    <section id="docs-v2-0-x"></section>
 
-    <section id="err400"></section>
-    <section id="err401"></section>
-    <section id="err402"></section>
-    <section id="err403"></section>
-    <section id="err404"></section>
-    <section id="err405"></section>
-    <section id="err406"></section>
-    <section id="err407"></section>
-    <section id="err408"></section>
-    <section id="err409"></section>
-    <section id="err410"></section>
-    <section id="err411"></section>
-    <section id="err412"></section>
-    <section id="err413"></section>
-    <section id="err414"></section>
-    <section id="err415"></section>
-    <section id="err416"></section>
-    <section id="err417"></section>
-    <section id="err422"></section>
-    <section id="err423"></section>
-    <section id="err424"></section>
-    <section id="err500"></section>
-    <section id="err501"></section>
-    <section id="err502"></section>
-    <section id="err503"></section>
-    <section id="err504"></section>
-    <section id="err506"></section>
-    <section id="err507"></section>
-    <section id="err510"></section>
-
+    <script type="module" src="src/js/Controller/control.js"></script>
 
   </body>
 </html>

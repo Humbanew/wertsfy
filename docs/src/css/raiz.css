@@ -2,10 +2,6 @@ html, body, footer, div, section, article, aside, header, nav, hgroup, figure, f
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
 }
 
 @font-face {

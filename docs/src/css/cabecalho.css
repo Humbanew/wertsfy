@@ -1,0 +1,80 @@
+.hnaplicacao_cabecalho_container {
+  display: inline-block;
+  width: 100vw;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+.hnaplicacao_cabecalho_flex_container {
+  display: flex;
+  align-items: first baseline;
+  justify-content: left;
+  border-bottom: black solid 0.1vw;
+  margin-left: 2vw;
+  width: 95%;
+}
+
+.hnaplicacao_cabecalho {
+  display: flex;
+  border-bottom: var(--wertsfy-palette-pantone-275-c) solid 0.2vw;
+  font-family: "Exo2-Regular";
+  margin: 1vw 1vw;
+  padding: 0.4vw 0.4vw;
+}
+
+.hnaplicacao_cabecalho__logo {
+  display: flex;
+  width: 3vw;
+  height: 3vw;
+  margin-right: 2vw;
+}
+
+.hnaplicacao_cabecalho__logo_texto {
+  display: flex;
+}
+
+.hnaplicacao_cabecalho_infos {
+  display: flex;
+  justify-content: center;
+}
+
+.hnaplicacao_cabecalho_infos__modelo {
+  display: flex;
+  font-family: monospace;
+}
+
+.hnaplicacao_cabecalho_infos__seletor {
+  display: flex;
+  font-family: monospace;
+  font-size: 1.5vw;
+  margin-left: 56.5vw;
+  margin-top: -1.7vw;
+  padding: 0.2vw 0.2vw;
+  outline: none;
+}
+
+.hnaplicacao_cabecalho_infos__seletor:enabled {
+  background-color: var(--wertsfy-palette-pantone-7540-xgc);
+  color: #ffffff;
+}
+
+.hnaplicacao_cabecalho_infos__seletor::-webkit-slider-runnable-track {
+  color: #ffffff ;
+}
+
+#v1-0-x {
+  background-color: var(--wertsfy-palette-pantone-2755-c);
+  color: #ffffff;
+}
+
+#v1-1-x {
+  background-color: var(--wertsfy-palette-pantone-276-c);
+  color: #ffffff;
+}
+
+#v2-0-x {
+  background-color: var(--wertsfy-palette-pantone-3535-c);
+  color: #ffffff;
+}

@@ -4,6 +4,7 @@
 
 ### Other
 
+- **v1.1.0**- Adicionando JasmineJS, código-fonte em JS [`f553cc95`](https://github.com/humbanew/wertsfy-next/commit/f553cc959d46cc82d754fc2025a022a5dc03e603)
 - Wtsfy Docs - Construindo página - III [`1c7559dd`](https://github.com/humbanew/wertsfy-next/commit/1c7559ddfa9dda0e1f3a34b36ba9c670863d198a)
 - Wtsfy Docs - Construindo página - II [`c67df4a0`](https://github.com/humbanew/wertsfy-next/commit/c67df4a04330205e2aa1365deca8a2716ea7d921)
 - Wtsfy Docs - Construindo página [`0d04ef40`](https://github.com/humbanew/wertsfy-next/commit/0d04ef407e02057fefff69454d0b723084291cf5)

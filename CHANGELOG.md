@@ -4,6 +4,7 @@
 
 ### Other
 
+- Wtsfy Docs - Construindo página [`0d04ef40`](https://github.com/humbanew/wertsfy-next/commit/0d04ef407e02057fefff69454d0b723084291cf5)
 - **v1.0.0 & Docs** - Continuando um desenvolvimento sólido e unificando documentações [`e670c1d9`](https://github.com/humbanew/wertsfy-next/commit/e670c1d93897eafd4e598df583c1c99261aad189)
 - **v1.1.0** - Criando base do projeto - II [`891eb613`](https://github.com/humbanew/wertsfy-next/commit/891eb6130c1fe437aeeccde0407dd9b704313080)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`822d7e0e`](https://github.com/humbanew/wertsfy-next/commit/822d7e0e1d0f436a8d981f1df60964fa2b58fac3)

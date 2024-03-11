@@ -4,6 +4,7 @@
 
 ### Other
 
+- rrumando configurações do devcontainer remoto [`c5c2514c`](https://github.com/humbanew/wertsfy-next/commit/c5c2514c673bd8462bd95a7616d1aa6b0d5a7ed6)
 - **v1.1.0**- Adicionando JasmineJS, código-fonte em JS [`f553cc95`](https://github.com/humbanew/wertsfy-next/commit/f553cc959d46cc82d754fc2025a022a5dc03e603)
 - Wtsfy Docs - Construindo página - III [`1c7559dd`](https://github.com/humbanew/wertsfy-next/commit/1c7559ddfa9dda0e1f3a34b36ba9c670863d198a)
 - Wtsfy Docs - Construindo página - II [`c67df4a0`](https://github.com/humbanew/wertsfy-next/commit/c67df4a04330205e2aa1365deca8a2716ea7d921)

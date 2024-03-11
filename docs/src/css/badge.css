@@ -1,3 +1,8 @@
+/* <span class="hnbadge" id="beta">
+<span class="hnbadge_status" id="beta-status"></span>
+Fase Beta
+</span> */
+
 .hnbadge {
   display: inline-block;
   border: darkgray solid 0.1vw;
@@ -32,4 +37,24 @@
 
 #funcionando>#funcionando-status {
   background-color: cadetblue;
+}
+
+#epysilon>#epysilon-status {
+  background-color: darkorange;
+}
+
+#delta>#delta-status {
+  background-color: darkred;
+}
+
+#gamma>#gamma-status {
+  background-color: darkslategrey;
+}
+
+#alpha>#alpha-status {
+  background-color: darkblue;
+}
+
+#beta>#beta-status {
+  background-color: darkviolet;
 }

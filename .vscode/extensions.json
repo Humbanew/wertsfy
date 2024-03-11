@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "ms-vscode.cmake-tools",
+        "be5invis.vscode-icontheme-nomo-dark",
+        "evan-buss.font-switcher",
+        "ms-vscode.vscode-typescript-next",
+        "github.copilot",
+        "github.copilot-chat"
+    ]
+}

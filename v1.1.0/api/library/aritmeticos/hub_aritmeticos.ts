@@ -4,7 +4,14 @@
 import { Absoluto } from "./components/comuns/absoluto";
 import { Divisao } from "./components/comuns/divisao";
 import { Multiplicacao } from "./components/comuns/multiplicacao";
+import { Porcentagem } from "./components/comuns/porcentagem.mdl";
+import { PorcentagemPor1000 } from "./components/comuns/porcentagem_por_1000.mdl";
+import { PorcentagemPor10000 } from "./components/comuns/porcentagem_por_10000.mdl";
+import { PorcentagemPor100000 } from "./components/comuns/porcentagem_por_100000.mdl";
 import { Potencia } from "./components/comuns/potencia";
+import { PotenciaDePotencia } from "./components/comuns/potencia_de_potencia.mdl";
+import { PotenciaDePotenciaMais1 } from "./components/comuns/potencia_de_potencia_mais_1.mdl";
+import { PotenciaDePotenciaMenos1 } from "./components/comuns/potencia_de_potencia_menos_1.mdl";
 import { PotenciaMais1 } from "./components/comuns/potencia_mais_1";
 import { PotenciaMenos1 } from "./components/comuns/potencia_menos_1";
 import { Soma } from "./components/comuns/soma";
@@ -12,6 +19,7 @@ import { Subtracao } from "./components/comuns/subtracao";
 
 export class Aritmeticos {
 
+  // constantes
   AVOGADRO= 6.022e23;
 
   CBRTOF01B02= 0.707106;
@@ -96,16 +104,41 @@ export class Aritmeticos {
 
   ZERO= 0;
   
+  // métodos
+  absoluto: 
+    typeof Absoluto;
   
-    absoluto(x: typeof Absoluto) { return x; }
-    soma(x: typeof Soma) { return x }
-    subtracao(x: typeof Subtracao) { return x }
-    multiplicacao(x: typeof Multiplicacao) { return x }
-    divisao(x: typeof Divisao) { return x }
-    potencia(x: typeof Potencia) { return x }
-    potencia_mais1(x: typeof PotenciaMais1) { return x }
-    potencia_menos1(x: typeof PotenciaMenos1) { return x }
+  soma: 
+    typeof Soma;
+  
+  subtracao: 
+    typeof Subtracao;
+  
+  multiplicacao: 
+    typeof Multiplicacao;
+  
+  divisao: 
+    typeof Divisao;
+  
+  potencia: 
+    typeof Potencia;
+  
+  potencia_mais_1: 
+    typeof PotenciaMais1;
+  
+  potencia_menos_1: 
+    typeof PotenciaMenos1;
 
+
+  // métodos - experimental
+  potencia_de_potencia: typeof PotenciaDePotencia;
+  potencia_de_potencia_mais_1: typeof PotenciaDePotenciaMais1;
+  potencia_de_potencia_menos_1: typeof PotenciaDePotenciaMenos1;
+  porcentagem: typeof Porcentagem;
+  porcentagem_por_1000: typeof PorcentagemPor1000;
+  porcentagem_por_10000: typeof PorcentagemPor10000;
+  porcentagem_por_100000: typeof PorcentagemPor100000;
+    
 
 };
 

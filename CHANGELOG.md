@@ -4,9 +4,10 @@
 
 ### Other
 
-- **v1.1.0** - Construindo Programa - I [`34658ee5`](https://github.com/humbanew/wertsfy-next/commit/34658ee5a52220d727f82aeaba5983c0076589b3)
-- **v1.1.0** - Adicionando package-lock.json [`4798ed14`](https://github.com/humbanew/wertsfy-next/commit/4798ed14f98232e736e0bb742021135e02d0f8a1)
-- rrumando configurações do devcontainer remoto [`c5c2514c`](https://github.com/humbanew/wertsfy-next/commit/c5c2514c673bd8462bd95a7616d1aa6b0d5a7ed6)
+- Atualizando commits [`d22e050d`](https://github.com/humbanew/wertsfy-next/commit/d22e050d8d263bf0ee5eb2fff4f48f6a6a8e6377)
+- **v1.1.0** - Construindo Programa - I [`2b779f85`](https://github.com/humbanew/wertsfy-next/commit/2b779f85b7760e1d15ebff7cb1b4a28dd087bc64)
+- **v1.1.0** - Adicionando package-lock.json [`acc92a91`](https://github.com/humbanew/wertsfy-next/commit/acc92a911c306493f76954633fcb81fe91e0f072)
+- Arrumando configurações do devcontainer remoto [`b4a5d059`](https://github.com/humbanew/wertsfy-next/commit/b4a5d0591e67aa5e400ff4032b8290d96809005d)
 - **v1.1.0**- Adicionando JasmineJS, código-fonte em JS [`f553cc95`](https://github.com/humbanew/wertsfy-next/commit/f553cc959d46cc82d754fc2025a022a5dc03e603)
 - Wtsfy Docs - Construindo página - III [`1c7559dd`](https://github.com/humbanew/wertsfy-next/commit/1c7559ddfa9dda0e1f3a34b36ba9c670863d198a)
 - Wtsfy Docs - Construindo página - II [`c67df4a0`](https://github.com/humbanew/wertsfy-next/commit/c67df4a04330205e2aa1365deca8a2716ea7d921)

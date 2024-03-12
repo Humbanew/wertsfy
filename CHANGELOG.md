@@ -4,6 +4,7 @@
 
 ### Other
 
+- **v1.1.0** - Construindo Programa - I [`34658ee5`](https://github.com/humbanew/wertsfy-next/commit/34658ee5a52220d727f82aeaba5983c0076589b3)
 - **v1.1.0** - Adicionando package-lock.json [`4798ed14`](https://github.com/humbanew/wertsfy-next/commit/4798ed14f98232e736e0bb742021135e02d0f8a1)
 - rrumando configurações do devcontainer remoto [`c5c2514c`](https://github.com/humbanew/wertsfy-next/commit/c5c2514c673bd8462bd95a7616d1aa6b0d5a7ed6)
 - **v1.1.0**- Adicionando JasmineJS, código-fonte em JS [`f553cc95`](https://github.com/humbanew/wertsfy-next/commit/f553cc959d46cc82d754fc2025a022a5dc03e603)

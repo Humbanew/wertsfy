@@ -37,3 +37,80 @@ jobs:
           outputPath: 'docs/'      # Optional. The path to write documentation to.
           path: '.'            # Optional. The working directory PSDocs is run from.
           prerelease: false     # Optional. Determine if a pre-release module version is installed.
+
+  code_quality:
+    name: Code Quality Steps
+    runs-on: ubuntu-latest
+    steps:
+      # validate-license-action
+      - name: validate-license-action
+        uses: datreeio/validate-license-action@v1.0.0
+      # SecureStack Secrets Analysis
+      - name: Checkout repo for running secrets analysis within workflow
+        id: checkout
+        uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
+      - name: Secrets Analysis Step
+        id: secrets
+        uses: SecureStackCo/actions-secrets@v0.1.3
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+          flags: '-d 1'
+      # SecureStack All-In-One GitHub Action
+      - name: Code Analysis Step
+        id: code
+        uses: SecureStackCo/actions-code@v0.1.1
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+          language: node
+      - name: Exposure Analysis Step
+        id: exposure
+        uses: SecureStackCo/actions-exposure@v0.1.3
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+          flags: '--dom -r'
+      - name: Create SBOM
+        id: sbom
+        uses: SecureStackCo/actions-sbom@v0.1.1
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+      # action-git-diff-suggestions
+      - name: action-git-diff-suggestions
+        uses: getsentry/action-git-diff-suggestions@v1
+          
+  code_review:
+    runs-on: ubuntu-latest
+    steps:
+      # SecureStack Log4j Vulnerability Analysis
+      - name: Checkout repo for running log4j analysis
+        id: checkout
+        uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
+      - name: Log4j Scanning Step
+        id: log4j
+        uses: SecureStackCo/actions-log4j@v0.1.3
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+      # SecureStack Application Bill of Materials (ABOM/SBOM)
+      - name: Create ABOM
+        id: abom
+        uses: SecureStackCo/actions-abom@v0.1.3
+        with:
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
+          severity: critical
+
+  # megalinter:
+  # codacy:

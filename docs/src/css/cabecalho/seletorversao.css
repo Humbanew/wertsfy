@@ -1,0 +1,21 @@
+.hnaplicacao_cabecalho_seletorversao {
+  background-color: var(--wertsfy-palette-pantone-2755-c);
+  border-radius: 0.8vw;
+  color: white;
+  display: flex;
+  flex: 1;
+  font-family: monospace;
+  font-size: 0.9rem;
+  outline: none;
+  margin: 1vw;
+}
+
+.hnaplicacao_cabecalho_seletorversao::slotted {
+  background-color: brown;
+}
+
+.hnaplicacao_cabecalho_seletorversao>option:checked {
+  background-color: var(--wertsfy-palette-pantone-2765-c);
+  color: white;
+  font-weight: 700;
+}

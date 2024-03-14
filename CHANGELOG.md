@@ -4,6 +4,8 @@
 
 ### Other
 
+
+- Wtsfy Docs - Arrumando página - II [`b9027ad0`](https://github.com/humbanew/wertsfy-next/commit/b9027ad0ccee699a8a9b98a145cb6232d53616cb)
 - Wtsfy Docs - Arrumando página [`de64cf99`](https://github.com/humbanew/wertsfy-next/commit/de64cf99843b49533b994c015f1faef260fd2256)
 - Docs Automated Update 📚 [`a17e41e7`](https://github.com/humbanew/wertsfy-next/commit/a17e41e7992245600f4cb867ca3eaeb90aeacc5c)
 - Github Actions - Atualizando workflows - II [`5ce4c9ce`](https://github.com/humbanew/wertsfy-next/commit/5ce4c9cec55efaf319181f18e770ba61a7067273)

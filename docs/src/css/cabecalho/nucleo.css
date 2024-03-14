@@ -1,0 +1,6 @@
+.hnaplicacao_cabecalho {
+  display: inline-flex;
+  background-color: var(--wertsfy-palette-pantone-3535-c);
+  color: var(--wertsfy-palette-pantone-cool-gray-1-xgc);
+  width: 100vw;
+}

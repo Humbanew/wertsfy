@@ -4,7 +4,10 @@
 
 ### Other
 
+- Merge pull request #5 from humbanew/main ([#5](https://github.com/humbanew/wertsfy-next/issues/5)) [`3552e420`](https://github.com/humbanew/wertsfy-next/commit/3552e4200398068c3574d31a9425774e978bdd88)
 
+    *docs(Changelog): Update Changelog*
+- Merge branch 'develop' into main [`1e5cbd36`](https://github.com/humbanew/wertsfy-next/commit/1e5cbd365d0c5447a52b2c65e15e8f83fe296755)
 - Wtsfy Docs - Arrumando página - II [`b9027ad0`](https://github.com/humbanew/wertsfy-next/commit/b9027ad0ccee699a8a9b98a145cb6232d53616cb)
 - Wtsfy Docs - Arrumando página [`de64cf99`](https://github.com/humbanew/wertsfy-next/commit/de64cf99843b49533b994c015f1faef260fd2256)
 - Docs Automated Update 📚 [`a17e41e7`](https://github.com/humbanew/wertsfy-next/commit/a17e41e7992245600f4cb867ca3eaeb90aeacc5c)

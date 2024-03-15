@@ -2,18 +2,25 @@
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  */
 import { Absoluto } from "./components/comuns/absoluto";
+import { ArrendondaParaBaixo } from "./components/comuns/arrendonda_para_baixo.mdl";
+import { ArrendondaParaCima } from "./components/comuns/arrendonda_para_cima.mdl";
+import { ArrendondaParaDecimal32Bits } from "./components/comuns/arrendonda_para_decimal_32bits.mdl";
 import { Divisao } from "./components/comuns/divisao";
 import { Multiplicacao } from "./components/comuns/multiplicacao";
 import { Porcentagem } from "./components/comuns/porcentagem.mdl";
-import { PorcentagemPor1000 } from "./components/comuns/porcentagem_por_1000.mdl";
-import { PorcentagemPor10000 } from "./components/comuns/porcentagem_por_10000.mdl";
-import { PorcentagemPor100000 } from "./components/comuns/porcentagem_por_100000.mdl";
+import { PorcentagemPor1000 } from "./components/comuns/porcentagem_por_1000";
+import { PorcentagemPor10000 } from "./components/comuns/porcentagem_por_10000";
+import { PorcentagemPor100000 } from "./components/comuns/porcentagem_por_100000";
 import { Potencia } from "./components/comuns/potencia";
-import { PotenciaDePotencia } from "./components/comuns/potencia_de_potencia.mdl";
-import { PotenciaDePotenciaMais1 } from "./components/comuns/potencia_de_potencia_mais_1.mdl";
-import { PotenciaDePotenciaMenos1 } from "./components/comuns/potencia_de_potencia_menos_1.mdl";
+import { PotenciaDePotencia } from "./components/comuns/potencia_de_potencia";
+import { PotenciaDePotenciaMais1 } from "./components/comuns/potencia_de_potencia_mais_1";
+import { PotenciaDePotenciaMenos1 } from "./components/comuns/potencia_de_potencia_menos_1";
 import { PotenciaMais1 } from "./components/comuns/potencia_mais_1";
 import { PotenciaMenos1 } from "./components/comuns/potencia_menos_1";
+import { RaizBicubica } from "./components/comuns/raiz_bicubica";
+import { RaizBiquadrada } from "./components/comuns/raiz_biquadrada";
+import { RaizCubica } from "./components/comuns/raiz_cubica";
+import { RaizQuadrada } from "./components/comuns/raiz_quadrada";
 import { Soma } from "./components/comuns/soma";
 import { Subtracao } from "./components/comuns/subtracao";
 
@@ -138,7 +145,13 @@ export class Aritmeticos {
   porcentagem_por_1000: typeof PorcentagemPor1000;
   porcentagem_por_10000: typeof PorcentagemPor10000;
   porcentagem_por_100000: typeof PorcentagemPor100000;
-    
+  raiz_quadrada: typeof RaizQuadrada;
+  raiz_cubica: typeof RaizCubica;
+  raiz_biquadrada: typeof RaizBiquadrada;
+  raiz_bicubica: typeof RaizBicubica;
+  arrendonda_para_cima: typeof ArrendondaParaCima;
+  arrendonda_para_baixo: typeof ArrendondaParaBaixo;
+  arrendonda_para_decimal_32_bits: typeof ArrendondaParaDecimal32Bits;
 
 };
 

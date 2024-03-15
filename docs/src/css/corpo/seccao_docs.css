@@ -1,3 +1,22 @@
+/* scrollbar.css */
+::-webkit-scrollbar {
+  position: fixed;
+  width: 0.5vw;
+  background-color: var(--wertsfy-palette-pantone-2725-c);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--wertsfy-palette-pantone-274-c);
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+/* seccao_docs.css */
 .hnaplicacao_corpo_seccao_docs {
   display: flex;
   font-family: monospace;
@@ -8,6 +27,7 @@
 
 .hnaplicacao_corpo_seccao_docs h2 {
   border-bottom: 0.5px solid gray;
+  font-size: 1.5rem;
   width: 100%;
   padding-bottom: 0.2vw;
 }
@@ -15,6 +35,99 @@
 .hnaplicacao_corpo_seccao_docs p {
   color: darkgrey;
   font-style: italic;
+  align-self: flex-start;
   padding: 1vw;
 }
 
+.hnaplicacao_corpo_seccao_docs__conteiner_centralizer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hnaplicacao_corpo_seccao_docs__conteiner {
+  border: 0.5px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5vw 0;
+  width: 94%;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel1,
+.hnaplicacao_corpo_seccao_docs__nivel2,
+.hnaplicacao_corpo_seccao_docs__nivel3,
+.hnaplicacao_corpo_seccao_docs__nivel4,
+.hnaplicacao_corpo_seccao_docs__nivel5,
+.hnaplicacao_corpo_seccao_docs__nivel6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel2,
+.hnaplicacao_corpo_seccao_docs__nivel3,
+.hnaplicacao_corpo_seccao_docs__nivel4,
+.hnaplicacao_corpo_seccao_docs__nivel5,
+.hnaplicacao_corpo_seccao_docs__nivel6 {
+  margin-left: 1.5vw;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel1::before,
+.hnaplicacao_corpo_seccao_docs__nivel1::after {
+  color: var(--wertsfy-palette-pantone-2765-c);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel2::before,
+.hnaplicacao_corpo_seccao_docs__nivel2::after {
+  color: var(--wertsfy-palette-pantone-2755-c);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel3::before,
+.hnaplicacao_corpo_seccao_docs__nivel3::after {
+  color: var(--wertsfy-palette-pantone-2745-c);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel4::before,
+.hnaplicacao_corpo_seccao_docs__nivel4::after {
+  color: var(--wertsfy-palette-pantone-2735-c);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel5::before,
+.hnaplicacao_corpo_seccao_docs__nivel5::after {
+  color: var(--wertsfy-palette-pantone-2725-c);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel6::before,
+.hnaplicacao_corpo_seccao_docs__nivel6::after {
+  color: var(--wertsfy-palette-pantone-3555-c);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel1::before,
+.hnaplicacao_corpo_seccao_docs__nivel2::before,
+.hnaplicacao_corpo_seccao_docs__nivel3::before,
+.hnaplicacao_corpo_seccao_docs__nivel4::before,
+.hnaplicacao_corpo_seccao_docs__nivel5::before,
+.hnaplicacao_corpo_seccao_docs__nivel6::before {
+  content: '{';
+}
+
+.hnaplicacao_corpo_seccao_docs__nivel1::after,
+.hnaplicacao_corpo_seccao_docs__nivel2::after,
+.hnaplicacao_corpo_seccao_docs__nivel3::after,
+.hnaplicacao_corpo_seccao_docs__nivel4::after,
+.hnaplicacao_corpo_seccao_docs__nivel5::after,
+.hnaplicacao_corpo_seccao_docs__nivel6::after {
+  content: '}';
+}

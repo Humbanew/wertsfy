@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="src/css/raiz.css" />
     <link rel="stylesheet" href="src/css/cabecalho/nucleo.css" />
     <link rel="stylesheet" href="src/css/cabecalho/titulo.css" />
-    <link rel="stylesheet" href="src/css/cabecalho/seletorversao.css" />
+    <link rel="stylesheet" href="src/css/cabecalho/seletor_versao.css" />
+    <link rel="stylesheet" href="src/css/corpo/nucleo.css" />
+    <link rel="stylesheet" href="src/css/corpo/seccao_docs.css" />
   </head>    
   <body>
 
@@ -16,7 +18,7 @@
 
       <h1 class="hnaplicacao_cabecalho_titulo">Wertsfy Docs</h1>
 
-      <select class="hnaplicacao_cabecalho_seletorversao">
+      <select class="hnaplicacao_cabecalho_seletor_versao" disabled aria-disabled="true">
         <option value="1-0-x">v1.0.x</option>
         <option value="1-1-x">v1.1.x</option>
         <option value="2-0-x">v2.0.x</option>
@@ -24,9 +26,24 @@
 
     </header>
 
-    <section></section>
-    <section></section>
-    <section></section>
+    <main class="hnaplicacao_corpo">
+
+      <section class="hnaplicacao_corpo_seccao_docs">
+        <h2>v1.0.x</h2>
+        <p>Documentação em construção.</p>
+      </section>
+      
+      <section class="hnaplicacao_corpo_seccao_docs">
+        <h2>v1.1.x</h2>
+        <p>Documentação ainda não disponível.</p>
+      </section>
+      
+      <section class="hnaplicacao_corpo_seccao_docs">
+        <h2>v2.0.x</h2>
+        <p>Documentação ainda não disponível.</p>
+      </section>
+    
+    </main>
 
   </body>
   <footer></footer>

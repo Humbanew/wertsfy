@@ -25,15 +25,16 @@
   margin: 1.5vw;
 }
 
-.hnaplicacao_corpo_seccao_docs h2 {
+.hnaplicacao_corpo_seccao_docs__titulo {
   border-bottom: 0.5px solid gray;
   font-size: 1.5rem;
   width: 100%;
   padding-bottom: 0.2vw;
 }
 
-.hnaplicacao_corpo_seccao_docs p {
-  color: darkgrey;
+/* <p class="hnaplicacao_corpo_seccao_docs__descricao">Documentação ainda não disponível.</p> */
+.hnaplicacao_corpo_seccao_docs__descricao {
+  color: rgb(68, 68, 68);
   font-style: italic;
   align-self: flex-start;
   padding: 1vw;
@@ -51,5 +52,5 @@
   display: flex;
   flex-direction: column;
   margin: 1.5vw 0;
-  width: 94%;
+  width: 96%;
 }

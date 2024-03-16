@@ -6,12 +6,14 @@
     <link rel="icon" href="src/img/wertsfy-icon.svg" type="image/x-icon">
     <title>Wertsfy Docs</title>
     <link rel="stylesheet" href="src/css/raiz.css" />
+    <link rel="stylesheet" href="src/css/badge.css" />
     <link rel="stylesheet" href="src/css/cabecalho/nucleo.css" />
     <link rel="stylesheet" href="src/css/cabecalho/logo.css" />
     <link rel="stylesheet" href="src/css/cabecalho/titulo.css" />
     <link rel="stylesheet" href="src/css/cabecalho/seletor_versao.css" />
     <link rel="stylesheet" href="src/css/corpo/nucleo.css" />
     <link rel="stylesheet" href="src/css/corpo/seccao_docs.css" />
+    <link rel="stylesheet" href="src/css/corpo/seccao_verdesc.css" />
   </head>    
   <body>
 
@@ -31,13 +33,25 @@
 
     <main class="hnaplicacao_corpo">
 
+      <section class="hnaplicacao_corpo_versoes_descontinuadas">
+        <h2>Versões Descontinuadas</h2>
+
+        <ul class="hnaplicacao_corpo_versoes_descontinuadas__lista_versoes" id="lista_versoes"></ul>
+      </section>
+
       <section class="hnaplicacao_corpo_seccao_docs">
       
         <h2>v1.0.x</h2>
         <div class="hnaplicacao_corpo_seccao_docs__conteiner_centralizer">
 
+          <!-- modelo de construção, posteriormente montado dinamicamente -->
           <div class="hnaplicacao_corpo_seccao_docs__conteiner">
-  
+            <div class="hnaplicacao_corpo_seccao_docs__titulo">
+              <h3>
+                Wertsfy: Interface de Programação de Aplicativos (API) para desenvolvimento de aplicações web.
+              </h3>
+              <p id="v1-0-x"><span>v</span>v1.0.x</p>
+            </div>
             <div class="hnaplicacao_corpo_seccao_docs__nivel1">
               x
               <div class="hnaplicacao_corpo_seccao_docs__nivel2">
@@ -83,6 +97,8 @@
       </section>
     
     </main>
+
+    <script type="module" src="src/js/Controller/control.js"></script>
 
   </body>
   <footer></footer>

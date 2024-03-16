@@ -32,7 +32,11 @@
   padding-bottom: 0.2vw;
 }
 
-/* <p class="hnaplicacao_corpo_seccao_docs__descricao">Documentação ainda não disponível.</p> */
+/* 
+  <p class="hnaplicacao_corpo_seccao_docs__descricao">
+    Documentação ainda não disponível.
+  </p> 
+*/
 .hnaplicacao_corpo_seccao_docs__descricao {
   color: rgb(68, 68, 68);
   font-style: italic;

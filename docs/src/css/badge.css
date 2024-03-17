@@ -11,7 +11,8 @@
 #deprecated,
 #experimental,
 #first-party,
-#third-party {
+#third-party,
+#embreve {
   display: inline-flex;
   color: black;
   font-family: monospace;
@@ -23,6 +24,16 @@
   vertical-align: middle;
   border-radius: 0.1vw;
   margin: 0.4vw 0;
+}
+
+#embreve {
+  display: flex;
+  color: white;
+  font-family: "Montserrat-Regular";
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.5rem;
+  margin-left: 0.5vw;
 }
 
 #v1-0-x span,

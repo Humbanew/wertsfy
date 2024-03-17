@@ -1,6 +1,8 @@
 .hnaplicacao_rodape {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: black;
-  height: 100px;
   width: 100vw;
+  padding-bottom: 0.5vw;
 }

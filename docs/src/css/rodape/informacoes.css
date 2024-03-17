@@ -1,0 +1,75 @@
+.hnaplicacao_rodape_infomacoes_conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+}
+
+.hnaplicacao_rodape_infomacoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin-top: 2.5vw;
+  margin-left: 1vw;
+  width: 60%;
+}
+
+.hnaplicacao_rodape_informacoes__categoria {
+  display: flex;
+  font-family: "Exo2-Regular";
+  flex-direction: column;
+  flex: 2;
+  color: white;
+  padding: 1vw;
+}
+
+.hnaplicacao_rodape_informações__categoria___titulo {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 0.5vw;
+  border-bottom: 2px solid white;
+  width: fit-content;
+}
+
+.hnaplicacao_rodape_informacoes__categoria:nth-child(1) .hnaplicacao_rodape_informações__categoria___titulo {
+  border-bottom: 2px solid #0000aa;
+}
+
+.hnaplicacao_rodape_informacoes__categoria:nth-child(2) .hnaplicacao_rodape_informações__categoria___titulo {
+  border-bottom: 2px solid #00aa00;
+}
+
+.hnaplicacao_rodape_informacoes__categoria:nth-child(3) .hnaplicacao_rodape_informações__categoria___titulo {
+  border-bottom: 2px solid #ff9900;
+}
+
+.hnaplicacao_rodape_informacoes__categoria___opcoes {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle; 
+  list-style-type: none;
+  font-size: 1rem;
+  margin: 0.2vw;
+}
+
+.hnaplicacao_rodape_informacoes_categoria___opcoes____item {
+  display: flex;
+  padding: 0.5vw;
+}
+
+.hnaplicacao_rodape_informacoes__icones_contato {
+  display: flex;
+  flex-direction: row;
+  margin: 1vw;
+  justify-content: end;
+  flex: 4;
+}
+
+.hnaplicacao_rodape_informacoes__icones_contato___item {
+  display: flex;
+  height: fit-content;
+  padding: 0.5vw;
+  width: 30px;
+}

@@ -1,4 +1,4 @@
-.hnaplicacao_cabecalho_seletor_versao {
+.hnaplicacao_wertsfy_cabecalho_seletor_versao {
   background-color: var(--wertsfy-palette-pantone-2755-c);
   border-radius: 0.8vw;
   color: white;
@@ -10,7 +10,7 @@
   margin: 1vw;
 }
 
-.hnaplicacao_cabecalho_seletor_versao>option:checked {
+.hnaplicacao_wertsfy_cabecalho_seletor_versao>option:checked {
   background-color: var(--wertsfy-palette-pantone-2765-c);
   color: white;
   font-weight: 700;

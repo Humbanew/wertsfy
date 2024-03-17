@@ -17,7 +17,7 @@
 }
 
 /* seccao_docs.css */
-.hnaplicacao_corpo_seccao_docs {
+.hnaplicacao_wertsfy_corpo_seccao_docs {
   display: flex;
   font-family: monospace;
   font-size: 0.8rem;
@@ -25,7 +25,7 @@
   margin: 1.5vw;
 }
 
-.hnaplicacao_corpo_seccao_docs__titulo {
+.hnaplicacao_wertsfy_corpo_seccao_docs__titulo {
   border-bottom: 0.5px solid gray;
   font-size: 1.5rem;
   width: 100%;
@@ -33,25 +33,25 @@
 }
 
 /* 
-  <p class="hnaplicacao_corpo_seccao_docs__descricao">
+  <p class="hnaplicacao_wertsfy_corpo_seccao_docs__descricao">
     Documentação ainda não disponível.
   </p> 
 */
-.hnaplicacao_corpo_seccao_docs__descricao {
+.hnaplicacao_wertsfy_corpo_seccao_docs__descricao {
   color: rgb(68, 68, 68);
   font-style: italic;
   align-self: flex-start;
   padding: 1vw;
 }
 
-.hnaplicacao_corpo_seccao_docs__conteiner_centralizer {
+.hnaplicacao_wertsfy_corpo_seccao_docs__conteiner_centralizer {
   display: flex;
   font-family: "Exo2-Regular";
   justify-content: center;
   width: 100%;
 }
 
-.hnaplicacao_corpo_seccao_docs__conteiner {
+.hnaplicacao_wertsfy_corpo_seccao_docs__conteiner {
   border: 0.5px solid lightgray;
   display: flex;
   flex-direction: column;

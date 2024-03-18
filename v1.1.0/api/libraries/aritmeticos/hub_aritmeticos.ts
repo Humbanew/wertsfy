@@ -31,6 +31,8 @@ import { RaizQuadrada } from "./components/comuns/raiz_quadrada";
 import { Soma } from "./components/comuns/soma";
 import { Subtracao } from "./components/comuns/subtracao";
 
+
+
 export class Aritmeticos {
 
   // constantes
@@ -117,82 +119,7 @@ export class Aritmeticos {
   TESLA= 1.602e-19;
 
   ZERO= 0;
-  
-  // métodos
-  absoluto: 
-    typeof Absoluto;
-  
-  soma: 
-    typeof Soma;
-  
-  subtracao: 
-    typeof Subtracao;
-  
-  multiplicacao: 
-    typeof Multiplicacao;
-  
-  divisao: 
-    typeof Divisao;
-  
-  potencia: 
-    typeof Potencia;
-  
-  potencia_mais_1: 
-    typeof PotenciaMais1;
-  
-  potencia_menos_1: 
-    typeof PotenciaMenos1;
 
-  potencia_de_potencia: 
-    typeof PotenciaDePotencia;
-  
-  potencia_de_potencia_mais_1: 
-    typeof PotenciaDePotenciaMais1;
-  
-  potencia_de_potencia_menos_1: 
-    typeof PotenciaDePotenciaMenos1;
-  
-  porcentagem: 
-    typeof Porcentagem;
-  
-  porcentagem_por_1000: 
-    typeof PorcentagemPor1000;
-  
-  porcentagem_por_10000: 
-    typeof PorcentagemPor10000;
-  
-  porcentagem_por_100000: 
-    typeof PorcentagemPor100000;
-  
-  raiz_quadrada: 
-    typeof RaizQuadrada;
-  
-  raiz_cubica: 
-    typeof RaizCubica;
-  
-  raiz_biquadrada: 
-    typeof RaizBiquadrada;
-  
-  raiz_bicubica: 
-    typeof RaizBicubica;
-  
-  arrendonda_para_cima: 
-    typeof ArrendondaParaCima;
-  
-  arrendonda_para_baixo: 
-    typeof ArrendondaParaBaixo;
-  
-  arrendonda_para_decimal_32_bits: 
-    typeof ArrendondaParaDecimal32Bits;
-
-  // métodos cientificos - experimental
-  raiz_quarta: typeof RaizQuarta;
-  raiz_quinta: typeof RaizQuinta;
-  raiz_sexta: typeof RaizSexta;
-  raiz_setima: typeof RaizSetima;
-  raiz_oitava: typeof RaizOitava;
-  raiz_nona: typeof RaizNona;
-  raiz_decima: typeof RaizDecima;
 
 };
 

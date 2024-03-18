@@ -70,8 +70,8 @@ interface Cientificos {
   raiz_decima: typeof RaizDecima;
 }
 
-interface Supremos { }
-interface Expressoes { }
+interface Supremos { la: 0; }
+interface Expressoes { lb: 0; }
 
 export class Aritmeticos implements Comuns, Cientificos{
   raiz_quarta: (x: number) => number;

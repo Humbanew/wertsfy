@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  *  
@@ -9,8 +11,23 @@ namespace Wtsfy {
 
   namespace Cli {
 
-    let mdl = 0;
+    const chsoma = `\+`;
+    const chsubtracao = `\-`;
+    const chmultiplicacao = `\*`;
+    const chdivisao = `\/`;
+    const chpotenciacao = `\^`;
+    const chpotenciacaom1 = `\^m1`;
+    const chpotenciacaomm1 = `\^mm1`;
+    const chradiciacao2 = `\/\/2`;
+    const chradiciacao3 = `\/\/3`;
+    const chigual = `\=`;
+    const chseno = `\sin`;
 
+    // leitura de input
+    process.stdin.setEncoding('utf8');
+    process.stdin.setMaxListeners(6);
+    process.stdin.setNoDelay(true);
+  
   }
 
 }

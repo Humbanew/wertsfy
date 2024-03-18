@@ -19,7 +19,7 @@
     "ts-node": "^10.9.1"
   },
   "bin": {
-    "wtsfy": "./cli/wtsfy.cli.js"
+    "wtsfy": "cli/wtsfy.cli.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

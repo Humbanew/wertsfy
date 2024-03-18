@@ -1,37 +1,6 @@
 /**
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  */
-import { RaizDecima } from "./components/cientificos/raiz_decima";
-import { RaizNona } from "./components/cientificos/raiz_nona";
-import { RaizOitava } from "./components/cientificos/raiz_oitava";
-import { RaizQuarta } from "./components/cientificos/raiz_quarta";
-import { RaizQuinta } from "./components/cientificos/raiz_quinta";
-import { RaizSetima } from "./components/cientificos/raiz_setima";
-import { RaizSexta } from "./components/cientificos/raiz_sexta";
-import { Absoluto } from "./components/comuns/absoluto";
-import { ArrendondaParaBaixo } from "./components/comuns/arrendonda_para_baixo";
-import { ArrendondaParaCima } from "./components/comuns/arrendonda_para_cima";
-import { ArrendondaParaDecimal32Bits } from "./components/comuns/arrendonda_para_decimal_32bits";
-import { Divisao } from "./components/comuns/divisao";
-import { Multiplicacao } from "./components/comuns/multiplicacao";
-import { Porcentagem } from "./components/comuns/porcentagem.mdl";
-import { PorcentagemPor1000 } from "./components/comuns/porcentagem_por_1000";
-import { PorcentagemPor10000 } from "./components/comuns/porcentagem_por_10000";
-import { PorcentagemPor100000 } from "./components/comuns/porcentagem_por_100000";
-import { Potencia } from "./components/comuns/potencia";
-import { PotenciaDePotencia } from "./components/comuns/potencia_de_potencia";
-import { PotenciaDePotenciaMais1 } from "./components/comuns/potencia_de_potencia_mais_1";
-import { PotenciaDePotenciaMenos1 } from "./components/comuns/potencia_de_potencia_menos_1";
-import { PotenciaMais1 } from "./components/comuns/potencia_mais_1";
-import { PotenciaMenos1 } from "./components/comuns/potencia_menos_1";
-import { RaizBicubica } from "./components/comuns/raiz_bicubica";
-import { RaizBiquadrada } from "./components/comuns/raiz_biquadrada";
-import { RaizCubica } from "./components/comuns/raiz_cubica";
-import { RaizQuadrada } from "./components/comuns/raiz_quadrada";
-import { Soma } from "./components/comuns/soma";
-import { Subtracao } from "./components/comuns/subtracao";
-
-
 
 export class Aritmeticos {
 
@@ -119,6 +88,8 @@ export class Aritmeticos {
   TESLA= 1.602e-19;
 
   ZERO= 0;
+
+
 
 
 };

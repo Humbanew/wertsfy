@@ -12,9 +12,9 @@ namespace Wtsfy {
   
   namespace Bibliotecas {  
 
-    Aritmeticos: Aritmeticos;
+    export let Aritmeticos: Aritmeticos;
 
-    Conversores: Conversores;
+    export let Conversores: Conversores;
 
   } 
 

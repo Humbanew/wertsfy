@@ -5,4 +5,12 @@
  * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
  */
 
-let WTSFY_CLI = {};
+namespace Wtsfy {
+
+  namespace Cli {
+
+    let mdl = 0;
+
+  }
+
+}

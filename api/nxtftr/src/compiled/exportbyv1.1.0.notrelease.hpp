@@ -15,6 +15,30 @@ namespace Wtsfy
       return x < 0 ? -1 * x : x;
     };
 
+    f32t ArrendondaParaCima(f32t x) {
+      return x > (i64t)x+0.5 ? (i64t)x + 1 : (i64t)x;
+    };
+
+    f32t ArrendondaParaBaixo(f32t x) {
+      return x = (i64t)x; 
+    };
+
+    i32t ArrendondaParaDecimal32Bits(f32t x) {
+      return (i32t)x;
+    };
+
+    i64t ArrendondaParaDecimal64Bits(f32t x) {
+      return (i64t)x;
+    };
+
+    f32t RaizBiquadrada(f32t x) {
+      return sqrt(sqrt(x));
+    };
+
+    f32t RaizBicubica(f32t x) {
+      return cbrt(cbrt(x));
+    };
+
   } 
 
 }

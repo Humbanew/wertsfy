@@ -1,10 +1,17 @@
 /**
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  */
+import { RaizDecima } from "./components/cientificos/raiz_decima";
+import { RaizNona } from "./components/cientificos/raiz_nona";
+import { RaizOitava } from "./components/cientificos/raiz_oitava";
+import { RaizQuarta } from "./components/cientificos/raiz_quarta";
+import { RaizQuinta } from "./components/cientificos/raiz_quinta";
+import { RaizSetima } from "./components/cientificos/raiz_setima";
+import { RaizSexta } from "./components/cientificos/raiz_sexta";
 import { Absoluto } from "./components/comuns/absoluto";
-import { ArrendondaParaBaixo } from "./components/comuns/arrendonda_para_baixo.mdl";
-import { ArrendondaParaCima } from "./components/comuns/arrendonda_para_cima.mdl";
-import { ArrendondaParaDecimal32Bits } from "./components/comuns/arrendonda_para_decimal_32bits.mdl";
+import { ArrendondaParaBaixo } from "./components/comuns/arrendonda_para_baixo";
+import { ArrendondaParaCima } from "./components/comuns/arrendonda_para_cima";
+import { ArrendondaParaDecimal32Bits } from "./components/comuns/arrendonda_para_decimal_32bits";
 import { Divisao } from "./components/comuns/divisao";
 import { Multiplicacao } from "./components/comuns/multiplicacao";
 import { Porcentagem } from "./components/comuns/porcentagem.mdl";
@@ -136,22 +143,56 @@ export class Aritmeticos {
   potencia_menos_1: 
     typeof PotenciaMenos1;
 
+  potencia_de_potencia: 
+    typeof PotenciaDePotencia;
+  
+  potencia_de_potencia_mais_1: 
+    typeof PotenciaDePotenciaMais1;
+  
+  potencia_de_potencia_menos_1: 
+    typeof PotenciaDePotenciaMenos1;
+  
+  porcentagem: 
+    typeof Porcentagem;
+  
+  porcentagem_por_1000: 
+    typeof PorcentagemPor1000;
+  
+  porcentagem_por_10000: 
+    typeof PorcentagemPor10000;
+  
+  porcentagem_por_100000: 
+    typeof PorcentagemPor100000;
+  
+  raiz_quadrada: 
+    typeof RaizQuadrada;
+  
+  raiz_cubica: 
+    typeof RaizCubica;
+  
+  raiz_biquadrada: 
+    typeof RaizBiquadrada;
+  
+  raiz_bicubica: 
+    typeof RaizBicubica;
+  
+  arrendonda_para_cima: 
+    typeof ArrendondaParaCima;
+  
+  arrendonda_para_baixo: 
+    typeof ArrendondaParaBaixo;
+  
+  arrendonda_para_decimal_32_bits: 
+    typeof ArrendondaParaDecimal32Bits;
 
-  // métodos - experimental
-  potencia_de_potencia: typeof PotenciaDePotencia;
-  potencia_de_potencia_mais_1: typeof PotenciaDePotenciaMais1;
-  potencia_de_potencia_menos_1: typeof PotenciaDePotenciaMenos1;
-  porcentagem: typeof Porcentagem;
-  porcentagem_por_1000: typeof PorcentagemPor1000;
-  porcentagem_por_10000: typeof PorcentagemPor10000;
-  porcentagem_por_100000: typeof PorcentagemPor100000;
-  raiz_quadrada: typeof RaizQuadrada;
-  raiz_cubica: typeof RaizCubica;
-  raiz_biquadrada: typeof RaizBiquadrada;
-  raiz_bicubica: typeof RaizBicubica;
-  arrendonda_para_cima: typeof ArrendondaParaCima;
-  arrendonda_para_baixo: typeof ArrendondaParaBaixo;
-  arrendonda_para_decimal_32_bits: typeof ArrendondaParaDecimal32Bits;
+  // métodos cientificos - experimental
+  raiz_quarta: typeof RaizQuarta;
+  raiz_quinta: typeof RaizQuinta;
+  raiz_sexta: typeof RaizSexta;
+  raiz_setima: typeof RaizSetima;
+  raiz_oitava: typeof RaizOitava;
+  raiz_nona: typeof RaizNona;
+  raiz_decima: typeof RaizDecima;
 
 };
 

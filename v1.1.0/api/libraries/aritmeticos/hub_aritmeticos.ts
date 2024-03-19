@@ -18,7 +18,7 @@ import { ArrendondaParaCima } from "./components/comuns/arrendonda_para_cima";
 import { ArrendondaParaDecimal32Bits } from "./components/comuns/arrendonda_para_decimal_32bits";
 import { Divisao } from "./components/comuns/divisao";
 import { Multiplicacao } from "./components/comuns/multiplicacao";
-import { Porcentagem } from "./components/comuns/porcentagem.mdl";
+import { Porcentagem } from "./components/comuns/porcentagem";
 import { PorcentagemPor1000 } from "./components/comuns/porcentagem_por_1000";
 import { PorcentagemPor10000 } from "./components/comuns/porcentagem_por_10000";
 import { PorcentagemPor100000 } from "./components/comuns/porcentagem_por_100000";
@@ -32,6 +32,7 @@ import { RaizBicubica } from "./components/comuns/raiz_bicubica";
 import { RaizBiquadrada } from "./components/comuns/raiz_biquadrada";
 import { RaizCubica } from "./components/comuns/raiz_cubica";
 import { RaizQuadrada } from "./components/comuns/raiz_quadrada";
+import { Resto } from "./components/comuns/resto";
 import { Soma } from "./components/comuns/soma";
 import { Subtracao } from "./components/comuns/subtracao";
 
@@ -41,6 +42,7 @@ interface Comuns {
   subtracao: typeof Subtracao;
   multiplicacao: typeof Multiplicacao;
   divisao: typeof Divisao;
+  resto: typeof Resto;
   potencia: typeof Potencia;
   potencia_mais_1: typeof PotenciaMais1;
   potencia_menos_1: typeof PotenciaMenos1;
@@ -94,6 +96,7 @@ export class Aritmeticos implements Comuns, Cientificos{
   soma: (x: number, y: number) => number;
   multiplicacao: (x: number, y: number) => number;
   divisao: (x: number, y: number) => number;
+  resto: (x: number, y: number) => number;
   potencia: (x: number, y: number) => number;
   potencia_mais_1: (x: number, y: number) => number;
   potencia_menos_1: (x: number, y: number) => number;

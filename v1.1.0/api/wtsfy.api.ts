@@ -8,14 +8,10 @@
 import { Aritmeticos } from "./libraries/aritmeticos/hub_aritmeticos";
 import { Conversores } from "./libraries/conversores/hub_conversores";
 
-namespace Wtsfy { 
+export const Wtsfy = { 
   
-  namespace Bibliotecas {  
+  Aritmeticos: Aritmeticos,
 
-    export let Aritmeticos: Aritmeticos;
-
-    export let Conversores: Conversores;
-
-  } 
+  Conversores: Conversores
 
 }

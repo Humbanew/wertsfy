@@ -237,4 +237,6 @@ export class Aritmeticos implements Comuns, Cientificos{
 
 };
 
+export class Aritmeticos2020 { };
+
 let aritm = new Aritmeticos();

@@ -5,12 +5,14 @@
  * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
  */
 
-import { Aritmeticos } from "./libraries/aritmeticos/hub_aritmeticos";
+import { Aritmeticos, Aritmeticos2020 } from "./libraries/aritmeticos/hub_aritmeticos";
 import { Conversores } from "./libraries/conversores/hub_conversores";
 
 export const Wtsfy = { 
   
   Aritmeticos: Aritmeticos,
+
+  Aritmeticos2020: Aritmeticos2020,
 
   Conversores: Conversores
 

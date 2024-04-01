@@ -1,0 +1,25 @@
+{
+
+  "compilerOptions": {
+
+    "module": "NodeNext",
+    "moduleDetection": "auto",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "strict": false,
+    "alwaysStrict": false,
+    "isolatedModules": false,
+    "rootDirs": ["./"],
+    
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "extendedDiagnostics": true,
+
+    // Diretório de export
+    "outDir": "./dist/",
+    "declarationDir": "./dist/ts/",
+
+  }
+
+}

@@ -20,8 +20,8 @@ export let wtsfy = {
     multiplicacao(x: number, y: number): number { return x * y; }
     divisao(x: number, y: number): number { return x / y; }
     potenciacao(x: number, y: number): number { return x ** y; }
-    raizQuadrada(x: number): number { return Math.sqrt(x); }
-    raizCubica(x: number): number { return Math.cbrt(x); }
+    raizQuadrada(x: number): number { return x ** 1/2; }
+    raizCubica(x: number): number { return x ** 1/3; }
     resto(x: number, y: number): number { return x % y; }
 
   }

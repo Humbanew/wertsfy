@@ -2,7 +2,7 @@
   "name": "@humbanew/wertsfy-next",
   "version": "1.1.0",
   "description": "The Arithmetic API & CLI",
-  "main": "wetsfy.api.js",
+  "main": "wtsfy.api.js",
   "scripts": {
     "null": ""
   },

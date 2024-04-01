@@ -27,7 +27,7 @@ jobs:
       - name: Update Changelog
         uses: AlexxNB/chalogen@master
         with:
-          title: HN Wertsfy [Next] Changelog (v2.0.0)
+          title: HN Wertsfy [Next] Changelog
       - name: Commit Changelog to repository
         uses: stefanzweifel/git-auto-commit-action@v4.13.0
         with:

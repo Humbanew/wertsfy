@@ -4,6 +4,7 @@
 
 ### Other
 
+- Construindo v1.1.0-beta [`c4de982a`](https://github.com/humbanew/wertsfy-next/commit/c4de982aace61dc9847b53d54abed30cde19c86e)
 - Construindo v1.1.0-beta [`3deccb7e`](https://github.com/humbanew/wertsfy-next/commit/3deccb7ef586ddb8bcd5f56ba56705bf49682ec5)
 - Arrumaando diretorios [`0ddd71a1`](https://github.com/humbanew/wertsfy-next/commit/0ddd71a1a8c9fcbb32c0545c3be7ee58a0f94039)
 - Arrumaando diretorios [`f0019ff4`](https://github.com/humbanew/wertsfy-next/commit/f0019ff4b20c0e2c116793e03d726dfcd29d07ff)

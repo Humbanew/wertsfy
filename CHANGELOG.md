@@ -1,9 +1,10 @@
-# HN Wertsfy [Next] Changelog (v2.0.0)
+# HN Wertsfy [Next] Changelog
 
 ## unreleased
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`5b3bd532`](https://github.com/humbanew/wertsfy-next/commit/5b3bd532d90cacc7afcd7a709fd56e2d511eba42)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`57ca97ac`](https://github.com/humbanew/wertsfy-next/commit/57ca97ac8c5183b24807d8b0c329b71d6d3d6603)
 
 ## 1.1.0-beta - começando a reestruturação da v1 - 2024-04-01

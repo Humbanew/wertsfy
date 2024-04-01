@@ -2,7 +2,7 @@
   "name": "@humbanew/wertsfy-next",
   "version": "1.1.0",
   "description": "The Arithmetic API & CLI",
-  "main": "wtsfy.api.js",
+  "main": "dist/wtsfy.api.js",
   "scripts": {
     "null": ""
   },
@@ -19,7 +19,7 @@
     "ts-node": "^10.9.1"
   },
   "bin": {
-    "wtsfy": "cli/wtsfy.cli.js"
+    "wtsfy": "dist/wtsfy.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

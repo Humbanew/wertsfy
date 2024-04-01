@@ -4,6 +4,7 @@
 
 ### Other
 
+- Arrumaando diretorios [`0ddd71a1`](https://github.com/humbanew/wertsfy-next/commit/0ddd71a1a8c9fcbb32c0545c3be7ee58a0f94039)
 - Arrumaando diretorios [`f0019ff4`](https://github.com/humbanew/wertsfy-next/commit/f0019ff4b20c0e2c116793e03d726dfcd29d07ff)
 - Arrumando recomendações de extensões do vscode do projeto [`fd1b6f54`](https://github.com/humbanew/wertsfy-next/commit/fd1b6f541024642fc2157f6e861da24737ea7786)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`5b3bd532`](https://github.com/humbanew/wertsfy-next/commit/5b3bd532d90cacc7afcd7a709fd56e2d511eba42)

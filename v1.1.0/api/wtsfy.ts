@@ -5,12 +5,13 @@ enum ETipagem {'standard', 'scientific', 'programmer', 'extreme'};
 type TTipagem = ETipagem;
 
 interface IDocumentObjectModel {}
+interface IJasmine {}
 interface ICLI {}
 
 abstract class Calculator {
     protected tipagem: TTipagem;
     protected memoria: Array<number>;
-    protected analisador: string|RegExp = '/^((\d+)([\+\-\*\/])(\d+))+$/gi';
+    protected analisador: string|RegExp = '/^((\d+)([\+\-\*\/\^])(\d+))+$/gi';
 
     constructor(tipagem: TTipagem, tam_memoria: TTamMemoria) {
         this.tipagem = tipagem;

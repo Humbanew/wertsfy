@@ -11,12 +11,14 @@ interface ICLI {}
 abstract class Calculator {
     protected tipagem: TTipagem;
     protected memoria: Array<number>;
-    protected analisador: string|RegExp = '/^((\d+)([\+\-\*\/\^])(\d+))+$/gi';
+    protected analisador: string|RegExp = '/^((\d+)([\+\-\*\/\^\sqrt\cbrt])(\d+))+$/gi';
 
     constructor(tipagem: TTipagem, tam_memoria: TTamMemoria) {
         this.tipagem = tipagem;
         this.memoria = new Array(tam_memoria);
     }
+
+    parseTree(): void {}
 }
 
 class Aritmeticos {}

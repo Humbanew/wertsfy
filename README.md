@@ -40,7 +40,7 @@
 
 ## Documentação
 
-  [Página Futura - Ainda em construção](https://humbanew.com.br/wertsfy)
+  [Página Futura - Ainda em construção](https://humbanew.com.br/wertsfy)<br><br>
   [Wiki Atual](https://github.com/humbanew/wertsfy/wiki)
 
 ## Abas de Discussões

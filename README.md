@@ -40,7 +40,8 @@
 
 ## Documentação
 
-v1.0.0-1.0.7/v1.1.0 (Página ainda em construção)<br> www.wertsfy.humbanew.com.br => www.humbanew.com.br/wertsfy/
+  [Página Futura - Ainda em construção](https://humbanew.com.br/wertsfy)
+  [Wiki Atual](https://github.com/humbanew/wertsfy/wiki)
 
 ## Abas de Discussões
 

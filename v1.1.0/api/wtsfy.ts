@@ -4,13 +4,7 @@ type TTamMemoria = 3|4|5|6;
 enum ETipagem {'standard', 'scientific', 'programmer', 'extreme'};
 type TTipagem = ETipagem;
 
-interface IDocumentObjectModel {}
-interface IJasmine {}
-
-interface ICLI {
-    root: string;
-    args: Array<string>;
-}
+class Resources {}
 
 abstract class Calculator {
     protected tipagem: TTipagem;
@@ -37,8 +31,3 @@ abstract class Calculator {
     }
 
 }
-
-class Aritmeticos extends Calculator {}
-class Conversores {}
-class Karzok {}
-class Azusa {}

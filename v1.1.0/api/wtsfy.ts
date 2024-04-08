@@ -21,13 +21,6 @@ abstract class Calculator {
         const listaProcedencia = [];
     }
 
-    parseFunctions(): void {
-
-        if(this.tipagem == 0) { }
-        if(this.tipagem == 1) { }
-        if(this.tipagem == 2) { }
-        if(this.tipagem == 3) { }
-
-    }
+    parseFunctions(): void {}
 
 }

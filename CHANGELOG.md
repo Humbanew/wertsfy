@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`08d0fbed`](https://github.com/humbanew/wertsfy-next/commit/08d0fbeda222d5b07638818a30e6c72d8316d711)
+- Construindo projeto pós-alpha [`4b16e2bf`](https://github.com/humbanew/wertsfy-next/commit/4b16e2bfc8cf7ff201c37aaa9387c182d4ebbddc)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`30b6af8d`](https://github.com/humbanew/wertsfy-next/commit/30b6af8dc2d336f22c8e8e11ad6c4e8e73ff5284)
 - Atualizando README.md [`35f253f6`](https://github.com/humbanew/wertsfy-next/commit/35f253f6db092a21fd0b06d68ed7760697259dde)
 - Atualizando README.md [`8368a47a`](https://github.com/humbanew/wertsfy-next/commit/8368a47af3fd343bd87833b615a67f36efd6168a)

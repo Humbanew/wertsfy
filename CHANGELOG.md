@@ -4,6 +4,7 @@
 
 ### Other
 
+- Construindo projeto pós-alpha [`3bd1117e`](https://github.com/humbanew/wertsfy-next/commit/3bd1117edc67e59f1a7aa47f66b9a4678bd78bd2)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`08d0fbed`](https://github.com/humbanew/wertsfy-next/commit/08d0fbeda222d5b07638818a30e6c72d8316d711)
 - Construindo projeto pós-alpha [`4b16e2bf`](https://github.com/humbanew/wertsfy-next/commit/4b16e2bfc8cf7ff201c37aaa9387c182d4ebbddc)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`30b6af8d`](https://github.com/humbanew/wertsfy-next/commit/30b6af8dc2d336f22c8e8e11ad6c4e8e73ff5284)

@@ -18,7 +18,15 @@ abstract class Calculator {
 
     parseTree(): void {
         const filtro: Array<String> = RegExp.prototype.exec(this.analisador);
-        const listaProcedencia = [];
+        const listaProcedencia = [
+            ['(', ')'],
+            ['{', '}'],
+            ['[', ']'],
+            ['^'],
+            ['*', '/', '%'],
+            ['+', '-'],
+            ['#sqrt', '#cbrt', '#sin', '#cos', '#tan', '#sec', '#cossec', '#cotan']
+        ];
     }
 
     parseFunctions(): void {}

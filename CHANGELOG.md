@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`a1c57c55`](https://github.com/humbanew/wertsfy-next/commit/a1c57c55ff38d1622fc1494d2968d8379e12157a)
+- construindo versão 1.1.0 [`e5810363`](https://github.com/humbanew/wertsfy-next/commit/e581036301ae1e7df027f328b5fe58401d929d93)
 - construindo classe Calculator [`d0172256`](https://github.com/humbanew/wertsfy-next/commit/d0172256a0b90d15ac6836884ff7feebaeff1d65)
 - Construindo classe Calculator [`a26bd5f1`](https://github.com/humbanew/wertsfy-next/commit/a26bd5f13a1fd27f62d1e73cea13faa97b2fd211)
 - Continuando construção [`d097ac5f`](https://github.com/humbanew/wertsfy-next/commit/d097ac5f94638e123b02fb75f1bc8d21a38e5039)

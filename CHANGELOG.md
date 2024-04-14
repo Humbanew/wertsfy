@@ -4,6 +4,7 @@
 
 ### Other
 
+- construindo classe Calculator [`d0172256`](https://github.com/humbanew/wertsfy-next/commit/d0172256a0b90d15ac6836884ff7feebaeff1d65)
 - Construindo classe Calculator [`a26bd5f1`](https://github.com/humbanew/wertsfy-next/commit/a26bd5f13a1fd27f62d1e73cea13faa97b2fd211)
 - Continuando construção [`d097ac5f`](https://github.com/humbanew/wertsfy-next/commit/d097ac5f94638e123b02fb75f1bc8d21a38e5039)
 - Construindo projeto pós-alpha [`3bd1117e`](https://github.com/humbanew/wertsfy-next/commit/3bd1117edc67e59f1a7aa47f66b9a4678bd78bd2)

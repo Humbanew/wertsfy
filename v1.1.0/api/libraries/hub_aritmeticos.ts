@@ -195,3 +195,5 @@ export class Aritmeticos {
     NFAritmeticos.raizBicubica.assinatura;
 
 }
+
+export class Aritmeticos2020 { }

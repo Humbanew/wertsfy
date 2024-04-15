@@ -26,7 +26,7 @@ let separaTokens = (input: string, regex: RegExp) => {
 }
 separaTokens(input, expressao);
 
-// funções ainda não implementadas na classe Calculator
+// funções ainda não implementadas na classe Calculator #f00
 let parseArvoreTokens = (token: Array<string>): Object => { 
   const listaProcedencia = [
     ['+', '-'], // nivel de procedência '0'

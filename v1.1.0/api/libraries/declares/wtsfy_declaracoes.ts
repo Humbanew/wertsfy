@@ -8,10 +8,22 @@
 import { Absoluto } from '../components/aritmeticos/comuns/absoluto';
 import { Divisao } from '../components/aritmeticos/comuns/divisao';
 import { Multiplicacao } from '../components/aritmeticos/comuns/multiplicacao';
+import { Porcentagem } from '../components/aritmeticos/comuns/porcentagem';
+import { PorcentagemPor1000 } from '../components/aritmeticos/comuns/porcentagem_por_1000';
+import { PorcentagemPor10000 } from '../components/aritmeticos/comuns/porcentagem_por_10000';
+import { PorcentagemPor100000 } from '../components/aritmeticos/comuns/porcentagem_por_100000';
+import { Potencia } from '../components/aritmeticos/comuns/potencia';
+import { PotenciaDePotencia } from '../components/aritmeticos/comuns/potencia_de_potencia';
+import { PotenciaDePotenciaMais1 } from '../components/aritmeticos/comuns/potencia_de_potencia_mais_1';
+import { PotenciaDePotenciaMenos1 } from '../components/aritmeticos/comuns/potencia_de_potencia_menos_1';
+import { PotenciaMais1 } from '../components/aritmeticos/comuns/potencia_mais_1';
+import { PotenciaMenos1 } from '../components/aritmeticos/comuns/potencia_menos_1';
+import { RaizBicubica } from '../components/aritmeticos/comuns/raiz_bicubica';
+import { RaizBiquadrada } from '../components/aritmeticos/comuns/raiz_biquadrada';
+import { RaizCubica } from '../components/aritmeticos/comuns/raiz_cubica';
+import { RaizQuadrada } from '../components/aritmeticos/comuns/raiz_quadrada';
 import { Soma } from '../components/aritmeticos/comuns/soma';
 import { Subtracao } from '../components/aritmeticos/comuns/subtracao';
-
-type TAbsoluto = typeof Absoluto;
 
 export namespace NFAritmeticos {
 
@@ -344,6 +356,104 @@ export namespace NFAritmeticos {
     tipo: 'método',
     ativo: false,
     assinatura: Divisao
+  }
+
+  export const potencia = {
+    nome: 'Potência',
+    tipo: 'método',
+    ativo: false,
+    assinatura: Potencia
+  }
+
+  export const potenciaMais1 = {
+    nome: 'Potência mais 1',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PotenciaMais1
+  }
+
+  export const potenciaMenos1 = {
+    nome: 'Potência menos 1',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PotenciaMenos1
+  }
+
+  export const potenciaDePotencia = {
+    nome: 'Potência de Potência',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PotenciaDePotencia
+  }
+
+  export const potenciaDePotenciaMais1 = {
+    nome: 'Potência de Potência mais 1',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PotenciaDePotenciaMais1
+  }
+
+  export const potenciaDePotenciaMenos1 = {
+    nome: 'Potência de Potência menos 1',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PotenciaDePotenciaMenos1
+  }
+
+  export const porcentagem = {
+    nome: 'Porcentagem',
+    tipo: 'método',
+    ativo: false,
+    assinatura: Porcentagem
+  }
+
+  export const porcentagemPor1000 = {
+    nome: 'Porcentagem por 1000',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PorcentagemPor1000
+  }
+
+  export const porcentagemPor10000 = {
+    nome: 'Porcentagem por 10000',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PorcentagemPor10000
+  }
+
+  export const porcentagemPor100000 = {
+    nome: 'Porcentagem por 100000',
+    tipo: 'método',
+    ativo: false,
+    assinatura: PorcentagemPor100000
+  }
+
+  export const raizQuadrada = {
+    nome: 'Raiz Quadrada',
+    tipo: 'método',
+    ativo: false,
+    assinatura: RaizQuadrada
+  }
+
+  export const raizBiquadrada = {
+    nome: 'Raiz Biquadrada',
+    tipo: 'método',
+    ativo: false,
+    assinatura: RaizBiquadrada
+  }
+
+  export const raizCubica = {
+    nome: 'Raiz Cúbica',
+    tipo: 'método',
+    ativo: false,
+    assinatura: RaizCubica
+  }
+
+  export const raizBicubica = {
+    nome: 'Raiz Bicúbica',
+    tipo: 'método',
+    ativo: false,
+    assinatura: RaizBicubica
   }
 
 }

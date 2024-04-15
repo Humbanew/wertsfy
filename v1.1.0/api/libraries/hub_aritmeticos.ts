@@ -136,7 +136,7 @@ export class Aritmeticos {
   public ZERO= 
     NFAritmeticos.Zero.assinatura;
 
-  // Funções [5]
+  // Funções [19]
   public absoluto=
     NFAritmeticos.absoluto.assinatura;
 
@@ -151,5 +151,47 @@ export class Aritmeticos {
 
   public divisao=
     NFAritmeticos.divisao.assinatura;
+
+  public potencia= // \^
+    NFAritmeticos.potencia.assinatura;
+  
+  public potenciaMais1= // \^M1
+    NFAritmeticos.potenciaMais1.assinatura;
+
+  public potenciaMenos1= // \^m1
+    NFAritmeticos.potenciaMenos1.assinatura;
+
+  public potenciaDePotencia= // \^\^
+    NFAritmeticos.potenciaDePotencia.assinatura;
+
+  public potenciaDePotenciaMais1= // \^\^M1
+    NFAritmeticos.potenciaDePotenciaMais1.assinatura;
+
+  public potenciaDePotenciaMenos1= // \^\^m1
+    NFAritmeticos.potenciaDePotenciaMenos1.assinatura;
+
+  public porcentagem= // #perc
+    NFAritmeticos.porcentagem.assinatura;
+
+  public porcentagemPor1000= // #percm
+    NFAritmeticos.porcentagemPor1000.assinatura;
+
+  public porcentagemPor10000= // #percdm
+    NFAritmeticos.porcentagemPor10000.assinatura;
+
+  public porcentagemPor100000= // #percmi
+    NFAritmeticos.porcentagemPor100000.assinatura;
+
+  public raizQuadrada= // #sqrt
+    NFAritmeticos.raizQuadrada.assinatura;
+
+  public raizBiquadrada= // #sqrt2
+    NFAritmeticos.raizBiquadrada.assinatura;
+
+  public raizCubica= // #cbrt
+    NFAritmeticos.raizCubica.assinatura;
+
+  public raizBicubica= // #cbrt2
+    NFAritmeticos.raizBicubica.assinatura;
 
 }

@@ -4,6 +4,7 @@
 
 ### Other
 
+- construindo versão 1.1.0 [`4d635ab4`](https://github.com/humbanew/wertsfy-next/commit/4d635ab489fccc83c2d82ca44292d5bbfe770953)
 - construindo versão 1.1.0 [`52956ffa`](https://github.com/humbanew/wertsfy-next/commit/52956ffad27095868ae275a638ec70b70e0116b5)
 - construindo versão 1.1.0 [`1c524834`](https://github.com/humbanew/wertsfy-next/commit/1c524834882811b36c145c569a3df192cfff63c3)
 - construindo versão 1.1.0 [`82f0f7a1`](https://github.com/humbanew/wertsfy-next/commit/82f0f7a1f756b5a46436692f708372277aab39cb)

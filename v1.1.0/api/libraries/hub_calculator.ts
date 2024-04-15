@@ -1,3 +1,10 @@
+/**
+ * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
+ *  
+ * { Notas de Desenvolvimento }
+ * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
+ */
+
 type TTamMemoria = 3|4|5|6;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
@@ -7,7 +14,7 @@ export class Calculator {
   protected tipagem: TTipagem;
   protected memoria: Array<number>;
   protected analisadores = [
-    /([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%])?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?/gmi,
+    /([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi,
     /(\#[a-z]+)/gmi
   ];
   protected modulosAtivos: Array<Object>;
@@ -16,20 +23,6 @@ export class Calculator {
     this.entrada = entrada;
     this.tipagem = tipagem;
     this.memoria = new Array(tam_memoria);
-  }
-
-  protected parseArvoreTokens(tokens: Array<String>): void {
-    const filtro = this.separaTokens(this.entrada, this.analisadores);
-    const listaProcedencia = [
-      ['{', '}'], // maior nível de procedência '6'
-      ['[', ']'], // nivel de procedência '5'
-      ['(', ')'], // nivel de procedência '4'
-      ['#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'], // nivel de procedência '3'
-      ['^', '$'], // nivel de procedência '2'
-      ['*', '/'], // nivel de procedência '1'
-      ['+', '-'], // nivel de procedência '0'
-    ];
-    const arvore: Array<Object> = [{}];
   }
 
   protected separaTokens = (input: string, regex: Array<RegExp>): Array<String> => {
@@ -47,11 +40,13 @@ export class Calculator {
     return tokens;
   }
 
-  public parseFuncionalidades(active: TTipagem): void {
+  protected parseFuncionalidades(active: TTipagem): void {
 
     if (active === 'standard') { }
     if (active === 'scientific') { }
 
   }
+
+  public calculaIndividualmente(): void {}
 
 }

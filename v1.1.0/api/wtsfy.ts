@@ -1,7 +1,14 @@
-import { Aritmeticos } from "./libraries/Aritmeticos";
-import { Calculator } from "./libraries/Calculator";
-import { Cli } from "./libraries/Cli";
-import { Conversor } from "./libraries/Conversor";
+/**
+ * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
+ *  
+ * { Notas de Desenvolvimento }
+ * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
+ */
+
+import { Aritmeticos } from "./libraries/hub_aritmeticos";
+import { Calculator } from "./libraries/hub_calculator";
+import { Cli } from "./libraries/hub_cli";
+import { Conversor } from "./libraries/hub_conversor";
 
 export const wtsfy = {
   "@humbanew": {

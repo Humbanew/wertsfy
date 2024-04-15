@@ -10,11 +10,11 @@
     "alwaysStrict": false,
     "isolatedModules": false,
     "rootDirs": ["./"],
-    
     "declaration": true,
     "declarationMap": false,
     "sourceMap": false,
     "extendedDiagnostics": true,
+    "inlineSourceMap": true,
 
     // Diretório de export
     "outDir": "./dist/",

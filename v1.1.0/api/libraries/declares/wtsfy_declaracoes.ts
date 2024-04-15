@@ -22,6 +22,7 @@ import { RaizBicubica } from '../components/aritmeticos/comuns/raiz_bicubica';
 import { RaizBiquadrada } from '../components/aritmeticos/comuns/raiz_biquadrada';
 import { RaizCubica } from '../components/aritmeticos/comuns/raiz_cubica';
 import { RaizQuadrada } from '../components/aritmeticos/comuns/raiz_quadrada';
+import { Resto } from '../components/aritmeticos/comuns/resto';
 import { Soma } from '../components/aritmeticos/comuns/soma';
 import { Subtracao } from '../components/aritmeticos/comuns/subtracao';
 
@@ -454,6 +455,13 @@ export namespace NFAritmeticos {
     tipo: 'método',
     ativo: false,
     assinatura: RaizBicubica
+  }
+
+  export const resto = {
+    nome: 'Resto',
+    tipo: 'método',
+    ativo: false,
+    assinatura: Resto
   }
 
 }

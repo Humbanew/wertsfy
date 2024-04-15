@@ -136,7 +136,7 @@ export class Aritmeticos {
   public ZERO= 
     NFAritmeticos.Zero.assinatura;
 
-  // Funções [19]
+  // Funções [20]
   public absoluto=
     NFAritmeticos.absoluto.assinatura;
 
@@ -193,6 +193,9 @@ export class Aritmeticos {
 
   public raizBicubica= // #cbrt2
     NFAritmeticos.raizBicubica.assinatura;
+
+  public resto=
+    NFAritmeticos.resto.assinatura;
 
 }
 

@@ -27,6 +27,9 @@ let separaTokens = (input: string, regex: RegExp) => {
 separaTokens(input, expressao);
 
 // funções ainda não implementadas na classe Calculator #f00
+type TTamMemoria = 3|4|5|6;
+type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
+
 let parseArvoreTokens = (token: Array<string>): Object => { 
   const listaProcedencia = [
     ['+', '-'], // nivel de procedência '0'
@@ -45,3 +48,12 @@ let parseArvoreTokens = (token: Array<string>): Object => {
 let realizaOperacoes = (arvoreToken: Object): number => { 
   return 0; 
 }
+
+function parseFuncionalidades(active: TTipagem): void {
+
+  if (active === 'standard') { }
+  if (active === 'scientific') { }
+
+}
+
+function calculaIndividualmente(): void {}

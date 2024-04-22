@@ -40,20 +40,8 @@ let parseArvoreTokens = (token: Array<string>): Object => {
     ['[', ']'], // nivel de procedência '5'
     ['{', '}'], // maior nível de procedência '6'
   ];
-  const arvore: Array<Object> = [{}];
+  const arvore: Object = {};
 
-  return {}; 
+  return arvore; 
 }
 
-let realizaOperacoes = (arvoreToken: Object): number => { 
-  return 0; 
-}
-
-function parseFuncionalidades(active: TTipagem): void {
-
-  if (active === 'standard') { }
-  if (active === 'scientific') { }
-
-}
-
-function calculaIndividualmente(): void {}

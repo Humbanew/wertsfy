@@ -1,10 +1,8 @@
 // testando expressoes regulares e criando modelo de input para calculadora
 let expressao = /([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
 let unificador = /(\#[a-z]+)/gmi;
-
 let input = '(2+2)-5*8/6+#sqrt5+3';
 let result = input.match(expressao);
-
 let valorResultado = undefined;
 
 let separaTokens = (input: string, regex: RegExp) => {
@@ -44,4 +42,10 @@ let criaArvoreTokens = (token: Array<string>): Object => {
 
   return arvore; 
 }
+
+abstract class BlankCalculator { }
+
+class Calculator { }
+
+class Toker { }
 

@@ -7,10 +7,10 @@
         "ms-vscode.vscode-typescript-next",
         "github.copilot",
         "github.copilot-chat",
-        "miguelsolorio.symbols",
         "uloco.theme-bluloco-light",
         "uloco.theme-bluloco-dark",
         "be5invis.vscode-icontheme-nomo-dark",
-        "jamesmaj.easy-icons"
+        "jamesmaj.easy-icons",
+        "yummygum.city-lights-icon-vsc"
     ]
 }

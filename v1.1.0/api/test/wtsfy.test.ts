@@ -30,7 +30,7 @@ separaTokens(input, expressao);
 type TTamMemoria = 3|4|5|6;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
-let parseArvoreTokens = (token: Array<string>): Object => { 
+let criaArvoreTokens = (token: Array<string>): Object => { 
   const listaProcedencia = [
     ['+', '-'], // nivel de procedência '0'
     ['*', '/'], // nivel de procedência '1'

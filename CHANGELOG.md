@@ -4,6 +4,7 @@
 
 ### Other
 
+- Arrumando pastas [`06e7a0fe`](https://github.com/humbanew/wertsfy-next/commit/06e7a0fe7c931c4ba354f33e79b6bc600af13e4b)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`e1758f4a`](https://github.com/humbanew/wertsfy-next/commit/e1758f4a6688a1c45e0bd4943482cb64f26d3cd9)
 - Construindo versão 1.1.0 [`b751e206`](https://github.com/humbanew/wertsfy-next/commit/b751e2069d9f946ff2baf77e19aa6d8cd6c21dd4)
 - Construindo versão 1.1.0 [`54618863`](https://github.com/humbanew/wertsfy-next/commit/54618863e95bd7678b39223f365aaaf3d8eca01d)

@@ -14,10 +14,10 @@ export class Calculator {
   protected tipagem: TTipagem;
   protected memoria: Array<number>;
   protected analisadores = [
-    /([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi,
+    /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi,
     /(\#[a-z]+)/gmi
   ];
-  protected modulosAtivos: Array<Object>;
+  protected modulosAtivos: {};
 
   constructor(entrada: string, tipagem: TTipagem, tam_memoria: TTamMemoria) {
     this.entrada = entrada;

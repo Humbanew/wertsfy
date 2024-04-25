@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleDetection": "auto",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "strict": false,
+        "alwaysStrict": false,
+        "isolatedModules": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    }
+}

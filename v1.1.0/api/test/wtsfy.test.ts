@@ -1,12 +1,21 @@
+let conv_units = require('./wtsfy.conv_units.json');
+  conv_units
+
 // modelo novo ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
+interface IArvore {
+  token: string|null;
+  procedencia: number|null;
+  filho: Array<IArvore>|null;
+}
+
 abstract class BlankCalculator {
 
-  protected expressaoBusca = /([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
+  protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
   protected unificador = /(\#[a-z]+)/gmi;
-  protected input: string = null;
+  protected input: string = "";
   protected resultadoBusca: Array<string> = this.input.match(this.expressaoBusca);
   protected valorResultado: number = undefined;
   
@@ -15,7 +24,7 @@ abstract class BlankCalculator {
   }
 
   private toker = class Toker { 
-    public separaTokens = (input: string, regex: RegExp) => {
+    public separaTokens = (input: string, regex: RegExp): Array<string> => {
       let result = input.match(regex);
       let result2 = input.match(BlankCalculator.prototype.unificador);
       let tokens = [];
@@ -31,33 +40,69 @@ abstract class BlankCalculator {
         }
       });
       console.log(tokens);
+      return tokens;
     }
   
-    public criaArvoreTokens = (token: Array<string>): Object => { 
+    public criaArvoreTokens = (token: Array<string>): any => { 
       const listaProcedencia = [
-        ['+', '-'], // nivel de procedência '0'
-        ['*', '/'], // nivel de procedência '1'
-        ['^', '$'], // nivel de procedência '2'
-        ['#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'], // nivel de procedência '3'
-        ['(', ')'], // nivel de procedência '4'
-        ['[', ']'], // nivel de procedência '5'
-        ['{', '}'], // maior nível de procedência '6'
+        ['+', '-'], // nivel de procedência '1'
+        ['*', '/'], // nivel de procedência '2'
+        ['^', '$'], // nivel de procedência '3'
+        ['#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'], // nivel de procedência '4'
+        ['(', ')', '[', ']', '{', '}'], // maior nivel de procedência '5'
       ];
-      const arvore: Object = {};
+      let arvore: IArvore, w: number = 0;
+
+      /**
+       * Casos de Uso de Construção de Tokens
+       * 
+       * 1) {[({[( ... )]})]}
+       * 
+       * 2) number operador number operador number [...]
+       * 
+       * 3) operador_especial number
+       * 
+       * 4) operador_especial operador_especial [...] number
+       * 
+       */
+
+      while(w < token.length) {
+        w++;
+      }
+
+      console.log(arvore);
     
       return arvore; 
     }
+
   }
+
+  private exceptions = class Exceptions { }
 
   protected separaTkn = new this.toker().separaTokens;
   protected criaArvTkn = new this.toker().criaArvoreTokens;
+  protected except = new this.exceptions();
 
 }
 
 class Calculator extends BlankCalculator {
 
+  protected memoria: Array<TTamMemoria>;
+  protected tipoAtual: TTipagem;
+
   public constructor(input: string) {
     super(input);
+    console.log(this.criaArvTkn(this.separaTkn(input, this.expressaoBusca)));
+  }
+
+  public defineEspacosMemoria(espacos: TTamMemoria): void {
+    this.memoria = new Array(espacos);
+  }
+
+  public defineModoAtivo(modo: TTipagem): void {
+    this.tipoAtual = modo;
   }
 
 }
+
+let test = new Calculator("2+2");

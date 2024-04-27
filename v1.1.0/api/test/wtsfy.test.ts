@@ -1,6 +1,3 @@
-let conv_units = require('./wtsfy.conv_units.json');
-  conv_units
-
 // modelo novo ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
@@ -77,11 +74,8 @@ abstract class BlankCalculator {
 
   }
 
-  private exceptions = class Exceptions { }
-
   protected separaTkn = new this.toker().separaTokens;
   protected criaArvTkn = new this.toker().criaArvoreTokens;
-  protected except = new this.exceptions();
 
 }
 

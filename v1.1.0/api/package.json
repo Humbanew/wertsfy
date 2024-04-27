@@ -1,13 +1,13 @@
 {
   "name": "@humbanew/wertsfy-next",
-  "version": "1.1.0",
+  "version": "1.1.0-244",
   "description": "The Arithmetic API & CLI",
   "main": "dist/wtsfy.api.js",
   "scripts": {
     "null": ""
   },
   "author": "humbanew",
-  "repository": "https://github.com/humbanew/wertsfy.git",
+  "repository": "https://github.com/humbanew/wertsfy-next.git",
   "license": "MIT",
   "readme": "../README.md",
   "devDependencies": {

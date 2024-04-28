@@ -1,11 +1,110 @@
 {
   "calculator_colors": { 
     "tokens": {
-      "(": {
+      "'('|')'": {
         "escape_format": {
           "frgd": null,
           "bkgd": null
-        }
+        },
+        "hexadecimal": null
+      },
+      "'['|']'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'{'|'}'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'+'|'-'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'*'|'/'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'^'|'$'|'%'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'^^'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#sen'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#cos'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#tan'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#sec'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#cosec'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#cotan'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#sqrt'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
+      },
+      "'#cbrt'": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        },
+        "hexadecimal": null
       }
     },
     "end_text": {

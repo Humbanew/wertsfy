@@ -33,7 +33,7 @@
 
 ## Documentação
 
-v1.0.0-1.0.7/v1.1.0 (Página ainda em construção)<br> www.wertsfy.humbanew.com.br => www.humbanew.com.br/wertsfy/
+v1.0.0-1.0.7/v1.1.0 (Página ainda em construção)<br> www.humbanew.com.br/wertsfy/
 
 ## Abas de Discussões
 

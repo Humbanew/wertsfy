@@ -1,81 +1,212 @@
+import { inspect } from "util";
+import { calculator_colors } from "./colors_calculator.json";
+
 // modelo novo ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
+type TNumeroCasaDecimais = 2|4|6|8|10;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
 interface IArvore {
   token: string|null;
   procedencia: number|null;
-  filho: Array<IArvore>|null;
+  filho: IArvore|null;
 }
+
+/**
+ * "escape_format": {
+      "frgd": "\\x1b[38;2;0;0;0;1m",
+      "bkgd": "\\x1b[48;2;0;0;0;1m"
+    }
+ */
 
 abstract class BlankCalculator {
 
   protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
-  protected unificador = /(\#[a-z]+)/gmi;
+  protected extratores = [ /(\d+)/gmi, /(\#[a-z]+)/gmi, /([\+\-\/\*\^\$\%]|\^\^|#sqrt|#cbrt|#sin|#cos|#tan|#sec|#cosec|#cotan)/gmi ];
   protected input: string = "";
   protected resultadoBusca: Array<string> = this.input.match(this.expressaoBusca);
   protected valorResultado: number = undefined;
   
+  protected separaTokens = (input: string, regex: RegExp): Array<string> => {
+    let result = input.match(regex)
+      ,tokens = []
+      ,e1 = null
+      ,e2 = null
+      ,e3 = null;
+
+    for(let i = 0; i < result.length; i++) {
+
+      e1 = result[i].match(this.extratores[0]);
+      e2 = result[i].match(this.extratores[1]);
+      e3 = result[i].match(this.extratores[2]);
+
+      if(e1) {
+        tokens.push(e1.toString());
+      }
+
+      if(e2) {
+        tokens.push(e2.toString());
+      }
+
+      if(e3) {
+        tokens.push(e3.toString());
+      }
+      
+    }
+
+    console.log(tokens);
+    return tokens;
+  }
+
+  protected criaArvoreTokens = (token: Array<string>): Object => { 
+    const listaProcedencia = {
+      1: [
+        '+', '-'
+      ],
+      2: [
+        '*', '/'
+      ],
+      3: [
+        '^', '$', '%'
+      ],
+      4: [
+        '#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'
+      ],
+      5: [
+        '(', ')', '[', ']', '{', '}'
+      ]
+    };
+
+    let arvore: IArvore = Object.prototype.constructor();
+    let w = 0;
+
+    while(w < token.length) {
+
+      if(w === 0) {
+        arvore = {
+          token: 'BEGIN',
+          procedencia: null,
+          filho: null
+        }
+      }
+
+      arvore = {
+        token: token[w],
+        procedencia: null,
+        filho: arvore
+      }
+
+      switch(token[w]) {
+
+        case listaProcedencia[5][0]: 
+          arvore.procedencia = 5;
+          break;
+        
+        case listaProcedencia[5][1]:
+          arvore.procedencia = 5;
+          break;
+        
+        case listaProcedencia[5][2]:
+          arvore.procedencia = 5;
+          break;
+        
+        case listaProcedencia[5][3]:
+          arvore.procedencia = 5;
+          break;
+        
+        case listaProcedencia[5][4]:
+          arvore.procedencia = 5;
+          break;
+          
+        case listaProcedencia[5][5]:
+          arvore.procedencia = 5;
+          break;
+
+        case listaProcedencia[4][0]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][1]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][2]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][3]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][4]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][5]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][6]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[4][7]:
+          arvore.procedencia = 4;
+          break;
+
+        case listaProcedencia[3][0]:
+          arvore.procedencia = 3;
+          break;
+
+        case listaProcedencia[3][1]:
+          arvore.procedencia = 3;
+          break;
+
+        case listaProcedencia[3][2]:
+          arvore.procedencia = 3;
+          break;
+
+        case listaProcedencia[2][0]:
+          arvore.procedencia = 2;
+          break;
+
+        case listaProcedencia[2][1]:
+          arvore.procedencia = 2;
+          break;
+
+        case listaProcedencia[1][0]:
+          arvore.procedencia = 1;
+          break;
+
+        case listaProcedencia[1][1]:
+          arvore.procedencia = 1;
+          break;
+
+        default:
+          arvore.procedencia = 0;
+          break;
+
+      }
+
+      w++;
+    }
+
+    console.log(inspect(arvore, false, null, true));
+    console.log(token.length - 1);
+  
+    return arvore; 
+  }
+
+
+
+  private realizaContas(tokens: IArvore) { }
+
+  private preparaTextoDeVisualizacao(): void { }
+
+  
   public constructor(input: string) {
     this.input = input;    
   }
-
-  private toker = class Toker { 
-    public separaTokens = (input: string, regex: RegExp): Array<string> => {
-      let result = input.match(regex);
-      let result2 = input.match(BlankCalculator.prototype.unificador);
-      let tokens = [];
-      console.log(result);
-      console.log("\x1b[34;1m"+result2+"\x1b[0m");
-      result.forEach((element) => {
-        for(let i = 0; i < element.length; i++) {
-          if(element.slice(i, i+1) === "#") {
-            tokens.push(element.match(BlankCalculator.prototype.unificador).toString());
-            return;
-          }
-          tokens.push(element.slice(i, i+1));
-        }
-      });
-      console.log(tokens);
-      return tokens;
-    }
-  
-    public criaArvoreTokens = (token: Array<string>): any => { 
-      const listaProcedencia = [
-        ['+', '-'], // nivel de procedência '1'
-        ['*', '/'], // nivel de procedência '2'
-        ['^', '$'], // nivel de procedência '3'
-        ['#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'], // nivel de procedência '4'
-        ['(', ')', '[', ']', '{', '}'], // maior nivel de procedência '5'
-      ];
-      let arvore: IArvore, w: number = 0;
-
-      /**
-       * Casos de Uso de Construção de Tokens
-       * 
-       * 1) {[({[( ... )]})]}
-       * 
-       * 2) number operador number operador number [...]
-       * 
-       * 3) operador_especial number
-       * 
-       * 4) operador_especial operador_especial [...] number
-       * 
-       */
-
-      while(w < token.length) {
-        w++;
-      }
-
-      console.log(arvore);
-    
-      return arvore; 
-    }
-
-  }
-
-  protected separaTkn = new this.toker().separaTokens;
-  protected criaArvTkn = new this.toker().criaArvoreTokens;
 
 }
 
@@ -83,10 +214,11 @@ class Calculator extends BlankCalculator {
 
   protected memoria: Array<TTamMemoria>;
   protected tipoAtual: TTipagem;
+  protected numeroCasasDecimais: TNumeroCasaDecimais;
 
   public constructor(input: string) {
     super(input);
-    console.log(this.criaArvTkn(this.separaTkn(input, this.expressaoBusca)));
+    this.criaArvoreTokens(this.separaTokens(this.input, this.expressaoBusca));
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -97,6 +229,10 @@ class Calculator extends BlankCalculator {
     this.tipoAtual = modo;
   }
 
+  public defineCasasDecimais(casas: TNumeroCasaDecimais): void {
+    this.numeroCasasDecimais = casas;
+  }
+
 }
 
-let test = new Calculator("2+2");
+let test = new Calculator("9000+777+45-55+77");

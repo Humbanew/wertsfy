@@ -2,5 +2,6 @@
   "files.exclude": {
     "**/.git": false
   },
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "cmake.configureOnOpen": true
 }

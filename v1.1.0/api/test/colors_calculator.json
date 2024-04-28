@@ -1,0 +1,15 @@
+{
+  "calculator_colors": { 
+    "tokens": {
+      "(": {
+        "escape_format": {
+          "frgd": null,
+          "bkgd": null
+        }
+      }
+    },
+    "end_text": {
+      "escape_format": "\\x1b[0m"
+    }
+  }
+}

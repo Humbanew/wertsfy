@@ -3,108 +3,108 @@
     "tokens": {
       "'('|')'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;0;133;135m",
+          "bkgd": "\\x1b[48;5;0;133;135m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#008587"
       },
       "'['|']'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;229;106;84m",
+          "bkgd": "\\x1b[48;5;229;106;84m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#e56a54"
       },
       "'{'|'}'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;132;189;0m",
+          "bkgd": "\\x1b[48;5;132;189;0m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#84bd00"
       },
       "'+'|'-'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;225;205;0m",
+          "bkgd": "\\x1b[48;5;225;205;0m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#e1cd00"
       },
       "'*'|'/'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;149;105;190m",
+          "bkgd": "\\x1b[48;5;149;105;190m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#9569be"
       },
       "'^'|'$'|'%'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;0;178;162m",
+          "bkgd": "\\x1b[48;5;0;178;162m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#00b2a2"
       },
       "'^^'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;244;175;35m",
+          "bkgd": "\\x1b[48;5;244;175;35m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#f4af23"
       },
       "'#sen'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;0;151;57m",
+          "bkgd": "\\x1b[48;5;0;151;57m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#009739"
       },
       "'#cos'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;224;60;49m",
+          "bkgd": "\\x1b[48;5;224;60;49m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#e03c31"
       },
       "'#tan'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;249;159;201m",
+          "bkgd": "\\x1b[48;5;249;159;201m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#f99fc9"
       },
       "'#sec'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;232;119;34m",
+          "bkgd": "\\x1b[48;5;232;119;34m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#e87722"
       },
       "'#cosec'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;150;56;33m",
+          "bkgd": "\\x1b[48;5;150;56;33m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#963821"
       },
       "'#cotan'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;195;220;147m",
+          "bkgd": "\\x1b[48;5;195;220;147m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#c3dc93"
       },
       "'#sqrt'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;155;51;89m",
+          "bkgd": "\\x1b[48;5;155;51;89m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#9b3359"
       },
       "'#cbrt'": {
         "escape_format": {
-          "frgd": null,
-          "bkgd": null
+          "frgd": "\\x1b[38;5;138;43;43m",
+          "bkgd": "\\x1b[48;5;138;43;43m"
         },
-        "hexadecimal": null
+        "hexadecimal": "#8a2b2b"
       }
     },
     "end_text": {

@@ -1,28 +1,69 @@
 import { inspect } from "util";
 import { calculator_colors } from "./colors_calculator.json";
 
-// modelo novo ainda não implementado na Calculator
+// modulos
+import { Aritmeticos } from "../libraries/hub_aritmeticos";
+import { RaizQuarta } from "../libraries/components/aritmeticos/cientificos/raiz_quarta";
+import { RaizQuinta } from "../libraries/components/aritmeticos/cientificos/raiz_quinta";
+import { RaizSexta } from "../libraries/components/aritmeticos/cientificos/raiz_sexta";
+import { RaizSetima } from "../libraries/components/aritmeticos/cientificos/raiz_setima";
+import { RaizOitava } from "../libraries/components/aritmeticos/cientificos/raiz_oitava";
+import { RaizNona } from "../libraries/components/aritmeticos/cientificos/raiz_nona";
+import { RaizDecima } from "../libraries/components/aritmeticos/cientificos/raiz_decima";
+
+  // Calculator Module
+// modelo revolucionário ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TNumeroCasaDecimais = 2|4|6|8|10;
 type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
-interface IArvore {
+interface IPilha {
   token: string|null;
   procedencia: number|null;
-  filho: IArvore|null;
+  filho: IPilha|null;
 }
 
-/**
- * "escape_format": {
-      "frgd": "\\x1b[38;2;0;0;0;1m",
-      "bkgd": "\\x1b[48;2;0;0;0;1m"
-    }
- */
+interface IModulos { 
+  "@soma": typeof Aritmeticos.prototype.soma;
+  "@subtracao": typeof Aritmeticos.prototype.subtracao;
+  "@multiplicacao": typeof Aritmeticos.prototype.multiplicacao;
+  "@divisao": typeof Aritmeticos.prototype.divisao;
+  "@resto": typeof Aritmeticos.prototype.resto;
+  "@potencia": typeof Aritmeticos.prototype.potencia;
+  "@potencia_mais_1": typeof Aritmeticos.prototype.potenciaMais1;
+  "@potencia_menos_1": typeof Aritmeticos.prototype.potenciaMenos1;
+  "@potencia_de_potencia": typeof Aritmeticos.prototype.potenciaDePotencia;
+  "@potencia_de_potencia_mais_1": typeof Aritmeticos.prototype.potenciaDePotenciaMais1;
+  "@potencia_de_potencia_menos_1": typeof Aritmeticos.prototype.potenciaDePotenciaMenos1;
+  "@raiz_quadrada": typeof Aritmeticos.prototype.raizQuadrada;
+  "@raiz_cubica": typeof Aritmeticos.prototype.raizCubica;
+  "@raiz_biquadrada": typeof Aritmeticos.prototype.raizBiquadrada;
+  "@raiz_bicubica": typeof Aritmeticos.prototype.raizBicubica;
+  "@absoluto": typeof Aritmeticos.prototype.absoluto;
+  "@porcentagem": typeof Aritmeticos.prototype.porcentagem;
+  "@porcentagem_por_1000": typeof Aritmeticos.prototype.porcentagemPor1000;
+  "@porcentagem_por_10000": typeof Aritmeticos.prototype.porcentagemPor10000;
+  "@porcentagem_por_100000": typeof Aritmeticos.prototype.porcentagemPor100000;
 
-abstract class BlankCalculator {
+  "@raiz_quarta": typeof RaizQuarta;
+  "@raiz_quinta": typeof RaizQuinta;
+  "@raiz_sexta": typeof RaizSexta;
+  "@raiz_setima": typeof RaizSetima;
+  "@raiz_oitava": typeof RaizOitava;
+  "@raiz_nona": typeof RaizNona;
+  "@raiz_decima": typeof RaizDecima;
+}
+
+type TModulos = keyof IModulos;
+
+abstract class BlankCalculator extends Aritmeticos {
 
   protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
-  protected extratores = [ /(\d+)/gmi, /(\#[a-z]+)/gmi, /([\+\-\/\*\^\$\%]|\^\^|#sqrt|#cbrt|#sin|#cos|#tan|#sec|#cosec|#cotan)/gmi ];
+  protected extratores = [ 
+    /(\d+)/gmi, 
+    /(\#[a-z]+)/gmi, 
+    /([\+\-\/\*\^\$\%]|\^\^|#sqrt|#cbrt|#sin|#cos|#tan|#sec|#cosec|#cotan)/gmi 
+  ];
   protected input: string = "";
   protected resultadoBusca: Array<string> = this.input.match(this.expressaoBusca);
   protected valorResultado: number = undefined;
@@ -58,7 +99,7 @@ abstract class BlankCalculator {
     return tokens;
   }
 
-  protected criaArvoreTokens = (token: Array<string>): Object => { 
+  protected criaArvoreTokens = (token: Array<string>): IPilha => { 
     const listaProcedencia = {
       1: [
         '+', '-'
@@ -77,7 +118,7 @@ abstract class BlankCalculator {
       ]
     };
 
-    let arvore: IArvore = Object.prototype.constructor();
+    let arvore: IPilha = Object.prototype.constructor();
     let w = 0;
 
     while(w < token.length) {
@@ -197,14 +238,103 @@ abstract class BlankCalculator {
     return arvore; 
   }
 
+  // ainda parcialmente implementado
+  protected realizaContas(tokens: IPilha, ordenacao: 'rtl'|'ltr'): number { 
+    this.valorResultado = 0;
+    
+    if(ordenacao === 'ltr') { 
+      this.valorResultado = parseFloat(tokens.token);
+      
+    }
 
+    while(tokens.filho !== null) {
+      tokens = tokens.filho;
+    }
+    
+    return this.valorResultado; 
+  }
 
-  private realizaContas(tokens: IArvore) { }
-
-  private preparaTextoDeVisualizacao(): void { }
-
+  // ainda não implementado
+  protected preparaTextoDeVisualizacao(): void {
+    this.input;
+    calculator_colors;
+  }
   
-  public constructor(input: string) {
+  protected calculaIndividualmente(
+    modulo: TModulos, 
+    execAttrs: {x: number, y?: number},
+    execAttrsPotofPot?: {x: number, y: number[]}
+  ): number {
+    let exec: IModulos, result: number = 0;
+
+    switch(modulo) {
+      case "@soma":
+        result = exec["@soma"](execAttrs.x, execAttrs.y);
+        break;
+      case "@subtracao":
+        result = exec["@subtracao"](execAttrs.x, execAttrs.y);
+        break;
+      case "@multiplicacao":
+        result = exec["@multiplicacao"](execAttrs.x, execAttrs.y);
+        break;
+      case "@divisao":
+        result = exec["@divisao"](execAttrs.x, execAttrs.y);
+        break;
+      case "@resto":
+        result = exec["@resto"](execAttrs.x, execAttrs.y);
+        break;
+      case "@potencia":
+        result = exec["@potencia"](execAttrs.x, execAttrs.y);
+        break;
+      case "@potencia_mais_1":
+        result = exec["@potencia_mais_1"](execAttrs.x, execAttrs.y);
+        break;
+      case "@potencia_menos_1":
+        result = exec["@potencia_menos_1"](execAttrs.x, execAttrs.y);
+        break;
+      case "@potencia_de_potencia":
+        result = exec["@potencia_de_potencia"](execAttrsPotofPot.x, execAttrsPotofPot.y);
+        break;
+      case "@potencia_de_potencia_mais_1":
+        result = exec["@potencia_de_potencia_mais_1"](execAttrsPotofPot.x, execAttrsPotofPot.y);
+        break;
+      case "@potencia_de_potencia_menos_1":
+        result = exec["@potencia_de_potencia_menos_1"](execAttrsPotofPot.x, execAttrsPotofPot.y);
+        break;
+      case "@raiz_quadrada":
+        result = exec["@raiz_quadrada"](execAttrs.x);
+        break;
+      case "@raiz_cubica":
+        result = exec["@raiz_cubica"](execAttrs.x);
+        break;
+      case "@raiz_biquadrada":
+        result = exec["@raiz_biquadrada"](execAttrs.x);
+        break;
+      case "@raiz_bicubica":
+        result = exec["@raiz_bicubica"](execAttrs.x);
+        break;
+      case "@absoluto":
+        result = exec["@absoluto"](execAttrs.x);
+        break;
+      case "@porcentagem":
+        result = exec["@porcentagem"](execAttrs.x);
+        break;
+      case "@porcentagem_por_1000":
+        result = exec["@porcentagem_por_1000"](execAttrs.x);
+        break;
+      case "@porcentagem_por_10000":
+        result = exec["@porcentagem_por_10000"](execAttrs.x);
+        break;
+      case "@porcentagem_por_100000":
+        result = exec["@porcentagem_por_100000"](execAttrs.x);
+        break;
+    }
+
+    return result;
+  }
+
+  protected constructor(input: string) {
+    super();
     this.input = input;    
   }
 
@@ -218,7 +348,8 @@ class Calculator extends BlankCalculator {
 
   public constructor(input: string) {
     super(input);
-    this.criaArvoreTokens(this.separaTokens(this.input, this.expressaoBusca));
+    let tkns = this.criaArvoreTokens(this.separaTokens(this.input, this.expressaoBusca));
+    this.realizaContas(tkns, 'rtl');
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -235,4 +366,4 @@ class Calculator extends BlankCalculator {
 
 }
 
-let test = new Calculator("9000+777+45-55+77");
+let test = new Calculator("500+777*2+8-3");

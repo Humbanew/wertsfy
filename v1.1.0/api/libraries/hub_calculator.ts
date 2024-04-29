@@ -6,3 +6,4 @@
  */
 
 // Implementação do novo modelo em breve. 
+export class Calculator {}

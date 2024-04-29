@@ -18,7 +18,7 @@ export const wtsfy = {
     "@conversor": Conversor,
     "@cli": Cli
   },
-  "@v6x": {
+  "@wfx6": {
     "@third-party": null
-  }, 
+  }
 };

@@ -14,8 +14,8 @@
 
   ## system-components
   
-  ![wtsfy-v6x-component](https://github.com/humbanew/wertsfy-next/assets/59739253/599f9d45-5872-402c-a10c-46733dbfb6e0)
-  
+  ![WFX6-IS-Symbol](https://github.com/humbanew/wertsfy-next/assets/59739253/ef9d37c0-fb14-4e1f-93d1-48301268873f)
+
 <div>
 
 ---

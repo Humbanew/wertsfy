@@ -59,43 +59,22 @@ type TModulos = keyof IModulos;
 abstract class BlankCalculator extends Aritmeticos {
 
   protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
-  protected extratores = [ 
-    /(\d+)/gmi, 
-    /(\#[a-z]+)/gmi, 
-    /([\+\-\/\*\^\$\%]|\^\^|#sqrt|#cbrt|#sin|#cos|#tan|#sec|#cosec|#cotan)/gmi 
-  ];
   protected input: string = "";
   protected resultadoBusca: Array<string> = this.input.match(this.expressaoBusca);
   protected valorResultado: number = undefined;
   
+  // reparar esta funcionalidade
   protected separaTokens = (input: string, regex: RegExp): Array<string> => {
+    
     let result = input.match(regex)
-      ,tokens = []
-      ,e1 = null
-      ,e2 = null
-      ,e3 = null;
+      ,tokens = [];
 
     for(let i = 0; i < result.length; i++) {
 
-      e1 = result[i].match(this.extratores[0]);
-      e2 = result[i].match(this.extratores[1]);
-      e3 = result[i].match(this.extratores[2]);
 
-      if(e1) {
-        tokens.push(e1.toString());
-      }
 
-      if(e2) {
-        tokens.push(e2.toString());
-      }
-
-      if(e3) {
-        tokens.push(e3.toString());
-      }
-      
     }
 
-    console.log(tokens);
     return tokens;
   }
 
@@ -241,6 +220,8 @@ abstract class BlankCalculator extends Aritmeticos {
   // ainda parcialmente implementado
   protected realizaContas(tokens: IPilha, ordenacao: 'rtl'|'ltr'): number { 
     this.valorResultado = 0;
+
+    let matrizOperacional: number[][]|string[][];
     
     if(ordenacao === 'ltr') { 
       this.valorResultado = parseFloat(tokens.token);
@@ -258,6 +239,19 @@ abstract class BlankCalculator extends Aritmeticos {
   protected preparaTextoDeVisualizacao(): void {
     let elementos = this.separaTokens(this.input, this.expressaoBusca);
     let expressao: string = "";
+
+    for(let i = 0; i < elementos.length; i++) {
+
+      switch(elementos[i]) {
+
+        case '(':
+          console.log("Entrou no Parenteses");
+          break;
+
+      }
+
+    }
+
     calculator_colors;
   }
   
@@ -351,6 +345,7 @@ class Calculator extends BlankCalculator {
     super(input);
     let tkns = this.criaArvoreTokens(this.separaTokens(this.input, this.expressaoBusca));
     this.realizaContas(tkns, 'rtl');
+    this.preparaTextoDeVisualizacao();
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -367,4 +362,4 @@ class Calculator extends BlankCalculator {
 
 }
 
-let test = new Calculator("500+777*2+8-3");
+let test = new Calculator("(2+2)");

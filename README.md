@@ -28,15 +28,15 @@
 
 ## Funcionalidades
 
-⚠️ Command Line Interface _v1.1.0_ <br>
+❎ Command Line Interface <br>
 ✅ Biblioteca Aritmeticos <br>
-⚠️ Biblioteca Aritmeticos 2020 _v1.1.0_ <br>
-❎ Integração direta do Typescript no navegador _v2.0.0_ <br>
-❎ Implementação de soluções API Rest _v2.0.0_ <br>
+❎ Biblioteca Aritmeticos 2020 <br>
+❎ Integração direta do Typescript no navegador <br>
+❎ Implementação de soluções API Rest <br>
 
 ## Instalação
 
-  Informações ainda indisponíveis.
+  Informações disponíveis na Wiki.
 
 ## Documentação
 

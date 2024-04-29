@@ -257,6 +257,7 @@ abstract class BlankCalculator extends Aritmeticos {
   // ainda não implementado
   protected preparaTextoDeVisualizacao(): void {
     let elementos = this.separaTokens(this.input, this.expressaoBusca);
+    let expressao: string = "";
     calculator_colors;
   }
   

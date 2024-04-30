@@ -56,6 +56,11 @@ interface IModulos {
 
 type TModulos = keyof IModulos;
 
+// Pendências
+// [ ] - Método `separaTokens`.
+// [ ] - Método `realizaContas`.
+// [ ] - Método `preparaTextoDeVisualizacao`.
+
 abstract class BlankCalculator extends Aritmeticos {
 
   protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;

@@ -1,5 +1,6 @@
 import { inspect } from "util";
 import { calculator_colors } from "./colors_calculator.json";
+process.env.NODE_ENV = "development";
 
 // modulos
 import { Aritmeticos } from "../libraries/hub_aritmeticos";
@@ -11,7 +12,7 @@ import { RaizOitava } from "../libraries/components/aritmeticos/cientificos/raiz
 import { RaizNona } from "../libraries/components/aritmeticos/cientificos/raiz_nona";
 import { RaizDecima } from "../libraries/components/aritmeticos/cientificos/raiz_decima";
 
-  // Calculator Module
+  // Calculator Module | [#######---] 70%
 // modelo revolucionário ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TNumeroCasaDecimais = 2|4|6|8|10;
@@ -45,41 +46,31 @@ interface IModulos {
   "@porcentagem_por_10000": typeof Aritmeticos.prototype.porcentagemPor10000;
   "@porcentagem_por_100000": typeof Aritmeticos.prototype.porcentagemPor100000;
 
-  "@raiz_quarta": typeof RaizQuarta;
-  "@raiz_quinta": typeof RaizQuinta;
-  "@raiz_sexta": typeof RaizSexta;
-  "@raiz_setima": typeof RaizSetima;
-  "@raiz_oitava": typeof RaizOitava;
-  "@raiz_nona": typeof RaizNona;
-  "@raiz_decima": typeof RaizDecima;
+  "@raiz_quarta": typeof RaizQuarta; // #quart
+  "@raiz_quinta": typeof RaizQuinta; // #quinrt
+  "@raiz_sexta": typeof RaizSexta; // #sexrt
+  "@raiz_setima": typeof RaizSetima; // #seprt
+  "@raiz_oitava": typeof RaizOitava; // #octort
+  "@raiz_nona": typeof RaizNona; // #nonrt
+  "@raiz_decima": typeof RaizDecima; // #decrt
 }
 
 type TModulos = keyof IModulos;
 
 // Pendências
-// [ ] - Método `separaTokens`.
 // [ ] - Método `realizaContas`.
-// [ ] - Método `preparaTextoDeVisualizacao`.
 
 abstract class BlankCalculator extends Aritmeticos {
 
-  protected expressaoBusca = /([\+\-\/\*\^\$\%]|\^\^)?([\{\}\[\]\(\)]{1,})?((\d+)([\+\-\/\*\^\$\%]|\^\^)?(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?)([\{\}\[\]\(\)]{1,})?|(#sqrt)?(#cbrt)?(#sin)?(#cos)?(#tan)?(#sec)?(#cosec)?(#cotan)?(\d+)/gmi;
   protected input: string = "";
-  protected resultadoBusca: Array<string> = this.input.match(this.expressaoBusca);
   protected valorResultado: number = undefined;
+  protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(\<(\d+([.]\d+)?)\,\s{(\d+(\,\s)?)+}\>)|({(\d+(\,\s)?)+})|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
   
   // reparar esta funcionalidade
-  protected separaTokens = (input: string, regex: RegExp): Array<string> => {
-    
-    let result = input.match(regex)
-      ,tokens = [];
-
-    for(let i = 0; i < result.length; i++) {
-
-
-
-    }
-
+  protected separaTokens = (input: string): Array<string> => {
+    let result = input.match(this.capturador), tokens: string[];
+    tokens = result;
+    console.log("\x1b[31;1m"+tokens+"\x1b[0m");
     return tokens;
   }
 
@@ -121,97 +112,53 @@ abstract class BlankCalculator extends Aritmeticos {
         filho: arvore
       }
 
-      switch(token[w]) {
-
-        case listaProcedencia[5][0]: 
-          arvore.procedencia = 5;
-          break;
-        
-        case listaProcedencia[5][1]:
-          arvore.procedencia = 5;
-          break;
-        
-        case listaProcedencia[5][2]:
-          arvore.procedencia = 5;
-          break;
-        
-        case listaProcedencia[5][3]:
-          arvore.procedencia = 5;
-          break;
-        
-        case listaProcedencia[5][4]:
-          arvore.procedencia = 5;
-          break;
-          
-        case listaProcedencia[5][5]:
-          arvore.procedencia = 5;
-          break;
-
-        case listaProcedencia[4][0]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][1]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][2]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][3]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][4]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][5]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][6]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[4][7]:
-          arvore.procedencia = 4;
-          break;
-
-        case listaProcedencia[3][0]:
-          arvore.procedencia = 3;
-          break;
-
-        case listaProcedencia[3][1]:
-          arvore.procedencia = 3;
-          break;
-
-        case listaProcedencia[3][2]:
-          arvore.procedencia = 3;
-          break;
-
-        case listaProcedencia[2][0]:
-          arvore.procedencia = 2;
-          break;
-
-        case listaProcedencia[2][1]:
-          arvore.procedencia = 2;
-          break;
-
-        case listaProcedencia[1][0]:
-          arvore.procedencia = 1;
-          break;
-
-        case listaProcedencia[1][1]:
-          arvore.procedencia = 1;
-          break;
-
-        default:
-          arvore.procedencia = 0;
-          break;
-
+      if(
+        token[w] === listaProcedencia[5][0] ||
+        token[w] === listaProcedencia[5][1] ||
+        token[w] === listaProcedencia[5][2] ||
+        token[w] === listaProcedencia[5][3] ||
+        token[w] === listaProcedencia[5][4] ||
+        token[w] === listaProcedencia[5][5]
+      ) {
+        arvore.procedencia = 5;
       }
+
+      if(
+        token[w] === listaProcedencia[4][0] ||
+        token[w] === listaProcedencia[4][1] ||
+        token[w] === listaProcedencia[4][2] ||
+        token[w] === listaProcedencia[4][3] ||
+        token[w] === listaProcedencia[4][4] ||
+        token[w] === listaProcedencia[4][5] ||
+        token[w] === listaProcedencia[4][6] ||
+        token[w] === listaProcedencia[4][7]
+      ) {
+        arvore.procedencia = 4;
+      }
+
+      if(
+        token[w] === listaProcedencia[3][0] ||
+        token[w] === listaProcedencia[3][1] ||
+        token[w] === listaProcedencia[3][2]
+      ) {
+        arvore.procedencia = 3;
+      }
+
+      if(
+        token[w] === listaProcedencia[2][0] ||
+        token[w] === listaProcedencia[2][1]
+      ) {
+        arvore.procedencia = 2;
+      }
+
+      if(
+        token[w] === listaProcedencia[1][0] ||
+        token[w] === listaProcedencia[1][1]
+      ) {
+        arvore.procedencia = 1;
+      }
+
+      arvore.procedencia = 0;
 
       w++;
     }
@@ -240,24 +187,61 @@ abstract class BlankCalculator extends Aritmeticos {
     return this.valorResultado; 
   }
 
-  // ainda não implementado
   protected preparaTextoDeVisualizacao(): void {
-    let elementos = this.separaTokens(this.input, this.expressaoBusca);
+    let elementos = this.separaTokens(this.input);
     let expressao: string = "";
 
     for(let i = 0; i < elementos.length; i++) {
 
       switch(elementos[i]) {
-
         case '(':
-          console.log("Entrou no Parenteses");
+          expressao += calculator_colors.tokens["'('|')'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case ')':
+          expressao += calculator_colors.tokens["'('|')'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '[':
+          expressao += calculator_colors.tokens["'['|']'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case ']':
+          expressao += calculator_colors.tokens["'['|']'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '{':
+          expressao += calculator_colors.tokens["'{'|'}'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '}':
+          expressao += calculator_colors.tokens["'{'|'}'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '+':
+          expressao += calculator_colors.tokens["'+'|'-'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '-':
+          expressao += calculator_colors.tokens["'+'|'-'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '*':
+          expressao += calculator_colors.tokens["'*'|'/'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '/':
+          expressao += calculator_colors.tokens["'*'|'/'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '^':
+          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '$':
+          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        case '%':
+          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
+          break;
+        default:
+          expressao += calculator_colors.tokens["'#<special_function>'"]+elementos[i]+calculator_colors.end_text;
           break;
 
       }
 
     }
 
-    calculator_colors;
+    console.log("\n\t"+expressao+"\n");
   }
   
   protected calculaIndividualmente(
@@ -348,9 +332,8 @@ class Calculator extends BlankCalculator {
 
   public constructor(input: string) {
     super(input);
-    let tkns = this.criaArvoreTokens(this.separaTokens(this.input, this.expressaoBusca));
-    this.realizaContas(tkns, 'rtl');
-    this.preparaTextoDeVisualizacao();
+    let tkns = this.criaArvoreTokens(this.separaTokens(this.input));
+    // this.realizaContas(tkns, 'rtl');
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -367,4 +350,4 @@ class Calculator extends BlankCalculator {
 
 }
 
-let test = new Calculator("(2+2)");
+let test = new Calculator("(22+2)+6");

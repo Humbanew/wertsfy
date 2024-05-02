@@ -1,15 +1,15 @@
 {
-    "recommendations": [
-        "ms-vscode.cpptools-extension-pack",
-        "ms-ceintl.vscode-language-pack-pt-br",
-        "ms-vscode.cmake-tools",
-        "ms-vscode.vscode-typescript-next",
-        "github.copilot",
-        "github.copilot-chat",
-        "uloco.theme-bluloco-light",
-        "uloco.theme-bluloco-dark",
-        "be5invis.vscode-icontheme-nomo-dark",
-        "jamesmaj.easy-icons",
-        "yummygum.city-lights-icon-vsc"
-    ]
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "rid9.datetime",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "ms-ceintl.vscode-language-pack-pt-br",
+    "narasimapandiyan.jetbrainsmono",
+    "johnpapa.winteriscoming",
+    "miguelsolorio.symbols",
+    "oderwat.indent-rainbow",
+    "naumovs.color-highlight"
+  ]
 }

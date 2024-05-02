@@ -2,10 +2,12 @@
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  */
 export let PotenciaDePotenciaMais1 = (x: number, y: number[]): number => {
-  let rest: any;
+  let rest: number, potency: number = 1;
   if(y != null) {
-    let l = 0; for (let i = 0; i < y.length; i++) { l += y[i]; }
-    return rest = x ** l;
+    for(let i = 0; i < y.length; i++) {
+      potency = potency * y[i];
+    }
   }
+  rest = x ** potency;
   return rest + 1;
 };

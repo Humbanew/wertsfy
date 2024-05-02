@@ -43,69 +43,13 @@
         },
         "hexadecimal": "#00b2a2"
       },
-      "'^^'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;244;175;35m",
-          "bkgd": "\\x1b[48;5;244;175;35m"
-        },
-        "hexadecimal": "#f4af23"
-      },
-      "'#sen'": {
+      "'#<special_function>'": {
         "escape_format": {
           "frgd": "\\x1b[38;5;0;151;57m",
           "bkgd": "\\x1b[48;5;0;151;57m"
         },
         "hexadecimal": "#009739"
-      },
-      "'#cos'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;224;60;49m",
-          "bkgd": "\\x1b[48;5;224;60;49m"
-        },
-        "hexadecimal": "#e03c31"
-      },
-      "'#tan'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;249;159;201m",
-          "bkgd": "\\x1b[48;5;249;159;201m"
-        },
-        "hexadecimal": "#f99fc9"
-      },
-      "'#sec'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;232;119;34m",
-          "bkgd": "\\x1b[48;5;232;119;34m"
-        },
-        "hexadecimal": "#e87722"
-      },
-      "'#cosec'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;150;56;33m",
-          "bkgd": "\\x1b[48;5;150;56;33m"
-        },
-        "hexadecimal": "#963821"
-      },
-      "'#cotan'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;195;220;147m",
-          "bkgd": "\\x1b[48;5;195;220;147m"
-        },
-        "hexadecimal": "#c3dc93"
-      },
-      "'#sqrt'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;155;51;89m",
-          "bkgd": "\\x1b[48;5;155;51;89m"
-        },
-        "hexadecimal": "#9b3359"
-      },
-      "'#cbrt'": {
-        "escape_format": {
-          "frgd": "\\x1b[38;5;138;43;43m",
-          "bkgd": "\\x1b[48;5;138;43;43m"
-        },
-        "hexadecimal": "#8a2b2b"
-      }
+      }    
     },
     "end_text": {
       "escape_format": "\\x1b[0m"

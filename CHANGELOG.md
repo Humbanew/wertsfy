@@ -4,6 +4,7 @@
 
 ### Other
 
+- A finalizar construção do módulo da Calculadora [`dbf1127a`](https://github.com/humbanew/wertsfy-next/commit/dbf1127a51edaa4b5873df7c34b9b213dcdda8c2)
 - Preparando branch para merge [`85d083e7`](https://github.com/humbanew/wertsfy-next/commit/85d083e770bc70b60ad3144a441b24a29e8f3bd5)
 - Construindo `realizaContas` e `preparaTextoDeVisualizacao` em ambiente de testes | Arrumando `separaTokens` [`6ec08c21`](https://github.com/humbanew/wertsfy-next/commit/6ec08c21265caf715e4c4493724040fec470794c)
 - Construindo `realizaContas` e `preparaTextoDeVisualizacao` em ambiente de testes [`5c696787`](https://github.com/humbanew/wertsfy-next/commit/5c69678758f9b5afe3ad7bef66bd211c698eb68e)

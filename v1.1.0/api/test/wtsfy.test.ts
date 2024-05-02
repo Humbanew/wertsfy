@@ -12,7 +12,7 @@ import { RaizOitava } from "../libraries/components/aritmeticos/cientificos/raiz
 import { RaizNona } from "../libraries/components/aritmeticos/cientificos/raiz_nona";
 import { RaizDecima } from "../libraries/components/aritmeticos/cientificos/raiz_decima";
 
-  // Calculator Module | [#######---] 70%
+  // Calculator Module | [#########-] 90%
 // modelo revolucionário ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TNumeroCasaDecimais = 2|4|6|8|10;
@@ -86,7 +86,7 @@ abstract class BlankCalculator extends Aritmeticos {
         '^', '$', '%'
       ],
       4: [
-        '#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt'
+        '#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt', '#sqrt2', '#cbrt2'
       ],
       5: [
         '(', ')', '[', ']', '{', '}'
@@ -131,7 +131,9 @@ abstract class BlankCalculator extends Aritmeticos {
         token[w] === listaProcedencia[4][4] ||
         token[w] === listaProcedencia[4][5] ||
         token[w] === listaProcedencia[4][6] ||
-        token[w] === listaProcedencia[4][7]
+        token[w] === listaProcedencia[4][7] ||
+        token[w] === listaProcedencia[4][8] ||
+        token[w] === listaProcedencia[4][9]
       ) {
         arvore.procedencia = 4;
       }
@@ -312,6 +314,30 @@ abstract class BlankCalculator extends Aritmeticos {
       case "@porcentagem_por_100000":
         result = exec["@porcentagem_por_100000"](execAttrs.x);
         break;
+
+      // ainda precisa ser adicionado ao aritmeticos
+      case "@raiz_quarta":
+        result = exec["@raiz_quarta"](execAttrs.x);
+        break;
+      case "@raiz_quinta":
+        result = exec["@raiz_quinta"](execAttrs.x);
+        break;
+      case "@raiz_sexta":
+        result = exec["@raiz_sexta"](execAttrs.x);
+        break;
+      case "@raiz_setima":
+        result = exec["@raiz_setima"](execAttrs.x);
+        break;
+      case "@raiz_oitava":
+        result = exec["@raiz_oitava"](execAttrs.x);
+        break;
+      case "@raiz_nona":
+        result = exec["@raiz_nona"](execAttrs.x);
+        break;
+      case "@raiz_decima":
+        result = exec["@raiz_decima"](execAttrs.x);
+        break;
+      
     }
 
     return result;

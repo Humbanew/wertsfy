@@ -136,6 +136,11 @@ export class Aritmeticos {
   public ZERO= 
     NFAritmeticos.Zero.assinatura;
 
+  // organizar métodos com esse modelo de objetos
+  protected Comuns = {}
+  protected Cientificos = {}
+  protected Supremos = {} 
+
   // Funções [20]
   public absoluto=
     NFAritmeticos.absoluto.assinatura;

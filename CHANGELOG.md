@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8fdcb727`](https://github.com/humbanew/wertsfy-next/commit/8fdcb727c470b0991c25ad6919e43d86b9089b8c)
+- A finalizar construção do módulo da Calculadora [`856545da`](https://github.com/humbanew/wertsfy-next/commit/856545dab3cd554bb57781835fd2ab67e90237cb)
 - A finalizar construção do módulo da Calculadora [`dbf1127a`](https://github.com/humbanew/wertsfy-next/commit/dbf1127a51edaa4b5873df7c34b9b213dcdda8c2)
 - Preparando branch para merge [`85d083e7`](https://github.com/humbanew/wertsfy-next/commit/85d083e770bc70b60ad3144a441b24a29e8f3bd5)
 - Construindo `realizaContas` e `preparaTextoDeVisualizacao` em ambiente de testes | Arrumando `separaTokens` [`6ec08c21`](https://github.com/humbanew/wertsfy-next/commit/6ec08c21265caf715e4c4493724040fec470794c)

@@ -1,16 +1,7 @@
 import { inspect } from "util";
 import { calculator_colors } from "./colors_calculator.json";
-process.env.NODE_ENV = "development";
-
-// modulos
 import { Aritmeticos } from "../libraries/hub_aritmeticos";
-import { RaizQuarta } from "../libraries/components/aritmeticos/cientificos/raiz_quarta";
-import { RaizQuinta } from "../libraries/components/aritmeticos/cientificos/raiz_quinta";
-import { RaizSexta } from "../libraries/components/aritmeticos/cientificos/raiz_sexta";
-import { RaizSetima } from "../libraries/components/aritmeticos/cientificos/raiz_setima";
-import { RaizOitava } from "../libraries/components/aritmeticos/cientificos/raiz_oitava";
-import { RaizNona } from "../libraries/components/aritmeticos/cientificos/raiz_nona";
-import { RaizDecima } from "../libraries/components/aritmeticos/cientificos/raiz_decima";
+process.env.NODE_ENV = "development";
 
   // Calculator Module | [#########-] 90%
 // modelo revolucionário ainda não implementado na Calculator
@@ -25,34 +16,33 @@ interface IPilha {
 }
 
 interface IModulos { 
-  "@soma": typeof Aritmeticos.prototype.soma;
-  "@subtracao": typeof Aritmeticos.prototype.subtracao;
-  "@multiplicacao": typeof Aritmeticos.prototype.multiplicacao;
-  "@divisao": typeof Aritmeticos.prototype.divisao;
-  "@resto": typeof Aritmeticos.prototype.resto;
-  "@potencia": typeof Aritmeticos.prototype.potencia;
-  "@potencia_mais_1": typeof Aritmeticos.prototype.potenciaMais1;
-  "@potencia_menos_1": typeof Aritmeticos.prototype.potenciaMenos1;
-  "@potencia_de_potencia": typeof Aritmeticos.prototype.potenciaDePotencia;
-  "@potencia_de_potencia_mais_1": typeof Aritmeticos.prototype.potenciaDePotenciaMais1;
-  "@potencia_de_potencia_menos_1": typeof Aritmeticos.prototype.potenciaDePotenciaMenos1;
-  "@raiz_quadrada": typeof Aritmeticos.prototype.raizQuadrada;
-  "@raiz_cubica": typeof Aritmeticos.prototype.raizCubica;
-  "@raiz_biquadrada": typeof Aritmeticos.prototype.raizBiquadrada;
-  "@raiz_bicubica": typeof Aritmeticos.prototype.raizBicubica;
-  "@absoluto": typeof Aritmeticos.prototype.absoluto;
-  "@porcentagem": typeof Aritmeticos.prototype.porcentagem;
-  "@porcentagem_por_1000": typeof Aritmeticos.prototype.porcentagemPor1000;
-  "@porcentagem_por_10000": typeof Aritmeticos.prototype.porcentagemPor10000;
-  "@porcentagem_por_100000": typeof Aritmeticos.prototype.porcentagemPor100000;
-
-  "@raiz_quarta": typeof RaizQuarta; // #quart
-  "@raiz_quinta": typeof RaizQuinta; // #quinrt
-  "@raiz_sexta": typeof RaizSexta; // #sexrt
-  "@raiz_setima": typeof RaizSetima; // #seprt
-  "@raiz_oitava": typeof RaizOitava; // #octort
-  "@raiz_nona": typeof RaizNona; // #nonrt
-  "@raiz_decima": typeof RaizDecima; // #decrt
+  "@soma": typeof Aritmeticos.prototype.Comuns.soma;
+  "@subtracao": typeof Aritmeticos.prototype.Comuns.subtracao;
+  "@multiplicacao": typeof Aritmeticos.prototype.Comuns.multiplicacao;
+  "@divisao": typeof Aritmeticos.prototype.Comuns.divisao;
+  "@resto": typeof Aritmeticos.prototype.Comuns.resto;
+  "@potencia": typeof Aritmeticos.prototype.Comuns.potencia;
+  "@potencia_mais_1": typeof Aritmeticos.prototype.Comuns.potenciaMais1;
+  "@potencia_menos_1": typeof Aritmeticos.prototype.Comuns.potenciaMenos1;
+  "@potencia_de_potencia": typeof Aritmeticos.prototype.Comuns.potenciaDePotencia;
+  "@potencia_de_potencia_mais_1": typeof Aritmeticos.prototype.Comuns.potenciaDePotenciaMais1;
+  "@potencia_de_potencia_menos_1": typeof Aritmeticos.prototype.Comuns.potenciaDePotenciaMenos1;
+  "@raiz_quadrada": typeof Aritmeticos.prototype.Comuns.raizQuadrada;
+  "@raiz_cubica": typeof Aritmeticos.prototype.Comuns.raizCubica;
+  "@raiz_biquadrada": typeof Aritmeticos.prototype.Comuns.raizBiquadrada;
+  "@raiz_bicubica": typeof Aritmeticos.prototype.Comuns.raizBicubica;
+  "@absoluto": typeof Aritmeticos.prototype.Comuns.absoluto;
+  "@porcentagem": typeof Aritmeticos.prototype.Comuns.porcentagem;
+  "@porcentagem_por_1000": typeof Aritmeticos.prototype.Comuns.porcentagemPor1000;
+  "@porcentagem_por_10000": typeof Aritmeticos.prototype.Comuns.porcentagemPor10000;
+  "@porcentagem_por_100000": typeof Aritmeticos.prototype.Comuns.porcentagemPor100000;
+  "@raiz_quarta": typeof Aritmeticos.prototype.Cientificos.raizQuarta;
+  "@raiz_quinta": typeof Aritmeticos.prototype.Cientificos.raizQuinta;
+  "@raiz_sexta": typeof Aritmeticos.prototype.Cientificos.raizSexta;
+  "@raiz_setima": typeof Aritmeticos.prototype.Cientificos.raizSetima;
+  "@raiz_oitava": typeof Aritmeticos.prototype.Cientificos.raizOitava;
+  "@raiz_nona": typeof Aritmeticos.prototype.Cientificos.raizNona;
+  "@raiz_decima": typeof Aritmeticos.prototype.Cientificos.raizDecima;
 }
 
 type TModulos = keyof IModulos;
@@ -65,12 +55,11 @@ abstract class BlankCalculator extends Aritmeticos {
   protected input: string = "";
   protected valorResultado: number = undefined;
   protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(\<(\d+([.]\d+)?)\,\s{(\d+(\,\s)?)+}\>)|({(\d+(\,\s)?)+})|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
-  
-  // reparar esta funcionalidade
+
+
   protected separaTokens = (input: string): Array<string> => {
     let result = input.match(this.capturador), tokens: string[];
     tokens = result;
-    console.log("\x1b[31;1m"+tokens+"\x1b[0m");
     return tokens;
   }
 
@@ -121,9 +110,7 @@ abstract class BlankCalculator extends Aritmeticos {
         token[w] === listaProcedencia[5][5]
       ) {
         arvore.procedencia = 5;
-      }
-
-      if(
+      } else if(
         token[w] === listaProcedencia[4][0] ||
         token[w] === listaProcedencia[4][1] ||
         token[w] === listaProcedencia[4][2] ||
@@ -136,37 +123,29 @@ abstract class BlankCalculator extends Aritmeticos {
         token[w] === listaProcedencia[4][9]
       ) {
         arvore.procedencia = 4;
-      }
-
-      if(
+      } else if(
         token[w] === listaProcedencia[3][0] ||
         token[w] === listaProcedencia[3][1] ||
         token[w] === listaProcedencia[3][2]
       ) {
         arvore.procedencia = 3;
-      }
-
-      if(
+      } else if(
         token[w] === listaProcedencia[2][0] ||
         token[w] === listaProcedencia[2][1]
       ) {
         arvore.procedencia = 2;
-      }
-
-      if(
+      } else if(
         token[w] === listaProcedencia[1][0] ||
         token[w] === listaProcedencia[1][1]
       ) {
         arvore.procedencia = 1;
+      } else {
+        arvore.procedencia = 0;
       }
 
-      arvore.procedencia = 0;
 
       w++;
     }
-
-    console.log(inspect(arvore, false, null, true));
-    console.log(token.length - 1);
   
     return arvore; 
   }
@@ -175,16 +154,16 @@ abstract class BlankCalculator extends Aritmeticos {
   protected realizaContas(tokens: IPilha, ordenacao: 'rtl'|'ltr'): number { 
     this.valorResultado = 0;
 
-    let matrizOperacional: number[][]|string[][];
+    console.log(inspect(tokens, false, null, true));
     
-    if(ordenacao === 'ltr') { 
-      this.valorResultado = parseFloat(tokens.token);
+    // if(ordenacao === 'ltr') { 
+    //   this.valorResultado = parseFloat(tokens.token);
       
-    }
+    // }
 
-    while(tokens.filho !== null) {
-      tokens = tokens.filho;
-    }
+    // while(tokens.filho !== null) {
+    //   tokens = tokens.filho;
+    // }
     
     return this.valorResultado; 
   }
@@ -314,8 +293,6 @@ abstract class BlankCalculator extends Aritmeticos {
       case "@porcentagem_por_100000":
         result = exec["@porcentagem_por_100000"](execAttrs.x);
         break;
-
-      // ainda precisa ser adicionado ao aritmeticos
       case "@raiz_quarta":
         result = exec["@raiz_quarta"](execAttrs.x);
         break;
@@ -359,7 +336,7 @@ class Calculator extends BlankCalculator {
   public constructor(input: string) {
     super(input);
     let tkns = this.criaArvoreTokens(this.separaTokens(this.input));
-    // this.realizaContas(tkns, 'rtl');
+    this.realizaContas(tkns, 'rtl');
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {

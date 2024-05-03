@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`141d5f10`](https://github.com/humbanew/wertsfy-next/commit/141d5f10d4fab9b91c7998781c35d5313ac5332c)
+- Fazendo atualizações em múltiplas bibliotecas [`1922241e`](https://github.com/humbanew/wertsfy-next/commit/1922241e68904cb9c62a3ec3dc23a601ca751ab9)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`8fdcb727`](https://github.com/humbanew/wertsfy-next/commit/8fdcb727c470b0991c25ad6919e43d86b9089b8c)
 - A finalizar construção do módulo da Calculadora [`856545da`](https://github.com/humbanew/wertsfy-next/commit/856545dab3cd554bb57781835fd2ab67e90237cb)
 - A finalizar construção do módulo da Calculadora [`dbf1127a`](https://github.com/humbanew/wertsfy-next/commit/dbf1127a51edaa4b5873df7c34b9b213dcdda8c2)

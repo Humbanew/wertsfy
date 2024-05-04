@@ -3,56 +3,63 @@
     "tokens": {
       "'('|')'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;0;133;135m",
-          "bkgd": "\\x1b[48;5;0;133;135m"
+          "frgd": "38;2;0;133;135;1m",
+          "bkgd": "48;2;0;133;135;1m"
         },
         "hexadecimal": "#008587"
       },
       "'['|']'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;229;106;84m",
-          "bkgd": "\\x1b[48;5;229;106;84m"
+          "frgd": "38;2;229;106;84;1m",
+          "bkgd": "48;2;229;106;84;1m"
         },
         "hexadecimal": "#e56a54"
       },
       "'{'|'}'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;132;189;0m",
-          "bkgd": "\\x1b[48;5;132;189;0m"
+          "frgd": "38;2;132;189;0;1m",
+          "bkgd": "48;2;132;189;0;1m"
         },
         "hexadecimal": "#84bd00"
       },
       "'+'|'-'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;225;205;0m",
-          "bkgd": "\\x1b[48;5;225;205;0m"
+          "frgd": "38;2;222;202;0m",
+          "bkgd": "48;2;222;202;0m"
         },
         "hexadecimal": "#e1cd00"
       },
       "'*'|'/'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;149;105;190m",
-          "bkgd": "\\x1b[48;5;149;105;190m"
+          "frgd": "38;2;149;102;190m",
+          "bkgd": "48;2;149;102;190m"
         },
         "hexadecimal": "#9569be"
       },
       "'^'|'$'|'%'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;0;178;162m",
-          "bkgd": "\\x1b[48;5;0;178;162m"
+          "frgd": "38;2;0;178;162m",
+          "bkgd": "48;2;0;178;162m"
         },
         "hexadecimal": "#00b2a2"
       },
       "'#<special_function>'": {
         "escape_format": {
-          "frgd": "\\x1b[38;5;0;151;57m",
-          "bkgd": "\\x1b[48;5;0;151;57m"
+          "frgd": "38;2;0;151;57m",
+          "bkgd": "48;2;0;151;57m"
         },
         "hexadecimal": "#009739"
+      },
+      "'<'|'>'": {
+        "escape_format": {
+          "frgd": "38;2;85;1;57m",
+          "bkgd": "48;2;85;1;57m"
+        },
+        "hexadecimal": "#550139"
       }    
     },
     "end_text": {
-      "escape_format": "\\x1b[0m"
+      "escape_format": "0m"
     }
   }
 }

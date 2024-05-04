@@ -3,7 +3,7 @@ import { calculator_colors } from "./colors_calculator.json";
 import { Aritmeticos } from "../libraries/hub_aritmeticos";
 process.env.NODE_ENV = "development";
 
-  // Calculator Module | [#########-] 90%
+  // Calculator Module | [#########-] 92%
 // modelo revolucionário ainda não implementado na Calculator
 type TTamMemoria = 3|4|5|6;
 type TNumeroCasaDecimais = 2|4|6|8|10;
@@ -11,7 +11,7 @@ type TTipagem = 'standard'|'scientific'|'conversor'|'programmer'|'extreme';
 
 interface IPilha {
   token: string|null;
-  procedencia: number|null;
+  procedencia: number|string|null;
   filho: IPilha|null;
 }
 
@@ -54,46 +54,85 @@ abstract class BlankCalculator extends Aritmeticos {
 
   protected input: string = "";
   protected valorResultado: number = undefined;
-  protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(\<(\d+([.]\d+)?)\,\s{(\d+(\,\s)?)+}\>)|({(\d+(\,\s)?)+})|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
+  protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
 
 
   protected separaTokens = (input: string): Array<string> => {
     let result = input.match(this.capturador), tokens: string[];
-    tokens = result;
+    tokens = [];
+    for(let i = 0; i < result.length; i++) {
+      if(result[i].length > 1 && result[i].slice(0, 1) != "#" && Number.isNaN(parseFloat(result[i]))){
+        for(let j = 0; j < result[i].length; j++) {
+          tokens.push(result[i][j]);
+        }
+      } else {
+        tokens.push(result[i]);
+      }
+    }
     return tokens;
   }
 
-  protected criaArvoreTokens = (token: Array<string>): IPilha => { 
+  protected criaPilhasTokens = (token: Array<string>): Object => { 
     const listaProcedencia = {
       1: [
-        '+', '-'
+        '+', 
+        '-'
       ],
       2: [
-        '*', '/'
+        '*', 
+        '/'
       ],
       3: [
-        '^', '$', '%'
+        '^', 
+        '$', 
+        '%'
       ],
       4: [
-        '#sin', '#cos', '#tan', '#sec', '#cosec', '#cotan', '#sqrt', '#cbrt', '#sqrt2', '#cbrt2'
+        '#sin', 
+        '#cos', 
+        '#tan', 
+        '#sec', 
+        '#cosec', 
+        '#cotan', 
+        '#sqrt', 
+        '#cbrt', 
+        '#sqrt2', 
+        '#cbrt2',
+        '#perc',
+        '#percM',
+        '#percDM',
+        '#percCM',
+        '#powM1',
+        '#powm1',
+        // '#powofpowM1',
+        // '#powofpowm1',
+        '#quart',
+        '#quinrt',
+        '#sexrt',
+        '#seprt',
+        '#octort',
+        '#nonrt',
+        '#decrt'
       ],
       5: [
-        '(', ')', '[', ']', '{', '}'
+        '(', 
+        ')', 
+        '[', 
+        ']', 
+        '{', 
+        '}'
+      ],
+      'K': [
+        '<', 
+        '>'
       ]
     };
 
+    let ordenados = { 'ltr': null, 'rtl': null }
     let arvore: IPilha = Object.prototype.constructor();
-    let w = 0;
-
-    while(token.length > w) {
-
-      if(w == 0) {
-        arvore = {
-          token: "BEGIN",
-          procedencia: null,
-          filho: null
-        }
-      }
+    let w = token.length-1;
+    
+    while(w >= 0) {
 
       arvore = {
         token: token[w],
@@ -102,6 +141,11 @@ abstract class BlankCalculator extends Aritmeticos {
       }
 
       if(
+        token[w] == listaProcedencia['K'][0] ||
+        token[w] == listaProcedencia['K'][1]
+      ) {
+        arvore.procedencia = 'K';
+      } else if(
         token[w] == listaProcedencia[5][0] ||
         token[w] == listaProcedencia[5][1] ||
         token[w] == listaProcedencia[5][2] ||
@@ -143,82 +187,160 @@ abstract class BlankCalculator extends Aritmeticos {
         arvore.procedencia = 0;
       }
 
-      w++;
+      if(w == token.length-1) arvore.filho = null;
+
+      w--;
     }
+    ordenados.ltr = arvore;
+    w = 0;
+    while(w < token.length) {
+        
+        arvore = {
+          token: token[w],
+          procedencia: null,
+          filho: arvore
+        }
   
-    return arvore; 
+        if(
+          token[w] == listaProcedencia['K'][0] ||
+          token[w] == listaProcedencia['K'][1]
+        ) {
+          arvore.procedencia = 'K';
+        } else if(
+          token[w] == listaProcedencia[5][0] ||
+          token[w] == listaProcedencia[5][1] ||
+          token[w] == listaProcedencia[5][2] ||
+          token[w] == listaProcedencia[5][3] ||
+          token[w] == listaProcedencia[5][4] ||
+          token[w] == listaProcedencia[5][5]
+        ) {
+          arvore.procedencia = 5;
+        } else if(
+          token[w] == listaProcedencia[4][0] ||
+          token[w] == listaProcedencia[4][1] ||
+          token[w] == listaProcedencia[4][2] ||
+          token[w] == listaProcedencia[4][3] ||
+          token[w] == listaProcedencia[4][4] ||
+          token[w] == listaProcedencia[4][5] ||
+          token[w] == listaProcedencia[4][6] ||
+          token[w] == listaProcedencia[4][7] ||
+          token[w] == listaProcedencia[4][8] ||
+          token[w] == listaProcedencia[4][9]
+        ) {
+          arvore.procedencia = 4;
+        } else if(
+          token[w] == listaProcedencia[3][0] ||
+          token[w] == listaProcedencia[3][1] ||
+          token[w] == listaProcedencia[3][2]
+        ) {
+          arvore.procedencia = 3;
+        } else if(
+          token[w] == listaProcedencia[2][0] ||
+          token[w] == listaProcedencia[2][1]
+        ) {
+          arvore.procedencia = 2;
+        } else if(
+          token[w] == listaProcedencia[1][0] ||
+          token[w] == listaProcedencia[1][1]
+        ) {
+          arvore.procedencia = 1;
+        } else {
+          arvore.procedencia = 0;
+        }
+
+        if(w == 0) arvore.filho = null;
+
+        w++;
+    }
+    ordenados.rtl = arvore;
+    return ordenados; 
   }
 
-  // ainda parcialmente implementado
-  protected realizaContas(tokens: IPilha, ordenacao: 'rtl'|'ltr'): number { 
+  // ainda não implementado
+  protected realizaContas(tokens: Object, ordenacao: 'rtl'|'ltr'): number { 
     this.valorResultado = 0;
 
-    // console.log(inspect(tokens, false, null, true));
-    
-    // if(ordenacao === 'ltr') { 
-    //   this.valorResultado = parseFloat(tokens.token);
-      
-    // }
+    console.log(inspect(tokens, false, null, true)); 
 
-    console.log(inspect(tokens, false, null, true));
+    if(ordenacao == 'ltr') {}
+    if(ordenacao == 'rtl') {}
 
-    while(tokens.filho != null) {
-      tokens = tokens.filho;
-    }
-    
     return this.valorResultado; 
   }
 
   protected preparaTextoDeVisualizacao(): void {
     let elementos = this.separaTokens(this.input);
-    let expressao: string = "";
+    let expressao: string = "", escapeActive = "\x1b[";
 
     for(let i = 0; i < elementos.length; i++) {
 
-      switch(elementos[i]) {
-        case '(':
-          expressao += calculator_colors.tokens["'('|')'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case ')':
-          expressao += calculator_colors.tokens["'('|')'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '[':
-          expressao += calculator_colors.tokens["'['|']'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case ']':
-          expressao += calculator_colors.tokens["'['|']'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '{':
-          expressao += calculator_colors.tokens["'{'|'}'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '}':
-          expressao += calculator_colors.tokens["'{'|'}'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '+':
-          expressao += calculator_colors.tokens["'+'|'-'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '-':
-          expressao += calculator_colors.tokens["'+'|'-'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '*':
-          expressao += calculator_colors.tokens["'*'|'/'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '/':
-          expressao += calculator_colors.tokens["'*'|'/'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '^':
-          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '$':
-          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        case '%':
-          expressao += calculator_colors.tokens["'^'|'$'|'%'"]+elementos[i]+calculator_colors.end_text;
-          break;
-        default:
-          expressao += calculator_colors.tokens["'#<special_function>'"]+elementos[i]+calculator_colors.end_text;
-          break;
+      if(
+        elementos[i] == '(' ||
+        elementos[i] == ')'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'('|')'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
 
+      if(
+        elementos[i] == '[' || 
+        elementos[i] == ']'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'['|']'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '{' || 
+        elementos[i] == '}'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'{'|'}'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '+' || 
+        elementos[i] == '-'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'+'|'-'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '*' || 
+        elementos[i] == '/'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'*'|'/'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '^' || 
+        elementos[i] == '$' || 
+        elementos[i] == '%'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'^'|'$'|'%'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '#sin' ||
+        elementos[i] == '#cos' ||
+        elementos[i] == '#tan' ||
+        elementos[i] == '#sec' ||
+        elementos[i] == '#cosec' ||
+        elementos[i] == '#cotan' ||
+        elementos[i] == '#sqrt' ||
+        elementos[i] == '#sqrt2' ||
+        elementos[i] == '#cbrt' ||
+        elementos[i] == '#cbrt2'
+      ) {
+        expressao += escapeActive+calculator_colors.tokens["'#<special_function>'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(
+        elementos[i] == '<' || 
+        elementos[i] == '>'
+      ) { 
+        expressao += escapeActive+calculator_colors.tokens["'<'|'>'"].escape_format.frgd+elementos[i]+escapeActive+calculator_colors.end_text.escape_format;
+      }
+
+      if(parseFloat(elementos[i])) { 
+        expressao += elementos[i]; 
       }
 
     }
@@ -226,11 +348,7 @@ abstract class BlankCalculator extends Aritmeticos {
     console.log("\n\t"+expressao+"\n");
   }
   
-  protected calculaIndividualmente(
-    modulo: TModulos, 
-    execAttrs: {x: number, y?: number},
-    execAttrsPotofPot?: {x: number, y: number[]}
-  ): number {
+  protected calculaIndividualmente(modulo: TModulos, execAttrs: {x: number, y?: number}, execAttrsPotofPot?: {x: number, y: number[]}): number {
     let exec: IModulos, result: number = 0;
 
     switch(modulo) {
@@ -336,8 +454,9 @@ class Calculator extends BlankCalculator {
 
   public constructor(input: string) {
     super(input);
-    let tkns = this.criaArvoreTokens(this.separaTokens(this.input));
-    this.realizaContas(tkns, 'rtl');
+    this.preparaTextoDeVisualizacao();
+    let tkns = this.criaPilhasTokens(this.separaTokens(this.input));
+    this.realizaContas(tkns, 'ltr');
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -354,4 +473,4 @@ class Calculator extends BlankCalculator {
 
 }
 
-let test = new Calculator("(22+2)+6");
+let test = new Calculator("[(22+2)+6]+#sin<4>");

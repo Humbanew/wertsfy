@@ -9,7 +9,6 @@
 import { inspect } from "util";
 import { calculator_colors } from "./colors_calculator.json";
 import { Aritmeticos } from "../libraries/hub_aritmeticos";
-process.env.NODE_ENV = "development";
 
   // Calculator Module | [#########-] 95%
 // modelo revolucionário ainda não implementado na Calculator

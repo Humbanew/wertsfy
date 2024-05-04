@@ -62,7 +62,7 @@ abstract class BlankCalculator extends Aritmeticos {
 
   protected input: string = "";
   protected valorResultado: number = undefined;
-  protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
+  protected capturador: RegExp  = /([\(\)\[\]\{\}])|([\+\-\/\*\^\$\%])|(\d+)|(\<(\d+([.]\d+)?)\>)|(\<\d+([.]\d+)?\,\s\&\&(\d+([.]\d+)?(\,\s)?)+\&\&\>)|(#sin)|(#cos)|(#tan)|(#sec)|(#cosec)|(#cotan)|(#sqrt)|(#cbrt)|(#sqrt2)|(#cbrt2)|(#perc)|(#percM)|(#percDM)|(#percCM)|(#powM1)|(#powm1)|(#powofpowM1)|(#powofpowm1)|(#quart)|(#quinrt)|(#sexrt)|(#seprt)|(#octort)|(#nonrt)|(#decrt)/gim;
 
 
   protected separaTokens = (input: string): Array<string> => {

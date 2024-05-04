@@ -530,3 +530,5 @@ export namespace NFAritmeticos {
   }
 
 }
+
+namespace FuncTransition {}

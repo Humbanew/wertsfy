@@ -85,11 +85,11 @@ abstract class BlankCalculator extends Aritmeticos {
     let arvore: IPilha = Object.prototype.constructor();
     let w = 0;
 
-    while(w < token.length) {
+    while(token.length > w) {
 
-      if(w === 0) {
+      if(w == 0) {
         arvore = {
-          token: 'BEGIN',
+          token: "BEGIN",
           procedencia: null,
           filho: null
         }
@@ -102,47 +102,46 @@ abstract class BlankCalculator extends Aritmeticos {
       }
 
       if(
-        token[w] === listaProcedencia[5][0] ||
-        token[w] === listaProcedencia[5][1] ||
-        token[w] === listaProcedencia[5][2] ||
-        token[w] === listaProcedencia[5][3] ||
-        token[w] === listaProcedencia[5][4] ||
-        token[w] === listaProcedencia[5][5]
+        token[w] == listaProcedencia[5][0] ||
+        token[w] == listaProcedencia[5][1] ||
+        token[w] == listaProcedencia[5][2] ||
+        token[w] == listaProcedencia[5][3] ||
+        token[w] == listaProcedencia[5][4] ||
+        token[w] == listaProcedencia[5][5]
       ) {
         arvore.procedencia = 5;
       } else if(
-        token[w] === listaProcedencia[4][0] ||
-        token[w] === listaProcedencia[4][1] ||
-        token[w] === listaProcedencia[4][2] ||
-        token[w] === listaProcedencia[4][3] ||
-        token[w] === listaProcedencia[4][4] ||
-        token[w] === listaProcedencia[4][5] ||
-        token[w] === listaProcedencia[4][6] ||
-        token[w] === listaProcedencia[4][7] ||
-        token[w] === listaProcedencia[4][8] ||
-        token[w] === listaProcedencia[4][9]
+        token[w] == listaProcedencia[4][0] ||
+        token[w] == listaProcedencia[4][1] ||
+        token[w] == listaProcedencia[4][2] ||
+        token[w] == listaProcedencia[4][3] ||
+        token[w] == listaProcedencia[4][4] ||
+        token[w] == listaProcedencia[4][5] ||
+        token[w] == listaProcedencia[4][6] ||
+        token[w] == listaProcedencia[4][7] ||
+        token[w] == listaProcedencia[4][8] ||
+        token[w] == listaProcedencia[4][9]
       ) {
         arvore.procedencia = 4;
       } else if(
-        token[w] === listaProcedencia[3][0] ||
-        token[w] === listaProcedencia[3][1] ||
-        token[w] === listaProcedencia[3][2]
+        token[w] == listaProcedencia[3][0] ||
+        token[w] == listaProcedencia[3][1] ||
+        token[w] == listaProcedencia[3][2]
       ) {
         arvore.procedencia = 3;
       } else if(
-        token[w] === listaProcedencia[2][0] ||
-        token[w] === listaProcedencia[2][1]
+        token[w] == listaProcedencia[2][0] ||
+        token[w] == listaProcedencia[2][1]
       ) {
         arvore.procedencia = 2;
       } else if(
-        token[w] === listaProcedencia[1][0] ||
-        token[w] === listaProcedencia[1][1]
+        token[w] == listaProcedencia[1][0] ||
+        token[w] == listaProcedencia[1][1]
       ) {
         arvore.procedencia = 1;
       } else {
         arvore.procedencia = 0;
       }
-
 
       w++;
     }
@@ -154,16 +153,18 @@ abstract class BlankCalculator extends Aritmeticos {
   protected realizaContas(tokens: IPilha, ordenacao: 'rtl'|'ltr'): number { 
     this.valorResultado = 0;
 
-    console.log(inspect(tokens, false, null, true));
+    // console.log(inspect(tokens, false, null, true));
     
     // if(ordenacao === 'ltr') { 
     //   this.valorResultado = parseFloat(tokens.token);
       
     // }
 
-    // while(tokens.filho !== null) {
-    //   tokens = tokens.filho;
-    // }
+    console.log(inspect(tokens, false, null, true));
+
+    while(tokens.filho != null) {
+      tokens = tokens.filho;
+    }
     
     return this.valorResultado; 
   }

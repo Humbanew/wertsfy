@@ -5,7 +5,7 @@
  * Afim de facilitar o desenvolvimento das lógicas o nome "Wertsfy" será abreviado para "Wtsfy". 
  */
 
-// Implementação do novo modelo em breve. 
+// Modelo construído ainda em 95%. 
 import { inspect } from "util";
 import { calculator_colors } from "./colors_calculator.json";
 import { Aritmeticos } from "../libraries/hub_aritmeticos";
@@ -462,9 +462,6 @@ export class Calculator extends BlankCalculator {
 
   public constructor(input: string) {
     super(input);
-    this.preparaTextoDeVisualizacao();
-    let tkns = this.criaPilhasTokens(this.separaTokens(this.input));
-    this.realizaContas(tkns, 'ltr');
   }
 
   public defineEspacosMemoria(espacos: TTamMemoria): void {
@@ -480,6 +477,3 @@ export class Calculator extends BlankCalculator {
   }
 
 }
-
-let test = new Calculator("[(22+2)+6]+#sin<4>");
-

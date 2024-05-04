@@ -10,7 +10,8 @@
 
   ---
 
-  ![Wertsfy-Logo-7Gen](https://github.com/humbanew/wertsfy-next/assets/59739253/e911b998-9752-4e75-8997-332e5f067f91)
+  ![wertsfy-icon](https://github.com/humbanew/wertsfy-next/assets/59739253/a6a349db-e60a-46f2-850a-11344b1fa847)
+
 
   ## system-components
   

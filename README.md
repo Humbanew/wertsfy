@@ -2,7 +2,7 @@
 
 <div align="center"> 
 
-  ![wertsfy-icon](https://github.com/humbanew/wertsfy/assets/59739253/4d6fa7e6-6506-4f6d-aec3-68bd2d2abe1e)
+  ![wertsfy-icon](https://github.com/humbanew/wertsfy/assets/59739253/5b2241c6-080a-4354-ac25-77aa63c2765e)
 
   ![Typescript](https://img.shields.io/badge/typescript-black.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
   ![Javascript](https://img.shields.io/badge/javascript-black.svg?style=for-the-badge&logo=javascript&logoColor=yellow)

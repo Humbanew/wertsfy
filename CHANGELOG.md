@@ -4,6 +4,7 @@
 
 ### Other
 
+- Arrumando arquivos [`da5e0fef`](https://github.com/humbanew/wertsfy-next/commit/da5e0fefdd895d8e614828ca1bc54ae501ee650c)
 - Finalizando a calculadora em 95% - Construir as outras secções do projeto - III [`cd84de9f`](https://github.com/humbanew/wertsfy-next/commit/cd84de9fddfa12d6737b94d3c623381fdc26cca8)
 - Finalizando a calculadora em 95% - Construir as outras secções do projeto - II [`4a8121be`](https://github.com/humbanew/wertsfy-next/commit/4a8121be603810a22e258e0ea04763de48847075)
 - Finalizando a calculadora em 95% - Construir as outras secções do projeto [`b7f94449`](https://github.com/humbanew/wertsfy-next/commit/b7f944493f8871ebc06995e30c507aeffed28fdf)

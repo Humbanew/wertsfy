@@ -17,7 +17,10 @@
   "dependencies": {
     "babel": "^6.23.0",
     "copyfiles": "^2.4.1",
-    "ts-node": "^10.9.2"
+    "jquery": "^3.7.1",
+    "react": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "vite": "^5.2.11"
   },
   "bin": {
     "wtsfy": "dist/wtsfy.js"

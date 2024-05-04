@@ -4,6 +4,7 @@
 
 ### Other
 
+- Update README.md [`45d9f5a7`](https://github.com/humbanew/wertsfy-next/commit/45d9f5a749a5478ea8ad5355e9f395a2f05af167)
 - Construindo ultimas partes da calculadora [`227e8bd5`](https://github.com/humbanew/wertsfy-next/commit/227e8bd5ee41d5fef8b49ba1e84b18b8c1533146)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`141d5f10`](https://github.com/humbanew/wertsfy-next/commit/141d5f10d4fab9b91c7998781c35d5313ac5332c)
 - Fazendo atualizações em múltiplas bibliotecas [`1922241e`](https://github.com/humbanew/wertsfy-next/commit/1922241e68904cb9c62a3ec3dc23a601ca751ab9)

@@ -4,6 +4,7 @@
 
 ### Other
 
+- Adicionando pacotes [`2af0c328`](https://github.com/humbanew/wertsfy-next/commit/2af0c32877e78f20bf5380622a2e9b405264def0)
 - Adicionando pacotes [`908f59b6`](https://github.com/humbanew/wertsfy-next/commit/908f59b62e15019127045de5e06698bfa124a91c)
 - Arrumando arquivos [`b53655c5`](https://github.com/humbanew/wertsfy-next/commit/b53655c55c476818cc738d04e956bf1644d121d4)
 - Arrumando arquivos [`8fb3ba27`](https://github.com/humbanew/wertsfy-next/commit/8fb3ba27c42e2a0386ca08a474ac00d662519d2f)

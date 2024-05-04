@@ -19,26 +19,6 @@
 
 <div>
 
----
-
-## Objetivos 
-
-<div align="justify">
-  Unificar todos os módulos da futura calculadora modular e posteriormente adicionar novas funcionalidades de outras naturezas, como criação de arquivos, construção de páginas HTML/XHTML/Arquivos XML e outros.
-</div>
-
-## Funcionalidades
-
-❎ Command Line Interface <br>
-✅ Biblioteca Aritmeticos <br>
-❎ Biblioteca Aritmeticos 2020 <br>
-❎ Integração direta do Typescript no navegador <br>
-❎ Implementação de soluções API Rest <br>
-
-## Instalação
-
-  Informações disponíveis na Wiki.
-
 ## Documentação
 
   [Página Futura - Ainda em construção](https://humbanew.com.br/wertsfy)<br><br>

@@ -4,6 +4,8 @@
 
 ### Other
 
+- Finalizando a calculadora em 95% - Construir as outras secções do projeto - II [`4a8121be`](https://github.com/humbanew/wertsfy-next/commit/4a8121be603810a22e258e0ea04763de48847075)
+- Finalizando a calculadora em 95% - Construir as outras secções do projeto [`b7f94449`](https://github.com/humbanew/wertsfy-next/commit/b7f944493f8871ebc06995e30c507aeffed28fdf)
 - Update README.md [`45d9f5a7`](https://github.com/humbanew/wertsfy-next/commit/45d9f5a749a5478ea8ad5355e9f395a2f05af167)
 - Construindo ultimas partes da calculadora [`227e8bd5`](https://github.com/humbanew/wertsfy-next/commit/227e8bd5ee41d5fef8b49ba1e84b18b8c1533146)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`141d5f10`](https://github.com/humbanew/wertsfy-next/commit/141d5f10d4fab9b91c7998781c35d5313ac5332c)

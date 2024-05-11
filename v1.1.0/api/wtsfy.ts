@@ -10,10 +10,6 @@ import { Calculator } from "./libraries/hub_calculator";
 import { Cli } from "./libraries/hub_cli";
 import { Conversor } from "./libraries/hub_conversor";
 
-
-// criar modelo de API para o projeto
-import { createServer } from "http";
-
 export const wtsfy = {
   "@humbanew": {
     "@aritmeticos": Aritmeticos,

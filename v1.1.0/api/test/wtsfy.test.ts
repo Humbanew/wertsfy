@@ -1,3 +1,5 @@
+import { createServer } from "http";
 process.env.NODE_ENV = "development";
 
-$(document).get(0);
+
+createServer((req, res) => {}).listen(4040);

@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`e86f478d`](https://github.com/humbanew/wertsfy-next/commit/e86f478df2f577e7d6bb3b73f7ae8d6e0d7819d3)
+- Adicionando sqlite ao repo [`13c26ce7`](https://github.com/humbanew/wertsfy-next/commit/13c26ce71e227323bb63f23fc9e8a5aee256e5fd)
 - Adicionando pacotes [`2af0c328`](https://github.com/humbanew/wertsfy-next/commit/2af0c32877e78f20bf5380622a2e9b405264def0)
 - Adicionando pacotes [`908f59b6`](https://github.com/humbanew/wertsfy-next/commit/908f59b62e15019127045de5e06698bfa124a91c)
 - Arrumando arquivos [`b53655c5`](https://github.com/humbanew/wertsfy-next/commit/b53655c55c476818cc738d04e956bf1644d121d4)

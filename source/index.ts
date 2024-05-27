@@ -1,4 +1,5 @@
 import Aritmeticos from "./library/Aritmeticos.class";
+import Calculadora from "./library/Calculadora.class";
 
 export const Wertsfy = {
   especificacoes: {
@@ -7,5 +8,6 @@ export const Wertsfy = {
   },
   modulos: {
     "#aritmeticos": Aritmeticos,
+    "#calculadora": Calculadora
   }
 }

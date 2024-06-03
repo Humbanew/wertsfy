@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`2f830802`](https://github.com/humbanew/wertsfy-next/commit/2f830802b3530b5020700c09b40a83a0556ebad2)
+- Adicionando exemplo de addon nodejs [`e893f046`](https://github.com/humbanew/wertsfy-next/commit/e893f046780e8bcec04d9dbf3cc64b2433f89f4a)
 - Despachando código antigo já herdado [`bb291bee`](https://github.com/humbanew/wertsfy-next/commit/bb291bee79ae59ad6fad01d0f8195089a20ca2e6)
 - Organizando e Catalogando todos os módulos aritmeticos [`aad4cd7d`](https://github.com/humbanew/wertsfy-next/commit/aad4cd7d80912c8526c6c8b2c49810bb88065d6b)
 - Arrumando projeto [`faf2d460`](https://github.com/humbanew/wertsfy-next/commit/faf2d460a823f1aa12cdc7adc7e56fc1ba92b06f)

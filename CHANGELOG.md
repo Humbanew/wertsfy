@@ -4,6 +4,14 @@
 
 ### Other
 
+- Organizando e Catalogando todos os módulos aritmeticos [`aad4cd7d`](https://github.com/humbanew/wertsfy-next/commit/aad4cd7d80912c8526c6c8b2c49810bb88065d6b)
+- Arrumando projeto [`faf2d460`](https://github.com/humbanew/wertsfy-next/commit/faf2d460a823f1aa12cdc7adc7e56fc1ba92b06f)
+- Arrumando pastas e projetos [`57ec7a5b`](https://github.com/humbanew/wertsfy-next/commit/57ec7a5be622228d146e2577c19c72f8fa4f107f)
+- Arrumando classes [`8848c28c`](https://github.com/humbanew/wertsfy-next/commit/8848c28c4416a24212b6dee7b51ab41e0e164ab8)
+- Tentando entender a nova arquitetura [`9a6130cc`](https://github.com/humbanew/wertsfy-next/commit/9a6130cc2dadf1bef574c90a0dad2cf91de70124)
+- Tentando entender a nova arquitetura [`4f3bb31e`](https://github.com/humbanew/wertsfy-next/commit/4f3bb31e96a49c1b3d2b9b22703b7d4ff8bc1ab2)
+- Arrumando projeto [`dbf20346`](https://github.com/humbanew/wertsfy-next/commit/dbf20346c371f0c28d416e51170e62880bafe9e6)
+- Preparando terreno para a versão 1.1.0 [`7fb56135`](https://github.com/humbanew/wertsfy-next/commit/7fb5613535f56eeee90859183cd4ed033420dbae)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`e86f478d`](https://github.com/humbanew/wertsfy-next/commit/e86f478df2f577e7d6bb3b73f7ae8d6e0d7819d3)
 - Adicionando sqlite ao repo [`13c26ce7`](https://github.com/humbanew/wertsfy-next/commit/13c26ce71e227323bb63f23fc9e8a5aee256e5fd)
 - Adicionando pacotes [`2af0c328`](https://github.com/humbanew/wertsfy-next/commit/2af0c32877e78f20bf5380622a2e9b405264def0)

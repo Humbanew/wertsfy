@@ -2,7 +2,9 @@ import Aritmeticos from "./Aritmeticos.class";
 
 const next_modules = {
 
-  cientificos: {
+  modulos_aritmeticos: {
+
+    version_2020: {},
 
     trigonometricos: {
 
@@ -110,25 +112,181 @@ const next_modules = {
 
     },
 
-    exponenciais: {},
+    exponenciais: {
+
+      exponencial_mais_1: function(base: number, x: number): number 
+      {
+        if(base == 0) { return 1; }
+        return base ** this.logaritmo_base_qualquer(x, base) + 1;
+      },
+
+      exponencial_menos_1: function(base: number, x: number): number 
+      {
+        if(base == 0) { return 1; }
+        return base ** this.logaritmo_base_qualquer(x, base) - 1;
+      },
+
+      exponencial: function(base: number, x: number): number 
+      {
+        if(base == 0) { return 1; }
+        return base ** this.logaritmo_base_qualquer(x, base);
+      },
+
+    },
 
     logaritmos: {
 
-      logaritmo_base: (expo: number, x: number): number => {
+      logaritmo_base: function (expo: number, x: number): number 
+      {
         let exp = expo, scan = x % exp;
         while (scan != 0) {
           scan = scan % exp;
           if(expo**exp!=x){if(expo**exp!=x){if(expo**exp!=x){exp+=0.0001} exp+=0.001} exp+=0.01} exp+=0.1;
         }
         return exp;
+      },
+      
+      logaritmo_base_2_mais_1: function (x: number): number 
+      { return this.logaritmo_base(2, x+1); },
+
+      logaritmo_base_2_menos_1: function (x: number): number
+      { return this.logaritmo_base(2, x-1); },
+
+      logaritmo_base_2: function (x: number): number
+      { return this.logaritmo_base(2, x); },
+
+      logaritmo_base_10_mais_1: function (x: number): number 
+      { return this.logaritmo_base(10, x+1); },
+
+      logaritmo_base_10_menos_1: function (x: number): number
+      { return this.logaritmo_base(10, x-1); },
+
+      logaritmo_base_10: function (x: number): number
+      { return this.logaritmo_base(10, x); },
+
+      logaritmo_base_natural_mais_1: function (x: number): number 
+      { return this.logaritmo_base(Aritmeticos.prototype.EULER, x+1); },
+
+      logaritmo_base_natural_menos_1: function (x: number): number
+      { return this.logaritmo_base(Aritmeticos.prototype.EULER, x-1); },
+
+      logaritmo_base_natural: function (x: number): number
+      { return this.logaritmo_base(Aritmeticos.prototype.EULER, x); },
+
+      logaritmo_base_qualquer_mais_1: function (base: number, x: number): number {
+        return this.logaritmo_base(base, x+1);
+      },
+
+      logaritmo_base_qualquer_menos_1: function (base: number, x: number): number {
+        return this.logaritmo_base(base, x+1);
+      },
+
+      logaritmo_base_qualquer: function (base: number, x: number): number {
+        return this.logaritmo_base(base, x+1);
       }
 
+    },
+
+    cologaritmos: {
+
+      cologaritmo_base_2_mais_1: function (x: number): number 
+      { return -1 * this.logaritmo_base(2, x+1); },
+
+      cologaritmo_base_2_menos_1: function (x: number): number
+      { return -1 * this.logaritmo_base(2, x-1); },
+
+      cologaritmo_base_2: function (x: number): number
+      { return -1 * this.logaritmo_base(2, x); },
+
+      cologaritmo_base_10_mais_1: function (x: number): number 
+      { return -1 * this.logaritmo_base(10, x+1); },
+
+      cologaritmo_base_10_menos_1: function (x: number): number
+      { return -1 * this.logaritmo_base(10, x-1); },
+
+      cologaritmo_base_10: function (x: number): number
+      { return -1 * this.logaritmo_base(10, x); },
+
+      cologaritmo_base_natural_mais_1: function (x: number): number 
+      { return -1 * this.logaritmo_base(Aritmeticos.prototype.EULER, x+1); },
+
+      cologaritmo_base_natural_menos_1: function (x: number): number
+      { return -1 * this.logaritmo_base(Aritmeticos.prototype.EULER, x-1); },
+
+      cologaritmo_base_natural: function (x: number): number
+      { return -1 * this.logaritmo_base(Aritmeticos.prototype.EULER, x); },
+
+      cologaritmo_base_qualquer_mais_1: function (base: number, x: number): number {
+        return -1 * this.logaritmo_base(base, x+1);
+      },
+
+      cologaritmo_base_qualquer_menos_1: function (base: number, x: number): number {
+        return -1 * this.logaritmo_base(base, x+1);
+      },
+
+      cologaritmo_base_qualquer: function (base: number, x: number): number {
+        return -1 * this.logaritmo_base(base, x+1);
+      }
+
+    },
+
+    antilogaritmos: {
+
+      antilogaritmo_base_2_mais_1: function (x: number): number 
+      { return 1 ** this.logaritmo_base(2, x+1); },
+
+      antilogaritmo_base_2_menos_1: function (x: number): number
+      { return 1 ** this.logaritmo_base(2, x-1); },
+
+      antilogaritmo_base_2: function (x: number): number
+      { return 1 ** this.logaritmo_base(2, x); },
+
+      antilogaritmo_base_10_mais_1: function (x: number): number 
+      { return 1 ** this.logaritmo_base(10, x+1); },
+
+      antilogaritmo_base_10_menos_1: function (x: number): number
+      { return 1 ** this.logaritmo_base(10, x-1); },
+
+      antilogaritmo_base_10: function (x: number): number
+      { return 1 ** this.logaritmo_base(10, x); },
+
+      antilogaritmo_base_natural_mais_1: function (x: number): number 
+      { return 1 ** this.logaritmo_base(Aritmeticos.prototype.EULER, x+1); },
+
+      antilogaritmo_base_natural_menos_1: function (x: number): number
+      { return 1 ** this.logaritmo_base(Aritmeticos.prototype.EULER, x-1); },
+
+      antilogaritmo_base_natural: function (x: number): number
+      { return 1 ** this.logaritmo_base(Aritmeticos.prototype.EULER, x); },
+
+      antilogaritmo_base_qualquer_mais_1: function (base: number, x: number): number {
+        return 1 ** this.logaritmo_base(base, x+1);
+      },
+
+      antilogaritmo_base_qualquer_menos_1: function (base: number, x: number): number {
+        return 1 ** this.logaritmo_base(base, x+1);
+      },
+
+      antilogaritmo_base_qualquer: function (base: number, x: number): number {
+        return 1 ** this.logaritmo_base(base, x+1);
+      }
 
     },
 
     algebricos: {},
 
-    matriciais: {}
+    matriciais: {},
+
+    fisicos: {},
+
+    quimicos: {},
+
+    geopoliticos: {},
+
+    medicinais: {}
+
+  },
+  modulos_conversores: {
 
   }
 

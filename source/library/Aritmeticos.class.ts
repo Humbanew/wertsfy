@@ -17,7 +17,7 @@ export default class Aritmeticos {
   /**
    * Módulo da Constante da Raiz Cúbica de 1/4
    */
-  public CBRT_O1B04: number = 0.500000;
+  public CBRT_01B04: number = 0.500000;
 
   /**
    * Módulo da Constante da Raiz Cúbica de 1/6

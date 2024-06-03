@@ -4,6 +4,7 @@
 
 ### Other
 
+- Fazendo da v1.1.0 a v2.0.0 [`773e08e1`](https://github.com/humbanew/wertsfy-next/commit/773e08e1bae6132d1c25b8edff7e453b08c7099e)
 - Adicionando novo arquivo de tipos [`2e285c09`](https://github.com/humbanew/wertsfy-next/commit/2e285c095cc4b7b3e837ec8e55ff7052cee4051e)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`2f830802`](https://github.com/humbanew/wertsfy-next/commit/2f830802b3530b5020700c09b40a83a0556ebad2)
 - Adicionando exemplo de addon nodejs [`e893f046`](https://github.com/humbanew/wertsfy-next/commit/e893f046780e8bcec04d9dbf3cc64b2433f89f4a)

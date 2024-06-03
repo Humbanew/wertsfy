@@ -4,6 +4,7 @@
 
 ### Other
 
+- Despachando código antigo já herdado [`bb291bee`](https://github.com/humbanew/wertsfy-next/commit/bb291bee79ae59ad6fad01d0f8195089a20ca2e6)
 - Organizando e Catalogando todos os módulos aritmeticos [`aad4cd7d`](https://github.com/humbanew/wertsfy-next/commit/aad4cd7d80912c8526c6c8b2c49810bb88065d6b)
 - Arrumando projeto [`faf2d460`](https://github.com/humbanew/wertsfy-next/commit/faf2d460a823f1aa12cdc7adc7e56fc1ba92b06f)
 - Arrumando pastas e projetos [`57ec7a5b`](https://github.com/humbanew/wertsfy-next/commit/57ec7a5be622228d146e2577c19c72f8fa4f107f)

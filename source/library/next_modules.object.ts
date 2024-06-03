@@ -59,7 +59,7 @@ const next_modules = {
       subtracao_classic: function(){},
       subtracao_decimal_classic: function(){},
       tangente_classic: function(){},
-      tangente_hiperbolica_classic: function(){}
+      tangente_hiperbolica_classic: function(){},
 
     },
 

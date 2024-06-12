@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`0ed21150`](https://github.com/humbanew/wertsfy-next/commit/0ed21150c0e44f443a7db56234036d61eef5e67d)
+- Arrumando pastas [`b61067dd`](https://github.com/humbanew/wertsfy-next/commit/b61067dde256f28833899df9ecefd914c3484b28)
 - Integrando TS/JS com CPP [`94e6069a`](https://github.com/humbanew/wertsfy-next/commit/94e6069acefbc61fc30c5ddcfdd71ef80cf2d4c2)
 - Fazendo da v1.1.0 a v2.0.0 [`773e08e1`](https://github.com/humbanew/wertsfy-next/commit/773e08e1bae6132d1c25b8edff7e453b08c7099e)
 - Adicionando novo arquivo de tipos [`2e285c09`](https://github.com/humbanew/wertsfy-next/commit/2e285c095cc4b7b3e837ec8e55ff7052cee4051e)

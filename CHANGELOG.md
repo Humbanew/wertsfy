@@ -4,6 +4,8 @@
 
 ### Other
 
+- Fim do período de testes de arquitetura - 2020 a 2024 - Início versão 2.0.0 - II [`d8cdb723`](https://github.com/humbanew/wertsfy-next/commit/d8cdb7234c503e5e8a54af8a7f1272966b25618c)
+- Fim do período de testes de arquitetura - 2020 a 2024 - Início versão 2.0.0 [`7b8c6cbc`](https://github.com/humbanew/wertsfy-next/commit/7b8c6cbc2142dfb8d63aa35a107d3db6dc51277c)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`0ed21150`](https://github.com/humbanew/wertsfy-next/commit/0ed21150c0e44f443a7db56234036d61eef5e67d)
 - Arrumando pastas [`b61067dd`](https://github.com/humbanew/wertsfy-next/commit/b61067dde256f28833899df9ecefd914c3484b28)
 - Integrando TS/JS com CPP [`94e6069a`](https://github.com/humbanew/wertsfy-next/commit/94e6069acefbc61fc30c5ddcfdd71ef80cf2d4c2)

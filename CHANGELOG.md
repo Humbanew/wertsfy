@@ -4,6 +4,9 @@
 
 ### Other
 
+- Merge pull request #8 from humbanew/develop ([#8](https://github.com/humbanew/wertsfy-next/issues/8)) [`db015f40`](https://github.com/humbanew/wertsfy-next/commit/db015f408d7729e81bb3a9d844f2f30634d850c0)
+
+    *docs(Changelog): Update Changelog*
 - Fim do período de testes de arquitetura - 2020 a 2024 - Início versão 2.0.0 - II [`d8cdb723`](https://github.com/humbanew/wertsfy-next/commit/d8cdb7234c503e5e8a54af8a7f1272966b25618c)
 - Fim do período de testes de arquitetura - 2020 a 2024 - Início versão 2.0.0 [`7b8c6cbc`](https://github.com/humbanew/wertsfy-next/commit/7b8c6cbc2142dfb8d63aa35a107d3db6dc51277c)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`0ed21150`](https://github.com/humbanew/wertsfy-next/commit/0ed21150c0e44f443a7db56234036d61eef5e67d)

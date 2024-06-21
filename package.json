@@ -1,0 +1,18 @@
+{
+  "name": "wertsfy-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.2",
+    "electron": "^31.0.1",
+    "typescript": "^5.4.5"
+  }
+}

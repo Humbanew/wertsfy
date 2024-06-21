@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "rid9.datetime",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "ms-ceintl.vscode-language-pack-pt-br",
+    "narasimapandiyan.jetbrainsmono",
+    "johnpapa.winteriscoming",
+    "miguelsolorio.symbols",
+    "oderwat.indent-rainbow",
+    "naumovs.color-highlight"
+  ]
+}

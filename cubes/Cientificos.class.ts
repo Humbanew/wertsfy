@@ -4,7 +4,7 @@ import { Cologaritmos } from "./Cologaritmos.class";
 import { Exponenciais } from "./Exponenciais.class";
 import { Logaritmos } from "./Logaritmos.class";
 import { Trigonometricos } from "./Trigonometricos.class";
-import { ICModules } from "./modulesDeclares";
+import { ICModules } from "./modules";
 
 export abstract class Cientificos implements ICModules {
   public trigonometricos: Trigonometricos;

@@ -5,7 +5,7 @@
 import { Cientificos } from "./cubes/Cientificos.class";
 import { Comuns } from "./cubes/Comuns.class";
 import { Supremos } from "./cubes/Supremos.class";
-import { IModules } from "./cubes/modulesDeclares";
+import { IModules } from "./cubes/modules";
 
 export default class Aritmeticos implements IModules {
   public comuns: Comuns;

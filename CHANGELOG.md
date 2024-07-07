@@ -4,6 +4,7 @@
 
 ### Other
 
+- fazendo ajustes de diretórios pertinentes [`935fc24b`](https://github.com/humbanew/wertsfy-next/commit/935fc24bd5088799ff0761a69a4364899e16d977)
 - Merge pull request #8 from humbanew/develop ([#8](https://github.com/humbanew/wertsfy-next/issues/8)) [`db015f40`](https://github.com/humbanew/wertsfy-next/commit/db015f408d7729e81bb3a9d844f2f30634d850c0)
 
     *docs(Changelog): Update Changelog*

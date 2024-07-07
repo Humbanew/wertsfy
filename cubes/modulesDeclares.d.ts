@@ -3,16 +3,12 @@ import { ArcosTrigonometricos } from "./ArcosTrigonometricos.class";
 import { Cientificos } from "./Cientificos.class";
 import { Cologaritmos } from "./Cologaritmos.class";
 import { Comuns } from "./Comuns.class";
+import { Conversores } from "./Conversores.class";
 import { Exponenciais } from "./Exponenciais.class";
 import { Geometricos } from "./Geometricos.class";
 import { Logaritmos } from "./Logaritmos.class";
 import { Supremos } from "./Supremos.class";
 import { Trigonometricos } from "./Trigonometricos.class";
-
-// a intenção original era usar esta interface com o atributo satisfies, encontrar instruções de como realizar tal procedimento.
-declare interface ModuleDeclaration {
-  [key: number]: ClassDecorator
-}
 
 export declare interface IModules {
   /**
@@ -68,4 +64,9 @@ export declare interface ISModules {
    * Funções modulares de natureza suprema geométricos
    */
   geometricos: Geometricos
+
+  /**
+   * Funções modulares de natureza suprema conversoras
+   */
+  conversores: Conversores
 }

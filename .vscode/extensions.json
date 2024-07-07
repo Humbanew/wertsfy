@@ -3,13 +3,9 @@
     "github.copilot",
     "github.copilot-chat",
     "rid9.datetime",
+    "naumovs.color-highlight",
+    "evondev.indent-rainbow-palettes",
     "visualstudioexptteam.vscodeintellicode",
-    "visualstudioexptteam.intellicode-api-usage-examples",
-    "ms-ceintl.vscode-language-pack-pt-br",
-    "narasimapandiyan.jetbrainsmono",
-    "johnpapa.winteriscoming",
-    "miguelsolorio.symbols",
-    "oderwat.indent-rainbow",
-    "naumovs.color-highlight"
+    "visualstudioexptteam.intellicode-api-usage-examples"
   ]
 }

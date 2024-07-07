@@ -4,6 +4,8 @@
 
 ### Other
 
+- Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`15f99738`](https://github.com/humbanew/wertsfy-next/commit/15f99738556c0b8e2351059c054af4bc2ed0c75f)
+- fazendo ajustes de diretórios pertinentes [`7d8472ab`](https://github.com/humbanew/wertsfy-next/commit/7d8472ab581f4928f90c99f8bb31ceacdcd8ef48)
 - fazendo ajustes de diretórios pertinentes [`935fc24b`](https://github.com/humbanew/wertsfy-next/commit/935fc24bd5088799ff0761a69a4364899e16d977)
 - Merge pull request #8 from humbanew/develop ([#8](https://github.com/humbanew/wertsfy-next/issues/8)) [`db015f40`](https://github.com/humbanew/wertsfy-next/commit/db015f408d7729e81bb3a9d844f2f30634d850c0)
 

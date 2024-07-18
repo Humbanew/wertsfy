@@ -10,7 +10,7 @@
 
   ---
 
-  ![Wertsfy-Logo](https://github.com/user-attachments/assets/dd68b87a-42f0-4cce-81ca-f4bb1948c90f)
+  ![Wertsfy-Logo](https://github.com/user-attachments/assets/7b5bd86e-3a0e-4546-b163-0c5d80567bbb)
 
 <div>
 

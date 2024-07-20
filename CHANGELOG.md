@@ -4,6 +4,7 @@
 
 ### Other
 
+- Instalando Arquitetura Cubes final [`c49f9f06`](https://github.com/humbanew/wertsfy-next/commit/c49f9f06e0390fb188c77d489d50da1abcd098f6)
 - Update README.md [`ab434a39`](https://github.com/humbanew/wertsfy-next/commit/ab434a39c60bda363861abc725573e55cebba49d)
 - Update README.md [`f8638d45`](https://github.com/humbanew/wertsfy-next/commit/f8638d458e067f6e5121cae6f3fd11e655845688)
 - Merge branch 'develop' of github.com:humbanew/wertsfy-next into develop [`15f99738`](https://github.com/humbanew/wertsfy-next/commit/15f99738556c0b8e2351059c054af4bc2ed0c75f)

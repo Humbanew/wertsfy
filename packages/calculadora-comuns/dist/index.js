@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Comuns_class_1 = require("./Comuns.class");
+var comuns = new Comuns_class_1.Comuns();
+module.exports(comuns);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUF3QztBQUV4QyxJQUFJLE1BQU0sR0FBRyxJQUFJLHFCQUFNLEVBQUUsQ0FBQztBQUUxQixNQUFNLENBQUMsT0FBTyxDQUFFLE1BQU0sQ0FBRSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tdW5zIH0gZnJvbSBcIi4vQ29tdW5zLmNsYXNzXCI7XHJcblxyXG52YXIgY29tdW5zID0gbmV3IENvbXVucygpO1xyXG5cclxubW9kdWxlLmV4cG9ydHMoIGNvbXVucyApOyJdfQ==

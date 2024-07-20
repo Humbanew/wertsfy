@@ -9,6 +9,7 @@
     "narasimapandiyan.jetbrainsmono",
     "oderwat.indent-rainbow",
     "esbenp.prettier-vscode",
-    "pkief.material-icon-theme"
+    "pkief.material-icon-theme",
+    "eamodio.gitlens"
   ]
 }

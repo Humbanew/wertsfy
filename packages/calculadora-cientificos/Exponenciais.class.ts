@@ -1,14 +1,15 @@
 import { Logaritmos } from "./Logaritmos.class";
 
-export abstract class Exponenciais extends Logaritmos {
-
+export abstract class Exponenciais extends Logaritmos 
+{
   /**
    * Módulo da Exponencial mais 1
    * @param base base da exponencial.
    * @param x valor real numérico.
    * @returns retorna o valor da exponencial encontrada.
    */
-  public exponencial_mais_1(base: number, x: number): number {
+  public exponencial_mais_1(base: number, x: number): number 
+  {
     if (base == 0) {
       return 1;
     }
@@ -21,7 +22,8 @@ export abstract class Exponenciais extends Logaritmos {
    * @param x valor real numérico.
    * @returns retorna o valor da exponencial encontrada.
    */
-  public exponencial_menos_1(base: number, x: number): number {
+  public exponencial_menos_1(base: number, x: number): number 
+  {
     if (base == 0) {
       return 1;
     }
@@ -34,7 +36,8 @@ export abstract class Exponenciais extends Logaritmos {
    * @param x valor real numérico.
    * @returns retorna o valor da exponencial encontrada.
    */
-  public exponencial(base: number, x: number): number {
+  public exponencial(base: number, x: number): number 
+  {
     if (base == 0) {
       return 1;
     }

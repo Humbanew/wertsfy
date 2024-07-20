@@ -1,11 +1,7 @@
-type TOperadoresBinarios =
-  | "SOMA"
-  | "SUBTRACAO"
-  | "DIVISAO"
-  | "MULTIPLICACAO"
-  | "RESTO";
+enum OperadoresBinarios {"SOMA", "SUBTRACAO", "DIVISAO", "MULTIPLICACAO", "RESTO"};
 
-export abstract class Comuns {
+export class Comuns 
+{
   /**
    * Módulo de Soma, Subtração, Multiplicação, Divisão e Resto de Numerais Reais
    * @param op operação que será usada na lista de números.
@@ -13,26 +9,27 @@ export abstract class Comuns {
    * @returns o valor numérico final da operação fundamental realizada.
    */
   public operacoes_fundamentais(
-    op: TOperadoresBinarios,
+    op: OperadoresBinarios,
     ...valores: number[]
-  ): number {
+  ): number 
+  {
     let total: number = 0;
 
     for (let i = 0; i < valores.length; i += 2) {
       switch (op) {
-        case "SOMA":
+        case OperadoresBinarios.SOMA:
           if (valores[i + 1] == null) total = valores[i] + 0;
           total = valores[i] + valores[i + 1];
-        case "SUBTRACAO":
+        case OperadoresBinarios.SUBTRACAO:
           if (valores[i + 1] == null) total = valores[i] - 0;
           total = valores[i] - valores[i + 1];
-        case "MULTIPLICACAO":
+        case OperadoresBinarios.MULTIPLICACAO:
           if (valores[i + 1] == null) total = valores[i] * 1;
           total = valores[i] * valores[i + 1];
-        case "DIVISAO":
+        case OperadoresBinarios.DIVISAO:
           if (valores[i + 1] == null) total = valores[i] / 1;
           total = valores[i] / valores[i + 1];
-        case "RESTO":
+        case OperadoresBinarios.RESTO:
           if (valores[i + 1] == null) total = valores[i] % 1;
           total = valores[i] / valores[i + 1];
       }
@@ -49,7 +46,8 @@ export abstract class Comuns {
    * @returns retorna o valor da potência de um número.
    * @see Não usar ``m1`` e ``M1`` ao mesmo tempo, retornará um erro caso ocorra.
    */
-  public potencia(a: number, b: number, M1?: boolean, m1?: boolean): number {
+  public potencia(a: number, b: number, M1?: boolean, m1?: boolean): number 
+  {
     if (M1 == true && m1 == true) {
       throw new Error(
         "Não é possível habilitar ambos ao mesmo tempo [M1] e [m1]"
@@ -78,7 +76,8 @@ export abstract class Comuns {
     b: number[],
     M1?: boolean,
     m1?: boolean
-  ): number {
+  ): number 
+  {
     let i: number = 0,
       r: number = 0;
     while (i < b.length) {
@@ -106,7 +105,8 @@ export abstract class Comuns {
    * @param x valor da potência de 2.
    * @returns retorna o valor real da potência de 2 calculada.
    */
-  protected potencia_2_x(x: number): number {
+  protected potencia_2_x(x: number): number 
+  {
     return 2 ** x;
   }
 
@@ -115,7 +115,8 @@ export abstract class Comuns {
    * @param x valor da potência de 10.
    * @returns retorna o valor real da potência de 10 calculada.
    */
-  protected potencia_10_x(x: number): number {
+  protected potencia_10_x(x: number): number 
+  {
     return 10 ** x;
   }
 
@@ -124,7 +125,8 @@ export abstract class Comuns {
    * @param a valor
    * @returns retorna o valor da raiz quadrada numérica.
    */
-  public raiz_quadrada(a: number): number {
+  public raiz_quadrada(a: number): number 
+  {
     return a ** (1 / 2);
   }
 
@@ -133,7 +135,8 @@ export abstract class Comuns {
    * @param a valor
    * @returns retorna o valor da raiz cúbica numérica.
    */
-  public raiz_cubica(a: number): number {
+  public raiz_cubica(a: number): number 
+  {
     return a ** (1 / 3);
   }
 
@@ -143,7 +146,8 @@ export abstract class Comuns {
    * @param n valor do índice da raiz
    * @returns retorna o valor da raiz enésima numérica.
    */
-  public raiz_enesima(a: number, n: number): number {
+  public raiz_enesima(a: number, n: number): number 
+  {
     return a ** (1 / n);
   }
 
@@ -152,7 +156,8 @@ export abstract class Comuns {
    * @param x valor
    * @returns retorna o valor absoluto.
    */
-  public absoluto(x: number): number {
+  public absoluto(x: number): number 
+  {
     return x < 0 ? -1 * x : x;
   }
 }

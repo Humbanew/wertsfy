@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Cientificos_class_1 = require("./Cientificos.class");
+var cientificos = new Cientificos_class_1.Cientificos();
+module.exports(cientificos);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDJEQUFrRDtBQUVsRCxJQUFJLFdBQVcsR0FBRyxJQUFJLCtCQUFXLEVBQUUsQ0FBQztBQUVwQyxNQUFNLENBQUMsT0FBTyxDQUFFLFdBQVcsQ0FBRSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ2llbnRpZmljb3MgfSBmcm9tIFwiLi9DaWVudGlmaWNvcy5jbGFzc1wiO1xyXG5cclxudmFyIGNpZW50aWZpY29zID0gbmV3IENpZW50aWZpY29zKCk7XHJcblxyXG5tb2R1bGUuZXhwb3J0cyggY2llbnRpZmljb3MgKTtcclxuIl19

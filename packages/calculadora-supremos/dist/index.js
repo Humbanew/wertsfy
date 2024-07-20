@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Supremos_class_1 = require("./Supremos.class");
+var supremos = new Supremos_class_1.Supremos();
+module.exports(supremos);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHFEQUE0QztBQUU1QyxJQUFJLFFBQVEsR0FBRyxJQUFJLHlCQUFRLEVBQUUsQ0FBQztBQUU5QixNQUFNLENBQUMsT0FBTyxDQUFFLFFBQVEsQ0FBRSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgU3VwcmVtb3MgfSBmcm9tIFwiLi9TdXByZW1vcy5jbGFzc1wiO1xyXG5cclxudmFyIHN1cHJlbW9zID0gbmV3IFN1cHJlbW9zKCk7XHJcblxyXG5tb2R1bGUuZXhwb3J0cyggc3VwcmVtb3MgKTtcclxuIl19

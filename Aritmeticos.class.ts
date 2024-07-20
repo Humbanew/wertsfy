@@ -2,15 +2,35 @@
  * @author Humbanew Project ©️ 2021-2024. Todos os direitos reservados.
  */
 
-import { Cientificos } from "./cubes/Cientificos.class";
-import { Comuns } from "./cubes/Comuns.class";
-import { Supremos } from "./cubes/Supremos.class";
-import { IModules } from "./cubes/modules";
+import { Cientificos } from "@humbanew/calculadora-cientificos/Cientificos.class";
+import { Comuns } from "@humbanew/calculadora-comuns/Comuns.class";
+import { Supremos } from "@humbanew/calculadora-supremos/Supremos.class";
 
-export default class Aritmeticos implements IModules {
-  public comuns: Comuns;
-  public cientificos: Cientificos;
-  public supremos: Supremos;
+export default class Aritmeticos 
+{ 
+  /**
+   * Módulo da Biblioteca de Funcionalidades 
+   * @returns As funcionalidades aritméticas.
+   */
+  public funcionalidades(): object 
+  {
+    return {
+      /**
+       * Componente das funcionalidades comuns
+       */
+      comuns: Comuns.prototype,
+
+      /**
+       * Componente das funcionalidades científicas
+       */
+      cientificos: Cientificos.prototype,
+
+      /**
+       * Componente das funcionalidades supremas
+       */
+      supremos: Supremos.prototype
+    }
+  }
 
   /**
    * Módulo da Constante de Avogadro

@@ -2,10 +2,10 @@
 
 <div align="center"> 
 
-  ![wertsfy-icon](https://github.com/humbanew/wertsfy/assets/59739253/5b2241c6-080a-4354-ac25-77aa63c2765e)
+  ![wertsfy-icon](https://github.com/user-attachments/assets/ff5bfd34-3bfa-4f0c-a0e9-51abe5c2c7f7)
 
-  ![Typescript](https://img.shields.io/badge/typescript-cyan.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
-  ![Javascript](https://img.shields.io/badge/javascript-cyan.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
+  ![Typescript](https://img.shields.io/badge/typescript-111111.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
+  ![Javascript](https://img.shields.io/badge/javascript-111111.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
 
 </div>
 

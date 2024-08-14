@@ -4,6 +4,7 @@
 
 ### Other
 
+- Transformando o repositório em Wertsfy Packages [`686dd1f9`](https://github.com/humbanew/wertsfy-next/commit/686dd1f94b39209c397eb068e7933db07c05457f)
 - Arquivos pré-Flux UI [`a1c3fbfe`](https://github.com/humbanew/wertsfy-next/commit/a1c3fbfea3726a5cdd276a54150a6888e8a04f66)
 - Instalando Arquitetura Cubes final [`c49f9f06`](https://github.com/humbanew/wertsfy-next/commit/c49f9f06e0390fb188c77d489d50da1abcd098f6)
 - Update README.md [`ab434a39`](https://github.com/humbanew/wertsfy-next/commit/ab434a39c60bda363861abc725573e55cebba49d)

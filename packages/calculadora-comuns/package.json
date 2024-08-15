@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "humbanew",
-  "repository": "https://github.com/humbanew/wertsfy-next.git",
+  "repository": "https://github.com/humbanew/wertsfy-packages.git",
   "license": "MIT License adapted by Humbanew, described as HN License v5",
   "description": "Humbanew Fragments - Calculadora Comuns - Tipo Lógico",
   "dependencies": {

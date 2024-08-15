@@ -1,5 +1,2 @@
 import { Comuns } from "./Comuns.class";
-
-var comuns = new Comuns();
-
-module.exports( comuns );
+export var comuns = new Comuns();

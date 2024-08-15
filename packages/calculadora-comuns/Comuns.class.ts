@@ -1,4 +1,4 @@
-enum OperadoresBinarios {"SOMA", "SUBTRACAO", "DIVISAO", "MULTIPLICACAO", "RESTO"};
+type OperadoresBinarios = "SOMA" | "SUBTRACAO" | "DIVISAO" | "MULTIPLICACAO" | "RESTO";
 
 export class Comuns 
 {
@@ -17,19 +17,19 @@ export class Comuns
 
     for (let i = 0; i < valores.length; i += 2) {
       switch (op) {
-        case OperadoresBinarios.SOMA:
+        case "SOMA":
           if (valores[i + 1] == null) total = valores[i] + 0;
           total = valores[i] + valores[i + 1];
-        case OperadoresBinarios.SUBTRACAO:
+        case "SUBTRACAO":
           if (valores[i + 1] == null) total = valores[i] - 0;
           total = valores[i] - valores[i + 1];
-        case OperadoresBinarios.MULTIPLICACAO:
+        case "MULTIPLICACAO":
           if (valores[i + 1] == null) total = valores[i] * 1;
           total = valores[i] * valores[i + 1];
-        case OperadoresBinarios.DIVISAO:
+        case "DIVISAO":
           if (valores[i + 1] == null) total = valores[i] / 1;
           total = valores[i] / valores[i + 1];
-        case OperadoresBinarios.RESTO:
+        case "RESTO":
           if (valores[i + 1] == null) total = valores[i] % 1;
           total = valores[i] / valores[i + 1];
       }

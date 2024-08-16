@@ -11,14 +11,19 @@
     "rootDir": "./",
     "outDir": "dist",
     "diagnostics": true,
-    "extendedDiagnostics": true
+    "extendedDiagnostics": true,
+    "isolatedModules": true,
+    "importHelpers": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./Comuns.class.ts",
+    "./dist/Comuns.class.js"
   ],
   "buildOptions": {
     "verbose": true,
-    "incremental": true,
+    "incremental": false,
     "traceResolution": true
-  }
+  },
+  "compileOnSave": true,
 }

@@ -1,2 +1,2 @@
 import { Comuns } from "./Comuns.class";
-export var comuns = new Comuns();
+export const FragmentComuns = Comuns.prototype;

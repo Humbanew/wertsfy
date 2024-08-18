@@ -1,15 +1,20 @@
 {
-  "name": "@humbanew/calculadora-supremos",
-  "version": "0.0.1-gamma.1",
-  "main": "index.js",
+  "name": "@humbanew/ftl-calc-supremos",
+  "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc --outDir ../dist-hnfragments",
     "transform": "tsc"
   },
+
+  "exports": {
+    ".": "./dist/index.js",
+    "./ts": "./index.ts"
+  },
+
   "keywords": [],
   "author": "humbanew",
-  "repository": "https://github.com/humbanew/wertsfy-next.git",
+  "repository": "https://github.com/humbanew/wertsfy-packages.git",
   "license": "MIT License adapted by Humbanew, described as HN License v5",
   "description": "Humbanew Fragments - Calculadora Supremos - Tipo Lógico",
   "dependencies": {

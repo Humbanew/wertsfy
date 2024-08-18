@@ -1,14 +1,17 @@
 {
   "name": "@humbanew/ftl-calc-comuns",
-  "version": "0.0.1-5",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc --outDir ../dist-hnfragments",
     "transform": "tsc"
   },
-  "bin": "./",
-  "icon": "./calc-comuns-icon.png",
+  
+  "exports": {
+    ".": "./dist/index.js",
+    "./ts": "./index.ts"
+  },
+  
   "keywords": [],
   "author": "humbanew",
   "repository": "https://github.com/humbanew/wertsfy-packages.git",

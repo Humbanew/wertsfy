@@ -17,8 +17,6 @@
   },
   "exclude": [
     "node_modules",
-    "./Comuns.class.ts",
-    "./dist/Comuns.class.js"
   ],
   "buildOptions": {
     "verbose": true,

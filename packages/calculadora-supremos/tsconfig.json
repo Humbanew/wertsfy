@@ -11,9 +11,17 @@
     "rootDir": "./",
     "outDir": "dist",
     "diagnostics": true,
-    "extendedDiagnostics": true
+    "extendedDiagnostics": true,
+    "isolatedModules": true,
+    "importHelpers": true
   },
   "exclude": [
-    "node_modules"
-  ]
+    "node_modules",
+  ],
+  "buildOptions": {
+    "verbose": true,
+    "incremental": false,
+    "traceResolution": true
+  },
+  "compileOnSave": true,
 }

@@ -1,0 +1,20 @@
+{
+  "name": "wertsfy",
+  "version": "0.0.1",
+  "main": "test.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@humbanew/ftl-calc-cientificos": "^0.0.0",
+    "@humbanew/ftl-calc-comuns": "^0.0.0",
+    "@humbanew/ftl-calc-supremos": "^0.0.0"
+  }
+}

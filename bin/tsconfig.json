@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "moduleDetection": "auto",
+    "target": "ESNext",
+    "outDir": "./distribuicao"
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "packages"
+  ]
+}

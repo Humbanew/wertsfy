@@ -4,6 +4,10 @@ import { Trigonometricos } from "./Trigonometricos.class";
 export abstract class ArcosTrigonometricos extends Trigonometricos 
 {
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Seno
    * @param x valor real numérico.
    * @returns retorna o valor do arco seno entre 0 e 1.
@@ -14,6 +18,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cosseno
    * @param x valor real numérico.
    * @returns retorna o valor do arco cosseno entre 0 e 1.
@@ -24,6 +32,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Tangente
    * @param x valor real numérico.
    * @returns retorna o valor do arco tangente entre 0 e 1.
@@ -34,6 +46,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Secante
    * @param x valor real numérico.
    * @returns retorna o valor do arco secante entre 0 e 1.
@@ -44,6 +60,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cosecante
    * @param x valor real numérico.
    * @returns retorna o valor do arco cosecante entre 0 e 1.
@@ -54,6 +74,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cotangente
    * @param x valor real numérico.
    * @returns retorna o valor do arco cotangente entre 0 e 1.
@@ -64,6 +88,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Seno Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco seno hiperbólico.
@@ -74,6 +102,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
   
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cosseno Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco cosseno hiperbólico.
@@ -84,6 +116,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Tangente Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco tangente hiperbólico.
@@ -94,6 +130,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Secante Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco secante hiperbólico.
@@ -104,6 +144,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cosecante Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco cosecante hiperbólico.
@@ -114,6 +158,10 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
+   * ![](./assets/docs/minibanner-calculadora.png)
+   * ___
+   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ___
    * Módulo do Arco Cotangente Hiperbólico
    * @param x valor real numérico.
    * @returns retorna o valor do arco cotangente hiperbólico.

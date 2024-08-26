@@ -1,3 +1,6 @@
+/**
+ * @todo Componente com necessidade de atualizações, módulos incompletos ou não implementados.
+ */
 export abstract class Complexos 
 {
 // ainda em revisão de construção

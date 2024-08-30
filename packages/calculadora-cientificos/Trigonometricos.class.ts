@@ -4,9 +4,9 @@ import { Exponenciais } from "./Exponenciais.class";
 export abstract class Trigonometricos 
 {
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo do Seno
    * @param x valor real numérico.
@@ -18,9 +18,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo do Cosseno
    * @param x valor real numérico.
@@ -32,9 +32,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Tangente
    * @param x valor real numérico.
@@ -46,9 +46,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Secante
    * @param x valor real numérico.
@@ -60,9 +60,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Cosecante
    * @param x valor real numérico.
@@ -74,9 +74,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Cotangente
    * @param x valor real numérico.
@@ -88,9 +88,9 @@ export abstract class Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo do Seno Hiperbólico
    * @param x valor real numérico.
@@ -102,9 +102,9 @@ export abstract class Trigonometricos
   };
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo do Cosseno Hiperbólico
    * @param x valor real numérico.
@@ -116,9 +116,9 @@ export abstract class Trigonometricos
   };
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Tangente Hiperbólica
    * @param x valor real numérico.
@@ -130,9 +130,9 @@ export abstract class Trigonometricos
   };
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Secante Hiperbólica
    * @param x valor real numérico.
@@ -144,9 +144,9 @@ export abstract class Trigonometricos
   };
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Cosecante Hiperbólica
    * @param x valor real numérico.
@@ -158,9 +158,9 @@ export abstract class Trigonometricos
   };
   
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-trigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-trigonometricos.png)
    * ___
    * Módulo da Cotangente Hiperbólica
    * @param x valor real numérico.

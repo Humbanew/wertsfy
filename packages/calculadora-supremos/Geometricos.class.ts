@@ -2,9 +2,9 @@ import { PI, SQRT_03 } from "./constantes";
 
 export abstract class Geometricos {
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Quadrado
    * @param l valor real do lado.
@@ -16,9 +16,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Retângulo
    * @param l valor real da largura.
@@ -31,9 +31,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área da Circunferência
    * @param r valor do raio da circunferência.
@@ -45,9 +45,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Círculo
    * @param r valor do raio do círculo.
@@ -59,9 +59,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Triângulo
    * @param b valor real da base.
@@ -74,9 +74,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Triângulo Equilátero
    * @param l valor real do lado.
@@ -88,9 +88,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Apótema do Triângulo Equilátero
    * @param l valor real do lado.
@@ -102,9 +102,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área da Esfera
    * @param r valor real do raio.
@@ -116,9 +116,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Volume da Esfera
    * @param r valor real do raio.
@@ -130,9 +130,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Volume do Cubo
    * @param l valor real do lado.
@@ -144,9 +144,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Volume do Paralelepípedo
    * @param l valor real da largura.
@@ -160,9 +160,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Losango
    * @param D valor real da diagonal maior.
@@ -175,9 +175,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Trapézio
    * @param B valor real da base maior.
@@ -191,9 +191,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo da Área do Cilindro
    * @param r valor real do raio.
@@ -206,9 +206,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Volume do Cone e/ou da Pirâmide
    * @param b valor real da base.
@@ -221,9 +221,9 @@ export abstract class Geometricos {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-supremos.png) ![](./assets/docs/tag-supr-geometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
    * ___
    * Módulo do Polígono Regular Enésimo
    * @param n valor real da quantidade de lados.

@@ -4,9 +4,9 @@
 export abstract class Essenciais {
   
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Módulo do maior valor entre os valores fornecidos.
    * @param values Numeric expressions to be evaluated.
@@ -23,9 +23,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Módulo do menor valor entre os valores fornecidos.
    * @param values Expressões numéricas a serem avaliadas.
@@ -53,9 +53,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the number of leading zero bits in the 32-bit binary representation of a number.
    * @param x A numeric expression.
@@ -65,9 +65,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the result of 32-bit multiplication of two numbers.
    * @param x First number
@@ -78,9 +78,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the sign of the x, indicating whether x is positive, negative or zero.
    * @param x The numeric expression to test
@@ -90,9 +90,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the square root of the sum of squares of its arguments.
    * @param values Values to compute the square root for.
@@ -107,9 +107,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the integral part of the a numeric expression, x, removing any fractional digits.
    * If x is already an integer, the result is x.
@@ -120,9 +120,9 @@ export abstract class Essenciais {
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-essenciais.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
    * ___
    * Returns the nearest single precision float representation of a number.
    * @param x A numeric expression.

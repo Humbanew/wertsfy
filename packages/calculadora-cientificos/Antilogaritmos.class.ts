@@ -4,9 +4,9 @@ import { Logaritmos } from "./Logaritmos.class";
 export abstract class Antilogaritmos extends Logaritmos 
 {
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 2 mais 1
    * @param x valor real do logaritimando.
@@ -18,9 +18,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 2 menos 1
    * @param x valor real do logaritimando.
@@ -32,9 +32,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 2
    * @param x valor real do logaritimando.
@@ -46,9 +46,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 10 mais 1
    * @param x valor real do logaritimando.
@@ -60,9 +60,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 10 menos 1
    * @param x valor real do logaritimando.
@@ -74,9 +74,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base 10
    * @param x valor real do logaritimando.
@@ -88,9 +88,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Natural mais 1
    * @param x valor real do logaritimando.
@@ -102,9 +102,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Natural menos 1
    * @param x valor real do logaritimando.
@@ -116,9 +116,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Natural
    * @param x valor real do logaritimando.
@@ -130,9 +130,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Qualquer mais 1
    * @param base valor real da base logaritmica
@@ -145,9 +145,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Qualquer menos 1
    * @param base valor real da base logaritmica
@@ -160,9 +160,9 @@ export abstract class Antilogaritmos extends Logaritmos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-antilogaritmos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-antilogaritmos.png)
    * ___
    * Módulo do Antilogaritmo na Base Qualquer
    * @param base valor real da base logaritmica

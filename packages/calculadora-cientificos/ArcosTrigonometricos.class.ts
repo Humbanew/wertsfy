@@ -4,9 +4,9 @@ import { Trigonometricos } from "./Trigonometricos.class";
 export abstract class ArcosTrigonometricos extends Trigonometricos 
 {
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Seno
    * @param x valor real numérico.
@@ -18,9 +18,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cosseno
    * @param x valor real numérico.
@@ -32,9 +32,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Tangente
    * @param x valor real numérico.
@@ -46,9 +46,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Secante
    * @param x valor real numérico.
@@ -60,9 +60,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cosecante
    * @param x valor real numérico.
@@ -74,9 +74,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cotangente
    * @param x valor real numérico.
@@ -88,9 +88,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Seno Hiperbólico
    * @param x valor real numérico.
@@ -102,9 +102,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
   
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cosseno Hiperbólico
    * @param x valor real numérico.
@@ -116,9 +116,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Tangente Hiperbólico
    * @param x valor real numérico.
@@ -130,9 +130,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Secante Hiperbólico
    * @param x valor real numérico.
@@ -144,9 +144,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cosecante Hiperbólico
    * @param x valor real numérico.
@@ -158,9 +158,9 @@ export abstract class ArcosTrigonometricos extends Trigonometricos
   }
 
   /**
-   * ![](./assets/docs/minibanner-calculadora.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
    * ___
-   * ![](./assets/docs/tag-calculadora.png) ![](./assets/docs/tag-cientificos.png) ![](./assets/docs/tag-cien-arctrigonometricos.png)
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-arctrigonometricos.png)
    * ___
    * Módulo do Arco Cotangente Hiperbólico
    * @param x valor real numérico.

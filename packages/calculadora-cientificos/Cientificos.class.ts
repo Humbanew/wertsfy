@@ -6,9 +6,9 @@ import { Exponenciais } from "./Exponenciais.class";
 import { Logaritmos } from "./Logaritmos.class";
 import { Trigonometricos } from "./Trigonometricos.class";
 
-interface IFAntilogaritmos
+interface IFLogaritmos
 {
-  "@antilogarítmos": Antilogaritmos
+  "@logarítmos": Antilogaritmos & Cologaritmos
 }
 
 interface IFArcosTrigonometricos
@@ -16,19 +16,10 @@ interface IFArcosTrigonometricos
   "@arcosTrigonométricos": ArcosTrigonometricos
 }
 
-interface IFCologaritmos
-{
-  "@cologarítmos": Cologaritmos
-}
 
 interface IFExponenciais
 {
   "@exponenciais": Exponenciais
-}
-
-interface IFLogaritmos
-{
-  "@logarítmos": Logaritmos
 }
 
 interface IFTrigonometricos
@@ -41,13 +32,11 @@ interface IFEssenciais
   "@essenciais": Essenciais
 }
 
-export class Cientificos implements IFAntilogaritmos, IFArcosTrigonometricos, IFCologaritmos, IFExponenciais, IFLogaritmos, IFTrigonometricos, IFEssenciais 
+export class Cientificos implements IFLogaritmos, IFArcosTrigonometricos, IFExponenciais, IFLogaritmos, IFTrigonometricos, IFEssenciais 
 {
-  "@antilogarítmos": Antilogaritmos;
+  "@logarítmos": Antilogaritmos & Cologaritmos;
   "@arcosTrigonométricos": ArcosTrigonometricos;
-  "@cologarítmos": Cologaritmos;
   "@exponenciais": Exponenciais;
-  "@logarítmos": Logaritmos;
   "@trigonométricos": Trigonometricos;
   "@essenciais": Essenciais;
 } 

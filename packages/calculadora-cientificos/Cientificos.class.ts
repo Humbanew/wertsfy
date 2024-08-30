@@ -11,20 +11,14 @@ interface IFLogaritmos
   "@logarítmos": Antilogaritmos & Cologaritmos
 }
 
-interface IFArcosTrigonometricos
+interface IFInversas
 {
-  "@arcosTrigonométricos": ArcosTrigonometricos
+  "@inversas": ArcosTrigonometricos & Trigonometricos
 }
-
 
 interface IFExponenciais
 {
   "@exponenciais": Exponenciais
-}
-
-interface IFTrigonometricos
-{
-  "@trigonométricos": Trigonometricos
 }
 
 interface IFEssenciais
@@ -32,11 +26,10 @@ interface IFEssenciais
   "@essenciais": Essenciais
 }
 
-export class Cientificos implements IFLogaritmos, IFArcosTrigonometricos, IFExponenciais, IFLogaritmos, IFTrigonometricos, IFEssenciais 
+export class Cientificos implements IFLogaritmos, IFInversas, IFExponenciais, IFLogaritmos, IFEssenciais 
 {
+  "@inversas": ArcosTrigonometricos & Trigonometricos;
   "@logarítmos": Antilogaritmos & Cologaritmos;
-  "@arcosTrigonométricos": ArcosTrigonometricos;
   "@exponenciais": Exponenciais;
-  "@trigonométricos": Trigonometricos;
   "@essenciais": Essenciais;
 } 

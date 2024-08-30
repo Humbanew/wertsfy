@@ -6,15 +6,17 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildwtsfy": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@humbanew/ftl-calc-cientificos": "^0.0.0",
-    "@humbanew/ftl-calc-comuns": "^0.0.0",
-    "@humbanew/ftl-calc-supremos": "^0.0.0"
-  }
+    "@humbanew/ftl-calc-cientificos": "^0.0.1-5",
+    "@humbanew/ftl-calc-comuns": "^0.0.1-3",
+    "@humbanew/ftl-calc-supremos": "^0.0.1-2"
+  },
+  "bin": "exec/wertsfy.js"
 }

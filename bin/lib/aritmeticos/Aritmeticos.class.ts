@@ -8,18 +8,13 @@ import { FragmentCientificos } from "@humbanew/ftl-calc-cientificos/ts";
 import { FragmentComuns } from "@humbanew/ftl-calc-comuns/ts";
 import { FragmentSupremos } from "@humbanew/ftl-calc-supremos/ts";
 
-type AritmeticosType = typeof FragmentComuns | typeof FragmentCientificos | typeof FragmentSupremos;
-
 /**
  * Classe de propriedades aritméticas
  */
 export class Aritmeticos
 {
 
-  /**
-   * Construtor da classe
-   */
-  public $: AritmeticosType;
+  public $: typeof FragmentComuns & typeof FragmentCientificos["@inversas"] & typeof FragmentCientificos["@logarítmos"] & typeof FragmentCientificos["@exponenciais"] & typeof FragmentCientificos["@essenciais"] & typeof FragmentSupremos["@geometricos"] & typeof FragmentSupremos["@conversores"] & typeof FragmentSupremos["@complexos"];
 
   /**
    * Constante de avogadro

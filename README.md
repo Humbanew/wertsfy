@@ -11,17 +11,3 @@
 
 </div>
 
-
-## Objetivos 
-
-<div align="justify">
-  Unificar todos os módulos da futura calculadora modular e posteriormente adicionar novas funcionalidades de outras naturezas, como criação de arquivos, construção de páginas HTML/XHTML/Arquivos XML e outros.
-</div>
-
-## Documentação
-
-v1.0.0 (Página ainda em construção)<br> www.humbanew.com.br/wertsfy/
-
-## Abas de Discussões
-
-<a href="https://github.com/humbanew/wertsfy/discussions">Discussões aqui!</a>

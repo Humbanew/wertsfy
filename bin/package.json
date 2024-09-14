@@ -7,16 +7,21 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildwtsfy": "tsc"
+    "build": "tsc --outDir ./js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Library", "Arithmetic", "Math"],
+  "author": "Humbanew Project",
   "license": "ISC",
-  "description": "",
+  "description": "Simple Arithmetic Resources",
   "dependencies": {
     "@humbanew/ftl-calc-cientificos": "^0.0.1-5",
     "@humbanew/ftl-calc-comuns": "^0.0.1-3",
     "@humbanew/ftl-calc-supremos": "^0.0.1-2"
   },
-  "bin": "exec/wertsfy.js"
+  "bin": "exec/wertsfy.js",
+  "markdown": "standard",
+  "private": true,
+  "engines": {
+    "node": ">= 20.0.0"
+  }
 }

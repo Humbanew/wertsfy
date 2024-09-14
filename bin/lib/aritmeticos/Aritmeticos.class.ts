@@ -14,7 +14,8 @@ import { FragmentSupremos } from "@humbanew/ftl-calc-supremos/ts";
 export class Aritmeticos
 {
 
-  public $: typeof FragmentComuns & typeof FragmentCientificos["@inversas"] & typeof FragmentCientificos["@logarítmos"] & typeof FragmentCientificos["@exponenciais"] & typeof FragmentCientificos["@essenciais"] & typeof FragmentSupremos["@geometricos"] & typeof FragmentSupremos["@conversores"] & typeof FragmentSupremos["@complexos"];
+  public $: typeof FragmentComuns & typeof FragmentCientificos["@inversas"] & typeof FragmentCientificos["@logarítmos"] & typeof FragmentCientificos["@exponenciais"] & typeof FragmentCientificos["@essenciais"] & typeof FragmentSupremos["@geometricos"];
+  // & typeof FragmentSupremos["@conversores"] & typeof FragmentSupremos["@complexos"]
 
   /**
    * Constante de avogadro

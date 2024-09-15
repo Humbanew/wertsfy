@@ -9,8 +9,8 @@
     "./ts": "./wertsfy.ts"
   },
   "keywords": ["Library", "Arithmetic", "Math"],
-  "repository": "https://github.com/humbanew/wertsfy/",
-  "readme": "README.md",
+  "repository": "https://github.com/humbanew/wertsfy.git",
+  "readme": "../README.md",
   "author": "Humbanew Project",
   "license": "ISC",
   "description": "Simple Arithmetic Resources",

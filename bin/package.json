@@ -27,9 +27,7 @@
   },
   "files": [
     "!api/**/*",
-    "!node_modules/**/*",
-    "!.git",
-    "!.gitignore"
+    "!node_modules/**/*"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

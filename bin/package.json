@@ -19,9 +19,8 @@
     "@humbanew/ftl-calc-comuns": "^0.0.1-3",
     "@humbanew/ftl-calc-supremos": "^0.0.1-2"
   },
-  "bin": "exec/wertsfy.js",
   "markdown": "standard",
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">= 20.0.0"
   },

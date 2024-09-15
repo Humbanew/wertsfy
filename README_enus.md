@@ -1,9 +1,9 @@
 # wertsfy 
 
-[![PT-BR](./readme_docs/seletor_pt-br__pt-br.svg)](./README.md)
-[![EN-US](./readme_docs/seletor_pt-br__en-us.svg)](./README_enus.md)
+[![PT-BR](./readme_docs/seletor_en-us__pt-br.svg)](./README.md)
+[![EN-US](./readme_docs/seletor_en-us__en-us.svg)](./README_enus.md)
 
-## ⚠️ Repositório recém-transferido para cá, código e documentação do projeto ainda em processo de ajuste e vistoria ⚠️
+## ⚠️ Newly transferable repository here, project code and documentation still in the process of adjusting and inspection ⚠️
 
 <div align="center"> 
 
@@ -18,4 +18,4 @@
 
 ``v0.0.1``
 
-  - Adicionado bloco *Aritmeticos*.
+  - Added block *Aritmeticos*.

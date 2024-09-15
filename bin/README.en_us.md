@@ -1,7 +1,7 @@
 # wertsfy 
 
-[![PT-BR](./readme_docs/seletor_en-us__pt-br.svg)](./README.md)
-[![EN-US](./readme_docs/seletor_en-us__en-us.svg)](./README.en_us.md)
+[![PT-BR](https://github.com/user-attachments/assets/edd774b7-0f37-42e2-bb38-87f6dc1cff58)](./README.md)
+[![EN-US](https://github.com/user-attachments/assets/e4a205b8-c47b-4f01-8b85-f1a1621aa114)](./README.en_us.md)
 
 ## ⚠️ Newly transferable repository here, project code and documentation still in the process of adjusting and inspection ⚠️
 

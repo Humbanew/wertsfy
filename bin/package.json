@@ -1,15 +1,16 @@
 {
   "name": "wertsfy",
   "version": "0.0.1",
-  "main": "test.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --outDir ./js"
   },
+  "exports": {
+    "./ts": "./wertsfy.ts"
+  },
   "keywords": ["Library", "Arithmetic", "Math"],
+  "repository": "https://github.com/humbanew/wertsfy/",
+  "readme": "README.md",
   "author": "Humbanew Project",
   "license": "ISC",
   "description": "Simple Arithmetic Resources",
@@ -23,5 +24,14 @@
   "private": true,
   "engines": {
     "node": ">= 20.0.0"
+  },
+  "files": [
+    "!api/**/*",
+    "!node_modules/**/*",
+    "!.git",
+    "!.gitignore"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

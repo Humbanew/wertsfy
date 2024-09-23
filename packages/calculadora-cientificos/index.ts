@@ -1,5 +1,3 @@
 import { Cientificos } from "./Cientificos.class";
 
-var cientificos = new Cientificos();
-
-module.exports( cientificos );
+export const FragmentCientificos = Cientificos.prototype;

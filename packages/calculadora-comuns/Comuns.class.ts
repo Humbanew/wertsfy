@@ -1,8 +1,12 @@
-enum OperadoresBinarios {"SOMA", "SUBTRACAO", "DIVISAO", "MULTIPLICACAO", "RESTO"};
+type OperadoresBinarios = "SOMA" | "SUBTRACAO" | "DIVISAO" | "MULTIPLICACAO" | "RESTO";
 
 export class Comuns 
 {
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo de Soma, Subtração, Multiplicação, Divisão e Resto de Numerais Reais
    * @param op operação que será usada na lista de números.
    * @param valores a lista de números submetidos para a operação selecionada.
@@ -17,19 +21,19 @@ export class Comuns
 
     for (let i = 0; i < valores.length; i += 2) {
       switch (op) {
-        case OperadoresBinarios.SOMA:
+        case "SOMA":
           if (valores[i + 1] == null) total = valores[i] + 0;
           total = valores[i] + valores[i + 1];
-        case OperadoresBinarios.SUBTRACAO:
+        case "SUBTRACAO":
           if (valores[i + 1] == null) total = valores[i] - 0;
           total = valores[i] - valores[i + 1];
-        case OperadoresBinarios.MULTIPLICACAO:
+        case "MULTIPLICACAO":
           if (valores[i + 1] == null) total = valores[i] * 1;
           total = valores[i] * valores[i + 1];
-        case OperadoresBinarios.DIVISAO:
+        case "DIVISAO":
           if (valores[i + 1] == null) total = valores[i] / 1;
           total = valores[i] / valores[i + 1];
-        case OperadoresBinarios.RESTO:
+        case "RESTO":
           if (valores[i + 1] == null) total = valores[i] % 1;
           total = valores[i] / valores[i + 1];
       }
@@ -38,6 +42,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Potência Numérica
    * @param a valor 1 - base
    * @param b valor 2 - expoente
@@ -63,6 +71,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Potência de Potência Numérica
    * @param a valor 1 - base
    * @param b valor 2 - sequência de expoentes
@@ -101,6 +113,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Potência de 2
    * @param x valor da potência de 2.
    * @returns retorna o valor real da potência de 2 calculada.
@@ -111,6 +127,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Potência de 10
    * @param x valor da potência de 10.
    * @returns retorna o valor real da potência de 10 calculada.
@@ -121,6 +141,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Raiz Quadrada Numérica
    * @param a valor
    * @returns retorna o valor da raiz quadrada numérica.
@@ -131,6 +155,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Raiz Cúbica Numérica
    * @param a valor
    * @returns retorna o valor da raiz cúbica numérica.
@@ -141,6 +169,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo da Raiz Enésima Numérica
    * @param a valor
    * @param n valor do índice da raiz
@@ -152,6 +184,10 @@ export class Comuns
   }
 
   /**
+   * ![minibanner-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![tag-calculadora](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![tag-comuns](https://www.strg.humbanew.com.br/docs/wtsfy/tag-comuns.png)
+   * ___
    * Módulo do Valor Absoluto Numérico
    * @param x valor
    * @returns retorna o valor absoluto.

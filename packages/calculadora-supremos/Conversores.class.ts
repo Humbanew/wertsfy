@@ -96,6 +96,9 @@ enum EDicionarioUnidades
   volume_quettametros_cubicos = "05t25",
 }
 
+/**
+ * @todo Componente com necessidade de atualizações, módulos incompletos ou não implementados.
+ */
 export class UnkownUnitConversor extends Error 
 {
   constructor(a: EDicionarioUnidades, b: EDicionarioUnidades) {

@@ -1,10 +1,18 @@
+/**
+ * @todo Componente com necessidade de atualizações, módulos incompletos ou não implementados.
+ */
 export abstract class Essenciais {
+  
+  /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
+   * Módulo do maior valor entre os valores fornecidos.
+   * @param values Numeric expressions to be evaluated.
+   * @returns O maior dos valores numéricos fornecidos.
+   */
   public max(...values: number[]) {
-    /**
-     * Módulo do maior valor entre os valores fornecidos.
-     * @param values Numeric expressions to be evaluated.
-     * @returns O maior dos valores numéricos fornecidos.
-     */
     let max = values[0];
     for (let i = 0; i < values.length; i++) {
       if (values[i] > max) {
@@ -15,6 +23,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Módulo do menor valor entre os valores fornecidos.
    * @param values Expressões numéricas a serem avaliadas.
    * @returns O menor dos valores numéricos fornecidos.
@@ -41,6 +53,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the number of leading zero bits in the 32-bit binary representation of a number.
    * @param x A numeric expression.
    */
@@ -49,6 +65,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the result of 32-bit multiplication of two numbers.
    * @param x First number
    * @param y Second number
@@ -58,6 +78,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the sign of the x, indicating whether x is positive, negative or zero.
    * @param x The numeric expression to test
    */
@@ -66,6 +90,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the square root of the sum of squares of its arguments.
    * @param values Values to compute the square root for.
    *     If no arguments are passed, the result is +0.
@@ -79,6 +107,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the integral part of the a numeric expression, x, removing any fractional digits.
    * If x is already an integer, the result is x.
    * @param x A numeric expression.
@@ -88,6 +120,10 @@ export abstract class Essenciais {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cientificos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-cien-essenciais.png)
+   * ___
    * Returns the nearest single precision float representation of a number.
    * @param x A numeric expression.
    */

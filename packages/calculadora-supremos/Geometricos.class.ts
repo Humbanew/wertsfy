@@ -2,6 +2,10 @@ import { PI, SQRT_03 } from "./constantes";
 
 export abstract class Geometricos {
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Quadrado
    * @param l valor real do lado.
    * @returns retorna o valor da área do quadrado.
@@ -12,6 +16,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Retângulo
    * @param l valor real da largura.
    * @param c valor real do comprimento.
@@ -23,6 +31,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área da Circunferência
    * @param r valor do raio da circunferência.
    * @returns retorna o valor da área da circunferência.
@@ -33,6 +45,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Círculo
    * @param r valor do raio do círculo.
    * @returns retorna o valor da área do círculo.
@@ -43,6 +59,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Triângulo
    * @param b valor real da base.
    * @param h valor real da altura.
@@ -54,6 +74,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Triângulo Equilátero
    * @param l valor real do lado.
    * @returns retorna o valor da área do triângulo equilátero.
@@ -64,6 +88,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Apótema do Triângulo Equilátero
    * @param l valor real do lado.
    * @returns retorna o valor do apótema do triângulo equilátero.
@@ -74,6 +102,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área da Esfera
    * @param r valor real do raio.
    * @returns retorna o valor da área da esfera.
@@ -84,6 +116,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Volume da Esfera
    * @param r valor real do raio.
    * @returns retorna o valor do volume da esfera.
@@ -94,6 +130,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Volume do Cubo
    * @param l valor real do lado.
    * @returns retorna o valor do volume do cubo.
@@ -104,6 +144,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Volume do Paralelepípedo
    * @param l valor real da largura.
    * @param h valor real da altura.
@@ -116,6 +160,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Losango
    * @param D valor real da diagonal maior.
    * @param d valor real da diagonal menor.
@@ -127,6 +175,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Trapézio
    * @param B valor real da base maior.
    * @param b valor real da base menor.
@@ -139,6 +191,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo da Área do Cilindro
    * @param r valor real do raio.
    * @param h valor real da altura.
@@ -150,6 +206,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Volume do Cone e/ou da Pirâmide
    * @param b valor real da base.
    * @param h valor real da altura.
@@ -161,6 +221,10 @@ export abstract class Geometricos {
   }
 
   /**
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/minibanner-calculadora.png)
+   * ___
+   * ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-calculadora.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supremos.png) ![](https://www.strg.humbanew.com.br/docs/wtsfy/tag-supr-geometricos.png)
+   * ___
    * Módulo do Polígono Regular Enésimo
    * @param n valor real da quantidade de lados.
    * @param l valor real do lado.

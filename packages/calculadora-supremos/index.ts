@@ -1,5 +1,3 @@
 import { Supremos } from "./Supremos.class";
 
-var supremos = new Supremos();
-
-module.exports( supremos );
+export const FragmentSupremos = Supremos.prototype;

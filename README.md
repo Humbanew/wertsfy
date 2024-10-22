@@ -1,10 +1,9 @@
 # wertsfy 
-
+<!--
 [![PT-BR](./readme_docs/seletor_pt-br__pt-br.svg)](./README.md)
-[![EN-US](./readme_docs/seletor_pt-br__en-us.svg)](./README.en_us.md)
-
-⚠️ README em manutenção. ⚠️
-
+[![EN-US](./readme_docs/seletor_pt-br__en-us.svg)](./README.en_us.md)|
+-->
+<br><br>
 <div align="center"> 
 
   ![wertsfy-icon](https://github.com/user-attachments/assets/ff5bfd34-3bfa-4f0c-a0e9-51abe5c2c7f7)
@@ -65,16 +64,149 @@ Caso queira abrir um _pull request_ e contribuir com o projeto, entre nesse outr
 
 Caso queria abrir uma discussão no repositório, entre [aqui](https://github.com/humbanew/wertsfy/discussions).
 
-## Documentação
-
-<div align="justify">
-
-   &nbsp;&nbsp;O primeiro leque de versões do projeto, contendo a primeira biblioteca de recursos de natureza aritmética. É o começo da construção da arquitetura que será incrementada nas próximas atualizações.
-
-</div>
-
-## Changelog
+## Documentação & Changelog
 
 ``v0.0.1``
 
-  - Adicionado bloco *Aritmeticos*.
+▤ The Changelog ▤
+
+```diff
++ Adicionado bloco _Aritmeticos_.
+```
+<br>
+
+▤ Documentação ▤
+
+> ``wertsfy``**: object**<br>
+> Raiz do kit de desenvolvimento.
+> > ``aritmeticos``<br>
+> > Bloco de propriedades aritméticas.
+> > > ``AVOGADRO``**: number**<br>
+> > > Constante de avogadro.
+> > >
+> > > ``CBRT_01B02``**: number**<br>
+> > > Constante da raiz cúbica de 1/2.
+> > >
+> > > ``CBRT_01B04``**: number**<br>
+> > > Constante da raiz cúbica de 1/4.
+> > >
+> > > ``CBRT_01B06``**: number**<br>
+> > > Constante da raiz cúbica de 1/6.
+> > >
+> > > ``CBRT_01B08``**: number**<br>
+> > > Constante da raiz cúbica de 1/8.
+> > >
+> > > ``CBRT_01``**: number**<br>
+> > > Constante da raiz cúbica de 1.
+> > >
+> > > ``CBRT_02``**: number**<br>
+> > > Constante da raiz cúbica de 2.
+> > >
+> > > ``CBRT_03``**: number**<br>
+> > > Constante da raiz cúbica de 3.
+> > >
+> > > ``CBRT_04``**: number**<br>
+> > > Constante da raiz cúbica de 4.
+> > >
+> > > ``CBRT_05``**: number**<br>
+> > > Constante da raiz cúbica de 5.
+> > >
+> > > ``CBRT_06``**: number**<br>
+> > > Constante da raiz cúbica de 6.
+> > >
+> > > ``CBRT_07``**: number**<br>
+> > > Constante da raiz cúbica de 7.
+> > >
+> > > ``CBRT_08``**: number**<br>
+> > > Constante da raiz cúbica de 8.
+> > >
+> > > ``CBRT_09``**: number**<br>
+> > > Constante da raiz cúbica de 9.
+> > >
+> > > ``CBRT_10``**: number**<br>
+> > > Constante da raiz cúbica de 10.
+> > >
+> > > ``COULOMB``**: number**<br>
+> > > Constante de coulomb.
+> > >
+> > > ``EULER``**: number**<br>
+> > > Constante de euler.
+> > >
+> > > ``LOG2``**: number**<br>
+> > > Constante do logarítmo de 2.
+> > >
+> > > ``LOG2E``**: number**<br>
+> > > Constante do logarítmo de 2 na base Euler.
+> > >
+> > > ``LOG10``**: number**<br>
+> > > Constante do logarítmo de 10.
+> > >
+> > > ``LOG10E``**: number**<br>
+> > > Constante do logarítmo de 10 na base Euler.
+> > >
+> > > ``MAXVALUE``**: number**<br>
+> > > Constante de valor máximo.
+> > >
+> > > ``MINVALUE``**: number**<br>
+> > > Constante de valor mínimo.
+> > >
+> > > ``NEWTON``**: number**<br>
+> > > Constante de newton.
+> > >
+> > > ``PI``**: number**<br>
+> > > Constante de pi.
+> > >
+> > > ``PLANK``**: number**<br>
+> > > Constante de plank.
+> > >
+> > > ``SQRT_01B02``**: number**<br>
+> > > Constante da raiz quadrada de 1/2.
+> > >
+> > > ``SQRT_01B04``**: number**<br>
+> > > Constante da raiz quadrada de 1/4.
+> > >
+> > > ``SQRT_01B06``**: number**<br>
+> > > Constante da raiz quadrada de 1/6.
+> > >
+> > > ``SQRT_01B08``**: number**<br>
+> > > Constante da raiz quadrada de 1/8.
+> > >
+> > > ``SQRT_01``**: number**<br>
+> > > Constante da raiz quadrada de 1.
+> > >
+> > > ``SQRT_02``**: number**<br>
+> > > Constante da raiz quadrada de 2.
+> > >
+> > > ``SQRT_03``**: number**<br>
+> > > Constante da raiz quadrada de 3.
+> > >
+> > > ``SQRT_04``**: number**<br>
+> > > Constante da raiz quadrada de 4.
+> > >
+> > > ``SQRT_05``**: number**<br>
+> > > Constante da raiz quadrada de 5.
+> > >
+> > > ``SQRT_06``**: number**<br>
+> > > Constante da raiz quadrada de 6.
+> > >
+> > > ``SQRT_07``**: number**<br>
+> > > Constante da raiz quadrada de 7.
+> > >
+> > > ``SQRT_08``**: number**<br>
+> > > Constante da raiz quadrada de 8.
+> > >
+> > > ``SQRT_09``**: number**<br>
+> > > Constante da raiz quadrada de 9.
+> > >
+> > > ``SQRT_10``**: number**<br>
+> > > Constante da raiz quadrada de 10.
+> > >
+> > > ``TESLA``**: number**<br>
+> > > Constante de tesla.
+> > >
+> > > ``ZERO``**: number**<br>
+> > > Constante de zero.
+> > > 
+> > > ``$``<br>
+> > > Símbolo de acesso a todas as funções disponíveis na biblioteca.
+> > > > --

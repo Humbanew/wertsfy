@@ -66,7 +66,7 @@ Pronto, aproveite 😄
 
 ## Termos de Licença & Suporte
 
-[Termos de Licença (HN License v5, MIT License Modified)](./LICENSE.md)<br> [Suporte de Versões](./SUPPORT.md)
+[Termos de Licença (HN License v5, MIT License Modified)](./LICENSE.md)<br> [Suporte de Versões](./SECURITY.md)
 
 ## Fale Conosco
 

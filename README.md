@@ -25,9 +25,55 @@
 &nbsp;&nbsp;A partir do desenvolvimento do projeto inicial, testes de arquitetura de software inspiradas pelas conexões por cabos (sendo as importações e exportações entre arquivos sepadados) com a Calculadora Rax e o **desejo de um projeto que a incorporasse integralmente como um serviço matemático, juntamente com a união de várias ferramentas de desenvolvimento Javascript**, surgiu a Wertsfy, um projeto que internamente possuia a Calculadora Rax e mais outros algoritmos úteis para o desenvolvimento. Infelizmente, não chegou a um modelo que seria agradável para embarcar tantas soluções e ser leve simultaneamente para ser importado como um pacote NPM. Alguns meses depois, a fim de testes da plataforma online do Node Package Modules, a Wertsfy foi adicionada lá.<br>
 &nbsp;&nbsp;Nas primeiras impressões o pacote foi bem recebido, com o passar do primeiro mês da divulgação e depois de algumas atualizações, de maneira interna foi notado que a solução não era a mais eficiente possível, com uma manutenção complicada de ser efetuada em uma atualização. Dessa forma o pacote foi descontinuado e removido do NPM para um remanejamento de ideias e montagem satisfatória de software, além de seguro. Deixando infelizmente muitos usuários do projeto desamparados pelo sumiço da dependência, houve um equívoco ao notificar no README dentro do NPM que era um pacote em teste na plataforma. Internamente, durante o desenvolvimento, a Wertsfy foi **reiniciada 4 vezes até os dias atuais**, mas o núcleo do código-fonte continua em partes o mesmo desde o começo, aquele de 2019. 
 
-```Março de 2022 até os diais atuais```
+```Março de 2022 até os diais atuais```<br><br>
+&nbsp;&nbsp;Após insafisfações com o uso do NPM, foi introduzido o início dos estudos para colocar no Github Modules, juntamente de seu repositório e código-fonte, unificando tudo em apenas uma localidade. Ao decorrer dos meses de estudo e reorgalização do projeto, sob sua arquitetura de software, modelo de escalabilidade, modelo de testes e debug e outras nuances. Em **junho de 2023** foi publicado o primeiro teste da versão existente da Wertsfy, ficou por um tempo, até que foi necessário reorganizar em fragmentos o projeto incorporado da Calculadora Rax, para em **setembro de 2024** ser reintroduzido denovo em seu repositório como um pacote associado. Para você que leu até aqui a história confusa desse repositório, por aqui será estabelecida uma das melhores ferramentas de desenvolvimento Javascript.
 
 <div>
+
+## Instalação
+
+  &nbsp;&nbsp;O procedimento de instalação é rápido e prático, só é necessário **seguir os passos** a seguir.
+
+1. Crie o arquivo ``.npmrc`` no *diretório do seu projeto* com o seguinte conteúdo:
+
+```
+@humbanew:registry=https://npm.pkg.github.com
+```
+
+2. Instale o pacote normalmente usando **Node Package Modules [npm]**:
+
+``` shell
+$ npm install @humbanew/wertsfy
+```
+
+3. Crie um arquivo de código fonte **Javascript ou Typescript**, como preferir. E adicione o seguinte conteúdo para começar a usar esta ferramenta:
+
+``` javascript
+import wertsfy from "wertsfy";
+
+// A linha abaixo é opcional, foi adiciona para fins didáticos.
+// Caso use Typescript: const artfact: typeof wertsfy;
+const artfact = wertsfy;
+```
+Pronto, aproveite 😄
+
+## Fale Conosco
+
+Caso queira abrir uma _issue_ entre [aqui](https://github.com/humbanew/wertsfy/issues).
+
+Caso queira abrir um _pull request_ e contribuir com o projeto, entre nesse outro link [aqui](https://github.com/humbanew/wertsfy/pulls).
+
+Caso queria abrir uma discussão no repositório, entre [aqui](https://github.com/humbanew/wertsfy/discussions).
+
+## Documentação
+
+### v0.0.1 Public Beta
+
+<div align="justify">
+
+   &nbsp;&nbsp;O primeiro leque de versões do projeto, contendo a primeira biblioteca de recursos de natureza aritmética. É o começo da construção da arquitetura que será incrementada nas próximas atualizações.
+
+</div>
 
 ## Changelog
 

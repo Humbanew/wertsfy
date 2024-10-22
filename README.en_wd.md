@@ -1,15 +1,16 @@
 # wertsfy 
 
-[![PT-BR](./readme_docs/seletor_en-us__pt-br.svg)](./README.md)
-[![EN-WD](./readme_docs/seletor_en-us__en-us.svg)](./README.en_wd.md)
+[![PT-BR](./readme_docs/seletor_en-wd__pt-br.svg)](./README.md)
+[![EN-WD](./readme_docs/seletor_en-wd__en-wd.svg)](./README.en_wd.md)
+[![ES_WD](./readme_docs/seletor_en-wd__es-wd.svg)](./README.es_wd.md)
 
 <br><br>
 <div align="center"> 
 
   ![wertsfy-icon](https://github.com/user-attachments/assets/ff5bfd34-3bfa-4f0c-a0e9-51abe5c2c7f7)
   
-  ![Typescript](https://img.shields.io/badge/typescript-111111.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
-  ![Javascript](https://img.shields.io/badge/javascript-111111.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
+  ![Typescript](https://img.shields.io/badge/typescript-steelblue.svg?style=for-the-badge&logo=typescript&logoColor=111111)
+  ![Javascript](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=111111)
 
 </div>
 
@@ -18,14 +19,14 @@
 <div align="justify">
 
 ```August 2019```<br><br>
-&nbsp;&nbsp;The beginning of the conception of what would be incorporated into the larger project, RAX Calculator *(or RAX calculator, in Portuguese) *.A modular calculator where it would be possible to use it normally as a conventional calculator, as we have in operating systems and other physical formats.But also as **with their functions divided into parts as if they were lego parts**, and can both activate and jointly disable several of them within the base of the calculator.In a first project analysis was subdivided into partitions of **common features** (sum, subtraction, division, multiplication, powers, roots, constants and percentage, besides its constants), **scientific functionalities** (logarithms, anti -stroke, Colgarithms, exponentials, trigonometric, trigonometric arches, complex numbers, their associated contacts), **supreme functionality** (mathematical, physical, chemical, biological, geographical, historical, economic and others, and their associated) and their associated **Conversion features of measurement units** (length measurement units, area units, volume measurement units, 4 -dimensional measured units, 5 -dimensional measured units, 6 dimensions units of measure, Temperature units, units of measure of the international system, units of imperial measurement and several other models, as well as their associated constants).
+&nbsp;&nbsp;The beginning of the conception of what would be incorporated into the larger project, Rax Calculator *(or Calculadora Rax, in Portuguese)*. A modular calculator where it would be possible to use it normally as a conventional calculator, as we have in operating systems and other physical formats. But also as **with their functions divided into parts as if they were lego parts**, and can both activate and jointly disable several of them within the base of the calculator.In a first project analysis was subdivided into partitions of **common features** (sum, subtraction, division, multiplication, powers, roots, constants and percentage, besides its constants), **scientific functionalities** (logarithms, antilogarithms, Cologarithms, exponentials, trigonometric, trigonometric arches, complex numbers, their associated contacts), **supreme functionality** (mathematical, physical, chemical, biological, geographical, historical, economic and others, and their associated) and their associated **Conversion features of measurement units** (length measurement units, area units, volume measurement units, 4 -dimensional measured units, 5 -dimensional measured units, 6 dimensions units of measure, Temperature units, units of measure of the international system, units of imperial measurement and several other models, as well as their associated constants).
 
 ```February to August 2021```<br><br>
-&nbsp;&nbsp;From the development of the initial project, software architecture tests inspired by cable connections (being the imports and exports between separate files) with the Rax calculator and **desire for a project that fully incorporate it as a mathematical service, together togetherWith the union of various JavaScript Development Tools**, we came to Wertsfy, a project that internally had the Rax calculator and other useful algorithms for development.Unfortunately, it did not reach a model that would be pleasant to embark so many solutions and be light simultaneously to be imported as an NPM package.A few months later, in order to test the Node Package Modules online platform, Wertsfy was added there.<br>
+&nbsp;&nbsp;From the development of the initial project, software architecture tests inspired by cable connections (being the imports and exports between separate files) with the Rax calculator and **desire for a project that fully incorporate it as a mathematical service, together together with the union of various JavaScript Development Tools**, we came to Wertsfy, a project that internally had the Rax calculator and other useful algorithms for development Unfortunately, it did not reach a model that would be pleasant to embark so many solutions and be light simultaneously to be imported as an NPM package.A few months later, in order to test the Node Package Modules online platform, Wertsfy was added there.<br>
 &nbsp;&nbsp;In the first impressions the package was well received, over the first month of disclosure and after some updates, it was noted that the solution was not as efficient as possible, with a complicated maintenance of being done in an update.This way the package was discontinued and removed from NPM for a reallocation of ideas and satisfactory software assembly, as well as insurance.Unfortunately, leaving many project users helplessly disappeared, there was a mistake to notify the readme within the NPM that it was a test package on the platform.Internally, during development, Wertsfy has been **restarted 4 times to the present day**, but the core of the source code is still the same from the beginning, that of 2019. 
 
 ```March 2022 to the present day```<br><br>
-&nbsp;&nbsp;After unsafers with the use of NPM, the beginning of the studies were introduced to put in the Github Modules, along with its repository and source code, unifying everything in just one locality.Throughout the months of study and reorganization of the project, under its software architecture, scalability model, test model and debug and other nuances.In **June 2023** was published the first test of the existing version of WertSFY, it was for a while, until it was necessary to reorganize in fragments the incorporated project of the RAX calculator, to **September 2024** be reintroduced afterin your repository as an associated package.For you who have read the confusing history of this repository so far, here will be established one of the best JavaScript development tools.
+&nbsp;&nbsp;After unsafers with the use of NPM, the beginning of the studies were introduced to put in the Github Modules, along with its repository and source code, unifying everything in just one locality. Throughout the months of study and reorganization of the project, under its software architecture, scalability model, test model and debug and other nuances. In **June 2023** was published the first test of the existing version of Wertsfy, it was for a while, until it was necessary to reorganize in fragments the incorporated project of the Rax calculator, to **September 2024** be reintroduced afterin your repository as an associated package. For you who have read the confusing history of this repository so far, here will be established one of the best JavaScript development tools.
 
 <div>
 
@@ -222,3 +223,10 @@ If you wanted to open a discussion in the repository, enter [here](https://githu
 > > > ``$``<br>
 > > > Access symbol to all functions available in the library.
 > > > > _(The list of functions available for use, soon a more detailed documentation)_
+
+<br><br>
+<div align="center">
+
+  ![humbanew_wertsfy_footer](https://github.com/user-attachments/assets/71dffd40-c814-40f2-b6a9-18699aac20ff)
+  
+</div>

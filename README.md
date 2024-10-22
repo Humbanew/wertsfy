@@ -1,15 +1,16 @@
 # wertsfy 
 
 [![PT-BR](./readme_docs/seletor_pt-br__pt-br.svg)](./README.md)
-[![EN-WD](./readme_docs/seletor_pt-br__en-us.svg)](./README.en_wd.md)
+[![EN-WD](./readme_docs/seletor_pt-br__en-wd.svg)](./README.en_wd.md)
+[![ES_WD](./readme_docs/seletor_pt-br__es-wd.svg)](./README.es_wd.md)
 
 <br><br>
 <div align="center"> 
 
   ![wertsfy-icon](https://github.com/user-attachments/assets/ff5bfd34-3bfa-4f0c-a0e9-51abe5c2c7f7)
   
-  ![Typescript](https://img.shields.io/badge/typescript-111111.svg?style=for-the-badge&logo=typescript&logoColor=steelblue)
-  ![Javascript](https://img.shields.io/badge/javascript-111111.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
+  ![Typescript](https://img.shields.io/badge/typescript-steelblue.svg?style=for-the-badge&logo=typescript&logoColor=111111)
+  ![Javascript](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=111111)
 
 </div>
 

@@ -222,3 +222,9 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 > > > ``$``<br>
 > > > Símbolo de acesso a todas as funções disponíveis na biblioteca.
 > > > > _(A lista de funções disponíveis para uso, em breve uma documentação mais detalhada)_
+
+<div align="center">
+
+  ![humbanew_wertsfy_footer](https://github.com/user-attachments/assets/71dffd40-c814-40f2-b6a9-18699aac20ff)
+  
+</div>

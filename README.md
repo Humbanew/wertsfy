@@ -67,7 +67,7 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 
 ## Documentação
 
-### v0.0.1 Public Beta
+```v0.0.1 Public Beta```
 
 <div align="justify">
 

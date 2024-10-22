@@ -67,8 +67,6 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 
 ## Documentação
 
-```v0.0.1 Public Beta```
-
 <div align="justify">
 
    &nbsp;&nbsp;O primeiro leque de versões do projeto, contendo a primeira biblioteca de recursos de natureza aritmética. É o começo da construção da arquitetura que será incrementada nas próximas atualizações.

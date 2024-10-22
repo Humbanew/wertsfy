@@ -1,8 +1,8 @@
 # wertsfy 
-<!--
+
 [![PT-BR](./readme_docs/seletor_pt-br__pt-br.svg)](./README.md)
-[![EN-US](./readme_docs/seletor_pt-br__en-us.svg)](./README.en_us.md)|
--->
+[![EN-WD](./readme_docs/seletor_pt-br__en-us.svg)](./README.en_wd.md)
+
 <br><br>
 <div align="center"> 
 
@@ -221,4 +221,4 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 > > > 
 > > > ``$``<br>
 > > > Símbolo de acesso a todas as funções disponíveis na biblioteca.
-> > > > _(a lista de funções disponíveis para uso, em breve uma documentação mais detalhada)_
+> > > > _(A lista de funções disponíveis para uso, em breve uma documentação mais detalhada)_

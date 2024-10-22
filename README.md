@@ -56,6 +56,18 @@ const artfact = wertsfy;
 ```
 Pronto, aproveite 😄
 
+## Futuras Adições
+
+- Suporte a modificações de terceiros.
+- Suporte a mais Interfaces de Aplicação de Programas.
+- Suporte a outros projetos incorporados.
+- Suporte a tratamento de exceções.
+- Suporte a tratamento de vunerabilidades.
+
+## Termos de Licença & Suporte
+
+[Termos de Licença (HN License v5, MIT License Modified)](./LICENSE.md)<br> [Suporte de Versões](./SUPPORT.md)
+
 ## Fale Conosco
 
 Caso queira abrir uma _issue_ entre [aqui](https://github.com/humbanew/wertsfy/issues).
@@ -209,4 +221,4 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 > > > 
 > > > ``$``<br>
 > > > Símbolo de acesso a todas as funções disponíveis na biblioteca.
-> > > > --
+> > > > _(a lista de funções disponíveis para uso, em breve uma documentação mais detalhada)_

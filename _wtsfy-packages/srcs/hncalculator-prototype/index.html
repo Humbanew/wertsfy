@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HN Calculator Prototype</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p>Humbanew Calculator Proto v1</p>
+      <span>Alpha</span>
+    </header>
+    <main>
+      <section class="calculator_conteiner">
+        <input readonly id="display" placeholder="0" value="0"/>
+        <div class="calculator_conteiner_keyboard">
+          <button onclick="clearDisplay()" id="clearBtn">C</button>
+          <button onclick="deleteLast()" id="deleteLastBtn">B</button>
+          <button onclick="calcAppend('**')" class="impop cientific" id="b1">^</button>
+          <button onclick="calcAppend('**1/2')" class="impop cientific" id="b2">r2</button>
+          <button onclick="calcAppend('**1/3')" class="impop cientific" id="b3">r3</button>
+          <button onclick="calcAppend('**2')" class="impop cientific" id="b4">x2</button>
+          <button onclick="calcAppend('+')" class="impop">+</button>
+          <button onclick="calcAppend('7')">7</button>
+          <button onclick="calcAppend('8')">8</button>
+          <button onclick="calcAppend('9')">9</button>
+          <button onclick="calcAppend('-')" class="impop">-</button>
+          <button onclick="calcAppend('4')">4</button>
+          <button onclick="calcAppend('5')">5</button>
+          <button onclick="calcAppend('6')">6</button>
+          <button onclick="calcAppend('*')" class="impop">x</button>
+          <button onclick="calcAppend('1')">1</button>
+          <button onclick="calcAppend('2')">2</button>
+          <button onclick="calcAppend('3')">3</button>
+          <button onclick="calcAppend('/')" class="impop">/</button>
+          <button onclick="calcAppend('0')">0</button>
+          <button onclick="calcAppend('.')" class="impop">.</button>
+          <button onclick="calculate()" class="impop">=</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

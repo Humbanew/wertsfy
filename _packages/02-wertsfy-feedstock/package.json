@@ -1,0 +1,26 @@
+{
+  "name": "wertsfy-feedstock",
+  "version": "0.0.1",
+  "description": "",
+  "main": "debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dockerode": "^3.3.31",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.7.5",
+    "discord.js": "^14.15.3",
+    "dockerode": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.8.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "postgres": "^3.4.4",
+    "roblox-ts": "^2.3.0",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.5.3"
+  }
+}

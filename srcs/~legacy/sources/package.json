@@ -1,0 +1,21 @@
+{
+  "name": "@humbanew/wertsfy",
+  "version": "2.0.0",
+  "main": "dist/wtsfy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.12.12",
+    "@types/web": "^0.0.148"
+  }
+}

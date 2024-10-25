@@ -1,0 +1,25 @@
+{
+  "name": "wertsfy-next",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc --outDir ./javascript",
+    "transform": "tsc"
+  },
+  "keywords": [],
+  "author": "humbanew",
+  "repository": "https://github.com/humbanew/wertsfy-next.git",
+  "license": "MIT License adapted by Humbanew, described as HN License v4",
+  "description": "Humbanew Wertsfy v2",
+  "dependencies": {
+    "@humbanew/calculadora-cientificos": "^0.0.1",
+    "@humbanew/calculadora-comuns": "^0.0.1",
+    "@humbanew/calculadora-supremos": "^0.0.1-gamma.1",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.10"
+  }
+}

@@ -1,0 +1,1701 @@
+/* Palette 1 */
+
+position: absolute;
+width: 108px;
+height: 240px;
+
+
+
+/* Group 42 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #10069F;
+
+
+/* PANTONE Blue 072 C */
+
+position: absolute;
+width: 44px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 43 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #001489;
+
+
+/* PANTONE Reflex Blue C */
+
+position: absolute;
+width: 50px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 44 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #012169;
+
+
+/* PANTONE 280 C */
+
+position: absolute;
+width: 34px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 45 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #833921;
+
+
+/* PANTONE 1685 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 46 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #963821;
+
+
+/* PANTONE 174 C */
+
+position: absolute;
+width: 33px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 47 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #A9431E;
+
+
+/* PANTONE 1675 C */
+
+position: absolute;
+width: 35px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Palette 2 */
+
+position: absolute;
+width: 108px;
+height: 960px;
+
+
+
+/* Group 48 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #071D49;
+
+
+/* PANTONE 2768 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 49 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #001E62;
+
+
+/* PANTONE 2758 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 50 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #001871;
+
+
+/* PANTONE 2748 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 51 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #012169;
+
+
+/* PANTONE 280 C */
+
+position: absolute;
+width: 34px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 52 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #06038D;
+
+
+/* PANTONE 2738 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 53 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #001A70;
+
+
+/* PANTONE 662 C */
+
+position: absolute;
+width: 34px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 54 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #001489;
+
+
+/* PANTONE Reflex Blue C */
+
+position: absolute;
+width: 50px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 55 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #10069F;
+
+
+/* PANTONE Blue 072 C */
+
+position: absolute;
+width: 44px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 56 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #85431E;
+
+
+/* PANTONE 7517 C */
+
+position: absolute;
+width: 35px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 57 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #7D4016;
+
+
+/* PANTONE 725 C */
+
+position: absolute;
+width: 34px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 58 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #73391D;
+
+
+/* PANTONE 168 C */
+
+position: absolute;
+width: 33px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 59 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #833921;
+
+
+/* PANTONE 1685 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 60 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #9D432C;
+
+
+/* PANTONE 7593 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 61 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #963821;
+
+
+/* PANTONE 174 C */
+
+position: absolute;
+width: 33px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 62 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #A9431E;
+
+
+/* PANTONE 1675 C */
+
+position: absolute;
+width: 35px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 63 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #B15533;
+
+
+/* PANTONE 7592 C */
+
+position: absolute;
+width: 36px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 64 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #27272A;
+
+
+/* PANTONE 19-3911 TCX - Black Beauty */
+
+position: absolute;
+width: 75px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 65 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #2C282C;
+
+
+/* PANTONE 19-4003 TCX - Black Onyx */
+
+position: absolute;
+width: 74px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 66 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #2E272A;
+
+
+/* PANTONE 19-3909 TCX - Black Bean */
+
+position: absolute;
+width: 74px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 67 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #3C302F;
+
+
+/* PANTONE 19-1111 TCX - Black Coffee */
+
+position: absolute;
+width: 72px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 68 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #EDF1FF;
+
+
+/* PANTONE 11-4001 TCX - Brillant Write */
+
+position: absolute;
+width: 76px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 69 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #F4F9FF;
+
+
+/* PANTONE 11-0601 TCX - Bright Write */
+
+position: absolute;
+width: 74px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 70 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #EFEBE7;
+
+
+/* PANTONE 11-1001 TCX - Write Alyssum */
+
+position: absolute;
+width: 77px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 71 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #F2F0EB;
+
+
+/* PANTONE 11-0602 TCX - Snow Write */
+
+position: absolute;
+width: 73px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Palette 3 */
+
+position: absolute;
+width: 108px;
+height: 719px;
+
+
+
+/* Group 72 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #6D9DC5;
+
+
+/* HEX #6D9DC5 */
+
+position: absolute;
+width: 31px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 73 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #5081A7;
+
+
+/* HEX #5081A7 */
+
+position: absolute;
+width: 29px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 74 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #004466;
+
+
+/* HEX #004466 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 75 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #B9D7EA;
+
+
+/* HEX #B9D7EA */
+
+position: absolute;
+width: 31px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 76 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #5A7788;
+
+
+/* HEX #5A7788 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 77 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #E0E5E8;
+
+
+/* HEX #E0E5E8 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 78 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #D6DBDE;
+
+
+/* HEX #D6DBDE */
+
+position: absolute;
+width: 32px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 79 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #AEB3B6;
+
+
+/* HEX #AEB3B6 */
+
+position: absolute;
+width: 31px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Group 80 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #333333;
+
+
+/* HEX #333333 */
+
+position: absolute;
+width: 28px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 81 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #5C5C5C;
+
+
+/* HEX #5C5C5C */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 81 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #00A8E8;
+
+
+/* HEX #00A8E8 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 82 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #008CC9;
+
+
+/* HEX #008CC9 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 83 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #004D85;
+
+
+/* HEX #004D85 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 84 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #4CB5F5;
+
+
+/* HEX #4CB5F5 */
+
+position: absolute;
+width: 30px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 85 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #005991;
+
+
+/* HEX #005991 */
+
+position: absolute;
+width: 29px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 86 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #0F3057;
+
+
+/* HEX #0F3057 */
+
+position: absolute;
+width: 29px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 87 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #254069;
+
+
+/* HEX #254069 */
+
+position: absolute;
+width: 29px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;
+
+
+
+/* Group 88 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 108px;
+height: 40px;
+
+background: #415984;
+
+
+/* HEX #415984 */
+
+position: absolute;
+width: 29px;
+height: 5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 4px;
+line-height: 5px;
+/* identical to box height */
+text-align: justify;
+
+color: #FFFFFF;

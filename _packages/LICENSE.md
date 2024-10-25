@@ -4,15 +4,11 @@
 
 </div>
 
-MIT License
+MIT License "adapted"
 
-<<<<<<< HEAD:$arch/@00-0xbe283-calculadora-comuns/LICENSE.md
 Copyright (c) 2015-2024 Humbanew Project
 
 ## A. Global Terms by MIT License
-=======
-Copyright (c) 2024 Humbanew Project
->>>>>>> wtsfy-packages:LICENSE.md
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -32,6 +28,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## B. About Copyright Credits
+## B. About Designs Copyright Credits
 
- nothing here.
+_Digital Desolution_ and _Digital Desolution Plus_ text fonts designed by **Haley Wakamatsu** and all rights reserved by the author.<br>
+The text fonts _Space Grotesk, Space Mono, Quicksand_ made available open-source by **Google**.<br>
+The text font _Heist_ designed by **Nyla Api**, and all rights reserved by the author, under commercial license and all topics mentioned above.

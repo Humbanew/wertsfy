@@ -6,13 +6,9 @@
 
 MIT License
 
-<<<<<<< HEAD:$arch/@00-0xbe283-calculadora-comuns/LICENSE.md
 Copyright (c) 2015-2024 Humbanew Project
 
 ## A. Global Terms by MIT License
-=======
-Copyright (c) 2024 Humbanew Project
->>>>>>> wtsfy-packages:LICENSE.md
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

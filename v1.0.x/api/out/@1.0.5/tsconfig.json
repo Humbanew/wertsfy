@@ -1,0 +1,20 @@
+{
+
+  "compilerOptions": {
+
+    "module": "CommonJS",
+    "moduleDetection": "auto",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "strict": false,
+    "alwaysStrict": false,
+    "isolatedModules": false,
+    "rootDirs": ["./", "../"],
+    
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+  }
+
+}

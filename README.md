@@ -7,7 +7,7 @@
 <br><br>
 <div align="center"> 
 
-  ![wertsfy-icon](https://github.com/user-attachments/assets/ff5bfd34-3bfa-4f0c-a0e9-51abe5c2c7f7)
+  ![wertsfy-icon](https://github.com/user-attachments/assets/ac954f2e-439d-4b6e-a1c5-fa4f184dd252)
   
   ![Typescript](https://img.shields.io/badge/typescript-steelblue.svg?style=for-the-badge&logo=typescript&logoColor=111111)
   ![Javascript](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=111111)
@@ -226,7 +226,7 @@ Caso queria abrir uma discussão no repositório, entre [aqui](https://github.co
 
 <br><br>
 <div align="center">
-
-  ![humbanew_wertsfy_footer](https://github.com/user-attachments/assets/71dffd40-c814-40f2-b6a9-18699aac20ff)
+  
+  ![Humbanew Wertsfy Wiki Footer](https://github.com/user-attachments/assets/41ba7ecf-87a9-40f6-b907-bc1fba8e7674)
   
 </div>
